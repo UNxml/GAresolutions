@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/"></FRBRuri>
+          <FRBRdate date="2020-11-23" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/fra@/"></FRBRuri>
+          <FRBRdate date="2020-11-30" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/fra@.xml"></FRBRuri>
+          <FRBRdate date="2020-12-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-11-17" outcome="draftResolution" as="A/75/L.21" by="Algeria, Bahrain, Egypt, Iraq, Jordan, Kuwait, Lebanon, Mauritania, Oman, Qatar, Tunisia, Yemen and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Comoros, Djibouti, Libya, Morocco, Saudi Arabia, Somalia, Sudan and United Arab Emirates" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2020-11-23" outcome="adopted" as="A/75/PV.30" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sans renvoi à une grande commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-15847 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-11-30" class="rightSmall" refersTo="#dateOfIssuance">30 novembre 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Soixante-quinzième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Point 130 d) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Coopération entre l’Organisation des Nations Unies et les organisations régionales ou autres : coopération entre l’Organisation des Nations Unies et la Ligue des États arabes</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 23 novembre 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sans renvoi à une grande commission (<inline name="originating document">A/75/L.21 et A/75/L.21/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Coopération entre l’Organisation des Nations Unies et la Ligue des États arabes</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant " eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">Rappelant </span>ses résolutions antérieures sur la coopération entre l’Organisation des Nations Unies et la Ligue des États arabes,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant également</span> l’article 3 de la Charte de la Ligue des États arabes<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 70, n<sup>o</sup> 241.</p></authorialNote>, qui confie au Conseil de la Ligue la mission d’arrêter les moyens par lesquels cette dernière collaborera avec les organisations internationales pour assurer la paix et la sécurité internationales et pour systématiser et renforcer les relations dans tous les domaines,</p>
+      </container>
+      <container name="Tenant compte" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">Tenant compte</span> du rapport du Secrétaire général intitulé « Agenda pour la paix »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"><a href="https://undocs.org/fr/A/47/277">A/47/277-S/24111</a>.</p></authorialNote>, en particulier de la section VII qui a trait à la coopération avec les organismes régionaux, et du rapport du Secrétaire général intitulé « Supplément à l’Agenda pour la paix »<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"><a href="https://undocs.org/fr/A/50/60">A/50/60-S/1995/1</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Considérant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">Considérant</span> les recommandations issues de la réunion de haut niveau que le Secrétaire général a tenue avec les chefs des organismes régionaux et sous-régionaux à New York les 12 et 13 juin 2018,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">Rappelant</span> la déclaration du Président du Conseil de sécurité publiée à l’issue de la réunion de haut niveau du Conseil sur la coopération entre le Conseil de sécurité et la Ligue des États arabes, tenue sous la présidence du Koweït le 13 juin 2019<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"><a href="https://undocs.org/fr/S/PRST/2019/5">S/PRST/2019/5</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Prenant en considération" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">Prenant en considération</span> les dispositions du protocole portant amendement au texte de l’accord de coopération entre l’Organisation des Nations Unies et la Ligue des États arabes signé en septembre 2016, qui prescrivent de renforcer la coopération entre les deux organisations dans de nouveaux domaines, notamment le règlement et la prévention des conflits, en plus de la consolidation de la paix,</p>
+      </container>
+      <container name="Estimant" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">Estimant</span> qu’il faut renforcer davantage la coopération entre l’Organisation des Nations Unies et la Ligue des États arabes en vue d’atteindre les buts et objectifs communs aux deux organisations,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">Accueillant avec satisfaction</span> les résolutions et recommandations issues de la quatorzième réunion sectorielle entre l’Organisation des Nations Unies et la Ligue des États arabes et leurs organismes spécialisés, qui a été organisée au siège de la Ligue les 12 et 13 janvier 2020 sur le thème de la coopération pour l’élimination de la pauvreté multidimensionnelle dans les États arabes et au cours de laquelle plusieurs questions ont été examinées, notamment les difficultés en matière de développement liées à la pauvreté multidimensionnelle, le rôle des organismes spécialisés dans l’élimination de la pauvreté et les problèmes entravant l’action concertée dans la région arabe,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>	1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">
+            <span class="italic">Demande </span>au Secrétariat de l’Organisation des Nations Unies et au secrétariat de la Ligue des États arabes d’assurer le suivi de l’application des recommandations et résolutions issues de la quatorzième réunion sectorielle afin d’aider les États arabes à éliminer la pauvreté croissante causée par la pandémie de maladie à coronavirus 2019 (COVID‑19) dans la région ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>	2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">
+            <span class="italic">Engage</span> les deux secrétariats à redoubler d’efforts pour renforcer la coopération entre les deux organisations dans les domaines politique, économique, social et culturel et sur le plan de la sécurité, ainsi que dans d’autres domaines d’intérêt commun, et demande au Secrétariat de l’Organisation des Nations Unies de développer et de renforcer les capacités du personnel des organes de la Ligue des États arabes qui s’occupe de la pérennisation de la paix, de la prévention des conflits, de l’alerte rapide, de la médiation, de la négociation, des processus de rétablissement, de maintien et de consolidation de la paix, et de l’évaluation et du renforcement des capacités nationales après un conflit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>	3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">
+            <span class="italic">Souligne</span> qu’il importe que les deux secrétariats poursuivent leurs consultations périodiques à tous les niveaux, afin d’échanger des informations et d’examiner et de renforcer les mécanismes de coordination et de suivi, en particulier dans le domaine politique et sur le plan de la sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>	4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">
+            <span class="italic">Souligne également</span> qu’il est essentiel de renforcer la coordination entre la Ligue des États arabes et les deux envoyés spéciaux des Nations Unies chargés de traiter les crises en cours dans la région arabe, afin d’aider les deux organisations à mieux appréhender ces crises et à y apporter des solutions efficaces ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>	5.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">
+            <span class="italic">Demande</span> aux deux secrétariats d’organiser la quinzième réunion de coopération générale entre les deux organisations, qui a été reportée en raison de la pandémie de COVID‑19, à l’Office des Nations Unies à Genève à la fin de 2021 ou au début de 2022 au plus tard, et d’organiser la quinzième réunion sectorielle entre les deux organisations et leurs organismes spécialisés au siège de la Ligue des États arabes à la fin de 2021 au plus tard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>	6.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">
+            <span class="italic">Demande </span>aux organismes, programmes et institutions spécialisées des Nations Unies de poursuivre leurs échanges et leur collaboration avec leurs homologues parmi les organismes et institutions de la Ligue des États arabes, et d’améliorer les mécanismes de consultation en vue de l’exécution des projets et programmes convenus ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>	7.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <span class="italic">Demande également</span> aux organismes, programmes et institutions spécialisées des Nations Unies de faire part au Secrétaire général, au plus tard en janvier 2022, des progrès réalisés dans leur coopération avec les organismes de la Ligue des États arabes, et en particulier dans l’exécution des décisions et programmes multilatéraux adoptés à la réunion de coopération générale entre les deux organisations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>	8.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <span class="italic">Prie </span>le Secrétaire général de lui présenter, à sa soixante-dix-septième session, un rapport sur l’application de la présente résolution ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>	9.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">
+            <span class="italic">Décide </span>d’inscrire à l’ordre du jour provisoire de sa soixante-dix-septième session, au titre de la question intitulée « Coopération entre l’Organisation des Nations Unies et les organisations régionales ou autres », la question subsidiaire intitulée « Coopération entre l’Organisation des Nations Unies et la Ligue des États arabes ».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="30e">30e séance plénière</inline>
+        <eol />
+        <docDate date="2020-11-23" refersTo="#adoptionDate">23 novembre 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
