@@ -1,0 +1,223 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/"></FRBRuri>
+          <FRBRdate date="2020-11-23" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/ara@/"></FRBRuri>
+          <FRBRdate date="2020-11-30" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/ara@.xml"></FRBRuri>
+          <FRBRdate date="2020-12-22" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="13" href="http://metadata.un.org/sdg/13" showAs="sdg_13" dictionary="SDGO"></keyword>
+        <keyword value="climate_change" href="http://eurovoc.europa.eu/5482" showAs="climate_change" dictionary="EuroVoc"></keyword>
+        <keyword value="climate_change" href="http://metadata.un.org/thesaurus/1001030" showAs="climate_change" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-11-17" outcome="draftResolution" as="A/75/L.21" by="Algeria, Bahrain, Egypt, Iraq, Jordan, Kuwait, Lebanon, Mauritania, Oman, Qatar, Tunisia, Yemen and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Comoros, Djibouti, Libya, Morocco, Saudi Arabia, Somalia, Sudan and United Arab Emirates" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2020-11-23" outcome="adopted" as="A/75/PV.30" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="دون الإحالة إلى لجنة رئيسية"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-15847 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-11-30" class="rightSmall" refersTo="#dateOfIssuance">30 November 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">الدورة الخامسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 130 (د) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">التعاون بين الأمم المتحدة والمنظمات الإقليمية والمنظمات الأخرى: التعاون بين الأمم المتحدة وجامعة الدول العربية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 23 تشرين الثاني/نوفمبر 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[دون الإحالة إلى لجنة رئيسية (<inline name="originating document">A/75/L.21 و A/75/L.21/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">-	التعاون بين الأمم المتحدة وجامعة الدول العربية</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">إذ تشير</span> إلى قراراتها السابقة المتعلقة بالتعاون بين الأمم المتحدة وجامعة الدول العربية،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold italic">وإذ تشير أيضاً</span> إلى المادة 3 من ميثاق جامعة الدول العربية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 70, No. 241.</p></authorialNote><sup>)</sup>، التي يُعهد بموجبها إلى مجلس جامعة الدول العربية بمهمة تحديد وسائل تعاون الجامعة مع المنظمات الدولية لكفالة السلم والأمن الدوليين وتنظيم وتعزيز العلاقات في كافة المجالات،</p>
+      </container>
+      <container name="وإذ تأخذ في الاعتبار" eId="container_4">
+          <p xml:space="preserve">
+            <span class="bold italic">وإذ تأخذ في الاعتبار</span> تقرير الأمين العام المعنون ”خطة للسلام“<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/47/277">A/47/277-S/24111</a>.</p></authorialNote><sup>)</sup>، وخاصة الفرع السابع المتعلق بالتعاون مع المنظمات الإقليمية، وتقرير الأمين العام المعنون ”ملحق لخطة للسلام“<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/50/60">A/50/60-S/1995/1</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold italic">وإذ تضع في اعتبارها</span> توصيات الاجتماع الرفيع المستوى الذي عقده الأمين العام مع رؤساء المنظمات الإقليمية ودون الإقليمية في نيويورك يومي 12 و 13 حزيران/يونيه 2018،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold italic">وإذ تشير</span> إلى بيان رئيس مجلس الأمن الصادر في اجتماع مجلس الأمن الرفيع المستوى بشأن التعاون بين مجلس الأمن وجامعة الدول العربية، برئاسة دولة الكويت في 13 حزيران/يونيه 2019<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/S/PRST/2019/5">S/PRST/2019/5</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تأخذ في الاعتبار" eId="container_7">
+          <p xml:space="preserve">
+            <span class="bold italic">وإذ تأخذ في الاعتبار</span> أحكام البروتوكول المتعلق بتعديل نص اتفاق التعاون بين الأمم المتحدة وجامعة الدول العربية الموقّع في أيلول/سبتمبر 2016، التي تدعو إلى تعزيز سبل التعاون بين المنظمتين في مجالات جديدة، من ضمنها حل النزاعات ومنع نشوبها، إضافة إلى بناء السلام،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_8">
+          <p xml:space="preserve">
+            <span class="bold italic">وإذ تسلم</span> بضرورة زيادة تعزيز التعاون بين الأمم المتحدة وجامعة الدول العربية سعياً إلى تحقيق الأهداف والغايات المشتركة للمنظمتين،</p>
+      </container>
+      <container name="وإذ تثني" eId="container_9">
+          <p xml:space="preserve">
+            <span class="bold italic">وإذ تثني</span> على القرارات والتوصيات الصادرة عن الاجتماع الرابع عشر للتعاون القطاعي بين الأمم المتحدة وجامعة الدول العربية ووكالاتها المتخصصة الذي انعقد في مقر جامعة الدول العربية يومي 12 و 13 كانون الثاني/يناير 2020 في موضوع ”التعاون في القضاء على الفقر المتعدد الأبعاد في الدول العربية“، والذي نوقشت خلاله عدة مواضيع من بينها التحديات الإنمائية للفقر المتعدد الأبعاد، ودور الوكالات المتخصصة في مجال القضاء على الفقر والتحديات التي تعيق تضافر الجهود في المنطقة العربية،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <content eId="para_10__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">تطلب</span> إلى أمانتي الأمم المتحدة وجامعة الدول العربية متابعة تنفيذ القرارات والتوصيات الصادرة عن الاجتماع الرابع عشر للتعاون القطاعي لمساعدة الدول العربية في مجال القضاء على الفقر المتزايد نتيجة لتفشي جائحة فيروس كورونا (كوفيد-19) في المنطقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <content eId="para_11__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">تهيب</span> بالأمانتين إلى بذل مزيد من الجهود لتعزيز التعاون القائم بين المنظمتين على الصعيد السياسي والأمني والاقتصادي والاجتماعي والثقافي، وكذلك في المجالات الأخرى موضع الاهتمام المشترك، وتطلب إلى الأمانة العامة للأمم المتحدة تعزيز وبناء قدرات موظفي أجهزة جامعة الدول العربية التي تُعنى بالحفاظ على السلام، ومنع نشوب النزاعات، والإنذار المبكر، والوساطة، والتفاوض، وصنع السلام، وعمليات حفظ السلام وبناء السلام، وتقييم وبناء القدرات الوطنية في مرحلة ما بعد النـزاع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <content eId="para_12__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">تشدد</span> على أهمية أن تواصل الأمانتان مشاوراتهما الدورية على جميع المستويات لتبادل المعلومات واستعراض وتعزيز آليات التنسيق والمتابعة، لا سيما في المجالين السياسي والأمني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <content eId="para_13__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">تؤكد </span>على محورية وأهمية تكثيف التنسيق بين جامعة الدول العربية والمبعوثين الخاصين للأمم المتحدة للتعامل مع الأزمات الحالية في المنطقة العربية، وذلك لمساعدة المنظمتين على التوصل إلى فهم أكثر شمولا لأزمات المنطقة وإيجاد حلول فعالة لها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <content eId="para_14__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">تطلب</span> إلى الأمانتين عقد الاجتماع العام الخامس عشر للتعاون بين المنظومتين، الذي أُرجئ بسبب تفشي جائحة كوفيد-19، في مكتب الأمم المتحدة في جنيف بحلول نهاية عام 2021 أو بداية عام 2022، وعقد الاجتماع الخامس عشر للتعاون القطاعي بين المنظمتين ووكالاتهما المتخصصة في مقر جامعة الدول العربية بحلول نهاية عام 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <content eId="para_15__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">تطلب</span> إلى وكالات الأمم المتحدة المتخصصة وبرامجها ومؤسساتها أن تواصل تفاعلها وتعاونها مع نظيراتها في منظمات ومؤسسات جامعة الدول العربية وتحسين آلياتها للتشاور من أجل تنفيذ المشاريع والبرامج المتفق عليها بين الجانبين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <content eId="para_16__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">تهيب</span> بوكالات الأمم المتحدة المتخصصة ومؤسساتها وبرامجها إلى إبلاغ الأمين العام، في موعد أقصاه كانون الثاني/يناير 2022، بالتقدم المحرز في تعاونها مع منظومة جامعة الدول العربية، لا سيما في تنفيذ القرارات والبرامج المتعددة الأطراف التي اعتمدها الاجتماع العام المعني بالتعاون بين المنظمتين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <content eId="para_17__content">
+          <p xml:space="preserve">	8 -<span class="bold italic">	تطلـب</span> إلى الأمين العام أن يقدِّم إلى الجمعية العامة في دورتها السابعة والسبعين تقريراً عن تنفيذ هذا القرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <content eId="para_18__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">تقرر</span> أن تُدرج في جدول الأعمال المؤقت لدورتها السابعة والسبعين البند الفرعي المعنون ”التعاون بين الأمم المتحدة وجامعة الدول العربية“ في إطار البند المعنون ”التعاون بين الأمم المتحدة والمنظمات الإقليمية والمنظمات الأخرى“.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="30">الجلسة العامة 30</inline>
+        <eol />
+        <docDate date="2020-11-23" refersTo="#adoptionDate">23 تشرين الثاني/نوفمبر 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
