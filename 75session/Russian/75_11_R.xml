@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/"></FRBRuri>
+          <FRBRdate date="2020-11-23" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/rus@/"></FRBRuri>
+          <FRBRdate date="2020-11-30" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-11-23/75-11/rus@.xml"></FRBRuri>
+          <FRBRdate date="2020-12-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-11-17" outcome="draftResolution" as="A/75/L.21" by="Algeria, Bahrain, Egypt, Iraq, Jordan, Kuwait, Lebanon, Mauritania, Oman, Qatar, Tunisia, Yemen and State of Palestine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Comoros, Djibouti, Libya, Morocco, Saudi Arabia, Somalia, Sudan and United Arab Emirates" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2020-11-23" outcome="adopted" as="A/75/PV.30" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="без передачи в главные комитеты"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-15847 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-11-30" class="rightSmall" refersTo="#dateOfIssuance">30 November 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Семьдесят пятая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 130 d) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Сотрудничество между Организацией Объединенных Наций и региональными и другими организациями: сотрудничество между Организацией Объединенных Наций и Лигой арабских государств</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 23 ноября 2020 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[без передачи в главные комитеты (<inline name="originating document">A/75/L.21 и A/75/L.21/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Сотрудничество между Организацией Объединенных Наций и Лигой арабских государств</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">ссылаясь</span> на свои предыдущие резолюции о сотрудничестве между Организацией Объединенных Наций и Лигой арабских государств,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">ссылаясь также</span> на статью 3 Устава Лиги арабских государств<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		United Nations,<span class="italic"> Treaty Series</span>, vol. 70, No. 241.</p></authorialNote>, в соответствии с которой на Совет Лиги арабских государств возлагается задача установления путей сотрудничества Лиги с международными организациями в целях гарантирования международного мира и безопасности и оформления и укрепления отношений во всех областях,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">принимая во внимание</span> доклад Генерального секретаря, озаглавленный «Повестка дня для мира»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"><a href="https://undocs.org/ru/A/47/277">A/47/277-S/24111</a>.</p></authorialNote>, в частности раздел VII, касающийся сотрудничества с региональными организациями, и доклад Генерального секретаря, озаглавленный «Дополнение к Повестке дня для мира»<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"><a href="https://undocs.org/ru/A/50/60">A/50/60-S/1995/1</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="учитывая" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">учитывая</span> рекомендации совещания высокого уровня, проведенного Генеральным секретарем с главами региональных и субрегиональных организаций 12 и 13 июня 2018 года в Нью-Йорке, </p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">ссылаясь</span> на заявление Председателя Совета Безопасности, изданное на заседании высокого уровня Совета Безопасности по вопросу о сотрудничестве между Советом Безопасности и Лигой арабских государств, которое было проведено под председательством Кувейта 13 июня 2019 года<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"><a href="https://undocs.org/ru/S/PRST/2019/5">S/PRST/2019/5</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">принимая во внимание</span> положения протокола с поправками к тексту соглашения о сотрудничестве между Организацией Объединенных Наций и Лигой арабских государств, подписанного в сентябре 2016 года, и содержащийся в нем призыв к укреплению сотрудничества между этими двумя организациями в новых областях, включая урегулирование и предотвращение конфликтов, в дополнение к миростроительству, </p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">признавая</span> необходимость дальнейшего укрепления сотрудничества между Организацией Объединенных Наций и Лигой арабских государств с ориентацией на общие цели и задачи обеих организаций,</p>
+      </container>
+      <container name="высоко оценивая" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">высоко оценивая</span> резолюции и рекомендации четырнадцатого секторального совещания между Организацией Объединенных Наций и Лигой арабских государств и их специализированными учреждениями, которое было проведено 12 и 13 января 2020 года в штаб-квартире Лиги арабских государств по теме «Сотрудничество в деле ликвидации многомерной нищеты в арабских государствах» и в ходе которого обсуждался ряд вопросов, включая проблемы в области развития, связанные с многомерной нищетой, роль специализированных учреждений в ликвидации нищеты и сложности, затрудняющие согласованные усилия в регионе арабских государств,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">
+            <span class="italic">просит</span> секретариаты Организации Объединенных Наций и Лиги арабских государств принимать меры по осуществлению рекомендаций и резолюций четырнадцатого секторального совещания в целях оказания арабским государствам помощи в ликвидации нищеты, усиливающейся в результате вспышки пандемии коронавирусного заболевания (COVID-19) в этом регионе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">
+            <span class="italic">призывает</span> оба секретариата прилагать дальнейшие усилия для развития нынешнего сотрудничества между двумя организациями в политической, экономической, социальной и культурной областях, а также в сфере безопасности и других областях, представляющих взаимный интерес, и просит Секретариат Организации Объединенных Наций поддерживать и укреплять потенциал сотрудников органов Лиги арабских государств, занимающихся процессами сохранения мира, предотвращения конфликтов, раннего предупреждения, посредничества, переговоров, миротворчества, поддержания мира и миростроительства, а также оценкой и укреплением национального потенциала на постконфликтном этапе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">
+            <span class="italic">подчеркивает</span> важность дальнейшего проведения двумя секретариатами периодических консультаций на всех уровнях в целях обмена информацией и обзора и укрепления координации и механизмов последующей деятельности, особенно в политической сфере и сфере безопасности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">
+            <span class="italic">подчеркивает</span>, что исключительно важно и необходимо активизировать координацию усилий Лиги арабских государств и специальных посланников Организации Объединенных Наций по урегулированию нынешних кризисов в регионе арабских государств, с тем чтобы помочь двум организациям достичь более комплексного понимания этих кризисов и выработать эффективные решения для их преодоления; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">
+            <span class="italic">просит</span> оба секретариата провести пятнадцатое общее совещание по вопросам сотрудничества между двумя системами, которое было отложено из‑за начала пандемии COVID-19, к концу 2021 года или началу 2022 года в Отделении Организации Объединенных Наций в Женеве и пятнадцатое секторальное совещание между этими двумя организациями и их специализированными учреждениями — к концу 2021 года в штаб-квартире Лиги арабских государств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">
+            <span class="italic">просит</span> специализированные учреждения, программы и органы Организации Объединенных Наций продолжать взаимодействие и сотрудничество со своими партнерами из числа организаций и учреждений Лиги арабских государств и совершенствовать механизмы консультаций в целях осуществления согласованных обеими сторонами проектов и программ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <span class="italic">призывает</span> специализированные учреждения, органы и программы Организации Объединенных Наций не позднее января 2022 года информировать Генерального секретаря о прогрессе, достигнутом ими в сфере сотрудничества с Лигой арабских государств, в частности в деле осуществления многосторонних решений и программ, одобренных на общем совещании по вопросам сотрудничества между этими двумя организациями; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <span class="italic">просит</span> Генерального секретаря представить Генеральной Ассамблее на ее семьдесят седьмой сессии доклад об осуществлении настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">
+            <span class="italic">постановляет</span> включить в предварительную повестку дня своей семьдесят седьмой сессии в рамках пункта, озаглавленного «Сотрудничество между Организацией Объединенных Наций и региональными и другими организациями», подпункт, озаглавленный «Сотрудничество между Организацией Объединенных Наций и Лигой арабских государств».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="30-е">30-е пленарное заседание</inline>
+        <eol />
+        <docDate date="2020-11-23" refersTo="#adoptionDate">23 ноября 2020 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
