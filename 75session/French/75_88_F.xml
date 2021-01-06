@@ -1,0 +1,293 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-07/75-88/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-07/75-88/"></FRBRuri>
+          <FRBRdate date="2020-12-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-07/75-88/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-07/75-88/fra@/"></FRBRuri>
+          <FRBRdate date="2020-12-18" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-07/75-88/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-07/75-88/fra@.xml"></FRBRuri>
+          <FRBRdate date="2020-12-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-14" outcome="draftResolution" as="A/C.1/75/L.52" by="Hungary" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/406" by="" refersTo="7" />
+        <step date="2020-12-07" outcome="adopted" as="A/75/PV.37" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="firstCommittee" href="#firstCommittee" showAs="Première Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-16919 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/88</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-18" class="rightSmall" refersTo="#dateOfIssuance">18 décembre 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Soixante-quinzième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Point 110 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Convention sur l’interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 7 décembre 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#firstCommittee">[sur la base du rapport de la Première Commission (<inline name="originating document">A/75/406, par. 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/88.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Convention sur l’interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">Rappelant</span> ses résolutions antérieures sur l’interdiction complète et effective des armes bactériologiques (biologiques) ou à toxines et sur leur destruction,</p>
+      </container>
+      <container name="Notant " eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">Notant </span>que le nombre d’États ayant ratifié la Convention sur l’interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1015, n<sup>o</sup> 14860.</p></authorialNote> ou y ayant adhéré n’a pas augmenté, et soulignant par ailleurs qu’il reste nécessaire de parvenir à l’universalisation de la Convention,</p>
+      </container>
+      <container name="Invitant de nouveau" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">Invitant de nouveau</span> tous les États signataires qui n’ont pas encore ratifié la Convention à le faire sans délai et demandant aux États qui ne l’ont pas encore signée d’y devenir parties dès que possible pour contribuer à en faire un instrument universel et à en faciliter ainsi la réussite,</p>
+      </container>
+      <container name="Gardant à l’esprit" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">Gardant à l’esprit</span> qu’elle a invité tous les États parties à la Convention à participer à l’application des recommandations issues des conférences d’examen, notamment à l’échange d’informations et de données prévu dans la Déclaration finale de la troisième Conférence des Parties chargée de l’examen de la Convention sur l’interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction, modifiée par la suite par la Déclaration finale de la septième Conférence d’examen, et à communiquer chaque année ces informations et données à l’Unité d’appui à l’application de la Convention sur les armes biologiques du Bureau des affaires de désarmement du Secrétariat, selon la procédure normalisée, au plus tard le 15 avril,</p>
+      </container>
+      <container name="Se félicitant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">Se félicitant</span> que, dans les déclarations finales des quatrième, sixième, septième et huitième Conférences d’examen, il ait été réaffirmé que l’article premier de la Convention interdisait effectivement, en toutes circonstances, l’emploi, la mise au point, la fabrication et le stockage d’armes bactériologiques (biologiques) ou à toxines,</p>
+      </container>
+      <container name="Consciente " eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">Consciente </span>de l’importance de l’action menée par les États parties pour renforcer la coopération internationale et l’assistance et pour faciliter un échange aussi large que possible d’équipement, de matières et de renseignements scientifiques et techniques ayant un rapport avec l’emploi d’agents bactériologiques (biologiques) et de toxines à des fins pacifiques, consciente également des difficultés qui restent à surmonter pour améliorer la coopération internationale, et consciente en outre qu’il importe de renforcer les capacités par la coopération internationale ainsi que la coordination et la cohérence de l’action menée par toutes les organisations internationales concernées, comme le prévoit le Document final de la huitième Conférence d’examen<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"><a href="https://undocs.org/fr/BWC/CONF.VIII/4">BWC/CONF.VIII/4</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Réaffirmant " eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">Réaffirmant </span>qu’il importe que des mesures soient prises au niveau national, dans le respect des règles constitutionnelles, en vue d’améliorer l’application de la Convention par les États parties, comme le prévoit le Document final de la huitième Conférence d’examen,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">Réaffirmant également</span> qu’il importe de suivre les progrès des sciences et des techniques présentant un intérêt pour la Convention,</p>
+      </container>
+      <container name="Encourageant" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">Encourageant</span> la participation équitable des femmes et des hommes dans le cadre de la Convention,</p>
+      </container>
+      <container name="Rappelant " eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">Rappelant </span>les processus intersessions qui ont été précédemment menés au titre de la Convention,</p>
+      </container>
+      <container name="Notant" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">Notant</span> que, parmi les décisions et recommandations figurant dans le Document final de la huitième Conférence d’examen, il a été décidé que les États parties tiendraient des réunions annuelles, que la première commencerait le 4 décembre 2017 pour une durée maximale de cinq jours et qu’elle aurait pour objet de progresser sur les questions de fond et de procédure avant la Conférence d’examen suivante, afin de s’entendre sur un processus intersessions,</p>
+      </container>
+      <container name="&#x9;Rappelant " eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>qu’il a été décidé à la huitième Conférence d’examen que la neuvième Conférence d’examen se tiendrait à Genève au plus tard en 2021,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">
+            <span class="italic">Note </span>l’issue consensuelle de la huitième Conférence d’examen et les décisions prises à cette occasion sur toutes les dispositions de la Convention sur l’interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction, et invite les États parties à la Convention à participer activement à la poursuite de leur mise en œuvre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">
+            <span class="italic">Note avec satisfaction</span> que les États parties à la Convention réunis à Genève du 4 au 8 décembre 2017 sont convenus, de manière consensuelle, de réaffirmer les objectifs des précédents programmes intersessions en place de 2003 à 2015 et de maintenir la structure selon laquelle les réunions annuelles des États parties sont précédées par les réunions annuelles d’experts, et de rappeler que le programme intersessions a pour objet d’échanger et de promouvoir l’adoption de vues communes et de mesures effectives concernant les questions retenues, et que les travaux menés durant la période intersessions seront guidés par la volonté de renforcer l’application de tous les articles de la Convention de façon à mieux faire face aux défis actuels<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/BWC/MSP/2017/6">BWC/MSP/2017/6</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <span class="italic">Note également avec satisfaction</span> que, étant donné la nécessité de mesurer ses ambitions d’amélioration du programme intersessions compte tenu des contraintes − en termes de moyens financiers et de ressources humaines − auxquelles les États parties se heurtent, il a été décidé d’allouer 12 journées au programme intersessions pour les années 2018 à 2020, et que les réunions d’experts s’étaleraient sur huit journées consécutives et se tiendraient au moins trois mois avant la réunion annuelle des États parties qui, elle, durerait quatre jours, et qu’elles seraient à participation non limitée et examineraient les questions suivantes : coopération et assistance, l’accent étant mis sur le renforcement de la coopération et de l’assistance au titre de l’article X (deux jours) ; examen des nouveautés dans le domaine de la science et de la technologie présentant un intérêt pour la Convention (deux jours) ; renforcement de l’application nationale (un jour) ; assistance, intervention et préparation (deux jours) ; renforcement institutionnel de la Convention (un jour) ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <span class="italic">Accueille avec satisfaction </span>les informations et les données sur les mesures de confiance communiquées à ce jour par les États parties à la Convention, demande à tous les États parties de participer à l’échange d’informations et de données sur les mesures de confiance, conformément aux décisions issues des conférences d’examen, et les invite à se servir de la nouvelle plateforme pour communiquer les informations et les données par voie électronique, s’ils le souhaitent, le choix de la méthode employée pour les communiquer étant laissé à leur discrétion ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">
+            <span class="italic">Constate </span>qu’il a été décidé à la huitième Conférence d’examen de continuer d’améliorer la base de données mise en place par la septième Conférence d’examen et destinée à faciliter les demandes et les offres d’assistance et de coopération, et invite instamment les États parties qui le souhaitent à présenter à l’Unité d’appui à l’application leurs demandes et leurs offres de coopération et d’assistance, notamment celles qui portent sur l’équipement, les matières et les renseignements scientifiques et techniques ayant un rapport avec l’emploi d’agents biologiques et de toxines à des fins pacifiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourage</span> les États parties à rendre compte au moins deux fois par an des mesures qu’ils auront prises aux fins de l’application de l’article X de la Convention et à collaborer pour offrir aux États parties qui en font la demande, laquelle doit revêtir une forme précise, une assistance ou des activités de formation afin de les aider à se donner les moyens, législatifs et autres, de se conformer à la Convention ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">
+            <span class="italic">Note </span>qu’il a été décidé à la huitième Conférence d’examen de renouveler le programme de parrainage mis en place à la septième Conférence d’examen visant à faciliter et à renforcer la participation des États parties en développement aux réunions annuelles, se réjouit que les États parties restent déterminés à verser des contributions volontaires et invite ceux qui sont en mesure de le faire à verser des contributions volontaires pour financer le programme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">
+            <span class="italic">Note également </span>qu’il a été décidé à la huitième Conférence d’examen de renouveler le mandat de l’Unité d’appui à l’application tel qu’il a été convenu à la septième Conférence d’examen, <span class="italic">mutatis mutandis</span>, pour la période allant de 2017 à 2021 et prend note avec satisfaction du travail que l’Unité d’appui à l’application a accompli ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">
+            <span class="italic">Note avec satisfaction</span> que des rencontres ont été organisées par des États parties, des organisations régionales et le Bureau des affaires de désarmement du Secrétariat, afin de procéder à des échanges de vues sur la mise en œuvre de la Convention, et invite les États parties à continuer de participer à ces échanges et entretiens informels ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">
+            <span class="italic">Prie</span> le Secrétaire général de continuer de prêter l’assistance voulue aux gouvernements dépositaires de la Convention et de fournir les services nécessaires en vue de l’adoption et de l’application des décisions et recommandations issues des conférences d’examen ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">
+            <span class="italic">Rappelle</span> qu’à la réunion des États parties tenue à Genève en décembre 2018, il a été constaté que les difficultés financières concernant la Convention découlaient principalement du non-versement des contributions par certains États parties, des retards dans le versement des contributions par d’autres États parties et des besoins de financement de l’Organisation des Nations Unies au titre d’activités non financées par son budget ordinaire, et demande aux États parties d’envisager de toute urgence des moyens de surmonter ces graves difficultés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">
+            <span class="italic">Note</span> qu’à la réunion des États parties tenue à Genève en décembre 2019, les participants se sont félicités de l’amélioration de la situation financière en 2019, grâce aux mesures adoptées par la réunion des États parties en 2018, parmi lesquelles la mise en place d’un fonds de roulement, et ont souligné la nécessité de continuer à suivre la situation financière de la Convention et prié le Président de la réunion des États parties de 2020 de rendre compte, en étroite consultation avec les États parties, l’Unité d’appui à l’application, le Bureau des affaires de désarmement de l’Organisation des Nations Unies et l’Office des Nations Unies à Genève, de la situation financière générale de la Convention et de l’application des mesures approuvées en 2018, et d’évoquer, de manière transparente et en tenant compte des soldes créditeurs des États parties qui se sont acquittés de la totalité de leurs contributions, les autres mesures qui pourraient être prises pour que les contributions soient versées en temps voulu, aux fins de leur examen à la réunion des États parties de 2020<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/BWC/MSP/2019/7">BWC/MSP/2019/7</a>, par. 23.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourage </span>les participants à la réunion des États parties de 2021 à réfléchir aux modalités de la neuvième Conférence d’examen et de son comité préparatoire et à parvenir à un accord à ce sujet en tenant compte de la section VIII du rapport de la réunion des États parties de 2019<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid., par. 31 et 32.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">
+            <span class="italic">	Décide</span> d’inscrire à l’ordre du jour provisoire de sa soixante-seizième session la question intitulée « Convention sur l’interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction ».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="37e">37e séance plénière</inline>
+        <eol />
+        <docDate date="2020-12-07" refersTo="#adoptionDate">7 décembre 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
