@@ -1,0 +1,390 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/"></FRBRuri>
+          <FRBRdate date="2020-12-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/eng@/"></FRBRuri>
+          <FRBRdate date="2020-12-18" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/eng@.xml"></FRBRuri>
+          <FRBRdate date="2020-12-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-28" outcome="draftResolution" as="A/C.4/75/L.4" by="Australia, Belarus, Canada, Cyprus, Finland, Iraq, Malta and Peru" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Algeria, Argentina, Austria, Belgium, Bosnia and Herzegovina, Croatia, Czechia, France, Greece, Kazakhstan, Luxembourg, Malawi, Monaco, Montenegro, North Macedonia, Palau, Papua New Guinea, Poland, Portugal, Republic of Korea, Russian Federation, Singapore, Slovakia, Slovenia, Thailand and United Kingdom" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/409" by="" refersTo="8" />
+        <step date="2020-12-10" outcome="adopted" as="A/75/PV.41" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fourthCommittee" href="#fourthCommittee" showAs="Special Political and Decolonization Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-16922 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/91</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-18" class="rightSmall" refersTo="#dateOfIssuance">18 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Seventy-fifth session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Agenda item 50</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Effects of atomic radiation</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 10 December 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fourthCommittee">[on the report of the Special Political and Decolonization Committee (Fourth Committee) (<inline name="originating document">A/75/409, para. 8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/91.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Effects of atomic radiation</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">Recalling</span> its resolution <a href="https://undocs.org/en/A/RES/913(X)">913 (X)</a> of 3 December 1955, by which it established the United Nations Scientific Committee on the Effects of Atomic Radiation, and its subsequent resolutions on the subject, in which, inter alia, it requested the Scientific Committee to continue its work,</p>
+      </container>
+      <container name="Concerned" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">Concerned</span> about the potentially harmful effects on present and future generations resulting from the levels of radiation to which humankind and the environment are exposed,</p>
+      </container>
+      <container name="Conscious" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">Conscious</span> of the continuing need to examine and compile information about atomic and ionizing radiation and to analyse its effects on humankind and the environment, and conscious also of the increased volume, complexity and diversity of that information,</p>
+      </container>
+      <container name="Acknowledging" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">Acknowledging</span> the concerns about the radiological consequences of nuclear accidents,</p>
+      </container>
+      <container name="Reaffirming" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">Reaffirming</span> the desirability of the Scientific Committee continuing its work, and welcoming the increased commitment of States members of the Committee,</p>
+      </container>
+      <container name="Emphasizing" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">Emphasizing</span> the vital need for sufficient, assured and predictable funding, as well as efficient management, of the work of the secretariat of the Scientific Committee to arrange the annual sessions and coordinate the development of documents based on scientific reviews of the sources of ionizing radiation and its effects on human health and the environment,</p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing</span> the increasing importance of the scientific work of the Scientific Committee and the need to carry out unforeseen additional work, such as after the accident at the Fukushima Daiichi nuclear power station,</p>
+      </container>
+      <container name="Considering" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">Considering</span> that the high quality of the work and the scientific rigour of the Scientific Committee need to be maintained in the future,</p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing</span> the importance of disseminating the findings of the Scientific Committee, in particular to the public, and widely publicizing scientific knowledge about atomic radiation, and recalling in that context principle 10 of the Rio Declaration on Environment and Development,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve"><span class="italic">Report of the United Nations Conference on Environment and Development, Rio de Janeiro, 3–14 June 1992</span>, vol. I, <span class="italic">Resolutions Adopted by the Conference</span> (United Nations publication, Sales No. E.93.I.8 and corrigendum), resolution 1, annex I.</p></authorialNote></p>
+      </container>
+      <container name="Noting" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">Noting</span> the need for the resources of the Scientific Committee to be sufficient, assured and predictable, and recognizing the importance of voluntary contributions to the general trust fund established by the Executive Director of the United Nations Environment Programme to support the work of the Committee,</p>
+      </container>
+      <container name="Acknowledging" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">Acknowledging</span> the attendance of Algeria, Iran (Islamic Republic of), Norway and the United Arab Emirates as observers at the sixty-fifth and sixty-sixth sessions of the Scientific Committee and their planned attendance as observers at the sixty-seventh session,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">Bearing in mind</span> that the incorporation of new members will imply a proportional increase in operational costs for the Scientific Committee, including travel costs,</p>
+      </container>
+      <container name="Commending" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">Commending</span> the secretariat of the Scientific Committee for its ongoing efforts to ensure the sustainable and effective work of the Committee, and encouraging all States in a position to do so to provide support to the secretariat of the Committee,</p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">Recalling</span> the support expressed by the International Atomic Energy Agency and the World Health Organization for the Scientific Committee’s work in producing the most reliable and comprehensive sources of scientific information about the levels and effects of ionizing radiation, without which safety guidance and safety standards could not be developed and maintained and priorities for research in the areas of sources and effects of ionizing radiation could not be determined,</p>
+      </container>
+      <container name="Noting" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">Noting</span> the commitment made by the United Nations Environment Programme to addressing the developments that resulted in the request by the Scientific Committee during its sixty-fifth session for an investigation or inspection into the process to recruit the Scientific Secretary to ensure that the successful candidate was selected on the basis of scientific qualifications and credibility and that the process was aligned with Article 101, paragraph 3, of the Charter of the United Nations,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	See <span class="italic">Official Records of the General Assembly, Seventy-fifth Session, Supplement No. 46</span> (<a href="https://undocs.org/en/A/75/46">A/75/46</a>).</p></authorialNote></p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing</span> that sufficient staffing of the secretariat is essential to support the work of the Scientific Committee,</p>
+      </container>
+      <container name="Recognizing also" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing also</span> the challenges faced by the Scientific Committee in undertaking its important work throughout the coronavirus disease (COVID-19) pandemic,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">Commends</span> the United Nations Scientific Committee on the Effects of Atomic Radiation for the valuable contribution that it has been making since its inception to wider knowledge and understanding of the levels, effects and risks of exposure to ionizing radiation and for fulfilling its original mandate with scientific authority and independence of judgment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">
+            <span class="italic">Reaffirms</span> the decision to maintain the present functions and independent role of the Scientific Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">
+            <span class="italic">Re-emphasizes</span> the need for the Scientific Committee to hold regular sessions on an annual basis so that its report will be able to reflect the latest developments and findings in the field of ionizing radiation and thereby provide updated information for dissemination among all States;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">
+            <span class="italic">Commends</span> the Scientific Committee and secretariat for its efforts to fulfil its mandate throughout the COVID-19 pandemic, and notes the decision of the Bureau to postpone the sixty-seventh session from July 2020 to November 2020, as a consequence of the pandemic, in order to allow for the fullest participation possible under these difficult circumstances;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">
+            <span class="italic">Notes with appreciation</span> the work of the Scientific Committee, takes note of the note by the Chair of the Scientific Committee to the General Assembly on the activities of the Committee since its sixty-sixth session,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"><span class="italic">Official Records of the General Assembly, Seventy-fifth Session, Supplement No. 46</span> (<a href="https://undocs.org/en/A/75/46">A/75/46</a>).</p></authorialNote> and the report on the implementation of its long-term strategic directions,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-fourth Session, Supplement No. 46</span> (<a href="https://undocs.org/en/A/74/46">A/74/46</a>), chap. II, sect. C.</p></authorialNote> and encourages the Committee, over its coming sessions, to continue to work towards implementing strategies to support its long-term efforts to serve the scientific community, as well as wider audiences;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">
+            <span class="italic">Welcomes</span> the continuation of the ad hoc working group on effects and mechanisms and the ad hoc working group on sources and exposure to assist the Scientific Committee in developing its future programme of work on the effects of radiation exposure and the biological mechanisms by which they occur, as well as on global estimates of radiation sources and levels of exposure;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">
+            <span class="italic">Appreciates</span> the arrangements made by the Scientific Committee for activities to follow up on its 2013 evaluation of the levels and effects of radiation exposure due to the nuclear accident after the 2011 great east-Japan earthquake and tsunami, looks forward to the Committee’s evaluation of the implications of the information published since the 2013 report, and encourages the secretariat of the Committee to disseminate the findings of the Committee’s evaluation, in particular to the public;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">
+            <span class="italic">Notes</span> the three new evaluations, on second primary cancer after radiation therapy, on epidemiological studies of radiation and cancer and on public exposure due to ionizing radiation from natural and man-made sources;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">
+            <span class="italic">Looks forward</span> to the Scientific Committee’s evaluations of biological mechanisms relevant for the inference of cancer risk after low-dose radiation exposure, and the assessments of human exposures to medical ionizing radiation and occupational ionizing radiation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">
+            <span class="italic">Requests</span> the Scientific Committee to continue its work, including its important activities to increase knowledge of the levels, effects and risks of ionizing radiation from all sources, and to report thereon to the General Assembly at its seventy-sixth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">
+            <span class="italic">Supports</span> the Scientific Committee in continuing to conduct its programme of work of scientific review and assessment on behalf of the General Assembly, in particular its global survey of public radiation exposure, its assessments of second primary cancer after radiotherapy and its epidemiological studies of radiation and cancer, which are being conducted in close cooperation with other relevant organizations, and requests the Committee to submit plans for its ongoing and future programme of work to the Assembly at its seventy-sixth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">
+            <span class="italic">Welcomes</span> developments in streamlining procedures for publishing the reports of the Scientific Committee electronically on its official website and as sales publications, and calls upon the secretariat to continue both to monitor the timely publication of those reports and to strive to publish them within the same calendar year as their approval;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <span class="italic">Invites</span> the Scientific Committee to continue its consultations with scientists and experts from interested Member States in the process of preparing its future scientific reports, and requests the secretariat to continue to facilitate such consultations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">
+            <span class="italic">Welcomes</span>, in this context, the readiness of Member States to provide the Scientific Committee with relevant information on the levels and effects of ionizing radiation, and invites the Committee to analyse and give due consideration to such information, particularly in the light of its own findings;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <span class="italic">Recalls</span> the strategy of the Scientific Committee to improve data collection, encourages in this regard Member States, the organizations of the United Nations system and non-governmental organizations concerned to provide further relevant data about levels, effects and risks of radiation exposure from various sources, which would greatly help in the preparation of future reports of the Committee to the General Assembly, and encourages the International Atomic Energy Agency, the World Health Organization, the International Labour Organization and other relevant organizations to further collaborate with the secretariat on arrangements for the collection, analysis and dissemination of data on radiation exposures of patients, workers and the public;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <span class="italic">Welcomes</span> the use and ongoing development by the secretariat of an online platform for collecting data on the exposure of patients, workers and the public, and urges Member States to take part in the Scientific Committee’s global survey of public exposure and to nominate a national contact person to facilitate coordination of the collection and submission of data on the exposure of patients, workers and the public within the country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">
+            <span class="italic">Also welcomes</span> the Scientific Committee’s outreach strategy for the period 2020–2024, in particular the enhancement of the website of the Committee and the publication of information for the general public in all the official languages of the United Nations, continues to encourage that consideration be given to publishing the website in all of those languages, and notes that the dissemination of the Committee’s findings and further enhancements to the website would depend on the financial and human resources made available to the secretariat;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">
+            <span class="italic">Requests</span> the United Nations Environment Programme to continue, within existing resources, to service the Scientific Committee and to disseminate its findings to Member States, the scientific community and the public and to ensure that the administrative measures in place are appropriate, including clear roles and responsibilities of the various actors, so that the secretariat is able to adequately and efficiently service the Committee in a predictable and sustainable manner and effectively facilitate the use of the invaluable expertise offered to the Committee by its members in order that the Committee may discharge the responsibilities and mandate entrusted to it by the General Assembly;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">
+            <span class="italic">Urges</span> the United Nations Environment Programme to ensure that future recruitment processes are conducted in an efficient, effective, timely and transparent manner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">
+            <span class="italic">Recalls</span> the establishment of the post of Deputy Secretary in 2019, which replaced the previous post of Scientific Officer, allows for the deputization of the Deputy Secretary as Secretary as appropriate and assists in the avoidance of disruptions in staffing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">
+            <span class="italic">Notes</span> that the appointment of a Deputy Secretary is not yet finalized due to the ongoing impact of the COVID-19 pandemic, and urges the United Nations Environment Programme to finalize this process as soon as possible so as to avoid further disruption to the important work of the secretariat and the Scientific Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">
+            <span class="italic">Requests</span> the Secretary-General to strengthen support for the Scientific Committee within existing resources, particularly with regard to the increase of operational costs in the case of a further increase in membership, and to report to the General Assembly at its seventy-sixth session on these issues;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourages</span> Member States in a position to do so to make voluntary contributions to the general trust fund established by the Executive Director of the United Nations Environment Programme and also to make contributions in kind, in order to support the work of the Scientific Committee, and the dissemination of its findings, in a sustainable manner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">Recalls</span> the invitation to Algeria, Iran (Islamic Republic of), Norway and the United Arab Emirates to designate one scientist to attend the sixty-seventh session of the Scientific Committee as an observer,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	See resolution <a href="https://undocs.org/en/A/RES/74/81">74/81</a>.</p></authorialNote> and invites Algeria, Iran (Islamic Republic of), Norway and the United Arab Emirates to designate one scientist to attend the sixty-eighth session of the Scientific Committee as an observer, pursuant to paragraph 19 of General Assembly resolution <a href="https://undocs.org/en/A/RES/72/76">72/76</a> of 7 December 2017 and to the procedures referred to in paragraph 21 of Assembly resolution <a href="https://undocs.org/en/A/RES/73/261">73/261</a> of 22 December 2018;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	25.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">
+            <span class="italic">Also recalls</span> the procedure for the possible further increases in membership of the Scientific Committee as adopted in paragraph 21 of General Assembly resolution <a href="https://undocs.org/en/A/RES/73/261">73/261</a>, pursuant to paragraph 19 of Assembly resolution <a href="https://undocs.org/en/A/RES/66/70">66/70</a> of 9 December 2011;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>	26.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">
+            <span class="italic">Notes</span> that, due to the impact of the COVID-19 pandemic, the report on the sixty-seventh session of the Scientific Committee will be presented together with the report on the sixty-eighth session of the Scientific Committee at the seventy-sixth session of the General Assembly.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="41st">41st plenary meeting</inline>
+        <eol />
+        <docDate date="2020-12-10" refersTo="#adoptionDate">10 December 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
