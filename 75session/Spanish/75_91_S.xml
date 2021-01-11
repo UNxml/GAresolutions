@@ -1,0 +1,390 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/"></FRBRuri>
+          <FRBRdate date="2020-12-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/spa@/"></FRBRuri>
+          <FRBRdate date="2020-12-18" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-10/75-91/spa@.xml"></FRBRuri>
+          <FRBRdate date="2020-12-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-28" outcome="draftResolution" as="A/C.4/75/L.4" by="Australia, Belarus, Canada, Cyprus, Finland, Iraq, Malta and Peru" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Algeria, Argentina, Austria, Belgium, Bosnia and Herzegovina, Croatia, Czechia, France, Greece, Kazakhstan, Luxembourg, Malawi, Monaco, Montenegro, North Macedonia, Palau, Papua New Guinea, Poland, Portugal, Republic of Korea, Russian Federation, Singapore, Slovakia, Slovenia, Thailand and United Kingdom" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/409" by="" refersTo="8" />
+        <step date="2020-12-10" outcome="adopted" as="A/75/PV.41" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fourthCommittee" href="#fourthCommittee" showAs="La Comisión Política Especial y de Descolonización"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-16922 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/91</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-18" class="rightSmall" refersTo="#dateOfIssuance">18 de diciembre de 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Septuagésimo quinto período de sesiones</session>
+      </p>
+      <p>
+        <inline name="agenda item">Tema 50 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Efectos de las radiaciones atómicas</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 10 de diciembre de 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fourthCommittee">[sobre la base del Informe de la Comisión Política Especial y de Descolonización (Cuarta Comisión) (<inline name="originating document">A/75/409, párr. 8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/91.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Efectos de las radiaciones atómicas</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> su resolución <a href="https://undocs.org/es/A/RES/913(X)">913 (X)</a>, de 3 de diciembre de 1955, en la que estableció el Comité Científico de las Naciones Unidas para el Estudio de los Efectos de las Radiaciones Atómicas, y sus resoluciones posteriores sobre el tema, en las que, entre otras cosas, solicitó al Comité Científico que prosiguiera sus trabajos,</p>
+      </container>
+      <container name="Preocupada " eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Preocupada </span>por los efectos nocivos que pueden tener para las generaciones presentes y futuras los niveles de radiación a que están expuestos los seres humanos y el medio ambiente,</p>
+      </container>
+      <container name="Consciente" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente</span> de la necesidad de seguir examinando y reuniendo información sobre las radiaciones atómicas y la radiación ionizante y analizando sus efectos en los seres humanos y el medio ambiente, y consciente también del mayor volumen y la mayor complejidad y diversidad de esa información,</p>
+      </container>
+      <container name="Reconociendo " eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>las preocupaciones por las consecuencias radiológicas de los accidentes nucleares, </p>
+      </container>
+      <container name="Reafirmando" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando</span> la conveniencia de que el Comité Científico prosiga sus trabajos, y acogiendo con beneplácito el mayor compromiso de los Estados miembros del Comité,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> la necesidad vital de contar con una financiación suficiente, segura y previsible, así como con una gestión eficiente de la labor de la secretaría del Comité Científico para organizar los períodos de sesiones anuales y coordinar la elaboración de documentos basados en estudios científicos de las fuentes de radiación ionizante y sus efectos en la salud humana y el medio ambiente,</p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> la creciente importancia de la labor científica del Comité Científico y la necesidad de realizar labores adicionales imprevistas, como las que se llevaron a cabo después del accidente en la central nuclear de Fukushima Daiichi,</p>
+      </container>
+      <container name="Considerando " eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Considerando </span>que es necesario mantener en el futuro la alta calidad y el rigor científico de la labor del Comité Científico,</p>
+      </container>
+      <container name="Reconociendo " eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la importancia de difundir las conclusiones del Comité Científico, en particular al público, y divulgar ampliamente los conocimientos científicos sobre las radiaciones atómicas, y recordando en ese contexto el principio 10 de la Declaración de Río sobre el Medio Ambiente y el Desarrollo<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve"><span class="italic">Informe de la Conferencia de las Naciones Unidas sobre el Medio Ambiente y el Desarrollo, Río de Janeiro, 3 a 14 de junio de 1992</span>, vol. I,<span class="italic"> Resoluciones aprobadas por la Conferencia</span> (publicación de las Naciones Unidas, núm. de venta S.93.I.8 y corrección), resolución 1, anexo I.</p></authorialNote>,</p>
+      </container>
+      <container name="Haciendo notar" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Haciendo notar</span> la necesidad de que los recursos del Comité Científico sean suficientes, seguros y previsibles, y reconociendo la importancia de las contribuciones voluntarias al fondo fiduciario general establecido por la Dirección Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente a fin de prestar apoyo a la labor del Comité, </p>
+      </container>
+      <container name="Reconociendo " eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la asistencia de Argelia, los Emiratos Árabes Unidos, Irán (República Islámica del) y Noruega a los períodos de sesiones 65º y 66º del Comité Científico en calidad de observadores y que está prevista su asistencia en calidad de observadores al 67º período de sesiones, </p>
+      </container>
+      <container name="Teniendo presente " eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Teniendo presente </span>que la incorporación de nuevos miembros supondrá un aumento proporcional de los gastos operacionales del Comité Científico, incluidos los gastos de viaje, </p>
+      </container>
+      <container name="Encomiando " eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Encomiando </span>a la secretaría del Comité Científico por los esfuerzos que realiza para asegurar que la labor del Comité sea sostenible y eficaz, y alentando a todos los Estados que estén en condiciones de hacerlo a que presten apoyo a la secretaría del Comité, </p>
+      </container>
+      <container name="Recordando " eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>el apoyo expresado por el Organismo Internacional de Energía Atómica y la Organización Mundial de la Salud a la labor del Comité Científico en la producción de las fuentes de información científica más fiables y extensas sobre los niveles y los efectos de la radiación ionizante, sin la cual no sería posible preparar y mantener directrices y normas de seguridad ni se podrían determinar las prioridades de investigación en los ámbitos de las fuentes y los efectos de la radiación ionizante,</p>
+      </container>
+      <container name="Observando " eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>el compromiso del Programa de las Naciones Unidas para el Medio Ambiente de abordar los acontecimientos que dieron lugar a que el Comité Científico, durante su 65º período de sesiones, solicitara una investigación o inspección del proceso de contratación del Secretario Científico, a fin de garantizar que la selección del candidato se basara en sus cualificaciones científicas y su credibilidad y que el proceso cumpliera lo dispuesto en el Artículo 101, párrafo 3, de la Carta de las Naciones Unidas<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo quinto período de sesiones, suplemento núm. 46</span> (<a href="https://undocs.org/es/A/75/46">A/75/46</a>).</p></authorialNote>,</p>
+      </container>
+      <container name="Reconociendo" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que una dotación suficiente de personal de la secretaría es esencial para apoyar la labor del Comité Científico,</p>
+      </container>
+      <container name="Reconociendo también " eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo también </span>las dificultades a que se enfrenta el Comité Científico al realizar su importante labor durante la pandemia de enfermedad por coronavirus (COVID-19),</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">Encomia </span>al Comité Científico de las Naciones Unidas para el Estudio de los Efectos de las Radiaciones Atómicas por la valiosa contribución que ha hecho desde su creación al aumento de los conocimientos y la comprensión de los niveles, los efectos y los peligros de la exposición a la radiación ionizante, y por cumplir con competencia científica e independencia de criterio el mandato que se le confió inicialmente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">
+            <span class="italic">Reafirma </span>la decisión de que el Comité Científico mantenga sus actuales funciones y su independencia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">
+            <span class="italic">Pone de relieve una vez más </span>la necesidad de que el Comité Científico celebre períodos ordinarios de sesiones todos los años para que su informe pueda reflejar los últimos acontecimientos y conclusiones en el ámbito de la radiación ionizante y proporcionar así información actualizada a todos los Estados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">
+            <span class="italic">Encomia</span> al Comité Científico y su secretaría por los esfuerzos que han desplegado para cumplir su mandato durante la pandemia de COVID-19, y hace notar la decisión de la Mesa de aplazar el 67º período de sesiones de julio de 2020 a noviembre de 2020, como consecuencia de la pandemia, a fin de permitir la mayor participación posible en estas difíciles circunstancias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">
+            <span class="italic">Observa con aprecio</span> la labor del Comité Científico, toma nota de la nota de la Presidenta del Comité Científico a la Asamblea General sobre las actividades realizadas por el Comité desde su 66º período de sesiones<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"><span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo quinto período de sesiones, suplemento núm. 46</span> (<a href="https://undocs.org/es/A/75/46">A/75/46</a>). </p></authorialNote>, y del informe sobre la aplicación de sus directrices estratégicas de largo plazo<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"><span class="italic">Ibid.</span>, <span class="italic">septuagésimo cuarto período de sesiones, suplemento núm. 46</span> (<a href="https://undocs.org/es/A/74/46">A/74/46</a>), cap. II, secc. C.</p></authorialNote>, y alienta al Comité a que, en sus próximos períodos de sesiones, siga trabajando para aplicar estrategias que respalden los esfuerzos a largo plazo que realiza a favor de la comunidad científica y el público en general;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">
+            <span class="italic">Acoge con beneplácito </span>la continuación del grupo de trabajo especial sobre los efectos y los mecanismos y del grupo de trabajo especial sobre las fuentes y la exposición para ayudar al Comité Científico en la elaboración de su futuro programa de trabajo sobre los efectos de la radioexposición y los mecanismos biológicos por los que se producen, así como sobre las estimaciones mundiales de fuentes de radiación y niveles de exposición;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">
+            <span class="italic">Aprecia </span>que el Comité Científico haya previsto la realización de actividades para dar seguimiento a su evaluación de 2013 relativa a los niveles y efectos de la radioexposición debida al accidente nuclear tras el terremoto y el sunami de gran magnitud ocurridos en la zona oriental del Japón en 2011, espera con interés la evaluación del Comité de las consecuencias de la información publicada desde el informe de 2013, y alienta a la secretaría del Comité a que difunda las conclusiones de la evaluación del Comité, en particular entre el público;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">
+            <span class="italic">Hace notar </span>las tres nuevas evaluaciones, sobre los segundos cánceres primarios tras administrar radioterapia, sobre los estudios epidemiológicos de la radiación y el cáncer y sobre la exposición del público debida a la radiación ionizante procedente de fuentes naturales y artificiales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">
+            <span class="italic">Aguarda con interés</span> las evaluaciones realizadas por el Comité Científico de los mecanismos biológicos relevantes para inferir los riesgos de cáncer derivados de la exposición a la radiación a bajas dosis y de la exposición médica del ser humano a la radiación ionizante y la exposición ocupacional a la radiación ionizante;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">
+            <span class="italic">Solicita</span> al Comité Científico que prosiga sus trabajos, incluidas sus importantes actividades para aumentar los conocimientos acerca de los niveles, los efectos y los peligros de la radiación ionizante de todas las fuentes, y que la informe al respecto en su septuagésimo sexto período de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">
+            <span class="italic">Apoya</span> que el Comité Científico continúe realizando su programa de trabajo de examen y evaluación científicos en nombre de la Asamblea General, en particular su estudio mundial sobre la exposición a la radiación, sus evaluaciones de los segundos cánceres primarios tras administrar radioterapia y sus estudios epidemiológicos sobre la radiación y el cáncer, que se están llevando a cabo en estrecha cooperación con otras organizaciones competentes, y solicita al Comité que en el septuagésimo sexto período de sesiones le presente planes sobre su programa de trabajo en curso y futuro;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">
+            <span class="italic">Acoge con beneplácito</span> el avance de la labor de racionalización de los procedimientos para la publicación electrónica de los informes del Comité Científico en su sitio web oficial y como publicaciones para la venta, y exhorta a la secretaría a que siga vigilando la publicación oportuna de esos informes y procurando publicarlos en el mismo año civil de su aprobación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <span class="italic">Invita </span>al Comité Científico a que prosiga sus consultas con científicos y expertos de los Estados Miembros interesados en el proceso de preparación de los futuros informes científicos del Comité y solicita a la secretaría que siga facilitando dichas consultas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">
+            <span class="italic">Acoge con beneplácito</span>, en ese contexto, que los Estados Miembros estén dispuestos a proporcionar al Comité Científico información pertinente sobre los niveles y los efectos de la radiación ionizante e invita al Comité a que analice y examine debidamente esa información, en particular a la luz de sus propias conclusiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <span class="italic">Recuerda</span> la estrategia del Comité Científico para mejorar la reunión de datos, alienta a este respecto a los Estados Miembros, las organizaciones del sistema de las Naciones Unidas y las organizaciones no gubernamentales interesadas a que sigan proporcionando datos pertinentes sobre los niveles, los efectos y los peligros de la radioexposición procedente de diversas fuentes, lo que facilitaría sobremanera la preparación de los futuros informes que presente el Comité a la Asamblea General, y alienta al Organismo Internacional de Energía Atómica, a la Organización Mundial de la Salud, a la Organización Internacional del Trabajo y a otras organizaciones pertinentes a que sigan colaborando con la secretaría en relación con las disposiciones para la recopilación, el análisis y la difusión de datos sobre la radioexposición de los pacientes, los trabajadores y el público;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <span class="italic">Acoge con beneplácito</span> el uso y el continuo desarrollo por la secretaría de una plataforma en línea para la recopilación de datos sobre la exposición de los pacientes, los trabajadores y el público, e insta a los Estados Miembros a que participen en el estudio mundial del Comité Científico sobre la exposición del público y a que designen a una persona de contacto a nivel nacional para facilitar la coordinación de la recopilación y presentación de datos sobre la exposición de los pacientes, los trabajadores y el público en el país;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">
+            <span class="italic">Acoge con beneplácito también</span> la estrategia de divulgación del Comité Científico para el período 2020-2024, en particular la mejora del sitio web del Comité y la publicación de información para el público en general en todos los idiomas oficiales de las Naciones Unidas, sigue alentando a que se considere la posibilidad de publicar el sitio web en todos esos idiomas, y observa que la difusión de las conclusiones del Comité y las nuevas mejoras del sitio web dependerán de los recursos financieros y humanos de que disponga la secretaría;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">
+            <span class="italic">Solicita </span>al Programa de las Naciones Unidas para el Medio Ambiente que, dentro de los límites de los recursos existentes, siga prestando servicios al Comité Científico y dando a conocer sus conclusiones a los Estados Miembros, la comunidad científica y el público, y que vele por que las medidas administrativas adoptadas sean adecuadas y, en particular, definan claramente las funciones y responsabilidades de los diversos actores, a fin de que la secretaría pueda prestar servicios adecuados y eficientes al Comité de manera previsible y sostenible y facilitar eficazmente la utilización de los inestimables conocimientos especializados que los miembros proporcionan al Comité para que este pueda cumplir las responsabilidades y el mandato que le ha encomendado la Asamblea General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">
+            <span class="italic">Insta</span> al Programa de las Naciones Unidas para el Medio Ambiente a que vele por que los futuros procesos de contratación se lleven a cabo de manera eficiente, eficaz, oportuna y transparente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">
+            <span class="italic">Recuerda </span>el establecimiento del puesto de Secretario Adjunto en 2019, que sustituyó al puesto anterior de Oficial Científico y permite que el Secretario Adjunto actúe como Secretario, según proceda, y ayuda a evitar disrupciones en la plantilla;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">
+            <span class="italic">Observa </span>que el nombramiento de un Secretario Adjunto aún no está finalizado debido a las repercusiones que está teniendo la pandemia de COVID-19, e insta al Programa de las Naciones Unidas para el Medio Ambiente a que finalice este proceso lo antes posible, a fin de evitar más disrupciones en la importante labor de la secretaría y del Comité Científico;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">
+            <span class="italic">Solicita </span>al Secretario General que refuerce el apoyo prestado al Comité Científico, dentro de los límites de los recursos existentes, en particular en lo que respecta al aumento de los gastos operacionales si se incrementara nuevamente el número de miembros, y que informe sobre estas cuestiones a la Asamblea General en su septuagésimo sexto período de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">
+            <span class="italic">Alienta </span>a los Estados Miembros que estén en condiciones de hacerlo a que aporten contribuciones voluntarias al fondo fiduciario general establecido por la Dirección Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente y también a que hagan contribuciones en especie a fin de apoyar la labor del Comité Científico y la difusión de sus conclusiones de manera sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">Recuerda</span> la invitación a Argelia, los Emiratos Árabes Unidos, Irán (República Islámica del) y Noruega a que designaran a un científico para que asistiese al 67º período de sesiones del Comité Científico como observador<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/74/81">74/81</a>.</p></authorialNote>, e invita a Argelia, los Emiratos Árabes Unidos, Irán (República Islámica del) y Noruega a que designen a un científico para que asista al 68º período de sesiones del Comité Científico como observador, de conformidad con el párrafo 19 de la resolución <a href="https://undocs.org/es/A/RES/72/76">72/76</a> de la Asamblea General, de 7 de diciembre de 2017, y los procedimientos citados en el párrafo 21 de la resolución <a href="https://undocs.org/es/A/RES/73/261">73/261</a> de la Asamblea, de 22 de diciembre de 2018;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	25.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">
+            <span class="italic">Recuerda también</span> el procedimiento para los posibles nuevos aumentos del número de miembros del Comité Científico aprobado en el párrafo 21 de la resolución <a href="https://undocs.org/es/A/RES/73/261">73/261</a> de la Asamblea General, de conformidad con el párrafo 19 de la resolución <a href="https://undocs.org/es/A/RES/66/70">66/70</a> de la Asamblea, de 9 de diciembre de 2011;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>	26.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">
+            <span class="italic">Observa </span>que, debido a las repercusiones de la pandemia de COVID-19, el informe del 67º período de sesiones del Comité Científico se presentará junto con el informe del 68º período de sesiones del Comité Científico en el septuagésimo sexto período de sesiones de la Asamblea General.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="41ª">41ª sesión plenaria</inline>
+        <eol />
+        <docDate date="2020-12-10" refersTo="#adoptionDate">10 de diciembre de 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
