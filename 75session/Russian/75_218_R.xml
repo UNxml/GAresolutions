@@ -1,0 +1,383 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/"></FRBRuri>
+          <FRBRdate date="2020-12-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/rus@/"></FRBRuri>
+          <FRBRdate date="2020-12-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/rus@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-11-17" outcome="draftResolution" as="A/C.2/75/L.55" by="submitted by the Vice-Chair of the Committee" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/457/Add.5" by="" refersTo="7" />
+        <step date="2020-12-21" outcome="adopted" as="A/75/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="secondCommittee" href="#secondCommittee" showAs="Второй комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17656 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/218</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-29" class="rightSmall" refersTo="#dateOfIssuance">29 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Семьдесят пятая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 19 е) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Устойчивое развитие: осуществление Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 21 декабря 2020 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#secondCommittee">[по докладу Второго комитета (<inline name="originating document">A/75/457/Add.5, пункт 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/218.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Осуществление Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свою резолюцию <a href="https://undocs.org/ru/A/RES/74/220">74/220</a> от 19 декабря 2019 года, а также на другие резолюции, касающиеся осуществления Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1954, No. 33480.</p></authorialNote>,</p>
+      </container>
+      <container name="подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> свою резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года» от 25 сентября 2015 года, в которой она утвердила всеобъемлющий, рассчитанный на перспективу и предусматривающий учет интересов людей набор универсальных и ориентированных на преобразования целей и задач в области устойчивого развития, свое обязательство прилагать неустанные усилия для полного осуществления Повестки дня к 2030 году, признание ею того, что ликвидация нищеты во всех ее формах и проявлениях, включая крайнюю нищету, является важнейшей глобальной задачей и одним из необходимых условий устойчивого развития, и свою приверженность сбалансированному и комплексному обеспечению устойчивого развития во всех его трех — экономическом, социальном и экологическом — компонентах, а также закреплению результатов, достигнутых в реализации целей в области развития, сформулированных в Декларации тысячелетия, и завершению всего, что не удалось сделать за время, отведенное для их достижения,</p>
+      </container>
+      <container name="напоминая о том" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">напоминая о том</span>, что в Повестке дня на период до 2030 года международное сообщество обязалось вести борьбу с опустыниванием, восстановить деградировавшие земли и почвы, включая земли, затронутые опустыниванием, засухами и наводнениями, и стремиться к тому, чтобы к 2030 году достичь цели неухудшения состояния земель во всем мире, </p>
+      </container>
+      <container name="подтверждая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> свою резолюцию <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> от 27 июля 2015 года, касающуюся Аддис-Абебской программы действий третьей Международной конференции по финансированию развития, которая является неотъемлемой частью Повестки дня в области устойчивого развития на период до 2030 года, подкрепляет и дополняет ее, способствует переводу предусмотренных в ней задач в отношении средств осуществления в плоскость конкретных стратегий и мер и в которой вновь подтверждается твердая политическая приверженность решению задачи финансирования устойчивого развития и создания благоприятных условий для него на всех уровнях в духе глобального партнерства и солидарности,</p>
+      </container>
+      <container name="напоминая о том" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">напоминая о том</span>, что в своем решении 3/COP.14<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/ICCD/COP(14)/23/Add.1">ICCD/COP(14)/23/Add.1</a>.</p></authorialNote> Конференция Сторон Рамочной конвенции Организации Объединенных Наций об изменении климата предложила сторонам, взявшим на себя обязательство по достижению добровольных целевых показателей в отношении нейтрализации деградации земель, осуществлять меры по ускорению достижения ими результатов, в частности путем создания благоприятных условий для достижения нейтральных показателей деградации земель, включая ответственное управление земельными ресурсами и гарантии прав владения, участие заинтересованных сторон и расширение доступа мелких землевладельцев к консультативным и финансовым услугам, </p>
+      </container>
+      <container name="отмечая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что борьба с опустыниванием, деградацией земель и засухой, в том числе посредством рационального использования природных ресурсов, может способствовать устойчивому развитию для всех и сокращению потоков перемещенных лиц,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span> свою резолюцию <a href="https://undocs.org/ru/A/RES/62/195">62/195</a> от 19 декабря 2007 года, в которой она провозгласила десятилетие 2010–2020 годов Десятилетием Организации Объединенных Наций, посвященным пустыням и борьбе с опустыниванием, и свою резолюцию <a href="https://undocs.org/ru/A/RES/64/201">64/201</a> от 21 декабря 2009 года, в которой она поручила секретариату Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке, координировать проведение Десятилетия и предложила государствам — участникам Конвенции, наблюдателям и другим соответствующим заинтересованным сторонам проводить мероприятия в ознаменование Десятилетия,</p>
+      </container>
+      <container name="принимая также во внимание" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">принимая также во внимание</span> свою резолюцию <a href="https://undocs.org/ru/A/RES/73/284">73/284</a> от 1 марта 2019 года, в которой она провозгласила десятилетие 2021–2030 годов Десятилетием Организации Объединенных Наций по восстановлению экосистем,</p>
+      </container>
+      <container name="напоминая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о принятии рамочной стратегии Конвенции на 2018–2030 годы<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		ICCD/COP(13)/21/Add.1, решение 7/COP.13, приложение.</p></authorialNote>, включая новую стратегическую цель противодействия засухе,</p>
+      </container>
+      <container name="подтверждая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> Парижское соглашение<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Принято в контексте Рамочной конвенции Организации Объединенных Наций об изменении климата в документе <a href="https://undocs.org/ru/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, решение 1/CP.21.</p></authorialNote> и его раннее вступление в силу, обращаясь ко всем сторонам Соглашения с призывом выполнять все его положения и обращаясь к тем сторонам Рамочной конвенции Организации Объединенных Наций об изменении климата<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1771, No. 30822.</p></authorialNote>, которые еще не сделали этого, с призывом как можно скорее сдать на хранение соответственно документы о ратификации, принятии, одобрении или присоединении,</p>
+      </container>
+      <container name="учитывая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что изменение климата, нерациональные методы ведения сельского и лесного хозяйства и деградация земель относятся к числу главных и все более значимых факторов, обусловливающих утрату биоразнообразия и деградацию экосистем, и что сохранение, восстановление и неистощительное использование ресурсов биоразнообразия и экосистемные функции и услуги, в том числе посредством природоохранных мер, в значительной степени способствуют обеспечению неухудшения состояния земель, адаптации к изменению климата и смягчению его последствий, снижению риска бедствий и решению проблем продовольственной безопасности и питания,</p>
+      </container>
+      <container name="с обеспокоенностью отмечая " eId="container_13">
+        <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечая </span>результаты оценки, проведенной Межправительственной научно-политической платформой по биоразнообразию и экосистемным услугам в отношении ситуации с деградацией и восстановлением земель, и ее доклад о глобальной оценке биоразнообразия и экосистемных услуг, выводы, изложенные в специальном докладе Межправительственной группы экспертов по изменению климата по вопросам, касающимся изменения климата, опустынивания, деградации земель, устойчивого землепользования, продовольственной безопасности и выбросов парниковых газов в экосистемах суши, а также заключения, представленные в специальном докладе Группы, озаглавленном “Global Warming of 1.5°C” («Глобальное потепление на 1,5°C»),</p>
+      </container>
+      <container name="будучи глубоко обеспокоена" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоена</span> тем, что деградация земель продолжается, и тем, что воздействие опустынивания, деградации земель и засухи влечет за собой наиболее тяжелые последствия для людей, находящихся в уязвимом положении,</p>
+      </container>
+      <container name="с большой обеспокоенностью отмечая" eId="container_15">
+          <p xml:space="preserve">
+            <span class="italic">	с большой обеспокоенностью отмечая</span>, что пандемия коронавирусного заболевания (COVID-19) создает угрозу здоровью, безопасности и благосостоянию людей, а также серьезно нарушает жизнь общества и функционирование экономики и имеет катастрофические последствия для жизни людей и их возможностей в плане получения средств к существованию и что в наибольшей степени от пандемии страдают беднейшие и наиболее уязвимые слои населения, подтверждая стремление вернуться на путь, ведущий к достижению целей в области устойчивого развития, посредством разработки стратегий устойчивого и всеохватного восстановления для ускоренного осуществления Повестки дня на период до 2030 года в полном объеме и содействия снижению риска будущих потрясений и учитывая, что пандемия COVID-19 требует принятия ответных мер всеми странами мира на основе единства, солидарности и активизации многостороннего сотрудничества,</p>
+      </container>
+      <container name="учитывая" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	учитывая</span>, что борьба с опустыниванием, деградацией земель и засухой играет важнейшую роль в восстановлении по принципу «лучше, чем было» после пандемии COVID-19,</p>
+      </container>
+      <container name="ссылаясь" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на стратегический план Организации Объединенных Наций по лесам на 2017–2030 годы<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/71/285">71/285</a>.</p></authorialNote> и принимая во внимание, что леса являются источником важнейших экосистемных услуг, связанных, например, с получением древесины, продовольствия, топлива, фуража, недревесной продукции и крова над головой, а также способствуют сохранению почвенных и водных ресурсов и очищают воздух, что неистощительное использование лесов и древонасаждений за пределами лесных массивов имеет жизненно важное значение для комплексного осуществления Повестки дня на период до 2030 года и что леса предотвращают деградацию земель и опустынивание, а также снижают риск наводнений, эрозии почвы, оползней, лавин, засух, песчаных и пыльных бурь и других бедствий,</p>
+      </container>
+      <container name="вновь заявляя о своей признательности " eId="container_18">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя о своей признательности </span>правительству Индии, выступившему в качестве принимающей стороны четырнадцатой сессии Конференции сторон Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке, проведенной 2–13 сентября 2019 года в Нью-Дели,</p>
+      </container>
+      <container name="напоминая " eId="container_19">
+        <p xml:space="preserve">	<span class="italic">напоминая </span>о создании межправительственной рабочей группы по вопросу об эффективности политики и мер осуществления в контексте усилий по решению проблемы засухи в соответствии с Конвенцией, которой предстоит представить сторонам свои выводы и рекомендации для рассмотрения ими на пятнадцатой сессии Конференции сторон Конвенции;</p>
+      </container>
+      <container name="подтверждая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> важность руководящей роли правительств, партнерств с участием многих заинтересованных сторон и более широкого участия частного сектора для неистощительного использования, восстановления и реабилитации экосистем, ресурсов биоразнообразия и земель,</p>
+      </container>
+      <container name="подчеркивая " eId="container_21">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>важность участия в осуществлении Конвенции и ее рамочной стратегии на 2018–2030 годы многих заинтересованных сторон, действующих на местном, субнациональном, национальном и региональном уровне и представляющих все сегменты общества, включая при необходимости организации гражданского общества, местные органы власти и частный сектор,</p>
+      </container>
+      <container name="учитывая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> ценность знаний, образования, науки и новых технологий для устойчивого землепользования, в том числе с использованием, в частности, Добровольных руководящих принципов рационального использования почв Продовольственной и сельскохозяйственной организации Объединенных Наций, особо отмечая важность научного подхода к принятию решений и то, что в этой связи следует стремиться шире использовать научно-технические достижения для борьбы с опустыниванием, деградацией земель и засухой, и принимая во внимание осуществляемое в рамках Конвенции научно-политическое взаимодействие,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Генерального секретаря об осуществлении резолюции <a href="https://undocs.org/ru/A/RES/74/220">74/220</a>, касающейся осуществления Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/256">A/75/256</a>, разд. II.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением напоминает </span>об итоговых документах четырнадцатой сессии Конференции сторон Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке, и подчеркивает важность их эффективной реализации на практике;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением напоминает также</span> о Нью-Делийской декларации под названием «Инвестиции в земельные ресурсы и открытие возможностей»<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/ru/ICCD/COP(14)/23/Add.1">ICCD/COP(14)/23/Add.1</a>, решение 27/COP.14, приложение I.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> государствам-членам поддерживать усилия, направленные на достижение стратегических целей Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно рекомендует</span> сторонам Конвенции учитывать положения рамочной стратегии Конвенции на 2018–2030 годы и согласовывать с ними свои национальные стратегии, программы, планы и мероприятия, связанные с борьбой с опустыниванием, деградацией земель и засухой, и участвовать в осуществлении рамочной стратегии Конвенции, основываясь на Аддис-Абебской программе действий третьей Международной конференции по финансированию развития<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/313">69/313</a>, приложение.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что достижение нейтрального баланса деградации земель может стать фактором ускорения и средством интеграции процессов в контексте достижения целей в области устойчивого развития, а также катализатором для мобилизации средств на финансирование устойчивого развития и реализацию мер, принимаемых в связи с изменением климата в целях осуществления Конвенции, и в целом может способствовать достижению целей Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span> о необходимости борьбы с опустыниванием, восстановления деградировавших земель и почв, включая земли, пострадавшие от опустынивания, засух и наводнений, и стремления к достижению нейтрального баланса деградации земель во всем мире и с удовлетворением напоминает о программе по добровольному установлению целевых показателей неухудшения состояния земель в контексте Конвенции и проводимой секретариатом Конвенции и партнерами работе по оказанию сторонам Конвенции помощи в добровольном установлении целевых показателей и в этой связи вновь предлагает сторонам Конвенции, которые еще не сделали этого, присоединиться к этой программе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span>, что в более широком контексте природоохранной деятельности меры, направленные на обеспечение нейтрального баланса деградации земель, могут способствовать снижению содержания углерода в атмосфере и повышению устойчивости людей и экосистем к потрясениям, вызванным опустыниванием, деградацией земель и засухой и неблагоприятными последствиями изменения климата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">отмечает также</span>, что успех в борьбе с опустыниванием, деградацией земель и засухами зависит от использования новых и прорывных технологий и проведения конструктивной политики и применения позитивных подходов, а также от того, насколько эффективно осуществляется обмен передовым методами, и просит Генерального секретаря при необходимости продолжать включать в свои доклады, посвященные осуществлению настоящей резолюции, информацию о таких технологиях, конструктивной политике и передовых методах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что борьба с опустыниванием, деградацией земель и засухами и достижение нейтрального баланса деградации земель посредством, в частности, сохранения, неистощительного использования и восстановления земель, облесения и лесовосстановления, которые представляют собой один из путей ускорения хода достижения целей в области устойчивого развития, также будут способствовать, в частности, сохранению источников средств к существованию, предупреждению будущих пандемий и обеспечению готовности к ним и восстановлению по принципу «лучше, чем было» после пандемии COVID-19;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> структурам системы Организации Объединенных Наций при разработке и осуществлении своих программ и проектов учитывать, что достижение нейтрального баланса деградации земель может способствовать ускорению достижения целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> важность представления всеобъемлющих докладов, принятия последующих мер и проведения обзоров на соответственно глобальном, национальном и региональном уровне в целях отслеживания хода осуществления Конвенции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">вновь предлагает</span> сторонам Конвенции при необходимости принимать меры, призванные обеспечить, чтобы их компетентные учреждения учитывали факторы риска, связанные с засухой, информацию, касающуюся климата, и оценки последствий изменения климата в соответствующих процессах формирования политики и инициативах; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">вновь предлагает также</span> сторонам Конвенции всецело поддерживать усилия Исполнительного секретаря Конвенции по выполнению им своего мандата и по содействию осуществлению Конвенции; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> острую необходимость укрепления адаптационного потенциала, повышения жизнестойкости и уменьшения уязвимости в условиях изменения климата и перед лицом экстремальных погодных явлений и в этой связи настоятельно призывает государства-члены продолжать заниматься планированием мероприятий по адаптации к последствиям изменения климата и более активно сотрудничать в решении вопросов, касающихся снижения риска бедствий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>Коалиции Организации Объединенных Наций по борьбе с песчаными и пыльными бурями, которая была создана в ходе двадцать четвертого совещания старших должностных лиц в сентябре 2018 года, и другим соответствующим структурам Организации Объединенных Наций продолжать сотрудничать в целях оказания помощи пострадавшим странам — сторонам в разработке и осуществлении национальной и региональной политики в отношении песчаных и пыльных бурь;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">считает</span>, что достижение гендерного равенства и расширение прав и возможностей женщин и девочек остаются важнейшим условием эффективного осуществления Конвенции, включая ее рамочную стратегию на 2018–2030 годы, и достижения целей Повестки дня на период до 2030 года, подчеркивает важность того, чтобы стороны Конвенции и партнеры заботились об обеспечении равного участия женщин и мужчин в процессах планирования, принятия решений и осуществления на всех уровнях и настойчиво добивались достижения гендерного равенства и расширения прав и возможностей женщин и девочек с точки зрения их участия в разработке стратегий и реализации мероприятий, касающихся опустынивания, деградации земель и засух, и подчеркивает также важность реального достижения целей, обозначенных в четырех приоритетных тематических разделах плана действий по обеспечению гендерного равенства, принятого сторонами Конвенции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">вновь предлагает</span> секретариату и Глобальному механизму Конвенции продолжать сотрудничать и налаживать партнерские отношения с секретариатами других Рио‑де‑Жанейрских конвенций, Структурой Организации Объединенных Наций по вопросам гендерного равенства и расширения прав и возможностей женщин (Структура «ООН‑женщины»), другими структурами Организации Объединенных Наций, международными организациями и другими соответствующими организациями в целях изучения дальнейших путей повышения осведомленности, совершенствования Плана действий по обеспечению гендерного равенства и разработки дополнительных инструментов и руководящих принципов для использования сторонами в тематических областях Плана действий по обеспечению гендерного равенства и обеспечения осуществления Конвенции с учетом гендерных аспектов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">вновь предлагает</span> сторонам Конвенции юридически закрепить права женщин на равное пользование землей, на владение землей и на более широкий и равный доступ к земельным ресурсам и гарантиям землевладения, а также поощрять принятие учитывающих гендерные аспекты мер по борьбе с опустыниванием, деградацией земель и засухой и по достижению нейтрального баланса деградации земель с учетом индивидуальных особенностей стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> сторонам Конвенции при осуществлении мероприятий по борьбе с опустыниванием, деградацией земель и засухой придерживаться Добровольных руководящих принципов ответственного регулирования вопросов владения и пользования земельными, рыбными и лесными ресурсами в контексте национальной продовольственной безопасности<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Продовольственная и сельскохозяйственная организация Объединенных Наций, документ CL 144/9 (C 2013/20), приложение D.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> субъектам государственного и частного секторов продолжать вкладывать средства в разработку, адаптацию и более активное использование технологий и в разработку и осуществление благоприятствующих стратегий, методов и механизмов, которые необходимы для борьбы с опустыниванием, деградацией земель и засухой в разных регионах, и расширять обмен знаниями, в том числе традиционными знаниями с согласия носителей этих знаний, а также активизировать усилия по наращиванию потенциала и распространению технологий на взаимно согласованных условиях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> сторонам Конвенции продолжать содействовать предотвращению опустынивания, деградации земель и засух на основе комплексного ландшафтного подхода, в том числе на основе реабилитации и восстановления подвергшихся деградации земель и устойчивого землепользования;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> развитым странам, которые являются сторонами Конвенции, и другим заинтересованным сторонам активно поддерживать усилия развивающихся стран, которые являются сторонами Конвенции и которые стремятся внедрить практику устойчивого землепользования и добиться нейтрального баланса деградации земель во всем мире, посредством предоставления существенной финансовой помощи по всем каналам, облегчения доступа к необходимым технологиям на взаимно согласованных условиях и предоставления другой помощи, в том числе с помощью мер по созданию потенциала;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание</span> получаемые на глобальном, региональном и субрегиональном уровне выгоды от сотрудничества в результате обмена климатологической и метеорологической информацией и данными прогнозирования и систем раннего предупреждения, касающимися опустынивания, деградации земель и засухи, а также песчаных и пыльных бурь, и в этой связи также считает необходимым продолжать сотрудничество между сторонами Конвенции и соответствующими организациями в деле распространения такой информации, результатов прогнозирования и данных систем раннего предупреждения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>	25.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> всем соответствующим структурам системы Организации Объединенных Наций в рамках их соответствующих мандатов использовать возможности получения кумулятивной отдачи от осуществления Конвенции о биологическом разнообразии<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1760, No. 30619.</p></authorialNote>, Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке, и Рамочной конвенции Организации Объединенных Наций об изменении климата и других соответствующих многосторонних природоохранных соглашений, а также Повестки дня на период до 2030 года и в этой связи приветствует непрекращающиеся усилия секретариатов упомянутых конвенций по укреплению позитивного взаимодействия;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>	26.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> Председателю Генеральной Ассамблеи при поддержке Исполнительного секретаря Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке, организовать в ходе семьдесят пятой сессии Ассамблеи диалог на высоком уровне для оценки прогресса, достигнутого в борьбе с опустыниванием, деградацией земель и засухой, и для определения дальнейших действий в контексте Десятилетия Организации Объединенных Наций, посвященного пустыням и борьбе с опустыниванием, которое завершается в 2020 году;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>	27.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">с признательностью отмечает</span> финансовые взносы, внесенные государствами-членами и другими донорами в Фонд для достижения нейтрального баланса деградации земель, и предлагает государствам-членам и другим донорам продолжать делать взносы в счет Фонда для достижения нейтрального баланса деградации земель и Инициативы Конвенции по противодействию засухе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>	28.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> включить в расписание конференций и совещаний Организации Объединенных Наций на 2021 год и на последующие годы запланированные на эти годы сессии Конференции сторон Конвенции и всех ее вспомогательных органов и просит Генерального секретаря и впредь предусматривать в предлагаемых бюджетах по программам ассигнования на проведение этих сессий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>	29.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря представить Генеральной Ассамблее на ее семьдесят шестой сессии доклад об осуществлении настоящей резолюции и постановляет включить в предварительную повестку дня своей семьдесят шестой сессии в рамках пункта, озаглавленного «Устойчивое развитие», подпункт, озаглавленный «Осуществление Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="48-е">48-е пленарное заседание</inline>
+        <eol />
+        <docDate date="2020-12-21" refersTo="#adoptionDate">21 декабря 2020 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
