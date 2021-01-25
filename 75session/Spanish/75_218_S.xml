@@ -1,0 +1,382 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/"></FRBRuri>
+          <FRBRdate date="2020-12-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/spa@/"></FRBRuri>
+          <FRBRdate date="2020-12-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-21/75-218/spa@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-11-17" outcome="draftResolution" as="A/C.2/75/L.55" by="submitted by the Vice-Chair of the Committee" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/457/Add.5" by="" refersTo="7" />
+        <step date="2020-12-21" outcome="adopted" as="A/75/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="secondCommittee" href="#secondCommittee" showAs="Segunda Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17656 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/218</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-29" class="rightSmall" refersTo="#dateOfIssuance">29 de diciembre de 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Septuagésimo quinto período de sesiones</session>
+      </p>
+      <p>
+        <inline name="agenda item">Tema 19 e) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Desarrollo sostenible: aplicación de la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 21 de diciembre de 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#secondCommittee">[sobre la base del informe de la Segunda Comisión (<inline name="originating document">A/75/457/Add.5, párr. 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/218.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Aplicación de la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución <a href="https://undocs.org/es/A/RES/74/220">74/220</a>, de 19 de diciembre de 2019, y demás resoluciones relativas a la aplicación de la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1954, núm. 33480.</p></authorialNote>,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> su resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a>, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, en la que adoptó un amplio conjunto de Objetivos de Desarrollo Sostenible y metas universales y transformativos, de gran alcance y centrados en las personas, su compromiso de trabajar sin descanso a fin de conseguir la plena implementación de la Agenda a más tardar en 2030, su reconocimiento de que la erradicación de la pobreza en todas sus formas y dimensiones, incluida la pobreza extrema, es el mayor desafío a que se enfrenta el mundo y constituye un requisito indispensable para el desarrollo sostenible, y su compromiso de lograr el desarrollo sostenible en sus tres dimensiones —económica, social y ambiental— de forma equilibrada e integrada y de que se aprovecharán los logros de los Objetivos de Desarrollo del Milenio y se procurará abordar los asuntos pendientes,</p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> que, en la Agenda 2030, la comunidad internacional se comprometió a luchar contra la desertificación, rehabilitar las tierras y los suelos degradados, incluidas las tierras afectadas por la desertificación, la sequía y las inundaciones, y procurar lograr un mundo con efecto neutro en la degradación de las tierras para 2030,</p>
+      </container>
+      <container name="Reafirmando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> su resolución <a href="https://undocs.org/es/A/RES/69/313">69/313</a>, de 27 de julio de 2015, relativa a la Agenda de Acción de Addis Abeba de la Tercera Conferencia Internacional sobre la Financiación para el Desarrollo, que es parte integral de la Agenda 2030 para el Desarrollo Sostenible, le sirve de apoyo y complemento, ayuda a contextualizar las metas relativas a sus medios de implementación con políticas y medidas concretas y reafirma el resuelto compromiso político de hacer frente al problema de la financiación y de la creación de un entorno propicio a todos los niveles para el desarrollo sostenible, en un espíritu de alianza y solidaridad mundiales,</p>
+      </container>
+      <container name="Recordando" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> que en su decisión 3/COP.14<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/ICCD/COP(14)/23/Add.1">ICCD/COP(14)/23/Add.1</a>.</p></authorialNote> la Conferencia de las Partes en la Convención invitó a las partes que se habían comprometido a alcanzar objetivos voluntarios de neutralización de la degradación de las tierras a que tomaran medidas para acelerar el logro de esos objetivos mediante, entre otras cosas, el establecimiento de un entorno propicio a la neutralización de la degradación de las tierras, que incluyera la gobernanza responsable de la tierra y la seguridad de la tenencia, la colaboración de los interesados y la mejora del acceso de los pequeños agricultores a servicios de asesoramiento y financiación,</p>
+      </container>
+      <container name="Observando " eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Observando </span>que la lucha contra la desertificación, la degradación de las tierras y la sequía, en particular mediante la gestión sostenible de los recursos naturales, puede contribuir al desarrollo sostenible para todos y a reducir las corrientes de desplazamiento,</p>
+      </container>
+      <container name="Teniendo presentes" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Teniendo presentes</span> su resolución <a href="https://undocs.org/es/A/RES/62/195">62/195</a>, de 19 de diciembre de 2007, en que declaró el decenio 2010-2020 Decenio de las Naciones Unidas para los Desiertos y la Lucha contra la Desertificación, y su resolución <a href="https://undocs.org/es/A/RES/64/201">64/201</a>, de 21 de diciembre de 2009, en que designó coordinadora del Decenio a la secretaría de la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África, e invitó a los Estados partes en la Convención, los observadores y otras partes interesadas pertinentes a que organizaran actividades para celebrar el Decenio,</p>
+      </container>
+      <container name="Teniendo presente también" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Teniendo presente también</span> su resolución <a href="https://undocs.org/es/A/RES/73/284">73/284</a>, de 1 de marzo de 2019, en la que proclamó el período 2021-2030 Decenio de las Naciones Unidas sobre la Restauración de los Ecosistemas,</p>
+      </container>
+      <container name="Recordando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> la aprobación del Marco Estratégico 2018-2030 de la Convención<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/es/ICCD/COP(13)/21/Add.1">ICCD/COP(13)/21/Add.1</a>, decisión 7/COP.13, anexo.</p></authorialNote>, incluido un nuevo objetivo estratégico sobre la sequía,</p>
+      </container>
+      <container name="Reafirmando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> el Acuerdo de París<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Aprobado en virtud de la Convención Marco de las Naciones Unidas sobre el Cambio Climático como consta en el documento <a href="https://undocs.org/es/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decisión 1/CP.21.</p></authorialNote> y su pronta entrada en vigor, alentando a todas las partes a que lo apliquen plenamente, y alentando a las partes en la Convención Marco de las Naciones Unidas sobre el Cambio Climático<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1771, núm. 30822.</p></authorialNote> que aún no lo hayan hecho a que depositen sus instrumentos de ratificación, aceptación, aprobación o adhesión, según corresponda, lo antes posible,</p>
+      </container>
+      <container name="Reconociendo" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que el cambio climático, las prácticas agrícolas y forestales no sostenibles y la degradación de las tierras, entre otras cosas, son las causas principales y crecientes de la pérdida de diversidad biológica y la degradación de los ecosistemas, y que la conservación, la restauración y el uso sostenible de la diversidad biológica, y las funciones y los servicios de los ecosistemas, en particular mediante soluciones basadas en la naturaleza, contribuyen significativamente a la neutralización de la degradación de las tierras, la mitigación del cambio climático y la adaptación a ese fenómeno, la reducción del riesgo de desastres y la seguridad alimentaria y la nutrición,</p>
+      </container>
+      <container name="Observando con preocupación" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Observando con preocupación</span> las conclusiones de la evaluación sobre degradación y restauración de tierras realizada por la Plataforma Intergubernamental Científico-Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas y su informe titulado <span class="italic">Global Assessment Report on Biodiversity and Ecosystem Services</span>, las conclusiones del Grupo Intergubernamental de Expertos sobre el Cambio Climático que figuran en su informe especial relativo al cambio climático, la desertificación, la degradación de las tierras, la ordenación sostenible de las tierras, la seguridad alimentaria y los flujos de gases de efecto invernadero en los ecosistemas terrestres, así como las conclusiones que figuran en su informe especial titulado <span class="italic">Global Warming of 1.5ºC</span>,</p>
+      </container>
+      <container name="Profundamente preocupada" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Profundamente preocupada</span> por la continua tendencia a la degradación de la tierra y el hecho de que los efectos de la desertificación, la degradación de las tierras y la sequía afectan con más intensidad a las personas en situaciones vulnerables,</p>
+      </container>
+      <container name="Observando con gran preocupación" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Observando con gran preocupación</span> que la pandemia de enfermedad por coronavirus (COVID-19) representa una amenaza para la salud, la seguridad y el bienestar humanos, ha causado graves trastornos en las sociedades y las economías y ha tenido efectos devastadores en las vidas y los medios de subsistencia, y que los más pobres y los más vulnerables son los más afectados por ella, reafirmando la aspiración de volver a encaminar los esfuerzos para lograr los Objetivos de Desarrollo Sostenible concibiendo estrategias de recuperación sostenibles e inclusivas para acelerar el progreso hacia la plena implementación de la Agenda 2030 para el Desarrollo Sostenible y ayudar a reducir el riesgo de perturbaciones futuras, y reconociendo que la pandemia de COVID-19 exige una respuesta mundial basada en la unidad, la solidaridad y la cooperación multilateral renovada,</p>
+      </container>
+      <container name="Reconociendo" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que la lucha contra la desertificación, la degradación de las tierras y la sequía es importante en orden a reconstruir para mejorar después de la pandemia de COVID-19, </p>
+      </container>
+      <container name="Recordando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> el plan estratégico de las Naciones Unidas para los bosques 2017‑2030<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/71/285">71/285</a>.</p></authorialNote> y reconociendo que los bosques de todo tipo proporcionan servicios esenciales de los ecosistemas, como madera, alimentos, combustible, forraje, productos no madereros y cobijo, y contribuyen a la conservación del suelo y el agua y al aire puro, que la gestión sostenible de los bosques y los árboles fuera de los bosques es esencial para la implementación integrada de la Agenda 2030 para el Desarrollo Sostenible y que los bosques evitan la degradación de las tierras y la desertificación y reducen el riesgo de inundaciones, desprendimientos de tierra y avalanchas, sequías, tormentas de polvo y arena y otros desastres,</p>
+      </container>
+      <container name="Reiterando su aprecio" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Reiterando su aprecio</span> al Gobierno de la India por acoger el 14º período de sesiones de la Conferencia de las Partes en la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África, celebrado en Nueva Delhi del 2 al 13 de septiembre de 2019,</p>
+      </container>
+      <container name="Recordando" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> el establecimiento de un grupo de trabajo intergubernamental sobre las medidas de política y de aplicación efectivas para hacer frente a la sequía en el marco de la Convención, con miras a que presente sus conclusiones y recomendaciones a las partes para su examen en el 15º período de sesiones de la Conferencia de las Partes en la Convención,</p>
+      </container>
+      <container name="Reafirmando" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> la importancia del liderazgo gubernamental, las asociaciones entre múltiples interesados y la participación creciente del sector privado para la gestión sostenible, la restauración y la rehabilitación de los ecosistemas, la biodiversidad y las tierras,</p>
+      </container>
+      <container name="Destacando" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Destacando</span> la importancia de la participación de múltiples interesados en los planos local, nacional, subregional y regional y de todos los sectores de la sociedad, incluidas las organizaciones de la sociedad civil, los gobiernos locales y el sector privado, según proceda, en la aplicación de la Convención y su marco estratégico 2018-2030,</p>
+      </container>
+      <container name="Reconociendo" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> el valor del conocimiento, la educación, la ciencia y las nuevas tecnologías para la ordenación sostenible de las tierras, incluso haciendo uso de, entre otros instrumentos, las Directrices Voluntarias para la Gestión Sostenible de los Suelos de la Organización de las Naciones Unidas para la Alimentación y la Agricultura, destacando la importancia de la adopción de decisiones basadas en datos científicos, y que, por ende, deben promoverse más la ciencia y la tecnología para luchar contra la desertificación, la degradación de las tierras y la sequía, y reconociendo la labor de la interfaz científico-normativa de la Convención,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del informe del Secretario General sobre la aplicación de la resolución <a href="https://undocs.org/es/A/RES/74/220">74/220</a>, relativa a la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<a href="https://undocs.org/es/A/75/256">A/75/256</a>, secc. II.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda con aprecio</span> los resultados del 14º período de sesiones de la Conferencia de las Partes en la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África, y subraya la importancia de que se aplique de forma efectiva;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda con aprecio también</span> la Declaración de Nueva Delhi: Invertir en la Tierra y Generar Oportunidades<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/es/ICCD/COP(14)/23/Add.1">ICCD/COP(14)/23/Add.1</a>, decisión 27/COP.14, anexo I.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los Estados Miembros a que apoyen los esfuerzos para implementar los objetivos estratégicos de la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Alienta encarecidamente</span> a las partes en la Convención a que utilicen el marco estratégico 2018-2030 de la Convención en sus políticas, programas, planes y procesos nacionales relativos a la desertificación, la degradación de las tierras y la sequía y los armonicen con el marco, y a que apliquen el marco estratégico, teniendo en cuenta la Agenda de Acción de Addis Abeba de la Tercera Conferencia Internacional sobre la Financiación para el Desarrollo<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Resolución <a href="https://undocs.org/es/A/RES/69/313">69/313</a>, anexo.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que el logro de la neutralización de la degradación de las tierras podría acelerar e integrar la consecución de los Objetivos de Desarrollo Sostenible, actuaría como catalizador a fin de atraer financiación para el desarrollo sostenible y financiación climática para aplicar la Convención, y respondería a los objetivos generales de la Agenda 2030 para el Desarrollo Sostenible<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> la necesidad de luchar contra la desertificación, rehabilitar las tierras y los suelos degradados, incluidas las tierras afectadas por la desertificación, la sequía y las inundaciones, y procurar lograr un mundo con efecto neutro en la degradación de las tierras, y recuerda con aprecio el programa voluntario de la Convención de establecimiento de metas de neutralización de la degradación de las tierras y de la labor de la secretaría de la Convención y sus asociados para ayudar a las partes en la Convención a llevar a cabo actividades voluntarias de establecimiento de metas y, a este respecto, reitera su invitación a las partes en la Convención que aún no se hayan adherido al programa a que lo hagan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que las soluciones basadas en las tierras, como parte de las soluciones basadas en la naturaleza, constituyen opciones prometedoras que se deben evaluar y examinar en relación con el secuestro del carbono y el aumento de la resiliencia de los pueblos y los ecosistemas afectados por la desertificación, la degradación de las tierras y la sequía, así como por los efectos adversos del cambio climático;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> la importancia de aplicar tecnologías nuevas e innovadoras y políticas y enfoques propicios, así como intercambiar mejores prácticas, en la lucha contra la desertificación, la degradación de las tierras y la sequía, y solicita al Secretario General que en su informe sobre la aplicación de la presente resolución continúe indicando, según proceda, esas tecnologías, políticas propicias y mejores prácticas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Afirma</span> que la lucha contra la desertificación, la degradación de las tierras y la sequía y el logro de la neutralización de la degradación de las tierras mediante, entre otras cosas, la conservación, la gestión sostenible y la restauración de las tierras, la forestación y la reforestación, que han surgido como una vía para acelerar los progresos hacia el logro de los Objetivos de Desarrollo Sostenible, contribuirán también, entre otras cosas, a preservar medios de vida, prevenir futuras pandemias y prepararse para esa eventualidad y reconstruir para mejorar después de la pandemia de COVID-19;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a las entidades del sistema de las Naciones Unidas a que, al formular y ejecutar sus programas y proyectos, tengan en cuenta el papel de la neutralización de la degradación de las tierras como factor que podría acelerar el logro de los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Subraya</span> la importancia de las actividades de presentación de informes exhaustivos, seguimiento y examen a nivel mundial, nacional y regional, según proceda, a fin de dar seguimiento a los progresos en la aplicación de la Convención;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> la invitación a las partes en la Convención a que adopten medidas, según proceda, a fin de que sus instituciones pertinentes integren prácticas de gestión del riesgo de sequía, información sobre el clima y evaluaciones de los efectos del cambio climático en los procesos e iniciativas de formulación de políticas pertinentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Reitera su invitación</span> a las partes en la Convención a que presten al Secretario Ejecutivo de la Convención pleno apoyo en el desempeño de su mandato, así como en la promoción de la aplicación de la Convención; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Destaca</span> la necesidad urgente de mejorar la capacidad de adaptación, fortalecer la resiliencia y reducir la vulnerabilidad ante el cambio climático y los fenómenos meteorológicos extremos y, a este respecto, insta a los Estados Miembros a que sigan participando en los procesos de planificación de la adaptación y aumenten la cooperación en materia de reducción del riesgo de desastres;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a la Coalición de las Naciones Unidas para Luchar contra las Tormentas de Arena y Polvo, que se constituyó durante la 24ª reunión directiva del Grupo de Gestión Ambiental, celebrada en septiembre de 2018, y a otras entidades competentes de las Naciones Unidas a que prosigan su colaboración para ayudar a los países partes afectados en la elaboración y aplicación de políticas nacionales y regionales sobre las tormentas de arena y polvo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que la igualdad de género y el empoderamiento de las mujeres y las niñas siguen siendo una contribución fundamental para la aplicación eficaz de la Convención, incluido su Marco Estratégico 2018-2030, y para el logro de los Objetivos de la Agenda 2030 para el Desarrollo Sostenible, destaca la importancia de que las partes en la Convención y sus asociados procuren alcanzar la participación en pie de igualdad de las mujeres y los hombres en la planificación, la toma de decisiones y la aplicación en todos los niveles y sigan promoviendo la igualdad de género y el empoderamiento de todas las mujeres y las niñas en las políticas y actividades relativas a la desertificación, la degradación de las tierras y la sequía, y destaca también la importancia de la aplicación efectiva de las cuatro áreas temáticas del Plan de Acción para la Igualdad entre los Géneros adoptado por las partes en la Convención;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> su invitación a la secretaría y al Mecanismo Mundial de la Convención a seguir colaborando y estableciendo asociaciones de cooperación con las secretarías de las otras convenciones de Río, la Entidad de las Naciones Unidas para la Igualdad de Género y el Empoderamiento de las Mujeres (ONU-Mujeres), otras entidades de las Naciones Unidas, organizaciones internacionales y otras organizaciones pertinentes para explorar otras formas de reforzar la sensibilización, mejorar el Plan de Acción para la Igualdad entre los Géneros y elaborar nuevos instrumentos y directrices que las partes puedan utilizar en las esferas temáticas del Plan de Acción para la Igualdad entre los Géneros y la aplicación con perspectiva de género de la Convención;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> su invitación a las partes en la Convención a reconocer legalmente los derechos de las mujeres a la igualdad en el uso y la propiedad de la tierra y la mejora de la igualdad de acceso de las mujeres a la tierra y la seguridad de la tenencia de la tierra, así como la promoción de medidas con perspectiva de género para luchar contra la desertificación, la degradación de las tierras y la sequía y lograr la neutralización de la degradación de las tierras, teniendo en cuenta el contexto nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a las partes en la Convención a que sigan los principios de aplicación de las Directrices Voluntarias sobre la Gobernanza Responsable de la Tenencia de la Tierra, la Pesca y los Bosques en el Contexto de la Seguridad Alimentaria Nacional<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Organización de las Naciones Unidas para la Alimentación y la Agricultura, documento CL 144/9 (C 2013/20), apéndice D.</p></authorialNote> en la ejecución de las actividades de lucha contra la desertificación, la degradación de las tierras y la sequía;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los sectores público y privado a que continúen invirtiendo en el desarrollo, la adaptación y la actualización de la aplicación de tecnologías, políticas propicias, métodos y herramientas para combatir la desertificación, la degradación de las tierras y la sequía en distintas regiones, y a que impulsen el intercambio de conocimientos, incluidos los conocimientos tradicionales, con el consentimiento de quienes los poseen, el desarrollo de la capacidad y el intercambio de tecnologías en condiciones convenidas de mutuo acuerdo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a las partes en la Convención a que sigan promoviendo la prevención de la desertificación, la degradación de las tierras y la sequía con un enfoque paisajístico integrado, que incluya la rehabilitación y restauración de las tierras degradadas y la gestión sostenible de las tierras;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los países desarrollados que son partes en la Convención y a otras partes interesadas pertinentes a que apoyen activamente los esfuerzos que realizan los países en desarrollo que son partes en la Convención para promover prácticas de gestión sostenible de las tierras y procurar lograr un mundo con efecto neutro en la degradación de las tierras, proporcionando recursos financieros sustanciales, de todas las fuentes, acceso asistido a tecnología apropiada y otras formas de apoyo, en particular mediante medidas de desarrollo de la capacidad; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> los beneficios derivados de la cooperación mediante el intercambio de información sobre el clima y el tiempo y de los resultados de los sistemas de pronóstico y alerta temprana relacionados con la desertificación, la degradación de las tierras y la sequía, tomando en cuenta al mismo tiempo las tormentas de arena y polvo, a nivel mundial, regional y subregional y, en este sentido, reconoce asimismo la necesidad de que las partes en la Convención y las organizaciones competentes sigan cooperando en el intercambio de información conexa y de los resultados de los sistemas de pronóstico y alerta temprana conexos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>	25.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a todas las entidades pertinentes del sistema de las Naciones Unidas a que, en el ámbito de sus mandatos respectivos, aprovechen las oportunidades de utilizar las sinergias entre el Convenio sobre la Diversidad Biológica<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1760, núm. 30619.</p></authorialNote>, la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África, y la Convención Marco de las Naciones Unidas sobre el Cambio Climático y otros acuerdos ambientales multilaterales pertinentes, así como la Agenda 2030 para el Desarrollo Sostenible, y a este respecto acoge con beneplácito las iniciativas en curso para reforzar las sinergias entre las secretarías de los tratados mencionados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>	26.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a la Presidencia de la Asamblea General a que organice, con el apoyo del Secretario Ejecutivo de la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África, durante el septuagésimo quinto período de sesiones de la Asamblea, un diálogo de alto nivel para evaluar los avances en la lucha contra la desertificación, la degradación de las tierras y la sequía y para delinear la trayectoria futura, en vista de que el Decenio de las Naciones Unidas para los Desiertos y la Lucha contra la Desertificación llega a su fin en 2020;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>	27.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Observa con aprecio</span> las contribuciones financieras que han aportado los Estados Miembros y otros donantes al Fondo para la Neutralización de la Degradación de las Tierras e invita a los Estados Miembros y a otros donantes a que hagan más contribuciones a ese Fondo y a la iniciativa contra la sequía de la Convención;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>	28.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> incluir en el calendario de conferencias y reuniones de las Naciones Unidas para el año 2021 y años subsiguientes los períodos de sesiones de la Conferencia de las Partes en la Convención y cada uno de sus órganos subsidiarios, y solicita al Secretario General que continúe previendo fondos para esos períodos de sesiones en los proyectos de presupuesto por programas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>	29.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que en su septuagésimo sexto período de sesiones le presente un informe sobre la aplicación de la presente resolución, y decide incluir en el programa provisional de su septuagésimo sexto período de sesiones, bajo el tema titulado “Desarrollo sostenible”, el subtema titulado “Aplicación de la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África”.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="48a">48a sesión plenaria</inline>
+        <eol />
+        <docDate date="2020-12-21" refersTo="#adoptionDate">21 de diciembre de 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
