@@ -1,0 +1,290 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-180/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-180/"></FRBRuri>
+          <FRBRdate date="2020-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-180/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-180/spa@/"></FRBRuri>
+          <FRBRdate date="2020-12-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-180/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-180/spa@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-29" outcome="draftResolution" as="A/C.3/75/L.27" by="China, Cuba (on behalf of the States Members of the United Nations that are members of the Movement of Non-Aligned Countries) and Russian Federation" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="El Salvador, Palau and Uruguay" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/478/Add.2" by="" refersTo="89" />
+        <step date="2020-12-16" outcome="adopted" as="A/75/PV.46" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Tercera Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17321 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/180</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-28" class="rightSmall" refersTo="#dateOfIssuance">28 de diciembre de 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Septuagésimo quinto período de sesiones</session>
+      </p>
+      <p>
+        <inline name="agenda item">Tema 72 b) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promoción y protección de los derechos humanos: cuestiones de derechos humanos, incluidos otros medios de mejorar el goce efectivo de los derechos humanos y las libertades fundamentales</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 16 de diciembre de 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sobre la base del informe de la Tercera Comisión (<inline name="originating document">A/75/478/Add.2, párr. 89</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/180.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Fortalecimiento de la cooperación internacional en la esfera de los derechos humanos</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General,</span>
+        </p>
+      </formula>
+      <container name="Reafirmando su compromiso" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reafirmando su compromiso</span> de promover la cooperación internacional, enunciado en la Carta de las Naciones Unidas, concretamente en el Artículo 1, párrafo 3, así como en las disposiciones pertinentes de la Declaración y el Programa de Acción de Viena, aprobados por la Conferencia Mundial de Derechos Humanos el 25 de junio de 1993<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/CONF.157/24(PartI)">A/CONF.157/24 (Part I)</a>, cap. III. </p></authorialNote>, para fortalecer una cooperación genuina entre los Estados Miembros en la esfera de los derechos humanos,</p>
+      </container>
+      <container name="Recordando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a>, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, en la que aprobó un amplio conjunto de Objetivos de Desarrollo Sostenible universales y transformativos, de gran alcance y centrados en las personas,</p>
+      </container>
+      <container name="Recordando también" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> la Declaración del Milenio, que aprobó el 8 de septiembre de 2000<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/55/2">55/2</a>.</p></authorialNote>, su resolución <a href="https://undocs.org/es/A/RES/74/153">74/153</a>, de 18 de diciembre de 2019, la resolución <a href="https://undocs.org/es/A/HRC/RES/44/18">44/18</a> del Consejo de Derechos Humanos, de 17 de julio de 2020<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo quinto período de sesiones, suplemento núm. 53</span> (<a href="https://undocs.org/es/A/75/53">A/75/53</a>), cap. V, secc. A.</p></authorialNote>, y las resoluciones de la Comisión de Derechos Humanos relativas al fortalecimiento de la cooperación internacional en la esfera de los derechos humanos,</p>
+      </container>
+      <container name="Recordando además" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> la Conferencia Mundial contra el Racismo, la Discriminación Racial, la Xenofobia y las Formas Conexas de Intolerancia, celebrada en Durban (Sudáfrica) del 31 de agosto al 8 de septiembre de 2001, la Conferencia de Examen de Durban, celebrada en Ginebra del 20 al 24 de abril de 2009, y la declaración política de la reunión de alto nivel de la Asamblea General para celebrar el décimo aniversario de la aprobación de la Declaración y el Programa de Acción de Durban<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/66/3">66/3</a>.</p></authorialNote>, así como su contribución al fortalecimiento de la cooperación internacional en la esfera de los derechos humanos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que el fortalecimiento de la cooperación internacional en la esfera de los derechos humanos es esencial para conseguir plenamente los propósitos de las Naciones Unidas, incluidas la promoción y la protección efectivas de todos los derechos humanos,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> que la promoción y protección de los derechos humanos debe basarse en el principio de cooperación y diálogo genuino a fin de fortalecer la capacidad de los Estados Miembros para cumplir sus obligaciones en materia de derechos humanos en beneficio de todas las personas,</p>
+      </container>
+      <container name="Subrayando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Subrayando</span> que la cooperación no es solo una cuestión de relaciones de buena vecindad, coexistencia o reciprocidad, sino más bien una disposición a mirar más allá de los intereses comunes para promover el interés general,</p>
+      </container>
+      <container name="Destacando" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Destacando</span> la importancia de la cooperación internacional para mejorar las condiciones de vida de todas las personas en todos los países, en particular los países en desarrollo,</p>
+      </container>
+      <container name="Reafirmando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> que el diálogo entre religiones, culturas y civilizaciones en la esfera de los derechos humanos podría contribuir en gran medida a fortalecer la cooperación internacional en esa esfera,</p>
+      </container>
+      <container name="Reiterando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reiterando</span> la importante función que el diálogo genuino sobre los derechos humanos puede desempeñar en el fortalecimiento de la cooperación en la esfera de los derechos humanos en los planos bilateral, regional e internacional, </p>
+      </container>
+      <container name="Reconociendo " eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que el fortalecimiento de la cooperación internacional y del diálogo genuino contribuye al funcionamiento eficaz del sistema internacional de derechos humanos, </p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> que el diálogo sobre los derechos humanos debe ser constructivo y basarse en los principios de universalidad, indivisibilidad, objetividad, no selectividad, no politización, respeto mutuo e igualdad de trato, con el fin de facilitar la comprensión recíproca y el fortalecimiento de la cooperación constructiva, por ejemplo, mediante el desarrollo de la capacidad y la cooperación técnica entre los Estados, </p>
+      </container>
+      <container name="Poniendo de relieve también" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve también</span> la necesidad de seguir avanzando en la tarea de promover y fomentar el respeto de los derechos humanos y las libertades fundamentales por medios como la cooperación internacional,</p>
+      </container>
+      <container name="Subrayando" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Subrayando</span> que la comprensión mutua, el diálogo, la cooperación, la transparencia y el fomento de la confianza son elementos importantes de todas las actividades de promoción y protección de los derechos humanos,</p>
+      </container>
+      <container name="Recordando" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> que la Subcomisión de Promoción y Protección de los Derechos Humanos aprobó en su 52º período de sesiones la resolución 2000/22, de 18 de agosto de 2000, relativa a la promoción del diálogo sobre cuestiones de derechos humanos<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Véase <a href="https://undocs.org/es/E/CN.4/2001/2">E/CN.4/2001/2-E/CN.4/Sub.2/2000/46</a>, cap. II, secc. A.</p></authorialNote>, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que uno de los propósitos de las Naciones Unidas y responsabilidad de todos los Estados Miembros es promover, proteger y fomentar el respeto de los derechos humanos y las libertades fundamentales por medios como la cooperación internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que, además de la responsabilidad particular que cada Estado tiene respecto de su sociedad, incumbe a todos ellos la responsabilidad colectiva de defender los principios de la dignidad humana, la igualdad y la equidad en el plano mundial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que el diálogo entre culturas y civilizaciones facilita la promoción de una cultura de tolerancia y respeto de la diversidad, y acoge con beneplácito, a ese respecto, la celebración de conferencias y reuniones a nivel nacional, regional e internacional sobre el diálogo entre civilizaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma también</span> el deber de los Estados de cooperar entre sí, de conformidad con la Carta de las Naciones Unidas, para promover el respeto y la observancia universales de los derechos humanos y las libertades fundamentales de todos, lo que incluye la eliminación de todas las formas de discriminación racial y todas las formas de intolerancia religiosa; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a todas las instancias en el plano internacional a que establezcan un orden internacional basado en la inclusión, la justicia, la igualdad y la equidad, la dignidad humana, la comprensión mutua, y la promoción y el respeto de la diversidad cultural y los derechos humanos universales, y a que repudien todas las doctrinas de exclusión basadas en el racismo, la discriminación racial, la xenofobia y las formas conexas de intolerancia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> la importancia de fortalecer la cooperación internacional para promover y proteger los derechos humanos y alcanzar los objetivos de la lucha contra el racismo, la discriminación racial, la xenofobia y las formas conexas de intolerancia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Considera</span> que la cooperación internacional en la esfera de los derechos humanos, de conformidad con los propósitos y principios enunciados en la Carta de las Naciones Unidas y el derecho internacional, debería contribuir de forma eficaz y práctica a la urgente tarea de prevenir violaciones de los derechos humanos y las libertades fundamentales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que la promoción, la protección y la plena realización de todos los derechos humanos y las libertades fundamentales deberían regirse por los principios de universalidad, no selectividad, cooperación y diálogo genuino, objetividad y transparencia, de forma compatible con los propósitos y principios enunciados en la Carta;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> la importancia del examen periódico universal, en su calidad de mecanismo basado en la cooperación y el diálogo constructivo cuyo objetivo es, entre otras cosas, mejorar la situación de los derechos humanos sobre el terreno y promover el cumplimiento de las obligaciones y los compromisos asumidos por los Estados en materia de derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve también</span> la necesidad de que todos los interesados adopten un enfoque constructivo y de cooperación para resolver las cuestiones de derechos humanos en los foros internacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve además</span> el papel que desempeña la cooperación internacional en el apoyo a la labor nacional y el aumento de la capacidad de los Estados Miembros en la esfera de los derechos humanos, entre otras formas, mediante el fortalecimiento de la cooperación con mecanismos de derechos humanos, incluida la prestación de asistencia técnica, previa solicitud de los Estados interesados y de conformidad con las prioridades que ellos establezcan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a los Estados Miembros, los organismos especializados y las organizaciones intergubernamentales a que sigan manteniendo un diálogo constructivo y celebrando consultas para mejorar la comprensión y la promoción y protección de todos los derechos humanos y las libertades fundamentales, y alienta a las organizaciones no gubernamentales a que contribuyan activamente a esa labor;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados a que adopten las medidas necesarias para fortalecer la cooperación bilateral, regional e internacional destinada a hacer frente a los efectos perjudiciales que tienen para el pleno disfrute de los derechos humanos las crisis mundiales sucesivas y acumuladas, como las crisis financieras y económicas, las crisis alimentarias, el cambio climático y los desastres naturales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los Estados y a los mecanismos y procedimientos de derechos humanos de las Naciones Unidas pertinentes a que sigan prestando atención a la importancia de la cooperación y la comprensión mutuas y del diálogo para asegurar la promoción y protección de todos los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a todos los Estados Miembros y al sistema de las Naciones Unidas a que exploren y fomenten los elementos complementarios de la cooperación Norte‑Sur, Sur-Sur y triangular, con el objetivo de fortalecer la cooperación internacional en la esfera de los derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que, en colaboración con la Alta Comisionada de las Naciones Unidas para los Derechos Humanos, celebre consultas con los Estados y las organizaciones intergubernamentales y no gubernamentales sobre los medios de fortalecer la cooperación internacional y el diálogo genuino en los mecanismos de derechos humanos de las Naciones Unidas, incluido el Consejo de Derechos Humanos, y sobre los obstáculos y desafíos existentes y posibles propuestas para superarlos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir examinando la cuestión en su septuagésimo sexto período de sesiones.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="46a">46a sesión plenaria</inline>
+        <eol />
+        <docDate date="2020-12-16" refersTo="#adoptionDate">16 de diciembre de 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
