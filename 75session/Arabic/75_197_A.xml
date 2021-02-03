@@ -1,0 +1,314 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/"></FRBRuri>
+          <FRBRdate date="2020-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/ara@/"></FRBRuri>
+          <FRBRdate date="2020-12-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/ara@.xml"></FRBRuri>
+          <FRBRdate date="2021-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-13" outcome="draftResolution" as="A/C.3/75/L.11" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of African States)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Austria, France, Hungary, India, Italy, Pakistan and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/479" by="" refersTo="20" />
+        <step date="2020-12-16" outcome="adopted" as="A/75/PV.46" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="اللجنة الثالثة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17358 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/197</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-28" class="rightSmall" refersTo="#dateOfIssuance">28 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">الدورة الخامسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 111 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">منع الجريمة والعدالة الجنائية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 16 كانون الأول/ديسمبر 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[بناء على تقرير اللجنة الثالثة (<inline name="originating document">A/75/479، الفقرة 20</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/197.</docNumber>
+        <docTitle refersTo="#resolutionTitle">-	‎معهد الأمم المتحدة الأفريقي لمنع الجريمة ومعاملة المجرمين</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تشير</span> إلى قرارها <a href="https://undocs.org/ar/A/RES/73/188">73/188</a> المؤرخ 17 كانون الأول/ديسمبر 2018 وإلى جميع القرارات الأخرى ذات الصلة،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما</span> بتقرير الأمين العام<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/75/111">A/75/111</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تضع في اعتبارها</span> أن القصور في إجراءات منع الجريمة يفضي إلى صعوبات تواجهها آليات مكافحة الجريمة لاحقا، وإذ تضع في اعتبارها أيضا الضرورة الملحة لوضع استراتيجيات فعالة لمنع الجريمة في أفريقيا، وما لأجهزة إنفاذ القوانين والسلطة القضائية من أهمية على الصعيدين الإقليمي ودون الإقليمي،</p>
+      </container>
+      <container name="وإذ تدرك" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدرك</span> الأثر المدمر للاتجاهات الجديدة والأكثر دينامية للجريمة على الاقتصادات الوطنية للدول الأفريقية، ومنها ارتفاع معدلات الجريمة المنظمة العابرة للحدود الوطنية التي تشمل استخدام التكنولوجيا الرقمية لارتكاب جميع أنواع الجرائم الإلكترونية، وإذ تدرك أيضاً وجود ممارسات الاتجار غير المشروع بالممتلكات الثقافية والمخدرات والمعادن النفيسة وقرون وحيد القرن والعاج، والقرصنة وغسل الأموال، وأن الجريمة عقبة رئيسية تحول دون تحقيق تنمية متسقة ومستدامة في أفريقيا،</p>
+      </container>
+      <container name="وإذ يساورها بالغ القلق" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساورها بالغ القلق</span> إزاء الصلات المتزايدة، في بعض الحالات، بين بعض أشكال الجريمة المنظمة العابرة للحدود الوطنية والإرهاب، وإذ تسلّم بأن مكافحة الجريمة المنظمة العابرة للحدود الوطنية والإرهاب هي مسؤولية عامة ومشتركة، وأنه يتعين على إجراءات العدالة الجنائية أن تكون أكثر وعيا بالتكلفة واتساما بحسن التوقيت والسرعة ومراعاة لردود أفعال الجمهور حتى يقل إلى أدنى حد ممكن أو يزول أي ارتياب في حدوث تهاون،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على أن مكافحة الجريمة مسعى جماعي يهدف إلى مواجهة التحدي العالمي الذي تطرحه الجريمة المنظمة، وأن توظيف الموارد اللازمة في منع الجريمة أمر مهم لبلوغ ذلك الهدف وأنه يسهم في تحقيق التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ مع القلق</span> أن نظام العدالة الجنائية القائم في معظم البلدان الأفريقية ينقصه موظفون مهرة بما فيه الكفاية وهياكل أساسية وافية وأنه غير مهيأ تاليا للتصدي للاتجاهات الجديدة للجريمة، وإذ تقر بالتحديات التي تواجهها أفريقيا في عمليات التقاضي وإدارة السجون،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بأن معهد الأمم المتحدة الأفريقي لمنع الجريمة ومعاملة المجرمين مركز لتنسيق الجهود التي يبذلها ذوو الخبرة المهنية من أجل تعزيز تعاون الحكومات والأوساط الأكاديمية والمؤسسات والمنظمات العلمية والمهنية والخبراء وتآزرهم على نحو فعال في مجال منع الجريمة والعدالة الجنائية،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تضع في اعتبارها</span> خطة عمل الاتحاد الأفريقي بشأن مراقبة المخدرات ومنع الجريمة (2019-2023) التي تهدف إلى تشجيع الدول الأعضاء على المشاركة في المبادرات الإقليمية لمنع الجريمة بصورة فعالة وإرساء الحكم الرشيد وتعزيز إقامة العدل، وعلى تبني تلك المبادرات، </p>
+      </container>
+      <container name="وإذ تقر" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تقر</span> بأهمية تعزيز التنمية المستدامة باعتبارها عنصرا مكملا لاستراتيجيات منع الجريمة،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على ضرورة إقامة التحالفات اللازمة مع جميع الشركاء من أجل وضع سياسات فعالة لمنع الجريمة،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى إعداد دراسة تشخيصية تمهيدية على يد خبير استشاري تابع للجنة الاقتصادية لأفريقيا وإنجازها قبل الشروع في إجراء استعراض كامل على نطاق المنظومة، يشمل أهمية المعهد باعتباره آلية مجدية لتعزيز التعاون فيما بين الكيانات ذات الصلة في مجابهتها لمشكلة الجريمة في أفريقيا،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن القلق</span> من استمرار عدم تعيين مدير على رأس المعهد، وإذ تشير إلى الدور الهام الذي يقوم به شاغلو هذه المناصب الإدارية الرفيعة في كفالة السير العادي لعمل المعهد،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ مع القلق</span> أن الحالة المالية للمعهد أثرت إلى حد كبير في قدرته على تقديم الخدمات إلى الدول الأفريقية الأعضاء بطريقة فعالة وشاملة، وإذ تلاحظ أن الدراسة التشخيصية التمهيدية قد خلُصت، في أحد استنتاجاتها، إلى أن المعهد بحاجة ماسة إلى زيادة إيراداته،</p>
+      </container>
+      <container name="واعترافا" eId="container_16">
+          <p xml:space="preserve">	<span class="bold italic">واعترافا</span> منها بالجهود التي يبذلها مجلس إدارة المعهد باستمرار لتحفيز الدول الأعضاء في المعهد بهدف ضمان التزامها المالي تجاه المعهد وإعادة تأكيد هذا الالتزام عملا بالقرار الذي اتخذه المجلس في أديس أبابا في 18 شباط/فبراير 2020 من أجل معالجة التراجع في الدعم المالي المقدَّم لبرامج المعهد،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى تقرير الأمين العام<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/73/133">A/73/133</a>.</p></authorialNote><sup>)</sup> الذي يبين بالتفصيل أوجه القصور في التمويل التي قوضت بشدة قدرة المعهد على تلبية احتياجات المنطقة، وإذ تسلم بأن الجريمة تؤدي إلى إنفاق قدر كبير من الموارد،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تضع في اعتبارها</span> أن المعهد عنصر هام من عناصر شبكة الأمم المتحدة لمنع الجريمة والعدالة الجنائية، وأنه لن ينجح، من دون الموارد اللازمة، في تحقيق أهدافه الحيوية المتمثلة في مكافحة الاتجار بالمخدرات والجريمة الإلكترونية والجريمة البيئية، في جملة تحديات أخرى، وأهدافه الرامية إلى إصلاح أوجه القصور الحاسمة في نظام الملاحقة الجنائية في المنطقة وبناء تحالفات فعالة وقوية بين مسؤولي إنفاذ القانون والهيئات المهنية والمؤسسات الأكاديمية وفرادى المجتمعات المحلية والخبراء والسلطات التقليدية والمدنية بغية تطبيق نهج استباقي في منع الجريمة،</p>
+      </container>
+      <container name="وإذ تنوه" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تنوه</span> بالدول الأعضاء والمنظمات التي حافظت على التزامها بأداء واجباتها المالية،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <content eId="para_20__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">تثني</span> على معهد الأمم المتحدة الأفريقي لمنع الجريمة ومعاملة المجرمين لما يبذله من جهود من أجل تعزيز ما يضطلع به من أنشطة في إطار ولايته الأساسية، بما فيها أنشطة التعاون الإقليمي في المسائل التقنية المتصلة بنظم منع الجريمة والعدالة الجنائية في أفريقيا، وتنسيق تلك الأنشطة وتنفيذ المزيد منها، رغم ما يواجهه من نقص في الموارد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <content eId="para_21__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">تشير</span> إلى قرار مجلس إدارة المعهد اعتمادَ الخطة الاستراتيجية للفترة 2017-2021 بهدف التصدي للجريمة بطريقة متكاملة من خلال تعزيز القدرات الوطنية في مجال منع الجريمة والعدالة الجنائية، وتهيب بالدول الأعضاء، ومن بينها الدول الأعضاء في المعهد، وبجميع كيانات الأمم المتحدة والمنظمات غير الحكومية ذات الصلة تقديمَ الدعم اللازم من أجل تنفيذ الخطة الاستراتيجية تنفيذا كاملا؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <content eId="para_22__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">تنوه </span>بالتقدم الذي أحرزته الدول الأفريقية صوب تنفيذ خطة عمل الاتحاد الأفريقي بشأن مراقبة المخدرات ومنع الجريمة (2019-2023) وآلية تنفيذها ومتابعتها وتقييمها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <content eId="para_23__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">تشجع</span> الدول الأعضاء على التوعية بعمل المعهد وبأهمية عمله للنجاح في تنفيذ خطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <content eId="para_24__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">تعيد تأكيد</span> الحاجة إلى مواصلة تعزيز قدرة المعهد على دعم الآليات الوطنية لمنع الجريمة والعدالة الجنائية في البلدان الأفريقية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <content eId="para_25__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">تعيد أيضا تأكيد</span> الفوائد التي تنجم، في بعض الحالات، عن استخدام تدابير تصحيحية بديلة، عند الاقتضاء، بتطبيق معايير السلوك الأخلاقي والاستعانة بالتقاليد المحلية وتقديم المشورة وغيرها من تدابير التأهيل الإصلاحية المستجدة، بما يتفق والتزامات الدول بموجب القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <content eId="para_26__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">تلاحظ</span> الجهود التي يبذلها المعهد من أجل إقامة اتصالات مع المنظمات في البلدان التي تشجع برامج منع الجريمة ومحافظته على صلات وثيقة مع الكيانات السياسية الإقليمية ودون الإقليمية مثل مفوضية الاتحاد الأفريقي، وجماعة شرق أفريقيا، ومفوضية الجماعة الاقتصادية لدول غرب أفريقيا، والهيئة الحكومية الدولية المعنية بالتنمية، والجماعة الإنمائية للجنوب الأفريقي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <content eId="para_27__content">
+          <p xml:space="preserve">	8 -	<span class="bold italic">تشجع</span> المعهد على أن يأخذ في الاعتبار، بالتعاون مع وكالات الأمم المتحدة ذات الصلة، عند وضع استراتيجياته في مجال منع الجريمة، العمل الذي تضطلع به مختلف هيئات التخطيط في المنطقة التي تركز اهتمامها على تنسيق الأنشطة المعززة للتنمية القائمة على الإنتاج الزراعي المستدام والحفاظ على البيئة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <content eId="para_28__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">تحث </span>الدول الأعضاء في المعهد التي لم تف بأنصبتها المالية المقررة السنوية تجاه المعهد على دفع كل المبالغ المتأخرة عليها أو بعضها، آخذة في اعتبارها أن على الدول الأعضاء تمويل 80 في المائة من الميزانية المعتمدة، وتشجع في هذا الصدد جميع الدول الأعضاء والمنظمات على الوفاء بواجباتها المالية بشكل تام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <content eId="para_29__content">
+          <p xml:space="preserve">	10 -	<span class="bold italic">تشير</span> إلى اتخاذ المعهد مبادرة لتقاسم التكاليف مع الدول الأعضاء والشركاء وكيانات الأمم المتحدة عند تنفيذه برامج مختلفة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <content eId="para_30__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">تحث</span> جميعَ الدول الأعضاء والمنظمات غير الحكومية والمجتمع الدولي على مواصلة اتخاذ تدابير عملية ملموسة لدعم المعهد في مجال تنمية القدرات اللازمة وتنفيذ برامجه وأنشطته الرامية إلى تعزيز نظم منع الجريمة والعدالة الجنائية في أفريقيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <content eId="para_31__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">تحث</span> جميع الدول التي لم تصدّق بعد على اتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة عبر الوطنية وبروتوكولاتها<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vols. 2225, 2237, 2241 and 2326, No. 39574.</p></authorialNote><sup>)</sup> واتفاقية الأمم المتحدة لمكافحة الفساد<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	المرجع نفسه، المجلد 2349، الرقم 42146.</p></authorialNote><sup>)</sup> أو لم تنضم إليها بعد على أن تنظر في القيام بذلك، وتشجع الدولَ الأطراف التي لم تنفذ هاتين الاتفاقيتين بعد على أن تبلغ مكتب الأمم المتحدة المعني بالمخدرات والجريمة بأي عوائق تواجهها وبحاجتها من المساعدة التقنية للتغلُّب على تلك العوائق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <content eId="para_32__content">
+          <p xml:space="preserve">	13 -	<span class="bold italic">تشجع </span>الدولَ الأفريقية التي لم تنضم بعد إلى المعهد على النظر في الانضمام إليه من أجل تعزيز جهوده التعاونية وتوسيع قاعدة دعمه مما يؤدي إلى النهوض بمكافحة الجريمة والإرهاب اللذين يعرقلان الجهود الإنمائية الفردية والجماعية المبذولة على صعيد القارة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <content eId="para_33__content">
+          <p xml:space="preserve">	14 -	<span class="bold italic">تثني</span> على الدعم المتواصل الذي تقدمه حكومة أوغندا باعتبارها البلد المضيف للمعهد، ويشمل ذلك تسوية مسألة ملكية الأرض القائم عليها المعهد وتيسير تعاون المعهد مع الأطراف صاحبة المصلحة الأخرى في أوغندا والمنطقة ومع الشركاء الدوليين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <content eId="para_34__content">
+          <p xml:space="preserve">	15 -	<span class="bold italic">تثني أيضا</span> على الجهود التي يبذلها المعهد في تنفيذ عدة برامج في المنطقة، الأمر الذي أسهم في عدة أمور من بينها وضع مجموعة متزايدة من التدابير التصحيحية المنسقة للتصدي للجريمة اعتمادا على الدعم التقني في مجال تيسير المساعدة المتبادلة من جانب أجهزة إنفاذ القانون، وفي نشوء مناطق اختصاص إقليمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <content eId="para_35__content">
+          <p xml:space="preserve">	16 -	<span class="bold italic">تذكر</span> بمبادرة المعهد للتعاون مع جامعات مناسبة لتفعيل العلاقة بين النهجين اللذين تتبعهما سلطات العدالة الجنائية ومصادر العدالة التقليدية بغرض مواءمة استخدام الممارسات التصالحية حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <content eId="para_36__content">
+          <p xml:space="preserve">	17 -	<span class="bold italic">تذكر أيضا</span> بمبادرات المعهد للعمل مع مجموعة محددة من المؤسسات الأكاديمية والمؤسسات المتخصصة في مجال حقوق الإنسان المرتبطة بشبكات مهنية أخرى في المنطقة من أجل تعزيز المناهج التي تتضمن مكونا قويا في مجال منع الجريمة والعدالة الجنائية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <content eId="para_37__content">
+          <p xml:space="preserve">	18 -	<span class="bold italic">تشجع</span> المعهد على أن ينظر في التركيز على مواطن الضعف الخاصة والعامة لكل بلد مستفيد من البرامج، مع التركيز على تنظيم جهود تدريب المهنيين وتطوير قدراتهم بغرض معالجة أوجه الضعف المحددة، وعلى أن يستفيد إلى أقصى حد من المبادرات المتاحة للتصدي لمشاكل الجريمة بالأموال الموجودة والقدرات المتاحة، عن طريق إقامة تحالفات مفيدة مع المؤسسات الإقليمية والمحلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <content eId="para_38__content">
+          <p xml:space="preserve">	19 -	<span class="bold italic">تطلب </span>إلى مكتب الأمم المتحدة المعني بالمخدرات والجريمة مواصلة العمل في شكل وثيق مع المعهد، وتطلب إلى المعهد تقديم التقرير السنوي عن أنشطته إلى المكتب وإلى مؤتمر وزراء المالية والتخطيط والتنمية الاقتصادية الأفارقة التابع للجنة الاقتصادية لأفريقيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <content eId="para_39__content">
+          <p xml:space="preserve">	20 -	<span class="bold italic">تطلب </span>إلى الأمين العام أن يعزز الترويج للتعاون والتنسيق والتآزر على الصعيد الإقليمي في مجال مكافحة الجريمة، وبخاصة في بعدها العابر للحدود الوطنية الذي لا تكفي الإجراءات الوطنية وحدها للتصدي له؛	</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <content eId="para_40__content">
+          <p xml:space="preserve">	21 -	<span class="bold italic">تكرر طلبها</span> إلى الأمين العام في قرارها <a href="https://undocs.org/ar/A/RES/73/188">73/188</a> أن يواصل بذل الجهود لتعبئة الموارد المالية الضرورية لاحتفاظ المعهد بالموظفين الفنيين الأساسيين اللازمين لتمكينه من العمل بفعالية من أجل الاضطلاع بالواجبات المنوطة به، مع مراعاة الخطة الاستراتيجية التي اعتمدها المعهد للفترة 2017-2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <content eId="para_41__content">
+          <p xml:space="preserve">	22 -	<span class="bold italic">تكرر أيضا طلبها</span> إلى الأمين العام في قرارها <a href="https://undocs.org/ar/A/RES/73/188">73/188</a> أن يكثّف الجهود المبذولة لاستنفار كل الكيانات ذات الصلة في منظومة الأمم المتحدة لتقديم الدعم المالي والتقني الضروري إلى المعهد لتمكينه من إنجاز ولايته، مع مراعاة أن الحالة المالية الهشة للمعهد تقوض إلى حد كبير قدرته على تلبية الاحتياجات المتزايدة في مجال منع الجريمة ومعاملة المجرمين، بطريقة إيجابية وفعالة؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <content eId="para_42__content">
+          <p xml:space="preserve">	23 -	<span class="bold italic">تدعو</span> الدولَ الأعضاء وغيرها من الشركاء إلى النظر في المساهمة بموارد خارجة عن الميزانية لتمكين المعهد من تنفيذ ولايته بفعالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <content eId="para_43__content">
+          <p xml:space="preserve">	24 -	<span class="bold italic">تطلب</span> إلى الأمين العام أن يقدم إلى الجمعية العامة في دورتها السابعة والسبعين تقريرا عن تنفيذ هذا القرار يتضمن توصيات بشأن مواصلة تعزيز قدرات المعهد.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="46">الجلسة العامة 46</inline>
+        <eol />
+        <docDate date="2020-12-16" refersTo="#adoptionDate">16 كانون الأول/ديسمبر 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
