@@ -1,0 +1,338 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/"></FRBRuri>
+          <FRBRdate date="2020-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/eng@/"></FRBRuri>
+          <FRBRdate date="2020-12-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/eng@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-13" outcome="draftResolution" as="A/C.3/75/L.11" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of African States)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Austria, France, Hungary, India, Italy, Pakistan and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/479" by="" refersTo="20" />
+        <step date="2020-12-16" outcome="adopted" as="A/75/PV.46" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Third Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17358 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/197</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-28" class="rightSmall" refersTo="#dateOfIssuance">28 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Seventy-fifth session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Agenda item 111</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Crime prevention and criminal justice</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 16 December 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[on the report of the Third Committee (<inline name="originating document">A/75/479, para. 20</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/197.</docNumber>
+        <docTitle refersTo="#resolutionTitle">United Nations African Institute for the Prevention of Crime and the Treatment of Offenders</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling " eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>its resolution <a href="https://undocs.org/en/A/RES/73/188">73/188</a> of 17 December 2018 and all other relevant resolutions,</p>
+      </container>
+      <container name="Taking note " eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of the report of the Secretary-General,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/en/A/75/111">A/75/111</a>.</p></authorialNote></p>
+      </container>
+      <container name="Bearing in mind " eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Bearing in mind </span>that weaknesses in crime prevention lead to subsequent difficulties at the level of crime control mechanisms, and bearing in mind also the urgent need to establish effective crime prevention strategies for Africa, as well as the importance of law enforcement agencies and the judiciary at the regional and subregional levels,</p>
+      </container>
+      <container name="Aware " eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Aware </span>of the devastating impact of new and more dynamic crime trends on the national economies of African States, such as the high levels of transnational organized crime, including the utilization of digital technology to commit all types of cybercrime, and aware also of illicit trafficking in cultural property, drugs, precious metals, rhinoceros horns and ivory, of piracy and money-laundering and of the fact that crime is a major obstacle to harmonious and sustainable development in Africa,</p>
+      </container>
+      <container name="Deeply concerned " eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Deeply concerned </span>about the growing links, in some cases, between some forms of transnational organized crime and terrorism, and recognizing that countering transnational organized crime and terrorism is a common and shared responsibility, and that criminal justice procedures will have to be more cost-conscious, timely and expeditious and sensitive to public responses to minimize or eliminate any suspicion of compromise,</p>
+      </container>
+      <container name="Emphasizing " eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Emphasizing </span>that combating crime is a collective endeavour to meet the global challenge of organized crime and that investment of necessary resources in crime prevention is important to that aim and contributes to sustainable development,</p>
+      </container>
+      <container name="Noting with concern " eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Noting with concern </span>that in most African countries the existing criminal justice system does not have sufficiently skilled personnel and adequate infrastructure and is therefore ill-equipped to manage the emergence of new crime trends, and acknowledging the challenges that Africa faces in litigation processes and the management of correctional institutions,</p>
+      </container>
+      <container name="Recognizing" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the United Nations African Institute for the Prevention of Crime and the Treatment of Offenders is a focal point for professional efforts aimed at promoting the active cooperation and collaboration of Governments, academics, institutions and scientific and professional organizations and experts in crime prevention and criminal justice,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Bearing in mind</span> the African Union Plan of Action on Drug Control and Crime Prevention (2019–2023), aimed at encouraging Member States to participate in and own the regional initiatives for effective crime prevention and good governance and strengthened justice administration, </p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of promoting sustainable development as a complement to crime prevention strategies,</p>
+      </container>
+      <container name="Emphasizing" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the need to create necessary coalitions with all partners in order to achieve effective crime prevention policies,</p>
+      </container>
+      <container name="Recalling" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the undertaking and conclusion of a preliminary diagnostic study by a consultant of the Economic Commission for Africa prior to the commencement of a full system-wide review process, including the significance of the Institute as a viable mechanism for promoting cooperation among the relevant entities to respond to the crime problem afflicting Africa,</p>
+      </container>
+      <container name="Expressing concern" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> over the continued absence of a director of the Institute, and noting the important role of such senior management positions in ensuring the normal functioning of the Institute,</p>
+      </container>
+      <container name="Noting with concern" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Noting with concern</span> that the financial situation of the Institute has greatly affected its capacity to deliver services to African Member States in an effective and comprehensive manner, and noting that one of the findings of the preliminary diagnostic study is that the Institute urgently needs to increase its income,</p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the ongoing efforts by the Governing Board of the Institute to mobilize States members of the Institute, with a view to obtaining and reaffirming their financial commitment to the Institute, in line with the decision of the Board, taken in Addis Ababa on 18 February 2020, to address the decline in financial support for the programmes of the Institute, </p>
+      </container>
+      <container name="Recalling" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the detailed description provided in the report of the Secretary-General<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/en/A/73/133">A/73/133</a>.</p></authorialNote> of funding deficiencies that have severely undermined the capacity of the Institute to serve the needs of the region, and recognizing that crime results in the expenditure of a significant amount of resources,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Bearing in mind</span> that the Institute is an important component of the United Nations crime prevention and criminal justice network and that, without the necessary funds, the Institute will fail to accomplish its vital goals of combating drug trafficking, cybercrime and environmental crimes, among other challenges, as well as its goals of reforming the crucial deficiencies in the region’s prosecution system and building effective and strong alliances among law enforcement personnel, professional bodies, academic institutions, individual communities, experts and traditional and civil authorities in order to proactively prevent crime,</p>
+      </container>
+      <container name="Acknowledging" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the Member States and organizations that have maintained their commitment to the fulfilment of their financial obligations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the United Nations African Institute for the Prevention of Crime and the Treatment of Offenders for its efforts to promote, coordinate and carry out more activities within its core mandate, including regional technical cooperation related to crime prevention and criminal justice systems in Africa, despite the resource constraints under which it is operating;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the decision of the Governing Board of the Institute to adopt the strategic plan for the period 2017–2021 to address crime in an integrated manner by strengthening national capacities for crime prevention and criminal justice, and calls upon Member States, including those members of the Institute, all relevant entities of the United Nations and non-governmental organizations to give the support necessary for its full implementation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> the progress made by African States in the implementation of the African Union Plan of Action on Drug Control and Crime Prevention (2019–2023) and the mechanism for its implementation, follow-up and evaluation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to raise awareness of the work of the Institute and its relevance to the successful implementation of the 2030 Agenda for Sustainable Development;<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the need to further strengthen the capacity of the Institute to support national mechanisms for crime prevention and criminal justice in African countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Also reaffirms</span> the benefits, in some cases, of the utilization of alternative remedial measures, where appropriate, applying standards of ethical conduct and using local traditions, counselling and other emerging correctional rehabilitation measures, consistent with the obligations of States under international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the efforts of the Institute to establish contacts with organizations in those countries that are promoting crime prevention programmes and its maintenance of close links with regional and subregional political entities, such as the African Union Commission, the East African Community, the Commission of the Economic Community of West African States, the Intergovernmental Authority on Development and the Southern African Development Community;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Institute, in cooperation with relevant United Nations agencies, to take into account the various planning authorities in the region that focus attention on the coordination of activities that promote development based on sustainable agricultural production and preservation of the environment in developing its crime prevention strategies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> States members of the Institute that have failed to meet their annual assessed financial contributions to the Institute to pay all or part of their outstanding arrears, taking into consideration that member States are to fund 80 per cent of the approved budget, and in this regard encourages all member States and organizations to fully honour their financial obligations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the introduction by the Institute of a cost-sharing initiative in its execution of various programmes with Member States, partners and United Nations entities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all Member States and non-governmental organizations and the international community to continue to adopt concrete practical measures to support the Institute in the development of the requisite capacity and in the implementation of its programmes and activities aimed at strengthening crime prevention and criminal justice systems in Africa;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all States that have not already done so to consider ratifying or acceding to the United Nations Convention against Transnational Organized Crime and the Protocols thereto,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vols. 2225, 2237, 2241 and 2326, No. 39574.</p></authorialNote> as well as the United Nations Convention against Corruption,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid., vol. 2349, No. 42146.</p></authorialNote> and encourages States parties that have not yet implemented the conventions to inform the United Nations Office on Drugs and Crime of any impediments that they encounter and of their need for technical assistance to overcome those impediments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> African States that are not yet members of the Institute to consider becoming member States in order to enhance its collaborative efforts and enlarge its support base and thereby strengthen the fight against crime and terrorism, which hamper individual and collective development efforts on the continent;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the continued support provided by the Government of Uganda as host country, including resolving the issue of the ownership of the land on which the Institute is located and facilitating the collaboration of the Institute with other stakeholders within Uganda and the region and with international partners;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Also commends</span> the efforts of the Institute in implementing several programmes in the region, which have contributed, inter alia, to a growing set of coordinated remedial responses to crime on the basis of technical support in facilitating mutual assistance by law enforcement agencies and the emergence of regional jurisdictions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the initiative of the Institute to collaborate with relevant universities to operationalize the link between criminal justice authorities and sources of traditional justice approaches so as to harmonize the use of restorative practices, where appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Also recalls</span> the initiatives of the Institute to work with specific academic and specialized human rights institutions that are connected to other professional networks in the region to promote curricula that have a strong crime prevention and criminal justice component; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Institute to consider focusing on specific and general vulnerabilities of each programme country, with an emphasis on tailoring practitioner training and development efforts to address identified vulnerabilities, and to maximize the use of available initiatives to address crime problems with existing funds, as well as available capacity, by creating useful coalitions with regional and local institutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations Office on Drugs and Crime to continue to work closely with the Institute, and requests the Institute to provide the annual report on its activities to the Office and to the Economic Commission for Africa Conference of African Ministers of Finance, Planning and Economic Development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to enhance the promotion of regional cooperation, coordination and collaboration in the fight against crime, especially in its transnational dimension, which cannot be dealt with adequately by national action alone;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates its request</span>, made to the Secretary-General in its resolution <a href="https://undocs.org/en/A/RES/73/188">73/188</a>, taking into consideration the strategic plan of the Institute for the period 2017–2021, to continue his efforts to mobilize the financial resources necessary to maintain the Institute with the core Professional staff required to enable it to function effectively in the fulfilment of its mandated obligations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Also reiterates its request</span>, made to the Secretary-General in its resolution <a href="https://undocs.org/en/A/RES/73/188">73/188</a>, to intensify efforts to mobilize all relevant entities of the United Nations system to provide the financial and technical support necessary to the Institute to enable it to fulfil its mandate, bearing in mind that the precarious financial situation of the Institute greatly undermines its capacity to respond positively and effectively to the growing need in the prevention of crime and the treatment of offenders; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States and other partners to consider providing extrabudgetary resources to enable the Institute to effectively implement its mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit to the General Assembly at its seventy-seventh session a report on the implementation of the present resolution, including recommendations on further strengthening the capacity of the Institute.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="46th">46th plenary meeting</inline>
+        <eol />
+        <docDate date="2020-12-16" refersTo="#adoptionDate">16 December 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
