@@ -1,0 +1,339 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/"></FRBRuri>
+          <FRBRdate date="2020-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/zho@/"></FRBRuri>
+          <FRBRdate date="2020-12-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/zho@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-13" outcome="draftResolution" as="A/C.3/75/L.11" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of African States)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Austria, France, Hungary, India, Italy, Pakistan and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/479" by="" refersTo="20" />
+        <step date="2020-12-16" outcome="adopted" as="A/75/PV.46" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="第三委员会"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17358 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/197</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-28" class="rightSmall" refersTo="#dateOfIssuance">28 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">第七十五届会议</session>
+      </p>
+      <p>
+        <inline name="agenda item">议程项目111</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">预防犯罪和刑事司法</inline>
+      </p>
+      <p>
+        <docTitle>2020年12月16日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[根据第三委员会的报告 (<inline name="originating document">A/75/479，第20段</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/197.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国非洲预防犯罪和罪犯待遇研究所</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其2018年12月17日第<a href="https://undocs.org/ch/A/RES/73/188">73/188</a>号决议和所有其他相关决议，</p>
+      </container>
+      <container name="表示注意到" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>秘书长的报告，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/111">A/75/111</a>。</p></authorialNote></p>
+      </container>
+      <container name="铭记" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">铭记</span>预防犯罪方面存在的薄弱点会导致后来在犯罪控制机制层面出现困难，又铭记为非洲制订有效预防犯罪战略的迫切必要性以及区域和次区域一级执法机构和司法机关的重要性，</p>
+      </container>
+      <container name="意识到" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">意识到</span>新的、更加多变的犯罪趋势对非洲国家国民经济造成严重破坏影响，例如跨国有组织犯罪呈高发状态，包括利用数字技术实施各种网络犯罪，又意识到非法贩运文化财产、毒品、贵重金属、犀牛角和象牙以及海盗和洗钱等活动，并意识到犯罪活动是非洲和谐与可持续发展的一个主要障碍，</p>
+      </container>
+      <container name="深为关切" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>在一些情况中，某些形式跨国有组织犯罪与恐怖主义之间日益存在联系，认识到打击跨国有组织犯罪和恐怖主义是一项共同分担的责任，并认识到刑事司法程序需更注意成本，更及时，更迅速，而且更顾及公众反应，以尽可能减少甚至消除任何妥协怀疑，</p>
+      </container>
+      <container name="强调" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">强调</span>打击犯罪是一项集体努力，其目的是对付有组织犯罪所构成的全球挑战，在预防犯罪方面投入必要资源对于实现此目标非常重要，有助于实现可持续发展，</p>
+      </container>
+      <container name="关切地注意到" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>大多数非洲国家的现有刑事司法系统缺乏足够精专的人才和适当的基础设施，因而没有能力应对新犯罪趋势的出现，并确认非洲在诉讼程序和惩戒机构管理方面面临各种挑战，</p>
+      </container>
+      <container name="认识到" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">认识到</span>联合国非洲预防犯罪和罪犯待遇研究所是一个协调中心，可协调为促进各国政府、学术界、各机构以及科学和专业组织及专家在预防犯罪和刑事司法方面积极配合与协作而开展的专业努力，</p>
+      </container>
+      <container name="铭记" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">铭记</span>《非洲联盟毒品管制和预防犯罪行动计划(2019-2023年)》的宗旨是鼓励会员国参加并自主开展有效预防犯罪、善治及加强司法的区域举措，</p>
+      </container>
+      <container name="认识到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">认识到</span>促进可持续发展作为预防犯罪战略一项补充要素的重要性，</p>
+      </container>
+      <container name="强调" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">强调</span>为落实有效预防犯罪的政策，需要与所有伙伴建立必要的联盟，</p>
+      </container>
+      <container name="回顾" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">回顾</span>非洲经济委员会一位咨询人在全系统全面审查开始之前进行初步诊断研究并得出研究结果，其中包括认为，研究所非常重要，是促进相关实体之间合作应对困扰非洲的犯罪问题的可靠机构，</p>
+      </container>
+      <container name="表示关切" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>研究所主任职位仍然空缺，并注意到这样的高级管理职位在确保研究所正常运转方面的重要作用，</p>
+      </container>
+      <container name="关切地注意到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>研究所的财政状况严重影响其向非洲会员国提供有效和全面服务的能力，此外也注意到初步诊断研究的结论之一是，研究所迫切需要增加收入，</p>
+      </container>
+      <container name="认识到" eId="container_16">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>研究所理事会正在努力调动研究所成员国，以便根据理事会2020年2月18日在亚的斯亚贝巴作出的决定，争取并重申它们对研究所的财政承诺，以解决研究所方案财政支助的减少问题；</p>
+      </container>
+      <container name="回顾" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">回顾</span>秘书长报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/73/133">A/73/133</a>。</p></authorialNote> 中详述了供资上的不足如何严重损及研究所满足区域需求的能力，并确认犯罪行为导致耗费大量的资源，</p>
+      </container>
+      <container name="铭记" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">铭记</span>研究所是联合国预防犯罪和刑事司法网络中一个重要的组成部分，如果没有所需的资金，研究所将无法完成其应对贩毒行为、网络犯罪和环境犯罪等各种挑战的重要目标，也无法完成其既有目标，即改革该区域检察系统，以消除重大缺陷，并在执法人员、专业机构、学术机构、具体社区、专家以及传统和民政当局之间建立有效且强有力的联盟，以积极主动地防止犯罪，</p>
+      </container>
+      <container name="感谢" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">感谢</span>继续承诺履行其财政义务的会员国和组织，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold">赞扬</span>联合国非洲预防犯罪和罪犯待遇研究所努力在其核心任务范围内促进、协调及开展更多的活动，包括在资源紧张的情况下开展与非洲预防犯罪和刑事司法制度有关的区域技术合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="bold">忆及</span>研究所理事会决定通过2017-2021年期间战略计划，该计划的目的是通过加强国家预防犯罪和刑事司法能力，以综合方式处理犯罪问题，促请包括研究所成员国在内的会员国、联合国所有相关实体和非政府组织为战略计划的全面执行提供必要支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">承认</span>非洲国家在执行《非洲联盟毒品管制和预防犯罪行动计划(2019-2023年)》及其执行、后续行动和评价机制方面取得的进展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国提高对研究所的工作及其与成功执行《2030年可持续发展议程》<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 相关性的认识；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>有必要进一步加强研究所的能力，以支持非洲各国的国家预防犯罪和刑事司法机制；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">又重申</span>在一些情况中依照各国根据国际法承担的义务酌情采取其他补救措施，适用道德行为标准以及采用地方传统、咨询辅导和其他新的惩教措施，是有好处的；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>研究所努力与这些国家内正在推动实施预防犯罪方案的组织建立联系，并与非洲联盟委员会、东非共同体、西非国家经济共同体委员会、政府间发展管理局和南部非洲发展共同体等区域和次区域政治实体保持密切联系；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>研究所与联合国相关机构合作，在制订其预防犯罪战略时考虑到该区域各规划当局注重协调活动，以促进在可持续农业生产和环境保护基础上实现发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>未支付其对研究所年度财政摊款的研究所成员国全额或部分支付其所欠款项，同时考虑到成员国应为核定预算供资80%，并在这方面鼓励所有成员国和组织充分履行其财政义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>研究所在与会员国、伙伴和联合国实体一道执行各种方案时实行费用分摊举措；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有会员国和非政府组织以及国际社会继续采取具体实际措施，支持研究所发展必要能力并实施各项方案和活动，以加强非洲预防犯罪和刑事司法制度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有尚未批准或加入《联合国打击跨国有组织犯罪公约》及其各项议定书<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		联合国，《条约汇编》，第2225、2237、2241和2326卷，第39574号。</p></authorialNote> 和《联合国反腐败公约》<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		同上，第2349卷，第42146号。</p></authorialNote> 的国家考虑批准或加入这些文书，鼓励尚未执行这些公约的缔约国告知联合国毒品和犯罪问题办公室它们遇到的任何障碍及克服这些障碍所需的技术援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>尚未成为研究所成员的非洲国家考虑成为其成员国，以便加强其协作努力，扩大其支助基础，从而加强打击阻碍非洲大陆单独和集体发展努力的犯罪和恐怖主义活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="bold">赞扬</span>乌干达政府作为东道国继续提供的支持，包括解决研究所用地的所有权问题，协助研究所与乌干达和该区域其他利益攸关方以及与各国际伙伴进行协调；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">又赞扬</span>研究所努力在该区域实施若干方案，在为促进执法机构互助和推动建立区域管辖机构提供技术支持的基础上，帮助制定了日益增多的协调应对犯罪的补救措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>研究所采取举措，与相关大学协作，以在刑事司法当局和传统司法办法来源之间建立联系，以便协调一致地酌情利用恢复性做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="bold">又回顾</span>研究所采取举措，同与该区域其他专业网络有联系的具体学术机构和专门人权机构合作，以推广含有一个有分量的预防犯罪和刑事司法部分的课程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>研究所考虑侧重处理每个方案国的特有和一般脆弱性，着重于量体裁衣地开展从业者培训和发展工作，以处理发现的薄弱环节，并通过与区域和地方机构建立有益的联盟，最大程度地借助现有举措，以现有的资金及可用的能力来处理犯罪问题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国毒品和犯罪问题办公室继续与研究所密切合作，并请研究所向该办公室和非洲经济委员会非洲财政、规划和经济发展部长会议提供关于研究所活动情况的年度报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长加大力度促进区域合作、协调及协作，打击犯罪，特别是打击仅靠国家行动不足以应对的跨国犯罪；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>第<a href="https://undocs.org/ch/A/RES/73/188">73/188</a>号决议请秘书长考虑到研究所2017-2021年期间战略计划，继续努力调动必要的财政资源，以便研究所维持所需的核心专业工作人员，使其能有效运作，履行其法定义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">又重申</span>第<a href="https://undocs.org/ch/A/RES/73/188">73/188</a>号决议请秘书长加紧努力动员联合国系统所有相关实体向研究所提供必要的财政和技术支持，使其能够履行任务，同时铭记研究所严峻的财政状况非常有损其积极有效应对预防犯罪和罪犯待遇方面日益增加需要的能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>会员国和其他伙伴考虑提供预算外资源，使研究所能够有效执行其任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长向大会第七十七届会议提交报告，说明本决议包括关于进一步加强研究所能力的各项建议的执行情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第46次">第46次全体会议</inline>
+        <eol />
+        <docDate date="2020-12-16" refersTo="#adoptionDate">2020年12月16日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
