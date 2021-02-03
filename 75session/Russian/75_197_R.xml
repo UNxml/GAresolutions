@@ -1,0 +1,339 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/"></FRBRuri>
+          <FRBRdate date="2020-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/rus@/"></FRBRuri>
+          <FRBRdate date="2020-12-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/rus@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-13" outcome="draftResolution" as="A/C.3/75/L.11" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of African States)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Austria, France, Hungary, India, Italy, Pakistan and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/479" by="" refersTo="20" />
+        <step date="2020-12-16" outcome="adopted" as="A/75/PV.46" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Третий комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17358 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/197</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-28" class="rightSmall" refersTo="#dateOfIssuance">28 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Семьдесят пятая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 111 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Предупреждение преступности и уголовное правосудие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 16 декабря 2020 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[по докладу Третьего комитета (<inline name="originating document">A/75/479, пункт 20</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/197.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Африканский институт Организации Объединенных Наций по предупреждению преступности и обращению с правонарушителями</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свою резолюцию 73/188 от 17 декабря 2018 года и на все другие соответствующие резолюции,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> доклад Генерального секретаря<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/111">A/75/111</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="учитывая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что несовершенство работы по предупреждению преступности порождает трудности в функционировании механизмов по борьбе с преступностью, и учитывая также настоятельную потребность в разработке эффективных стратегий предупреждения преступности для Африки, а также важную роль правоохранительных учреждений и судебной системы на региональном и субрегиональном уровнях,</p>
+      </container>
+      <container name="сознавая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">сознавая</span> самые пагубные последствия для экономики африканских государств новых и более стремительных тенденций роста преступности, например высокого уровня транснациональной организованной преступности, включая разного рода киберпреступления с использованием цифровых технологий, будучи осведомлена о незаконном обороте культурных ценностей, наркотиков, драгоценных металлов, рогов носорога и слоновой кости, а также пиратстве и отмывании денег и сознавая, что преступность является одним из серьезных препятствий на пути гармоничного и устойчивого развития в Африке,</p>
+      </container>
+      <container name="будучи глубоко обеспокоена" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоена</span> укреплением взаимосвязи, в некоторых случаях, между отдельными формами транснациональной организованной преступности и терроризмом и признавая, что борьба с транснациональной организованной преступностью и терроризмом является общей и совместной обязанностью и что процедуры уголовного правосудия должны будут применяться более экономно, своевременно и оперативно и с учетом реакции общественности с целью свести к минимуму или рассеять любые подозрения в нарушении установленных процедур,</p>
+      </container>
+      <container name="подчеркивая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что борьба с преступностью — это коллективная работа по решению глобальной проблемы организованной преступности и что вложение необходимых ресурсов в предупреждение преступности имеет большое значение для достижения этой цели и способствует устойчивому развитию,</p>
+      </container>
+      <container name="отмечая с озабоченностью" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">отмечая с озабоченностью</span>, что в большинстве африканских стран существующая система уголовного правосудия не обеспечена достаточно квалифицированными кадрами и не имеет необходимой инфраструктуры и поэтому плохо приспособлена к борьбе с возникающими новыми тенденциями в сфере преступности, и признавая трудности, с которыми сталкивается Африка в проведении судебных разбирательств и в управлении деятельностью исправительных учреждений,</p>
+      </container>
+      <container name="признавая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что Африканский институт Организации Объединенных Наций по предупреждению преступности и обращению с правонарушителями является центром по координации усилий специалистов, направленных на поощрение активного сотрудничества и взаимодействия с правительствами, научным сообществом, институтами и научными и профессиональными организациями, а также экспертами по вопросам предупреждения преступности и уголовного правосудия,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span> План действий Африканского союза по контролю над наркотиками и предупреждению преступности на 2019–2023 годы, призванный побудить государства-члены участвовать в региональных инициативах, направленных на повышение эффективности предупреждения преступности, обеспечение благого управления и совершенствование системы отправления правосудия, и брать на себя ответственность за осуществление этих инициатив,</p>
+      </container>
+      <container name="признавая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">признавая</span> важность содействия устойчивому развитию в качестве элемента, дополняющего стратегии предупреждения преступности,</p>
+      </container>
+      <container name="особо отмечая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> необходимость создания соответствующих коалиций со всеми партнерами для разработки эффективных стратегий предупреждения преступности,</p>
+      </container>
+      <container name="напоминая " eId="container_13">
+        <p xml:space="preserve">	<span class="italic">напоминая </span>о предварительном диагностическом исследовании, проведенном консультантом Экономической комиссии для Африки и завершенном в преддверии полномасштабного общесистемного обзора, в том числе о выводе о значимости Института как эффективного механизма содействия сотрудничеству соответствующих структур в деле решения проблемы преступности в Африке,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> в связи с тем, что должность директора Института остается вакантной, и отмечая важную роль таких старших руководителей в обеспечении нормального функционирования Института,</p>
+      </container>
+      <container name="с озабоченностью отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">с озабоченностью отмечая</span>, что финансовое положение Института серьезно отразилось на его способности эффективно и в полном объеме предоставлять услуги африканским государствам-членам, и отмечая, что один из выводов по итогам предварительного диагностического исследования заключался в том, что Институту необходимо срочно увеличить свои финансовые поступления,</p>
+      </container>
+      <container name="учитывая " eId="container_16">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>продолжающуюся работу Совета управляющих Института с государствами — членами Института, преследующую цель мобилизовать их на выполнение и подтверждение их финансовых обязательств перед Институтом в соответствии с решением Совета, принятым в Аддис-Абебе 18 февраля 2020 года для решения проблемы сокращения финансирования программ Института, </p>
+      </container>
+      <container name="&#x9;ссылаясь" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь</span> на доклад Генерального секретаря<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/73/133">A/73/133</a>.</p></authorialNote> с подробной информацией о нехватке финансовых ресурсов, серьезно подрывающей способность Института удовлетворять потребности региона, и признавая, что борьба с преступностью требует значительного объема ресурсов,</p>
+      </container>
+      <container name="учитывая" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что Институт является одним из важных компонентов сети структур Организации Объединенных Наций по предупреждению преступности и уголовному правосудию и что без необходимых финансовых средств Институт не сможет решать свои важные задачи, связанные среди прочего с противодействием наркоторговле, киберпреступности и экологической преступности, а также задачи устранения серьезных недостатков в региональной системе правосудия и налаживания эффективного и тесного партнерства с сотрудниками правоохранительных органов, профессиональными органами, учебными заведениями, отдельными общинами, экспертами и традиционными и гражданскими органами власти в целях активного предупреждения преступности,</p>
+      </container>
+      <container name="выражая признательность" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">выражая признательность</span> государствам-членам и организациям, которые продолжают последовательно выполнять свои финансовые обязательства,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает</span> усилия Африканского института Организации Объединенных Наций по предупреждению преступности и обращению с правонарушителями, продолжающего несмотря на стесненность в ресурсах стимулировать, координировать и наращивать деятельность в рамках своего основного мандата, включая техническое сотрудничество на региональном уровне в вопросах, касающихся систем предупреждения преступности и уголовного правосудия в Африке;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о решении Совета управляющих Института утвердить стратегический план на 2017–2021 годы, нацеленный на комплексное противодействие преступности путем укрепления потенциала стран в области предупреждения преступности и уголовного правосудия, и призывает государства-члены, включая государства — члены Института, все профильные подразделения Организации Объединенных Наций и неправительственные организации принимать необходимые меры для содействия его полному осуществлению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> прогресс, достигнутый африканскими государствами в деле осуществления Плана действий Африканского союза по контролю над наркотиками и предупреждению преступности на 2019–2023 годы и положительно оценивает механизм его осуществления, принятия дальнейших мер и оценки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены повышать осведомленность о работе Института и его значимости для успешного осуществления Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> необходимость дальнейшего повышения способности Института оказывать поддержку национальным механизмам предупреждения преступности и уголовного правосудия в странах Африки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает также</span> целесообразность использования в определенных случаях, когда это уместно, альтернативных средств защиты права — с опорой на этические нормы поведения и местные традиции и применением психотерапевтических и других новых методов исправительной реабилитации, согласующихся с обязательствами государств по международному праву;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> усилия Института по налаживанию контактов с организациями в тех странах, которые содействуют осуществлению программ предупреждения преступности, и его тесные связи с такими региональными и субрегиональными политическими организациями, как Комиссия Африканского союза, Восточноафриканское сообщество, Комиссия Экономического сообщества западноафриканских государств, Межправительственная организация по развитию и Сообщество по вопросам развития стран юга Африки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>Институту при разработке своих стратегий предупреждения преступности взаимодействовать с соответствующими учреждениями Организации Объединенных Наций и ориентироваться на различные плановые органы региона, занимающиеся координацией стимулирующих развитие видов деятельности, направленных на экологизацию сельскохозяйственного производства и охрану окружающей среды;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства — члены Института, которые не внесли своих ежегодных начисленных финансовых взносов в его бюджет, полностью или частично погасить свою остающуюся задолженность, принимая во внимание, что на взносы государств-членов приходится 80 процентов объема утвержденного бюджета Института, и в этой связи призывает все государства-члены и организации в полной мере выполнять свои финансовые обязательства;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>о выдвинутой Институтом инициативе совместного покрытия расходов при осуществлении различных программ в сотрудничестве с государствами-членами, партнерами и структурами Организации Объединенных Наций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> все государства-члены и неправительственные организации, а также международное сообщество продолжать принимать конкретные практические меры в поддержку усилий Института по развитию необходимого потенциала и осуществлению программ и мероприятий, направленных на совершенствование систем предупреждения преступности и уголовного правосудия в Африке;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> все государства, которые еще не сделали этого, рассмотреть вопрос о ратификации Конвенции Организации Объединенных Наций против транснациональной организованной преступности и протоколов к ней<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vols. 2225, 2237, 2241 and 2326, No. 39574.</p></authorialNote>, а также Конвенции Организации Объединенных Наций против коррупции<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid, vol. 2349, No. 42146.</p></authorialNote> или о присоединении к ним и рекомендует государствам-участникам, которые еще не осуществили эти конвенции, проинформировать Управление Организации Объединенных Наций по наркотикам и преступности обо всех препятствиях, с которыми они сталкиваются, и о своих потребностях в технической помощи для преодоления этих препятствий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам Африки, которые еще не стали членами Института, рассмотреть такую возможность, с тем чтобы активизировать совместные усилия, расширить базу поддержки и тем самым повысить эффективность борьбы с преступностью и терроризмом, которые препятствуют прилагаемым на континенте индивидуальным и коллективным усилиям в области развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает</span> неизменную поддержку правительства Уганды в качестве принимающей страны, включая урегулирование вопроса о праве собственности на землю, на которой расположен Институт, и облегчение взаимодействия Института с другими субъектами на территории Уганды и региона и с международными партнерами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает также</span> работу Института, связанную с осуществлением в регионе нескольких программ, которые способствовали, в частности, росту числа скоординированных мероприятий по борьбе с преступностью, поскольку предусматривали техническую поддержку, позволившую упростить механизм взаимопомощи между правоохранительными органами, и появлению региональных судебных органов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> об инициативе Института, направленной на налаживание сотрудничества с соответствующими университетами для установления практической связи между органами уголовного правосудия и источниками традиционного правосудия с целью упорядочить применение практики реституционного правосудия там, где это уместно;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">напоминает также</span> об инициативах Института, касающихся взаимодействия с конкретными научными и специализированными правозащитными институтами, которые имеют связи с другими профессиональными сетями в регионе, с целью поддержки учебных программ, в которых серьезное внимание уделяется предупреждению преступности и уголовному правосудию;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	рекомендует Институту рассмотреть возможность сосредоточить внимание на конкретных и общих слабых местах каждой из стран, охваченных программами, с упором на разработку индивидуальных программ обучения и повышения квалификации специалистов-практиков для устранения выявленных слабых мест и максимально использовать существующие инициативы для решения проблем преступности за счет имеющихся средств и с использованием существующего потенциала путем формирования полезных коалиций с региональными и местными структурами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Управление Организации Объединенных Наций по наркотикам и преступности продолжать тесно сотрудничать с Институтом и просит Институт представлять Управлению, а также Конференции министров финансов, планирования и экономического развития африканских стран Экономической комиссии для Африки ежегодные доклады о своей деятельности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря активнее содействовать региональному сотрудничеству, координации и взаимодействию в сфере борьбы с преступностью, особенно в ее транснациональных проявлениях, надлежащее противодействие которым усилиями, предпринимаемыми только на национальном уровне, невозможно; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">вновь обращается</span> к Генеральному секретарю с просьбой, содержащейся в ее резолюции 73/188, с учетом стратегического плана Института на период 2017–2021 годов продолжать усилия по мобилизации финансовых ресурсов, необходимых для сохранения в Институте основных сотрудников категории специалистов, требующихся для успешного выполнения предусмотренных в его мандате обязательств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">вновь обращается также</span> к Генеральному секретарю с просьбой, содержащейся в ее резолюции 73/188, активизировать усилия по мобилизации всех соответствующих структур системы Организации Объединенных Наций на оказание необходимой финансовой и технической поддержки Институту, с тем чтобы он мог выполнять свой мандат, учитывая, что шаткое финансовое положение Института серьезно ограничивает его способность действенно и эффективно удовлетворять растущие потребности в сфере предупреждения преступности и обращения с правонарушителями;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> государствам-членам и другим партнерам рассмотреть вопрос о предоставлении внебюджетных ресурсов, с тем чтобы Институт мог эффективно выполнять свой мандат;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря представить Генеральной Ассамблее на ее семьдесят седьмой сессии доклад об осуществлении настоящей резолюции, в том числе рекомендации о дальнейшем укреплении потенциала Института.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="46-е">46-е пленарное заседание</inline>
+        <eol />
+        <docDate date="2020-12-16" refersTo="#adoptionDate">16 декабря 2020 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
