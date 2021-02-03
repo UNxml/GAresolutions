@@ -1,0 +1,337 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/"></FRBRuri>
+          <FRBRdate date="2020-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/fra@/"></FRBRuri>
+          <FRBRdate date="2020-12-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-16/75-197/fra@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-10-13" outcome="draftResolution" as="A/C.3/75/L.11" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of African States)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Austria, France, Hungary, India, Italy, Pakistan and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/479" by="" refersTo="20" />
+        <step date="2020-12-16" outcome="adopted" as="A/75/PV.46" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Troisième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17358 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/197</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-28" class="rightSmall" refersTo="#dateOfIssuance">28 décembre 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Soixante-quinzième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Point 111 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Prévention du crime et justice pénale</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 16 décembre 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sur la base du rapport de la Troisième Commission (<inline name="originating document">A/75/479, par. 20</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/197.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Institut africain des Nations Unies pour la prévention du crime et le traitement des délinquants</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> sa résolution <a href="https://undocs.org/fr/A/RES/73/188">73/188</a> du 17 décembre 2018 et toutes les autres résolutions sur la question,</p>
+      </container>
+      <container name="Prenant acte" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Prenant acte</span> du rapport du Secrétaire général<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/75/111">A/75/111</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Consciente" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> que toute carence en matière de prévention de la criminalité se traduit par des difficultés au niveau des mécanismes de lutte contre la criminalité et qu’il est nécessaire d’élaborer d’urgence des stratégies efficaces de prévention de la criminalité pour l’Afrique, et sachant l’importance que revêtent les services de maintien de l’ordre et l’appareil judiciaire aux niveaux régional et sous-régional,</p>
+      </container>
+      <container name="Consciente également" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Consciente également</span> des effets dévastateurs que les tendances nouvelles et plus dynamiques de la criminalité, notamment la forte criminalité transnationale organisée, y compris l’utilisation des technologies numériques pour commettre tous types d’actes de cybercriminalité, ont sur l’économie des États d’Afrique, et sachant que le trafic de biens culturels, de drogues, de métaux précieux, de cornes de rhinocéros et d’ivoire, la piraterie et le blanchiment d’argent ainsi que la criminalité constituent un obstacle de taille au développement harmonieux et durable du continent,</p>
+      </container>
+      <container name="Vivement préoccupée" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Vivement préoccupée</span> par les liens croissants qui existent parfois entre certaines formes de criminalité transnationale organisée et le terrorisme, et consciente que la lutte contre la criminalité transnationale organisée et le terrorisme est une responsabilité commune et partagée et que les procédures pénales doivent être plus économiques, intervenir rapidement et en temps voulu et tenir compte de la réaction du public afin de lever tout soupçon de compromis ou d’en réduire le risque au minimum,</p>
+      </container>
+      <container name="Soulignant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> que la lutte contre la criminalité est une entreprise collective visant à maîtriser un problème mondial et qu’il importe d’investir les ressources nécessaires dans la prévention pour atteindre cet objectif et favoriser le développement durable,</p>
+      </container>
+      <container name="Notant avec préoccupation" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Notant avec préoccupation</span> que les systèmes de justice pénale de la plupart des pays d’Afrique ne disposent ni d’un personnel suffisamment qualifié ni d’une infrastructure adéquate et sont donc peu à même de faire face aux tendances nouvelles de la criminalité, et consciente des difficultés que les pays d’Afrique rencontrent en ce qui concerne les procédures judiciaires et la gestion des établissements pénitentiaires,</p>
+      </container>
+      <container name="Sachant" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> que l’Institut africain des Nations Unies pour la prévention du crime et le traitement des délinquants coordonne les efforts faits par les spécialistes pour promouvoir la coopération et la collaboration actives des gouvernements, des universitaires et des institutions, ainsi que des organismes professionnels et scientifiques et des experts en matière de prévention du crime et de justice pénale,</p>
+      </container>
+      <container name="Gardant à l’esprit" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Gardant à l’esprit</span> le Plan d’action de l’Union africaine sur la lutte contre la drogue et la prévention de la criminalité (2019-2023), qui a pour but d’encourager les États membres à participer aux initiatives régionales visant à prévenir efficacement la criminalité, à améliorer la gouvernance et à renforcer l’administration de la justice, et à se les approprier,</p>
+      </container>
+      <container name="Consciente" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> qu’il importe de promouvoir le développement durable pour compléter les stratégies de prévention du crime,</p>
+      </container>
+      <container name="Soulignant" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> qu’il est nécessaire de fédérer tous les partenaires pour mettre en place des politiques efficaces de prévention du crime,</p>
+      </container>
+      <container name="Rappelant" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> la réalisation, dans l’attente d’un examen global à l’échelle du système, d’une étude diagnostique préliminaire par un consultant de la Commission économique pour l’Afrique qui montre l’importance de l’Institut en tant que mécanisme viable de promotion de la coopération entre les entités compétentes aux fins de la lutte contre le problème de la criminalité qui accable l’Afrique,</p>
+      </container>
+      <container name="Se déclarant préoccupée" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Se déclarant préoccupée</span> par le fait que le poste de directeur de l’Institut n’a toujours pas été pourvu et notant l’importance cruciale de tels postes de haut niveau pour le fonctionnement normal de l’Institut,</p>
+      </container>
+      <container name="Notant avec préoccupation" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Notant avec préoccupation</span> que la situation financière de l’Institut a fortement compromis sa capacité de fournir efficacement tous les services voulus aux États Membres d’Afrique, et notant qu’une des conclusions de l’étude diagnostique préliminaire est que l’Institut doit de toute urgence accroître ses revenus,</p>
+      </container>
+      <container name="Se félicitant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> que, comme suite à la décision qu’il a prise à Addis-Abeba le 18 février 2020 de remédier au déclin du soutien financier apporté aux programmes de l’Institut, le Conseil d’administration de l’Institut s’efforce de mobiliser les États membres afin qu’ils s’engagent à prêter à l’Institut leur appui financier ou réaffirment leur engagement à cet égard,</p>
+      </container>
+      <container name="Rappelant" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> que l’insuffisance des financements, décrite en détail dans le rapport du Secrétaire général<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/73/133">A/73/133</a>.</p></authorialNote>, a fortement compromis la capacité de l’Institut de répondre aux besoins de la région, et consciente que la lutte contre la criminalité nécessite des ressources considérables,</p>
+      </container>
+      <container name="Sachant" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> que l’Institut est une composante essentielle du réseau du programme des Nations Unies pour la prévention du crime et la justice pénale et que, sans les fonds nécessaires, il ne pourra atteindre ses objectifs fondamentaux en matière de lutte contre le trafic de drogues, la cybercriminalité et la criminalité environnementale, entre autres défis à relever, ni remédier aux graves lacunes que présentent les systèmes judiciaires de la région ni forger des alliances efficaces et solides entre les forces de l’ordre, les organisations professionnelles, les établissements universitaires, les communautés, les experts et les autorités traditionnelles et civiles en vue de lutter en amont contre la criminalité,</p>
+      </container>
+      <container name="Remerciant" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Remerciant</span> les États Membres et les organisations qui ont continué d’honorer leurs obligations financières, comme ils s’y étaient engagés,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>	1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Félicite</span> l’Institut africain des Nations Unies pour la prévention du crime et le traitement des délinquants de l’action qu’il mène pour promouvoir les activités entrant dans le cadre de son mandat, les coordonner et les multiplier, notamment en ce qui concerne la coopération technique régionale ayant trait aux systèmes de prévention de la criminalité et de justice pénale en Afrique, malgré les contraintes financières qu’il connaît ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>	2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> la décision qu’a prise le Conseil d’administration de l’Institut d’adopter le plan stratégique pour la période 2017-2021 en vue de combattre la criminalité de façon intégrée en renforçant les capacités nationales en matière de prévention du crime et de justice pénale, et demande aux États Membres, notamment ceux qui sont membres de l’Institut, ainsi qu’à tous les organismes des Nations Unies et organisations non gouvernementales concernés, de prêter l’appui nécessaire à sa pleine mise en œuvre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>	3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> des progrès accomplis par les États d’Afrique dans l’exécution du Plan d’action de l’Union africaine sur la lutte contre la drogue et la prévention de la criminalité (2019-2023) et du mécanisme de mise en œuvre, de suivi et d’évaluation du Plan d’action ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>	4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à faire mieux connaître les travaux que mène l’Institut et leur importance pour la bonne mise en œuvre du Programme de développement durable à l’horizon 2030<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>	5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’il faut renforcer encore les moyens dont dispose l’Institut pour appuyer les mécanismes de prévention de la criminalité et de justice pénale des pays d’Afrique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>	6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme également</span> qu’il peut dans certains cas être utile de recourir, selon les besoins, à d’autres types de mesures correctives, en se conformant à la déontologie et en se fondant sur les traditions locales, l’accompagnement psychologique et d’autres nouvelles méthodes de réadaptation des délinquants, dans le respect des obligations que le droit international impose aux États ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>	7.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> que l’Institut s’emploie à établir des contacts avec les organisations nationales qui privilégient les programmes de prévention du crime et entretient des liens étroits avec des entités politiques régionales et sous-régionales, telles que la Commission de l’Union africaine, la Communauté d’Afrique de l’Est, la Commission de la Communauté économique des États de l’Afrique de l’Ouest, l’Autorité intergouvernementale pour le développement et la Communauté de développement de l’Afrique australe ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>	8.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> l’Institut, agissant en collaboration avec les organismes des Nations Unies compétents, à associer à l’élaboration de ses stratégies de prévention de la criminalité les différents organes de planification de la région qui s’emploient à coordonner les activités favorisant un développement fondé sur la viabilité de la production agricole et la protection de l’environnement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <num>	9.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États membres de l’Institut qui ne se sont pas acquittés de leurs contributions financières annuelles à l’Institut à verser la totalité ou une partie de leurs arriérés, sachant que les États membres doivent financer 80 pour cent du budget approuvé, et, à cet égard, engage tous les États membres et organisations à honorer pleinement leurs obligations financières ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <content eId="para_29__content">
+          <p xml:space="preserve">	10	<span class="italic">Rappelle</span> que l’Institut a pris l’initiative d’instaurer un système de partage des coûts afférents aux différents programmes qu’il met en œuvre avec les États Membres, ses partenaires et les entités des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>	11.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> tous les États Membres et les organisations non gouvernementales, ainsi que la communauté internationale, à continuer d’adopter des mesures pratiques concrètes pour aider l’Institut à se doter des capacités requises et à mettre en œuvre ses programmes et activités visant à renforcer les systèmes de prévention de la criminalité et de justice pénale en Afrique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <num>	12.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> tous les États qui ne l’ont pas encore fait à envisager de ratifier la Convention des Nations Unies contre la criminalité transnationale organisée et les Protocoles s’y rapportant<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 2225, 2237, 2241 et 2326, n<sup>o</sup> 39574.</p></authorialNote>, ainsi que la Convention des Nations Unies contre la corruption<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid., vol. 2349, n<sup>o</sup> 42146.</p></authorialNote>, ou d’y adhérer, et engage les États parties qui n’ont pas encore mis en œuvre les conventions à informer l’Office des Nations Unies contre la drogue et le crime de tous obstacles auxquels ils se heurtent en la matière et de toute assistance technique dont ils auraient besoin pour les surmonter ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>	13.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États d’Afrique qui ne sont pas encore membres de l’Institut à envisager de le devenir en vue d’appuyer son action collective, de gagner plus de soutiens à sa cause et de renforcer ainsi la lutte contre la criminalité et le terrorisme, qui entravent l’action menée sur le continent à titre individuel et collectif en faveur du développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <num>	14.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de l’appui que le Gouvernement ougandais continue d’apporter en tant que pays hôte, notamment pour ce qui est de régler la question de la propriété du terrain sur lequel est situé l’Institut et de faciliter la collaboration de l’Institut avec d’autres parties prenantes se trouvant en Ouganda ou dans la région et des partenaires internationaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>	15.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite également</span> des efforts déployés par l’Institut pour mettre en place dans la région plusieurs programmes qui ont notamment contribué à l’adoption d’un ensemble de plus en plus large de mesures correctives coordonnées de lutte contre la criminalité, sur la base d’un appui technique facilitant l’entraide judiciaire entre les organismes de répression, et à l’émergence de juridictions régionales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>	16.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle </span>l’initiative prise par l’Institut de collaborer avec les universités pertinentes pour concrétiser le lien entre systèmes de justice pénale et systèmes de justice traditionnelle, dans le but de systématiser, le cas échéant, le recours aux pratiques de justice réparatrice ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <num>	17.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle également </span>les initiatives prises par l’Institut en vue de travailler avec certains milieux universitaires et institutions spécialisées dans la défense des droits humains qui participent aux activités d’autres réseaux professionnels de la région afin de promouvoir des programmes d’enseignement dont la prévention du crime et la justice pénale constituent un volet important ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <num>	18.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> l’Institut à envisager de se pencher sur les points faibles en général et en particulier de chaque pays de programme, en s’employant spécifiquement à adapter les efforts de formation et de perfectionnement des professionnels pour remédier aux carences constatées, et à tirer le meilleur parti des initiatives visant à combattre les problèmes de criminalité au moyen des fonds et des capacités disponibles, en nouant des liens utiles avec les institutions régionales et locales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <num>	19.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à l’Office des Nations Unies contre la drogue et le crime de continuer à travailler en étroite collaboration avec l’Institut et demande à celui-ci de présenter à l’Office, ainsi qu’à la Conférence des ministres africains des finances, de la planification et du développement économique de la Commission économique pour l’Afrique, un rapport annuel sur ses activités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>	20.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de promouvoir plus vigoureusement la coopération, la coordination et la collaboration régionales dans le domaine de la lutte contre la criminalité, en particulier la criminalité transnationale, à laquelle on ne peut s’attaquer efficacement en agissant seulement au niveau national ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>	21.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Réitère</span> la demande qu’elle a adressée au Secrétaire général dans sa résolution <a href="https://undocs.org/fr/A/RES/73/188">73/188</a> de continuer, en tenant compte du plan stratégique de l’Institut pour la période 2017-2021, de s’employer à mobiliser les ressources financières nécessaires afin que l’Institut dispose des administrateurs permanents dont il a besoin pour s’acquitter efficacement de ses obligations statutaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>	22.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Réitère également</span> la demande qu’elle a adressée au Secrétaire général dans sa résolution <a href="https://undocs.org/fr/A/RES/73/188">73/188</a> de redoubler d’efforts pour mobiliser toutes les entités compétentes des Nations Unies afin qu’elles apportent à l’Institut l’appui financier et technique dont il a besoin pour s’acquitter de son mandat, sachant que la précarité de sa situation financière compromet fortement sa capacité de répondre favorablement et efficacement aux besoins croissants en matière de prévention du crime et de traitement des délinquants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <num>	23.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres et les autres partenaires à envisager de fournir des ressources extrabudgétaires pour permettre à l’Institut de s’acquitter efficacement de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <num>	24.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de lui présenter, à sa soixante-dix-septième session, un rapport sur l’application de la présente résolution, assorti de recommandations sur les moyens de renforcer encore les capacités de l’Institut.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="46e">46e séance plénière</inline>
+        <eol />
+        <docDate date="2020-12-16" refersTo="#adoptionDate">16 décembre 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
