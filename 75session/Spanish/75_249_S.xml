@@ -1,0 +1,489 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/"></FRBRuri>
+          <FRBRdate date="2020-12-31" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@/"></FRBRuri>
+          <FRBRdate date="2021-01-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-30" outcome="draftResolution" as="A/C.5/75/L.16" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/680" by="" refersTo="6" />
+        <step date="2020-12-31" outcome="adopted" as="A/75/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="Quinta Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-00057 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/249</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-01-08" class="rightSmall" refersTo="#dateOfIssuance">8 de enero de 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Septuagésimo quinto período de sesiones</session>
+      </p>
+      <p>
+        <inline name="agenda item">Tema 153 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Financiación del Mecanismo Residual Internacional de los Tribunales Penales</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 31 de diciembre de 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[sobre la base del informe de la Quinta Comisión (<inline name="originating document">A/75/680, párr. 6</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/249.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Financiación del Mecanismo Residual Internacional de los Tribunales Penales</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Habiendo examinado" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Habiendo examinado</span> los informes del Secretario General sobre el proyecto de presupuesto del Mecanismo Residual Internacional de los Tribunales Penales para 2021<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/75/383">A/75/383</a>. </p></authorialNote> y sobre las estimaciones revisadas resultantes del efecto de las variaciones de los tipos de cambio y las tasas de inflación<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/75/639">A/75/639</a>. </p></authorialNote>, el informe financiero y estados financieros auditados correspondientes al ejercicio terminado el 31 de diciembre de 2019 e informe de la Junta de Auditores sobre el Mecanismo Residual Internacional de los Tribunales Penales<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo quinto período de sesiones, suplemento núm. 5O</span> (<a href="https://undocs.org/es/A/75/5/Add.15">A/75/5/Add.15</a>). </p></authorialNote> y las recomendaciones que figuran en él, así como los informes conexos de la Comisión Consultiva en Asuntos Administrativos y de Presupuesto<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	A/75/632 y <a href="https://undocs.org/es/A/75/647">A/75/647</a>. </p></authorialNote>, </p>
+      </container>
+      <container name="Recordando" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> su resolución <a href="https://undocs.org/es/A/RES/66/240">66/240</a> A, de 24 de diciembre de 2011, relativa a la financiación del Mecanismo Residual Internacional de los Tribunales Penales, y sus resoluciones posteriores sobre la cuestión, la más reciente de las cuales es la resolución <a href="https://undocs.org/es/A/RES/74/259">74/259</a>, de 27 de diciembre de 2019, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> de los informes del Secretario General sobre el proyecto de presupuesto del Mecanismo Residual Internacional de los Tribunales Penales para 2021 y sobre las estimaciones revisadas resultantes del efecto de las variaciones de los tipos de cambio y las tasas de inflación; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">Hace suyas</span> las conclusiones y recomendaciones que figuran en los informes de la Comisión Consultiva, con sujeción a lo dispuesto en la presente resolución; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que vele por que el Mecanismo haga todo lo posible por concluir prontamente su labor restante y que en la próxima propuesta presupuestaria informe sobre las medidas concretas adoptadas a este respecto; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Solicita también</span> al Secretario General que realice un examen amplio de los recursos relacionados con puestos y no relacionados con puestos, incluidas las necesidades de plazas de personal temporario general en todo el Mecanismo, y que refleje las conclusiones de ese examen en la próxima solicitud presupuestaria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Solicita además</span> al Secretario General que prosiga sus esfuerzos por promover la conversión de plazas en plazas de contratación nacional, según proceda, y que informe al respecto en el contexto de su próxima propuesta presupuestaria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que vele por que el Mecanismo tome todas las medidas necesarias para concluir prontamente su la labor restante, incluso aprovechando en mayor medida las enseñanzas extraídas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> al Mecanismo a que tome todas las medidas necesarias para mejorar sus procedimientos de planificación de viajes, incluido el cumplimiento de la directiva sobre la política de compra anticipada de pasajes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> al Secretario General a que estudie posibles opciones para fomentar el uso por el Mecanismo de las reuniones virtuales y las herramientas de capacitación en línea, según proceda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> la importancia de que el Mecanismo se atenga estrictamente a su Estatuto y a los correspondientes procedimientos administrativos establecidos, al Reglamento Financiero y Reglamentación Financiera Detallada de las Naciones Unidas<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	ST/SGB/2013/4 y <a href="https://undocs.org/es/ST/SGB/2013/4/Amend.1">ST/SGB/2013/4/Amend.1</a>.</p></authorialNote>, y al Estatuto y Reglamento del Personal de las Naciones Unidas<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	<a href="https://undocs.org/es/ST/SGB/2018/1">ST/SGB/2018/1</a>.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Aprueba</span> la creación de una plaza de personal temporario general con los recursos disponibles; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> consignar en la cuenta especial para el Mecanismo Residual Internacional de los Tribunales Penales un total de 97.519.900 dólares de los Estados Unidos en cifras brutas (88.431.800 dólares en cifras netas) para 2021, según se detalla en el anexo de la presente resolución; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Decide también</span> que la suma total sujeta a prorrateo para 2021 en relación con la cuenta especial asciende a 87.435.236 dólares y consiste en: </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <content eId="para_16__content">
+          <p xml:space="preserve">	a)	97.519.900 dólares, que es la consignación estimada aprobada para el ejercicio; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <content eId="para_17__content">
+          <p xml:space="preserve">	b)	Menos 6.818.000 dólares, que es el crédito por la cancelación de obligaciones de ejercicios anteriores correspondientes al bienio 2016-2017;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <content eId="para_18__content">
+          <p xml:space="preserve">	c)	Menos 3.266.664 dólares, que es el superávit resultante de los gastos finales correspondientes al presupuesto para el bienio 2018-2019; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Decide además</span> prorratear entre los Estados Miembros la suma de 43.717.618 dólares en cifras brutas (40.208.842 dólares en cifras netas) con arreglo a la escala de cuotas aplicable al presupuesto ordinario de las Naciones Unidas para 2021; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> prorratear entre los Estados Miembros la suma de 43.717.618 dólares en cifras brutas (40.208.842 dólares en cifras netas) con arreglo a la escala de cuotas aplicable a las operaciones de mantenimiento de la paz de las Naciones Unidas para 2021; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Decide también</span> que, de conformidad con lo dispuesto en su resolución <a href="https://undocs.org/es/A/RES/973(X)">973 (X)</a>, de 15 de diciembre de 1955, se deducirán de las sumas resultantes del prorrateo entre los Estados Miembros, indicadas en los párrafos 13 y 14, las partes que les correspondan en el Fondo de Nivelación de Impuestos del monto estimado de los ingresos en concepto de contribuciones del personal, que asciende a 7.017.552 dólares, aprobado para el Mecanismo para 2021. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="48a">48a sesión plenaria (continuación)</inline>
+        <eol />
+        <docDate date="2020-12-31" refersTo="#adoptionDate">31 de diciembre de 2020</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/"></FRBRuri>
+                <FRBRdate date="2020-12-31" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@/"></FRBRuri>
+                <FRBRdate date="2021-01-08" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="spa"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-249/spa@.xml"></FRBRuri>
+                <FRBRdate date="2021-01-23" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+        <paragraph eId="para_24" class="H1">
+          <content eId="para_24__content">
+            <p xml:space="preserve">
+              <span class="bold">		Financiación del Mecanismo Residual Internacional de los Tribunales Penales</span>
+            </p>
+          </content>
+        </paragraph>
+        <container name="table" eId="container_25">
+          <table eId="container_25_table_1" akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Right&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Bottom&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Left&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideHorizontal&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideVertical&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0}}" akn4un:data-width-type="7463-dxa">
+            <tr>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left"></th>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>
+                  <span class="italic">Cifras brutas</span>
+                </p>
+              </th>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>
+                  <span class="italic">Deducidas  las contribuciones del personal</span>
+                </p>
+              </th>
+            </tr>
+            <tr>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left"></th>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" colspan="2" akn4un:data-width-type="2880-dxa" akn4un:data-justification="Center">
+                <p>
+                  <span class="italic">(Dólares de los EE. UU.)</span>
+                </p>
+              </th>
+            </tr>
+            <tr>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left"></th>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right"></th>
+              <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right"></th>
+            </tr>
+            <tr>
+              <td akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Consignación estimada para 2021<span class="italic"><sup>a</sup></span></p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>97 194 000 </p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>88 029 600 </p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Estimaciones revisadas: efecto de las variaciones de los tipos de cambio y las tasas de inflación<span class="italic"><sup>b</sup></span></p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>5 471 700 </p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>4 977 600 </p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Recomendaciones de la Comisión Consultiva en Asuntos Administrativos y de Presupuesto<span class="italic"><sup>c</sup></span></p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>(5 145 800)</p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>(4 575 400)</p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Recomendaciones de la Quinta Comisión</p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>–</p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>–</p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>
+                  <span class="bold">Consignación inicial estimada para 2021</span>
+                </p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>
+                  <span class="bold">97 519 900 </span>
+                </p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>
+                  <span class="bold">88 431 800 </span>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>
+                  <span class="bold">Suma total sujeta a prorrateo para 2021</span>
+                </p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right"></td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right"></td>
+            </tr>
+            <tr>
+              <td akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Necesidades de recursos para 2021</p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>97 519 900 </p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>88 431 800 </p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Cancelación de compromisos para el bienio 2016-2017 </p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>(6 818 000)</p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>(6 818 000)</p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Superávit resultante de los gastos finales correspondientes  al presupuesto para el bienio 2018-2019</p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>(3 266 664)</p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>(1 196 116)</p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>
+                  <span class="bold">Contribuciones netas prorrateadas entre los Estados Miembros para 2021</span>
+                </p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>
+                  <span class="bold">87 435 236 </span>
+                </p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>
+                  <span class="bold">80 417 684 </span>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>
+                  <span class="italic">Incluyen</span>:</p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right"></td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right"></td>
+            </tr>
+            <tr>
+              <td akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Contribuciones prorrateadas entre los Estados Miembros  con arreglo a la escala de cuotas aplicable al presupuesto ordinario de las Naciones Unidas para 2021</p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>43 717 618 </p>
+              </td>
+              <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>40 208 842 </p>
+              </td>
+            </tr>
+            <tr>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="center" akn4un:data-width-type="4583-dxa" akn4un:data-justification="Left">
+                <p>Contribuciones prorrateadas entre los Estados Miembros con arreglo a la escala de cuotas aplicable a las operaciones de mantenimiento de la paz de las Naciones Unidas para 2021</p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>43 717 618 </p>
+              </td>
+              <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1440-dxa" akn4un:data-justification="Right">
+                <p>40 208 842</p>
+              </td>
+            </tr>
+          </table>
+        </container>
+        <paragraph eId="para_26" class="FootnoteText">
+          <content eId="para_26__content">
+            <p xml:space="preserve">	<span class="italic"><sup>a</sup></span> 	Véase <a href="https://undocs.org/es/A/75/383">A/75/383</a>.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_27" class="FootnoteText">
+          <content eId="para_27__content">
+            <p xml:space="preserve">	<span class="italic"><sup>b</sup></span> 	Véase <a href="https://undocs.org/es/A/75/639">A/75/639</a>.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_28" class="FootnoteText">
+          <content eId="para_28__content">
+            <p xml:space="preserve">	<span class="italic"><sup>c</sup></span>	Después del ajuste. </p>
+          </content>
+        </paragraph>
+          </mainBody>
+      </doc>
+    </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
