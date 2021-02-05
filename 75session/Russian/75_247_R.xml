@@ -1,0 +1,307 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/"></FRBRuri>
+          <FRBRdate date="2020-12-31" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/rus@/"></FRBRuri>
+          <FRBRdate date="2021-01-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/rus@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-30" outcome="draftResolution" as="A/C.5/75/L.13" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/671" by="" refersTo="6" />
+        <step date="2020-12-31" outcome="adopted" as="A/75/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="Пятый комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-00054 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/247</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-01-07" class="rightSmall" refersTo="#dateOfIssuance">7 January 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Семьдесят пятая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item"></inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 31 декабря 2020 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[по докладу Пятого комитета (<inline name="originating document">A/75/671, пункт 6</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/247.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Доклад о деятельности Управления служб внутреннего надзора</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+    </preamble>
+    <mainBody>
+    <section>
+      <subheading>		I Деятельность Управления служб внутреннего надзора</subheading>
+      <crossHeading refersTo="#preamble" eId="preamble_3">
+        <span class="italic">ссылаясь</span> на свои резолюции <a href="https://undocs.org/ru/A/RES/48/218b">48/218</a> B от 29 июля 1994 года, <a href="https://undocs.org/ru/A/RES/54/244">54/244</a> от 23 декабря 1999 года, <a href="https://undocs.org/ru/A/RES/59/272">59/272</a> от 23 декабря 2004 года, <a href="https://undocs.org/ru/A/RES/60/259">60/259</a> от 8 мая 2006 года, <a href="https://undocs.org/ru/A/RES/63/265">63/265</a> от 24 декабря 2008 года, <a href="https://undocs.org/ru/A/RES/64/232">64/232</a> от 22 декабря 2009 года, <a href="https://undocs.org/ru/A/RES/64/263">64/263</a> от 29 марта 2010 года, <a href="https://undocs.org/ru/A/RES/65/250">65/250</a> от 24 декабря 2010 года, <a href="https://undocs.org/ru/A/RES/66/236">66/236</a> от 24 декабря 2011 года, <a href="https://undocs.org/ru/A/RES/67/258">67/258</a> от 12 апреля 2013 года, <a href="https://undocs.org/ru/A/RES/68/21">68/21</a> от 4 декабря 2013 года, <a href="https://undocs.org/ru/A/RES/69/252">69/252</a> и <a href="https://undocs.org/ru/A/RES/69/253">69/253</a> от 29 декабря 2014 года, <a href="https://undocs.org/ru/A/RES/70/111">70/111</a> от 14 декабря 2015 года, <a href="https://undocs.org/ru/A/RES/71/7">71/7</a> от 27 октября 2016 года, <a href="https://undocs.org/ru/A/RES/72/18">72/18</a> от 1 декабря 2017 года, <a href="https://undocs.org/ru/A/RES/73/275">73/275</a> от 22 декабря 2018 года и <a href="https://undocs.org/ru/A/RES/74/256">74/256</a> от 27 декабря 2019 года,</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_4">
+        <span class="italic">рассмотрев</span> доклад Управления служб внутреннего надзора о его деятельности за период с 1 июля 2019 года по 30 июня 2020 года<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/301 (Part I)">A/75/301 (Part I)</a> и <a href="https://undocs.org/ru/A/75/301 (Part I)/Add.1">A/75/301 (Part I)/Add.1</a>.</p></authorialNote>,</crossHeading>
+      <paragraph eId="para_5" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> свою ведущую роль в рассмотрении представляемых ей докладов и принятии соответствующих мер по ним;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает также</span> свою надзорную роль и роль Пятого комитета в административных и бюджетных вопросах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает далее</span> независимость и отдельные и различные роли внутренних и внешних надзорных механизмов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> важные роли и оперативную независимость надзорных органов, в том числе Управления служб внутреннего надзора Секретариата, в содействии повышению эффективности и транспарентности работы Организации и усилению подотчетности в ней; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>о том, что Управление при выполнении своих функций внутреннего надзора пользуется оперативной независимостью и действует под руководством Генерального секретаря, согласно соответствующим резолюциям;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>оперативную независимость Управления, подчеркивает, что его независимость и объективность крайне важны в деле обеспечения авторитетного и беспристрастного выполнения им функций внутреннего надзора исходя из фактов, и подтверждает, что Управление уполномочено предпринимать и осуществлять любые действия для выполнения своих функций по проведению внутренней ревизии, инспекций и оценок, а также расследований и сообщать о них;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря обеспечивать, чтобы в годовые доклады Управления и далее включалось краткое описание всех случаев, когда подрывается его независимость; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> внутренним и внешним надзорным органам Организации Объединенных Наций добиваться дальнейшего расширения сотрудничества между собой, в частности посредством проведения совместных заседаний, посвященных планированию работы, без ущерба для независимости каждого из них;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что Комиссия ревизоров и Объединенная инспекционная группа должны по‑прежнему получать экземпляры всех докладов Управления, и просит, чтобы эти доклады предоставлялись в течение одного месяца с момента их подготовки; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Управления служб внутреннего надзора о его деятельности за период с 1 июля 2019 года по 30 июня 2020 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря обеспечивать, чтобы все соответствующие резолюции, касающиеся работы Управления, доводились до сведения соответствующих руководителей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> Генерального секретаря обеспечивать, чтобы все соответствующие резолюции, включая резолюции сквозного характера, доводились до сведения соответствующих руководителей и чтобы Управление также учитывало эти резолюции при осуществлении своей деятельности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>усилия Управления, направленные на улучшение показателей выполнения Организацией его рекомендаций, в том числе расширение взаимодействия со структурами в деле осуществления рекомендаций, остающихся невыполненными на протяжении длительного времени, и вынесение более четких рекомендаций с упором на выполнение, и рекомендует Управлению продолжать повышать выполнимость рекомендаций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> пересмотр Управлением подхода к рекомендациям и просит Генерального секретаря продолжать расширять усилия по обеспечению оперативного, своевременного и полного выполнения принятых рекомендаций Управления, в том числе рекомендаций, касающихся механизмов подотчетности, экономии на расходах, взыскания переплаченных средств, усовершенствования технологий, повышения организационной результативности и эффективности и других улучшений, и давать подробные обоснования в тех случаях, когда рекомендации Управления не принимаются;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечает</span>, что по-прежнему наблюдаются задержки с выполнением рекомендаций Управления, и просит Генерального секретаря оперативно осуществить еще не выполненные и критически важные рекомендации Управления;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> неустанные усилия Управления по содействию проведению Организацией политики абсолютной нетерпимости к мошенничеству, коррупции, домогательствам на сексуальной почве, сексуальной эксплуатации и сексуальным надругательствам и принятые в этой связи меры, включая создание специализированной группы для расследования жалоб на сексуальные домогательства и введение процедуры принятия мер по таким жалобам, и с удовлетворением отмечает также прилагаемые усилия по укреплению потенциала Управления в области проведения расследований в свете необходимости уменьшения средних затрат времени на проведение растущего числа расследований различных видов неправомерного поведения, включая случаи сексуальных домогательств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает</span> усилия Управления по сокращению средних затрат времени на проведение расследований и рекомендует Управлению продолжать сокращать средние затраты времени на проведение расследований в целях соблюдения соответствующих сроков, предписанных Управлением в его моделях путей воздействия программ, и вновь сообщить о мерах, принятых в этой связи, в его следующем докладе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>влияние пандемии коронавирусного заболевания (COVID‑19), в частности ограничений на поездки и передвижение, на способность Управления проводить расследования, рекомендует Управлению укрепить его потенциал в других областях для восполнения любых пробелов, возникших в результате пандемии, и просит Управление представить в его следующем докладе информацию о непосредственном влиянии пандемии на его способность проводить полноценные расследования;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Управлению и впредь обеспечивать надзор посредством проведения проверок и расследований в миротворческих миссиях Организации Объединенных Наций, которые завершают свою деятельность, и представить информацию по этому вопросу в его следующем докладе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> высокую степень риска, присущую закупочной деятельности Организации Объединенных Наций, и просит Генерального секретаря поручить Управлению уделять больше внимания мониторингу такой деятельности, в том числе оценке применения существующей в Организации практики в отношении ограничений на трудоустройство после увольнения сотрудников, участвующих в процессе закупок, и санкций за их несоблюдение, а также представить информацию по этому вопросу вместе с соответствующим докладом Генерального секретаря о закупочной деятельности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>усилия Управления по сокращению числа вакантных должностей и достигнутый им в этой области прогресс и просит Генерального секретаря продолжать делать все возможное для заполнения остающихся вакансий и обеспечивать удержание персонала, в частности в Отделе инспекции и оценки, согласно статье 101 Устава Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+    </section>
+    <section>
+      <subheading>		II Деятельность Независимого консультативного комитета по ревизии</subheading>
+      <crossHeading refersTo="#preamble" eId="preamble_27">
+        <span class="italic">ссылаясь</span> на свои резолюции <a href="https://undocs.org/ru/A/RES/61/275">61/275</a> от 29 июня 2007 года, <a href="https://undocs.org/ru/A/RES/64/263">64/263</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/65/250">65/250</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/66/236">66/236</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/67/258">67/258</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/68/21">68/21</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/69/252">69/252</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/70/111">70/111</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/71/7">71/7</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/72/18">72/18</a>, раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/73/275">73/275</a> и раздел II своей резолюции <a href="https://undocs.org/ru/A/RES/74/256">74/256</a>,</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_28">
+        <span class="italic">рассмотрев</span> доклад Независимого консультативного комитета по ревизии о его деятельности за период с 1 августа 2019 года по 31 июля 2020 года<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/293">A/75/293</a>.</p></authorialNote>,</crossHeading>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> работу Независимого консультативного комитета по ревизии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> круг ведения Комитета, определенный в приложении к ее резолюции <a href="https://undocs.org/ru/A/RES/61/275">61/275</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">одобряет</span> замечания, комментарии и рекомендации, содержащиеся в докладе Комитета;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>Комитету и далее консультироваться со всеми соответствующими органами в рамках Организации Объединенных Наций, в том числе в отношении выполнения его рекомендаций, в надлежащих случаях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>Комитету продолжить изучение вопроса об оперативной независимости Управления, в том числе в аспектах, связанных с бюджетом.</p>
+        </content>
+      </paragraph>
+    </section>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="48-e">48-e (возобновленное) пленарное заседание</inline>
+        <eol />
+        <docDate date="2020-12-31" refersTo="#adoptionDate">31 декабря 2020 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
