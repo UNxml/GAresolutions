@@ -1,0 +1,311 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/"></FRBRuri>
+          <FRBRdate date="2020-12-31" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/zho@/"></FRBRuri>
+          <FRBRdate date="2021-01-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-247/zho@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-30" outcome="draftResolution" as="A/C.5/75/L.13" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/671" by="" refersTo="6" />
+        <step date="2020-12-31" outcome="adopted" as="A/75/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="第五委员会"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-00054 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/247</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-01-07" class="rightSmall" refersTo="#dateOfIssuance">7 January 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">第七十五届会议</session>
+      </p>
+      <p>
+        <inline name="agenda item">议程项目139和151</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">审查联合国行政和财政业务效率</inline>
+      </p>
+      <p>
+        <docTitle>2020年12月31日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[根据第五委员会的报告 (<inline name="originating document">A/75/671，第6段</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/247.</docNumber>
+        <docTitle refersTo="#resolutionTitle">关于内部监督事务厅活动的报告</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+    </preamble>
+    <mainBody>
+    <section>
+      <subheading>		一 内部监督事务厅的活动</subheading>
+      <crossHeading refersTo="#preamble" eId="preamble_3">
+        <span class="bold">回顾</span>其1994年7月29日第<a href="https://undocs.org/ch/A/RES/48/218B">48/218</a> B号、1999年12月23日第<a href="https://undocs.org/ch/A/RES/54/244">54/244</a>号、2004年12月23日第<a href="https://undocs.org/ch/A/RES/59/272">59/272</a>号、2006年5月8日第<a href="https://undocs.org/ch/A/RES/60/259">60/259</a>号、2008年12月24日第<a href="https://undocs.org/ch/A/RES/63/265">63/265</a>号、2009年12月22日第<a href="https://undocs.org/ch/A/RES/64/232">64/232</a>号、2010年3月29日第<a href="https://undocs.org/ch/A/RES/64/263">64/263</a>号、2010年12月24日第<a href="https://undocs.org/ch/A/RES/65/250">65/250</a>号、2011年12月24日第<a href="https://undocs.org/ch/A/RES/66/236">66/236</a>号、2013年4月12日第<a href="https://undocs.org/ch/A/RES/67/258">67/258</a>号、2013年12月4日第<a href="https://undocs.org/ch/A/RES/68/21">68/21</a>号、2014年12月29日第<a href="https://undocs.org/ch/A/RES/69/252">69/252</a>和<a href="https://undocs.org/ch/A/RES/69/253">69/253</a>号、2015年12月14日第<a href="https://undocs.org/ch/A/RES/70/111">70/111</a>号、2016年10月27日第<a href="https://undocs.org/ch/A/RES/71/7">71/7</a>号、2017年12月1日第<a href="https://undocs.org/ch/A/RES/72/18">72/18</a>号、2018年12月22日第<a href="https://undocs.org/ch/A/RES/73/275">73/275</a>号和2019年12月27日第<a href="https://undocs.org/ch/A/RES/74/256">74/256</a>号决议，</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_4">
+        <span class="bold">审议了</span>内部监督事务厅关于其2019年7月1日至2020年6月30日期间活动的报告，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/301(PartI)">A/75/301 (Part I)</a>和<a href="https://undocs.org/ch/A/75/301(PartI)/Add.1">A/75/301(Part I)/Add.1</a>。</p></authorialNote></crossHeading>
+      <paragraph eId="para_5" class="MercuryDocument">
+        <num>	1.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>大会在审议向其提交的报告并就此类报告采取行动方面所起的首要作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="MercuryDocument">
+        <num>	2.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="bold">又重申</span>在行政和预算事项上大会的监督作用以及第五委员会的作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>	3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="bold">还重申</span>内部和外部监督机制的独立性及各自的独特作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <num>	4.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>包括秘书处内部监督事务厅在内的监督机构在促进改进本组织效力、透明度和问责制方面的重要作用和业务独立性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="MercuryDocument">
+        <num>	5.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>根据相关决议，监督厅应在秘书长领导下，在履行其内部监督职能方面具有业务独立性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>	6.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>监督厅业务独立性，强调指出，监督厅独立性和客观性对于确保以有公信力、真实和不偏不倚的方式履行其内部监督职能至关重要，并重申监督厅有权启动、开展和报告任何行动，以履行其内部审计、检查和评价以及调查责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>	7.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长确保监督厅的年度报告继续简要说明其独立性受到的任何损害；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>	8.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合国内部和外部监督机构在不损害各自独立性的情况下，通过举行联席工作规划会议等途径，进一步提高相互合作水平；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>	9.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>应继续向审计委员会和联合检查组提供监督厅编写的所有报告的副本，要求在这些报告定稿后一个月内提供副本；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>	10.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>内部监督事务厅关于其2019年7月1日至2020年6月30日期间活动的报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>	11.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长确保提请有关主管注意有关监督厅工作的所有相关决议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>	12.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>秘书长确保提请有关主管注意所有相关决议，包括涉及共有问题的决议，并确保监督厅在开展活动时也考虑这些决议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>	13.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>监督厅努力改进本组织执行其建议的情况，包括就长期未执行的建议加强与各实体的接触，提出着眼于执行的更明确的建议，并鼓励监督厅继续提出较可采取行动的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>	14.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>监督厅对建议采取审查做法，请秘书长继续加紧努力，确保迅速及时地充分执行已获接受的监督厅建议，包括关于问责机制、节省费用、追回多付款项、技术改进、组织效率和效力及作出其他改进的建议，如果监督厅的建议未获接受，则详细说明理由；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>	15.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">关切地注意到</span>在执行监督厅各项建议方面仍然存在延误，并请秘书长及时执行尚未执行的监督厅关键建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>	16.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>监督厅继续努力促进本组织对欺诈、腐败、性骚扰以及性剥削和性虐待采取零容忍做法，欢迎在这方面采取的行动，包括成立一个专门小组调查性骚扰投诉和执行处理这类投诉的程序，并欢迎在需要缩短完成对包括性骚扰案件在内的数量不断增加的各类不当行为的调查平均所需时间的情况下，努力加强监督厅的调查能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>	17.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="bold">赞赏</span>监督厅缩短了完成调查平均所需时间，鼓励监督厅继续缩短完成调查平均所需时间，以遵守监督厅在其方案影响途径中规定的相关时限，并在下次报告中继续报告在这方面采取的措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>	18.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>2019冠状病毒病大流行、特别是旅行和行动限制措施对监督厅进行调查的能力产生影响，鼓励监督厅加强其其他能力，以减少大流行造成的任何欠缺，并请监督厅在下次报告中提供信息，说明大流行对其充分开展调查的能力的直接影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>	19.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>监督厅继续确保通过审计和调查对即将结束的联合国维持和平特派团进行监督，并在下次报告中报告有关情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>	20.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">认识到</span>联合国采购活动内在的高风险，请秘书长责成监督厅加强对这类活动的监测，包括评价本组织内部关于曾参与采购程序工作人员离职后雇用限制的规定和关于制裁违规行为的规定执行情况和现行做法，并在秘书长关于采购的相关报告中报告有关情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>	21.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>监督厅在减少空缺员额数目方面作出的努力和取得的进展，请秘书长继续尽一切努力，根据《联合国宪章》第一百零一条，特别是在检查和评价司，填补剩余空缺员额，并确保留住工作人员；</p>
+        </content>
+      </paragraph>
+    </section>
+    <section>
+      <subheading>		二 独立审计咨询委员会的活动</subheading>
+      <crossHeading refersTo="#preamble" eId="preamble_27">
+        <span class="bold">回顾</span>其2007年6月29日第<a href="https://undocs.org/ch/A/RES/61/275">61/275</a>号决议、第<a href="https://undocs.org/ch/A/RES/64/263">64/263</a>号决议、第<a href="https://undocs.org/ch/A/RES/65/250">65/250</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/66/236">66/236</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/67/258">67/258</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/68/21">68/21</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/69/252">69/252</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/70/111">70/111</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/71/7">71/7</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/72/18">72/18</a>号决议第二节、第<a href="https://undocs.org/ch/A/RES/73/275">73/275</a>号决议第二节和第<a href="https://undocs.org/ch/A/RES/74/256">74/256</a>号决议第二节，</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_28">
+        <span class="bold">审议了</span>独立审计咨询委员会关于其2019年8月1日至2020年7月31日期间活动的报告，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/293">A/75/293</a>。</p></authorialNote></crossHeading>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>	1.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>独立审计咨询委员会的工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>	2.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">重申其</span>第<a href="https://undocs.org/ch/A/RES/61/275">61/275</a>号决议附件所载审咨委的职权范围；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <num>	3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="bold">认可</span>审咨委报告所载意见、评论和建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>	4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>审咨委继续酌情与联合国所有相关机构进行协商，包括就其建议执行情况进行协商。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <num>	5.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <span class="bold">	邀请</span>审咨委继续审查监督厅的业务独立性，包括在预算事项上的业务独立性。</p>
+        </content>
+      </paragraph>
+    </section>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第48次">第48次全体会议(续会)</inline>
+        <eol />
+        <docDate date="2020-12-31" refersTo="#adoptionDate">2020年12月31日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
