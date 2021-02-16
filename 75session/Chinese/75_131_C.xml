@@ -1,0 +1,235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/"></FRBRuri>
+          <FRBRdate date="2020-12-14" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/zho@/"></FRBRuri>
+          <FRBRdate date="2020-12-21" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/zho@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-07" outcome="draftResolution" as="A/75/L.47" by="Angola, Brazil, Chile, Colombia, Equatorial Guinea, Georgia, Japan, Mexico, Nigeria, Panama and Thailand" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Argentina, Australia, Austria, Bangladesh, Bhutan, Bolivia (Plurinational State of), Botswana, Bulgaria, Cabo Verde, Cameroon, Canada, Costa Rica, Croatia, Cyprus, Czechia, Côte d'Ivoire, Denmark, Dominican Republic, El Salvador, Estonia, Finland, France, Gabon, Germany, Greece, Guatemala, Guinea-Bissau, Honduras, India, Indonesia, Ireland, Israel, Italy, Latvia, Lebanon, Lithuania, Luxembourg, Malta, Monaco, Mongolia, Morocco, Namibia, Netherlands, Palau, Papua New Guinea, Peru, Philippines, Poland, Portugal, Qatar, Romania, Sao Tome and Principe, Senegal, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Trinidad and Tobago, Turkey, United Republic of Tanzania, Uruguay, Viet Nam and Zambia" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2020-12-14" outcome="adopted" as="A/75/PV.44" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="未经发交主要委员会而通过"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17080 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/131</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-21" class="rightSmall" refersTo="#dateOfIssuance">21 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">第七十五届会议</session>
+      </p>
+      <p>
+        <inline name="agenda item">议程项目131</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">全球卫生与外交政策</inline>
+      </p>
+      <p>
+        <docTitle>2020年12月14日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[未经发交主要委员会而通过 (<inline name="originating document">A/75/L.47和A/75/L.47/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/131.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国促进老龄健康十年(2021-2030)</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold">回顾</span>其2002年12月18日第<a href="https://undocs.org/ch/A/RES/57/167">57/167</a>号决议核可《政治宣言》和2002年《马德里老龄问题国际行动计划》，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		《第二次老龄问题世界大会的报告，2002年4月8日至12日，马德里》(联合国出版物，出售品编号：C.02.IV.4)，第一章，决议1，附件一和二。</p></authorialNote> 回顾其2003年12月22日第<a href="https://undocs.org/ch/A/RES/58/134">58/134</a>号决议除其他外表示注意到《马德里行动计划》执行路线图，并回顾其2005年12月16日第<a href="https://undocs.org/ch/A/RES/60/135">60/135</a>号、2006年12月19日第<a href="https://undocs.org/ch/A/RES/61/142">61/142</a>号、2007年12月18日第<a href="https://undocs.org/ch/A/RES/62/130">62/130</a>号、2008年12月18日第<a href="https://undocs.org/ch/A/RES/63/151">63/151</a>号、2009年12月18日第<a href="https://undocs.org/ch/A/RES/64/132">64/132</a>号、2010年12月21日第<a href="https://undocs.org/ch/A/RES/65/182">65/182</a>号、2011年12月19日第<a href="https://undocs.org/ch/A/RES/66/127">66/127</a>号、2012年12月20日第<a href="https://undocs.org/ch/A/RES/67/139">67/139</a>和<a href="https://undocs.org/ch/A/RES/67/143">67/143</a>号、2013年12月18日第<a href="https://undocs.org/ch/A/RES/68/134">68/134</a>号、2014年12月18日第<a href="https://undocs.org/ch/A/RES/69/146">69/146</a>号、2015年12月17日第<a href="https://undocs.org/ch/A/RES/70/164">70/164</a>号、2016年12月19日第<a href="https://undocs.org/ch/A/RES/71/164">71/164</a>号、2017年12月19日第<a href="https://undocs.org/ch/A/RES/72/144">72/144</a>号、2018年12月17日第<a href="https://undocs.org/ch/A/RES/73/143">73/143</a>号和2019年12月18日第<a href="https://undocs.org/ch/A/RES/74/125">74/125</a>号决议，</p>
+      </container>
+      <container name="又回顾" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold">	又回顾</span>大会在2015年9月25日题为“变革我们的世界：2030年可持续发展议程”的第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议中通过一套内容全面、意义深远、以人为中心、具有普遍性和变革性的可持续发展目标和具体目标，并承诺作出不懈努力，到2030年全面执行这一议程，强调指出需要确保在该议程的执行过程中考虑到老年人，以确保不让任何一个人掉队，</p>
+      </container>
+      <container name="重申其" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold">	重申其</span>关于宣布国际年的1998年12月15日第<a href="https://undocs.org/ch/A/RES/53/199">53/199</a>号和2006年12月20日第<a href="https://undocs.org/ch/A/RES/61/185">61/185</a>号决议，以及经济及社会理事会关于国际年和周年纪念的1980年7月25日第<a href="https://undocs.org/ch/E/RES/1980/67">1980/67</a>号决议，</p>
+      </container>
+      <container name="注意到" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold">	注意到</span>全球60岁或60岁以上人口预计将在2019年到2030年增长38%，从10亿增至14亿，超过全球青年人数，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		联合国，经济和社会事务部人口司，《世界人口展望：2019年订正本》。</p></authorialNote> 而发展中世界在这方面的增幅最大且增速最快，认识到需要更加关注影响老年人的具体挑战，并认识到需要促进和保护其人权和尊严，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>全民健康覆盖问题高级别会议于2019年9月23日在纽约举行，并重申其题为“全民健康覆盖：共同构建一个更加健康的世界”的政治宣言，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		第<a href="https://undocs.org/ch/A/RES/74/2">74/2</a>号决议。</p></authorialNote></p>
+      </container>
+      <container name="又回顾" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold">	又回顾</span>世界卫生大会关于老龄问题的各项决议，特别是2005年5月25日关于加强活跃健康地变老的第58.16号决议，<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		见世界卫生组织，WHA58/2005/REC/1号文件。</p></authorialNote> 其中强调指出，公共健康政策和方案在使人数快速增长的老年人保持健康并维持其对家庭、社区和社会福祉的诸多重大贡献方面发挥重要作用，回顾2016年5月29日题为“2016-2020年老龄与健康全球战略和行动计划：构建人人都能健康长寿的世界”的第69.3号决议，<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		见世界卫生组织，WHA69/2016/REC/1号文件。</p></authorialNote> 并回顾2020年8月3日世界卫生大会题为“2020-2030年促进老龄健康十年”的第73(12)号决定，<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		世界卫生组织，WHA73(12)号文件。</p></authorialNote></p>
+      </container>
+      <container name="强调" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold">	强调</span>需要在全世界促进老龄健康，特别是要改变我们对年龄和衰老的看法、感受和行为，确保社区提高老年人的能力，通过实施政策措施(包括宣传健康生活方式和健康基本知识以及推动职业安全和健康)在整个生命过程中弘扬健康理念，提供及时满足老年人需求的综合照护和初级医疗卫生服务，为有需求的老年人提供长期照护，</p>
+      </container>
+      <container name="又强调" eId="container_9">
+        <p xml:space="preserve">
+          <span class="bold">	又强调</span>需要为老年人提供在社会中积极参与和作出实质性贡献的机会，确保提供医疗卫生服务、教育和基本社会保障所必需的社会支出达到充足水平，并确保所有老年人都能过上有尊严的生活，</p>
+      </container>
+      <container name="认识到" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>冠状病毒病(COVID-19)大流行构成多方面的威胁，继续对民众、尤其是老年人等处境脆弱者的生存、生计和尊严造成过度影响，需要为此采取包容、对性别问题有敏感认识、注重预防的全面对策，以加强对所有人和所有社区的保护和赋权措施，</p>
+      </container>
+      <container name="又认识到" eId="container_11">
+        <p xml:space="preserve">
+          <span class="bold">	又认识到</span>老年人能够继续为社会运作和《2030年可持续发展议程》的执行工作作出重要贡献，还认识到确保老年人在充分有效享有人权和充分发挥自身潜力方面享有平等机会的重要性，</p>
+      </container>
+      <container name="表示关切" eId="container_12">
+        <p xml:space="preserve">
+          <span class="bold">	表示关切</span>尽管人口老龄化可以预测而且正在加速，但许多医疗卫生系统可能没有在应对迅速老龄化人口的需求方面做好充分准备，包括在具有增进健康、预防、治疗、康复和缓解作用的医疗保健以及在专科医疗保健和可持续提供长期照护方面的需求，以促进老龄健康，维持和改善老年人的生活质量，</p>
+      </container>
+      <container name="承认" eId="container_13">
+        <p xml:space="preserve">
+          <span class="bold">	承认</span>人口老龄化将继续影响社会各个方面，包括劳动力市场和金融市场、对商品和服务(例如教育、住房、医疗卫生、长期照护、社会保障、交通、信息和通信)的需求和代际关系，并着重指出多部门行动对老龄健康的重要性，</p>
+      </container>
+      <container name="认识到" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>残疾发生率随着年龄而上升，许多老年人身患残疾，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">
+            <span class="bold">决定</span>在现有结构和可用资源范围内，宣布2021-2030年为“联合国促进老龄健康十年”；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <span class="bold">欢迎</span>老龄健康十年提案，其中所载的一份工作方案包括供各国政府和其他利益攸关方酌情采用的自愿政策选项和战略，并注意到这是一份通过包容各方、持续和相互协作的进程拟定的动态文件； </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <span class="bold">促请</span>会员国和其他利益攸关方采取并加强行动，防止、监测和应对COVID-19大流行对老年人造成的过度影响，包括其在获得社会保障和医疗卫生服务方面面临的特别风险，并确保影响老年人医疗保健的决定尊重其尊严并促进其人权，包括享有能达到的最高标准身心健康的权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">
+            <span class="bold">认识到</span>老年人在不同领域面临与享有所有人权有关的挑战，以及应对这些挑战需要进行深入分析和为消除保护漏洞采取行动，促请所有国家通过将老年人的权利纳入可持续发展战略、城市政策和减贫战略的主流，促进和确保老年人充分享有所有人权和基本自由，包括为此逐步采取措施打击年龄歧视、忽视、虐待和暴力等行为以及消除社会孤立和孤独，提供社会保障、食物和住房、医疗保健服务、就业、法律能力和司法救助，并处理与社会融合和性别不平等有关的问题，同时铭记代际团结互助对于社会发展至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="bold">促请</span>世界卫生组织通过与秘书处经济和社会事务部、各区域委员会、联合国人口基金、联合国人权事务高级专员办事处、联合国开发计划署、联合国人类住区规划署(人居署)、联合国促进性别平等和增强妇女权能署(妇女署)和世界银行在各自任务范围内开展协作，牵头实施联合国促进老龄健康十年(2021-2030)，同时利用现有协调机制(例如在老龄问题机构间工作组的任务规定范围内对其加以利用)，并与其他相关国际及区域组织和平台协商；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">
+            <span class="bold">邀请</span>各国政府及包括国际和区域组织、民间社会、私营部门、学术界和媒体在内的其他相关利益攸关方积极支持实施联合国促进老龄健康十年(2021-2030)，包括为此酌情提供自愿捐助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">
+            <span class="bold">邀请</span>秘书长根据世界卫生组织拟在2023年、2026年和2029年汇编的三年期报告，向大会通报联合国促进老龄健康十年(2021-2030)的实施情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第44次">第44次全体会议</inline>
+        <eol />
+        <docDate date="2020-12-14" refersTo="#adoptionDate">2020年12月14日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
