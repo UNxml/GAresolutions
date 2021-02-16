@@ -1,0 +1,208 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/"></FRBRuri>
+          <FRBRdate date="2020-12-14" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/ara@/"></FRBRuri>
+          <FRBRdate date="2020-12-23" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/ara@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-07" outcome="draftResolution" as="A/75/L.47" by="Angola, Brazil, Chile, Colombia, Equatorial Guinea, Georgia, Japan, Mexico, Nigeria, Panama and Thailand" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Argentina, Australia, Austria, Bangladesh, Bhutan, Bolivia (Plurinational State of), Botswana, Bulgaria, Cabo Verde, Cameroon, Canada, Costa Rica, Croatia, Cyprus, Czechia, Côte d'Ivoire, Denmark, Dominican Republic, El Salvador, Estonia, Finland, France, Gabon, Germany, Greece, Guatemala, Guinea-Bissau, Honduras, India, Indonesia, Ireland, Israel, Italy, Latvia, Lebanon, Lithuania, Luxembourg, Malta, Monaco, Mongolia, Morocco, Namibia, Netherlands, Palau, Papua New Guinea, Peru, Philippines, Poland, Portugal, Qatar, Romania, Sao Tome and Principe, Senegal, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Trinidad and Tobago, Turkey, United Republic of Tanzania, Uruguay, Viet Nam and Zambia" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2020-12-14" outcome="adopted" as="A/75/PV.44" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="دون الإحالة إلى لجنة رئيسية"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17080 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/131</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-23" class="rightSmall" refersTo="#dateOfIssuance">23 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">الدورة الخامسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 131 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">الصحة العالمية والسياسة الخارجية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 14 كانون الأول/ديسمبر 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[دون الإحالة إلى لجنة رئيسية (<inline name="originating document">A/75/L.47 و A/75/L.47/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/131.</docNumber>
+        <docTitle refersTo="#resolutionTitle">-	عقد الأمم المتحدة للنهوض بالصحة في مرحلة الشيخوخة (2021-2030)</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تشير</span> إلى قرارها <a href="https://undocs.org/ar/A/RES/57/167">57/167</a> المؤرخ 18 كانون الأول/ديسمبر 2002، الذي أيدت فيه الإعلان السياسي وخطة عمل مدريد الدولية المتعلقة بالشيخوخة، 2002<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<span class="italic">تقرير الجمعية العالمية الثانية للشيخوخة، مدريد، 8-12 نيسان/أبريل 2002</span> (منشورات الأمم المتحدة، رقم المبيع A.02.IV.4)، الفصل الأول، القرار 1، المرفقان الأول والثاني.</p></authorialNote><sup>)</sup>، وقرارها <a href="https://undocs.org/ar/A/RES/58/134">58/134</a> المؤرخ 22 كانون الأول/ديسمبر 2003، الذي أحاطت فيه علما، في جملة أمور، بخريطة الطريق لتنفيذ خطة عمل مدريد، وإلى قراراتها <a href="https://undocs.org/ar/A/RES/60/135">60/135</a> المؤرخ 16 كانون الأول/ديسمبر 2005 و <a href="https://undocs.org/ar/A/RES/61/142">61/142</a> المؤرخ 19 كانون الأول/ديسمبر 2006 و <a href="https://undocs.org/ar/A/RES/62/130">62/130</a> المؤرخ 18 كانون الأول/ديسمبر 2007 و <a href="https://undocs.org/ar/A/RES/63/151">63/151</a> المؤرخ 18 كانون الأول/ديسمبر 2008 و <a href="https://undocs.org/ar/A/RES/64/132">64/132</a> المؤرخ 18 كانون الأول/ديسمبر 2009 و <a href="https://undocs.org/ar/A/RES/65/182">65/182</a> المؤرخ 21 كانون الأول/ديسمبر 2010 و <a href="https://undocs.org/ar/A/RES/66/127">66/127</a> المؤرخ 19 كانون الأول/ديسمبر 2011 و <a href="https://undocs.org/ar/A/RES/67/139">67/139</a> و <a href="https://undocs.org/ar/A/RES/67/143">67/143</a> المؤرخين 20 كانون الأول/ديسمبر 2012 و <a href="https://undocs.org/ar/A/RES/68/134">68/134</a> المؤرخ 18 كانون الأول/ديسمبر 2013 و <a href="https://undocs.org/ar/A/RES/69/146">69/146</a> المؤرخ 18 كانون الأول/ديسمبر 2014 و <a href="https://undocs.org/ar/A/RES/70/164">70/164</a> المؤرخ 17 كانون الأول/ديسمبر 2015 و <a href="https://undocs.org/ar/A/RES/71/164">71/164</a> المؤرخ 19 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/A/RES/72/144">72/144</a> المؤرخ 19 كانون الأول/ديسمبر 2017، و <a href="https://undocs.org/ar/A/RES/73/143">73/143</a> المؤرخ 17 كانون الأول/ديسمبر 2018، و <a href="https://undocs.org/ar/A/RES/74/125">74/125</a> المؤرخ 18 كانون الأول/ديسمبر 2019،</p>
+      </container>
+      <container name="وإذ تشير أيضا" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا</span> إلى قرارها <a href="https://undocs.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015 والمعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، الذي اعتمدت بموجبه مجموعة من الأهداف والغايات العالمية الشاملة والبعيدة المدى المتعلقة بالتنمية المستدامة التي تركز على الإنسان وتفضي إلى التحوّل، والتزامها بالعمل بلا كلل من أجل التنفيذ الكامل للخطة بحلول عام 2030، وإذ تشدد على ضرورة ضمان مراعاة كبار السن في تنفيذها لضمان ألا يترك أحد خلف الركب،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> قراريها <a href="https://undocs.org/ar/A/RES/53/199">53/199</a> المؤرخ 15 كانون الأول/ديسمبر 1998 و <a href="https://undocs.org/ar/A/RES/61/185">61/185</a> المؤرخ 20 كانون الأول/ديسمبر 2006 المتعلقين بإعلان السنوات الدولية، وقرار المجلس الاقتصادي والاجتماعي 1980/67 المؤرخ 25 تموز/يوليه 1980 المتعلق بالسنوات الدولية واحتفالات الذكرى السنوية، </p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> أنه خلال الفترة الفاصلة بين عامي 2019 و 2030 يتوقع أن يزداد السكان الذين تبلغ أعمارهم 60 عاما أو أكثر بنسبة 38 في المائة، ليرتفع عددهم من بليون نسمة إلى 1,4 بليون نسمة، متجاوزا عدد الشباب على الصعيد العالمي<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	الأمم المتحدة، إدارة الشؤون الاقتصادية والاجتماعية، شعبة السكان، <span class="italic">التوقعات المتعلقة بسكان العالم: تنقيح عام 2019.</span></p></authorialNote><sup>)</sup>، وأن هذه الزيادة ستكون الأكبر والأسرع في بلدان العالم النامي، وإذ تسلم بالحاجة إلى ضرورة الاهتمام على نحو أكبر بالتحديات الخاصة التي تواجه كبار السن، وإذ تسلم أيضا بالحاجة إلى تعزيز حقوق الإنسان المفروضة لهم وحمايتها وحفظ كرامتهم وصونها،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى الاجتماع الرفيع المستوى المعني بالتغطية الصحية الشاملة، الذي عقد بنيويورك في 23 أيلول/سبتمبر 2019، وإذ تؤكد من جديد إعلانها السياسي المعنون ”التغطية الصحية الشاملة: التحرك معا لبناء عالم أكثر صحة“<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/74/2">74/2</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشير أيضا " eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا </span>إلى قرارات جمعية الصحة العالمية بشأن الشيخوخة، ولا سيما القرار 58-16 المؤرخ 25 أيار/مايو 2005 بشأن تعزيز التمتع بالنشاط والصحة في مرحلة الشيخوخة<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	انظر منظمة الصحة العالمية، الوثيقة WHA 58/2005/REC/1.</p></authorialNote><sup>)</sup>، الذي شدد على الدور الهام لسياسات وبرامج الصحة العامة في تمكين الأعداد المتزايدة بسرعة من كبار السن من البقاء في صحة جيدة والمحافظة على مساهماتهم الحيوية العديدة في رفاه أسرهم ومجتمعاتهم المحلية ومجتمعاتهم ككل، والقرار 69-3 المؤرخ 29 أيار/مايو 2016 المعنون ”الاستراتيجية وخطة العمل العالميتان بشأن الشيخوخة والصحة 2016-2020: عالم يتسنى فيه لكل فرد أن يحيا حياة طويلة ويتمتع بالصحة“<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	انظر منظمة الصحة العالمية، الوثيقة WHA 69/2016/REC/1.</p></authorialNote><sup>)</sup>، ومقرر جمعية الصحة العالمية 73(12) المؤرخ 3 آب/أغسطس 2020، المعنون ”عقد النهوض بالصحة في مرحلة الشيخوخة للفترة 2020-2030“<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	منظمة الصحة العالمية، الوثيقة(12)  WHA73.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على ضرورة النهوض بالصحة في مرحلة الشيخوخة في جميع أنحاء العالم، ولا سيما من أجل تغيير طريقة تفكيرنا وشعورنا وتصرفنا حيال مسائل السن والشيخوخة، وضمان قيام المجتمعات المحلية بتدعيم قدرات كبار السن، والنهوض بالصحة عن طريق تنفيذ ما يلزم من تدابير سياساتية، من ضمنها إذكاء الوعي بأساليب العيش الصحية والإلمام بأساسيات المعرفة الصحية، وتعزيز السلامة والصحة المهنيتين على مدى الحياة، وتوفير الرعاية المتكاملة والخدمات الصحية الأولية المراعية لاحتياجات كبار السن، وتمكين من يحتاجون منهم إلى الرعاية الطويلة الأجل من الحصول عليها،</p>
+      </container>
+      <container name="وإذ تشدد أيضا" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد أيضا</span> على ضرورة تزويد كبار السن بفرص المشاركة الفعلية في الحياة الاجتماعية وتقديم مساهماتهم الجليلة فيها، وتأمين قدر كاف من النفقات الاجتماعية اللازمة لمدّهم بخدمات الصحة والتعليم والحماية الاجتماعية الأساسية، وتمكينهم جميعا من أن ينعموا بالكرامة في حياتهم، </p>
+      </container>
+      <container name="وإذ تسلم" eId="container_10">
+          <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بأن جائحة مرض فيروس كورونا (كوفيد-19) تشكل خطرا متعدد الأوجه وأنها ما زالت تؤثر في بقاء الناس على قيد الحياة وفي مصادر رزقهم وكرامتهم تأثيرا غير متناسب يشتد وقعه على الذين يكونون منهم في حالة ضعف، ومنهم كبار السن، وتتطلب اتخاذ تدابير شاملةٍ ضافيةٍ تراعي الفوارق بين الجنسين وتتخذ من الوقاية منحى لها وتبتغي تعزيز أسباب الحماية والتمكين لصالح جميع الناس وجميع المجتمعات المحلية، </p>
+      </container>
+      <container name="وإذ تسلم أيضا" eId="container_11">
+          <p xml:space="preserve">	<span class="bold italic">وإذ تسلم أيضا</span> بأن كبار السن باستطاعتهم أن يستمروا في تقديم مساهماتهم الأساسية في سير شؤون مجتمعاتهم وفي تنفيذ خطة التنمية المستدامة لعام 2030، وإذ تسلم كذلك بأهمية كفالة تمكينهم، على قدم المساواة مع غيرهم، من التمتع الكامل والفعلي بما هو مفروض لهم من حقوق الإنسان ومن تنمية إمكاناتهم البشرية على الوجه الأكمل، </p>
+      </container>
+      <container name="وإذ تعرب عن القلق" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن القلق</span> من أنه على الرغم من إمكانية التنبؤ بازدياد نسبة كبار السن بين السكان وتسارع إيقاعه، فإن عددا كبيرا من النظم الصحية قد لا يكون متهيئاً بما يكفي للاستجابة لاحتياجات العدد المتنامي بسرعة من هذه الفئة من السكان، يشمل ذلك الحاجة إلى مدهم بالرعاية الناهضة بالحالة الصحية العامة والرعاية القائمة على الوقاية وتوفير العلاج وإعادة التأهيل وتسكين الألم وكذلك الرعاية المتخصصة واستدامة توفير الرعاية الطويلة الأجل، بهدف تعزيز تمتع كبار السن بالصحة والحفاظ على نوعية حياتهم وتحسينها،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_13">
+          <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بأن ازدياد نسبة كبار السن بين السكان سيظل يؤثر في جميع جوانب المجتمع، بما في ذلك أسواق العمل والأسواق المالية، والطلب على السلع والخدمات، مثل التعليم والإسكان والصحة والرعاية الطويلة الأجل والحماية الاجتماعية والنقل والمعلومات والاتصالات، وكذلك الصلة بين الأجيال، وإذ تشدد على أهمية اتخاذ إجراءات متعددة القطاعات من أجل كفالة تمتع كبار السن بالصحة،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_14">
+          <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بأن انتشار حالات الإعاقة يزداد مع تقدم العمر وأن العديد من كبار السن يعيشون حياتهم مصابين بعاهات،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <content eId="para_15__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">تقرر</span> إعلان الفترة 2021-2030 عقدَ الأمم المتحدة للنهوض بالصحة في مرحلة الشيخوخة، ضمن إطار الهياكل القائمة وفي حدود الموارد المتاحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <content eId="para_16__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">ترحب</span> بالمقترح المتعلق بعقد النهوض بالصحة في مرحلة الشيخوخة، الذي يوفر برنامجَ عمل يتضمن خيارات واستراتيجيات طوعية في مجال السياسات يمكن أن تستعين بها الحكومات وغيرها من الجهات المعنية ذات المصلحة، حسب الاقتضاء، وتلاحظ أن هذه الوثيقة القابلة للتعديل قد جرى إعدادها من خلال عملية شاملة ومتواصلة وقائمة على التعاون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <content eId="para_17__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">تهيب</span> بالدول الأعضاء وغيرها من الجهات المعنية ذات المصلحة إلى اتخاذ إجراءات لدرء الآثار غير المتناسبة لجائحة كوفيد-19 على كبار السن ورصدها ومعالجتها وتعزيز تلك الإجراءات، وذلك يشمل التصدي على وجه الخصوص للمخاطر التي يواجهونها فيما يتعلق بالحصول على الحماية الاجتماعية والخدمات الصحية، وكفالة أن تحترمَ قراراتُ الرعاية الصحية التي تخص كبار السن كرامَتهم وترعى ما فُرض لهم من حقوق الإنسان، ومنها الحق في التمتع بأعلى مستوى يمكن بلوغه من الصحة البدنية والعقلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <content eId="para_18__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">تقر</span> بالتحديات التي يواجهها كبار السن فيما يتعلق بالتمتع بجميع حقوق الإنسان في مجالات مختلفة، وبأن تلك التحديات تستلزم تحليلا متعمقا وتدابير لمعالجة الثغرات القائمة على صعيد الحماية، وتهيب بالدول كافة إلى تعزيز جميع حقوق الإنسان والحريات الأساسية لكبار السن وضمان إعمالها على نحو كامل، بوسائل منها اتخاذ تدابير تدريجية لمكافحة التمييز على أساس العمر والإهمال والإساءة والعنف، فضلا عن الإقصاء الاجتماعي والعزلة، وتوفير الحماية الاجتماعية والغذاء والمسكن وخدمات الرعاية الصحية وفرص العمل والأهلية القانونية وسبل الاحتكام إلى القضاء، ومعالجة القضايا المتعلقة بالإدماج الاجتماعي والتفاوت بين الجنسين من خلال تعميم مراعاة حقوق كبار السن في استراتيجيات التنمية المستدامة والسياسات الحضرية واستراتيجيات الحد من الفقر، مع مراعاة ما للتضامن بين الأجيال من أهمية بالغة في تحقيق التنمية الاجتماعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <content eId="para_19__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">تهيب</span> بمنظمة الصحة العالمية إلى قيادة أنشطة تنفيذ عقد الأمم المتحدة للنهوض بالصحة في مرحلة الشيخوخة (2021-2030)، بالتعاون مع إدارة الشؤون الاجتماعية والاقتصادية بالأمانة العامة، واللجان الإقليمية، وصندوق الأمم المتحدة للسكان، ومفوضية الأمم المتحدة لحقوق الإنسان، وبرنامج الأمم المتحدة الإنمائي، وبرنامج الأمم المتحدة للمستوطنات البشرية (موئل الأمم المتحدة)، وهيئة الأمم المتحدة للمساواة بين الجنسين وتمكين المرأة (هيئة الأمم المتحدة للمرأة) والبنك الدولي، كل في إطار ولايته، عن طريق الاستعانة بآليات التنسيق القائمة مثل الفريق المشترك بين الوكالات المعني بالشيخوخة بما يتماشى مع ولايته، وبالتشاور مع المنظمات والمنابر الدولية والإقليمية الأخرى المعنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <content eId="para_20__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">تدعو</span> الحكومات وغيرها من الجهات المعنية ذات المصلحة، بما في ذلك المنظمات الدولية والإقليمية وهيئات المجتمع المدني والقطاع الخاص والأوساط الأكاديمية ووسائل الإعلام، إلى تقديم الدعم الفعال لتنفيذ عقد الأمم المتحدة للنهوض بالصحة في مرحلة الشيخوخة (2021-2030)، بما في ذلك عن طريق التبرعات، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <content eId="para_21__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">تدعو</span> الأمين العام إلى إبلاغ الجمعية العامة عن تنفيذ عقد الأمم المتحدة للنهوض بالصحة في مرحلة الشيخوخة (2021-2030)، على أساس التقارير الثلاثية السنوات التي ستقوم منظمة الصحة العالمية بتجميعها في الأعوام 2023 و 2026 و 2029.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="44">الجلسة العامة 44</inline>
+        <eol />
+        <docDate date="2020-12-14" refersTo="#adoptionDate">14 كانون الأول/ديسمبر 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
