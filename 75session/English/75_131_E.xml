@@ -1,0 +1,235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/"></FRBRuri>
+          <FRBRdate date="2020-12-14" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/eng@/"></FRBRuri>
+          <FRBRdate date="2020-12-21" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-14/75-131/eng@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-07" outcome="draftResolution" as="A/75/L.47" by="Angola, Brazil, Chile, Colombia, Equatorial Guinea, Georgia, Japan, Mexico, Nigeria, Panama and Thailand" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Argentina, Australia, Austria, Bangladesh, Bhutan, Bolivia (Plurinational State of), Botswana, Bulgaria, Cabo Verde, Cameroon, Canada, Costa Rica, Croatia, Cyprus, Czechia, Côte d'Ivoire, Denmark, Dominican Republic, El Salvador, Estonia, Finland, France, Gabon, Germany, Greece, Guatemala, Guinea-Bissau, Honduras, India, Indonesia, Ireland, Israel, Italy, Latvia, Lebanon, Lithuania, Luxembourg, Malta, Monaco, Mongolia, Morocco, Namibia, Netherlands, Palau, Papua New Guinea, Peru, Philippines, Poland, Portugal, Qatar, Romania, Sao Tome and Principe, Senegal, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Trinidad and Tobago, Turkey, United Republic of Tanzania, Uruguay, Viet Nam and Zambia" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2020-12-14" outcome="adopted" as="A/75/PV.44" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="Without reference to a main committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17080 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/131</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-21" class="rightSmall" refersTo="#dateOfIssuance">21 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Seventy-fifth session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Agenda item 131</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Global health and foreign policy</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 14 December 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[without reference to a Main Committee (<inline name="originating document">A/75/L.47 and A/75/L.47/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/131.</docNumber>
+        <docTitle refersTo="#resolutionTitle">United Nations Decade of Healthy Ageing (2021–2030)</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">Recalling</span> its resolution <a href="https://undocs.org/en/A/RES/57/167">57/167</a> of 18 December 2002, in which it endorsed the Political Declaration and the Madrid International Plan of Action on Ageing, 2002,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve"><span class="italic">Report of the Second World Assembly on Ageing, Madrid, 8–12 April 2002</span> (United Nations publication, Sales No. E.02.IV.4), chap. I, resolution 1, annexes I and II.</p></authorialNote> its resolution <a href="https://undocs.org/en/A/RES/58/134">58/134</a> of 22 December 2003, in which it took note, inter alia, of the road map for the implementation of the Madrid Plan of Action, and its resolutions <a href="https://undocs.org/en/A/RES/60/135">60/135</a> of 16 December 2005, <a href="https://undocs.org/en/A/RES/61/142">61/142</a> of 19 December 2006, <a href="https://undocs.org/en/A/RES/62/130">62/130</a> of 18 December 2007, <a href="https://undocs.org/en/A/RES/63/151">63/151</a> of 18 December 2008, <a href="https://undocs.org/en/A/RES/64/132">64/132</a> of 18 December 2009, <a href="https://undocs.org/en/A/RES/65/182">65/182</a> of 21 December 2010, <a href="https://undocs.org/en/A/RES/66/127">66/127</a> of 19 December 2011, <a href="https://undocs.org/en/A/RES/67/139">67/139</a> and <a href="https://undocs.org/en/A/RES/67/143">67/143</a> of 20 December 2012, <a href="https://undocs.org/en/A/RES/68/134">68/134</a> of 18 December 2013, <a href="https://undocs.org/en/A/RES/69/146">69/146</a> of 18 December 2014, <a href="https://undocs.org/en/A/RES/70/164">70/164</a> of 17 December 2015, <a href="https://undocs.org/en/A/RES/71/164">71/164</a> of 19 December 2016, <a href="https://undocs.org/en/A/RES/72/144">72/144</a> of 19 December 2017, <a href="https://undocs.org/en/A/RES/73/143">73/143</a> of 17 December 2018 and <a href="https://undocs.org/en/A/RES/74/125">74/125</a> of 18 December 2019, </p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">Recalling also</span> its resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which it adopted a comprehensive, far-reaching and people-centred set of universal and transformative Sustainable Development Goals and targets, and its commitment to working tirelessly for the full implementation of the Agenda by 2030, and stressing the need to ensure that older persons are taken into account in its implementation in order to ensure that no one is left behind, </p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">Reaffirming</span> its resolutions <a href="https://undocs.org/en/A/RES/53/199">53/199</a> of 15 December 1998 and <a href="https://undocs.org/en/A/RES/61/185">61/185</a> of 20 December 2006 on the proclamation of international years, and Economic and Social Council resolution <a href="https://undocs.org/E/RES/1980/67">1980/67</a> of 25 July 1980 on international years and anniversaries, </p>
+      </container>
+      <container name="Noting" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">Noting</span> that, between 2019 and 2030, the number of persons aged 60 years or over is projected to grow by 38 per cent, from 1 billion to 1.4 billion, globally outnumbering youth,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	United Nations, Department of Economic and Social Affairs, Population Division, <span class="italic">World Population Prospects: 2019 Revision</span>.  </p></authorialNote> and that this increase will be the greatest and the most rapid in the developing world, recognizing that greater attention needs to be paid to the specific challenges affecting older persons, and recognizing also the need to promote and protect their human rights and dignity,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">Recalling</span> the high-level meeting on universal health coverage, held in New York on 23 September 2019, and reaffirming its political declaration, entitled “Universal health coverage: moving together to build a healthier world”,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/74/2">74/2</a>.</p></authorialNote></p>
+      </container>
+      <container name="Recalling also" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">Recalling also</span> the World Health Assembly resolutions on ageing, specifically resolution 58.16 of 25 May 2005 on strengthening active and healthy ageing,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	See World Health Organization, document WHA58/2005/REC/1.</p></authorialNote> which stressed the important role of public health policies and programmes in enabling the rapidly growing number of older persons to remain in good health and maintain their many vital contributions to the well-being of their families, communities and societies, and resolution 69.3 of 29 May 2016, entitled “Global strategy and action plan on ageing and health 2016–2020: towards a world in which everyone can live a long and healthy life”,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	See World Health Organization, document WHA69/2016/REC/1.</p></authorialNote> and World Health Assembly decision 73(12) of 3 August 2020, entitled “Decade of Healthy Ageing 2020–2030”,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	World Health Organization, document WHA73(12).</p></authorialNote></p>
+      </container>
+      <container name="Emphasizing" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">Emphasizing</span> the need to foster healthy ageing worldwide, in particular to change how we think, feel and act towards age and ageing, ensure that communities foster the abilities of older persons, promote health by implementing policy measures, including raising awareness about healthy lifestyles and health literacy and promoting occupational safety and health over the life course, deliver integrated care and primary health services responsive to older persons, and provide access to long-term care for older persons who need it, </p>
+      </container>
+      <container name="Emphasizing also" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">Emphasizing also</span> the need to provide opportunities for active participation and substantial contributions of older persons in society, to secure adequate levels of social expenditure necessary to provide access to health, education and basic social protection, and to ensure that all older persons can live dignified lives, </p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing</span> that the coronavirus disease (COVID-19) pandemic poses a multifaceted threat and continues to have a disproportionate impact on the survival, livelihood and dignity of people, in particular those in situations of vulnerability, including older persons, and requires inclusive, gender-sensitive, comprehensive and prevention-oriented responses that strengthen the protection and empowerment of all people and all communities, </p>
+      </container>
+      <container name="Recognizing also" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing also</span> the essential contribution that older persons can continue to make to the functioning of societies and towards the implementation of the 2030 Agenda for Sustainable Development, and recognizing further the importance of ensuring equal opportunity for older persons to fully and effectively enjoy their human rights and fully develop their human potential, </p>
+      </container>
+      <container name="Expressing concern" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">Expressing concern</span> that, despite the predictability of population ageing and its accelerating pace, many health systems may not be sufficiently prepared to respond to the needs of the rapidly ageing population, including the need for promotive, preventive, curative, rehabilitative and palliative care as well as specialized care and the sustainable provision of long-term care, aimed at promoting healthy ageing and maintaining and improving the quality of life of older persons, </p>
+      </container>
+      <container name="Acknowledging" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">Acknowledging</span> that the ageing of the population will continue to impact all aspects of society, including labour and financial markets, the demand for goods and services, such as education, housing, health, long-term care, social protection, transport, information and communication, as well as intergenerational ties, and underlining the importance of multisectoral action to healthy ageing,</p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing</span> that the prevalence of disabilities increases with age and that many older persons live with a disability,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">
+            <span class="italic">Decides</span> to proclaim 2021–2030 the United Nations Decade of Healthy Ageing, within existing structures and available resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <span class="italic">Welcomes</span> the proposal for the Decade of Healthy Ageing, which provides a work programme with voluntary policy options and strategies for use by Governments and other stakeholders, as appropriate, and notes that this is a living document developed through an inclusive, continuous and collaborative process; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <span class="italic">Calls upon</span> Member States and other stakeholders to take and strengthen action to prevent, monitor and address the disproportionate effects of the COVID-19 pandemic on older persons, including the particular risks that they face in accessing social protection and health services, and to ensure that health-care decisions affecting older persons respect their dignity and promote their human rights, including the right to the enjoyment of the highest attainable standard of physical and mental health; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">
+            <span class="italic">Recognizes</span> the challenges related to the enjoyment of all human rights that older persons face in different areas and that those challenges require in-depth analysis and action to address protection gaps, and calls upon all States to promote and ensure the full realization of all human rights and fundamental freedoms for older persons, including by progressively taking measures to combat age discrimination, neglect, abuse and violence, as well as social isolation and loneliness, to provide social protection, access to food and housing, health-care services, employment, legal capacity and access to justice and to address issues related to social integration and gender inequality through mainstreaming the rights of older persons into sustainable development strategies, urban policies and poverty reduction strategies, bearing in mind the crucial importance of intergenerational solidarity for social development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">Calls upon</span> the World Health Organization to lead the implementation of the United Nations Decade of Healthy Ageing (2021–2030), in collaboration with the Department of Social and Economic Affairs of the Secretariat, the regional commissions, the United Nations Population Fund, the Office of the United Nations High Commissioner for Human Rights, the United Nations Development Programme, the United Nations Human Settlements Programme (UN-Habitat), the United Nations Entity for Gender Equality and the Empowerment of Women (UN-Women) and the World Bank, within their respective mandates, using existing coordination mechanisms such as the Inter-Agency Group on Ageing in line with its mandate, and in consultation with other relevant international and regional organizations and platforms; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">
+            <span class="italic">Invites</span> Governments and other relevant stakeholders, including international and regional organizations, civil society, the private sector, academia and the media, to actively support the implementation of the United Nations Decade of Healthy Ageing (2021–2030), including through voluntary contributions, as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">
+            <span class="italic">Invites</span> the Secretary-General to inform the General Assembly about the implementation of the United Nations Decade of Healthy Ageing (2021–2030), on the basis of the triennial reports to be compiled by the World Health Organization in 2023, 2026 and 2029.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="44th">44th plenary meeting</inline>
+        <eol />
+        <docDate date="2020-12-14" refersTo="#adoptionDate">14 December 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
