@@ -1,0 +1,176 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-257/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-257/"></FRBRuri>
+          <FRBRdate date="2020-12-31" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-257/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-257/zho@/"></FRBRuri>
+          <FRBRdate date="2021-01-04" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-31/75-257/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-31/75-257/zho@.xml"></FRBRuri>
+          <FRBRdate date="2021-02-22" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-14" outcome="draftResolution" as="A/75/L.51" by="Australia, Cambodia, France, Germany, Japan, Norway, Republic of Korea, Sweden and United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Angola, Belgium, Canada, Czechia and United States" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2020-12-21" outcome="adopted" as="A/75/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="未经发交主要委员会而通过"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-00041 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/257</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-01-04" class="rightSmall" refersTo="#dateOfIssuance">4 January 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">第七十五届会议</session>
+      </p>
+      <p>
+        <inline name="agenda item">议程项目92</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">柬埔寨法院特别法庭——余留职能</inline>
+      </p>
+      <p>
+        <docTitle>2020年12月31日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[未经发交主要委员会而通过 (<inline name="originating document">A/75/L.51和A/75/L.51/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/257.</docNumber>
+        <docTitle refersTo="#resolutionTitle">柬埔寨法院特别法庭——余留职能</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其关于设立柬埔寨法院特别法庭的2002年12月18日第<a href="https://undocs.org/ch/A/RES/57/228">57/228</a> A号和2003年5月13日第<a href="https://undocs.org/ch/A/RES/57/228">57/228</a> B号决议，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">重申</span>高度重视特别法庭的工作，</p>
+      </container>
+      <container name="欢迎" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>特别法庭在完成任务方面取得的进展，并赞赏地注意到东道国柬埔寨政府作出的持续贡献， </p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其2018年12月22日第<a href="https://undocs.org/ch/A/RES/73/279">73/279</a> A号决议，其中请秘书长“与特别法庭和柬埔寨政府进行协商，以制定完成特别法庭工作、包括减少活动的框架，确定在特别法庭完成任务后仍需履行的任何余留职能，</p>
+      </container>
+      <container name="又回顾" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>其2019年12月27日第<a href="https://undocs.org/ch/A/RES/74/263">74/263</a>号决议，其中注意到秘书长为制定完成特别法庭工作和确定可能余留职能的框架所采取的步骤；</p>
+      </container>
+      <container name="认识到" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">认识到</span>，追究严重侵犯人权行为者个人的责任是对侵犯人权行为受害者进行任何有效补救并最终实现和解与稳定的核心要素之一，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长继续与柬埔寨政府协商，同时随时向相关利益攸关方通报情况，以便最后制定一个完成柬埔寨法院特别法庭工作的拟议框架，其内容包括减少活动情况和必须履行的剩余职能，供大会审议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>秘书长在第七十五届会议续会期间并至迟于2021年5月15日向大会报告本决议执行情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将题为“柬埔寨法院特别法庭——余留职能”的项目列入大会第七十六届会议临时议程。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第48次">第48次全体会议(续会)</inline>
+        <eol />
+        <docDate date="2020-12-31" refersTo="#adoptionDate">2020年12月31日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
