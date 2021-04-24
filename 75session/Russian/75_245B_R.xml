@@ -1,0 +1,235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/"></FRBRuri>
+          <FRBRdate date="2021-04-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/rus@/"></FRBRuri>
+          <FRBRdate date="2021-04-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/rus@.xml"></FRBRuri>
+          <FRBRdate date="2021-04-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN System" showAs="UN System" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Dispute Tribunal" showAs="UN Dispute Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Appeals Tribunal" showAs="UN Appeals Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="ILO. Administrative Tribunal" showAs="ILO. Administrative Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Civil Service Commission" showAs="International Civil Service Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNATIONAL CIVIL SERVICE" showAs="INTERNATIONAL CIVIL SERVICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ADMINISTRATIVE COURTS AND TRIBUNALS" showAs="ADMINISTRATIVE COURTS AND TRIBUNALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LABOUR DISPUTES" showAs="LABOUR DISPUTES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="JUDGEMENTS" showAs="JUDGEMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SALARIES AND ALLOWANCES" showAs="SALARIES AND ALLOWANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="148" showAs="PERSONNEL QUESTIONS--UN SYSTEM" dictionary="A/75/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-03-26" outcome="draftResolution" as="A/C.5/75/L.26" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/670/Add.1" by="" refersTo="7" />
+        <step date="2021-04-19" outcome="adopted" as="Adopted without vote, 59th plenary meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted without vote, 59th plenary meeting">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="Пятый комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-05132 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/245 B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-04-19" class="rightSmall" refersTo="#dateOfIssuance">19 April 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Семьдесят пятая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 148 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Общая система Организации Объединенных Наций</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 16 апреля 2021 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[по докладу Пятого комитета (<inline name="originating document">A/75/670/Add.1, пункт 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/245.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Общая система Организации Объединенных Наций</docTitle>
+        <docNumber>		B</docNumber>
+            <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+              <p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/75/245">75/245</a> в разделе VI <span class="italic">Официальных отчетов Генеральной Ассамблеи, семьдесят пятая сессия, Дополнение № 49</span> (<a href="https://undocs.org/ru/A/75/49 (vol. I)">A/75/49</a>), т. I, становится резолюцией <a href="https://undocs.org/ru/A/RES/75/245">75/245</a> A.</p>
+            </authorialNote>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="ссылаясь " eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь </span>на свои резолюции <a href="https://undocs.org/ru/A/RES/74/255a-b">74/255</a> B от 27 декабря 2019 года и <a href="https://undocs.org/ru/A/RES/75/245">75/245</a> A от 31 декабря 2020 года,</p>
+      </container>
+      <container name="рассмотрев доклад" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	рассмотрев доклад</span> Генерального секретаря о первоначальном обзоре юрисдикционного устройства общей системы Организации Объединенных Наций<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/690">A/75/690</a>.</p></authorialNote> и соответствующий доклад Консультативного комитета по административным и бюджетным вопросам<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/797">A/75/797</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="подтверждая свою приверженность" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	подтверждая свою приверженность</span> сохранению целостности и единства общей системы Организации Объединенных Наций как основы основ регулирования и координации условий службы в общей системе Организации Объединенных Наций,</p>
+      </container>
+      <container name="особо отмечая" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	особо отмечая</span> важность сохранения согласованности и единства общей системы Организации Объединенных Наций и получаемые благодаря этому выгоды,</p>
+      </container>
+      <container name="вновь призывая" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	вновь призывая</span> все организации общей системы Организации Объединенных Наций сотрудничать с Комиссией по международной гражданской службе по вопросам, касающимся окладов, надбавок и пособий и других условий службы,</p>
+      </container>
+      <container name="выражая озабоченность" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	выражая озабоченность</span> по поводу непоследовательности в применении результатов обследований 2016 года, проведенных в целях определения коррективов по месту службы, в местах службы общей системы Организации Объединенных Наций,</p>
+      </container>
+      <container name="особо отмечая" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	особо отмечая</span> важность принципа независимости судей,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению </span>доклад Генерального секретаря;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">одобряет</span> выводы и рекомендации, содержащиеся в докладе Консультативного комитета по административным и бюджетным вопросам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>усилия, предпринятые Генеральным секретарем в рамках взаимодействия с многочисленными заинтересованными сторонами при подготовке его доклада, и рекомендует продолжать информационно-разъяснительную работу и консультации со всеми соответствующими заинтересованными сторонами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">повторяет свою просьбу</span> о том, чтобы административные руководители организаций общей системы консультировались с Комиссией по международной гражданской службе по всем делам, которые связаны с рекомендациями и решениями Комиссии и которые могут рассматриваться трибуналами в рамках системы Организации Объединенных Наций, и вновь настоятельно призывает руководящие органы этих организаций обеспечивать, чтобы административные руководители поступали в соответствии с этой просьбой;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря представить в контексте его следующего доклада подробную обновленную информацию о расхождениях в судебной практике двух трибуналов по вопросам, касающимся Комиссии по международной гражданской службе, и оценку их последствий для согласованности общей системы Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">ссылается</span> на пункт 24 доклада Консультативного комитета и рекомендует активизировать диалог и поддерживать более тесную связь между трибуналами общей системы Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что сохранение последовательности в общей системе Организации Объединенных Наций является принципиальным вопросом, не зависящим от фактической частоты возникновения трудностей, стоящих на пути обеспечения ее согласованности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря представить дополнительный доклад с подробными предложениями и тщательным анализом вариантов действий и при этом уделить первоочередное внимание предусматриваемым в рамках варианта D мерам по внесению изменений в порядок вынесения судебных решений по делам, касающимся вопросов, находящихся в ведении Комиссии по международной гражданской службе, и предусматриваемым в рамках варианта B мерам, ограничивающимся пересмотром решений трибуналов и вынесением рекомендаций Комиссией, а также активизации диалога между трибуналами, как об этом говорится в разделе IV доклада Генерального секретаря, и вынести его на рассмотрение Генеральной Ассамблеи не позднее чем на ее семьдесят седьмой сессии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> Генерального секретаря при проведении дальнейшего анализа варианта D, о котором говорится в разделе IV доклада, принять во внимание порядок использования существующих механизмов, инфраструктуры и судей трибуналов для обеспечения функционирования объединенной палаты только в тех случаях, когда это необходимо, что позволит свести к минимуму расходы, связанные с этим вариантом, и выявить, какие меры, возможно, необходимо будет принять организациям для признания юрисдикции объединенной палаты или для того, чтобы они подпадали под ее юрисдикцию;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">просит далее</span> Генерального секретаря в ходе основной части ее семьдесят шестой сессии провести неофициальное информационное мероприятие, посвященное ходу подготовки доклада о юрисдикционном устройстве общей системы Организации Объединенных Наций.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline title="59-e" name="adoptionMeeting">59-e пленарное заседание</inline>,
+        <eol/>
+        <docDate date="2021-04-16" refersTo="#adoptionDate">16 апреля 2021 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
