@@ -1,0 +1,235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/"></FRBRuri>
+          <FRBRdate date="2021-04-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/fra@/"></FRBRuri>
+          <FRBRdate date="2021-04-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/fra@.xml"></FRBRuri>
+          <FRBRdate date="2021-04-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN System" showAs="UN System" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Dispute Tribunal" showAs="UN Dispute Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Appeals Tribunal" showAs="UN Appeals Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="ILO. Administrative Tribunal" showAs="ILO. Administrative Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Civil Service Commission" showAs="International Civil Service Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNATIONAL CIVIL SERVICE" showAs="INTERNATIONAL CIVIL SERVICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ADMINISTRATIVE COURTS AND TRIBUNALS" showAs="ADMINISTRATIVE COURTS AND TRIBUNALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LABOUR DISPUTES" showAs="LABOUR DISPUTES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="JUDGEMENTS" showAs="JUDGEMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SALARIES AND ALLOWANCES" showAs="SALARIES AND ALLOWANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="148" showAs="PERSONNEL QUESTIONS--UN SYSTEM" dictionary="A/75/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-03-26" outcome="draftResolution" as="A/C.5/75/L.26" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/670/Add.1" by="" refersTo="7" />
+        <step date="2021-04-19" outcome="adopted" as="Adopted without vote, 59th plenary meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted without vote, 59th plenary meeting">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="Cinquième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-05132 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/245 B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-04-19" class="rightSmall" refersTo="#dateOfIssuance">19 avril 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Soixante-quinzième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Point 148 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Régime commun des Nations Unies</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 16 avril 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[sur la base du rapport de la Cinquième Commission (<inline name="originating document">A/75/670/Add.1, par. 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/245.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Régime commun des Nations Unies</docTitle>
+        <docNumber>B</docNumber>
+            <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+              <p xml:space="preserve">		La résolution <a href="https://undocs.org/fr/A/RES/75/245">75/245</a>, qui figure à la section VI des <span class="italic">Documents officiels de l’Assemblée générale, soixante-quinzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 49 </span>(<a href="https://undocs.org/fr/A/75/49">A/75/49</a>), vol. I, porte dorénavant le numéro <a href="https://undocs.org/fr/A/RES/75/245">75/245</a> A.</p>
+            </authorialNote>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> ses résolutions <a href="https://undocs.org/fr/A/RES/74/255 A-B">74/255</a> B du 27 décembre 2019 et <a href="https://undocs.org/fr/A/RES/75/245">75/245</a> A du 31 décembre 2020,</p>
+      </container>
+      <container name="Ayant examiné" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Ayant examiné</span> le rapport du Secrétaire général sur l’examen initial des questions de compétence au regard du régime commun des Nations Unies<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/75/690">A/75/690</a>.</p></authorialNote> et le rapport correspondant du Comité consultatif pour les questions administratives et budgétaires<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/75/797">A/75/797</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> son attachement à la notion d’un régime commun et unifié des Nations Unies qui serve de base à la réglementation et à la coordination des conditions d’emploi dans les organisations qui l’appliquent,</p>
+      </container>
+      <container name="Soulignant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il importe de préserver un régime commun cohérent et unifié et insistant sur les avantages qui en découlent,</p>
+      </container>
+      <container name="Demandant de nouveau" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Demandant de nouveau</span> à toutes les organisations appliquant le régime commun des Nations Unies de coopérer avec la Commission de la fonction publique internationale sur les questions ayant trait à la rémunération, aux indemnités et aux conditions d’emploi,</p>
+      </container>
+      <container name="Se déclarant préoccupée" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant préoccupée</span> par le fait que les coefficients d’ajustement établis à l’issue de l’enquête menée en 2016 ne sont toujours pas appliqués de manière homogène dans les différents lieux d’affectation relevant du régime commun des Nations Unies,</p>
+      </container>
+      <container name="Soulignant" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> l’importance du principe d’indépendance judiciaire,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Prend acte</span> du rapport du Secrétaire général ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Souscrit</span> aux conclusions et recommandations que le Comité consultatif pour les questions administratives et budgétaires a formulées dans son rapport ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Salue </span>les efforts faits par le Secrétaire général pour obtenir la participation des multiples parties prenantes à l’établissement de son rapport et encourage la poursuite des échanges et des consultations avec toutes les parties prenantes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Demande de nouveau</span> que les chefs de secrétariat des organisations appliquant le régime commun consultent la Commission de la fonction publique internationale dans tous les cas où les tribunaux du système des Nations Unies peuvent être saisis de recommandations et de décisions émanant de celle-ci et exhorte de nouveau les organes directeurs des organisations à veiller à ce que les chefs de secrétariat donnent suite à cette demande ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de présenter, dans son prochain rapport, des informations détaillées et actualisées sur les divergences de jurisprudence entre les deux tribunaux sur les questions relevant de la Commission de la fonction publique internationale, ainsi qu’une évaluation de l’effet qu’elles ont sur la cohérence du régime commun des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> le paragraphe 24 du rapport du Comité consultatif et encourage l’accroissement des échanges et une communication constante entre les tribunaux du régime commun des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que le maintien de l’homogénéité dans le régime commun des Nations Unies est une question de principe, quelle que soit la fréquence réelle des problèmes de cohérence ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de présenter un nouveau rapport assorti de propositions détaillées et d’une analyse approfondie des solutions envisageables, en donnant la priorité aux mesures impliquant des changements dans le jugement des affaires relatives à la Commission de la fonction publique internationale, décrites à la partie D de la section IV de son rapport, et aux mesures citées dans la partie B, relatives à l’examen des jugements rendus par les tribunaux et à l’établissement d’orientations par la Commission, ainsi qu’à l’accroissement des échanges entre les tribunaux, et de le lui présenter pour examen au plus tard à sa soixante-dix-septième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général, lorsqu’il analysera plus avant les solutions décrites à la partie D de la section IV du rapport, d’envisager des moyens de mettre à profit les cadres, les infrastructures et les juges dont disposent déjà les tribunaux et de ne recourir à la chambre conjointe qu’en cas de nécessité, de manière à réduire autant que faire se peut les coûts associés à cette option, et de définir les mesures que les organisations seraient amenées à prendre pour reconnaître la compétence de cette chambre conjointe ou y être soumises ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Prie en outre</span> le Secrétaire général de lui présenter, durant la partie principale de sa soixante-seizième session, un exposé informel sur l’état d’avancement du rapport sur les questions de compétence au regard du système commun des Nations Unies.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline title="59e" name="adoptionMeeting">59e séance plénière</inline>
+        <eol/>
+        <docDate date="2021-04-16" refersTo="#adoptionDate">16 avril 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
