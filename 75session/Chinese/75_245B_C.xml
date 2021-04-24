@@ -1,0 +1,235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/"></FRBRuri>
+          <FRBRdate date="2021-04-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/zho@/"></FRBRuri>
+          <FRBRdate date="2021-04-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/zho@.xml"></FRBRuri>
+          <FRBRdate date="2021-04-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN System" showAs="UN System" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Dispute Tribunal" showAs="UN Dispute Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Appeals Tribunal" showAs="UN Appeals Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="ILO. Administrative Tribunal" showAs="ILO. Administrative Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Civil Service Commission" showAs="International Civil Service Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNATIONAL CIVIL SERVICE" showAs="INTERNATIONAL CIVIL SERVICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ADMINISTRATIVE COURTS AND TRIBUNALS" showAs="ADMINISTRATIVE COURTS AND TRIBUNALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LABOUR DISPUTES" showAs="LABOUR DISPUTES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="JUDGEMENTS" showAs="JUDGEMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SALARIES AND ALLOWANCES" showAs="SALARIES AND ALLOWANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="148" showAs="PERSONNEL QUESTIONS--UN SYSTEM" dictionary="A/75/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-03-26" outcome="draftResolution" as="A/C.5/75/L.26" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/670/Add.1" by="" refersTo="7" />
+        <step date="2021-04-19" outcome="adopted" as="Adopted without vote, 59th plenary meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted without vote, 59th plenary meeting">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="第五委员会"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-05132 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/245 B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-04-19" class="rightSmall" refersTo="#dateOfIssuance">19 April 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">第七十五届会议</session>
+      </p>
+      <p>
+        <inline name="agenda item">议程项目148</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">联合国共同制度</inline>
+      </p>
+      <p>
+        <docTitle>2021年4月16日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[根据第五委员会的报告 (<inline name="originating document">A/75/670/Add.1，第7段</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/245.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国共同制度</docTitle>
+        <docNumber>B</docNumber>
+            <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+              <p xml:space="preserve">		《大会正式记录，第七十五届会议，补编第49号》(<a href="https://undocs.org/ch/A/75/49">A/75/49</a>)第一卷第六节中的第<a href="https://undocs.org/ch/A/RES/75/245">75/245</a>号决议成为第<a href="https://undocs.org/ch/A/RES/75/245">75/245</a> A号决议。</p>
+            </authorialNote>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>其2019年12月27日第<a href="https://undocs.org/ch/A/RES/74/255a-b">74/255</a> B号和2020年12月31日第<a href="https://undocs.org/ch/A/RES/75/245">75/245</a> A号决议，</p>
+      </container>
+      <container name="审议了" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold">	审议了</span>秘书长关于对联合国共同制度管辖设置的初次审查的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/690">A/75/690</a>。</p></authorialNote> 以及行政和预算问题咨询委员会的有关报告，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/797">A/75/797</a>。</p></authorialNote></p>
+      </container>
+      <container name="重申决心" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold">	重申决心</span>维持一个单一、统一的联合国共同制度，作为规定和协调联合国共同制度服务条件的基础，</p>
+      </container>
+      <container name="强调" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold">	强调</span>维持一个协调统一的联合国共同制度的重要性以及由此产生的惠益，</p>
+      </container>
+      <container name="再次要求" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold">	再次要求</span>联合国共同制度所有组织在与薪金、津贴和服务条件相关事项上与国际公务员制度委员会合作，</p>
+      </container>
+      <container name="表示关切" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold">	表示关切</span>联合国共同制度各工作地点对2016年工作地点差价调整数结果的实施持续不一致的情况，</p>
+      </container>
+      <container name="强调" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold">	强调</span>司法独立原则的重要性，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>秘书长的报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">认可</span>行政和预算问题咨询委员会报告所载结论和建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="bold">肯定</span>秘书长在编写报告过程中努力与多个利益攸关方接触，并鼓励继续与所有相关利益攸关方进行外联和协商；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="bold">再次要求</span>共同制度各组织行政首长在处理联合国系统各法庭接手的与国际公务员制度委员会建议和决定相关的案件时，征求公务员制度委员会的意见，并再次敦促各组织理事机构确保其行政首长遵守这一要求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在其下一次报告中提供详细最新资料，说明两个法庭在与国际公务员制度委员会有关事项上的判例分歧，并评估其对联合国共同制度一致性的影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>咨询委员会报告第24段，鼓励联合国共同制度各法庭之间加强交流，保持沟通；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>，尽管联合国共同制度的一致性实际经常受到挑战，维护共同制度的一致性仍然是一个原则问题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长再提交一份报告，就现实可行的备选方案提出详细建议和透彻分析，重点是秘书长报告第四节所列备选方案D所述涉及对国际公务员制度委员会事项相关案件的裁定作出改变的措施、备选方案B所述仅限于公务员制度委员会研究法庭判决并发布指导意见的措施以及增加两个法庭间交流的措施，并至迟于第七十七届会议提交大会审议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>秘书长在进一步分析报告第四节中的备选方案D时，考虑如何利用两个法庭的现有框架、基础设施和法官，使联合分庭仅在需要时才投入运作，从而尽量减少与这一备选方案有关的费用，并确定各组织为承认联合分庭的管辖权或接受其管辖而可能需要采取的措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="bold">还请</span>秘书长在大会第七十六届会议主要会期期间，非正式通报关于联合国共同制度司法架构的报告的编写进展情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+      <conclusions eId="conclusions">
+        <p>
+          <inline title="第59次" name="adoptionMeeting">第59次全体会议</inline>
+          <eol/>
+          <docDate date="2021-04-16" refersTo="#adoptionDate">2021年4月16日</docDate>
+        </p>
+      </conclusions>
+  </statement>
+</akomaNtoso>
