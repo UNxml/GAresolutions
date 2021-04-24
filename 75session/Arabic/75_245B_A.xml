@@ -1,0 +1,230 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/"></FRBRuri>
+          <FRBRdate date="2021-04-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/ara@/"></FRBRuri>
+          <FRBRdate date="2021-04-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-04-16/75-245/ara@.xml"></FRBRuri>
+          <FRBRdate date="2021-04-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN System" showAs="UN System" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Dispute Tribunal" showAs="UN Dispute Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Appeals Tribunal" showAs="UN Appeals Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="ILO. Administrative Tribunal" showAs="ILO. Administrative Tribunal" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Civil Service Commission" showAs="International Civil Service Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNATIONAL CIVIL SERVICE" showAs="INTERNATIONAL CIVIL SERVICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ADMINISTRATIVE COURTS AND TRIBUNALS" showAs="ADMINISTRATIVE COURTS AND TRIBUNALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LABOUR DISPUTES" showAs="LABOUR DISPUTES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="JUDGEMENTS" showAs="JUDGEMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SALARIES AND ALLOWANCES" showAs="SALARIES AND ALLOWANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="148" showAs="PERSONNEL QUESTIONS--UN SYSTEM" dictionary="A/75/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-03-26" outcome="draftResolution" as="A/C.5/75/L.26" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/670/Add.1" by="" refersTo="7" />
+        <step date="2021-04-19" outcome="adopted" as="Adopted without vote, 59th plenary meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted without vote, 59th plenary meeting">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="اللجنة الخامسة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-05132 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/245 B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-04-19" class="rightSmall" refersTo="#dateOfIssuance">19 April 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">الدورة الخامسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 148 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">النظام الموحد للأمم المتحدة</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 16 نيسان/أبريل 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[بناء على تقرير اللجنة الخامسة (<inline name="originating document">A/75/670/Add.1، الفقرة 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/245.</docNumber>
+        <docTitle refersTo="#resolutionTitle">-	النظام الموحد للأمم المتحدة</docTitle>
+        <docNumber>		بــاء</docNumber>
+            <sup>(</sup>
+            <authorialNote marker="1" placement="bottom" eId="authorialNote_1">
+              <p xml:space="preserve">	()	يصبح القرار <a href="https://undocs.org/ar/A/RES/75/245">75/245</a>، الوارد في الفرع السادس من <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الخامسة والسبعون، الملحق رقم 49</span> (<a href="https://undocs.org/ar/A/75/49">A/75/49</a>)، المجلد الأول، القرار <a href="https://undocs.org/ar/A/RES/75/245">75/245</a> ألف.</p>
+            </authorialNote>
+            <sup>)</sup>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تشير</span> إلى قراريها <a href="https://undocs.org/ar/A/RES/74/255">74/255</a> باء المؤرخ 27 كانون الأول/ديسمبر 2019 و <a href="https://undocs.org/ar/A/RES/74/245">74/245</a> ألف المؤرخ 31 كانون الأول/ديسمبر 2020،</p>
+      </container>
+      <container name="وقد نظرت" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وقد نظرت</span> في تقرير الأمين العام عن الاستعراض الأولي لهيكل الولاية القضائية لنظام الأمم المتحدة الموحد<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/75/690">A/75/690</a>.</p></authorialNote><sup>)</sup> وتقرير اللجنة الاستشارية لشؤون الإدارة والميزانية ذي الصلة بالموضوع<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/75/797">A/75/797</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد التزامها" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد التزامها</span> بنظام وحيد وموحَّد للأمم المتحدة باعتباره حجر الزاوية في تنظيم وتنسيق شروط الخدمة في النظام الموحَّد للأمم المتحدة،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على أهمية الحفاظ على نظام موحَّد ومتسق للأمم المتحدة وأهمية المنافع الناتجة عن ذلك،</p>
+      </container>
+      <container name="وإذ تكرر" eId="container_6">
+          <p xml:space="preserve">	<span class="bold italic">وإذ تكرر </span>دعوتها جميع منظمات النظام الموحَّد للأمم المتحدة إلى التعاون مع لجنة الخدمة المدنية الدولية في المسائل المتعلقة بالمرتبات والبدلات وشروط الخدمة،</p>
+      </container>
+      <container name="وإذ تعرب عن قلقها" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن قلقها</span> إزاء استمرار عدم الاتساق في تطبيق نتائج تسوية مقر العمل لعام 2016 في جميع مراكز العمل التابعة للنظام الموحد للأمم المتحدة،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد</span> أهمية مبدأ استقلالية القضاء،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	1 -</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="bold italic">تحيط علما</span> بتقرير الأمين العام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	2 -</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤيد</span> الاستنتاجات والتوصيات الواردة في تقرير اللجنة الاستشارية لشؤون الإدارة والميزانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	3 -</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="bold italic">تنوه </span>بالجهود التي بذلها الأمين العام للتواصل مع العديد من أصحاب المصلحة لإعداد تقريره، وتشجع على مواصلة الاتصال والتشاور مع جميع أصحاب المصلحة المعنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>	4 -</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="bold italic">تكرر طلبها</span> أن يتشاور الرؤساء التنفيذيون لمنظمات النظام الموحَّد مع لجنة الخدمة المدنية الدولية في أي من القضايا التي قد تُعرض على محاكم منظومة الأمم المتحدة والتي تتعلق بتوصيات وقرارات صادرة عن اللجنة، وتحث مرة أخرى هيئاتِ إدارة المنظمات على أن تكفل امتثال الرؤساء التنفيذيين لذلك الطلب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>	5 -</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الأمين العام أن يقدم في سياق تقريره المقبل معلومات مستكملة مفصّلة عن الاختلاف في الاجتهاد القضائي للمحكمتين بشأن المسائل المتصلة بلجنة الخدمة المدنية الدولية وتقييماً لأثره على تماسك النظام الموحد للأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>	6 -</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى الفقرة 24 من تقرير اللجنة الاستشارية، وتشجع على زيادة تبادل الآراء والتواصل المستمر بين محاكم النظام الموحد للأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>	7 -</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> أن تعزيز اتساق النظام الموحد للأمم المتحدة مسألة مبدأ، بصرف النظر عن التواتر الفعلي للتحديات التي تواجه تماسكه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>	8 -</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الأمين العام أن يقدم تقريرا لاحقا يتضمن مقترحات مفصلة وتحليلا دقيقا للخيارات العملية، مع إعطاء الأولوية للتدابير التي تنطوي على إدخال تغييرات على الفصل في القضايا المتعلقة بمسائل لجنة الخدمة المدنية الدولية، على النحو المبين في الخيار دال، والتدابير المتخذة في إطار الخيار باء، التي تقتصر على استعراض اللجنة لأحكام المحكمة وإصدار التوجيهات، فضلا عن زيادة تبادل الآراء بين المحاكم، على النحو المبين في الفرع الرابع من تقرير الأمين العام، وأن يعرضه على الجمعية العامة للنظر فيه في موعد لا يتجاوز الدورة السابعة والسبعين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	9 -</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب أيضا</span> إلى الأمين العام، عند تقديم مزيد من التحليل للخيار دال في الفرع الرابع من التقرير، أن يأخذ في الاعتبار سبل الاستفادة من الأطر والهياكل الأساسية القائمة في المحاكم ومن قضاتها الحاليين كي لا تشغَّل الدائرة المشتركة إلا عند الاقتضاء، ومن ثم تقليل التكاليف المرتبطة بهذا الخيار إلى أدنى حد، وأن يحدِّد التدابير التي قد يتعين على المنظمات اتخاذها للاعتراف بولاية الدائرة المشتركة أو لخضوعها لتلك الولاية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	10 -</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب كذلك</span> إلى الأمين العام أن يقدِّم، خلال الجزء الرئيسي من دورتها السادسة والسبعين، إحاطة غير رسمية عن حالة التقدم المحرز في إعداد التقرير المتعلق بهيكل الولاية القضائية للنظام الموحد للأمم المتحدة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline title="59" name="adoptionMeeting">الجلسة العامة 59</inline>
+        <eol/>
+        <docDate date="2021-04-16" refersTo="#adoptionDate">16 نيسان/أبريل 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
