@@ -1,0 +1,776 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/"></FRBRuri>
+          <FRBRdate date="2021-06-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@/"></FRBRuri>
+          <FRBRdate date="2021-06-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@.xml"></FRBRuri>
+          <FRBRdate date="2021-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Economic and Social Council" showAs="UN. Economic and Social Council" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. High-Level Political Forum on Sustainable Development" showAs="UN. High-Level Political Forum on Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC DEVELOPMENT" showAs="ECONOMIC DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="14" showAs="UN CONFERENCES" dictionary="A/75/251"></keyword>
+        <keyword refersTo="agenda" value="122" showAs="MILLENNIUM SUMMIT (2000 : NEW YORK)" dictionary="A/75/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-06-15" outcome="draftResolution" as="A/75/L.102" by="submitted by the President of the General Assembly" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-06-28" outcome="adopted" as="Adopted without vote, 87th plenary meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sans renvoi à une grande commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-08654 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/290 B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-06-28" class="rightSmall" refersTo="#dateOfIssuance">28 juin 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Soixante-quinzième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Points 14 et 122 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Application et suivi intégrés et coordonnés des textes issus des grandes conférences et réunions au sommet organisées par les Nations Unies dans les domaines économique et social et dans les domaines connexes</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Suite donnée aux textes issus du Sommet du Millénaire</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 25 juin 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sans renvoi à une grande commission (<inline name="originating document">A/75/L.102</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/290.</docNumber>
+        <docTitle>Examen de l’application de la résolution 72/305 de l’Assemblée générale sur le renforcement du Conseil économique et social</docTitle>
+        <docTitle refersTo="#resolutionTitle">Examen de l’application de la résolution 67/290 de l’Assemblée générale sur la structure et les modalités de fonctionnement du forum politique de haut niveau pour le développement durable et de sa résolution 70/299 sur le suivi et l’examen de la mise en œuvre du Programme de développement durable à l’horizon 2030 au niveau mondial</docTitle>
+      </p>
+      <p>
+        <docNumber refersTo="#letter">
+          <span class="bold">		B</span>
+        </docNumber>
+        <docTitle refersTo="#resolutionTitle">		Forum politique de haut niveau pour le développement durable</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Réaffirmant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>les dispositions de sa résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> du 25 septembre 2015 intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle a été adoptée une série complète d’objectifs et de cibles ambitieux, universels, axés sur l’être humain et porteurs de changement, et réaffirmant qu’elle s’engage à œuvrer sans relâche pour que le Programme soit appliqué dans son intégralité d’ici à 2030, qu’elle considère que l’élimination de la pauvreté sous toutes ses formes et dans toutes ses dimensions, y compris l’extrême pauvreté, constitue le plus grand défi auquel l’humanité doit faire face et une condition indispensable au développement durable, et qu’elle est attachée à réaliser le développement durable dans ses trois dimensions – économique, sociale et environnementale – d’une manière équilibrée et intégrée en tirant parti de ce qui a été fait dans le cadre des objectifs du Millénaire pour le développement, dont elle s’efforcera d’achever la réalisation,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> sa résolution <a href="https://undocs.org/fr/A/RES/74/298">74/298</a>, du 12 août 2020, intitulée « Examen de l’application des résolutions de l’Assemblée générale suivantes : <a href="https://undocs.org/fr/A/RES/67/290">67/290</a> sur le forum politique de haut niveau pour le développement durable, <a href="https://undocs.org/fr/A/RES/70/299">70/299</a> sur le suivi et l’examen de la mise en œuvre du Programme de développement durable à l’horizon 2030 au niveau mondial et <a href="https://undocs.org/fr/A/RES/72/305">72/305</a> sur le renforcement du Conseil économique et social »,</p>
+      </container>
+      <container name="Rappelant également" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant également </span>ses résolutions <a href="https://undocs.org/fr/A/RES/67/290">67/290</a> du 9 juillet 2013, intitulée « Structure et modalités de fonctionnement du forum politique de haut niveau pour le développement durable », et <a href="https://undocs.org/fr/A/RES/70/299">70/299</a> du 29 juillet 2016, intitulée « Suivi et examen de la mise en œuvre du Programme de développement durable à l’horizon 2030 au niveau mondial »,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>les dispositions de sa résolution <a href="https://undocs.org/fr/A/RES/74/4">74/4</a> du 15 octobre 2019, intitulée « Déclaration politique issue du forum politique de haut niveau pour le développement durable organisé sous les auspices de l’Assemblée générale », et la pertinence de la décennie d’action et de réalisations en faveur des objectifs de développement durable, s’agissant spécialement de reconstruire en mieux après la pandémie de maladie à coronavirus (COVID-19),</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant également </span>les dispositions de sa résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a> du 27 juillet 2015 sur le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement, qui appuie et complète le Programme 2030 dont il fait partie intégrante, qui contribue à replacer dans leur contexte les cibles concernant les moyens de mise en œuvre grâce à l’adoption de politiques et mesures concrètes, et qui réaffirme la volonté politique résolue de faire face aux problèmes de financement et de créer, à tous les niveaux, un environnement propice au développement durable, dans un esprit de partenariat et de solidarité planétaires,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>que le Programme 2030 est guidé par les buts et principes énoncés dans la Charte des Nations Unies, notamment le plein respect du droit international, se fonde sur la Déclaration universelle des droits de l’homme<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/217(III)">217 A (III)</a>.</p></authorialNote>, les instruments internationaux relatifs aux droits de l’homme, la Déclaration du Millénaire<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/55/1">55/1</a>.</p></authorialNote> et le Document final du Sommet mondial de 2005<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/60/1">60/1</a>.</p></authorialNote> et s’inspire d’autres instruments, tels que la Déclaration sur le droit au développement<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/41/128">41/128</a>, annexe.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>que, dans le Programme de développement durable à l’horizon 2030<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote>, les États Membres se sont engagés à procéder à un suivi et un examen systématiques de la mise en œuvre du Programme 2030, conformément à des principes directeurs arrêtés d’un commun accord, notamment ceux énoncés au paragraphe 74 de la résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>, et ont affirmé que le forum politique de haut niveau pour le développement durable assumerait un rôle central en supervisant un réseau de mécanismes de suivi et d’examen à l’échelle mondiale et agirait de concert avec l’Assemblée générale, le Conseil économique et social et d’autres instances et organes compétents, conformément aux mandats existants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Déclare </span>que le Conseil économique et social et le forum politique de haut niveau pour le développement durable devraient se coordonner étroitement, dans le respect des attributions et mandats de chacun, de manière que leurs travaux, qui sont interconnectés et interdépendants, soient cohérents et se renforcent mutuellement pour concourir à la mise en œuvre accélérée du Programme 2030 tout au long de la décennie d’action et de réalisations en faveur des objectifs de développement durable d’ici à l’année 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Note </span>que le Conseil économique et social est un organe créé par la Charte des Nations Unies et que le forum politique de haut niveau pour le développement durable se tient sous ses auspices et ceux de l’Assemblée générale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Adopte </span>le texte figurant en annexe de la présente résolution sur l’examen du forum politique de haut niveau pour le développement durable et demande au Conseil économique et social et aux organes et mécanismes concernés du système des Nations Unies d’appliquer rapidement les dispositions qui y sont énoncées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>que les dispositions de la présente résolution et de son annexe seront réexaminées à sa soixante-dix-huitième session, au moment de l’examen du Conseil économique et social, afin que les enseignements tirés des cycles précédents du forum politique de haut niveau pour le développement durable et d’autres mécanismes de l’Assemblée générale et du Conseil économique et social qui concernent le suivi et l’examen du Programme 2030 soient mis à profit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> qu’elle a décidé que l’examen du renforcement du Conseil économique et social lors des cycles d’examen ultérieurs coïnciderait avec celui du forum politique de haut niveau pour le développement durable, tout en sachant bien que leurs rôles et leurs mandats sont distincts ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle </span>la décision qu’elle a prise dans sa résolution <a href="https://undocs.org/fr/A/RES/74/298">74/298</a> et décide d’arrêter à sa soixante-dix-septième session le thème annuel de la session de 2024 du Conseil économique et social et du forum politique de haut niveau pour le développement durable, ainsi que la série d’objectifs que ce dernier devra examiner en 2024, sans préjudice de l’examen complet du Conseil et de celui du forum politique de haut niveau, qui seront menés ensemble à la soixante-dix-huitième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que tous les mandats énoncés dans les résolutions <a href="https://undocs.org/fr/A/RES/67/290">67/290</a> et <a href="https://undocs.org/fr/A/RES/70/299">70/299</a> resteront en vigueur, à moins qu’ils ne soient actualisés ou remplacés dans la présente résolution ou dans ses résolutions ultérieures, et que les mandats énoncés dans la présente résolution et son annexe devraient s’appliquer à partir du forum politique de haut niveau pour le développement durable de 2022 et de ses préparatifs. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="87e">87e séance plénière</inline>
+        <eol />
+        <docDate date="2021-06-25" refersTo="#adoptionDate">25 juin 2021</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/"></FRBRuri>
+                <FRBRdate date="2021-06-25" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@/"></FRBRuri>
+                <FRBRdate date="2021-06-28" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-06-25/75-290/fra@.xml"></FRBRuri>
+                <FRBRdate date="2021-09-25" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_38" class="H1">
+              <content eId="para_38__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Annexe</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="H1">
+              <content eId="para_39__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Examen de l’application de la résolution </span>
+                  <a href="https://undocs.org/fr/A/RES/67/290">67/290</a>
+                  <span class="bold"> de l’Assemblée générale sur la structure et les modalités de fonctionnement du forum politique de haut niveau pour le développement durable et de sa résolution </span>
+                  <a href="https://undocs.org/fr/A/RES/70/299">70/299</a>
+                  <span class="bold"> sur le suivi et l’examen de la mise en œuvre du Programme de développement durable à l’horizon 2030 au niveau mondial</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40">
+              <num>1.</num>
+              <content eId="para_40__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">Comme le veut son caractère intergouvernemental universel, le forum politique de haut niveau pour le développement durable exerce une action mobilisatrice, donne des orientations et formule des recommandations aux fins du développement durable, suit et passe en revue les progrès accomplis dans la concrétisation du Programme de développement durable à l’horizon 2030<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote> dans son intégralité et d’autres engagements pris en faveur du développement durable, et améliore l’intégration des trois dimensions du développement durable d’une manière équilibrée, holistique et intersectorielle à tous les niveaux, tout en tenant compte de la promesse de ne laisser personne de côté. Il devrait avoir un programme ciblé, dynamique et pragmatique qui accorde l’attention voulue aux problèmes nouveaux et naissants et prendre de nouvelles mesures pour accélérer la mise en œuvre du Programme 2030 et la réalisation des objectifs de développement durable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42">
+              <num>1.</num>
+              <content eId="para_42__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">L’Assemblée générale réaffirme ses résolutions <a href="https://undocs.org/fr/A/RES/67/290">67/290</a> du 9 juillet 2013, <a href="https://undocs.org/fr/A/RES/70/299">70/299</a> du 29 juillet 2016 et <a href="https://undocs.org/fr/A/RES/74/298">74/298</a> du 12 août 2020 et le rôle central du forum politique de haut niveau pour le développement durable, établi dans le Programme 2030, pour ce qui est de superviser le suivi et l’examen de la mise en œuvre du Programme au niveau mondial, tout en contribuant au partage des connaissances et en créant des synergies pour parvenir aux objectifs de développement durable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44">
+              <num>1.</num>
+              <content eId="para_44__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <content eId="para_45__content">
+                <p xml:space="preserve">Conformément à la déclaration politique issue du Sommet sur les objectifs de développement durable (forum politique de haut niveau pour le développement durable organisé sous les auspices de l’Assemblée générale) qui s’est tenu les 24 et 25 septembre 2019<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/74/4">74/4</a>, annexe.</p></authorialNote>, le suivi et l’examen du Programme 2030 au niveau mondial devraient concourir à la mise en œuvre accélérée du Programme 2030 et à la réalisation de ses 17 objectifs de développement durable dans le cadre de la décennie d’action et de réalisations en faveur des objectifs de développement durable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46">
+              <num>1.</num>
+              <content eId="para_46__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="SingleTxt">
+              <content eId="para_47__content">
+                <p xml:space="preserve">Les principes établis dans le Programme 2030 pour guider les processus de suivi et d’examen à tous les niveaux, notamment ceux énoncés au paragraphe 74 du Programme, devraient continuer à être appliqués à tous les niveaux. En conséquence, les processus de suivi et d’examen à tous les niveaux seront guidés par les principes suivants :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <content eId="para_48__content">
+                <p xml:space="preserve">	a)	Engagés à titre volontaire et pilotés par les pays, ils tiendront compte des réalités, des capacités et des niveaux de développement propres à chacun d’eux et respecteront la sphère et les priorités de leur politique générale. La prise en main par les pays étant essentielle à la réalisation d’un développement durable, les résultats des processus nationaux serviront de fondement aux examens à effectuer aux niveaux régional et mondial, vu que l’examen mondial reposera principalement sur les sources officielles nationales de données ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	b)	Ils suivront les progrès accomplis dans la réalisation des objectifs et cibles universels, y compris les moyens de mise en œuvre, dans tous les pays, d’une façon qui respecte leur caractère universel, intégré et interdépendant et les trois dimensions du développement durable ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <content eId="para_50__content">
+                <p xml:space="preserve">	c)	Ils se dérouleront dans une perspective à long terme, recenseront les réalisations, les problèmes, les lacunes et les facteurs clefs de succès et aideront les pays à faire des choix en connaissance de cause. Ils permettront de mobiliser les moyens d’exécution et les partenariats nécessaires, aideront à trouver des solutions et à déterminer quelles sont les meilleures pratiques et faciliteront la coordination et le fonctionnement efficace du système international de développement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <content eId="para_51__content">
+                <p xml:space="preserve">	d)	Ils revêtiront pour tous un caractère ouvert, non sélectif, participatif et transparent et faciliteront la communication d’informations par toutes les parties concernées ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	e)	Ils seront axés sur l’être humain, tiendront compte des différences entre les sexes, respecteront les droits de la personne et accorderont une attention particulière aux plus pauvres, aux plus vulnérables et aux plus défavorisés ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	f)	Ils mettront à profit, s’il y a lieu, les cadres et processus existants, éviteront les doubles emplois et s’adapteront à la situation, aux capacités, aux besoins et aux priorités des pays. Ils évolueront progressivement, tiendront compte des problèmes qui se font jour et des nouvelles méthodes élaborées et réduiront la charge que l’établissement de rapports fait peser sur les administrations nationales ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <content eId="para_54__content">
+                <p xml:space="preserve">	g)	Ils seront rigoureux, fondés sur l’analyse des faits et étayés par des évaluations menées par les pays et des données de qualité, accessibles, actualisées, fiables et ventilées selon le revenu, le sexe, l’âge, la race, l’appartenance ethnique, le statut migratoire, le handicap, la situation géographique et d’autres caractéristiques pertinentes dans le contexte national ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <content eId="para_55__content">
+                <p xml:space="preserve">	h)	Ils nécessiteront un appui accru au renforcement des capacités des pays en développement, en vue notamment d’étoffer les systèmes de collecte de données et les programmes d’évaluation nationaux, en particulier dans les pays d’Afrique, les pays les moins avancés, les petits États insulaires en développement, les pays en développement sans littoral et les pays à revenu intermédiaire ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <content eId="para_56__content">
+                <p xml:space="preserve">	i)	Ils bénéficieront de l’appui actif du système des Nations Unies et d’autres institutions multilatérales.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57">
+              <num>2.</num>
+              <content eId="para_57__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="SingleTxt">
+              <content eId="para_58__content">
+                <p xml:space="preserve">Les préparatifs du forum politique de haut niveau ainsi que son programme et ses travaux, y compris les examens thématiques et les examens nationaux volontaires, reflètent le caractère universel, intégré, indivisible et interdépendant des objectifs de développement durable et tiennent dûment compte du Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a>, annexe.</p></authorialNote>, de l’Accord de Paris<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21, annexe.</p></authorialNote> et des textes issus d’autres grandes conférences et réunions au sommet organisées par les Nations Unies dans les domaines économique, social et environnemental, dans le cadre de la mise en œuvre du Programme 2030.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59">
+              <num>3.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <content eId="para_60__content">
+                <p xml:space="preserve">Le forum politique de haut niveau renforcera l’apprentissage et la mise en œuvre par les pairs, en prévoyant suffisamment de temps pour le partage des meilleures pratiques et des expériences relatives à la mise en œuvre du Programme 2030 et, sur une base volontaire, le partage des connaissances et des conseils, notamment quant aux succès remportés et aux problèmes rencontrés. Il s’intéressera aux liens entre les niveaux mondial, régional, national et infranational de la mise en œuvre et de l’examen du Programme 2030, en faisant fond sur les forums régionaux pour le développement durable, les préparatifs des examens nationaux volontaires et les réunions d’experts et autres réunions préparatoires préludant au forum politique de haut niveau.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61">
+              <num>4.</num>
+              <content eId="para_61__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="SingleTxt">
+              <content eId="para_62__content">
+                <p xml:space="preserve">Sans préjudice du caractère intégré, indivisible et interdépendant des objectifs de développement durable, le forum politique de haut niveau pour le développement durable organisé sous les auspices du Conseil économique et social continuera d’examiner à chaque session un ensemble d’objectifs et leurs liens, y compris avec d’autres objectifs, représentant les trois dimensions du développement durable, en vue de faciliter un examen approfondi des progrès réalisés dans la réalisation de l’ensemble des 17 objectifs au cours de son cycle de quatre ans. Les moyens de mise en œuvre, notamment en ce qui concerne l’objectif 17, sont examinés chaque année, notamment sur la base du document final du forum du Conseil économique et social sur le suivi du financement du développement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63">
+              <num>5.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="SingleTxt">
+              <content eId="para_64__content">
+                <p xml:space="preserve">Le forum politique de haut niveau pour le développement durable organisé sous les auspices du Conseil économique et social renforcera son analyse des liens entre les objectifs et les cibles de développement durable, y compris les incidences des synergies et des compromis sur les politiques, et des dimensions économique, sociale et environnementale du développement durable, tout en abordant également des questions transversales relevant du Programme 2030 et des objectifs de développement durable ainsi que le principe consistant à ne laisser personne de côté. Tout en respectant son caractère intergouvernemental universel, le forum politique de haut niveau continuera d’associer les gouvernements, ainsi que le système des Nations Unies et d’autres organisations internationales et régionales, les parlementaires, les administrations locales, les femmes, les enfants et les jeunes, les personnes en situation de handicap, les peuples autochtones, la société civile, les organisations non gouvernementales, les entreprises et le secteur privé, les communautés scientifique et universitaire et d’autres grands groupes et parties prenantes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65">
+              <num>6.</num>
+              <content eId="para_65__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="SingleTxt">
+              <content eId="para_66__content">
+                <p xml:space="preserve">Le forum politique de haut niveau s’efforcera, de manière équilibrée, d’accorder une attention accrue aux liens entre les objectifs et les cibles et d’approfondir l’examen des différents objectifs de développement durable. Pour mieux prendre en compte les synergies et les compromis entre les objectifs, il doit également garder à l’esprit, chaque année, les domaines dans lesquels les mesures visant à réaliser les objectifs de développement durable peuvent avoir les effets les plus importants et les plus transformateurs sur plusieurs objectifs et cibles, en s’appuyant sur une analyse politique et scientifique.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67">
+              <num>7.</num>
+              <content eId="para_67__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="SingleTxt">
+              <content eId="para_68__content">
+                <p xml:space="preserve">Le forum politique de haut niveau rapprochera les scientifiques et les décideurs afin de soutenir l’action des décideurs et d’autres parties prenantes grâce à des données probantes solides sur les progrès accomplis et les défis à relever dans la mise en œuvre du Programme 2030 et des politiques connexes. À cette fin, il examinera également la documentation, rassemblera les informations et les évaluations dispersées, notamment dans le <span class="italic">Rapport mondial sur le développement durable</span>, s’appuiera sur les évaluations existantes et améliorera la prise de décisions fondée sur des données probantes. Il accordera une attention particulière aux questions touchant la disponibilité des données et le renforcement des capacités en matière de collecte et d’analyse des données.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69">
+              <num>8.</num>
+              <content eId="para_69__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70" class="SingleTxt">
+              <content eId="para_70__content">
+                <p xml:space="preserve">Les thèmes retenus pour le reste du cycle en cours du forum politique de haut niveau seront les suivants :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="SingleTxt">
+              <content eId="para_71__content">
+                <p xml:space="preserve">	a)	pour 2022 : Reconstruire en mieux après la pandémie de maladie à coronavirus (COVID-19), tout en avançant sur la voie d’une mise en œuvre intégrale du Programme de développement durable à l’horizon 2030 ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="SingleTxt">
+              <content eId="para_72__content">
+                <p xml:space="preserve">	b)	pour 2023 : Accélérer la reprise au sortir de la pandémie de maladie à coronavirus (COVID-19) et la mise en œuvre intégrale du Programme de développement durable à l'horizon 2030 à tous les niveaux.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73">
+              <num>9.</num>
+              <content eId="para_73__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="SingleTxt">
+              <content eId="para_74__content">
+                <p xml:space="preserve">Pour le reste du cycle en cours du forum politique de haut niveau organisé sous les auspices du Conseil économique et social, les groupes d’objectifs de développement durable qui seront examinés en profondeur seront les suivants :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="SingleTxt">
+              <content eId="para_75__content">
+                <p xml:space="preserve">	a)	pour 2022 : objectifs 4, 5, 14, 15 et 17 ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="SingleTxt">
+              <content eId="para_76__content">
+                <p xml:space="preserve">	b)	pour 2023 : objectifs 6, 7, 9, 11 et 17.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77">
+              <num>10.</num>
+              <content eId="para_77__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="SingleTxt">
+              <content eId="para_78__content">
+                <p xml:space="preserve">En 2022 et en 2023, le forum politique de haut niveau devra tenir compte des différentes incidences particulières de la pandémie de COVID-19 sur tous les objectifs de développement durable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79">
+              <num>11.</num>
+              <content eId="para_79__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <content eId="para_80__content">
+                <p xml:space="preserve">En 2022 et en 2023, le forum politique de haut niveau maintiendra par ailleurs l’intégrité du Programme 2030 et veillera à ce que des mesures continues soient prises pour atteindre les cibles associées aux objectifs de développement durable dont l’échéance a été prévue pour 2020, tout en suivant l’évolution des processus intergouvernementaux connexes engagés et en en tenant pleinement compte, afin que les cibles mises à jour reflètent un degré d’ambition acceptable pour 2030.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81">
+              <num>12.</num>
+              <content eId="para_81__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="SingleTxt">
+              <content eId="para_82__content">
+                <p xml:space="preserve">En 2022 et en 2023, le forum politique de haut niveau devra également promouvoir et examiner l’application de la déclaration politique négociée au niveau intergouvernemental qui a été adoptée au Sommet de 2019 sur les objectifs de développement durable (forum politique de haut niveau pour le développement durable organisé sous les auspices de l’Assemblée générale), ainsi que des déclarations ministérielles négociées au niveau intergouvernemental qui ont été adoptées par le forum politique de haut niveau organisé sous les auspices du Conseil économique et social, de manière à contribuer à la mise en œuvre du Programme 2030.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83">
+              <num>13.</num>
+              <content eId="para_83__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="SingleTxt">
+              <content eId="para_84__content">
+                <p xml:space="preserve">Dans le cadre des examens thématiques, le forum politique de haut niveau pourrait tenir compte des contributions apportées par des organes et forums intergouvernementaux, notamment les forums multipartites pertinents, et, le cas échéant, des conclusions, recherches, données et recommandations émanant du système des Nations Unies ou issues des réunions d’experts préparatoires organisées par le Secrétariat, ou de sources spécialisées et scientifiques, telles que le <span class="italic">Rapport mondial sur le développement durable</span> et le Mécanisme de facilitation des technologies, qui renforcent le dialogue entre scientifiques et décideurs.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85">
+              <num>14.</num>
+              <content eId="para_85__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="SingleTxt">
+              <content eId="para_86__content">
+                <p xml:space="preserve">Le forum politique de haut niveau consacrera suffisamment de temps à l’étude des progrès réalisés dans la mise en œuvre du Programme 2030 dans les pays en situation particulière, s’agissant notamment des objectifs à l’examen et des corrélations existant entre eux, en particulier dans les pays d’Afrique, les pays les moins avancés, les pays en développement sans littoral, les petits États insulaires en développement et les pays en proie à un conflit ou sortant d’un conflit. Les sessions thématiques consacrées à ces pays lors de réunions antérieures du forum politique de haut niveau doivent être maintenues et il importe que les conditions et les défis particuliers que connaissent ces pays soient abordés tout au long des examens thématiques du forum. Il sera également nécessaire d’étudier les difficultés auxquelles se heurtent les pays à revenu intermédiaire.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87">
+              <num>15.</num>
+              <content eId="para_87__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="SingleTxt">
+              <content eId="para_88__content">
+                <p xml:space="preserve">Les pays qui présentent des examens nationaux volontaires sont encouragés à rendre compte des progrès accomplis dans la réalisation du Programme 2030 et des objectifs de développement durable, conformément aux dispositions du Programme 2030 et de la résolution <a href="https://undocs.org/fr/A/RES/67/290">67/290</a>. Tout en gardant à l’esprit que c’est à eux qu’il revient de mener ces examens, sur une base volontaire, et compte étant tenu de leurs expériences passées en la matière, les pays souhaiteront peut-être partager leurs meilleures pratiques et expériences – s’agissant par exemple de leurs réussites, des défis rencontrés, de leurs lacunes ou des enseignements tirés – et présenter les étapes à venir. La prise de mesures plus énergiques pour l’avenir pourrait également orienter les contributions faites par les pays au « Coup de projecteur sur les objectifs de développement durable » – organisé en septembre à l’initiative du Secrétaire général – dans leur examen national volontaire. Les États ayant déjà réalisé un examen national volontaire pourraient envisager de mettre en évidence les tendances constatées, les progrès accomplis et les défis restants dans leur prochain examen, ainsi que d’y analyser, dans la mesure du possible, les retombées des mesures prises depuis l’examen précédent.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89">
+              <num>16.</num>
+              <content eId="para_89__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <content eId="para_90__content">
+                <p xml:space="preserve">Si la réalisation d’examens nationaux volontaires est facultative, les pays, y compris ceux qui se trouvent en situation particulière, sont néanmoins encouragés à effectuer un examen au cours du cycle quadriennal du forum politique de haut niveau, à leur convenance. Les pays qui n’ont pas encore effectué d’examen national volontaire sont encouragés à le faire, compte étant tenu de leurs capacités et de leur situation.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91">
+              <num>17.</num>
+              <content eId="para_91__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <content eId="para_92__content">
+                <p xml:space="preserve">La présidence et le Bureau du Conseil économique et social chercheront les moyens d’allouer autant de temps que possible aux examens nationaux volontaires pendant le forum politique de haut niveau afin de renforcer les interactions, les discussions de fond et l’apprentissage par les pairs. S’appuyant sur ces examens, les pays participant au forum politique de haut niveau sont encouragés à continuer de partager leur propre expérience et les enseignements tirés, ainsi qu’à formuler des avis constructifs et à soumettre des idées pour accélérer les progrès. Il est par ailleurs possible pour les auteurs d’examens nationaux volontaires de répondre par écrit aux demandes d’informations complémentaires une fois le forum clôturé, dans le cas où ils auraient manqué de temps pour donner des réponses détaillées durant le forum. Il convient de continuer de garantir la participation des grands groupes et des autres parties prenantes aux discussions portant sur les examens nationaux volontaires lors du forum politique de haut niveau, comme l’exigent la résolution <a href="https://undocs.org/fr/A/RES/67/290">67/290</a> et le Programme 2030. Les pays présentant des examens nationaux volontaires doivent se voient donner la priorité pour l’organisation, sur une base volontaire, de manifestations en marge de la partie principale des sessions du forum.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93">
+              <num>18.</num>
+              <content eId="para_93__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <content eId="para_94__content">
+                <p xml:space="preserve">Il a été décidé dans le Programme 2030 que le forum politique de haut niveau organisé sous les auspices du Conseil économique et social ferait régulièrement le bilan des progrès accomplis, conformément à la résolution <a href="https://undocs.org/fr/A/RES/67/290">67/290</a>. Ces bilans seraient effectués sur une base volontaire, l’établissement de rapports étant encouragé, et incluraient les pays développés et les pays en développement ainsi que les entités concernées des Nations Unies et d’autres parties prenantes, dont la société civile et le secteur privé. Ils seraient faits par les États, avec le concours de ministres et d’autres participants de haut rang, et ouvriraient la voie à des partenariats, notamment grâce à la participation des grands groupes et d’autres parties prenantes. Le rôle essentiel joué par les parlements nationaux dans les activités de mise en œuvre et d’examen du fait de leurs fonctions législatives et budgétaires et du contrôle qu’ils exercent sur l’application effective du Programme 2030 et des objectifs de développement durable au niveau national a par ailleurs été reconnu.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95">
+              <num>19.</num>
+              <content eId="para_95__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <content eId="para_96__content">
+                <p xml:space="preserve">Les pays sont encouragés à s’appuyer sur des données factuelles, scientifiques et issues d’évaluations pour réaliser leur examen national volontaire, ce qui pourra exiger l’accroissement de leurs capacités statistiques nationales afin de combler le manque d’informations sur le Programme 2030 et, partant, d’obtenir des données et des statistiques de grande qualité, à jour, fiables et ventilées. Il convient de soutenir le renforcement de ces capacités dans les pays en développement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97">
+              <num>20.</num>
+              <content eId="para_97__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <content eId="para_98__content">
+                <p xml:space="preserve">Les pays sont également encouragés à continuer de se servir des directives communes d’application volontaire proposées par le Secrétaire général pour la préparation des examens nationaux volontaires. Le Secrétaire général est prié de fournir ces directives aux États Membres et de les mettre à jour, selon que de besoin, en tenant compte des informations communiquées par les pays participant au forum politique de haut niveau et des enseignements tirés, l’objectif étant notamment de renforcer les capacités d’analyse et l’établissement de rapports fondés sur des données factuelles concernant les objectifs de développement durable et le Programme 2030 dans leur ensemble.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99">
+              <num>21.</num>
+              <content eId="para_99__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <content eId="para_100__content">
+                <p xml:space="preserve">Les pays sont en outre encouragés à participer aux diverses activités de préparation des examens nationaux volontaires organisées par le Secrétariat et d’autres partenaires, ainsi qu’aux ateliers et à d’autres manifestations parallèles se tenant à leur sujet pendant le forum politique de haut niveau, lors desquels ils pourraient discuter plus avant de leurs examens respectifs ou de thèmes spécifiques s’y rapportant avec d’autres États.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101">
+              <num>22.</num>
+              <content eId="para_101__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <content eId="para_102__content">
+                <p xml:space="preserve">Pendant la préparation des examens nationaux volontaires, les pays, les organismes des Nations Unies et les autres organisations internationales et régionales et parties prenantes qui sont en mesure de le faire sont invités à apporter leur soutien aux États qui en font la demande.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103">
+              <num>23.</num>
+              <content eId="para_103__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="SingleTxt">
+              <content eId="para_104__content">
+                <p xml:space="preserve">Afin d’améliorer le suivi des examens nationaux volontaires, les pays, les organismes des Nations Unies et les autres organisations internationales et régionales et parties prenantes sont invités et encouragés à nouer des partenariats et à fournir un soutien, notamment en matière de renforcement des capacités, aux pays de programme s’essayant à l’exercice, à leur demande et en consultation avec eux, en vue de les aider à relever les défis accompagnant la mise en œuvre du Programme 2030. Le système des Nations Unies pour le développement est par ailleurs invité à appuyer le suivi de ces examens dans les pays en développement qui en font la demande, notamment en remédiant aux lacunes et aux difficultés détectées dans le contexte des examens nationaux pour ce qui est de l’application des plans-cadres de coopération des Nations Unies pour le développement durable, lorsque cela est possible.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105">
+              <num>24.</num>
+              <content eId="para_105__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <content eId="para_106__content">
+                <p xml:space="preserve">Les pays peuvent se servir des examens nationaux volontaires comme cadre de suivi et d’examen non contraignant, efficace et participatif pour mieux faire connaître les objectifs de développement durable et les efforts et progrès réalisés dans la mise en œuvre du Programme 2030.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107">
+              <num>25.</num>
+              <content eId="para_107__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <content eId="para_108__content">
+                <p xml:space="preserve">Les forums régionaux pour le développement durable organisés par les commissions régionales sont particulièrement utiles à la préparation du forum politique de haut niveau et favorisent l’apprentissage par les pairs et l’échange de connaissances dans les régions. Il importe d’en tenir compte dans le cadre des examens thématiques et des échanges relatifs aux examens nationaux volontaires se tenant lors du forum politique de haut niveau. Les participants aux forums régionaux sont encouragés à préparer les examens thématiques du forum politique de haut niveau et à discuter des progrès réalisés, des défis à relever, des lacunes constatées et des approches adoptées au niveau régional, ainsi que des meilleures pratiques recensées, des questions se faisant jour et des idées novatrices afin d’accélérer la réalisation du Programme 2030 et des objectifs de développement durable, et à continuer d’œuvrer au renforcement des capacités régionales et à la création de réseaux. Ils sont également encouragés à intensifier l’apprentissage par les pairs et l’échange d’expériences entre pays lors de la préparation des examens nationaux volontaires, ainsi qu’à discuter et à assurer le suivi des questions soulevées par les examens nationaux, tout en évitant les chevauchements avec le forum politique de haut niveau. Enfin, ces rencontres devraient être accessibles aux parties prenantes et favoriser leur participation.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109">
+              <num>26.</num>
+              <content eId="para_109__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <content eId="para_110__content">
+                <p xml:space="preserve">Le forum politique de haut niveau devrait continuer d’accorder une attention accrue aux conclusions des forums régionaux dans ses travaux et dans la déclaration négociée au niveau intergouvernemental – en s’appuyant sur des contributions provenant des commissions régionales et d’autres entités régionales et sous-régionales, selon les besoins – tout en améliorant le dialogue interrégional et en tenant compte des dimensions régionales dans ses examens. À ce titre, les forums régionaux sont encouragés à soumettre leurs rapports dans les plus brefs délais afin que le forum politique de haut niveau puisse les examiner en temps utile.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111">
+              <num>27.</num>
+              <content eId="para_111__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="SingleTxt">
+              <content eId="para_112__content">
+                <p xml:space="preserve">En considération des efforts déployés par les autorités locales pour mener des examens à leur échelle, le forum politique de haut niveau devrait continuer d’accroître l’attention accordée aux initiatives de renforcement de l’action locale visant à accélérer la réalisation des objectifs de développement durable, compte tenu de la situation, des politiques et des priorités nationales, et les forums régionaux sont encouragés à examiner les tendances décelées et les constatations faites dans les examens locaux volontaires.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113">
+              <num>28.</num>
+              <content eId="para_113__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <content eId="para_114__content">
+                <p xml:space="preserve">Les réunions du forum politique de haut niveau organisé sous les auspices du Conseil économique et social resteront fondées sur le rapport établi par le Secrétaire général au sujet de l’état d’avancement de la réalisation des objectifs de développement durable, à partir du cadre mondial d’indicateurs et des données produites par les systèmes statistiques nationaux ainsi que des informations recueillies à l’échelle régionale et d’autres contributions pertinentes. Le Secrétaire général est invité à envisager d’inclure dans ce rapport des informations sur les lacunes et les capacités en matière de données ainsi que sur les moyens de remédier au manque de capacités, et à étudier la possibilité de rendre compte des liens existant entre les objectifs à l’examen, tout en préservant le caractère statistique du rapport. Ce dernier devrait être rendu disponible au début de chaque année afin de pouvoir être utilisé lors des négociations intergouvernementales tenues sur la déclaration à l’approche du forum politique de haut niveau. Le <span class="italic">Rapport mondial sur le développement durable</span> continuera par ailleurs d’être présenté au forum politique de haut niveau organisé sous les auspices de l’Assemblée générale tous les quatre ans. La présidence et le Bureau du Conseil économique et social sont encouragés à inviter les scientifiques élaborant l’édition de 2023 du Rapport mondial à participer aux sessions du forum politique de haut niveau organisé sous les auspices du Conseil en 2022 et en 2023, en vue notamment de porter à l’attention des participants des questions nouvelles et émergentes relatives au Programme 2030. La version préliminaire non éditée du rapport établi par le Secrétaire général devrait être disponible en avril pour pouvoir être utilisée dans le cadre des négociations relatives à la déclaration ministérielle ; la version préliminaire non éditée du <span class="italic">Rapport mondial sur le développement durable</span> devrait quant à elle être disponible en mars pour pouvoir être utilisée dans le cadre des négociations intergouvernementales relatives à la déclaration politique devant être adoptée à la session de 2023 du forum politique de haut niveau organisé sous les auspices de l’Assemblée générale (Sommet sur les objectifs de développement durable).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115">
+              <num>29.</num>
+              <content eId="para_115__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <content eId="para_116__content">
+                <p xml:space="preserve">Les examens thématiques des progrès réalisés au regard des objectifs de développement durable, y compris des questions transversales, qui sont effectués dans le cadre du forum politique de haut niveau devront continuer d’être étayés par les examens effectués par les commissions techniques du Conseil économique et social et d’autres instances et organes intergouvernementaux, qui devraient prendre en compte le caractère intégré des objectifs et les corrélations existant entre eux. Ils continueront par ailleurs de mettre à contribution toutes les parties concernées.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117">
+              <num>30.</num>
+              <content eId="para_117__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <content eId="para_118__content">
+                <p xml:space="preserve">La déclaration négociée au niveau intergouvernemental du forum politique de haut niveau doit être concise, ciblée, dynamique et tournée vers l’avenir, et prévoir l’adoption de mesures plus énergiques dans des domaines prioritaires. Elle devrait témoigner de la volonté politique commune de tous les pays de mettre en œuvre le Programme 2030. Le forum politique de haut niveau continuera d’adopter une seule déclaration politique négociée qui englobera des fonctions distinctes mais complémentaires lorsqu’il est organisé deux fois la même année.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119">
+              <num>31.</num>
+              <content eId="para_119__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <content eId="para_120__content">
+                <p xml:space="preserve">Les réunions du forum politique de haut niveau organisé sous les auspices de l’Assemblée générale (Sommet sur les objectifs de développement durable) débuteront le premier jour du débat général de l’Assemblée ou le lundi précédant son ouverture afin d’en maximiser la visibilité et les retombées. Durant l’année qui précède le Sommet, le système des Nations Unies devrait concentrer les activités de communication publique menées au niveau international sur le Programme 2030. Le Secrétaire général est encouragé à mettre à profit le Coup de projecteur sur les objectifs de développement durable pour susciter l’émulation aux fins de la réalisation des objectifs de développement durable, dans le cadre du débat général de l’Assemblée et avec la participation des chefs d’État et de gouvernement. Le Coup de projecteur n’aura pas lieu les années où le forum politique de haut niveau est organisé sous les auspices de l’Assemblée.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121">
+              <num>32.</num>
+              <content eId="para_121__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="SingleTxt">
+              <content eId="para_122__content">
+                <p xml:space="preserve">Au vu des dispositions énoncées aux paragraphes 14, 15 et 16 de la résolution <a href="https://undocs.org/fr/A/RES/67/290">67/290</a>, qui concernent la participation des grands groupes et d’autres parties prenantes au forum politique de haut niveau, la participation générale, effective et équilibrée d’un éventail largement représentatif de divers grands groupes et d’autres parties prenantes à l’ensemble des travaux du forum, y compris ceux qui ont trait aux examens nationaux volontaires, devrait être assurée, grâce notamment à l’utilisation des technologies de l’information et d’une interface Web novatrice, tout en préservant le caractère intergouvernemental des débats. Les pays pourraient envisager de faire participer des représentants de ces entités à leurs délégations, comme cela a déjà été fait par le passé.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123">
+              <num>33.</num>
+              <content eId="para_123__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <content eId="para_124__content">
+                <p xml:space="preserve">Les grands groupes et les autres parties prenantes sont invités à continuer de rendre compte de leur contribution à la mise en œuvre du Programme 2030, comme indiqué au paragraphe 89 de celui-ci, et le Secrétariat doit continuer de rassembler et de mettre à disposition les documents présentés par ces entités sur le thème du forum politique de haut niveau, en vertu du paragraphe 15 d) de la résolution <a href="https://undocs.org/fr/A/RES/67/290">67/290</a>.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
