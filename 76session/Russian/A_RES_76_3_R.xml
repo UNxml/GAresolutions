@@ -1,0 +1,722 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/"></FRBRuri>
+          <FRBRdate date="2021-10-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/rus@/"></FRBRuri>
+          <FRBRdate date="2021-10-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/rus@.xml"></FRBRuri>
+          <FRBRdate date="2021-11-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee on the Peaceful Uses of Outer Space" showAs="UN. Committee on the Peaceful Uses of Outer Space" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office for Outer Space Affairs" showAs="UN. Office for Outer Space Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="Space2030 Agenda" showAs="Space2030 Agenda" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPACE EXPLORATION" showAs="SPACE EXPLORATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="30" showAs="SPACE--SUSTAINABLE DEVELOPMENT" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-10-19" outcome="draftResolution" as="A/76/L.3" by="Austria, France, Hungary, Israel, Italy, Japan, Malta, Republic of Moldova, Romania and Slovakia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Angola, Australia, Azerbaijan, Bangladesh, Belgium, Bolivia (Plurinational State of), Bulgaria, Canada, Central African Republic, China, Cyprus, Czechia, Dominican Republic, Ecuador, Finland, Gambia, Germany, Greece, Guatemala, Guinea, Jordan, Malawi, Malaysia, Mexico, Montenegro, Morocco, Namibia, New Zealand, Nigeria, North Macedonia, Norway, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Republic of Korea, Russian Federation, Rwanda, Singapore, Slovenia, South Africa, Sri Lanka, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uzbekistan and Viet Nam" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-10-25" outcome="adopted" as="A/76/PV.21" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="без передачи в главные комитеты"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-15518 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-10-28" class="rightSmall" refersTo="#dateOfIssuance">28 October 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Семьдесят шестая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 30 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Космос как двигатель устойчивого развития</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 25 октября 2021 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[без передачи в главные комитеты (<inline name="originating document">A/76/L.3 и A/76/L.3/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Повестка дня «Космос‑2030»: космос как двигатель устойчивого развития</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь </span>на свою резолюцию <a href="https://undocs.org/ru/A/RES/73/6">73/6</a> от 26 октября 2018 года, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">
+            <span class="italic">	принимает </span>следующий документ:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="H1">
+        <heading>		Повестка дня «Космос‑2030»: космос как двигатель устойчивого развития</heading>
+      </paragraph>
+      <paragraph eId="para_5" class="H23">
+        <subheading>		Часть A. Повестка дня</subheading>
+      </paragraph>
+      <paragraph eId="para_6" class="H23">
+        <num>I.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="bold">Введение</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	С первых дней космической эры Организация Объединенных Наций играла ведущую роль в международном сотрудничестве в космической сфере. Комитет по использованию космического пространства в мирных целях возник в результате признания Генеральной Ассамблеей в резолюции <a href="https://undocs.org/ru/A/RES/1348(XIII)">1348 (XIII)</a> от 13 декабря 1958 года важности использования космического пространства в мирных целях и необходимости содействия международному сотрудничеству в осуществлении космической деятельности и был учрежден Ассамблеей на постоянной основе в резолюции <a href="https://undocs.org/ru/A/RES/1472(XIV)">1472 A (XIV)</a> 1959 года.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	Благодаря своему уникальному мандату и центральной роли в международном сотрудничестве в использовании космического пространства в мирных целях и глобальном управлении космической деятельностью<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/AC.105/1137">A/AC.105/1137</a>.</p></authorialNote> в соответствии с международным правом Комитет внес существенный вклад в организацию первых трех конференций Организации Объединенных Наций по исследованию и использованию космического пространства в мирных целях, проведенных в 1968, 1982 и 1999 годах.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	Пятьдесят лет спустя после первой Конференции Организации Объединенных Наций по исследованию и использованию космического пространства в мирных целях (ЮНИСПЕЙС) представители государств — членов Организации Объединенных Наций и международного космического сообщества собрались в Вене 20–21 июня 2018 года на этап заседаний высокого уровня по случаю пятидесятой годовщины Конференции Организации Объединенных Наций по исследованию и использованию космического пространства в мирных целях (ЮНИСПЕЙС+50), чтобы обсудить успехи, достигнутые за более чем 50-летнюю историю исследования и использования космического пространства, и укрепить глобальное сотрудничество в космической сфере и использовании космического пространства в интересах достижения устойчивого развития.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	В резолюции <a href="https://undocs.org/ru/A/RES/73/6">73/6</a> от 26 октября 2018 года Генеральная Ассамблея с удовлетворением отметила, что в рамках подготовительного процесса и сегмента высокого уровня ЮНИСПЕЙС+50 были подготовлены документы, направленные на изложение комплексного, всеохватного и стратегически ориентированного видения вопроса укрепления международного сотрудничества в исследовании и использовании космического пространства в мирных целях, в которых космос рассматривается в качестве одного из основных факторов, способствующих достижению целей в области устойчивого развития на благо всех стран.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	В этой связи Генеральная Ассамблея предложила Комитету продолжить разработку Повестки дня «Космос‑2030» и плана ее осуществления с учетом результатов процесса ЮНИСПЕЙС+50 и представить ей результаты этой работы для рассмотрения на семьдесят пятой сессии в 2020 году.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	Повестка дня «Космос‑2030» и план ее осуществления представляются Комитетом Генеральной Ассамблее в качестве перспективной стратегии, направленной на закрепление и усиление вклада космической деятельности и космических технологий в осуществление глобальных программ<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Повестка дня в области устойчивого развития на период до 2030 года, Сендайская рамочная программа по снижению риска бедствий на 2015–2030 годы и Парижское соглашение.</p></authorialNote> и решение вопросов обеспечения долгосрочного устойчивого развития в интересах всего человечества. Этот документ способствует также определению будущего вклада Комитета в выработку общих принципов глобального управления космической деятельностью в соответствии с нормами международного права.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="H23">
+        <num>II.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">Стратегическая концепция</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	Мы, государства — члены Организации Объединенных Наций, признаем, что исследование и использование космического пространства в мирных целях обогатило наши коллективные познания и коренным образом изменило жизнь на Земле. Сегодня нашу повседневную жизнь невозможно представить без космической науки и технологий, которые открывают жителям Земли множество уникальных и фундаментальных возможностей. По мере проведения космическим сообществом дальнейших космических исследований космос будет продолжать служить источником вдохновения, инноваций и прикладных решений в интересах всего человечества.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	Мы подчеркиваем, что космические средства играют важную роль в реализации глобальных программ развития, в частности в достижении целей и выполнении задач Повестки дня в области устойчивого развития на период до 2030 года, как непосредственно в качестве инструментов и факторов устойчивого развития, так и косвенно посредством предоставления важнейших данных для мониторинга показателей осуществления Повестки дня на период до 2030 года и Сендайской рамочной программы по снижению риска бедствий на 2015–2030 годы, а также выполнения государствами — участниками Парижского соглашения взятых на себя обязательств. Для выполнения этих глобальных программ необходимо расширить доступ к космическим данным и прикладным технологиям и космической инфраструктуре, учитывая особые потребности развивающихся стран.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	Мы признаем, что Комитет по использованию космического пространства в мирных целях и его Юридический и Научно-технический подкомитеты имеют богатый исторический опыт формирования и развития международно-правового режима космической деятельности. Этот режим создал условия для успешного осуществления космической деятельности государствами, международными межправительственными организациями и неправительственными структурами, благодаря чему космическая наука и техника и прикладные космические технологии вносят неоценимый вклад в экономический рост и повышение качества жизни во всем мире.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	Мы подтверждаем уникальную роль Комитета и его подкомитетов, поддерживаемых Управлением по вопросам космического пространства, как единственных в своем роде форумов для международного сотрудничества в исследовании и использовании космического пространства в мирных целях, [глобального управления космической деятельностью в соответствии с нормами международного права], развития международного космического права, поощрения диалога между космическими державами и странами с формирующейся космической деятельностью и содействия более широкому участию всех стран в космической деятельности, в том числе в рамках инициатив по наращиванию потенциала.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	Мы подчеркиваем важное значение Договора по космосу как центрального элемента системы международно-правового регулирования космической деятельности. Он устанавливает основополагающие принципы международного космического права и будет и далее служить незаменимой основой космической деятельности. Всеобщее присоединение к Договору по космосу и его эффективное осуществление необходимо всячески поддерживать.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	Мы призываем Комитет продолжать координацию усилий, направленных на повышение эффективности применения договоров и принципов Организации Объединенных Наций, касающихся космического пространства, и в соответствующих случаях дополнять действующие нормы международного космического права при решении возникающих проблем. Комитету и его подкомитетам следует и впредь делом доказывать свою значимость и заниматься решением текущих и возникающих задач и изучением новых возможностей, в частности в таких областях, как обеспечение долгосрочной устойчивости космической деятельности.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	Мы обязуемся реагировать на изменения в осуществлении космической деятельности, происходящие на фоне появления новых технологий и увеличения числа участников, представляющих как правительственные органы, так и неправительственные структуры, в том числе промышленные круги и частный сектор, которые все активнее включаются в проекты по исследованию и использованию космического пространства и осуществлению космической деятельности. В этой связи мы обязуемся следить за тем, чтобы Комитет и его подкомитеты при поддержке Управления по вопросам космического пространства продолжали при необходимости реагировать на такие изменения, выступая в качестве уникальных площадок международного сотрудничества в деле использования космического пространства в мирных целях.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	Мы обязуемся укреплять международное сотрудничество в исследовании и использовании космического пространства в мирных целях, уникальной платформой для которого по-прежнему служит Комитет, и глобальное управление космической деятельностью в соответствии с нормами международного права с учетом особых потребностей развивающихся стран. Мы признаем также общую заинтересованность всего человечества в прогрессе исследования и использования космического пространства в мирных целях и принимаем к сведению резолюцию <a href="https://undocs.org/ru/A/RES/51/122">51/122</a> Генеральной Ассамблеи от 13 декабря 1996 года и резолюцию <a href="https://undocs.org/ru/A/RES/73/6">73/6</a> Генеральной Ассамблеи от 26 октября 2018 года, а также то, что осуществление этих резолюций будет способствовать реализации Повестки дня «Космос‑2030».</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	Мы ставим своей целью поощрять равенство возможностей в космической отрасли, в частности путем стимулирования молодежи и женщин к выбору профессий в сфере научно-технической деятельности, инженерного дела и математики.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	Мы также ставим своей целью расширять использование новых инновационных технологий, включая космическую технику и прикладные космические технологии, для более эффективного выполнения мандатов Организации Объединенных Наций в целом.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	Мы подчеркиваем, что семь приоритетных тем, сформулированных Комитетом в контексте ЮНИСПЕЙС+50, представляют собой всеобъемлющий подход к рассмотрению ключевых областей и в своей совокупности определяют основные цели будущей работы Комитета, его подкомитетов и Управления по вопросам космического пространства по таким направлениям, как глобальное партнерство в области космических исследований и инновационной деятельности (приоритетная тема 1), настоящее и будущее правового режима космического пространства и глобального управления (приоритетная тема 2), активизация обмена информацией об объектах и событиях в космосе (приоритетная тема 3), международная рамочная основа для служб космической погоды (приоритетная тема 4), расширение космического сотрудничества в интересах мирового здравоохранения (приоритетная тема 5), международное сотрудничество в целях формирования устойчивого к внешним воздействиям общества, использующего технологии с низким уровнем выбросов (приоритетная тема 6), и развитие потенциала в XXI веке (приоритетная тема 7)<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/73/6">73/6</a> Генеральной Ассамблеи, двадцать четвертый пункт преамбулы.</p></authorialNote>.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">	Мы подчеркиваем также, что при реализации повестки дня «Космос‑2030» и плана ее осуществления придается большое значение налаживанию глобального партнерства и укреплению сотрудничества между государствам-членами, учреждениями Организации Объединенных Наций, межправительственными и неправительственными организациями, промышленными кругами и частными предприятиями, чтобы путем совместных усилий и благодаря практическому опыту и вкладу разных заинтересованных сторон обеспечить повсеместную доступность благ космической деятельности для всех людей.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="H23">
+        <num>III.</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve">	<span class="bold">Задачи</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	Мы, государства — члены Организации Объединенных Наций, обязуемся на основе вышеизложенной стратегической концепции работать над реализацией нижеперечисленных задач. Для выполнения этих задач государства-члены могут принимать меры, сгруппированные в соответствии с четырьмя общими задачами. Общие задачи соотносятся с четырьмя основными темами: космическая экономика, космическое общество, доступность космоса и космическая дипломатия. Эти темы взаимно дополняют и поддерживают друг друга. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="H23">
+        <subheading>		Общая задача 1. Увеличение социально-экономических выгод от космической деятельности и усиление роли космического сектора как важного фактора устойчивого развития</subheading>
+      </paragraph>
+      <paragraph eId="para_239" class="SingleTxt">
+        <num>1.1</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">.	Повышать осведомленность о важности космической науки и техники и их прикладного применения для достижения целей в области устойчивого развития.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_240" class="SingleTxt">
+        <num>1.2</num>
+        <content eId="para_240__content">
+          <p xml:space="preserve">.	Облегчать и поощрять интеграцию космической отрасли с такими отраслями и сферами деятельности, как энергетика, здравоохранение, охрана окружающей среды, адаптация к изменению климата, ресурсопользование и информационно-коммуникационные технологии, а также развитие многосторонних партнерств с целью разработки инновационных космических решений для социально-экономического развития, которые можно интегрировать в механизмы достижения целей в области устойчивого развития.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_242" class="SingleTxt">
+        <num>1.3</num>
+        <content eId="para_242__content">
+          <p xml:space="preserve">.	Урегулировать вопросы, связанные с коммерческой деятельностью в космическом пространстве, в том числе в целях создания условий для более широкого использования космической деятельности в интересах реализации глобальных программ в области развития и обеспечения долгосрочной устойчивости космической деятельности.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_245" class="SingleTxt">
+        <num>1.4</num>
+        <content eId="para_245__content">
+          <p xml:space="preserve">.	Содействовать развитию космической отрасли, уделяя особое внимание малым и средним предприятиям, в целях привлечения инвестиций в космический сектор и создания качественных рабочих мест, и популяризировать использование побочных выгод космических технологий за пределами космической отрасли.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_249" class="SingleTxt">
+        <num>1.5</num>
+        <content eId="para_249__content">
+          <p xml:space="preserve">.	Обеспечить максимально широкие возможности для осуществления космической деятельности на основе международного права путем содействия разработке международно-правовой базы, которая будет обеспечивать равный доступ к космосу для всех, включая страны, не осуществляющие космическую деятельность, и способствовать соблюдению безопасности и применению инновационных технологий.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxt">
+        <num>1.6</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">.	Поощрять более широкое использование космических решений в глобальных усилиях по обеспечению устойчивой экономики леса и океана.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_260" class="SingleTxt">
+        <num>1.7</num>
+        <content eId="para_260__content">
+          <p xml:space="preserve">.	Расширять вклад космических технологий и средств их применения в устойчивое развитие рыбохозяйственной деятельности и сельского хозяйства, обеспечение безопасности пищевых продуктов, продовольственной безопасности и полноценного питания.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_267" class="SingleTxt">
+        <num>1.8</num>
+        <content eId="para_267__content">
+          <p xml:space="preserve">.	Поощрять и облегчать сотрудничество и партнерское взаимодействие между частным и государственным секторами, образовательными учреждениями и научно-исследовательскими и опытно-конструкторскими центрами в вопросах использования космического пространства в интересах достижения целей в области устойчивого развития и обеспечения долгосрочной устойчивости космической деятельности.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_268" class="H23">
+        <subheading>		Общая задача 2. Использование потенциала космонавтики для решения повседневных проблем и космических инноваций для повышения качества жизни</subheading>
+      </paragraph>
+      <paragraph eId="para_269" class="SingleTxt">
+        <num>2.1</num>
+        <content eId="para_269__content">
+          <p xml:space="preserve">.	Поддерживать космическую научно-исследовательскую деятельность, поскольку космос дает ученым уникальные возможности для наблюдения за Землей и Вселенной и их изучения.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_270" class="SingleTxt">
+        <num>2.2</num>
+        <content eId="para_270__content">
+          <p xml:space="preserve">.	Поощрять использование космических технологий и техники для расширения научных знаний об окружающей среде, включая океаны, моря и горные районы, гидрологических циклах и водных ресурсах, лесоводстве, биоразнообразии, опустынивании и деградации земель, а также урбанизации в целях содействия сохранению природной окружающей среды, рациональному использованию ресурсов и защите экосистем.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="SingleTxt">
+        <num>2.3</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve">.	Расширять комплексное использование космической техники в целях содействия наблюдению за климатом и проведению оценки природно-климатических рисков, совершенствования систем раннего предупреждения о бедствиях и получения данных для показателей, используемых для отслеживания хода осуществления Повестки дня в области устойчивого развития на период до 2030 года, Сендайской рамочной программы и обязательств государств — участников Парижского соглашения.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxt">
+        <num>2.4</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">.	Повышать роль космических технологий в деле освещения, анализа и решения проблемы изменения климата, а также содействия формированию общества, использующего технологии с низким уровнем выбросов, и развивать международное сотрудничество в этой области в рамках существующих и признанных международных механизмов и организаций.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_279" class="SingleTxt">
+        <num>2.5</num>
+        <content eId="para_279__content">
+          <p xml:space="preserve">.	Поощрять использование космических технологий на всех этапах цикла деятельности по борьбе со стихийными бедствиями применительно к природным бедствиям и техногенным катастрофам, включая их предотвращение, смягчение их последствий, обеспечение готовности к ним, принятие мер реагирования и проведение работ по восстановлению, реконструкции и реабилитации; отслеживать и анализировать такие аспекты, как подверженность стихийным бедствиям, опасные природные явления, природно-климатические риски и нанесенный ущерб в различных регионах мира; и способствовать обмену данными мониторинга стихийных бедствий.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_284" class="SingleTxt">
+        <num>2.6</num>
+        <content eId="para_284__content">
+          <p xml:space="preserve">.	Развивать сотрудничество в области космонавтики в поддержку мирового здравоохранения; повышать эффективность использования и прикладного применения космической медицины, науки и техники, инноваций в сфере мирового здравоохранения, активизировать сотрудничество и обмен информацией и инструментарием для повышения оперативности и эффективности санитарно-эпидемиологических и лечебно-профилактических мероприятий; и совершенствовать деятельность по созданию потенциала в области космической медицины, науки и техники.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_290" class="SingleTxt">
+        <num>2.7</num>
+        <content eId="para_290__content">
+          <p xml:space="preserve">.	Расширять использование космических технологий и техники для поддержки развития социально и экологически устойчивых населенных пунктов и инфраструктуры как в городских, так и в сельских районах; для улучшения ситуации со средствами к существованию; для исследования процессов урбанизации и миграции; для наблюдения за объектами культурного наследия и содействия их сохранению.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxt">
+        <num>2.8</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">.	Поощрять политику открытого доступа к космическим данным и обмен данными.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_298" class="H23">
+        <subheading>		Общая задача 3. Расширение доступа к космическому пространству для всех и обеспечение для всех стран возможностей для извлечения социально-экономических выгод из использования космической науки и техники, полученных с помощью космических технологий данных, информации и продуктов, и содействие тем самым достижению целей в области устойчивого развития</subheading>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxt">
+        <num>3.1</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">.	Использовать потенциал космоса, чтобы вдохновлять молодежь, способствовать привлечению молодых людей в космическую отрасль, поддерживать национальные и международные инициативы, вызывающие у молодых людей интерес к космической деятельности, начиная с раннего школьного возраста, и стимулировать их занятие научно-технической деятельностью, инженерным делом и математикой. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxt">
+        <num>3.2</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">.	Активизировать исследование космоса в качестве долгосрочной движущей силы для инноваций и расширять международное сотрудничество в этой области.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="SingleTxt">
+        <num>3.3</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">	Поощрять исследование космического пространства за пределами низкой околоземной орбиты, поскольку научно-технический и экономический эффект полетов, выполняемых с этой целью, и их вдохновляющее воздействие на людей принесут пользу человечеству.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_305" class="SingleTxt">
+        <num>3.4</num>
+        <content eId="para_305__content">
+          <p xml:space="preserve">.	Активизировать деятельность в области наращивания потенциала, образования и подготовки кадров в сфере космической науки и техники, в особенности в развивающихся странах.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_309" class="SingleTxt">
+        <num>3.5</num>
+        <content eId="para_309__content">
+          <p xml:space="preserve">.	Повышать уровень информированности о космическом пространстве в интересах всего человечества, в том числе путем расширения доступа к данным астрономической и космической науки.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_314" class="SingleTxt">
+        <num>3.6</num>
+        <content eId="para_314__content">
+          <p xml:space="preserve">.	Поощрять и поддерживать использование космических технологий для расширения доступа к данным и широкополосным технологиям во всем мире, уделяя при этом особое внимание развивающимся странам и районам с менее развитой наземной инфраструктурой.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_320" class="SingleTxt">
+        <num>3.7</num>
+        <content eId="para_320__content">
+          <p xml:space="preserve">.	Поощрять инклюзивность и гендерное равенство в космической деятельности, в том числе за счет увеличения числа женщин, получающих естественно-научное, техническое, инженерное и математическое образование. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="SingleTxt">
+        <num>3.8</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">.	Повышать осведомленность о рисках, связанных с неблагоприятной космической погодой, и смягчать такие риски в целях обеспечения более высокой глобальной устойчивости к влиянию космической погоды, а также совершенствовать международную координацию деятельности, связанной с космической погодой, включая информационно-разъяснительную работу, поддержание связи и наращивание потенциала, а также создание международного механизма для активизации координации усилий на высоком уровне в вопросах космической погоды и повышения глобальной устойчивости к влиянию космической погоды.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_335" class="SingleTxt">
+        <num>3.9</num>
+        <content eId="para_335__content">
+          <p xml:space="preserve">.	Укреплять международное сотрудничество и повышать готовность к реагированию на угрозы, создаваемые объектами, сближающимися с Землей.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_344" class="SingleTxt">
+        <num>3.10</num>
+        <content eId="para_344__content">
+          <p xml:space="preserve">.	Настоятельно рекомендовать государствам развивать международное, многостороннее и двустороннее сотрудничество в исследовании и использовании космического пространства в мирных целях, в том числе путем изучения проблем и барьеров, в частности затрудняющих подобное сотрудничество, и в этой связи настоятельно призывать государства эффективно реагировать на подобные проблемы и барьеры, препятствующие осуществлению Повестки дня «Космос‑2030».</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_345" class="H23">
+        <subheading>		Общая задача 4. Налаживание партнерских связей и расширение международного сотрудничества в области использования космического пространства в мирных целях и глобального управления космической деятельностью</subheading>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxt">
+        <num>4.1</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">.	Усиливать роль и расширять деятельность Комитета по использованию космического пространства в мирных целях и его подкомитетов, поддерживаемых Управлением по вопросам космического пространства, как единственного в своем роде форума для международного сотрудничества в исследовании и использовании космического пространства в мирных целях.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="SingleTxt">
+        <num>4.2</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">.	Содействовать выполнению договоров Организации Объединенных Наций по космосу их государствами-участниками, а также соблюдению соответствующих принципов и выполнению резолюций Генеральной Ассамблеи и рекомендовать Комитету и его вспомогательным органам при поддержке Управления по вопросам космического пространства продолжать работу по координации усилий в этой области и в соответствующих случаях дополнять и совершенствовать нормы международного права, касающиеся космического пространства, при решении возникающих проблем. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="SingleTxt">
+        <num>4.3</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">.	Активизировать проведение мероприятий по оказанию государствам-членам помощи в наращивании потенциала и технической помощи, в частности, в области международного космического права и космической политики, в том числе проведение таких мероприятий Управлением по вопросам космического пространства.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_352" class="SingleTxt">
+        <num>4.4</num>
+        <content eId="para_352__content">
+          <p xml:space="preserve">.	Совершенствовать существующую практику регистрации и обмен информацией и признавать роль Управления по вопросам космического пространства в ведении созданного Организацией Объединенных Наций Реестра объектов, запускаемых в космическое пространство, в целях повышения транспарентности и эффективности механизма регистрации, а также своевременности и систематичности регистрации объектов, в том числе путем оказания государствам-членам технической помощи в этом вопросе.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_356" class="SingleTxt">
+        <num>4.5</num>
+        <content eId="para_356__content">
+          <p xml:space="preserve">.	Обеспечивать долгосрочную устойчивость космической деятельности и сохранение космической среды для использования в мирных целях, в том числе посредством применения на добровольной основе принятых преамбулы и руководящих принципов обеспечения долгосрочной устойчивости космической деятельности и обмена опытом в деле осуществления этих руководящих принципов, а также принимать меры с целью реагирования на новые вызовы, риски и угрозы, препятствующие достижению долгосрочной устойчивости космической деятельности.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_361" class="SingleTxt">
+        <num>4.6</num>
+        <content eId="para_361__content">
+          <p xml:space="preserve">.	Повышать безопасность космических операций, содействуя тем самым долгосрочной устойчивости космической деятельности. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_367" class="SingleTxt">
+        <num>4.7</num>
+        <content eId="para_367__content">
+          <p xml:space="preserve">.	Расширять в рамках Комитета международное сотрудничество и обмен информацией и передовым опытом в вопросах надзора за космической деятельностью негосударственных структур с учетом норм международного права в целях повышения безопасности и долгосрочной устойчивости космической деятельности при одновременном содействии развитию космической отрасли.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="SingleTxt">
+        <num>4.8</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve">.	Активизировать в рамках Комитета обмен информацией об объектах и событиях в космосе, а также обсуждение вопросов прогнозирования и предупреждения возможных столкновений.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_382" class="SingleTxt">
+        <num>4.9</num>
+        <content eId="para_382__content">
+          <p xml:space="preserve">.	Укреплять координацию и взаимосвязь между Комитетом по использованию космического пространства в мирных целях и его подкомитетами при поддержке Управления по вопросам космического пространства в качестве секретариата.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="SingleTxt">
+        <num>4.10</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve">.	В соответствии с прилагаемыми в рамках всей системы Организации Объединенных Наций усилиями по повышению согласованности и обеспечению единства действий призывать к расширению сотрудничества между учреждениями системы Организации Объединенных Наций, занимающимися вопросами космонавтики, по междисциплинарным и межсекторальным вопросам, связанным с космической деятельностью, для содействия международному сотрудничеству в мирном исследовании и использовании космического пространства и в использовании космической науки и техники для целей устойчивого развития.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_392" class="H23">
+        <subheading>		Часть B. План осуществления</subheading>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	Каждое государство-член реализует Повестку дня «Космос‑2030» на добровольной основе.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="H23">
+        <num>I.</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="bold">Партнерские связи</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_396" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_396__content">
+          <p xml:space="preserve">	При выполнении Повестки дня «Космос‑2030» и плана ее осуществления большое значение придается укреплению партнерских связей и сотрудничества между государствами-членами, учреждениями системы Организации Объединенных Наций, межправительственными и неправительственными организациями, промышленностью и частным сектором.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_399" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_399__content">
+          <p xml:space="preserve">	Управление по вопросам космического пространства служит проводником в деле популяризации и облегчения использования предлагаемых космонавтикой решений, в том числе в интересах осуществления повестки дня «Космос‑2030», и ему следует в пределах своего мандата, функций и имеющихся ресурсов продолжать налаживать партнерские отношения, в том числе с научно-исследовательскими и научно-образовательными учреждениями, промышленными кругами и частным сектором, в целях создания более широких возможностей для доступа к космосу на благо науки, инноваций, исследований и опытных разработок, образования и укрепления потенциала. В этой связи Управлению следует проводить мероприятия по пропаганде применения космических средств и технологий в поддержку достижения государствами-членами целей глобальных программ в области развития.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_403" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_403__content">
+          <p xml:space="preserve">	В целях выполнения повестки дня «Космос‑2030» Комитету по использованию космического пространства в мирных целях и Управлению по вопросам космического пространства следует продолжать выполнять свои соответствующие мандаты и сотрудничать и взаимодействовать с другими соответствующими учреждениями системы Организации Объединенных Наций, в том числе в рамках Межучрежденческого совещания по космической деятельности (ООН‑космос).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_408" class="H23">
+        <num>II.</num>
+        <content eId="para_408__content">
+          <p xml:space="preserve">	<span class="bold">Инструментарий</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_414" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_414_list">
+          <intro eId="para_414_list_intro">
+            <p xml:space="preserve">	При осуществлении повестки дня «Космос‑2030» государства-члены могут внести вклад в работу целого ряда уже существующих или разрабатываемых международных и региональных механизмов, программ, проектов и форумов и пользоваться предоставляемыми ими возможностями, например:</p>
+          </intro>
+          <point eId="para_414_list_point_a">
+            <num>a)</num>
+            <content eId="para_414_list_point_a_content">
+              <p xml:space="preserve">	семь приоритетных тем в контексте ЮНИСПЕЙС+50, которые закреплены в повестках дня Комитета, его подкомитетов и Управления по вопросам космического пространства и по которым ведется их работа, а именно: глобальное партнерство в области космических исследований и инновационной деятельности, настоящее и будущее правового режима космического пространства и глобального управления, активизация обмена информацией об объектах и событиях в космосе, международная рамочная основа для служб космической погоды, расширение космического сотрудничества в интересах мирового здравоохранения, международное сотрудничество в целях формирования устойчивого к внешним воздействиям общества, использующего технологии с низким уровнем выбросов, и развитие потенциала в XXI веке<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Этим темам посвящены в том числе документы <a href="https://undocs.org/ru/A/AC.105/1168">A/AC.105/1168</a>, <a href="https://undocs.org/ru/A/AC.105/1169">A/AC.105/1169</a>, <a href="https://undocs.org/ru/A/AC.105/1170">A/AC.105/1170</a>, <a href="https://undocs.org/ru/A/AC.105/1171">A/AC.105/1171</a>, <a href="https://undocs.org/ru/A/AC.105/1172">A/AC.105/1172</a>, <a href="https://undocs.org/ru/A/AC.105/1173">A/AC.105/1173</a> и <a href="https://undocs.org/ru/A/AC.105/1174">A/AC.105/1174</a>; см. также п. 17 выше.</p></authorialNote>;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_b">
+            <num>b)</num>
+            <content eId="para_414_list_point_b_content">
+              <p xml:space="preserve">	Платформа Организации Объединенных Наций для использования космической информации для предупреждения и ликвидации чрезвычайных ситуаций и экстренного реагирования (СПАЙДЕР-ООН)<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/61/110">61/110</a> Генеральной Ассамблеи.</p></authorialNote> — программа Управления по вопросам космического пространства, в рамках которой государствам-членам предоставляется доступ к получаемым с помощью космических технологий данным и услугам для снижения риска возникновения чрезвычайных ситуаций и для экстренного реагирования, а через информационный портал СПАЙДЕР-ООН — доступ к получаемым с помощью космических технологий ресурсам на всех этапах цикла предупреждения и ликвидации чрезвычайных ситуаций;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_c">
+            <num>c)</num>
+            <content eId="para_414_list_point_c_content">
+              <p xml:space="preserve">	региональные центры подготовки в области космической науки и техники, связанные с Организацией Объединенных Наций<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/73/91">73/91</a> Генеральной Ассамблеи, п. 24.</p></authorialNote>, включая альянс региональных центров. Назначение региональных центров — активизировать деятельность по наращиванию потенциала, просвещению и подготовке кадров в сфере космической науки и техники, а также космического права и космической политики, в особенности в развивающихся странах;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_d">
+            <num>d)</num>
+            <content eId="para_414_list_point_d_content">
+              <p xml:space="preserve">	Хартия о сотрудничестве в обеспечении скоординированного использования космических средств в случае природных или техногенных катастроф (именуемая также Международной хартией по космосу и крупным катастрофам) — механизм глобального сотрудничества между космическими агентствами и операторами космических систем, предусматривающий передачу полученных на основе спутниковых данных информации и продуктов, которые могут использоваться в чрезвычайных ситуациях;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_e">
+            <num>e)</num>
+            <content eId="para_414_list_point_e_content">
+              <p xml:space="preserve">	Механизм наблюдения за ходом восстановления, созданный Комитетом по спутникам наблюдения Земли для более широкого использования спутниковых данных в деятельности по восстановлению после стихийных бедствий;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_f">
+            <num>f)</num>
+            <content eId="para_414_list_point_f_content">
+              <p xml:space="preserve">	международная космическая климатическая обсерватория, главное назначение которой — изучение и мониторинг последствий изменения климата, прежде всего в локальных масштабах, с помощью спутниковых средств наблюдения Земли в сочетании с полевыми данными и моделями, и которая, таким образом, служит инструментом для принятия решений относительно обеспечения готовности, адаптации и устойчивости к изменению климата и его последствиям, в частности, проявляющимся на местном уровне;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_g">
+            <num>g)</num>
+            <content eId="para_414_list_point_g_content">
+              <p xml:space="preserve">	Комплексная глобальная система наблюдений Всемирной метеорологической организации, предоставляющая данные, которые могут использоваться для анализа и прогнозирования погоды, выработки рекомендаций и оповещения населения, а также для мониторинга климата и в природоохранной деятельности;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_h">
+            <num>h)</num>
+            <content eId="para_414_list_point_h_content">
+              <p xml:space="preserve">	Международный комитет по глобальным навигационным спутниковым системам<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/59/2">59/2</a> Генеральной Ассамблеи, п. 11.</p></authorialNote>, который занимается развитием добровольного сотрудничества в вопросах, представляющих взаимный интерес и касающихся гражданских услуг по определению местоположения и времени со спутников, навигационному обеспечению и других дополнительных услуг, а также поощряет и поддерживает обеспечение совместимости, взаимодополняемости и открытости между всеми навигационными спутниковыми системами;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_i">
+            <num>i)</num>
+            <content eId="para_414_list_point_i_content">
+              <p xml:space="preserve">	Международная сеть оповещения об астероидах (МСОА) и Консультативная группа по планированию космических миссий (КГПКМ)<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/70/82">70/82</a> Генеральной Ассамблеи, п. 9.</p></authorialNote>, назначение которых — повышать уровень готовности к угрозе возможного столкновения с объектами, сближающимися с Землей, посредством международного сотрудничества и обмена информацией.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxt">
+        <num>25.</num>
+        <list eId="para_421_list">
+          <intro eId="para_421_list_intro">
+            <p xml:space="preserve">	Помимо этого, Управлением по вопросам космического пространства в сотрудничестве с партнерами были разработаны и разрабатываются в настоящее время ряд средств и инициатив по приоритетной теме «Развитие потенциала в XXI веке», в том числе: </p>
+          </intro>
+          <point eId="para_421_list_point_а">
+            <num>а)</num>
+            <content eId="para_421_list_point_а_content">
+              <p xml:space="preserve">	инициатива «Доступ к космосу для всех»<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/72/20">A/72/20</a>, п. 326.</p></authorialNote>, направленная на расширение доступа к космосу для содействия достижению целей в области устойчивого развития с помощью механизма трехстороннего сотрудничества между космическими державами, Организацией Объединенных Наций и странами, которые либо не осуществляют, либо начинают осуществлять космическую деятельность, с участием частного сектора;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_b">
+            <num>b)</num>
+            <content eId="para_421_list_point_b_content">
+              <p xml:space="preserve">	инициатива «Открытая Вселенная», призванная расширить доступ к данным астрономической и космической науки<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/AC.105/1175">A/AC.105/1175</a>.</p></authorialNote>;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_c">
+            <num>c)</num>
+            <content eId="para_421_list_point_c_content">
+              <p xml:space="preserve">	сборник космических решений, в котором различные космические решения соотнесены с соответствующими целями и задачами в области устойчивого развития; сборник призван помочь государствам-членам в реализации Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/AC.105/1174">A/AC.105/1174</a>.</p></authorialNote>;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_d">
+            <num>d)</num>
+            <content eId="para_421_list_point_d_content">
+              <p xml:space="preserve">	проект «Космос для женщин», имеющий целью предоставить женщинам более широкие возможности для получения профильного космического образования и трудоустройства в космической отрасли;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_e">
+            <num>e)</num>
+            <content eId="para_421_list_point_e_content">
+              <p xml:space="preserve">	проект «Космическое право для новых участников космической деятельности», осуществляемый в порядке методологической и консультативной помощи в соответствии с потребностями и запросами руководителей и специалистов, разрабатывающих законопроекты, в правительственных и регулирующих органах стран, которые впервые начинают заниматься космической деятельностью или переходят к новому этапу ее развития;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_f">
+            <num>f)</num>
+            <content eId="para_421_list_point_f_content">
+              <p xml:space="preserve">	портал Space4Water, который представляет собой платформу для обмена междисциплинарными знаниями по космическим технологиям и тематике водных ресурсов;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_g">
+            <num>g)</num>
+            <content eId="para_421_list_point_g_content">
+              <p xml:space="preserve">	инициатива «Космос для молодежи», призванная содействовать осуществлению молодежной стратегии «Молодежь-2030» — общесистемной инициативы Организации Объединенных Наций по осуществлению посвященных космосу мероприятий и проектов;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_h">
+            <num>h)</num>
+            <content eId="para_421_list_point_h_content">
+              <p xml:space="preserve">	проект «Космические решения для района Тихого океана», предполагающий оказание помощи островным государствам Тихого океана в формулировании программ, благодаря которой они смогут самостоятельно работать над достижением целей в области устойчивого развития, в том числе касающихся изменения климата, противодействия незаконному рыбному промыслу, телекоммуникации, мирового здравоохранения и снижения риска бедствий; </p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_i">
+            <num>i)</num>
+            <content eId="para_421_list_point_i_content">
+              <p xml:space="preserve">	Всемирные космические форумы по теме «Космонавтика как двигатель устойчивого социально-экономического развития», призванные укреплять партнерские связи и обеспечивать непрерывный диалог между членами мирового сообщества по широкому кругу вопросов космонавтики, а также повышение осведомленности и оказание поддержки в осуществлении повестки дня «Космос‑2030» на основе широкого участия всех соответствующих субъектов космической деятельности. </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_429" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve">	Вышеприведенные перечни не являются исчерпывающими, и могут быть разработаны новые инициативы, в том числе для оказания государствам-членам содействия в осуществлении повестки дня «Космос‑2030».</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_438" class="H23">
+        <num>III.</num>
+        <content eId="para_438__content">
+          <p xml:space="preserve">	<span class="bold">Ресурсы</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	Государствам-членам предлагается активно осуществлять двустороннее, многостороннее, региональное и более широкое международное сотрудничество в космической области в различных формах, включая наращивание потенциала, обмен информацией и совместное использование инфраструктуры и разработку совместных проектов, и в надлежащих случаях включать сотрудничество в космической области в сферу экономического сотрудничества и сотрудничества в целях развития в интересах содействия реализации повестки дня «Космос‑2030» и плана ее осуществления. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_459" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_459__content">
+          <p xml:space="preserve">	Государствам-членам и другим донорам предлагается предоставить Управлению по вопросам космического пространства добровольные внебюджетные ресурсы на цели содействия осуществлению повестки дня «Космос‑2030» в соответствии с правилами и процедурами Организации Объединенных Наций.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_471" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_471__content">
+          <p xml:space="preserve">	Генеральному секретарю настоятельно рекомендуется рассмотреть вопрос о достаточности ресурсов, выделяемых Управлению по вопросам космического пространства в его роли секретариата Комитета по использованию космического пространства в мирных целях и его подкомитетов, и обеспечить, чтобы Управление могло в полном объеме эффективно выполнять свой мандат, включая деятельность по наращиванию потенциала государств-членов в области космической науки и техники и их применения, а также в области космического права и космической политики, с учетом повестки дня «Космос‑2030» и плана ее осуществления.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_484" class="H23">
+        <num>IV.</num>
+        <content eId="para_484__content">
+          <p xml:space="preserve">	<span class="bold">Обзор хода реализации </span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_498" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_498__content">
+          <p xml:space="preserve">	Комитету по использованию космического пространства в мирных целях следует включать в повестку дня каждой сессии пункт, позволяющий государствам — членам Комитета и постоянным наблюдателям при нем обмениваться информацией об их опыте в деле осуществления повестки дня «Космос‑2030». В 2025 году Комитету следует провести среднесрочный обзор хода осуществления повестки дня «Космос‑2030». В 2030 году Комитету следует провести окончательный обзор осуществления повестки дня «Космос‑2030» и представить Генеральной Ассамблее доклад о его результатах.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="21-е">21-е пленарное заседание</inline>
+        <eol />
+        <docDate date="2021-10-25" refersTo="#adoptionDate">25 октября 2021 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
