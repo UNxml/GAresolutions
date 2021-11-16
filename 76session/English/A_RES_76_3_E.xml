@@ -1,0 +1,720 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/"></FRBRuri>
+          <FRBRdate date="2021-10-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/eng@/"></FRBRuri>
+          <FRBRdate date="2021-10-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/eng@.xml"></FRBRuri>
+          <FRBRdate date="2021-11-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee on the Peaceful Uses of Outer Space" showAs="UN. Committee on the Peaceful Uses of Outer Space" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office for Outer Space Affairs" showAs="UN. Office for Outer Space Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="Space2030 Agenda" showAs="Space2030 Agenda" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPACE EXPLORATION" showAs="SPACE EXPLORATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="30" showAs="SPACE--SUSTAINABLE DEVELOPMENT" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-10-19" outcome="draftResolution" as="A/76/L.3" by="Austria, France, Hungary, Israel, Italy, Japan, Malta, Republic of Moldova, Romania and Slovakia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Angola, Australia, Azerbaijan, Bangladesh, Belgium, Bolivia (Plurinational State of), Bulgaria, Canada, Central African Republic, China, Cyprus, Czechia, Dominican Republic, Ecuador, Finland, Gambia, Germany, Greece, Guatemala, Guinea, Jordan, Malawi, Malaysia, Mexico, Montenegro, Morocco, Namibia, New Zealand, Nigeria, North Macedonia, Norway, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Republic of Korea, Russian Federation, Rwanda, Singapore, Slovenia, South Africa, Sri Lanka, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uzbekistan and Viet Nam" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-10-25" outcome="adopted" as="A/76/PV.21" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="Without reference to a main committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-15518 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-10-28" class="rightSmall" refersTo="#dateOfIssuance">28 October 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Seventy-sixth session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Agenda item 30</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Space as a driver of sustainable development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 25 October 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[without reference to a Main Committee (<inline name="originating document">A/76/L.3 and A/76/L.3/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	The “Space2030” Agenda: space as a driver of sustainable development</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution <a href="http://undocs.org/A/RES/73/6">73/6</a> of 26 October 2018, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="italic">Adopts</span> the following document:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="H1">
+        <heading>		The “Space2030” Agenda: space as a driver of sustainable development </heading>
+      </paragraph>
+      <paragraph eId="para_5" class="H23">
+        <subheading>		Part A. Agenda</subheading>
+      </paragraph>
+      <paragraph eId="para_6" class="H23">
+        <num>I.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="bold">Introduction</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	The United Nations has been at the centre of international cooperation in space activities since the beginning of the space age. The Committee on the Peaceful Uses of Outer Space came into being as a result of the recognition by the General Assembly, in its resolution <a href="https://undocs.org/en/A/RES/1348(XIII)">1348 (XIII)</a> of 13 December 1958, of the importance of using outer space for peaceful purposes and of the need to promote international cooperation in the conduct of space activities; in its resolution <a href="https://undocs.org/en/A/RES/1472(XIV)">1472 A (XIV)</a> of 1959, the Assembly permanently established the Committee.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	Owing to its unique mandate and position at the centre of international cooperation in the peaceful uses of outer space, and the global governance of outer space activities,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		See <a href="http://undocs.org/A/AC.105/1137">A/AC.105/1137</a>.</p></authorialNote> consistent with international law, the Committee played a key role in the organization of the first three United Nations conferences on the exploration and peaceful uses of outer space, held in 1968, 1982 and 1999. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	Fifty years after the first United Nations Conference on the Exploration and Peaceful Uses of Outer Space (UNISPACE), States Members of the United Nations and representatives of the international space community gathered in Vienna on 20 and 21 June 2018 for the high-level segment of the fiftieth anniversary of the first United Nations Conference on the Exploration and Peaceful Uses of Outer Space (UNISPACE+50) to reflect on more than 50 years of achievement in space exploration and use and to strengthen global cooperation in outer space and the use of outer space for sustainable development.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	The General Assembly, in its resolution <a href="http://undocs.org/A/RES/73/6">73/6</a> of 26 October 2018, noted with appreciation that the preparatory process and the high-level segment of UNISPACE+50 had resulted in documents aimed at articulating a comprehensive, inclusive and strategically oriented vision on strengthening international cooperation in the exploration and peaceful uses of outer space, in which space was seen as a major driver of and contributor to the achievement of the Sustainable Development Goals for the benefit of all countries.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	In that regard, the General Assembly invited the Committee to continue to develop, on the basis of the results of the UNISPACE+50 process, a “Space2030” Agenda and implementation plan and to provide the General Assembly with the outcome of its work for consideration by the Assembly at its seventy-fifth session, in 2020.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	The “Space2030” Agenda and implementation plan is submitted by the Committee to the General Assembly as a forward-looking strategy for reaffirming and strengthening the contribution of space activities and space tools to the achievement of global agendas,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		The 2030 Agenda for Sustainable Development, the Sendai Framework for Disaster Risk Reduction 2015–2030 and the Paris Agreement.</p></authorialNote> addressing long-term sustainable development concerns of humankind. It also contributes to charting the future contribution of the Committee to the framework for the global governance of outer space activities, consistent with international law. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="H23">
+        <num>II.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">Strategic vision</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	We, the States Members of the United Nations, acknowledge that the exploration and peaceful uses of outer space have enriched our collective knowledge and revolutionized life on Earth. Space science and technology are now intrinsic to our daily lives and bring an abundance of unique and fundamental benefits to Earth. As the space community moves forward with its space exploration endeavours, space will continue to serve as a source of inspiration and innovation and to provide applications for the benefit of humankind.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	We emphasize that space tools are highly relevant for the attainment of the global development agendas, in particular the 2030 Agenda for Sustainable Development and its goals and targets, either directly, as enablers and drivers of sustainable development, or indirectly, by providing essential data for the indicators used to monitor the progress towards achieving the 2030 Agenda and the Sendai Framework for Disaster Risk Reduction 2015–2030 and the commitments by States parties to the Paris Agreement. The fulfilment of these global agendas requires improved access to space-based data and applications and space infrastructure, taking into account the particular needs of developing countries.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	We acknowledge the distinguished historical record of the Committee on the Peaceful Uses of Outer Space and its Legal Subcommittee and Scientific and Technical Subcommittee in the establishment and further development of the international legal regime governing outer space activities. Under that regime, outer space activities of States, international intergovernmental organizations and non‑governmental entities are flourishing, and as a result, space science and technology and their applications are contributing immeasurably to economic growth and improvements in the quality of life worldwide.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	We reaffirm the unique role of the Committee, and its subcommittees, supported by the Office for Outer Space Affairs, as unique platforms for international cooperation in the exploration and use of outer space for peaceful purposes, for the global governance of outer space activities, consistent with international law, for developing international space law, for fostering dialogue among spacefaring and emerging space nations, and for promoting the increased involvement of all countries in space activities, including through capacity-building initiatives.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	We underscore the importance of the Outer Space Treaty as the cornerstone of the international legal regime governing outer space activities. It contains the fundamental principles of international space law and will continue to provide an indispensable framework for the conduct of outer space activities. The universalization and effective implementation of the Outer Space Treaty should be promoted.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	We encourage the Committee to continue to coordinate efforts to strengthen the implementation of the United Nations treaties and principles on outer space and to complement existing international space law, when appropriate, to respond to emerging issues. The Committee and its subcommittees should continue to demonstrate their relevance and address current and emerging challenges and opportunities, such as the long-term sustainability of outer space activities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	We commit to addressing changes in the undertaking of outer space activities at a time when new technologies have emerged and when an increasing number of participants, representing both governmental agencies and non-governmental entities, including industry and the private sector, are becoming involved in ventures to explore and use space and carry out space activities. In that regard, we commit to ensuring that the Committee, and its subcommittees, supported by the Office for Outer Space Affairs, continue, as appropriate, to respond to such changes, in their role as unique platforms for international cooperation in the peaceful uses of outer space.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	We commit to strengthening international cooperation, for which the Committee continues to provide a unique platform in the exploration and peaceful uses of outer space and the global governance of outer space activities, consistent with international law, taking into account the particular needs of developing countries. We also recognize the common interest of all humankind in the progress of the exploration and use of outer space for peaceful purposes, and take note of General Assembly resolutions <a href="http://undocs.org/A/RES/51/122">51/122</a> of 13 December 1996 and <a href="http://undocs.org/A/RES/73/6">73/6</a> of 26 October 2018 and the contribution that their implementation will make to the “Space2030” Agenda. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	We aim to promote equal opportunities in the space sector by encouraging, in particular, young people and women to consider careers in science, technology, engineering and mathematics.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	We also aim to leverage to a greater extent new, innovative technologies, such as space technologies and their applications, to contribute to improved delivery of the mandates of the United Nations as a whole.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	We emphasize that the seven thematic priorities developed by the Committee in the context of UNISPACE+50 constitute a comprehensive approach to addressing key areas and collectively serve to determine the core objectives of the future work of the Committee and its subcommittees and the Office for Outer Space Affairs in the areas of global partnership in space exploration and innovation (thematic priority 1), current and future perspectives of the legal regime of outer space and global governance (thematic priority 2), enhanced information exchange on space objects and events (thematic priority 3), an international framework for space weather services (thematic priority 4), strengthened space cooperation for global health (thematic priority 5), international cooperation towards low-emission and resilient societies (thematic priority 6) and capacity-building for the twenty-first century (thematic priority 7).<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		General Assembly resolution <a href="http://undocs.org/A/RES/73/6">73/6</a>, twenty-fourth preambular paragraph.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">	We also emphasize that, in fulfilling the “Space2030” Agenda and implementation plan, importance is attached to global partnerships and strengthened cooperation among Member States, United Nations entities, intergovernmental and non-governmental organizations, industry and private sector entities, to ensure that, through joint efforts and by taking advantage of the practical experiences and contributions of different stakeholders, the benefits of space will be brought to everyone, everywhere. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="H23">
+        <num>III.</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve">	<span class="bold">Objectives </span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	We, the States Members of the United Nations, commit to pursuing, based on the above strategic vision, the following objectives. The actions described under each overarching objective could be taken by Member States to realize those objectives. The four overarching objectives are structured around the four pillars of space economy, space society, space accessibility and space diplomacy. Those four pillars are complementary and mutually reinforcing. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="H23">
+        <subheading>		Overarching objective 1: Enhance space-derived economic benefits and strengthen the role of the space sector as a major driver of sustainable development</subheading>
+      </paragraph>
+      <paragraph eId="para_239" class="MercuryDocument">
+        <num>1.1</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">.	Raise awareness of the importance of space science and technology and their applications for the achievement of the Sustainable Development Goals.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_240" class="MercuryDocument">
+        <num>1.2</num>
+        <content eId="para_240__content">
+          <p xml:space="preserve">.	Facilitate and promote the integration of the space sector with other sectors, including energy, public health, the environment, climate change, the management of resources and information and communication technology, as well as the development of multi-stakeholder partnerships leading to innovative space-based solutions for social and economic development that can be integrated into mechanisms for implementing the Sustainable Development Goals.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_242" class="MercuryDocument">
+        <num>1.3</num>
+        <content eId="para_242__content">
+          <p xml:space="preserve">.	Address issues arising from commercial activities in outer space, including with a view to enabling space activities to better support the achievement of global development agendas and to ensuring the long-term sustainability of outer space activities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_245" class="MercuryDocument">
+        <num>1.4</num>
+        <content eId="para_245__content">
+          <p xml:space="preserve">.	Promote the development of the space industry, with a particular focus on small and medium-sized enterprises, with a view to increasing investment in the space sector and creating high-quality jobs, and promote the spin-off benefits of space technologies to the non-space sector. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_249" class="MercuryDocument">
+        <num>1.5</num>
+        <content eId="para_249__content">
+          <p xml:space="preserve">.	Enable space activities for all, based on international law, by promoting an international framework that facilitates equal access to space for all, including non‑spacefaring nations, and encourages safety and innovation.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="MercuryDocument">
+        <num>1.6</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">.	Promote the use of space-based solutions in global efforts to ensure sustainable forest and ocean economies. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_260" class="MercuryDocument">
+        <num>1.7</num>
+        <content eId="para_260__content">
+          <p xml:space="preserve">.	Strengthen the contribution of space technologies and their applications to sustainable fisheries management, agriculture, food safety and security, and nutrition.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_267" class="MercuryDocument">
+        <num>1.8</num>
+        <content eId="para_267__content">
+          <p xml:space="preserve">.	Promote and facilitate collaboration and partnership between the private and public sectors, academic institutions and research and development centres in the field of the utilization of space for achieving the Sustainable Development Goals, as well as in the area of the long-term sustainability of outer space activities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_268" class="H23">
+        <subheading>		Overarching objective 2: Harness the potential of space to solve everyday challenges and leverage space-related innovation to improve the quality of life</subheading>
+      </paragraph>
+      <paragraph eId="para_269" class="MercuryDocument">
+        <num>2.1</num>
+        <content eId="para_269__content">
+          <p xml:space="preserve">.	Support space science and research, as outer space provides a unique perspective for scientists to observe and study the Earth and the universe.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_270" class="MercuryDocument">
+        <num>2.2</num>
+        <content eId="para_270__content">
+          <p xml:space="preserve">.	Promote the use of space technologies and their applications to enhance scientific knowledge of the natural environment, including oceans and seas, mountainous regions, water cycles and resources, forestry, biodiversity, desertification and land degradation, as well as urbanization, with a view to contributing to the preservation of the natural environment, sustainable resource management and the protection of ecosystems.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="MercuryDocument">
+        <num>2.3</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve">.	Strengthen the use of integrated space applications to facilitate the observation of the climate and the assessment of disaster risks, improve early warning disaster systems and provide data for the indicators used to track progress in the implementation of the 2030 Agenda for Sustainable Development, the Sendai Framework and commitments by States parties to the Paris Agreement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="MercuryDocument">
+        <num>2.4</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">.	Advance the role of space technologies in highlighting, analysing and addressing climate change and facilitating the transition to low-emission societies, and promote international collaboration in that regard, in line with existing and recognized international mechanisms and organizations.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_279" class="MercuryDocument">
+        <num>2.5</num>
+        <content eId="para_279__content">
+          <p xml:space="preserve">.	Promote the use of space-based technologies in all phases of the disaster management cycle, applicable to both natural and man-made disasters, including prevention, mitigation, preparedness, response, recovery, reconstruction and rehabilitation; monitor and assess elements such as exposure, hazards, disaster risk and damage in different regions of the world; and promote the sharing of disaster monitoring data.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_284" class="MercuryDocument">
+        <num>2.6</num>
+        <content eId="para_284__content">
+          <p xml:space="preserve">.	Strengthen space-related cooperation in support of global health; improve the use and application of space medicine, science and technology, innovations in the global health domain, cooperation and the sharing of information and tools to improve the timeliness and effectiveness of public health and health-care interventions; and enhance capacity-building in space medicine, science and technology. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_290" class="MercuryDocument">
+        <num>2.7</num>
+        <content eId="para_290__content">
+          <p xml:space="preserve">.	Strengthen the use of space technologies and their applications to support the development of socially and environmentally sustainable human settlements and infrastructure, both urban and rural; improve livelihoods; study urbanization and migration patterns; and monitor cultural heritage sites and contribute to their preservation.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="MercuryDocument">
+        <num>2.8</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">.	Promote space open data policies and the sharing of data.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_298" class="H23">
+        <subheading>		Overarching objective 3: Improve access to space for all and ensure that all countries can benefit socioeconomically from space science and technology applications and space-based data, information and products, thereby supporting the achievement of the Sustainable Development Goals</subheading>
+      </paragraph>
+      <paragraph eId="para_299" class="MercuryDocument">
+        <num>3.1</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">.	Leverage the potential of space to inspire youth, increase the involvement of young people in the space sector, support national and international initiatives that inspire the interest of young people in space activities, from elementary school onwards, and strengthen their engagement in science, technology, engineering and mathematics subjects. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="MercuryDocument">
+        <num>3.2</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">.	Enhance space exploration as a long-term driver of innovation and strengthen international cooperation in that regard.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="MercuryDocument">
+        <num>3.3</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">.	Promote exploration beyond low Earth orbit, as the scientific, technological, economic and inspirational contributions of those missions will benefit humanity.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_305" class="MercuryDocument">
+        <num>3.4</num>
+        <content eId="para_305__content">
+          <p xml:space="preserve">.	Enhance capacity-building, education and training in space science and applications, in particular for developing countries.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_309" class="MercuryDocument">
+        <num>3.5</num>
+        <content eId="para_309__content">
+          <p xml:space="preserve">.	Increase knowledge of outer space, including through enhanced access to astronomical and space science data, for the benefit of humankind.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_314" class="MercuryDocument">
+        <num>3.6</num>
+        <content eId="para_314__content">
+          <p xml:space="preserve">.	Promote and support the use of space technologies to enhance worldwide access to data and broadband technologies, giving special attention to developing countries and areas with less-developed infrastructure.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_320" class="MercuryDocument">
+        <num>3.7</num>
+        <content eId="para_320__content">
+          <p xml:space="preserve">.	Promote inclusiveness and gender equality in space activities, including by strengthening the participation of women in science, technology, engineering and mathematics education. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="MercuryDocument">
+        <num>3.8</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">.	Increase awareness of the risks of adverse space weather and mitigate those risks, in order to ensure increased global resilience against space weather effects, and improve the international coordination of space weather-related activities, including outreach, communication and capacity-building, as well as the establishment of an international mechanism to promote increased high-level coordination in relation to space weather and increased global resilience against space weather effects.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_335" class="MercuryDocument">
+        <num>3.9</num>
+        <content eId="para_335__content">
+          <p xml:space="preserve">.	Strengthen international cooperation and preparedness to respond to the threat posed by near-Earth objects. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_344" class="MercuryDocument">
+        <num>3.10</num>
+        <content eId="para_344__content">
+          <p xml:space="preserve">.	Strongly encourage States to strengthen international, multilateral and bilateral cooperation in the exploration and use of outer space for peaceful purposes, including by addressing challenges and obstacles, in particular those that hinder such cooperation, and in this regard urge States to effectively respond to such challenges and obstacles that impede the implementation of the “Space2030” Agenda.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_345" class="H23">
+        <subheading>		Overarching objective 4: Build partnerships and strengthen international cooperation in the peaceful uses of outer space and in the global governance of outer space activities</subheading>
+      </paragraph>
+      <paragraph eId="para_346" class="MercuryDocument">
+        <num>4.1</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">.	Strengthen the role and activities of the Committee on the Peaceful Uses of Outer Space and its subcommittees, supported by the Office for Outer Space Affairs, as a unique platform for international cooperation in the exploration and use of outer space for peaceful purposes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="MercuryDocument">
+        <num>4.2</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">.	Promote the implementation by States parties of the United Nations treaties on outer space, as well as the implementation of related principles and General Assembly resolutions, and encourage the Committee and its subsidiary bodies, supported by the Office for Outer Space Affairs, to continue to coordinate efforts in that regard and to complement and develop international law related to outer space, as appropriate, to respond to emerging issues. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="MercuryDocument">
+        <num>4.3</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">.	Strengthen capacity-building and technical assistance, including that provided by the Office for Outer Space Affairs, for Member States, in particular in the field of international space law and policy.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_352" class="MercuryDocument">
+        <num>4.4</num>
+        <content eId="para_352__content">
+          <p xml:space="preserve">.	Enhance existing registration practices and information exchange and acknowledge the role of the Office for Outer Space Affairs in maintaining the United Nations Register of Objects Launched into Outer Space to increase transparency and improve the efficiency of the registration mechanism and the timeliness and consistency of the registration of objects, including by providing technical assistance to Member States in this regard.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_356" class="MercuryDocument">
+        <num>4.5</num>
+        <content eId="para_356__content">
+          <p xml:space="preserve">.	Ensure the long-term sustainability of outer space activities and the preservation of the outer space environment for peaceful uses, including through the implementation on a voluntary basis of the adopted preamble and the guidelines for the long-term sustainability of outer space activities and the sharing of experiences in implementing the guidelines, and address new challenges, risks and threats posed to the long-term sustainability of outer space activities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_361" class="MercuryDocument">
+        <num>4.6</num>
+        <content eId="para_361__content">
+          <p xml:space="preserve">.	Enhance the safety of outer space operations as a contribution to the long-term sustainability of outer space activities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_367" class="MercuryDocument">
+        <num>4.7</num>
+        <content eId="para_367__content">
+          <p xml:space="preserve">.	Promote international cooperation and exchange information and best practices, within the framework of the Committee, on the supervision of space activities of non‑governmental entities, consistent with international law, with a view to enhancing the safety and long-term sustainability of outer space activities while facilitating the development of the space industry.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="MercuryDocument">
+        <num>4.8</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve">.	Enhance, within the framework of the Committee, the exchange of information on space objects and events, as well as the discussion on the prediction and prevention of potential collisions.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_382" class="MercuryDocument">
+        <num>4.9</num>
+        <content eId="para_382__content">
+          <p xml:space="preserve">.	Strengthen the coordination and interrelationship between the Committee on the Peaceful Uses of Outer Space and its subcommittees, with the assistance of the Office for Outer Space Affairs as the secretariat.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="MercuryDocument">
+        <num>4.10</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve">.	Encourage strengthened cooperation between the United Nations entities dealing with space, in line with the United Nations system-wide efforts to increase coherency and deliver as one, on interdisciplinary and cross-sectoral space-related matters, in order to promote international cooperation in the peaceful exploration and use of outer space and in the utilization of space science and technology for sustainable development.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_392" class="H23">
+        <subheading>		Part B. Implementation plan </subheading>
+      </paragraph>
+      <paragraph eId="para_393" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	Each Member State will implement the “Space2030” Agenda on a voluntary basis.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="H23">
+        <num>I.</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="bold">Partnerships </span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_396" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_396__content">
+          <p xml:space="preserve">	In fulfilling the “Space2030” Agenda and its implementation plan, importance is attached to strengthened partnerships and cooperation among Member States, United Nations entities, intergovernmental and non-governmental organizations, industry and private sector entities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_399" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_399__content">
+          <p xml:space="preserve">	The Office for Outer Space Affairs serves as a conduit for promoting and facilitating the use of space-based solutions, including in the implementation of the “Space2030” Agenda, and should continue, within its mandate, functions and existing resources to pursue partnerships, including with research institutions, academia, industry and the private sector, to provide broader opportunities to access space for purposes of science, innovation, research and development, education and capacity-building. In that regard, the Office should implement activities to promote the use of space-based applications and technologies to support Member States in meeting the objectives of the global development agendas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_403" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_403__content">
+          <p xml:space="preserve">	In view of implementing the “Space2030” Agenda, the Committee on the Peaceful Uses of Outer Space and the Office for Outer Space Affairs should continue to fulfil their respective mandates and to cooperate and coordinate with other relevant entities within the United Nations system, including through the Inter-Agency Meeting on Outer Space Activities (UN-Space).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_408" class="H23">
+        <num>II.</num>
+        <content eId="para_408__content">
+          <p xml:space="preserve">	<span class="bold">Tools</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_414" class="MercuryDocument">
+        <num>24.</num>
+        <list eId="para_414_list">
+          <intro eId="para_414_list_intro">
+            <p xml:space="preserve">	In implementing the “Space2030” Agenda, Member States could contribute to and benefit from a number of international and regional mechanisms, programmes, projects and platforms that are already in place or are being developed, such as the following:</p>
+          </intro>
+          <point eId="para_414_list_point_a">
+            <num>(a)</num>
+            <content eId="para_414_list_point_a_content">
+              <p xml:space="preserve">	The seven thematic priorities in the context of UNISPACE+50, undertaken in the agendas and work of the Committee and its subcommittees, and the Office for Outer Space Affairs, in the areas of global partnership in space exploration and innovation, current and future perspectives of the legal regime of outer space and global governance, enhanced information exchange on space objects and events, an international framework for space weather services, strengthened space cooperation for global health, international cooperation for low-emission and resilient societies and capacity-building for the twenty-first century;<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Related documents include <a href="http://undocs.org/A/AC.105/1168">A/AC.105/1168</a>, <a href="http://undocs.org/A/AC.105/1169">A/AC.105/1169</a>, <a href="http://undocs.org/A/AC.105/1170">A/AC.105/1170</a>, <a href="http://undocs.org/A/AC.105/1171">A/AC.105/1171</a>, <a href="http://undocs.org/A/AC.105/1172">A/AC.105/1172</a>, <a href="http://undocs.org/A/AC.105/1173">A/AC.105/1173</a> and <a href="https://undocs.org/A/AC.105/1174">A/AC.105/1174</a>; see also para. 17 above. </p></authorialNote></p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_b">
+            <num>(b)</num>
+            <content eId="para_414_list_point_b_content">
+              <p xml:space="preserve">	The United Nations Platform for Space-based Information for Disaster Management and Emergency Response (UN-SPIDER),<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		See General Assembly resolution <a href="http://undocs.org/A/RES/61/110">61/110</a>.</p></authorialNote> a programme of the Office for Outer Space Affairs that provides Member States with access to space-based data and services for disaster-risk reduction and emergency response, and through the UN‑SPIDER knowledge portal, enables access to space-based resources in all phases of the disaster management cycle; </p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_c">
+            <num>(c)</num>
+            <content eId="para_414_list_point_c_content">
+              <p xml:space="preserve">	The regional centres for space science and technology education, affiliated to the United Nations,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		See General Assembly resolution <a href="http://undocs.org/A/RES/73/91">73/91</a>, para. 24.</p></authorialNote> including the alliance of the regional centres. The regional centres are designed to enhance capacity-building, education and training in space science and applications, as well as space law and policy, in particular for developing countries;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_d">
+            <num>(d)</num>
+            <content eId="para_414_list_point_d_content">
+              <p xml:space="preserve">	The Charter on Cooperation to Achieve the Coordinated Use of Space Facilities in the Event of Natural or Technological Disasters (also called the International Charter on Space and Major Disasters), as a worldwide collaboration among space agencies and space system operators, through which satellite-derived information and products are made available to support disaster response efforts;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_e">
+            <num>(e)</num>
+            <content eId="para_414_list_point_e_content">
+              <p xml:space="preserve">	The Recovery Observatory of the Committee on Earth Observation Satellites, as a means to increase the contribution of satellite data to recovery from natural disasters;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_f">
+            <num>(f)</num>
+            <content eId="para_414_list_point_f_content">
+              <p xml:space="preserve">	The international Space Climate Observatory, whose main goal is to study and monitor the impacts of climate change, especially at local scales, using satellite-based Earth-observation tools in combination with field data and models, thus providing a tool for decision-making on preparedness, adaptation and resilience to climate change and its impacts, in particular at the local level;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_g">
+            <num>(g)</num>
+            <content eId="para_414_list_point_g_content">
+              <p xml:space="preserve">	The World Meteorological Organization Integrated Global Observing System, which provides observation data useful for weather analyses, forecasts, advisories and warnings, as well as for climate monitoring and environmental activities; </p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_h">
+            <num>(h)</num>
+            <content eId="para_414_list_point_h_content">
+              <p xml:space="preserve">	The International Committee on Global Navigation Satellite Systems,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		See General Assembly resolution <a href="http://undocs.org/A/RES/59/2">59/2</a>, para. 11.</p></authorialNote> which promotes voluntary cooperation on matters of mutual interest related to civil satellite-based positioning, navigation, timing and value-added services, and encourages and facilitates compatibility, interoperability and transparency between all the satellite navigation systems;</p>
+            </content>
+          </point>
+          <point eId="para_414_list_point_i">
+            <num>(i)</num>
+            <content eId="para_414_list_point_i_content">
+              <p xml:space="preserve">	The International Asteroid Warning Network (IAWN) and the Space Mission Planning Advisory Group (SMPAG),<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		See General Assembly resolution <a href="http://undocs.org/A/RES/70/82">70/82</a>, para. 9.</p></authorialNote> which are designed to strengthen preparedness for the threat of potential impacts of near-Earth objects through international cooperation and information-sharing.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_421" class="MercuryDocument">
+        <num>25.</num>
+        <list eId="para_421_list">
+          <intro eId="para_421_list_intro">
+            <p xml:space="preserve">	In addition, several tools and initiatives have been and are being developed by the Office for Outer Space Affairs, as part of the capacity-building for the twenty-first century, and in cooperation with its partners, including: </p>
+          </intro>
+          <point eId="para_421_list_point_a">
+            <num>(a)</num>
+            <content eId="para_421_list_point_a_content">
+              <p xml:space="preserve">	Access to Space for All initiative,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		See <a href="http://undocs.org/A/72/20">A/72/20</a>, para. 326.</p></authorialNote> aimed at broadening access to space in support of the achievement of the Sustainable Development Goals through triangular cooperation between spacefaring nations, the United Nations and non-spacefaring or emerging spacefaring nations, with the involvement of the private sector; </p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_b">
+            <num>(b)</num>
+            <content eId="para_421_list_point_b_content">
+              <p xml:space="preserve">	The Open Universe initiative, in order to enhance access to astronomical and space science data;<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		See <a href="http://undocs.org/A/AC.105/1175">A/AC.105/1175</a>.</p></authorialNote> </p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_c">
+            <num>(c)</num>
+            <content eId="para_421_list_point_c_content">
+              <p xml:space="preserve">	The space solutions compendium, as a tool for supporting Member States in the implementation of the 2030 Agenda for Sustainable Development, linking space solutions with Sustainable Development Goals and targets;<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		See <a href="http://undocs.org/A/AC.105/1174">A/AC.105/1174</a>.</p></authorialNote> </p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_d">
+            <num>(d)</num>
+            <content eId="para_421_list_point_d_content">
+              <p xml:space="preserve">	The Space for Women project, aimed at broadening the possibilities for women to pursue space-related education and careers;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_e">
+            <num>(e)</num>
+            <content eId="para_421_list_point_e_content">
+              <p xml:space="preserve">	The “Space law for new space actors” project, as part of capacity-building and advisory services in response to the needs and requirements of policymakers and legislators in governmental and regulatory authorities of countries that are either entering the space sector for the first time or that are embarking upon new phases of space activities;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_f">
+            <num>(f)</num>
+            <content eId="para_421_list_point_f_content">
+              <p xml:space="preserve">	The Space4Water portal, as a platform for interdisciplinary knowledge exchange on space technologies and water-related topics;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_g">
+            <num>(g)</num>
+            <content eId="para_421_list_point_g_content">
+              <p xml:space="preserve">	Space for Youth, to advance Youth 2030: The United Nations Strategy on Youth, the United Nations-wide initiative in the area of space-related activities and projects;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_h">
+            <num>(h)</num>
+            <content eId="para_421_list_point_h_content">
+              <p xml:space="preserve">	The “Space solutions for the Pacific” project, aimed at offering a range of programmatic services to Pacific island States to enhance their ability to meet Sustainable Development Goals, including in the areas of climate change, illegal fishing, telecommunications, global health and disaster risk reduction;</p>
+            </content>
+          </point>
+          <point eId="para_421_list_point_i">
+            <num>(i)</num>
+            <content eId="para_421_list_point_i_content">
+              <p xml:space="preserve">	The World Space Forums on space as a driver for socioeconomic sustainable development aimed at strengthening partnerships and continuous dialogue among the global community on a broad range of space matters and at raising awareness and supporting the implementation of the “Space2030” Agenda through the broad involvement of all relevant space actors. </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_429" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve">	The above lists are not exhaustive, and new initiatives could be developed, including with a view to assisting Member States in implementing the “Space2030” Agenda.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_438" class="H23">
+        <num>III.</num>
+        <content eId="para_438__content">
+          <p xml:space="preserve">	<span class="bold">Resources</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	Member States are invited to actively undertake bilateral, multilateral, regional and broader international space cooperation in various forms, including capacity-building, the sharing of information and infrastructure and the development of joint projects, and, as appropriate, to integrate space cooperation with economic and development cooperation, in order to promote the fulfilment of the “Space2030” Agenda and its implementation plan. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_459" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_459__content">
+          <p xml:space="preserve">	Member States and other donors are invited to provide voluntary extrabudgetary resources to the Office for Outer Space Affairs to advance the implementation of the “Space2030” Agenda, in accordance with the rules and procedures of the United Nations.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_471" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_471__content">
+          <p xml:space="preserve">	The Secretary-General is urged to consider the sufficiency of resources provided to the Office for Outer Space Affairs in its role as secretariat to the Committee on the Peaceful Uses of Outer Space and its subcommittees, and to ensure that the Office can fully and effectively implement its mandate, including capacity-building activities for Member States in the field of space science and technology and their applications, as well as in space law and policy, taking into account the “Space2030” Agenda and implementation plan.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_484" class="H23">
+        <num>IV.</num>
+        <content eId="para_484__content">
+          <p xml:space="preserve">	<span class="bold">Review of progress </span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_498" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_498__content">
+          <p xml:space="preserve">	The Committee on the Peaceful Uses of Outer Space should include an item on its agenda for each session allowing for an exchange among States members of the Committee and its permanent observers on their experiences in implementing the “Space2030” Agenda. In 2025, the Committee should carry out a midterm review of progress made in implementing the “Space2030” Agenda. In 2030, the Committee should carry out a final review of the implementation of the “Space2030” Agenda and report to the General Assembly on the results.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="21st">21st plenary meeting</inline>
+        <eol />
+        <docDate date="2021-10-25" refersTo="#adoptionDate">25 October 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
