@@ -1,0 +1,676 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/"></FRBRuri>
+          <FRBRdate date="2021-10-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/ara@/"></FRBRuri>
+          <FRBRdate date="2021-10-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/ara@.xml"></FRBRuri>
+          <FRBRdate date="2021-11-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee on the Peaceful Uses of Outer Space" showAs="UN. Committee on the Peaceful Uses of Outer Space" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office for Outer Space Affairs" showAs="UN. Office for Outer Space Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="Space2030 Agenda" showAs="Space2030 Agenda" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPACE EXPLORATION" showAs="SPACE EXPLORATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="30" showAs="SPACE--SUSTAINABLE DEVELOPMENT" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-10-19" outcome="draftResolution" as="A/76/L.3" by="Austria, France, Hungary, Israel, Italy, Japan, Malta, Republic of Moldova, Romania and Slovakia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Angola, Australia, Azerbaijan, Bangladesh, Belgium, Bolivia (Plurinational State of), Bulgaria, Canada, Central African Republic, China, Cyprus, Czechia, Dominican Republic, Ecuador, Finland, Gambia, Germany, Greece, Guatemala, Guinea, Jordan, Malawi, Malaysia, Mexico, Montenegro, Morocco, Namibia, New Zealand, Nigeria, North Macedonia, Norway, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Republic of Korea, Russian Federation, Rwanda, Singapore, Slovenia, South Africa, Sri Lanka, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uzbekistan and Viet Nam" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-10-25" outcome="adopted" as="A/76/PV.21" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="دون الإحالة إلى لجنة رئيسية"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-15518 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-10-28" class="rightSmall" refersTo="#dateOfIssuance">28 October 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">الدورة السادسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 30 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">الفضاء باعتباره محركا للتنمية المستدامة</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 25 تشرين الأول/أكتوبر 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[دون الإحالة إلى لجنة رئيسية (<inline name="originating document">A/76/L.3 و A/76/L.3/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/3</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	خطة ”الفضاء 2030“: الفضاء باعتباره محركاً للتنمية المستدامة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ تشير</span> إلى قرارها <a href="https://undocs.org/ar/A/RES/73/6">73/6</a> المؤرخ 26 تشرين الأول/أكتوبر 2018،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="MercuryDocument">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="bold italic">تعتمد</span> الوثيقة التالية:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="HCh">
+        <heading>		خطة ”الفضاء 2030“: الفضاء باعتباره محركاً للتنمية المستدامة</heading>
+      </paragraph>
+      <paragraph eId="para_5" class="HCh">
+        <heading>		الجزء ألف - الخطة</heading>
+      </paragraph>
+      <paragraph eId="para_6" class="HCh">
+        <heading>	أولاً -	مقدِّمة</heading>
+      </paragraph>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	لقد كان للأمم المتحدة دور مركزي في التعاون الدولي في الأنشطة الفضائية منذ بداية عصر الفضاء. وقد ظهرت لجنة استخدام الفضاء الخارجي في الأغراض السلمية إلى الوجود نتيجة لاعتراف الجمعية العامة، في قرارها 1348 (د-13) المؤرَّخ 13 كانون الأول/ديسمبر 1958، بأهمية استخدام الفضاء الخارجي في الأغراض السلمية وبضرورة تعزيز التعاون الدولي في الاضطلاع بالأنشطة الفضائية؛ وأنشأت الجمعية، في قرارها 1472 ألف (د-14) لعام 1959، اللجنةَ بصفة دائمة.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	وقد أدت اللجنة، نظراً لولايتها الفريدة وموقعها في صُلب التعاون الدولي في استخدام الفضاء الخارجي في الأغراض السلمية والحوكمة العالمية لأنشطة الفضاء الخارجي<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/AC.105/1137">A/AC.105/1137</a>.</p></authorialNote><sup>)</sup>، بما يتوافق مع القانون الدولي، دوراً محوريًّا في تنظيم مؤتمرات الأمم المتحدة الثلاثة الأولى المعنية باستكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية، التي عُقدت في الأعوام 1968 و 1982 و 1999.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	وبعد مرور خمسين عاماً على مؤتمر الأمم المتحدة الأول المعني باستكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية (اليونيسبيس)، اجتمعت الدول الأعضاء في الأمم المتحدة وممثلو الأوساط الفضائية الدولية في فيينا يومي 20 و 21 حزيران/يونيه 2018 في إطار الجزء الرفيع المستوى من الاحتفال بالذكرى السنوية الخمسين لمؤتمر الأمم المتحدة الأول المعني باستكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية (اليونيسبيس+50) للتفكُّر بشأن ما يزيد على 50 سنة من الإنجازات في مجال استكشاف الفضاء واستخدامه ولتوطيد التعاون العالمي في الفضاء الخارجي واستخدام الفضاء الخارجي في تحقيق التنمية المستدامة.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	ولاحظت الجمعية العامة، في قرارها <a href="https://undocs.org/ar/A/RES/73/6">73/6</a> المؤرَّخ 26 تشرين الأول/أكتوبر 2018، مع التقدير، أنَّ العملية التحضيرية والجزء الرفيع المستوى لليونيسبيس+50 قد أنتجا وثائق تهدف إلى بلورة رؤية شاملة وجامعة وذات توجُّه استراتيجي بشأن توطيد التعاون الدولي في مجال استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية، يُعتبر فيها الفضاء محرِّكاً رئيسيًّا لتحقيق أهداف التنمية المستدامة لفائدة جميع البلدان ومساهماً رئيسيًّا في هذا المسعى.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	وفي هذا الصدد، دعت الجمعية العامة اللجنةَ إلى مواصلة تطوير خطة بشأن ”الفضاء 2030“ وخطة تنفيذها، بالاستناد إلى نتائج عملية اليونيسبيس+50، وإلى تزويد الجمعية العامة بنواتج عملها لكي تنظر فيها الجمعية في دورتها الخامسة والسبعين، عام 2020.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	وتقدِّم اللجنة إلى الجمعية العامة خطة ”الفضاء 2030“ وخطة تنفيذها كاستراتيجية استشرافية لإعادة تأكيد وتدعيم مساهمة الأنشطة الفضائية والأدوات الفضائية في تنفيذ الخطط العالمية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	خطة التنمية المستدامة لعام 2030، وإطار سِنداي للحد من مخاطر الكوارث للفترة 2015-2030، واتفاق باريس.</p></authorialNote><sup>)</sup>، ومعالجة شواغل الإنسانية المتعلقة بالتنمية المستدامة الطويلة الأمد. وهي تسهم أيضاً في صوغ مساهمة اللجنة مستقبلاً في الإطار الخاص بالحوكمة العالمية لأنشطة الفضاء الخارجي، بما يتوافق مع القانون الدولي.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <content eId="para_23__content">
+          <p xml:space="preserve">
+            <span class="bold">	ثانياً -	الرؤية الاستراتيجية</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>7 -</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	نعترف، نحن الدول الأعضاء في الأمم المتحدة، بأن استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية قد أثريا معارفنا الجماعية وأحدثا ثورةً في الحياة على كوكب الأرض. لقد أصبحت علوم وتكنولوجيا الفضاء في الوقت الحاضر عنصراً ملازماً لحياتنا اليومية، وهي تجلب لكوكب الأرض وفرةً من المنافع الفريدة والأساسية. ومع مضي الأوساط المعنية بالفضاء قُدماً في مساعيها لاستكشاف الفضاء، سيظل الفضاء مصدراً للإلهام والابتكار ويواصل توفير تطبيقات لمنفعة البشرية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>8 -</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	نؤكد أن الأدوات الفضائية ذات أهمية كبيرة في تحقيق خطط التنمية العالمية، ولا سيما خطة التنمية المستدامة لعام 2030 وأهدافها وغاياتها، إما مباشرة، باعتبارها عوامل تمكينية وقوى دافعة للتنمية المستدامة، وإما على نحو غير مباشر، بتوفيرها البيانات الأساسية اللازمة للمؤشرات المستخدمة في رصد التقدم المحرز في تحقيق خطة عام 2030 وإطار سِنداي للحد من مخاطر الكوارث للفترة 2015-2030 وفي تنفيذ الالتزامات التي تعهدت بها الدول الأطراف في اتفاق باريس. ويستلزم تنفيذ هذه الخطط العالمية تحسين سبل الوصول إلى البيانات والتطبيقات الفضائية والبنى التحتية الفضائية، مع مراعاة الاحتياجات الخاصة للبلدان النامية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>9 -</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	نعترف بالسجل التاريخي المتميز للجنة استخدام الفضاء الخارجي في الأغراض السلمية ولجنتها الفرعية القانونية ولجنتها الفرعية العلمية والتقنية، في إرساء النظام القانوني الدولي الذي يحكم أنشطة الفضاء الخارجي ومواصلة تطويره. وفي إطار هذا النظام، تزدهر أنشطة الفضاء الخارجي التي تقوم بها الدول والمنظمات الحكومية الدولية والكيانات غير الحكومية، ونتيجة لذلك، أصبحت علوم وتكنولوجيا الفضاء وتطبيقاتها تسهم إسهاماً لا حدود له في النمو الاقتصادي وفي تحسين نوعية الحياة في جميع أنحاء العالم.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>10 -</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	نعاود التأكيد على ما تضطلع به اللجنة ولجنتاها الفرعيتان، بدعم من مكتب شؤون الفضاء الخارجي، من دور فريد بصفتها منصات فريدة للتعاون الدولي في مجال استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية، وللحوكمة العالمية لأنشطة الفضاء الخارجي، بما يتوافق مع القانون الدولي، ولتطوير القانون الدولي للفضاء، ولتعزيز الحوار بين الدول المرتادة للفضاء والدول الحديثة العهد بارتياد الفضاء، وللتشجيع على زيادة انخراط جميع البلدان في الأنشطة الفضائية، بما في ذلك من خلال أنشطة بناء القدرات.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>11 -</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	نشدد على أهمية معاهدة الفضاء الخارجي باعتبارها حجر الزاوية في النظام القانوني الدولي الذي يحكم أنشطة الفضاء الخارجي. فهي تتضمن المبادئ الأساسية لقانون الفضاء الدولي، وستظل توفر إطاراً لا غنى عنه للاضطلاع بأنشطة الفضاء الخارجي. وينبغي تشجيع إضفاء الطابع العالمي على معاهدة الفضاء الخارجي وتنفيذها فعليًّا.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>12 -</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	نشجِّع اللجنة على مواصلة تنسيق الجهود من أجل تدعيم تنفيذ معاهدات الأمم المتحدة ومبادئها المتعلقة بالفضاء الخارجي واستكمال قانون الفضاء الدولي القائم، عند الاقتضاء، من أجل التصدي للمسائل المستجدة. وينبغي أن تواصل اللجنة ولجنتاها الفرعيتان إثبات أهميتها وأن تعالج التحديات والفرص الحالية والمستجدة، مثل استدامة أنشطة الفضاء الخارجي في الأمد البعيد.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>13 -</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	نلتزم بالتصدي لما يطرأ من تغيرات في الاضطلاع بأنشطة الفضاء الخارجي، مع ظهور تكنولوجيات جديدة ومع تزايد عدد المشاركين الذين يمثلون أجهزة حكومية وكيانات غير حكومية على السواء، بما في ذلك الصناعة والقطاع الخاص، في مشاريع لاستكشاف الفضاء واستخدامه ولتنفيذ أنشطة فضائية. وفي هذا الصدد، نلتزم بضمان استمرار اللجنة ولجنتيها الفرعيتين، بدعم من مكتب شؤون الفضاء الخارجي، حسب الاقتضاء، في التجاوب مع تلك التغيرات، إعمالاً لدورها كمنصات فريدة للتعاون الدولي في مجال استخدام الفضاء الخارجي في الأغراض السلمية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>14 -</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	نلتزم بتوطيد التعاون الدولي، الذي لا تزال اللجنة تشكل منبراً فريداً له، في مجال استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية والحوكمة العالمية لأنشطة الفضاء الخارجي، بما يتوافق مع القانون الدولي، مع مراعاة الاحتياجات الخاصة للبلدان النامية. ونسلم أيضا بالمصلحة المشتركة للبشرية جمعاء في التقدم المحرز في مجال استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية ونحيط علما بقراري الجمعية العامة <a href="https://undocs.org/ar/A/RES/51/122">51/122</a> المؤرخ 13 كانون الأول/ديسمبر 1996، و <a href="https://undocs.org/ar/A/RES/73/6">73/6</a> المؤرخ 26 تشرين الأول/ أكتوبر 2018، وما سيسهم به تنفيذهما في تنفيذ خطة ”الفضاء 2030“. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>15 -</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	نهدف إلى تعزيز التكافؤ في الفرص في قطاع الفضاء، بتشجيع الشباب والنساء، على وجه الخصوص، على النظر في احتراف مهن في مجالات العلوم والتكنولوجيا والهندسة والرياضيات.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>16 -</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	نهدف أيضاً إلى الاستفادة بقدر أكبر من التكنولوجيات الجديدة المبتكرة، مثل التكنولوجيات الفضائية وتطبيقاتها، من أجل المساهمة في تحسين تنفيذ ولايات الأمم المتحدة ككل.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>17 -</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	نؤكِّد على أنَّ الأولويات المواضيعية السبع التي وضعتها اللجنة في سياق اليونيسبيس+50 تشكل نهجاً شاملاً لتناول المجالات الرئيسية، وتعمل معاً كأداة لتحديد الأهداف الأساسية للأعمال التي ستضطلع بها اللجنة ولجنتاها الفرعيتان ومكتب شؤون الفضاء الخارجي مستقبلاً في مجالات الشراكة العالمية من أجل الاستكشاف والابتكار في مجال الفضاء (الأولوية المواضيعية 1)، والمنظورات الحالية والمستقبلية للنظام القانوني للفضاء الخارجي والحوكمة العالمية (الأولوية المواضيعية 2)، وتعزيز تبادل المعلومات عن الأجسام والأحداث الفضائية (الأولوية المواضيعية 3)، ووضع إطار دولي لخدمات طقس الفضاء (الأولوية المواضيعية 4)، وتعزيز التعاون الفضائي من أجل الصحة العالمية (الأولوية المواضيعية 5)، والتعاون الدولي من أجل مجتمعات منخفضة الانبعاثات وقادرة على التأقلم (الأولوية المواضيعية 6)، وبناء القدرات من أجل القرن الحادي والعشرين (الأولوية المواضيعية 7)<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/73/6">73/6</a>، الفقرة الرابعة والعشرون من الديباجة.</p></authorialNote><sup>)</sup>.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>18 -</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	نؤكِّد أيضاً على إيلاء أهمية، في سياق تحقيق خطة ”الفضاء 2030“ وخطة تنفيذها، للشراكات العالمية ولتوطيد التعاون بين الدول الأعضاء وكيانات الأمم المتحدة والمنظمات الحكومية الدولية والمنظمات غير الحكومية وقطاع الصناعة وكيانات القطاع الخاص، ضماناً لجلب فوائد الفضاء للجميع وفي كل مكان، من خلال جهود مشتركة وبالاستفادة من التجارب والمساهمات العملية لمختلف الجهات المعنية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <content eId="para_91__content">
+          <p xml:space="preserve">
+            <span class="bold">	ثالثاً -	الأهداف</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="MercuryDocument">
+        <num>19 -</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	نحن، الدول الأعضاء في الأمم المتحدة، نلتزم بالسعي إلى تحقيق الأهداف التالية، بالاستناد إلى الرؤية الاستراتيجية المذكورة أعلاه. ويمكن للدول الأعضاء اتخاذ التدابير المبينة في إطار كل هدف من الأهداف العامة لتحقيق تلك الأهداف. وتتمحور الأهداف العامة الأربعة حول الركائز الأربع المتمثلة في اقتصاد الفضاء، ومجتمع الفضاء، وإمكانية الوصول إلى الفضاء، ودبلوماسية الفضاء. وهذه الركائز الأربع متكاملة وتعزِّز إحداها الأخرى.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="H1">
+        <heading>		الهدف العام 1: تعزيز الفوائد الاقتصادية المستمدة من الفضاء وتدعيم دور قطاع الفضاء كمحرك رئيسي للتنمية المستدامة</heading>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <content eId="para_94__content">
+          <p xml:space="preserve">1-1-	إذكاء الوعي بأهمية علوم وتكنولوجيا الفضاء وتطبيقاتها لتحقيق أهداف التنمية المستدامة.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="MercuryDocument">
+        <content eId="para_95__content">
+          <p xml:space="preserve">1-2-	تيسير وتعزيز التكامل بين قطاع الفضاء والقطاعات الأخرى، بما فيها الطاقة والصحة العمومية والبيئة وتغير المناخ وإدارة الموارد وتكنولوجيا المعلومات والاتصالات، وكذلك إقامة شراكات بين الجهات المعنية المتعددة تفضي إلى إيجاد حلول فضائية مبتكرة لمسائل التنمية الاجتماعية والاقتصادية يمكن إدماجها في آليات لتنفيذ أهداف التنمية المستدامة.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <content eId="para_96__content">
+          <p xml:space="preserve">1-3-	تناول المسائل الناشئة عن الأنشطة التجارية المضطلع بها في الفضاء الخارجي، بما في ذلك من أجل تمكين الأنشطة الفضائية من دعم تحقيق خطط التنمية العالمية على نحو أفضل وضمان استدامة أنشطة الفضاء الخارجي في الأمد البعيد.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <content eId="para_97__content">
+          <p xml:space="preserve">1-4 -	تشجيع تطوير الصناعة الفضائية، مع التركيز بشكل خاص على المنشآت الصغيرة والمتوسطة، من أجل زيادة الاستثمار في قطاع الفضاء وإيجاد فرص عمل عالية الجودة، وتعزيز ما للتكنولوجيات الفضائية من منافع عرضية تعود على القطاع غير الفضائي.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <content eId="para_98__content">
+          <p xml:space="preserve">1-5-	تيسير الأنشطة الفضائية للجميع، استنادا إلى القانون الدولي، من خلال الترويج لإطار دولي ييسر إمكانية وصول الجميع إلى الفضاء، بما يشمل الدول غير المرتادة للفضاء، ويشجع الأمان والابتكار.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <content eId="para_99__content">
+          <p xml:space="preserve">1-6-	تشجيع استخدام الحلول الفضائية في الجهود العالمية الرامية إلى ضمان استدامة اقتصادات الأحراج والمحيطات.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="MercuryDocument">
+        <content eId="para_100__content">
+          <p xml:space="preserve">1-7-	تدعيم إسهام التكنولوجيات الفضائية وتطبيقاتها في مجالات الإدارة المستدامة لمصائد الأسماك، والزراعة، وسلامة الأغذية والأمن الغذائي، والتغذية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="MercuryDocument">
+        <content eId="para_101__content">
+          <p xml:space="preserve">1-8-	تشجيع وتيسير التعاون والتشارك بين القطاعين العام والخاص والمؤسسات الأكاديمية ومراكز البحث والتطوير في مجال استخدام الفضاء لتحقيق أهداف التنمية المستدامة، وكذلك في مجال استدامة أنشطة الفضاء الخارجي في الأمد البعيد.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="H1">
+        <heading>		الهدف العام 2: تسخير إمكانات الفضاء لحل التحديات اليومية والاستفادة من الابتكارات ذات الصلة بالفضاء في تحسين نوعية الحياة</heading>
+      </paragraph>
+      <paragraph eId="para_103" class="MercuryDocument">
+        <content eId="para_103__content">
+          <p xml:space="preserve">2-1-	دعم علوم وأبحاث الفضاء، نظراً لأن الفضاء الخارجي يوفر للعلماء منظوراً فريداً لرصد ودراسة الأرض والكون.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="MercuryDocument">
+        <content eId="para_104__content">
+          <p xml:space="preserve">2-2-	تشجيع استخدام التكنولوجيات الفضائية وتطبيقاتها في تعزيز المعارف العلمية المتعلقة بالبيئة الطبيعية، بما فيها المحيطات والبحار والمناطق الجبلية، والدورات والموارد المائية، والحراجة والتنوع البيولوجي والتصحر وتدهور الأراضي، وكذلك التوسع الحضري، بغية الإسهام في الحفاظ على البيئة الطبيعية والإدارة المستدامة للموارد وحماية النظم الإيكولوجية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="MercuryDocument">
+        <content eId="para_105__content">
+          <p xml:space="preserve">2-3-	تدعيم استخدام التطبيقات الفضائية المتكاملة لتيسير مراقبة المناخ وتقييم مخاطر الكوارث، وتحسين نظم الإنذار المبكر بالكوارث وتوفير البيانات اللازمة للمؤشرات المستعملة في تتبُّع التقدم المحرز في تنفيذ خطة التنمية المستدامة لعام 2030 وإطار سِنداي والتزامات الدول الأطراف في اتفاق باريس.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="MercuryDocument">
+        <content eId="para_106__content">
+          <p xml:space="preserve">2-4-	النهوض بدور التكنولوجيات الفضائية في إبراز تغير المناخ وتحليله والتصدي له، وفي تيسير الانتقال إلى مجتمعات منخفضة الانبعاثات، وتعزيز التعاون الدولي في هذا الصدد، بما يتوافق مع الآليات والمنظومات الدولية الموجودة والمعترف بها.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="MercuryDocument">
+        <content eId="para_107__content">
+          <p xml:space="preserve">2-5-	تشجيع استعمال التكنولوجيات الفضائية في جميع مراحل دورة إدارة الكوارث، القابلة للاستخدام في سياق الكوارث الطبيعية والكوارث التي هي من صنع الإنسان على السواء، بما يشمل الوقاية والتخفيف والتأهب والتصدي والتعافي وإعادة البناء وإعادة التأهيل؛ ورصد وتقييم عناصر مثل درجة التعرض للكوارث، والأخطار، ومخاطر الكوارث وأضرارها في مختلف مناطق العالم؛ وتشجيع تبادل بيانات رصد الكوارث.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="MercuryDocument">
+        <content eId="para_108__content">
+          <p xml:space="preserve">2-6-	تعزيز التعاون الفضائي دعماً للصحة العالمية؛ وتحسين استخدام وتطبيق الطب الفضائي والابتكارات العلمية والتكنولوجية في ميدان الصحة العالمية، والتعاون وتبادل المعلومات والأدوات لتحسين فعالية التدخلات في مجال الصحة العمومية والرعاية الصحية وتنفيذها في الوقت المناسب؛ وتعزيز بناء القدرات في مجالات الطب والعلوم والتكنولوجيا.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="MercuryDocument">
+        <content eId="para_109__content">
+          <p xml:space="preserve">2-7-	تدعيم استخدام التكنولوجيات الفضائية وتطبيقاتها لدعم استحداث مستوطنات بشرية وبنى تحتية مستدامة اجتماعيًّا وبيئيًّا، في المناطق الحضرية والريفية على السواء؛ وتحسين سبل كسب الرزق؛ ودراسة أنماط التوسُّع الحضري والهجرة؛ ورصد مواقع التراث الثقافي والإسهام في الحفاظ عليها.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="MercuryDocument">
+        <content eId="para_110__content">
+          <p xml:space="preserve">2-8-	تشجيع سياسات البيانات الفضائية المفتوحة وتبادل البيانات.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="H1">
+        <heading>		الهدف العام 3: تحسين سبل وصول الجميع إلى الفضاء وضمان انتفاع جميع البلدان اجتماعيًّا واقتصاديًّا من تطبيقات علوم وتكنولوجيا الفضاء والبيانات والمعلومات والمنتجات الفضائية، مما يدعم تحقيق أهداف التنمية المستدامة</heading>
+      </paragraph>
+      <paragraph eId="para_112" class="MercuryDocument">
+        <content eId="para_112__content">
+          <p xml:space="preserve">3-1-	الاستفادة من إمكانات الفضاء في إلهام الشباب، وزيادة انخراط الشباب في قطاع الفضاء، ودعم المبادرات الوطنية والدولية التي تثير اهتمام الشباب بالأنشطة الفضائية، بدءاً من مرحلة التعلم الابتدائي، وتدعيم إقبالهم على دراسة مواضيع العلوم والتكنولوجيا والهندسة والرياضيات. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="MercuryDocument">
+        <content eId="para_113__content">
+          <p xml:space="preserve">3-2-	تعزيز استكشاف الفضاء بصفته محركاً طويل الأمد للابتكار، وتوطيد التعاون الدولي في هذا الصدد.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="MercuryDocument">
+        <content eId="para_114__content">
+          <p xml:space="preserve">3-3-	تشجيع الاستكشاف خارج نطاق المدار الأرضي المنخفض، نظراً لما للإسهامات العلمية والتكنولوجية والاقتصادية والإلهامية لتلك البعثات من فوائد على البشرية جمعاء.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <content eId="para_115__content">
+          <p xml:space="preserve">3-4-	تعزيز بناء القدرات والتعليم والتدريب في مجال العلوم والتطبيقات الفضائية، وخصوصاً لصالح البلدان النامية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="MercuryDocument">
+        <content eId="para_116__content">
+          <p xml:space="preserve">3-5-	زيادة المعرفة بالفضاء الخارجي، بما في ذلك من خلال تعزيز سبل الوصول إلى بيانات العلوم الفلكية والفضائية من أجل منفعة البشرية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="MercuryDocument">
+        <content eId="para_117__content">
+          <p xml:space="preserve">3-6-	تشجيع ودعم استخدام التكنولوجيات الفضائية في تعزيز سبل الوصول إلى البيانات وتكنولوجيات النطاق الترددي العريض في جميع أنحاء العالم، مع إيلاء اهتمام خاص للبلدان النامية والمناطق التي تمتلك مرافق أقل تطوراً.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="MercuryDocument">
+        <content eId="para_118__content">
+          <p xml:space="preserve">3-7-	تعزيز الشمول وتحقيق المساواة بين الجنسين في الأنشطة الفضائية، بوسائل منها تعزيز مشاركة المرأة في التعليم في مجال العلوم والتكنولوجيا والهندسة والرياضيات. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="MercuryDocument">
+        <content eId="para_119__content">
+          <p xml:space="preserve">3-8-	زيادة الوعي بمخاطر رداءة طقس الفضاء، والعمل على تخفيف تلك المخاطر، من أجل ضمان زيادة القدرة العالمية على الصمود أمام آثار طقس الفضاء، وتحسين التنسيق الدولي للأنشطة المتعلقة بطقس الفضاء، بما في ذلك أنشطة التوعية والتواصُل وبناء القدرات، وكذلك إنشاء آلية تنسيق دولية لتعزيز التنسيق الرفيع المستوى بشأن طقس الفضاء وتعزيز القدرة العالمية على الصمود أمام آثار طقس الفضاء.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="MercuryDocument">
+        <content eId="para_120__content">
+          <p xml:space="preserve">3-9-	تشجيع التعاون الدولي والتأهب للتصدي للخطر الذي تُشكِّله الأجسام القريبة من الأرض.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="MercuryDocument">
+        <content eId="para_121__content">
+          <p xml:space="preserve">3-10-	تشجيع الدول بقوة على تعزيز التعاون الدولي والمتعدد الأطراف والثنائي في مجال استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية، بما في ذلك عن طريق التصدي للتحديات والعقبات، ولا سيما تلك التي تعوق هذا التعاون، وحث الدول، في هذا الصدد، على التصدي بفعالية لمثل هذه التحديات والعقبات التي تعوق تنفيذ خطة ”الفضاء 2030“.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="H1">
+        <heading>		الهدف العام 4: بناء الشراكات وتوطيد التعاون الدولي في استخدام الفضاء الخارجي في الأغراض السلمية وفي الحوكمة العالمية لأنشطة الفضاء الخارجي</heading>
+      </paragraph>
+      <paragraph eId="para_123" class="MercuryDocument">
+        <content eId="para_123__content">
+          <p xml:space="preserve">4-1-	تدعيم دور وأنشطة لجنة استخدام الفضاء الخارجي في الأغراض السلمية ولجنتيها الفرعيتين، بدعم من مكتب شؤون الفضاء الخارجي، بصفتها منصة فريدة للتعاون الدولي في مجال استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="MercuryDocument">
+        <content eId="para_124__content">
+          <p xml:space="preserve">4-2-	الترويج لتنفيذ الدول الأطراف معاهدات الأمم المتحدة المتعلقة بالفضاء الخارجي، وكذلك لتنفيذ المبادئ التوجيهية وقرارات الجمعية العامة ذات الصلة، وتشجيع اللجنة وهيئتيها الفرعيتين، بدعم من مكتب شؤون الفضاء الخارجي، على مواصلة تنسيق الجهود المبذولة في هذا الصدد واستكمال وتطوير القانون الدولي فيما يتعلق بالفضاء الخارجي، حسب الاقتضاء، من أجل التصدي للمسائل المستجدة. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="MercuryDocument">
+        <content eId="para_125__content">
+          <p xml:space="preserve">4-3-	تدعيم بناء القدرات والمساعدة التقنية المقدمة إلى الدول الأعضاء، ولا سيما في مجال قانون الفضاء الدولي والسياسة الفضائية الدولية، بما في ذلك المساعدة المقدمة من مكتب شؤون الفضاء الخارجي.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="MercuryDocument">
+        <content eId="para_126__content">
+          <p xml:space="preserve">4-4-	تعزيز الممارسات الحالية المتعلقة بالتسجيل وتبادل المعلومات، والاعتراف بدور مكتب شؤون الفضاء الخارجي في صون سجل الأمم المتحدة للأجسام المطلقة في الفضاء الخارجي لزيادة الشفافية وتحسين كفاءة آلية التسجيل وتسجيل الأجسام على نحو موقوت ومتسق، بما في ذلك تقديم المساعدة التقنية إلى الدول الأعضاء في هذا الصدد.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="MercuryDocument">
+        <content eId="para_127__content">
+          <p xml:space="preserve">4-5-	ضمان استدامة أنشطة الفضاء الخارجي في الأمد البعيد والحفاظ على بيئة الفضاء الخارجي من أجل الاستخدامات السلمية، بوسائل منها التنفيذ الطوعي للديباجة والمبادئ التوجيهية المعتمدة بشأن استدامة أنشطة الفضاء الخارجي في الأمد البعيد وتبادل المعلومات عن التجارب في تنفيذ تلك المبادئ، والتصدي للتحديات والمخاطر والأخطار الجديدة التي تتهدَّد استدامة أنشطة الفضاء الخارجي في الأمد البعيد.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="MercuryDocument">
+        <content eId="para_128__content">
+          <p xml:space="preserve">4-6-	تعزيز أمان عمليات الفضاء الخارجي كمساهمة في استدامة أنشطة الفضاء الخارجي في الأمد البعيد.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <content eId="para_129__content">
+          <p xml:space="preserve">4-7-	تشجيع التعاون الدولي وتبادل المعلومات والممارسات الفضلى، ضمن إطار اللجنة، بشأن الإشراف على الأنشطة الفضائية للكيانات غير الحكومية، بما يتوافق مع القانون الدولي، بغية تعزيز أمان واستدامة أنشطة الفضاء الخارجي في الأمد البعيد مع تيسير تطوير صناعة الفضاء.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="MercuryDocument">
+        <content eId="para_130__content">
+          <p xml:space="preserve">4-8-	تعزيز تبادل المعلومات عن الأجسام والأحداث الفضائية، ضمن إطار اللجنة، وكذلك مناقشة التنبؤ بالاصطدامات المحتملة ودرئها.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="MercuryDocument">
+        <content eId="para_131__content">
+          <p xml:space="preserve">4-9-	تعزيز التنسيق والترابط بين لجنة استخدام الفضاء الخارجي في الأغراض السلمية ولجنتيها الفرعيتين، بمساعدة من مكتب شؤون الفضاء الخارجي بصفته الأمانة.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="MercuryDocument">
+        <content eId="para_132__content">
+          <p xml:space="preserve">4-10-	التشجيع على توطيد التعاون بين كيانات الأمم المتحدة المعنية بالفضاء، تماشياً مع الجهود المبذولة على نطاق منظومة الأمم المتحدة لزيادة الاتساق وتوحيد الأداء، بشأن المسائل الفضائية المتعددة التخصصات والشاملة لعدة قطاعات، بغية تشجيع التعاون الدولي في مجال استكشاف الفضاء الخارجي واستخدامه في الأغراض السلمية وفي مجال استخدام علوم وتكنولوجيا الفضاء لأغراض التنمية المستدامة.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="HCh">
+        <heading>		الجزء باء - خطة التنفيذ</heading>
+      </paragraph>
+      <paragraph eId="para_134" class="MercuryDocument">
+        <num>20 -</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	سوف تنفذ كل دولة من الدول الأعضاء خطة ”الفضاء 2030“ على أساس طوعي.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="MercuryDocument">
+        <content eId="para_135__content">
+          <p xml:space="preserve">
+            <span class="bold">	أولاً -	الشراكات </span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="MercuryDocument">
+        <num>21 -</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	لدى تطبيق خطة ”الفضاء 2030“ وخطة تنفيذها، تُعلَّق أهمية على تعزيز الشراكات والتعاون بين الدول الأعضاء وكيانات الأمم المتحدة والمنظمات الحكومية الدولية والمنظمات غير الحكومية وأوساط الصناعة وكيانات القطاع الخاص.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="MercuryDocument">
+        <num>22 -</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	ويعمل مكتب شؤون الفضاء الخارجي كقناة لتشجيع وتيسير استخدام الحلول الفضائية، بما في ذلك في تنفيذ خطة ”الفضاء 2030“، وينبغي له أن يواصل، ضمن إطار ولايته ومهامه والموارد المتوفرة لديه، إقامة الشراكات، بما في ذلك مع المؤسسات البحثية والأكاديمية وأوساط الصناعة والقطاع الخاص لتوفير فرص أوسع للوصول إلى الفضاء لأغراض العلم والابتكار والبحث والتطوير والتعليم وبناء القدرات. وينبغي للمكتب، في هذا الصدد، أن ينفِّذ أنشطة لتشجيع استخدام التطبيقات والتكنولوجيات الفضائية في دعم جهود الدول الأعضاء الرامية إلى تحقيق أهداف خطط التنمية العالمية.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="MercuryDocument">
+        <num>23 -</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	وفي ضوء تنفيذ خطة ”الفضاء 2030“، ينبغي للجنة استخدام الفضاء الخارجي في الأغراض السلمية ومكتب شؤون الفضاء الخارجي أن يواصلا الوفاء بولايتهما، وأن يتعاونا وينسقا مع سائر الكيانات المعنية داخل منظومة الأمم المتحدة، بما في ذلك من خلال الاجتماع المشترك بين الوكالات بشأن أنشطة الفضاء الخارجي (آلية الأمم المتحدة للفضاء).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="HCh">
+        <heading>	ثانياً -	الأدوات </heading>
+      </paragraph>
+      <paragraph eId="para_141" class="MercuryDocument">
+        <num>24 -</num>
+        <list eId="para_141_list">
+          <intro eId="para_141_list_intro">
+            <p xml:space="preserve">	لدى تنفيذ خطة ”الفضاء 2030“، يمكن للدول الأعضاء الإسهام في عدد من الآليات والبرامج والمشاريع والمنصات الدولية والإقليمية الموجودة بالفعل أو التي يجري استحداثها والاستفادة منها، ومنها ما يلي:</p>
+          </intro>
+          <point eId="para_141_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_141_list_point_أ_content">
+              <p xml:space="preserve">	الأولويات المواضيعية السبع لليونيسبيس+50 المضطلع بها في جداول أعمال اللجنة ولجنتيها الفرعيتين ومكتب شؤون الفضاء الخارجي في مجالات الشراكة العالمية بشأن الاستكشاف والابتكار في مجال الفضاء، والآفاق الحالية والمستقبلية للنظام القانوني للفضاء الخارجي والحوكمة العالمية، وتعزيز تبادل المعلومات عن الأجسام والأحداث الفضائية، والإطار الدولي لخدمات طقس الفضاء، وتعزيز التعاون الفضائي من أجل الصحة العالمية، والتعاون الدولي من أجل خفض الانبعاثات وتعزيز قدرة المجتمعات على التأقلم، وبناء القدرات من أجل القرن الحادي والعشرين<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	تشمل الوثائق ذات الصلة ما يلي: <a href="https://undocs.org/ar/A/AC.105/1168">A/AC.105/1168</a>، <a href="https://undocs.org/ar/A/AC.105/1169">A/AC.105/1169</a>، <a href="https://undocs.org/ar/A/AC.105/1170">A/AC.105/1170</a>، <a href="https://undocs.org/ar/A/AC.105/1171">A/AC.105/1171</a>، <a href="https://undocs.org/ar/A/AC.105/1172">A/AC.105/1172</a>، <a href="https://undocs.org/ar/A/AC.105/1173">A/AC.105/1173</a>، <a href="https://undocs.org/ar/A/AC.105/1174">A/AC.105/1174</a>؛ انظر أيضاً الفقرة 18 أعلاه.</p></authorialNote><sup>)</sup>؛</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_141_list_point_ب_content">
+              <p xml:space="preserve">	برنامج الأمم المتحدة لاستخدام المعلومات الفضائية في إدارة الكوارث والاستجابة في حالات الطوارئ (برنامج سبايدر)<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	انظر قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/61/110">61/110</a>.</p></authorialNote><sup>)</sup>، وهو برنامج تابع لمكتب شؤون الفضاء الخارجي يتيح للدول الأعضاء الوصول إلى البيانات والخدمات الفضائية لأغراض الحد من مخاطر الكوارث والاستجابة لحالات الطوارئ، كما يتيح، من خلال بوابة معارف برنامج سبايدر، الوصول إلى الموارد الفضائية في جميع مراحل دورة إدارة الكوارث؛ </p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_141_list_point_ج_content">
+              <p xml:space="preserve">	المراكز الإقليمية لتدريس علوم وتكنولوجيا الفضاء، المنتسبة إلى الأمم المتحدة<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	انظر قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/73/91">73/91</a>، الفقرة 24.</p></authorialNote><sup>)</sup>، بما في ذلك التحالف بين المراكز الإقليمية. وتهدف المراكز الإقليمية إلى بناء القدرات والتعليم والتدريب في مجال العلوم والتطبيقات الفضائية، إلى جانب قانون الفضاء والسياسة الفضائية، وخصوصاً لصالح البلدان النامية؛</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_د">
+            <num>(د)</num>
+            <content eId="para_141_list_point_د_content">
+              <p xml:space="preserve">	ميثاق التعاون على تحقيق الاستخدام المنسق للمرافق الفضائية في حال وقوع كوارث طبيعية أو تكنولوجية (المسمى أيضاً الميثاق الدولي بشأن الفضاء والكوارث الكبرى)، بصفته منصة للتعاون العالمي بين وكالات الفضاء ومشغلي النظم الفضائية، يجري من خلالها إتاحة المعلومات والمنتجات المستمدة من السواتل لدعم جهود التصدي للكوارث؛</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_141_list_point_ه_content">
+              <p xml:space="preserve">	مرصد الإنعاش التابع للجنة المعنية بسواتل رصد الأرض، بصفته وسيلة لزيادة إسهام البيانات الساتلية في التعافي من آثار الكوارث الطبيعية؛</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_و">
+            <num>(و)</num>
+            <content eId="para_141_list_point_و_content">
+              <p xml:space="preserve">	مرصد مناخ الفضاء الدولي، الذي يتمثل هدفه الرئيسي في دراسة ورصد آثار تغير المناخ، وخاصة على النطاقات المحلية، باستخدام أدوات ساتلية لرصد الأرض بالاقتران مع البيانات والنماذج الميدانية، مما يوفر أداة لاتخاذ القرارات بشأن التأهب والتكيف والتأقلم مع تغير المناخ وآثاره، ولا سيما على المستوى المحلي؛</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_141_list_point_ز_content">
+              <p xml:space="preserve">	نظام الرصد العالمي المتكامل، التابع للمنظمة العالمية للأرصاد الجوية، الذي يوفر بيانات رصد مفيدة في التحليلات والتنبؤات والتنبيهات والإنذارات الخاصة بالطقس، وكذلك في رصد المناخ والأنشطة البيئية؛ </p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_141_list_point_ح_content">
+              <p xml:space="preserve">	اللجنة الدولية المعنية بالنظم العالمية لسواتل الملاحة<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	انظر قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/59/2">59/2</a>، الفقرة 11.</p></authorialNote><sup>)</sup>، التي تشجع على التعاون الطوعي بشأن المسائل التي تحظى باهتمام مشترك وتتعلق بالخدمات الساتلية المدنية في مجالات تحديد المواقع والملاحة والتوقيت والقيمة المضافة، كما تشجع وتيسِّر التوافق وقابلية التشغيل التبادلي والشفافية بين جميع نظم الملاحة الساتلية؛</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_141_list_point_ط_content">
+              <p xml:space="preserve">	الشبكة الدولية للإنذار بخطر الكويكبات والفريق الاستشاري المعني بالتخطيط للبعثات الفضائية<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	انظر قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/82">70/82</a>، الفقرة 9.</p></authorialNote><sup>)</sup>، والهدف منهما تعزيز التأهب لخطر الاصطدامات المحتملة للأجسام القريبة من الأرض من خلال التعاون الدولي وتبادل المعلومات.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_142" class="MercuryDocument">
+        <num>25 -</num>
+        <list eId="para_142_list">
+          <intro eId="para_142_list_intro">
+            <p xml:space="preserve">	وإضافة إلى ذلك، استحدث مكتب شؤون الفضاء الخارجي عدة أدوات ومبادرات، ويعكف حاليًّا على استحداث أدوات ومبادرات جديدة، في إطار جهود بناء القدرات من أجل القرن الحادي والعشرين، وبالتعاون مع شركائه، تشمل ما يلي: </p>
+          </intro>
+          <point eId="para_142_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_142_list_point_أ_content">
+              <p xml:space="preserve">	مبادرة ”تيسير سُبل الوصول إلى الفضاء للجميع“<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/72/20">A/72/20</a>، الفقرة 326.</p></authorialNote><sup>)</sup>، الرامية إلى توسيع نطاق الوصول إلى الفضاء دعماً لتحقيق أهداف التنمية المستدامة من خلال التعاون الثلاثي بين الدول المرتادة للفضاء، والأمم المتحدة والدول غير المرتادة للفضاء أو الحديثة العهد بارتياد الفضاء، وبمشاركة القطاع الخاص؛ </p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_142_list_point_ب_content">
+              <p xml:space="preserve">	مبادرة الكون المفتوح، من أجل تعزيز سُبل الوصول إلى بيانات العلوم الفلكية والفضائية<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/AC.105/1175">A/AC.105/1175</a>.</p></authorialNote><sup>)</sup>؛</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_142_list_point_ج_content">
+              <p xml:space="preserve">	خلاصة الحلول الفضائية، كأداة لدعم الدول الأعضاء في تنفيذ خطة التنمية المستدامة لعام 2030، وربط الحلول الفضائية بأهداف وغايات التنمية المستدامة<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/AC.105/1174">A/AC.105/1174</a>.</p></authorialNote><sup>)</sup>؛</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_د">
+            <num>(د)</num>
+            <content eId="para_142_list_point_د_content">
+              <p xml:space="preserve">	مشروع ”الفضاء من أجل المرأة“، الذي يهدف إلى توسيع الفرص المتاحة للمرأة لدراسة علوم الفضاء واحتراف العمل في مجال الفضاء؛</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_142_list_point_ه_content">
+              <p xml:space="preserve">	مشروع ”قانون الفضاء المعني بالجهات الفاعلة الجديدة في مجال الفضاء“، ضمن إطار بناء القدرات وتقديم الخدمات الاستشارية استجابةً لاحتياجات ومتطلبات مقرري السياسات والمشرعين في السلطات الحكومية والرقابية للبلدان التي تدخل قطاع الفضاء لأول مرة أو التي تستهل مراحل جديدة من الأنشطة الفضائية؛</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_و">
+            <num>(و)</num>
+            <content eId="para_142_list_point_و_content">
+              <p xml:space="preserve">	بوابة ”الفضاء من أجل المياه“، كمنصة لتبادل المعارف المتعددة التخصصات بشأن التكنولوجيات الفضائية والمواضيع المتعلقة بالمياه؛</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_142_list_point_ز_content">
+              <p xml:space="preserve">	مبادرة الفضاء من أجل الشباب، التي تهدف إلى المضي قُدماً باستراتيجية الشباب لعام 2030: استراتيجية الأمم المتحدة بشأن الشباب، وهي مبادرة على نطاق منظومة الأمم المتحدة في مجال الأنشطة والمشاريع المتعلقة بالفضاء؛</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_142_list_point_ح_content">
+              <p xml:space="preserve">	مشروع ”حلول فضائية من أجل منطقة المحيط الهادئ“، الذي يهدف إلى توفير طائفة من الخدمات البرنامجية لدول المحيط الهادئ الجُزرية من أجل تعزيز قدرتها على تحقيق أهداف التنمية المستدامة، في مجالات منها تغير المناخ وصيد الأسماك غير المشروع والاتصالات والصحة العالمية والحد من مخاطر الكوارث؛ </p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_142_list_point_ط_content">
+              <p xml:space="preserve">	المنتديات الفضائية العالمية المعنية بالفضاء كمحرك للتنمية الاجتماعية والاقتصادية المستدامة التي تهدف إلى تدعيم الشراكات والحوار المتواصل بين أوساط المجتمع العالمي بشأن طائفة واسعة من المسائل الفضائية وإذكاء الوعي بخطة ”الفضاء 2030“ ودعم تنفيذها من خلال المشاركة الواسعة لجميع الجهات الفاعلة المعنية بالفضاء. </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_144" class="MercuryDocument">
+        <num>26 -</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	والقوائم الواردة أعلاه ليست حصرية، إذ يمكن استحداث مبادرات جديدة، لأغراض منها مساعدة الدول الأعضاء في تنفيذ خطة ”الفضاء 2030“.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_145" class="HCh">
+        <heading>	ثالثاً -	الموارد</heading>
+      </paragraph>
+      <paragraph eId="para_146" class="MercuryDocument">
+        <num>27 -</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	تُدعى الدول الأعضاء إلى الانخراط النشط في تعاون فضائي ثنائي ومتعدد الأطراف وإقليمي ودولي أوسع نطاقاً وبأشكال مختلفة، تشمل بناء القدرات وتبادل المعلومات والبنى التحتية وإقامة مشاريع مشتركة وإدماج التعاون الفضائي ضمن إطار التعاون الاقتصادي والإنمائي، حسب الاقتضاء، من أجل تعزيز تحقيق خطة ”الفضاء 2030“ وخطة تنفيذها. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="MercuryDocument">
+        <num>28 -</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	وتُدعى الدول الأعضاء وسائر الجهات المانحة إلى التبرع بموارد من خارج الميزانية إلى مكتب شؤون الفضاء الخارجي من أجل المضي قُدماً بتنفيذ خطة ”الفضاء 2030“، وفقاً لقواعد الأمم المتحدة وإجراءاتها.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="MercuryDocument">
+        <num>29 -</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	ويُحَث الأمين العام على النظر في مدى كفاية الموارد التي توفَّر لمكتب شؤون الفضاء الخارجي في إطار دوره كأمانة للجنة استخدام الفضاء الخارجي في الأغراض السلمية ولجنتيها الفرعيتين، وعلى ضمان قدرة المكتب على تنفيذ ولايته على نحو كامل وفعَّال، بما في ذلك أنشطة بناء القدرات لصالح الدول الأعضاء في مجال علوم وتكنولوجيا الفضاء وتطبيقاتها، وكذلك في مجال قانون الفضاء والسياسة الفضائية، آخذاً في اعتباره خطة ”الفضاء 2030“ وخطة تنفيذها.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="HCh">
+        <heading>	رابعاً -	استعراض التقدم المحرَز</heading>
+      </paragraph>
+      <paragraph eId="para_151" class="MercuryDocument">
+        <num>30 -</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	ينبغي للجنة استخدام الفضاء الخارجي في الأغراض السلمية أن تدرِج في جدول أعمال كل دورة بنداً يتيح للدول الأعضاء في اللجنة ومراقبيها الدائمين تبادل ما لديهم من معلومات عن تجاربهم في تنفيذ خطة ”الفضاء 2030“. وفي عام 2025، ينبغي للجنة أن تجري استعراض منتصف المدة للتقدم المحرز في تنفيذ خطة ”الفضاء 2030“. وفي عام 2030، ينبغي للجنة أن تجري استعراضاً نهائيًّا لتنفيذ خطة ”الفضاء 2030“، وأن تقدم تقريراً إلى الجمعية العامة عن نتائج ذلك الاستعراض.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="21">الجلسة العامة 21</inline>
+        <eol />
+        <docDate date="2021-10-25" refersTo="#adoptionDate">25 تشرين الأول/أكتوبر 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
