@@ -1,0 +1,863 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/"></FRBRuri>
+          <FRBRdate date="2021-10-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/fra@/"></FRBRuri>
+          <FRBRdate date="2021-10-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/fra@.xml"></FRBRuri>
+          <FRBRdate date="2021-11-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee on the Peaceful Uses of Outer Space" showAs="UN. Committee on the Peaceful Uses of Outer Space" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office for Outer Space Affairs" showAs="UN. Office for Outer Space Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="Space2030 Agenda" showAs="Space2030 Agenda" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPACE EXPLORATION" showAs="SPACE EXPLORATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="30" showAs="SPACE--SUSTAINABLE DEVELOPMENT" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-10-19" outcome="draftResolution" as="A/76/L.3" by="Austria, France, Hungary, Israel, Italy, Japan, Malta, Republic of Moldova, Romania and Slovakia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Angola, Australia, Azerbaijan, Bangladesh, Belgium, Bolivia (Plurinational State of), Bulgaria, Canada, Central African Republic, China, Cyprus, Czechia, Dominican Republic, Ecuador, Finland, Gambia, Germany, Greece, Guatemala, Guinea, Jordan, Malawi, Malaysia, Mexico, Montenegro, Morocco, Namibia, New Zealand, Nigeria, North Macedonia, Norway, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Republic of Korea, Russian Federation, Rwanda, Singapore, Slovenia, South Africa, Sri Lanka, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uzbekistan and Viet Nam" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-10-25" outcome="adopted" as="A/76/PV.21" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sans renvoi à une grande commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-15518 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-10-28" class="rightSmall" refersTo="#dateOfIssuance">28 octobre 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Soixante-seizième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Point 30 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">L’espace comme moteur de développement durable</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 25 octobre 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sans renvoi à une grande commission (<inline name="originating document">A/76/L.3 et A/76/L.3/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Le programme « Espace 2030 » : l’espace comme moteur du développement durable</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> sa résolution <a href="https://undocs.org/fr/A/RES/73/6">73/6</a> du 26 octobre 2018,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">
+            <span class="italic">	Adopte </span>le document suivant :</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="H1">
+        <heading>		Le programme « Espace 2030 » : l’espace comme moteur du développement durable</heading>
+      </paragraph>
+      <paragraph eId="para_5" class="H1">
+        <heading>		Partie A. Programme</heading>
+      </paragraph>
+      <paragraph eId="para_6" class="H1">
+        <num>I.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="bold">Introduction</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <content eId="para_8__content">
+          <p xml:space="preserve">Depuis le début de l’ère spatiale, l’Organisation des Nations Unies (ONU) est au centre de la coopération internationale dans le domaine des activités spatiales. Le Comité des utilisations pacifiques de l’espace extra-atmosphérique a vu le jour après que l’Assemblée générale a reconnu, dans sa résolution <a href="https://undocs.org/fr/A/RES/1348(XIII)">1348 (XIII)</a> du 13 décembre 1958, qu’il importait d’utiliser l’espace à des fins pacifiques et qu’il fallait promouvoir la coopération internationale dans la conduite des activités spatiales ; il a été créé à titre permanent en application de la résolution 1472 A (XIV) de l’Assemblée, adoptée en 1959.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <content eId="para_10__content">
+          <p xml:space="preserve">Compte tenu de la singularité de son mandat et de la place centrale qu’il occupe dans la coopération internationale touchant les utilisations pacifiques de l’espace et la gouvernance mondiale des activités spatiales<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/A/AC.105/1137">A/AC.105/1137</a>.</p></authorialNote>, conforme au droit international applicable, le Comité a joué un rôle essentiel dans l’organisation des trois premières conférences des Nations Unies sur l’exploration et les utilisations pacifiques de l’espace extra-atmosphérique, qui se sont tenues en 1968, 1982 et 1999.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <content eId="para_12__content">
+          <p xml:space="preserve">Cinquante ans après la première Conférence des Nations Unies sur l’exploration et les utilisations pacifiques de l’espace extra-atmosphérique (UNISPACE), les États Membres de l’ONU et les représentantes et représentants de la communauté spatiale internationale se sont réunis à Vienne, les 20 et 21 juin 2018, pour le débat de haut niveau organisé à l’occasion du cinquantenaire de la Conférence des Nations Unies sur l’exploration et les utilisations pacifiques de l’espace extra-atmosphérique (UNISPACE+50), afin de réfléchir aux progrès accomplis pendant plus de 50 années en matière d’exploration et d’utilisation de l’espace et d’intensifier la coopération mondiale dans l’espace et l’exploitation de l’espace au service du développement durable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13">
+        <num>4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <content eId="para_14__content">
+          <p xml:space="preserve">Dans sa résolution <a href="https://undocs.org/fr/A/RES/73/6">73/6</a> du 26 octobre 2018, l’Assemblée générale a noté avec satisfaction qu’à l’issue des préparatifs d’UNISPACE+50 et du débat de haut niveau organisé à cette occasion étaient parus des documents décrivant un projet global, inclusif et stratégique de renforcement de la coopération internationale en matière d’exploration et d’utilisations pacifiques de l’espace extra-atmosphérique, dans lesquels l’espace était considéré comme un moteur et un facteur essentiels de la réalisation des objectifs de développement durable au profit de tous les pays.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15">
+        <num>5.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <content eId="para_16__content">
+          <p xml:space="preserve">À cet égard, l’Assemblée générale a invité le Comité à continuer d’élaborer, sur la base des résultats des préparatifs d’UNISPACE+50, un programme « Espace 2030 » et son plan de mise en œuvre, et à lui communiquer les conclusions de ses travaux pour qu’elle les examine à sa soixante-quinzième session, en 2020.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17">
+        <num>6.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <content eId="para_18__content">
+          <p xml:space="preserve">Le Comité présente le programme « Espace 2030 » et son plan de mise en œuvre à l’Assemblée générale comme une stratégie ambitieuse visant à réaffirmer et à renforcer la contribution des activités spatiales et des outils spatiaux à la réalisation des programmes mondiaux<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Le Programme de développement durable à l’horizon 2030, le Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030) et l’Accord de Paris.</p></authorialNote>, et à répondre aux préoccupations de l’humanité en matière de développement durable à long terme. Ce programme participe également à définir la future contribution du Comité au cadre de gouvernance mondiale des activités spatiales, conformément au droit international applicable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="H1">
+        <num>II.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">Vision stratégique</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>7.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <content eId="para_21__content">
+          <p xml:space="preserve">Nous, les États Membres de l’ONU, sommes conscients que l’exploration et les utilisations pacifiques de l’espace ont enrichi nos connaissances collectives et révolutionné la vie sur la Terre. Les sciences et techniques spatiales font désormais partie intégrante de notre vie quotidienne et apportent à la Terre une multitude d’avantages exceptionnels et fondamentaux. À mesure que la communauté spatiale poursuivra ses activités d’exploration spatiale, l’espace continuera de servir de source d’inspiration et d’innovation et de fournir des applications au profit de l’humanité.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>8.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <content eId="para_23__content">
+          <p xml:space="preserve">Nous soulignons que les outils spatiaux sont très utiles pour la réalisation des programmes mondiaux de développement, en particulier le Programme de développement durable à l’horizon 2030, ses objectifs et les cibles associées, soit directement, en jouant le rôle de catalyseurs et de moteurs du développement durable, soit indirectement, en fournissant des données essentielles pour les indicateurs de suivi des progrès accomplis dans la réalisation du Programme 2030, du Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030) et des engagements pris par les États parties à l’Accord de Paris. La réalisation de ces programmes mondiaux nécessite un meilleur accès aux données, aux applications et à l’infrastructure spatiales, compte tenu des besoins particuliers des pays en développement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>9.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <content eId="para_25__content">
+          <p xml:space="preserve">Nous saluons la contribution précieuse et historique qu’ont apportée le Comité des utilisations pacifiques de l’espace extra-atmosphérique, son sous-comité juridique et son sous-comité scientifique et technique à la mise en place et au développement du régime juridique international qui régit les activités spatiales. Dans le cadre de ce régime, les activités spatiales des États, des organisations internationales intergouvernementales et des entités non gouvernementales connaissent un véritable essor, si bien que les sciences et techniques spatiales et leurs applications contribuent de façon inestimable à la croissance économique et à l’amélioration de la qualité de vie dans le monde entier.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>10.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <content eId="para_27__content">
+          <p xml:space="preserve">Nous réaffirmons le rôle particulier que jouent le Comité et ses sous-comités, avec l’appui du Bureau des affaires spatiales, tribunes uniques pour la coopération internationale en matière d’exploration et d’utilisation de l’espace à des fins pacifiques, la gouvernance mondiale des activités spatiales conforme au droit international applicable, le développement du droit international de l’espace, l’intensification du dialogue entre les puissances spatiales établies et émergentes, et la promotion d’une participation accrue de tous les pays aux activités spatiales, y compris dans le cadre d’initiatives de renforcement des capacités.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28">
+        <num>11.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <content eId="para_29__content">
+          <p xml:space="preserve">Nous soulignons l’importance du Traité sur l’espace extra-atmosphérique, pierre angulaire du régime juridique international qui régit les activités spatiales. Il contient les principes fondamentaux du droit international de l’espace et continuera de fournir un cadre indispensable à la conduite des activités spatiales. Son universalisation et sa mise en œuvre effective devraient être encouragées.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30">
+        <num>12.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <content eId="para_31__content">
+          <p xml:space="preserve">Nous engageons le Comité à continuer de coordonner l’action menée pour renforcer l’application des traités et principes des Nations Unies relatifs à l’espace extra-atmosphérique et à compléter le droit international de l’espace existant, s’il y a lieu, pour faire face à de nouveaux problèmes. Le Comité et ses sous-comités devraient continuer à faire la preuve de leur utilité et à examiner les difficultés et les perspectives existantes et nouvelles liées, par exemple, aux questions de la viabilité à long terme des activités spatiales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32">
+        <num>13.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <content eId="para_33__content">
+          <p xml:space="preserve">Nous sommes déterminés à faire face à l’évolution de la conduite des activités spatiales, à l’heure où de nouvelles techniques ont fait leur apparition et où un nombre croissant de participants, qui représentent aussi bien des organismes publics que des entités non gouvernementales, notamment dans l’industrie et le secteur privé, commencent à se lancer dans des projets d’exploration et d’utilisation de l’espace et dans des activités spatiales. À cet égard, nous nous engageons à faire en sorte que le Comité et ses sous-comités, aidés par le Bureau des affaires spatiales, continuent, s’il y a lieu, à faire face à cette évolution, en jouant leur rôle de tribunes uniques pour la coopération internationale touchant les utilisations pacifiques de l’espace.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>14.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <content eId="para_35__content">
+          <p xml:space="preserve">Nous nous engageons à renforcer la coopération internationale, pour laquelle le Comité reste une tribune unique s’agissant de l’exploration et des utilisations pacifiques de l’espace et de la gouvernance mondiale des activités spatiales, conforme au droit international applicable, compte tenu des besoins particuliers des pays en développement. Nous sommes également conscients de l’intérêt que présentent pour l’humanité tout entière les progrès réalisés dans l’exploration et l’utilisation de l’espace à des fins pacifiques, et prenons note des résolutions <a href="https://undocs.org/fr/A/RES/51/122">51/122</a> du 13 décembre 1996 et <a href="https://undocs.org/fr/A/RES/73/6">73/6</a> du 26 octobre 2018 de l’Assemblée générale et de la contribution que leur mise œuvre apportera à la réalisation du programme « Espace 2030 ».</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36">
+        <num>15.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <content eId="para_37__content">
+          <p xml:space="preserve">Nous entendons promouvoir l’égalité des chances dans le secteur spatial en encourageant, en particulier les jeunes et les femmes, à envisager de faire carrière dans les domaines des sciences, de la technique, de l’ingénierie et des mathématiques.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38">
+        <num>16.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <content eId="para_39__content">
+          <p xml:space="preserve">Nous entendons également exploiter dans une plus large mesure les techniques nouvelles et novatrices, telles que les techniques spatiales et leurs applications, afin de contribuer à une meilleure exécution des mandats de l’ONU dans son ensemble.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40">
+        <num>17.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <content eId="para_41__content">
+          <p xml:space="preserve">Nous soulignons que les sept priorités thématiques énoncées par le Comité à l’occasion d’UNISPACE+50 permettent d’aborder de manière globale les questions essentielles et servent collectivement à définir les objectifs fondamentaux des travaux futurs du Comité et de ses sous-comités, ainsi que du Bureau des affaires spatiales, à savoir : le partenariat mondial pour l’exploration de l’espace et l’innovation (priorité thématique 1), les perspectives actuelles et futures du régime juridique de l’espace extra-atmosphérique et de la gouvernance mondiale (priorité thématique 2), l’amélioration de l’échange d’informations sur les objets et les événements spatiaux (priorité thématique 3), un cadre international pour les services de météorologie de l’espace (priorité thématique 4), le renforcement de la coopération spatiale aux fins de la santé mondiale (priorité thématique 5), la coopération internationale pour des sociétés produisant peu d’émissions et résilientes (priorité thématique 6) et le renforcement des capacités pour le XXI<sup>e</sup> siècle (priorité thématique 7)<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/73/6">73/6</a> de l’Assemblée générale, vingt-quatrième alinéa.</p></authorialNote>.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42">
+        <num>18.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <content eId="para_43__content">
+          <p xml:space="preserve">Nous soulignons aussi que, dans l’exécution du programme « Espace 2030 » et de son plan de mise en œuvre, de l’importance est accordée aux partenariats mondiaux et au renforcement de la coopération entre les États Membres, les entités des Nations Unies, les organisations intergouvernementales et non gouvernementales, le secteur industriel et les entités du secteur privé, pour faire en sorte que les avantages tirés de l’espace soient partagés par tous et partout, grâce à des efforts conjoints et aux expériences et contributions concrètes des différents acteurs.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="H1">
+        <num>III.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold">Objectifs</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45">
+        <num>19.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <content eId="para_46__content">
+          <p xml:space="preserve">Nous, les États Membres de l’ONU, nous engageons à poursuivre, sur la base de la vision stratégique ci-dessus, les objectifs suivants. Les États Membres pourront entreprendre les actions décrites sous chaque objectif général afin de réaliser ces objectifs. Les quatre objectifs sont structurés autour des quatre piliers que sont l’économie spatiale, la société spatiale, l’accessibilité à l’espace et la diplomatie spatiale. Les piliers sont complémentaires et se renforcent mutuellement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="H1">
+        <heading>		Objectif général 1 : Accroître les avantages économiques tirés de l’espace et renforcer le rôle de moteur essentiel du développement durable que joue le secteur spatial</heading>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>1.1</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">.	Faire prendre conscience de l’importance des sciences et techniques spatiales et de leurs applications pour la réalisation des objectifs de développement durable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>1.2</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">.	Faciliter et promouvoir l’intégration du secteur spatial avec d’autres secteurs, notamment ceux de l’énergie, de la santé publique, de l’environnement, de la lutte contre les changements climatiques, de la gestion des ressources et du numérique, ainsi que le développement de partenariats multipartites en vue de mettre au point des solutions spatiales novatrices au service du développement social et économique qui pourront être intégrées aux mécanismes de réalisation des objectifs de développement durable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>1.3</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">.	S’attaquer aux difficultés que posent les activités commerciales menées dans l’espace, notamment pour permettre aux activités spatiales de mieux contribuer à la réalisation des programmes mondiaux de développement et pour assurer la viabilité à long terme des activités spatiales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>1.4</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">.	Promouvoir le développement de l’industrie spatiale, en accordant une attention particulière aux petites et moyennes entreprises, en vue d’accroître les investissements dans le secteur spatial et de créer des emplois de grande qualité, et promouvoir les retombées des techniques spatiales sur le secteur non spatial.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="MercuryDocument">
+        <num>1.5</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">.	Mener des activités spatiales pour tous, fondées sur le droit international, en promouvant un cadre international qui facilite l’égalité d’accès à l’espace pour tous, y compris les nations non spatiales, et encourage la sécurité et l’innovation.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="MercuryDocument">
+        <num>1.6</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">.	Promouvoir l’utilisation de solutions spatiales dans l’action menée à l’échelle mondiale pour garantir une gestion durable des forêts et des océans.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>1.7</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">.	Renforcer la contribution des techniques spatiales et de leurs applications à la gestion des pêcheries, à l’agriculture, à la sûreté et à la sécurité alimentaires et à la nutrition sur le long terme.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="MercuryDocument">
+        <num>1.8</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">.	Promouvoir et faciliter une collaboration et un partenariat entre les secteurs privé et public, les établissements universitaires et les centres de recherche-développement axés sur l’exploitation de l’espace aux fins de la réalisation des objectifs de développement durable et sur la viabilité à long terme des activités spatiales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="H1">
+        <heading>		Objectif général 2 : Tirer parti des possibilités qu’offrent les activités spatiales pour résoudre des difficultés de la vie quotidienne et mettre à profit les innovations du secteur spatial pour améliorer la qualité de la vie</heading>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>2.1</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">.	Soutenir la science et la recherche spatiales, l’espace extra-atmosphérique offrant aux chercheurs un angle exceptionnel d’observation et d’étude de la Terre et de l’univers.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>2.2</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">.	Promouvoir l’utilisation des techniques spatiales et de leurs applications afin d’améliorer la connaissance scientifique du milieu naturel, notamment des océans et des mers, des régions montagneuses, des cycles hydrologiques et des ressources en eau, des forêts, de la biodiversité, de la désertification et de la dégradation des terres, ainsi que de l’urbanisation, le but étant de contribuer à la préservation du milieu naturel, à une gestion durable des ressources et à la protection des écosystèmes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <num>2.3</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">.	Renforcer l’utilisation d’applications spatiales intégrées pour faciliter l’observation du climat et l’évaluation des risques de catastrophe, améliorer les systèmes d’alerte rapide en cas de catastrophe et fournir des données pour les indicateurs utilisés pour suivre les progrès accomplis dans la mise en œuvre du Programme de développement durable à l’horizon 2030, du Cadre de Sendai et des engagements pris par les États parties à l’Accord de Paris.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="MercuryDocument">
+        <num>2.4</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">.	Promouvoir le rôle des techniques spatiales, qui permettent de mettre en évidence, d’analyser et de combattre les changements climatiques et de faciliter la transition vers des sociétés produisant peu d’émissions, et encourager la collaboration internationale à cet égard, conformément aux mécanismes et organismes internationaux existants et reconnus.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>2.5</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">.	Promouvoir l’utilisation des techniques spatiales à tous les stades du cycle de la gestion des catastrophes, à la fois naturelles et anthropiques, notamment aux stades de la prévention, de l’atténuation des dégâts, de la préparation, de l’intervention, du relèvement, de la reconstruction et de la réhabilitation ; procéder au suivi et à l’évaluation de paramètres tels que l’exposition, les dangers, le risque de catastrophe et les dégâts dans diverses régions du monde ; et promouvoir le partage des données relatives au suivi des catastrophes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="MercuryDocument">
+        <num>2.6</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">.	Renforcer la coopération dans le domaine spatial pour favoriser la santé mondiale ; améliorer l’utilisation et l’application de la médecine, des sciences et des techniques spatiales, des innovations dans le domaine de la santé mondiale, de la coopération et du partage des informations et des outils pour améliorer la rapidité et l’efficacité des interventions en matière de santé publique et de soins de santé ; et renforcer les capacités dans les domaines de la médecine, des sciences et des techniques spatiales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <num>2.7</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">.	Renforcer l’utilisation des techniques spatiales et de leurs applications pour favoriser le développement d’établissements humains et d’infrastructures viables sur le plan social et environnemental, aussi bien en zone urbaine qu’en zone rurale ; améliorer les moyens d’existence ; étudier l’évolution de l’urbanisation et des migrations ; et assurer le suivi des sites culturels protégés et contribuer à leur préservation.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="MercuryDocument">
+        <num>2.8</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">.	Promouvoir les politiques de données spatiales ouvertes et le partage de données.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="H1">
+        <heading>		Objectif général 3 : Améliorer l’accès à l’espace pour tous et veiller à ce que tous les pays puissent bénéficier des avantages socioéconomiques des applications des sciences et techniques spatiales et des données, informations et produits d’origine spatiale, afin de concourir à la réalisation des objectifs de développement durable</heading>
+      </paragraph>
+      <paragraph eId="para_108" class="MercuryDocument">
+        <num>3.1</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">.	Exploiter les possibilités qu’offre l’espace d’inspirer les jeunes, impliquer davantage les jeunes dans le secteur spatial, contribuer aux initiatives nationales et internationales qui stimulent l’intérêt des jeunes pour les activités spatiales, à partir de l’école élémentaire, et les intéresser davantage à la science, à la technique, à l’ingénierie et aux mathématiques.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="MercuryDocument">
+        <num>3.2</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">.	Encourager l’exploration spatiale, facteur d’innovation à long terme, et renforcer la coopération internationale dans ce domaine.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>3.3</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">.	Promouvoir l’exploration au-delà de l’orbite terrestre basse, car ces missions auront des retombées scientifiques, techniques et économiques et seront une source d’inspiration pour l’humanité.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="MercuryDocument">
+        <num>3.4</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve">.	Améliorer le renforcement des capacités, l’enseignement et la formation dans le domaine des sciences et applications spatiales, en particulier pour les pays en développement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="MercuryDocument">
+        <num>3.5</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">.	Améliorer la connaissance de l’espace, notamment grâce à un meilleur accès aux données scientifiques astronomiques et spatiales, au profit de l’humanité.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="MercuryDocument">
+        <num>3.6</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">.	Promouvoir et favoriser l’utilisation des techniques spatiales pour améliorer l’accès mondial aux données et au haut débit, en accordant une attention particulière aux pays en développement et aux régions dotées d’infrastructures moins développées.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>3.7</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">.	Promouvoir l’absence d’exclusive et l’égalité des genres dans les activités spatiales, y compris en renforçant la participation des femmes dans les filières d’enseignement des sciences, de la technique, de l’ingénierie et des mathématiques.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="MercuryDocument">
+        <num>3.8</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">.	Faire prendre davantage conscience des risques liés à une météorologie de l’espace défavorable et les atténuer afin d’améliorer la résilience mondiale face aux effets de ces phénomènes, et améliorer la coordination internationale des activités liées à la météorologie de l’espace, à savoir la diffusion des connaissances, la communication et le renforcement des capacités, ainsi que la mise en place d’un mécanisme international visant à promouvoir une coordination de haut niveau accrue en matière de météorologie spatiale et une plus grande résilience mondiale face aux effets de ces phénomènes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="MercuryDocument">
+        <num>3.9</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">.	Renforcer la coopération internationale et l’état de préparation afin de parer à la menace que représentent les objets géocroiseurs.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="MercuryDocument">
+        <num>3.10</num>
+        <content eId="para_153__content">
+          <p xml:space="preserve">.	Encourager fortement les États à renforcer la coopération internationale, multilatérale et bilatérale en matière d’exploration et d’utilisation de l’espace à des fins pacifiques, y compris en s’attaquant et en répondant efficacement aux défis et aux obstacles existants, en particulier aux mesures qui entravent cette coopération et, à cet égard, exhorter les États à répondre efficacement aux défis et aux obstacles qui empêchent la mise en œuvre du programme « Espace 2030 ».</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="H1">
+        <heading>		Objectif général 4 : Établir des partenariats et renforcer la coopération internationale en matière d’utilisations pacifiques de l’espace et de la gouvernance mondiale des activités spatiales</heading>
+      </paragraph>
+      <paragraph eId="para_155" class="MercuryDocument">
+        <num>4.1</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">.	Renforcer le rôle de plateforme pour la coopération internationale en matière d’exploration et d’utilisation de l’espace que jouent le Comité des utilisations pacifiques de l’espace extra-atmosphérique et ses sous-comités, avec l’appui du Bureau des affaires spatiales, et intensifier les activités qu’ils mènent.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="MercuryDocument">
+        <num>4.2</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">.	Encourager les États parties à mettre en œuvre les traités des Nations Unies relatifs à l’espace et à appliquer les principes connexes et les résolutions de l’Assemblée générale, et engager le Comité et ses organes subsidiaires à continuer, avec l’appui du Bureau des affaires spatiales, à coordonner l’action menée à cet égard et à compléter et développer un droit international relatif à l’espace extra‑atmosphérique, s’il y a lieu, pour faire face aux nouveaux problèmes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="MercuryDocument">
+        <num>4.3</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">.	Intensifier les activités de renforcement des capacités et d’assistance technique, notamment celles que mène le Bureau des affaires spatiales, à l’intention des États Membres, en particulier dans le domaine du droit international de l’espace et des politiques spatiales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="MercuryDocument">
+        <num>4.4</num>
+        <content eId="para_161__content">
+          <p xml:space="preserve">.	Améliorer les pratiques d’immatriculation en vigueur et l’échange d’informations sur la base des mandats existants et reconnaître le rôle joué par le Bureau des affaires spatiales dans la tenue du registre des objets lancés dans l’espace extra-atmosphérique des Nations Unies pour accroître la transparence et améliorer l’efficacité du mécanisme d’immatriculation ainsi que la rapidité et la cohérence de l’immatriculation des objets, notamment en fournissant une assistance technique aux États Membres.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="MercuryDocument">
+        <num>4.5</num>
+        <content eId="para_165__content">
+          <p xml:space="preserve">.	Assurer la viabilité à long terme des activités spatiales et la préservation du milieu spatial à des fins pacifiques, notamment en mettant en œuvre, à titre volontaire, le préambule et les lignes directrices relatives à la viabilité à long terme des activités spatiales qui ont été adoptées et en partageant cette expérience, et faire face aux difficultés, aux risques et aux menaces qui apparaissent et compromettent la viabilité à long terme des activités spatiales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_170" class="MercuryDocument">
+        <num>4.6</num>
+        <content eId="para_170__content">
+          <p xml:space="preserve">.	Améliorer la sécurité des opérations spatiales afin de contribuer à la viabilité à long terme des activités spatiales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="MercuryDocument">
+        <num>4.7</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve">.	Promouvoir la coopération internationale et les échanges d’informations et de meilleures pratiques, dans le cadre du Comité, sur la supervision des activités spatiales des entités non gouvernementales conformément au droit international applicable, l’objectif étant d’améliorer la sécurité et la viabilité à long terme des activités spatiales tout en facilitant le développement de l’industrie spatiale.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="MercuryDocument">
+        <num>4.8</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">.	Intensifier, dans le cadre du Comité, l’échange d’informations sur les objets et les événements spatiaux, ainsi que le débat sur la prévision et la prévention des collisions.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_191" class="MercuryDocument">
+        <num>4.9</num>
+        <content eId="para_191__content">
+          <p xml:space="preserve">.	Renforcer la coordination et l’interaction entre le Comité des utilisations pacifiques de l’espace extra-atmosphérique et ses sous-comités, avec l’assistance du Bureau des affaires spatiales qui assurera le secrétariat.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="MercuryDocument">
+        <num>4.10</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">.	Encourager une coopération accrue entre les entités des Nations Unies s’occupant d’affaires spatiales, compte tenu des efforts déployés à l’échelle du système pour améliorer la cohérence et l’unité d’action, sur les questions interdisciplinaires et intersectorielles liées à l’espace afin de promouvoir la coopération internationale en matière d’exploration et d’exploitation de l’espace à des fins pacifiques et d’utilisation des sciences et techniques spatiales aux fins du développement durable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_201" class="H1">
+        <heading>		Partie B. Plan de mise en œuvre</heading>
+      </paragraph>
+      <paragraph eId="para_202">
+        <num>20.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_203" class="MercuryDocument">
+        <content eId="para_203__content">
+          <p xml:space="preserve">Chaque État Membre mettra en œuvre le programme « Espace 2030 » à titre volontaire.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204" class="H1">
+        <num>I.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve">	<span class="bold">Partenariats</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205">
+        <num>21.</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="MercuryDocument">
+        <content eId="para_206__content">
+          <p xml:space="preserve">Dans l’exécution du programme « Espace 2030 » et de son plan de mise en œuvre, une importance est accordée à des partenariats et à une coopération renforcés entre les États Membres, les organismes des Nations Unies, les organisations intergouvernementales et non gouvernementales, le secteur industriel et les entités du secteur privé.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207">
+        <num>22.</num>
+        <content eId="para_207__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="MercuryDocument">
+        <content eId="para_208__content">
+          <p xml:space="preserve">Le Bureau des affaires spatiales sert d’intermédiaire pour promouvoir et faciliter l’utilisation de solutions spatiales, notamment dans la mise en œuvre du programme « Espace 2030 », et devrait continuer, dans le cadre de son mandat, de ses fonctions et des ressources existantes, à chercher à nouer des partenariats, notamment avec des organismes de recherche, des universités, des entreprises et le secteur privé, afin d’élargir les possibilités d’accès à l’espace aux fins des sciences, de l’innovation, de la recherche-développement, de l’éducation et du renforcement des capacités. À cet égard, le Bureau devrait mettre en œuvre des activités de promotion de l’utilisation des applications et des techniques spatiales pour aider les États Membres à atteindre les objectifs des programmes mondiaux de développement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209">
+        <num>23.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="MercuryDocument">
+        <content eId="para_210__content">
+          <p xml:space="preserve">En vue de mettre en œuvre le programme « Espace 2030 », le Comité des utilisations pacifiques de l’espace extra-atmosphérique et le Bureau des affaires spatiales devraient continuer à exécuter leurs mandats respectifs et à coopérer et à se concerter avec d’autres entités concernées des Nations Unies, notamment la Réunion interorganisations sur les activités spatiales (ONU-Espace).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="H1">
+        <num>II.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="bold">Outils</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212">
+        <num>24.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="MercuryDocument">
+        <content eId="para_213__content">
+          <p xml:space="preserve">En mettant en œuvre le programme « Espace 2030 », les États Membres pourraient contribuer à un certain nombre de mécanismes, programmes, projets et dispositifs internationaux et régionaux déjà en place ou en cours d’élaboration et en tirer parti, notamment :</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="MercuryDocument">
+        <num>a)</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	Les sept priorités thématiques énoncées à l’occasion d’UNISPACE+50, entreprises dans le cadre des programmes et des travaux du Comité et de ses sous‑comités, ainsi que du Bureau des affaires spatiales, à savoir : le partenariat mondial pour l’exploration de l’espace et l’innovation, les perspectives actuelles et futures du régime juridique de l’espace extra-atmosphérique et de la gouvernance mondiale, l’amélioration de l’échange d’informations sur les objets et les événements spatiaux, un cadre international pour les services de météorologie de l’espace, le renforcement de la coopération spatiale aux fins de la santé mondiale, la coopération internationale dans la perspective de sociétés produisant peu d’émissions et résilientes et le renforcement des capacités pour le XXI<sup>e</sup> siècle<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Documents correspondants : <a href="https://undocs.org/fr/A/AC.105/1168">A/AC.105/1168</a>, <a href="https://undocs.org/fr/A/AC.105/1169">A/AC.105/1169</a>, <a href="https://undocs.org/fr/A/AC.105/1170">A/AC.105/1170</a>, <a href="https://undocs.org/fr/A/AC.105/1171">A/AC.105/1171</a>, <a href="https://undocs.org/fr/A/AC.105/1172">A/AC.105/1172</a>, <a href="https://undocs.org/fr/A/AC.105/1173">A/AC.105/1173</a> et <a href="https://undocs.org/fr/A/AC.105/1174">A/AC.105/1174</a> ; voir aussi le paragraphe 17 du présent document.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="MercuryDocument">
+        <num>b)</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	Le Programme des Nations Unies pour l’exploitation de l’information d’origine spatiale aux fins de la gestion des catastrophes et des interventions d’urgence (UN-SPIDER)<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Voir résolution <a href="https://undocs.org/fr/A/RES/61/110">61/110</a> de l’Assemblée générale.</p></authorialNote>, un programme du Bureau des affaires spatiales qui donne aux États Membres un accès à des données spatiales et à des services de réduction des risques de catastrophe et d’intervention d’urgence et permet d’accéder, au moyen de son portail de connaissances, à des ressources spatiales à tous les stades du cycle de la gestion des catastrophes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="MercuryDocument">
+        <num>c)</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	Les centres régionaux de formation aux sciences et techniques spatiales, affiliés à l’ONU<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Voir résolution <a href="https://undocs.org/fr/A/RES/73/91">73/91</a> de l’Assemblée générale, par. 24.</p></authorialNote>, y compris l’alliance des centres régionaux. Les centres régionaux ont pour objet d’améliorer le renforcement des capacités, l’éducation et la formation dans le domaine des sciences et des applications spatiales, ainsi que le droit et les politiques spatiales, en particulier pour les pays en développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="MercuryDocument">
+        <num>d)</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	La Charte relative à une coopération visant à l’utilisation coordonnée des moyens spatiaux en cas de situations de catastrophe naturelle ou technologique (également appelée Charte internationale « Espace et catastrophes majeures »), qui définit une collaboration mondiale entre agences spatiales et exploitants de moyens spatiaux, et dans le cadre de laquelle des informations et des produits obtenus par satellite sont mis à disposition pour soutenir les interventions en cas de catastrophe ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_224" class="MercuryDocument">
+        <num>e)</num>
+        <content eId="para_224__content">
+          <p xml:space="preserve">	Le projet « Recovery Observatory » du Comité mondial d’observation de la Terre par satellite, qui permet d’utiliser davantage les données satellitaires dans les mesures de relèvement consécutives à des catastrophes naturelles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="MercuryDocument">
+        <num>f)</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	L’Observatoire spatial du climat, dont l’objectif principal est d’étudier et de surveiller les conséquences des changements climatiques, en particulier à l’échelle locale, à l’aide d’outils d’observation de la Terre par satellite associés à des données de terrain et à des modèles, l’objectif étant de faciliter la prise de décisions relatives aux mesures de préparation, d’adaptation et de résilience pour répondre aux changements climatiques et à leurs conséquences au niveau local ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="MercuryDocument">
+        <num>g)</num>
+        <content eId="para_235__content">
+          <p xml:space="preserve">	Le Système mondial d’observation de l’Organisation météorologique mondiale, qui fournit des données d’observation utiles pour les analyses, prévisions, avis et alertes météorologiques, ainsi que pour la surveillance du climat et les activités environnementales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_242" class="MercuryDocument">
+        <num>h)</num>
+        <content eId="para_242__content">
+          <p xml:space="preserve">	Le Comité international sur les GNSS<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Voir résolution <a href="https://undocs.org/fr/A/RES/59/2">59/2</a> de l’Assemblée générale, par. 11.</p></authorialNote>, qui promeut la coopération volontaire sur des questions d’intérêt commun concernant les services civils de positionnement, de navigation et de synchronisation par satellite, et les services à valeur ajoutée, et encourage et facilite la compatibilité, l’interopérabilité et la transparence de tous les systèmes de navigation par satellite ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="MercuryDocument">
+        <num>i)</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	Le Réseau international d’alerte aux astéroïdes (IAWN) et le groupe consultatif pour la planification des missions spatiales (SMPAG)<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Voir résolution <a href="https://undocs.org/fr/A/RES/70/82">70/82</a> de l’Assemblée générale, par. 9.</p></authorialNote>, qui ont pour vocation d’aider à mieux se préparer face à la menace que représente la chute possible d’objets géocroiseurs grâce à la coopération internationale et à l’échange d’informations.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259">
+        <num>25.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_260" class="MercuryDocument">
+        <content eId="para_260__content">
+          <p xml:space="preserve">Par ailleurs, plusieurs outils et initiatives ont été élaborés ou sont en cours d’élaboration par le Bureau des affaires spatiales, en coopération avec ses partenaires, dans le cadre du renforcement des capacités pour le XXI<sup>e</sup> siècle, notamment :</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="MercuryDocument">
+        <num>a)</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	L’initiative « Accès à l’espace pour tous »<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	Voir <a href="https://undocs.org/fr/A/72/20">A/72/20</a>, par. 326.</p></authorialNote>, qui vise à élargir l’accès à l’espace à l’appui de la réalisation des objectifs de développement durable, dans le cadre d’une coopération triangulaire entre les puissances spatiales, les organismes des Nations Unies et les nations qui n’ont pas de programme spatial ou qui se lancent dans des activités spatiales, avec la participation du secteur privé ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_262" class="MercuryDocument">
+        <num>b)</num>
+        <content eId="para_262__content">
+          <p xml:space="preserve">	L’initiative « Open Universe », qui vise à améliorer l’accès aux données astronomiques et scientifiques spatiales<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Voir <a href="https://undocs.org/fr/A/AC.105/1175">A/AC.105/1175</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_264" class="MercuryDocument">
+        <num>c)</num>
+        <content eId="para_264__content">
+          <p xml:space="preserve">	Le recueil de solutions spatiales, outil destiné à aider les États Membres à mettre en œuvre le Programme de développement durable à l’horizon 2030 en associant les solutions spatiales à des objectifs de développement durable et aux cibles associées<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	 	Voir <a href="https://undocs.org/fr/A/AC.105/1174">A/AC.105/1174</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_267" class="MercuryDocument">
+        <num>d)</num>
+        <content eId="para_267__content">
+          <p xml:space="preserve">	Le projet « L’espace pour les femmes », qui vise à donner aux femmes de plus grandes possibilités de faire des études et une carrière dans le domaine spatial ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_271" class="MercuryDocument">
+        <num>e)</num>
+        <content eId="para_271__content">
+          <p xml:space="preserve">	Le projet relatif au « droit de l’espace à l’intention des nouveaux acteurs du secteur spatial », proposé dans le cadre de services de renforcement des capacités et de conseil pour répondre aux besoins et aux exigences des décideurs et des législateurs des autorités gouvernementales et réglementaires des pays qui se lancent pour la première fois dans des activités spatiales ou s’engagent dans une nouvelle phase d’activités spatiales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="MercuryDocument">
+        <num>f)</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve">	Le portail Space4Water, plateforme d’échanges de connaissances interdisciplinaires sur les techniques spatiales et les questions liées aux ressources en eau ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_282" class="MercuryDocument">
+        <num>g)</num>
+        <content eId="para_282__content">
+          <p xml:space="preserve">	« L’espace pour les jeunes », projet destiné à promouvoir l’initiative « Jeunesse 2030, la Stratégie des Nations Unies pour la jeunesse » dans le domaine des activités et des projets en rapport avec l’espace ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_289" class="MercuryDocument">
+        <num>h)</num>
+        <content eId="para_289__content">
+          <p xml:space="preserve">	Le projet « Solutions spatiales pour le Pacifique », qui vise à offrir toute une gamme de services programmatiques aux États insulaires du Pacifique afin de les doter de moyens accrus pour qu’ils atteignent les objectifs de développement durable, notamment dans les domaines de la lutte contre les changements climatiques, de la lutte contre la pêche illégale, des télécommunications, de la santé mondiale et de la réduction des risques de catastrophe ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="MercuryDocument">
+        <num>i)</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	Les Forums mondiaux de l’espace, moteurs d’un développement socioéconomique durable visant à renforcer les partenariats et les échanges continus au sein de la communauté mondiale sur toutes sortes de questions liées à l’espace, et à faire largement connaître et appliquer le programme « Espace 2030 » par la participation de l’ensemble des parties prenantes concernées du secteur spatial.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_306">
+        <num>26.</num>
+        <content eId="para_306__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_307" class="MercuryDocument">
+        <content eId="para_307__content">
+          <p xml:space="preserve">Les listes qui précèdent ne sont pas exhaustives, et de nouvelles initiatives pourraient être proposées, notamment dans le but d’aider les États Membres à mettre en œuvre le programme « Espace 2030 ».</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_308" class="H1">
+        <num>III.</num>
+        <content eId="para_308__content">
+          <p xml:space="preserve">	<span class="bold">Ressources</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_309">
+        <num>27.</num>
+        <content eId="para_309__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_310" class="MercuryDocument">
+        <content eId="para_310__content">
+          <p xml:space="preserve">Les États Membres sont invités à organiser, dans un cadre bilatéral, multilatéral, régional et international, des activités de coopération spatiale diverses – renforcement des capacités, échange d’informations, partage d’infrastructures ou élaboration de projets communs – et, selon qu’il convient, à intégrer les activités de coopération spatiale, de coopération économique et de coopération au service du développement, afin de promouvoir la réalisation du programme « Espace 2030 » et de son plan de mise en œuvre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_311">
+        <num>28.</num>
+        <content eId="para_311__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_312" class="MercuryDocument">
+        <content eId="para_312__content">
+          <p xml:space="preserve">Les États Membres et les autres donateurs sont invités à doter le Bureau des affaires spatiales de ressources extrabudgétaires pour que la mise en œuvre du programme « Espace 2030 » puisse progresser, conformément aux règles et procédures de l’ONU.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_313">
+        <num>29.</num>
+        <content eId="para_313__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_314" class="MercuryDocument">
+        <content eId="para_314__content">
+          <p xml:space="preserve">Le Secrétaire général est prié de faire en sorte que le Bureau des affaires spatiales soit doté de ressources suffisantes pour assurer le secrétariat du Comité des utilisations pacifiques de l’espace extra-atmosphérique et de ses sous-comités, et de s’assurer que le Bureau puisse effectivement exécuter pleinement son mandat, y compris les activités de renforcement des capacités des États Membres dans le domaine des sciences et techniques spatiales et de leurs applications, ainsi que du droit de l’espace et de la politique spatiale, compte tenu du programme « Espace 2030 » et de son plan de mise en œuvre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_315" class="H1">
+        <num>IV.</num>
+        <content eId="para_315__content">
+          <p xml:space="preserve">	<span class="bold">Examen des progrès accomplis</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_316" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_316__content">
+          <p xml:space="preserve">	Le Comité des utilisations pacifiques de l’espace extra-atmosphérique devrait inscrire à son ordre du jour, à chaque session, une question donnant lieu à un échange de vues entre ses États membres et ses observateurs permanents sur la façon dont chacun met en œuvre le programme « Espace 2030 ». En 2025, le Comité devrait organiser un examen à mi-parcours des progrès accomplis dans la mise en œuvre du programme « Espace 2030 ». En 2030, il devrait organiser un examen final de la mise en œuvre de ce programme et rendre compte des résultats à l’Assemblée générale.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="21e">21e séance plénière</inline>
+        <eol />
+        <docDate date="2021-10-25" refersTo="#adoptionDate">25 octobre 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
