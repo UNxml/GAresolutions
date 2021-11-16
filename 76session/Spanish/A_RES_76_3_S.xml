@@ -1,0 +1,866 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/"></FRBRuri>
+          <FRBRdate date="2021-10-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/spa@/"></FRBRuri>
+          <FRBRdate date="2021-10-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/spa@.xml"></FRBRuri>
+          <FRBRdate date="2021-11-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee on the Peaceful Uses of Outer Space" showAs="UN. Committee on the Peaceful Uses of Outer Space" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office for Outer Space Affairs" showAs="UN. Office for Outer Space Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="Space2030 Agenda" showAs="Space2030 Agenda" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPACE EXPLORATION" showAs="SPACE EXPLORATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="30" showAs="SPACE--SUSTAINABLE DEVELOPMENT" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-10-19" outcome="draftResolution" as="A/76/L.3" by="Austria, France, Hungary, Israel, Italy, Japan, Malta, Republic of Moldova, Romania and Slovakia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Angola, Australia, Azerbaijan, Bangladesh, Belgium, Bolivia (Plurinational State of), Bulgaria, Canada, Central African Republic, China, Cyprus, Czechia, Dominican Republic, Ecuador, Finland, Gambia, Germany, Greece, Guatemala, Guinea, Jordan, Malawi, Malaysia, Mexico, Montenegro, Morocco, Namibia, New Zealand, Nigeria, North Macedonia, Norway, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Republic of Korea, Russian Federation, Rwanda, Singapore, Slovenia, South Africa, Sri Lanka, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uzbekistan and Viet Nam" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-10-25" outcome="adopted" as="A/76/PV.21" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sin remisión previa a una Comisión Principal"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-15518 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-10-28" class="rightSmall" refersTo="#dateOfIssuance">28 de octubre de 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Septuagésimo sexto período de sesiones</session>
+      </p>
+      <p>
+        <inline name="agenda item">Tema 30 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">El espacio como motor del desarrollo sostenible</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 25 de octubre de 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sin remisión previa a una Comisión Principal (<inline name="originating document">A/76/L.3 y A/76/L.3/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	La Agenda “Espacio2030”: el espacio como motor del desarrollo sostenible</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución <a href="https://undocs.org/es/A/RES/73/6">73/6</a>, de 26 de octubre de 2018,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="italic">Aprueba</span> el siguiente documento:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="H1">
+        <heading>		La Agenda “Espacio2030”: el espacio como motor del desarrollo sostenible</heading>
+      </paragraph>
+      <paragraph eId="para_5" class="H23">
+        <subheading>		Parte A. Agenda</subheading>
+      </paragraph>
+      <paragraph eId="para_6" class="H23">
+        <num>I.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="bold">Introducción</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">Las Naciones Unidas han sido el eje central de la cooperación internacional en las actividades espaciales desde el comienzo de la era espacial. La Comisión sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos se estableció como resultado del reconocimiento por la Asamblea General, en su resolución <a href="https://undocs.org/es/A/RES/1348(XIII)">1348 (XIII)</a>, de 13 de diciembre de 1958, de la importancia de utilizar el espacio ultraterrestre con fines pacíficos y de la necesidad de promover la cooperación internacional en la realización de actividades espaciales. En su resolución <a href="https://undocs.org/es/A/RES/1472A(XIV)">1472 A (XIV)</a>, de 1959, la Asamblea instituyó la Comisión con carácter permanente.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">Debido a la singularidad de su mandato y de su posición en el centro de la cooperación internacional para la utilización del espacio ultraterrestre con fines pacíficos, y la gobernanza global de las actividades en el espacio ultraterrestre<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/A/AC.105/1137">A/AC.105/1137</a>.</p></authorialNote>, en consonancia con el derecho internacional, la Comisión desempeñó un papel fundamental en la organización de las tres primeras conferencias de las Naciones Unidas sobre la exploración y utilización del espacio ultraterrestre con fines pacíficos, celebradas en 1968, 1982 y 1999.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <content eId="para_12__content">
+          <p xml:space="preserve">Cincuenta años después de la Primera Conferencia de las Naciones Unidas sobre la Exploración y Utilización del Espacio Ultraterrestre con Fines Pacíficos (UNISPACE), los Estados Miembros de las Naciones Unidas y los representantes de la comunidad espacial internacional se reunieron en Viena, los días 20 y 21 de junio de 2018, para celebrar la serie de sesiones de alto nivel del 50º aniversario de la primera Conferencia de las Naciones Unidas sobre la Exploración y Utilización del Espacio Ultraterrestre con Fines Pacíficos (UNISPACE+50), con el fin de reflexionar sobre los logros de más de 50 años de exploración y utilización del espacio y reforzar la cooperación mundial en el espacio ultraterrestre y la utilización de este en pro del desarrollo sostenible.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13">
+        <num>4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <content eId="para_14__content">
+          <p xml:space="preserve">La Asamblea General, en su resolución <a href="https://undocs.org/es/A/RES/73/6">73/6</a>, de 26 de octubre de 2018, observó con aprecio que el proceso preparatorio y la serie de sesiones de alto nivel UNISPACE+50 habían producido documentos destinados a articular una visión amplia, inclusiva y de orientación estratégica sobre el fortalecimiento de la cooperación internacional en la exploración y utilización del espacio ultraterrestre con fines pacíficos, en la cual el espacio se consideraba un motor importante y un elemento decisivo en el logro de los Objetivos de Desarrollo Sostenible en beneficio de todos los países.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15">
+        <num>5.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <content eId="para_16__content">
+          <p xml:space="preserve">A ese respecto, la Asamblea General invitó a la Comisión a que, basándose en los resultados del proceso de UNISPACE+50, siguiera preparando una agenda “Espacio2030” y su plan de aplicación, y le presentara el resultado de su labor para examinarlo en su septuagésimo quinto período de sesiones, en 2020.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17">
+        <num>6.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <content eId="para_18__content">
+          <p xml:space="preserve">La Comisión presenta a la Asamblea General la Agenda “Espacio2030” y su plan de aplicación como estrategia orientada al futuro para reafirmar y fortalecer la contribución de las actividades espaciales y las herramientas espaciales al logro de las agendas mundiales<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		La Agenda 2030 para el Desarrollo Sostenible, el Marco de Sendái para la Reducción del Riesgo de Desastres 2015-2030 y el Acuerdo de París.</p></authorialNote>, y para abordar preocupaciones de la humanidad sobre el desarrollo sostenible a largo plazo. La Agenda “Espacio2030” y su plan de aplicación también contribuyen a definir la aportación futura de la Comisión al marco para la gobernanza global de las actividades en el espacio ultraterrestre, en consonancia con el derecho internacional.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="H23">
+        <num>II.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">Visión estratégica</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>7.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <content eId="para_21__content">
+          <p xml:space="preserve">Nosotros, los Estados Miembros de las Naciones Unidas, reconocemos que la exploración y la utilización del espacio ultraterrestre con fines pacíficos han enriquecido nuestros conocimientos colectivos y han revolucionado la vida en la Tierra. La ciencia y la tecnología espaciales son actualmente parte esencial de nuestra vida cotidiana y aportan a nuestro planeta un sinfín de beneficios fundamentales y singulares. A medida que la comunidad espacial va avanzando en sus actividades de exploración del espacio, este continuará siendo una fuente de inspiración e innovación y seguirá proporcionando aplicaciones en beneficio de la humanidad.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>8.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <content eId="para_23__content">
+          <p xml:space="preserve">Ponemos de relieve que los instrumentos espaciales son muy pertinentes para el cumplimiento de las agendas mundiales de desarrollo, en particular la Agenda 2030 para el Desarrollo Sostenible y sus objetivos y metas, ya sea directamente, como facilitadores e impulsores del desarrollo sostenible, o indirectamente, proporcionando datos esenciales para los indicadores empleados en el seguimiento de los progresos realizados en la aplicación de la Agenda 2030 y el Marco de Sendái para la Reducción del Riesgo de Desastres 2015-2030 y los compromisos contraídos por los Estados partes en el Acuerdo de París. El logro de estas agendas mundiales requiere un mejor acceso a los datos y las aplicaciones basados en el espacio y a las infraestructuras espaciales, teniendo en cuenta las necesidades particulares de los países en desarrollo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>9.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <content eId="para_25__content">
+          <p xml:space="preserve">Reconocemos el distinguido historial de la Comisión sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos y de su Subcomisión de Asuntos Jurídicos y su Subcomisión de Asuntos Científicos y Técnicos en la creación y el posterior desarrollo del régimen jurídico internacional por el que se rigen las actividades en el espacio ultraterrestre. En el marco de ese régimen están floreciendo las actividades en el espacio ultraterrestre realizadas por Estados, organizaciones intergubernamentales internacionales y entidades no gubernamentales y, como resultado de ello, la ciencia y la tecnología espaciales y sus aplicaciones están contribuyendo inmensurablemente al crecimiento económico y a mejorar la calidad de vida en todo el mundo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>10.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <content eId="para_27__content">
+          <p xml:space="preserve">Reafirmamos el papel singular de la Comisión y sus subcomisiones, con el apoyo de la Oficina de Asuntos del Espacio Ultraterrestre, como plataformas excepcionales para la cooperación internacional en la exploración y utilización del espacio ultraterrestre con fines pacíficos; la gobernanza global de las actividades en el espacio ultraterrestre, en consonancia con el derecho internacional; el desarrollo del derecho internacional del espacio; el fomento del diálogo entre los países con capacidad espacial y aquellos que comienzan a adquirirla, y la promoción de una mayor participación de todos los países en las actividades espaciales, en particular mediante iniciativas de creación de capacidad.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28">
+        <num>11.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <content eId="para_29__content">
+          <p xml:space="preserve">Recalcamos la importancia del Tratado sobre el Espacio Ultraterrestre como piedra angular del régimen jurídico internacional que rige las actividades en el espacio ultraterrestre. Contiene los principios fundamentales del derecho internacional del espacio y seguirá siendo un marco indispensable para la realización de las actividades en el espacio ultraterrestre. Se deberían promover la universalización y la aplicación efectiva del Tratado sobre el Espacio Ultraterrestre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30">
+        <num>12.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <content eId="para_31__content">
+          <p xml:space="preserve">Alentamos a la Comisión a que siga coordinando la labor orientada a reforzar la aplicación de los tratados y principios de las Naciones Unidas relativos al espacio ultraterrestre y a que complemente también el actual derecho internacional del espacio, cuando proceda, para hacer frente a las cuestiones que vayan surgiendo. La Comisión y sus subcomisiones deberían seguir demostrando su pertinencia y abordar los retos y las oportunidades actuales y emergentes, como la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32">
+        <num>13.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <content eId="para_33__content">
+          <p xml:space="preserve">Nos comprometemos a afrontar los cambios en la realización de las actividades en el espacio ultraterrestre en un momento que se caracteriza por la aparición de nuevas tecnologías y por la participación de un número cada vez mayor de representantes de entidades tanto gubernamentales como no gubernamentales, en particular de la industria y el sector privado, en proyectos orientados a explorar y utilizar el espacio y realizar actividades espaciales. En ese sentido, nos comprometemos a velar por que la Comisión y sus subcomisiones, con el apoyo de la Oficina de Asuntos del Espacio Ultraterrestre, sigan respondiendo, según proceda, a esos cambios, en su función de plataformas únicas para la cooperación internacional en la utilización del espacio ultraterrestre con fines pacíficos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>14.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <content eId="para_35__content">
+          <p xml:space="preserve">Nos comprometemos a fortalecer la cooperación internacional, para la que la Comisión sigue siendo una plataforma única en lo relativo a la exploración y la utilización del espacio ultraterrestre con fines pacíficos y la gobernanza global de las actividades en el espacio ultraterrestre, de conformidad con el derecho internacional, teniendo en cuenta las necesidades particulares de los países en desarrollo. También reconocemos el interés común de toda la humanidad en el progreso de la exploración y utilización del espacio ultraterrestre con fines pacíficos y tomamos nota de las resoluciones de la Asamblea General <a href="https://undocs.org/es/A/RES/51/122">51/122</a>, de 13 de diciembre de 1996, y <a href="https://undocs.org/es/A/RES/73/6">73/6</a>, de 26 de octubre de 2018, así como de la contribución que la aplicación de estas aportará a la Agenda “Espacio2030”.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36">
+        <num>15.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <content eId="para_37__content">
+          <p xml:space="preserve">Nos proponemos promover la igualdad de oportunidades en el sector espacial alentando, en particular, a las personas jóvenes y a las mujeres a que contemplen desarrollar una carrera profesional en la ciencia, la tecnología, la ingeniería y las matemáticas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38">
+        <num>16.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <content eId="para_39__content">
+          <p xml:space="preserve">Nos proponemos además aprovechar en mayor medida las tecnologías nuevas e innovadoras, como las tecnologías espaciales y sus aplicaciones, para contribuir a mejorar la ejecución de los mandatos de las Naciones Unidas en su conjunto.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40">
+        <num>17.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <content eId="para_41__content">
+          <p xml:space="preserve">Ponemos de relieve que las siete prioridades temáticas definidas por la Comisión en el contexto de UNISPACE+50 constituyen un enfoque integral para abordar los principales ámbitos y sirven colectivamente para determinar los objetivos básicos de la labor futura de la Comisión, sus subcomisiones y la Oficina de Asuntos del Espacio Ultraterrestre en las esferas de la alianza mundial para la exploración y la innovación espaciales (prioridad temática 1), las perspectivas actuales y futuras del régimen jurídico del espacio ultraterrestre y la gobernanza global (prioridad temática 2), el mayor intercambio de información sobre objetos y eventos espaciales (prioridad temática 3), el marco internacional de los servicios relacionados con el clima espacial (prioridad temática 4), la intensificación de la cooperación espacial al servicio de la salud mundial (prioridad temática 5), la cooperación internacional para crear sociedades resilientes y de bajas emisiones (prioridad temática 6) y la creación de capacidad para el siglo XXI (prioridad temática 7)<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Resolución <a href="https://undocs.org/es/A/RES/73/6">73/6</a> de la Asamblea General, párrafo vigésimo cuarto del preámbulo.</p></authorialNote>.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42">
+        <num>18.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <content eId="para_43__content">
+          <p xml:space="preserve">Ponemos de relieve también que, en el cumplimiento de la Agenda “Espacio2030” y su plan de aplicación, revisten importancia el establecimiento de alianzas mundiales y el fortalecimiento de la cooperación entre los Estados Miembros, las entidades de las Naciones Unidas, las organizaciones intergubernamentales y no gubernamentales, la industria y las entidades del sector privado, a fin de garantizar que, mediante una labor conjunta y aprovechando la experiencia práctica y las contribuciones de los distintos interesados, los beneficios del espacio queden al alcance de todas las personas en cualquier parte del mundo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="H23">
+        <num>III.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold">Objetivos</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45">
+        <num>19.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <content eId="para_46__content">
+          <p xml:space="preserve">Nosotros, los Estados Miembros de las Naciones Unidas, nos comprometemos a perseguir los siguientes objetivos conforme a la visión estratégica arriba expuesta. Los Estados Miembros podrían adoptar las medidas descritas en cada uno de los objetivos generales a fin de alcanzar esos objetivos. Los cuatro objetivos generales se estructuran en torno a los cuatro pilares de la economía espacial, la sociedad espacial, la accesibilidad espacial y la diplomacia espacial. Esos cuatro pilares son complementarios y se refuerzan mutuamente.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="H23">
+        <subheading>		Objetivo general 1: Aumentar los beneficios económicos derivados del espacio y reforzar el papel del sector espacial como motor importante del desarrollo sostenible</subheading>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>1.1</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">.	Sensibilizar sobre la importancia de la ciencia y la tecnología espaciales y sus aplicaciones para el logro de los Objetivos de Desarrollo Sostenible.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>1.2</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">.	Facilitar y promover la integración del sector espacial con otros sectores, como los de la energía, la salud pública, el medio ambiente, el cambio climático, la gestión de los recursos y la tecnología de la información y las comunicaciones, así como el establecimiento de alianzas de múltiples interesados que conduzcan a soluciones innovadoras basadas en la tecnología espacial en pro del desarrollo social y económico y que puedan integrarse en mecanismos para cumplir los Objetivos de Desarrollo Sostenible.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>1.3</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">.	Atender a las cuestiones derivadas de las actividades comerciales en el espacio ultraterrestre, entre otras cosas, con miras a mejorar el apoyo que las actividades espaciales brindan al cumplimiento de las agendas mundiales de desarrollo y a asegurar la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>1.4</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">.	Promover el desarrollo de la industria espacial, con particular atención a las pequeñas y medianas empresas, con miras a aumentar la inversión en el sector espacial y crear puestos de trabajo de alta calidad, y promover los beneficios derivados de las tecnologías espaciales para los ámbitos ajenos al sector espacial.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>1.5</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">.	Posibilitar las actividades espaciales para todos, de conformidad con el derecho internacional, promoviendo un marco internacional que facilite la igualdad de acceso al espacio para todos, incluidos los países sin capacidad espacial, y fomente la seguridad y la innovación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>1.6</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">.	Promover la utilización de soluciones basadas en el espacio en las iniciativas mundiales encaminadas a lograr economías sostenibles de los bosques y los océanos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>1.7</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">.	Fortalecer la contribución de las tecnologías espaciales y sus aplicaciones a la ordenación sostenible de la pesca, la agricultura, la seguridad e inocuidad de los alimentos y la nutrición.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>1.8</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">.	Promover y facilitar la colaboración y las alianzas entre los sectores público y privado, las instituciones académicas y los centros de investigación y desarrollo en la esfera de la utilización del espacio para alcanzar los Objetivos de Desarrollo Sostenible, así como en la esfera de la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="H23">
+        <subheading>		Objetivo general 2: Utilizar el potencial del espacio para resolver los problemas cotidianos y aprovechar las innovaciones relacionadas con el espacio para mejorar la calidad de vida</subheading>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>2.1</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">.	Apoyar la ciencia y la investigación espaciales, ya que el espacio ultraterrestre brinda una perspectiva única a los científicos para observar y estudiar la Tierra y el universo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>2.2</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">.	Promover la utilización de las tecnologías espaciales y sus aplicaciones para mejorar los conocimientos científicos sobre el medio natural, incluidos los océanos y los mares, las regiones montañosas, los ciclos del agua y los recursos hídricos, la silvicultura, la biodiversidad, la desertificación y la degradación de las tierras, así como la urbanización, con miras a contribuir a la conservación del entorno natural, a la gestión sostenible de los recursos y a la protección de los ecosistemas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>2.3</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">.	Potenciar la utilización de aplicaciones espaciales integradas para facilitar la observación del clima y la evaluación de los riesgos de desastre, mejorar los sistemas de alerta temprana para casos de desastre y proporcionar datos para los indicadores utilizados en el seguimiento de los progresos en la implementación de la Agenda 2030 para el Desarrollo Sostenible, el Marco de Sendái y los compromisos de los Estados partes en el Acuerdo de París.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>2.4</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">.	Impulsar la función de las tecnologías espaciales para resaltar, analizar y encarar el cambio climático y facilitar la transición a sociedades con bajas emisiones, y promover la colaboración internacional a ese respecto, de conformidad con los mecanismos y organizaciones internacionales existentes y reconocidos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>2.5</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">.	Promover la utilización de tecnologías espaciales en todas las fases del ciclo de la gestión de desastres, tanto naturales como antropogénicos, a saber, la prevención, la mitigación, la preparación, la respuesta, la recuperación, la reconstrucción y la rehabilitación; vigilar y evaluar elementos como la exposición, los peligros, el riesgo de desastres y los daños en diferentes regiones del mundo; y promover la compartición de datos de seguimiento de desastres.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>2.6</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">.	Fortalecer la cooperación relacionada con el espacio en apoyo de la salud mundial; mejorar la utilización y aplicación de la medicina, la ciencia y la tecnología espaciales, las innovaciones en el ámbito de la salud mundial, la cooperación y la compartición de información e instrumentos para mejorar la rapidez y eficacia de las intervenciones de salud pública y atención de la salud; y mejorar la creación de capacidad en la medicina, la ciencia y la tecnología espaciales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>2.7</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">.	Intensificar el uso de las tecnologías espaciales y sus aplicaciones para contribuir al desarrollo de asentamientos humanos y de infraestructuras sostenibles desde el punto de vista social y ambiental, tanto urbanos como rurales; mejorar los medios de subsistencia; estudiar las pautas de urbanización y migración; y vigilar los sitios que pertenecen al patrimonio cultural y contribuir a su preservación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>2.8</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">.	Promover políticas de datos abiertos sobre el espacio y la divulgación de datos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="H23">
+        <subheading>		Objetivo general 3: Aumentar el acceso al espacio para todos y garantizar que todos los países puedan beneficiarse socioeconómicamente de las aplicaciones de la ciencia y la tecnología espaciales, y de los datos, la información y los productos basados en el espacio, contribuyendo con ello al logro de los Objetivos de Desarrollo Sostenible</subheading>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>3.1</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">.	Aprovechar el potencial del espacio para inspirar a la juventud, aumentar la participación de las personas jóvenes en el sector espacial, apoyar las iniciativas nacionales e internacionales que despiertan el interés de las personas jóvenes por las actividades espaciales, desde la escuela primaria en adelante, y fortalecer su relación con las asignaturas de ciencia, tecnología, ingeniería y matemáticas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>3.2</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">.	Promover la exploración espacial como motor a largo plazo de la innovación y fortalecer la cooperación internacional a ese respecto.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>3.3</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">.	Promover la exploración más allá de la órbita terrestre baja, ya que las contribuciones científicas, tecnológicas, económicas e inspiradoras de esas misiones beneficiarán a la humanidad.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="SingleTxt">
+        <num>3.4</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve">.	Intensificar la creación de capacidad, la educación y la formación en ciencias y aplicaciones espaciales, en particular para los países en desarrollo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>3.5</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">.	Profundizar en el conocimiento del espacio ultraterrestre, en particular mediante un mejor acceso a los datos astronómicos y otros datos científicos espaciales, en beneficio de la humanidad.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxt">
+        <num>3.6</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">.	Promover y apoyar la utilización de las tecnologías espaciales para mejorar el acceso a los datos y las tecnologías de banda ancha en todo el mundo, prestando especial atención a los países en desarrollo y a las zonas con infraestructuras menos desarrolladas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxt">
+        <num>3.7</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">.	Fomentar la inclusividad y la igualdad de género en las actividades espaciales, entre otras cosas reforzando la participación de las mujeres en la educación en las esferas de la ciencia, la tecnología, la ingeniería y las matemáticas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>3.8</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">.	Sensibilizar sobre los riesgos de los fenómenos meteorológicos espaciales adversos y mitigar esos riesgos, a fin de asegurar una mayor resiliencia mundial frente a los efectos del clima espacial, y mejorar la coordinación internacional de las actividades relacionadas con el clima espacial, como la divulgación, la comunicación y el fomento de la capacidad, así como el establecimiento de un mecanismo internacional con el que promover una mayor coordinación de alto nivel con relación al clima espacial y una mayor resiliencia mundial frente a los efectos de este.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>3.9</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">.	Reforzar la cooperación internacional y la preparación para responder a la amenaza que representan los objetos cercanos a la Tierra.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="SingleTxt">
+        <num>3.10</num>
+        <content eId="para_153__content">
+          <p xml:space="preserve">.	Alentar encarecidamente a los Estados a que intensifiquen la cooperación internacional, multilateral y bilateral en la exploración y utilización del espacio ultraterrestre con fines pacíficos, incluso abordando los desafíos y obstáculos, en particular los que socavan dicha cooperación y, a ese respecto, instar a los Estados a que den respuesta eficaz a esos desafíos y obstáculos que entorpecen la aplicación de la Agenda “Espacio2030”.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="H23">
+        <subheading>		Objetivo general 4: Establecer alianzas y fortalecer la cooperación internacional para la utilización del espacio ultraterrestre con fines pacíficos y para la gobernanza global de las actividades en el espacio ultraterrestre</subheading>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>4.1</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">.	Fortalecer el papel y las actividades de la Comisión sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos y sus subcomisiones, con el apoyo de la Oficina de Asuntos del Espacio Ultraterrestre, como plataforma única para la cooperación internacional en la exploración y utilización del espacio ultraterrestre con fines pacíficos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="SingleTxt">
+        <num>4.2</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">.	Promover la aplicación por los Estados partes de los tratados de las Naciones Unidas relativos al espacio ultraterrestre, así como la aplicación de los principios y las resoluciones de la Asamblea General conexos, y alentar a la Comisión y a sus órganos subsidiarios, con el apoyo de la Oficina de Asuntos del Espacio Ultraterrestre, a que continúen coordinando sus esfuerzos a ese respecto y complementen y desarrollen el derecho internacional del espacio ultraterrestre, según proceda, para responder a las cuestiones que vayan surgiendo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>4.3</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">.	Fortalecer la creación de capacidad y la asistencia técnica a los Estados Miembros, incluida la que presta la Oficina de Asuntos del Espacio Ultraterrestre, en particular en la esfera del derecho y la política internacionales del espacio.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="SingleTxt">
+        <num>4.4</num>
+        <content eId="para_161__content">
+          <p xml:space="preserve">.	Mejorar las prácticas de registro existentes y el intercambio de información, y reconocer la función que desempeña la Oficina de Asuntos del Espacio Ultraterrestre en el mantenimiento del Registro de las Naciones Unidas de Objetos Lanzados al Espacio Ultraterrestre para aumentar la transparencia e incrementar la eficiencia del mecanismo de registro y la puntualidad y coherencia del registro de los objetos, en particular mediante la prestación de asistencia técnica a los Estados Miembros a ese respecto.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="SingleTxt">
+        <num>4.5</num>
+        <content eId="para_165__content">
+          <p xml:space="preserve">.	Garantizar la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre y la preservación del medio espacial para usos pacíficos, por medios como la aplicación voluntaria de las directrices aprobadas relativas a la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre y su preámbulo, y mediante el intercambio de experiencias al respecto, y hacer frente a los nuevos desafíos, riesgos y amenazas que afectan a la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_170" class="SingleTxt">
+        <num>4.6</num>
+        <content eId="para_170__content">
+          <p xml:space="preserve">.	Acrecentar la seguridad de las operaciones en el espacio ultraterrestre, a fin de contribuir a la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxt">
+        <num>4.7</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve">.	Promover la cooperación internacional y el intercambio de información y mejores prácticas, en el marco de la Comisión, sobre la vigilancia de las actividades espaciales de las entidades no gubernamentales, en consonancia con el derecho internacional, con miras a aumentar la seguridad y la sostenibilidad a largo plazo de las actividades en el espacio ultraterrestre, facilitando al mismo tiempo el desarrollo de la industria espacial.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxt">
+        <num>4.8</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">.	Mejorar, en el marco de la Comisión, el intercambio de información sobre objetos y eventos espaciales, así como el debate sobre la predicción y prevención de posibles colisiones.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_191" class="SingleTxt">
+        <num>4.9</num>
+        <content eId="para_191__content">
+          <p xml:space="preserve">.	Fortalecer la coordinación y la relación entre la Comisión sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos y sus subcomisiones, con la asistencia de la Oficina de Asuntos del Espacio Ultraterrestre en su calidad de secretaría.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="SingleTxt">
+        <num>4.10</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">.	Alentar a que aumente la cooperación entre las entidades de las Naciones Unidas que se ocupan del espacio, en consonancia con los esfuerzos de todo el sistema de las Naciones Unidas para aumentar la coherencia y la acción coordinada, respecto de cuestiones interdisciplinarias e intersectoriales relacionadas con el espacio, a fin de promover la cooperación internacional en la exploración y utilización del espacio ultraterrestre con fines pacíficos y en la utilización de la ciencia y la tecnología espaciales para el desarrollo sostenible.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_201" class="H23">
+        <subheading>		Parte B. Plan de aplicación</subheading>
+      </paragraph>
+      <paragraph eId="para_202">
+        <num>20.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_203" class="SingleTxt">
+        <content eId="para_203__content">
+          <p xml:space="preserve">Cada Estado Miembro aplicará la Agenda “Espacio2030” de manera voluntaria.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204" class="H23">
+        <num>I.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve">	<span class="bold">Alianzas</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205">
+        <num>21.</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="SingleTxt">
+        <content eId="para_206__content">
+          <p xml:space="preserve">Para dar cumplimiento a la Agenda “Espacio2030” y su plan de aplicación es importante que se refuercen las alianzas y la cooperación entre los Estados Miembros, las entidades de las Naciones Unidas, las organizaciones intergubernamentales y no gubernamentales, la industria y las entidades del sector privado.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207">
+        <num>22.</num>
+        <content eId="para_207__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxt">
+        <content eId="para_208__content">
+          <p xml:space="preserve">La Oficina de Asuntos del Espacio Ultraterrestre sirve como instrumento para promover y facilitar la utilización de soluciones basadas en la tecnología espacial, incluso en la aplicación de la Agenda “Espacio2030” y, en el marco de su mandato, de sus funciones y de sus recursos existentes, debería seguir forjando alianzas, entre otros, con instituciones de investigación, el mundo académico, la industria y el sector privado para ofrecer mayores oportunidades de acceso al espacio con fines científicos, de innovación, de investigación y desarrollo, de educación y de creación de capacidad. A ese respecto, la Oficina debería realizar actividades para promover la utilización de aplicaciones y tecnologías basadas en el espacio a fin de ayudar a los Estados Miembros a alcanzar los objetivos de las agendas mundiales de desarrollo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209">
+        <num>23.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="SingleTxt">
+        <content eId="para_210__content">
+          <p xml:space="preserve">Con miras a aplicar la Agenda “Espacio2030”, la Comisión sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos y la Oficina de Asuntos del Espacio Ultraterrestre deberían seguir cumpliendo sus respectivos mandatos y cooperando y coordinándose con otras entidades pertinentes del sistema de las Naciones Unidas, en particular por conducto de la Reunión Interinstitucional sobre las Actividades relativas al Espacio Ultraterrestre (ONU-Espacio).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="H23">
+        <num>II.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="bold">Instrumentos</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212">
+        <num>24.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <content eId="para_213__content">
+          <p xml:space="preserve">Los Estados Miembros, al aplicar la Agenda “Espacio2030”, podrían contribuir a una serie de mecanismos, programas, proyectos y plataformas internacionales y regionales ya establecidos o en proceso de creación, como los que se enumeran a continuación, y beneficiarse de todos ellos:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>a)</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	Las siete prioridades temáticas en el contexto de UNISPACE+50, incluidas en los programas y en la labor de la Comisión, sus subcomisiones y la Oficina de Asuntos del Espacio Ultraterrestre, en las esferas de una alianza mundial para la exploración y la innovación espaciales, las perspectivas actuales y futuras del régimen jurídico del espacio ultraterrestre y la gobernanza global del espacio, el mayor intercambio de información sobre objetos y eventos espaciales, el marco internacional de los servicios relacionados con el clima espacial, la intensificación de la cooperación espacial al servicio de la salud mundial, la cooperación internacional para crear sociedades resilientes y de bajas emisiones, y la creación de capacidad para el siglo XXI<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Entre los documentos conexos figuran <a href="https://undocs.org/es/A/AC.105/1168">A/AC.105/1168</a>, <a href="https://undocs.org/es/A/AC.105/1169">A/AC.105/1169</a>, <a href="https://undocs.org/es/A/AC.105/1170">A/AC.105/1170</a>, <a href="https://undocs.org/es/A/AC.105/1171">A/AC.105/1171</a>, <a href="https://undocs.org/es/A/AC.105/1172">A/AC.105/1172</a>, <a href="https://undocs.org/es/A/AC.105/1173">A/AC.105/1173</a> y <a href="https://undocs.org/es/A/AC.105/1174">A/AC.105/1174</a>; véase también el párr. 17, más arriba.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>b)</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	La Plataforma de las Naciones Unidas de Información Obtenida desde el Espacio para la Gestión de Desastres y la Respuesta de Emergencia (ONU-SPIDER)<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/61/110">61/110</a> de la Asamblea General.</p></authorialNote>, un programa de la Oficina de Asuntos del Espacio Ultraterrestre que proporciona a los Estados Miembros acceso a datos y servicios basados en la tecnología espacial para la reducción del riesgo de desastres y la respuesta de emergencia y que, por conducto del portal de conocimientos de ONU-SPIDER, permite el acceso a recursos basados en el espacio en todas las fases del ciclo de gestión de desastres;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxt">
+        <num>c)</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	Los centros regionales de formación en ciencia y tecnología espaciales, afiliados a las Naciones Unidas<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/73/91">73/91</a> de la Asamblea General, párr. 24.</p></authorialNote> —comprendida la alianza de los centros regionales—, que se han diseñado para fortalecer la creación de capacidad, la educación y la capacitación en ciencias y aplicaciones espaciales, así como el derecho y las políticas del espacio, en particular para los países en desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <num>d)</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	La Carta sobre Cooperación para el Logro del Uso Coordinado de Instalaciones Espaciales en Desastres Naturales o Tecnológicos (también llamada Carta Internacional sobre el Espacio y los Grandes Desastres), una colaboración mundial entre organismos espaciales y operadores de sistemas espaciales mediante la cual se ofrecen información y productos obtenidos por satélite para apoyar la labor de respuesta en casos de desastre;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_224" class="SingleTxt">
+        <num>e)</num>
+        <content eId="para_224__content">
+          <p xml:space="preserve">	El Observatorio para la Recuperación del Comité de Satélites de Observación de la Tierra, que tiene por objeto aumentar la contribución de los datos satelitales a la recuperación después de desastres naturales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="SingleTxt">
+        <num>f)</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	El Observatorio del Clima Espacial, de alcance internacional, cuyo objetivo principal es estudiar y vigilar los efectos del cambio climático, especialmente a escala local, utilizando instrumentos satelitales de observación de la Tierra en combinación con datos obtenidos sobre el terreno y modelos, proporcionando de ese modo un instrumento para la adopción de decisiones sobre la preparación, la adaptación y la resiliencia en relación con el cambio climático y sus efectos, en particular en el plano local;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="SingleTxt">
+        <num>g)</num>
+        <content eId="para_235__content">
+          <p xml:space="preserve">	El Sistema Integrado de Observación Mundial de la Organización Meteorológica Mundial, que proporciona datos de observación útiles para análisis, pronósticos, avisos y alertas meteorológicos, así como para la vigilancia del clima y para actividades ambientales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_242" class="SingleTxt">
+        <num>h)</num>
+        <content eId="para_242__content">
+          <p xml:space="preserve">	El Comité Internacional sobre los Sistemas Mundiales de Navegación por Satélite<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/59/2">59/2</a> de la Asamblea General, párr. 11.</p></authorialNote>, que promueve la cooperación voluntaria en cuestiones de interés mutuo relacionadas con los servicios civiles de determinación de la posición, navegación y cronometría por satélite, así como otros servicios de valor añadido, y alienta y facilita la compatibilidad, la interoperabilidad y la transparencia entre todos los sistemas de navegación por satélite;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>i)</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	La Red Internacional de Alerta de Asteroides (IAWN) y el Grupo Asesor para la Planificación de Misiones Espaciales (SMPAG)<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/70/82">70/82</a> de la Asamblea General, párr. 9.</p></authorialNote>, que se han concebido para aumentar la preparación ante la amenaza de posibles impactos de objetos cercanos a la Tierra mediante la cooperación internacional y el intercambio de información.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259">
+        <num>25.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_260" class="SingleTxt">
+        <content eId="para_260__content">
+          <p xml:space="preserve">Además, la Oficina de Asuntos del Espacio Ultraterrestre ha elaborado y está elaborando varios instrumentos e iniciativas como parte de su labor de creación de capacidad para el siglo XXI, en cooperación con sus asociados. Algunos de esos instrumentos e iniciativas son:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="SingleTxt">
+        <num>a)</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	La iniciativa Acceso al Espacio para Todos<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/A/72/20">A/72/20</a>, párr. 326.</p></authorialNote>, que tiene por objeto ampliar el acceso al espacio para apoyar la consecución de los Objetivos de Desarrollo Sostenible mediante la cooperación triangular entre los países con capacidad espacial, las Naciones Unidas y los países con capacidad espacial incipiente o sin capacidad espacial, con la participación del sector privado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_262" class="SingleTxt">
+        <num>b)</num>
+        <content eId="para_262__content">
+          <p xml:space="preserve">	La iniciativa Universo Abierto, que tiene el fin de mejorar el acceso a datos de astronomía y de ciencia espacial<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/A/AC.105/1175">A/AC.105/1175</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_264" class="SingleTxt">
+        <num>c)</num>
+        <content eId="para_264__content">
+          <p xml:space="preserve">	El compendio de soluciones espaciales, una herramienta para apoyar a los Estados Miembros en su implementación de la Agenda 2030 para el Desarrollo Sostenible, y en el que se vinculan soluciones espaciales con los Objetivos de Desarrollo Sostenible y sus metas<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/A/AC.105/1174">A/AC.105/1174</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_267" class="SingleTxt">
+        <num>d)</num>
+        <content eId="para_267__content">
+          <p xml:space="preserve">	El proyecto El Espacio para las Mujeres, cuyo objetivo es ampliar las posibilidades de que las mujeres reciban formación relacionada con el espacio o emprendan una carrera profesional en ese campo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_271" class="SingleTxt">
+        <num>e)</num>
+        <content eId="para_271__content">
+          <p xml:space="preserve">	El proyecto Derecho del Espacio para Nuevos Agentes Espaciales, que forma parte de los servicios de fomento de la capacidad y asesoramiento que se prestan en respuesta a las necesidades y los requisitos de los encargados de la formulación de políticas y los legisladores de las autoridades gubernamentales y reguladoras de los países que se están incorporando al sector espacial por primera vez o que están iniciando nuevas fases de sus actividades espaciales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="SingleTxt">
+        <num>f)</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve">	El portal Space4Water, una plataforma para el intercambio interdisciplinario de conocimientos sobre tecnologías espaciales y temas relacionados con el agua;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_282" class="SingleTxt">
+        <num>g)</num>
+        <content eId="para_282__content">
+          <p xml:space="preserve">	El proyecto “El Espacio para la Juventud”, orientado a promover, en la esfera de las actividades y proyectos relacionados con el espacio, la iniciativa a nivel de todo el sistema de las Naciones Unidas “Juventud 2030: Estrategia de las Naciones Unidas para la Juventud”;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_289" class="SingleTxt">
+        <num>h)</num>
+        <content eId="para_289__content">
+          <p xml:space="preserve">	El proyecto “Soluciones Espaciales para el Pacífico”, destinado a ofrecer una serie de servicios programáticos a los Estados insulares del Pacífico para aumentar su capacidad de alcanzar los Objetivos de Desarrollo Sostenible, incluso en las esferas del cambio climático, la pesca ilegal, las telecomunicaciones, la salud mundial y la reducción del riesgo de desastres;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxt">
+        <num>i)</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	Los Foros Espaciales Mundiales, dedicados al espacio como motor del desarrollo socioeconómico sostenible y destinados a reforzar las alianzas y el diálogo continuo entre la comunidad mundial sobre una amplia variedad de cuestiones espaciales, y a crear conciencia sobre la Agenda “Espacio2030” y apoyar su aplicación mediante la participación amplia de todos los agentes espaciales pertinentes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_306">
+        <num>26.</num>
+        <content eId="para_306__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_307" class="SingleTxt">
+        <content eId="para_307__content">
+          <p xml:space="preserve">Estas listas no son exhaustivas y podrían ponerse en marcha nuevas iniciativas, por ejemplo, con vistas a ayudar a los Estados Miembros a aplicar la Agenda “Espacio2030”.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_308" class="H23">
+        <num>III.</num>
+        <content eId="para_308__content">
+          <p xml:space="preserve">	<span class="bold">Recursos</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_309">
+        <num>27.</num>
+        <content eId="para_309__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_310" class="SingleTxt">
+        <content eId="para_310__content">
+          <p xml:space="preserve">Se invita a los Estados Miembros a que emprendan activamente y de diversas formas actividades de cooperación espacial de alcance bilateral, multilateral, regional, y de alcance internacional más amplio, en particular mediante la creación de capacidad, la compartición de información e infraestructura y la elaboración de proyectos conjuntos y, según proceda, a que integren la cooperación espacial en la cooperación económica y para el desarrollo a fin de dar cumplimiento a la Agenda “Espacio2030” y su plan de aplicación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_311">
+        <num>28.</num>
+        <content eId="para_311__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_312" class="SingleTxt">
+        <content eId="para_312__content">
+          <p xml:space="preserve">Se invita a los Estados Miembros y a otros donantes a que proporcionen recursos extrapresupuestarios voluntarios a la Oficina de Asuntos del Espacio Ultraterrestre para impulsar la aplicación de la Agenda “Espacio2030”, de conformidad con las normas y los procedimientos de las Naciones Unidas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_313">
+        <num>29.</num>
+        <content eId="para_313__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_314" class="SingleTxt">
+        <content eId="para_314__content">
+          <p xml:space="preserve">Se insta al Secretario General a que examine si la Oficina de Asuntos del Espacio Ultraterrestre cuenta con recursos suficientes para desempeñar su función de secretaría de la Comisión sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos y de sus subcomisiones, y se asegure de que la Oficina puede cumplir su mandato de forma plena y eficaz, incluidas las actividades de creación de capacidad para los Estados Miembros en la esfera de la ciencia y la tecnología espaciales y sus aplicaciones, así como en materia de legislación y política espaciales, teniendo en cuenta la Agenda “Espacio2030” y su plan de aplicación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_315" class="H23">
+        <num>IV.</num>
+        <content eId="para_315__content">
+          <p xml:space="preserve">	<span class="bold">Examen de los progresos</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_316">
+        <num>30.</num>
+        <content eId="para_316__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_317" class="SingleTxt">
+        <content eId="para_317__content">
+          <p xml:space="preserve">La Comisión sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos debería incluir en el programa de cada uno de sus períodos de sesiones un tema que permita a los Estados miembros de la Comisión y sus observadores permanentes compartir sus experiencias en relación con la aplicación de la Agenda “Espacio2030”. En 2025, la Comisión debería realizar un examen de mitad de período de los progresos realizados en la aplicación de la Agenda “Espacio2030”. En 2030, la Comisión debería realizar un examen final de la aplicación de la Agenda “Espacio2030” e informar a la Asamblea General sobre los resultados.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="21a">21a sesión plenaria</inline>
+        <eol />
+        <docDate date="2021-10-25" refersTo="#adoptionDate">25 de octubre de 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
