@@ -1,0 +1,715 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/"></FRBRuri>
+          <FRBRdate date="2021-10-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/zho@/"></FRBRuri>
+          <FRBRdate date="2021-10-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-10-25/76-3/zho@.xml"></FRBRuri>
+          <FRBRdate date="2021-11-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee on the Peaceful Uses of Outer Space" showAs="UN. Committee on the Peaceful Uses of Outer Space" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office for Outer Space Affairs" showAs="UN. Office for Outer Space Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="Space2030 Agenda" showAs="Space2030 Agenda" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPACE EXPLORATION" showAs="SPACE EXPLORATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="30" showAs="SPACE--SUSTAINABLE DEVELOPMENT" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-10-19" outcome="draftResolution" as="A/76/L.3" by="Austria, France, Hungary, Israel, Italy, Japan, Malta, Republic of Moldova, Romania and Slovakia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Angola, Australia, Azerbaijan, Bangladesh, Belgium, Bolivia (Plurinational State of), Bulgaria, Canada, Central African Republic, China, Cyprus, Czechia, Dominican Republic, Ecuador, Finland, Gambia, Germany, Greece, Guatemala, Guinea, Jordan, Malawi, Malaysia, Mexico, Montenegro, Morocco, Namibia, New Zealand, Nigeria, North Macedonia, Norway, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Republic of Korea, Russian Federation, Rwanda, Singapore, Slovenia, South Africa, Sri Lanka, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States, Uzbekistan and Viet Nam" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-10-25" outcome="adopted" as="A/76/PV.21" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="未经发交主要委员会而通过"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-10-28" class="rightSmall" refersTo="#dateOfIssuance">28 October 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">第七十六届会议</session>
+      </p>
+      <p>
+        <inline name="agenda item">议程项目30</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">空间作为可持续发展的驱动因素</inline>
+      </p>
+      <p>
+        <docTitle>2021年10月25日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[未经发交主要委员会而通过 (<inline name="originating document">A/76/L.3和A/76/L.3/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">“空间2030”议程：空间作为可持续发展的驱动因素</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve"> <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+          <p xml:space="preserve">	<span class="bold">回顾</span>其2018年10月26日第<a href="https://undocs.org/ch/A/RES/73/6">73/6</a>号决议，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="bold">通过</span>以下文件：</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="MercuryDocument">
+        <content eId="para_6__content">
+          <p xml:space="preserve"> “空间2030”议程：空间作为可持续发展的驱动因素</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="H23">
+        <subheading>			A部分. 议程</subheading>
+      </paragraph>
+      <paragraph eId="para_8" class="H23">
+        <num>一.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	导言</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	自空间时代开始以来，联合国一直处于空间活动国际合作的中心地位。和平利用外层空间委员会之所以能够成立，是由于大会1958年12月13日第<a href="https://undocs.org/ch/A/RES/1348(XIII)">1348 (XIII)</a>号决议确认了外层空间用于和平目的的重要性以及在开展空间活动方面促进国际合作的必要性；大会在其1959年第<a href="https://undocs.org/ch/A/RES/1472(XIV)">1472 A (XIV)</a>号决议中永久设立了外空委。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	外空委凭借其独特的任务授权以及在和平利用外层空间国际合作方面和依据国际法对外层空间活动进行全球治理方面<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		见<a href="https://undocs.org/ch/A/AC.105/1137">A/AC.105/1137</a>。</p></authorialNote> 的中心地位，在组织1968年、1982年和1999年举行的头三次联合国探索及和平利用外层空间会议方面发挥了关键作用。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	在第一次联合国探索及和平利用外层空间会议50年后，联合国会员国和国际空间界代表于2018年6月20日和21日齐聚维也纳，参加第一次联合国探索及和平利用外层空间会议五十周年(外空会议+50)活动高级别会议，回顾50多年来在空间探索和利用方面取得的成就，加强外层空间领域的全球合作和外层空间利用以促进可持续发展。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	大会2018年10月26日第<a href="https://undocs.org/ch/A/RES/73/6">73/6</a>号决议赞赏地注意到，“外空会议+50”筹备进程和高级别会议达成多份文件，这些文件旨在阐述一项关于加强探索及和平利用外层空间国际合作的综合、包容和具有战略导向的愿景，在这一愿景中，空间被视为一个重要驱动因素和推动力量，有助于实现各项可持续发展目标，造福所有国家。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	在这方面，大会邀请外空委在“外空会议+50”进程成果的基础上，继续拟订“空间2030”议程和实施计划，并向大会提交其工作成果，供大会2020年第七十五届会议审议。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	外空委向大会提交“空间2030”议程和实施计划，以此作为一项前瞻性战略，用以重申和加强空间活动和空间工具对实现各项全球议程<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		《2030年可持续发展议程》、《2015-2030年仙台减少灾害风险框架》和《巴黎协定》。</p></authorialNote> 的贡献，解决对人类长期可持续发展的关切。此议程和实施计划还有助于规划外空委今后对依据国际法对外层空间活动进行全球治理框架的贡献。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="H23">
+        <num>二.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	战略愿景</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	我们，联合国会员国，认识到探索及和平利用外层空间丰富了我们的集体知识，并彻底改变了地球上的生活。空间科学和技术如今已经成为我们日常生活的固有内容，并给地球带来了大量独特和至关重要的惠益。随着空间界空间探索事业的推进，空间将继续成为灵感和创新的源泉，并将继续提供可用以造福人类的各种应用。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	我们强调，空间工具对于实现全球发展议程，特别是对于实现《2030年可持续发展议程》及其目标和具体目标具有重大关系，既可直接作为可持续发展的推动力量和驱动因素发挥作用，也可作为间接辅助手段，为实现《2030年议程》和《2015-2030年仙台减少灾害风险框架》及《巴黎协定》缔约国所作承诺的进度监测指标提供必要数据。实现这些全球议程需要改善获取天基数据和应用以及空间基础设施的机会，同时考虑到发展中国家的特殊需要。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	我们赞赏和平利用外层空间委员会及其法律小组委员会与科学和技术小组委员会在建立和进一步发展治理外空活动的国际法律制度方面取得了非凡的成绩。在这一制度下，各个国家、国际政府间组织和非政府实体开展的外层空间活动蓬勃发展，空间科学和技术及其应用也由此对世界各地的经济增长和生活质量改善作出了难以估量的贡献。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	我们重申外空委及其小组委员会在外层空间事务厅支助下发挥着独特作用，成为不可多得的平台，有助于在为和平目的探索及利用外层空间方面开展国际合作，促进依据国际法对外层空间活动进行全球治理，制定国际空间法，增进航天国和新兴航天国之间的对话，并促进所有国家更多地参与空间活动，包括为此开展能力建设举措。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	我们强调《外层空间条约》作为治理外层空间活动国际法律制度的基石具有重要意义。该《条约》载有国际空间法的基本原则，并将继续为开展外层空间活动提供一个不可或缺的框架。应当促进普遍加入和有效执行《外层空间条约》。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	我们鼓励外空委继续协调各方努力以加强执行联合国各项外层空间条约和原则，并酌情对现行国际空间法加以补充以应对新出现的问题。外空委及其小组委员会应继续展示其重要性，应对当前和新出现的挑战和机遇，例如外层空间活动的长期可持续性。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	在此新技术涌现，并有越来越多代表政府机构和业界及私营部门等非政府实体的参与方参与到探索和利用空间以及开展空间活动的事业当中之际，我们承诺应对在开展外层空间活动方面的变化。在这方面，我们承诺确保外空委及其小组委员会在外层空间事务厅的支持下，继续酌情应对这些变化，发挥它们作为在和平利用外层空间方面开展国际合作的独特平台的作用。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	我们承诺加强国际合作，为此，外空委继续在探索及和平利用外层空间以及依据国际法对外层空间活动进行全球治理方面提供独特的平台，同时考虑到发展中国家的特殊需要。我们还确认，在为和平目的探索和利用外层空间方面取得进展符合全人类的共同利益，并注意到大会1996年12月13日第<a href="https://undocs.org/ch/A/RES/51/122">51/122</a>号决议和2018年10月26日第<a href="https://undocs.org/ch/A/RES/73/6">73/6</a>号决议，以及实施这些决议将对“空间2030”议程作出的贡献。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	我们力求促进空间部门机会平等，为此特别鼓励青年人和妇女考虑从事科学、技术、工程和数学领域的职业。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_161__content">
+          <p xml:space="preserve">	我们还力求在更大程度上利用新的创新技术，例如空间技术及其应用，以促进更好地履行整个联合国的任务。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	我们强调，外空委在“外空会议+50”背景下制定的七个优先主题构成了一项涉及多个关键领域的综合方针，这些优先主题共同决定了外空委及其小组委员会和外层空间事务厅今后在以下领域开展工作的核心目标：空间探索和创新全球伙伴关系(优先主题1)、当前和今后对外层空间和全球治理法律制度的看法(优先主题2)、加强空间物体和事件信息交流(优先主题3)、建立空间天气服务国际框架(优先主题4)、加强空间合作增进全球健康(优先主题5)、就争取实现低排放和有恢复力的社会开展国际合作(优先主题6)、为二十一世纪开展能力建设(优先主题7)。<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/73/6">73/6</a>号决议，序言部分第二十四段。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	我们还强调，在落实“空间2030”议程和实施计划时，重视全球伙伴关系以及在会员国、联合国实体、政府间组织和非政府组织、业界和私营部门实体之间加强合作，以确保通过共同努力和利用各不同利益关系方的实际经验和贡献，让空间的惠益遍及世界各地，惠及所有人。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="H23">
+        <num>三.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	目标</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	我们，联合国会员国，基于上述战略愿景，承诺追求以下目标。各项总体目标下所述行动可供会员国采用，以便实现这些目标。四大总体目标围绕空间经济、空间社会、空间利用机会和空间外交四大支柱构建。这四大支柱相辅相成，相得益彰。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_240" class="H23">
+        <subheading>			总体目标1：提高天基经济效益，加强空间部门作为可持续发展主要驱动因素的作用</subheading>
+      </paragraph>
+      <paragraph eId="para_241" class="MercuryDocument">
+        <num>1.1</num>
+        <content eId="para_241__content">
+          <p xml:space="preserve">.	提高对空间科学技术及其应用对于实现可持续发展目标的重要性的认识。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_242" class="MercuryDocument">
+        <num>1.2</num>
+        <content eId="para_242__content">
+          <p xml:space="preserve">.	便利和促进空间部门与其他部门的融合，其他部门包括能源、公共卫生、环境、气候变化、资源管理以及信息和通信技术，并发展多利益关系方伙伴关系，从而促成能够推动社会和经济发展并可纳入可持续发展目标执行机制的创新天基解决方案。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_244" class="MercuryDocument">
+        <num>1.3</num>
+        <content eId="para_244__content">
+          <p xml:space="preserve">.	处理外层空间商业活动产生的问题，包括使空间活动能够更好地支持实现全球发展议程，并确保外层空间活动的长期可持续性。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_247" class="MercuryDocument">
+        <num>1.4</num>
+        <content eId="para_247__content">
+          <p xml:space="preserve">.	促进空间产业的发展，特别注重中小企业，以期增加对空间部门的投资和创造高质量的就业机会，并促进空间技术对非空间部门的附带惠益。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_251" class="MercuryDocument">
+        <num>1.5</num>
+        <content eId="para_251__content">
+          <p xml:space="preserve">.	根据国际法使所有各方得以开展空间活动，为此促进制定一个国际框架，便利包括非航天国家在内的各方平等获得利用空间的机会，并鼓励安全与创新。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="MercuryDocument">
+        <num>1.6</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">.	在确保可持续的森林和海洋经济的全球努力中促进使用天基解决方案。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_262" class="MercuryDocument">
+        <num>1.7</num>
+        <content eId="para_262__content">
+          <p xml:space="preserve">.	加强空间技术及其应用对可持续渔业管理、农业、粮食安全和保障以及营养的贡献。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_269" class="MercuryDocument">
+        <num>1.8</num>
+        <content eId="para_269__content">
+          <p xml:space="preserve">.	促进和便利私营和公共部门、学术机构和研究开发中心之间在利用空间实现可持续发展目标领域以及外层空间活动的长期可持续性领域建立合作与伙伴关系。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_270" class="H23">
+        <subheading>			总体目标2：利用空间的潜力解决日常挑战，并利用与空间有关的创新提高生活质量</subheading>
+      </paragraph>
+      <paragraph eId="para_271" class="MercuryDocument">
+        <num>2.1</num>
+        <content eId="para_271__content">
+          <p xml:space="preserve">.	支持空间科学和研究，因为外层空间为科学家观察和研究地球和宇宙提供了独特的视角。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="MercuryDocument">
+        <num>2.2</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve">.	促进利用空间技术及其应用增进对自然环境的科学知识，包括海洋、山区、水循环和资源、林业、生物多样性、荒漠化和土地退化以及城市化，以期为保护自然环境、可持续资源管理和保护生态系统作出贡献。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="MercuryDocument">
+        <num>2.3</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">.	加强对综合空间应用的使用，以促进气候观测和灾害风险评估，改进灾害早期预警系统，并为用于追踪《2030年可持续发展议程》、《仙台框架》和《巴黎协定》缔约国所作承诺实施进展情况的指标提供数据。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="MercuryDocument">
+        <num>2.4</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">.	推进空间技术在突显、分析和应对气候变化以及促进向低排放社会转型方面的作用，并利用现有和公认的国际机制和组织，促进这方面的国际合作。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_281" class="MercuryDocument">
+        <num>2.5</num>
+        <content eId="para_281__content">
+          <p xml:space="preserve">.	促进天基技术用于灾害管理周期的所有阶段，这一点既适用于自然灾害，又适用于人为灾害，包括预防、减缓、防备、响应、复原、重建和恢复等阶段；监测和评估世界不同区域的风险、危害、灾害风险和损害等因素；以及促进共享灾害监测数据。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_286" class="MercuryDocument">
+        <num>2.6</num>
+        <content eId="para_286__content">
+          <p xml:space="preserve">.	加强与空间有关的合作以支持全球卫生；改善空间医学、科学和技术的使用和应用、全球卫生保健领域的创新、合作以及信息和工具的共享，以提高公共卫生和保健干预措施的及时性和有效性；以及加强空间医学、科学和技术方面的能力建设。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_292" class="MercuryDocument">
+        <num>2.7</num>
+        <content eId="para_292__content">
+          <p xml:space="preserve">.	加强对空间技术及其应用的利用，以支持在城市和农村地区发展具有社会和环境可持续性的人类住区和基础设施；改善民生；研究城市化和移徙模式；监测文化遗址并推动保护工作。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="MercuryDocument">
+        <num>2.8</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">.	促进空间开放数据政策和数据共享。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="H23">
+        <subheading>			总体目标3：改善所有各方进入空间的机会，确保所有国家都能从空间科学和技术的应用以及从天基数据、信息和产品中获得社会经济惠益，从而支持实现可持续发展目标</subheading>
+      </paragraph>
+      <paragraph eId="para_301" class="MercuryDocument">
+        <num>3.1</num>
+        <content eId="para_301__content">
+          <p xml:space="preserve">.	利用空间的潜力来激励青年，增加青年对空间部门的参与，支持从小学开始激发年轻人对空间活动兴趣的国家和国际举措，并加强年轻人对科学、技术、工程和数学科目的参与。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="MercuryDocument">
+        <num>3.2</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">.	加强空间探索，将其作为创新的长期推动力，并加强这方面的国际合作。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="MercuryDocument">
+        <num>3.3</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">.	促进低地球轨道以外的探索，因为这些任务在科学、技术、经济和激发灵感方面的贡献将造福全人类。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_307" class="MercuryDocument">
+        <num>3.4</num>
+        <content eId="para_307__content">
+          <p xml:space="preserve">.	加强空间科学和应用方面的能力建设、教育和培训，特别是面向发展中国家的能力建设、教育和培训。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_311" class="MercuryDocument">
+        <num>3.5</num>
+        <content eId="para_311__content">
+          <p xml:space="preserve">.	增加对外层空间的了解，包括为此更多地获取天文学和空间科学数据，以造福人类。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_316" class="MercuryDocument">
+        <num>3.6</num>
+        <content eId="para_316__content">
+          <p xml:space="preserve">.	促进和支持使用空间技术加强全世界获得数据和宽带技术的机会，特别关注发展中国家和基础设施欠发达的地区。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="MercuryDocument">
+        <num>3.7</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">.	促进空间活动中的包容性和性别平等，包括为此加强妇女参与科学、技术、工程和数学教育。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_329" class="MercuryDocument">
+        <num>3.8</num>
+        <content eId="para_329__content">
+          <p xml:space="preserve">.	提高对不利空间天气风险的认识并减轻这些风险，以确保提高全球对空间天气影响的抵御能力，并改善空间天气相关活动的国际协调，包括外联、通信和能力建设，以及建立一个国际机制以促进加强空间天气方面的高级别协调和增强全球对空间天气影响的抵御能力。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_337" class="MercuryDocument">
+        <num>3.9</num>
+        <content eId="para_337__content">
+          <p xml:space="preserve">.	加强国际合作和准备，以应对近地天体构成的威胁。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="MercuryDocument">
+        <num>3.10</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">.  强烈鼓励各国在为和平目的探索和利用外层空间方面加强国际、多边和双边合作，包括为此克服挑战和障碍，特别是那些阻碍这种合作的挑战和障碍，并在这方面敦促各国有效应对阻碍实施“空间2030”议程的此类挑战和障碍。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="H23">
+        <subheading>		总体目标4：在和平利用外层空间和全球治理外层空间活动方面建立伙伴关系并加强国际合作</subheading>
+      </paragraph>
+      <paragraph eId="para_348" class="MercuryDocument">
+        <num>4.1</num>
+        <content eId="para_348__content">
+          <p xml:space="preserve">.	加强和平利用外层空间委员会及其小组委员会在外层空间事务厅支持下的作用和活动，发挥为和平目的探索和利用外层空间进行国际合作的独特平台的作用。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="MercuryDocument">
+        <num>4.2</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">.	促进缔约国执行联合国各项外层空间条约，以及执行相关原则和大会决议，并鼓励外空委及其附属机构在外层空间事务厅支持下继续协调这方面的努力，并酌情补充和拟定有关外层空间的国际法，以应对正在出现的问题。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_351" class="MercuryDocument">
+        <num>4.3</num>
+        <content eId="para_351__content">
+          <p xml:space="preserve">.	加强对会员国的能力建设和技术援助，包括外层空间事务厅提供的能力建设和技术援助，特别是在国际空间法和政策领域。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_354" class="MercuryDocument">
+        <num>4.4</num>
+        <content eId="para_354__content">
+          <p xml:space="preserve">.	加强现有登记做法和信息交流，承认外层空间事务厅在维持《联合国射入外层空间物体登记册》方面的作用，从而增强透明度和提高登记机制的效率，并提高物体登记工作的及时性和一致性，包括为此在这方面向会员国提供技术援助。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_358" class="MercuryDocument">
+        <num>4.5</num>
+        <content eId="para_358__content">
+          <p xml:space="preserve">.	确保外层空间活动的长期可持续性和保证对外层空间环境的和平利用，包括为此在自愿基础上执行已通过的关于外层空间活动长期可持续性的序言和准则以及分享实施准则的经验，并应对外层空间活动长期可持续性面临的新挑战、风险和威胁。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_363" class="MercuryDocument">
+        <num>4.6</num>
+        <content eId="para_363__content">
+          <p xml:space="preserve">.	加强外层空间活动的安全性，以此推动外层空间活动的长期可持续性。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_369" class="MercuryDocument">
+        <num>4.7</num>
+        <content eId="para_369__content">
+          <p xml:space="preserve">.	在外空委框架内，促进在依据国际法监管非政府实体空间活动方面进行国际合作和交流信息与最佳做法，以期加强外层空间活动的安全性和长期可持续性，同时促进空间产业的发展。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_376" class="MercuryDocument">
+        <num>4.8</num>
+        <content eId="para_376__content">
+          <p xml:space="preserve">.	在外空委的框架内，加强关于空间物体和事件的信息交流，以及关于预测和预防潜在碰撞的讨论。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_384" class="MercuryDocument">
+        <num>4.9</num>
+        <content eId="para_384__content">
+          <p xml:space="preserve">.	在作为秘书处的外层空间事务厅的协助下，加强和平利用外层空间委员会与其小组委员会之间的协调和相互关系。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_393" class="MercuryDocument">
+        <num>4.10</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">.  鼓励为配合联合国全系统提高一致性和一体行动的努力而加强联合国空间方面各实体之间就跨学科和跨部门空间相关事项加强合作，以促进在和平探索和利用外层空间以及利用空间科学技术促进可持续发展方面的国际合作。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="H23">
+        <subheading>		B部分. 实施计划</subheading>
+      </paragraph>
+      <paragraph eId="para_395" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_395__content">
+          <p xml:space="preserve">	各会员国将在自愿的基础上实施“空间2030”议程。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_396" class="H23">
+        <num>一.</num>
+        <content eId="para_396__content">
+          <p xml:space="preserve">	伙伴关系</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_398" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_398__content">
+          <p xml:space="preserve">	在落实“空间2030”议程及其实施计划时将重视加强会员国、联合国实体、政府间组织和非政府组织、业界和私营部门实体之间的伙伴关系与合作。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_401" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_401__content">
+          <p xml:space="preserve">	外层空间事务厅发挥渠道作用，促进和推动使用天基解决方案，包括使用天基解决方案实施“空间2030”议程，并应在其任务授权、职能和现有资源范围内，继续寻求建立伙伴关系，包括与研究机构、学术界、业界和私营部门建立伙伴关系，以便为了促进科学、创新、研究和发展、教育和能力建设，提供更广泛的利用空间的机会。外空厅为此应开展各种活动，促进使用天基应用和技术，以支持会员国实现全球发展议程的各项目标。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_405" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_405__content">
+          <p xml:space="preserve">	为实施“空间2030”议程，和平利用外层空间委员会和外层空间事务厅应继续履行各自的任务，并与联合国系统内其他相关实体进行合作和协调，包括通过外层空间活动机构间会议(外空协调会议)进行合作和协调。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_410" class="H23">
+        <num>二.</num>
+        <content eId="para_410__content">
+          <p xml:space="preserve">	工具</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_416" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_416__content">
+          <p xml:space="preserve">	在实施“空间2030”议程时，会员国可为一些已经存在或正在制定的国际和区域机制、方案、项目和平台作出贡献并从中获益，例如：</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_423" class="MercuryDocument">
+        <num>(a)</num>
+        <content eId="para_423__content">
+          <p xml:space="preserve">	“外空会议+50”背景下的七个优先主题，这些主题是在外空委及其小组委员会和外层空间事务厅的议程和工作中开展的，包括如下领域：空间探索和创新全球伙伴关系、当前和今后对外层空间和全球治理法律制度的看法、加强空间物体和事件信息交流、空间天气服务国际框架、加强空间合作增进全球健康、开展国际合作争取实现低排放和有恢复力的社会和为二十一世纪开展能力建设；<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		相关文件包括<a href="https://undocs.org/ch/A/AC.105/1168">A/AC.105/1168</a>、<a href="https://undocs.org/ch/A/AC.105/1169">A/AC.105/1169</a>、<a href="https://undocs.org/ch/A/AC.105/1170">A/AC.105/1170</a>、<a href="https://undocs.org/ch/A/AC.105/1171">A/AC.105/1171</a>、<a href="https://undocs.org/ch/A/AC.105/1172">A/AC.105/1172</a>、<a href="https://undocs.org/ch/A/AC.105/1173">A/AC.105/1173</a>和<a href="https://undocs.org/ch/A/AC.105/1174">A/AC.105/1174</a>；另见上文第17段。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_431" class="MercuryDocument">
+        <num>(b)</num>
+        <content eId="para_431__content">
+          <p xml:space="preserve">	联合国灾害管理与应急反应天基信息平台(天基信息平台)<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		见大会第<a href="https://undocs.org/ch/A/RES/61/110">61/110</a>号决议。</p></authorialNote> 是外层空间事务厅的一个方案，供成员国获取天基数据和服务，用于减少灾害风险和应急响应，并通过天基信息平台知识门户网站，促成在灾害管理周期的所有阶段获取天基资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_440" class="MercuryDocument">
+        <num>(c)</num>
+        <content eId="para_440__content">
+          <p xml:space="preserve">	联合国附属空间科学和技术教育区域中心，<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		见大会第<a href="https://undocs.org/ch/A/RES/73/91">73/91</a>号决议，第24段。</p></authorialNote> 包括区域中心联盟。这些区域中心旨在加强空间科学和应用以及空间法律和政策方面的能力建设、教育和培训，特别是以发展中国家为工作对象；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="MercuryDocument">
+        <num>(d)</num>
+        <content eId="para_450__content">
+          <p xml:space="preserve">	《在发生自然或技术灾害时协调使用空间设施的合作宪章》(又称《空间与重大灾害国际宪章》)，作为空间机构和空间系统运营方之间的全球协作，由此可提供卫星生成的信息和产品，用于支持灾害响应工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_461" class="MercuryDocument">
+        <num>(e)</num>
+        <content eId="para_461__content">
+          <p xml:space="preserve">	地球观测卫星委员会灾后恢复情况观察站，用以增强卫星数据对自然灾害后复原工作的贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_473" class="MercuryDocument">
+        <num>(f)</num>
+        <content eId="para_473__content">
+          <p xml:space="preserve">	国际空间气候观测站，其主要目标是研究和监测气候变化的影响，特别是在地方范围内的影响，结合实地数据和模型使用基于卫星的地球观测工具，从而提供工具促进就应对气候变化及其影响的防备、适应和恢复力作出决策，特别是在地方一级；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_486" class="MercuryDocument">
+        <num>(g)</num>
+        <content eId="para_486__content">
+          <p xml:space="preserve">	世界气象组织一体化全球观测系统，提供有助于天气分析、预报、建议和警报以及气候监测和环境活动的观测数据；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_500" class="MercuryDocument">
+        <num>(h)</num>
+        <content eId="para_500__content">
+          <p xml:space="preserve">	全球卫星导航系统国际委员会，<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		见大会第<a href="https://undocs.org/ch/A/RES/59/2">59/2</a>号决议，第11段。</p></authorialNote> 该委员会促进就共同关心的民用卫星定位、导航、授时和增值服务相关事项开展自愿合作，并鼓励和促进所有卫星导航系统之间的兼容性、互操作性和透明度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_515" class="MercuryDocument">
+        <num>(i)</num>
+        <content eId="para_515__content">
+          <p xml:space="preserve">	国际小行星警报网(小行星警报网)和航天计划咨询组，<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		见大会第<a href="https://undocs.org/ch/A/RES/70/82">70/82</a>号决议，第9段。</p></authorialNote> 二者旨在通过国际合作与信息共享，以更好地防范近地天体潜在撞击的威胁。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_531" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_531__content">
+          <p xml:space="preserve">	此外，外层空间事务厅与其合作伙伴合作，已经开发并正在开发若干工具和倡议，作为为二十一世纪开展能力建设的一部分，其中包括：</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_548" class="MercuryDocument">
+        <num>(a)</num>
+        <content eId="para_548__content">
+          <p xml:space="preserve">	空间机会人人共享倡议，<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		见<a href="https://undocs.org/ch/A/72/20">A/72/20</a>，第326段。</p></authorialNote> 该倡议旨在扩大进入空间的机会以支持实现可持续发展目标，为此在航天国、联合国和非航天国或新兴航天国之间开展三方合作，并让私营部门参与其中；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_566" class="MercuryDocument">
+        <num>(b)</num>
+        <content eId="para_566__content">
+          <p xml:space="preserve">	开放宇宙倡议，该倡议旨在加强对天文和空间科学数据的获取；<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		见<a href="https://undocs.org/ch/A/AC.105/1175">A/AC.105/1175</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_585" class="MercuryDocument">
+        <num>(c)</num>
+        <content eId="para_585__content">
+          <p xml:space="preserve">	空间解决方案简编，该工具支持会员国实施《2030年可持续发展议程》，将空间解决方案与可持续发展的目标和具体目标联系起来；<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		见<a href="https://undocs.org/ch/A/AC.105/1174">A/AC.105/1174</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_605" class="MercuryDocument">
+        <num>(d)</num>
+        <content eId="para_605__content">
+          <p xml:space="preserve">	“空间为妇女”项目，该项目旨在扩大妇女接受与空间有关的教育和从事此种职业的可能性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_626" class="MercuryDocument">
+        <num>(e)</num>
+        <content eId="para_626__content">
+          <p xml:space="preserve">	“针对新空间活动主体的空间法”项目，该项目作为能力建设和咨询服务的一部分，响应首次进入空间部门或正在开始空间活动新阶段的国家政府和管理机关决策者和立法者的需要和要求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_648" class="MercuryDocument">
+        <num>(f)</num>
+        <content eId="para_648__content">
+          <p xml:space="preserve">	Space4Water门户网站，这是一个关于空间技术和与水相关专题的跨学科知识交流平台；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_671" class="MercuryDocument">
+        <num>(g)</num>
+        <content eId="para_671__content">
+          <p xml:space="preserve">	“空间为青年”，目的是在与空间有关的活动和项目领域推动联合国全系统倡议“青年2030：联合国青年战略”；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_695" class="MercuryDocument">
+        <num>(h)</num>
+        <content eId="para_695__content">
+          <p xml:space="preserve">	“太平洋空间解决方案”项目，该项目旨在向太平洋岛屿国家提供一系列方案服务，以提高其实现可持续发展目标的能力，涉及领域包括气候变化、非法捕鱼、电信、全球健康和减少灾害风险；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_720" class="MercuryDocument">
+        <num>(i)</num>
+        <content eId="para_720__content">
+          <p xml:space="preserve">	关于空间作为社会经济可持续发展的一个驱动因素的世界空间论坛，旨在加强全球社会在广泛的空间事项上的伙伴关系和持续对话，并通过所有相关空间活动主体的广泛参与，提高认识并支持实施“空间2030”议程。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_746" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_746__content">
+          <p xml:space="preserve">	上述清单并非详尽无遗，可以制定新的倡议，包括协助会员国实施“空间2030”议程的倡议。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_773" class="H23">
+        <num>三.</num>
+        <content eId="para_773__content">
+          <p xml:space="preserve">	资源</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_801" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_801__content">
+          <p xml:space="preserve">	请会员国积极开展各种形式的双边、多边、区域和更广泛的国际空间合作，包括能力建设、信息和基础设施共享和制定联合项目，以及酌情将空间合作与经济和发展合作相结合，以便促进落实“空间2030”议程及其实施计划。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_830" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_830__content">
+          <p xml:space="preserve">	请会员国和其他捐助方按照联合国的规则和程序，向外层空间事务厅自愿提供预算外资源，以推进“空间2030”议程的实施。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_860" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_860__content">
+          <p xml:space="preserve">	促请秘书长考虑向担任和平利用外层空间委员会及其小组委员会秘书处的外层空间事务厅提供资源的充足程度，并确保外空厅能够全面有效地执行自身任务授权，包括在空间科学和技术及其应用以及空间法律和政策领域为会员国开展能力建设活动，同时考虑到“空间2030”议程和实施计划。</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_891" class="H23">
+        <num>四.</num>
+        <content eId="para_891__content">
+          <p xml:space="preserve">	审查进展情况</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_923" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_923__content">
+          <p xml:space="preserve">	和平利用外层空间委员会应在每届会议的议程上列入一个项目，以便委员会成员国及其常驻观察员交流各自实施“空间2030”议程的经验。2025年，外空委应对“空间2030”议程的实施进展情况进行一次中期审查。2030年，外空委应对“空间2030”议程的实施情况进行一次最终审查，并向大会报告审查结果。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第21次">第21次全体会议</inline>
+        <eol />
+        <docDate date="2021-10-25" refersTo="#adoptionDate">2021年10月25日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
