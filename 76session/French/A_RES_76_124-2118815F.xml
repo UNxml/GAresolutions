@@ -1,0 +1,806 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-10/76-124/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-10/76-124/"></FRBRuri>
+          <FRBRdate date="2021-12-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-10/76-124/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-10/76-124/fra@/"></FRBRuri>
+          <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-10/76-124/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-10/76-124/fra@.xml"></FRBRuri>
+          <FRBRdate date="2021-12-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office for the Coordination of Humanitarian Affairs" showAs="UN. Office for the Coordination of Humanitarian Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" showAs="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Central Emergency Response Fund" showAs="Central Emergency Response Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="Sendai Framework for Disaster Risk Reduction 2015-2030" showAs="Sendai Framework for Disaster Risk Reduction 2015-2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AID COORDINATION" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN EMERGENCIES" showAs="HUMANITARIAN EMERGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EMERGENCY RELIEF" showAs="EMERGENCY RELIEF" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RELIEF PERSONNEL" showAs="RELIEF PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISASTER PREPAREDNESS" showAs="DISASTER PREPAREDNESS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISASTER PREVENTION" showAs="DISASTER PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="75a" showAs="EMERGENCY ASSISTANCE" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-12-03" outcome="draftResolution" as="A/76/L.23" by="Argentina, Armenia, Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Dominican Republic, El Salvador, Estonia, Fiji, Finland, France, Georgia, Germany, Greece, Honduras, Hungary, Iceland, Ireland, Italy, Japan, Jordan, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Mali, Malta, Mexico, Montenegro, Morocco, Netherlands, New Zealand, Norway, Peru, Poland, Portugal, Republic of Korea, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Thailand, Turkey, United Arab Emirates, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Afghanistan, Albania, Andorra, Angola, Bangladesh, Bolivia (Plurinational State of), Bosnia and Herzegovina, Burkina Faso, Chad, Colombia, Costa Rica, Ecuador, Gambia, Ghana, India, Indonesia, Kenya, Madagascar, Malawi, Maldives, Monaco, Nigeria, North Macedonia, Palau, Panama, Philippines, Qatar, Republic of Moldova, San Marino, Serbia, Tuvalu, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2021-12-17" outcome="adopted" as="Adopted without vote, 51st plenary meeting" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sans renvoi à une grande commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-18815 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/124</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-17" class="rightSmall" refersTo="#dateOfIssuance">17 décembre 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Soixante-seizième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Point 75 a) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Renforcement de la coordination de l’aide humanitaire et des secours en cas de catastrophe fournis par les organismes des Nations Unies, y compris l’assistance économique spéciale : renforcement de la coordination de l’aide humanitaire d’urgence fournie par les organismes des Nations Unies</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 10 décembre 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sans renvoi à une grande commission (<inline name="originating document">A/76/L.23 et A/76/L.23/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/124.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Renforcement de la coordination de l’aide humanitaire d’urgence fournie par les organismes des Nations Unies</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale,</span>
+        </p>
+      </formula>
+      <container name="Réaffirmant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> sa résolution <a href="https://undocs.org/fr/A/RES/46/182">46/182</a> du 19 décembre 1991 et les principes directeurs énoncés dans l’annexe, les autres résolutions sur la question qu’elle et le Conseil économique et social ont adoptées ainsi que les conclusions concertées du Conseil,</p>
+      </container>
+      <container name="Prenant acte" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Prenant acte</span> des rapports du Secrétaire général sur le renforcement de la coordination de l’aide humanitaire d’urgence fournie par les organismes des Nations Unies<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/76/74">A/76/74-E/2021/54</a>.</p></authorialNote> et sur le Fonds central pour les interventions d’urgence<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/76/320">A/76/320</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> les principes d’humanité, de neutralité, d’impartialité et d’indépendance applicables à l’action humanitaire, et réaffirmant que tous ceux qui participent à cette action dans des situations d’urgence complexes et en cas de catastrophe naturelle doivent les défendre et les respecter pleinement,</p>
+      </container>
+      <container name="Se déclarant gravement préoccupée" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant gravement préoccupée </span>par l’importance croissante des problèmes causés par le nombre sans précédent de personnes touchées par des urgences humanitaires, y compris les déplacements prolongés de population, problèmes dont le nombre, l’ampleur et la gravité augmentent et qui poussent à leur limite les capacités d’intervention humanitaire, et exprimant sa profonde préoccupation face aux effets des changements climatiques, aux conséquences de la crise financière et économique qui perdurent, aux crises alimentaires régionales, à la persistance de l’insécurité alimentaire et énergétique, à la pénurie d’eau, à l’urbanisation rapide et non planifiée des populations, aux épidémies, aux risques naturels, à la dégradation de l’environnement, aux conflits armés et aux actes de terrorisme, qui viennent s’ajouter au sous-développement, à la pauvreté et aux inégalités et aggravent la vulnérabilité des populations tout en diminuant leur aptitude à faire face aux crises humanitaires,</p>
+      </container>
+      <container name="Exprimant les plus vives inquiétudes" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant les plus vives inquiétudes</span> quant à l’impact humanitaire de la pandémie de maladie à coronavirus (COVID‑19) et aux risques posés par ses conséquences à court et à long terme, notamment sur les besoins déjà importants existant sur le plan humanitaire et en matière de développement et sur les souffrances des personnes et des populations touchées, considérant les effets disproportionnés que la pandémie a sur les femmes, les enfants et les personnes en situation de vulnérabilité, profondément préoccupée par l’augmentation des besoins en matière d’aide humanitaire et de protection, notamment en raison de l’augmentation de la violence, y compris la violence sexuelle et fondée sur le genre et la violence contre les enfants, par les répercussions importantes sur l’éducation, en particulier celle des filles, et par les niveaux élevés d’insécurité alimentaire et de malnutrition et les risques croissants de famine, la perte des moyens de subsistance, et toutes les retombées négatives sur la santé, y compris la santé mentale et le bien-être psychosocial, qui sont également exacerbées par l’affaiblissement des systèmes de santé, ainsi que par les conséquences et les risques liés aux déplacements, considérant les risques et les conséquences supplémentaires dus aux conflits armés, à la pauvreté, aux catastrophes naturelles, à la violence, aux effets néfastes des changements climatiques et à d’autres défis environnementaux, et considérant également les efforts et les mesures proposés par le Secrétaire général concernant l’action à mener face à l’impact de la pandémie de COVID‑19,</p>
+      </container>
+      <container name="Soulignant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Soulignant </span>que, pour favoriser une transition sans heurt de la phase des secours à celles du relèvement et du développement, il est nécessaire de mieux accorder, chaque fois que possible, l’aide humanitaire et l’aide au développement avec les priorités et stratégies nationales de développement, et encourageant les États Membres, ainsi que les organismes des Nations Unies et les organisations régionales qui les appuient, à s’attaquer aux causes profondes des crises humanitaires, y compris la pauvreté et le sous-développement, à renforcer la résilience des États touchés, y compris les communautés d’accueil, et à réduire les besoins d’aide humanitaire,</p>
+      </container>
+      <container name="Préoccupée" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Préoccupée</span> par le fossé qui se creuse entre les besoins d’aide humanitaire et les ressources disponibles, accueillant favorablement les donateurs non traditionnels, et soulignant qu’il faut mobiliser en temps voulu des ressources suffisantes, prévisibles et utilisables avec souplesse pour l’aide humanitaire, sur la base et en proportion des besoins et des risques établis par l’évaluation, en vue de planifier l’action liée aux urgences humanitaires, d’atténuer leurs conséquences, de prendre les mesures de préparation qui s’imposent, d’intervenir quand ces urgences se présentent et de permettre le relèvement,</p>
+      </container>
+      <container name="Consciente" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> à cet égard de tout ce que le Fonds central pour les interventions d’urgence a fait pour que l’aide nécessaire à la survie des populations touchées par des crises leur soit apportée, en fournissant en temps utile aux organismes d’aide humanitaire et à leurs partenaires d’exécution le financement qui leur permet d’agir rapidement lorsque survient la tragédie et de réorienter les ressources vers des crises qui ne reçoivent pas l’attention voulue et méritée, soulignant qu’il faut élargir et diversifier les sources de revenus du Fonds, et se félicitant à cet égard que le Secrétaire général ait demandé que le montant du Fonds soit porté à un milliard de dollars des États‑Unis,</p>
+      </container>
+      <container name="Consciente également" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Consciente également</span> de tout ce que les fonds de financement commun font pour que l’aide soit apportée aux personnes dans le besoin, notant que le Secrétaire général a demandé aux donateurs d’augmenter la part des ressources obtenues grâce aux appels humanitaires qui est reversée aux fonds de financement commun, et faisant observer que d’autres mécanismes de financement commun peuvent être très utiles,</p>
+      </container>
+      <container name="Soulignant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Soulignant </span>qu’il faut absolument approfondir l’analyse des besoins et améliorer la gestion des risques et la planification stratégique, en coordination avec les États touchés, notamment par le recours à des données publiques et ventilées, pour que les interventions en cas de crise se fassent en connaissance de cause, qu’elles soient plus efficaces et qu’elles soient menées collectivement en toute transparence,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> qu’il faut que les États Membres, les organismes des Nations Unies concernés et les autres intervenants prennent systématiquement en compte les questions de genre dans les activités humanitaires, y compris dans toutes les mesures de réduction des risques de catastrophe, notamment en s’occupant des besoins particuliers des femmes, des filles, des hommes et des garçons et en mettant en avant leurs priorités et leurs capacités, suivant une démarche globale et cohérente, ainsi qu’en respectant et en protégeant leurs droits, consciente qu’en situation d’urgence humanitaire, la sécurité, la santé et le bien-être des femmes, des filles et des garçons sont davantage menacés, et rappelant qu’il est essentiel de donner aux femmes les moyens de participer effectivement et efficacement aux fonctions de responsabilité et à la prise de décisions,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également</span> qu’il faut que les États Membres, les organismes des Nations Unies concernés et les autres intervenants améliorent l’application du principe de responsabilité à tous les niveaux eu égard aux besoins des populations touchées, et notant qu’il importe que tous participent sans exclusive à la prise de décisions,</p>
+      </container>
+      <container name="Consciente" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> que les personnes handicapées sont touchées de façon disproportionnée dans les situations d’urgence humanitaire et qu’elles rencontrent de multiples obstacles pour accéder à l’aide, rappelant qu’il faut associer les personnes handicapées à la prise de décisions et intégrer leurs points de vue et leurs besoins, si possible, dans la préparation et l’organisation des interventions humanitaires, et rappelant à cet égard la Charte pour l’inclusion des personnes handicapées dans l’action humanitaire,</p>
+      </container>
+      <container name="Profondément préoccupée" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Profondément préoccupée</span> par l’aggravation des difficultés auxquelles les États Membres et les organismes des Nations Unies participant à l’action humanitaire font face à cause des conséquences des catastrophes, y compris celles qui sont liées aux effets persistants des changements climatiques, mettant à rude épreuve leurs capacités d’intervention, et réaffirmant qu’il importe d’appliquer le Cadre de Sendai pour la réduction des risques de catastrophe (2015‑2030)<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/283">69/283</a>, annexe II.</p></authorialNote>,</p>
+      </container>
+      <container name="Se félicitant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de l’adoption de l’Accord de Paris<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21, annexe.</p></authorialNote> et de son entrée en vigueur rapide, encourageant toutes les parties à l’appliquer dans son intégralité, et engageant les Parties à la Convention-cadre des Nations Unies sur les changements climatiques<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1771, n<sup>o </sup>30822.</p></authorialNote> qui ne l’ont pas encore fait à déposer dès que possible leurs instruments de ratification, d’acceptation, d’approbation ou d’adhésion, selon qu’il conviendra,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>l’adoption du Nouveau Programme pour les villes à la Conférence des Nations Unies sur le logement et le développement urbain durable (Habitat III), tenue à Quito du 17 au 20 octobre 2016<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/71/256">71/256</a>, annexe.</p></authorialNote>, et prenant note des engagements que les États Membres y ont pris vis-à-vis des personnes touchées par les crises humanitaires en milieu urbain,</p>
+      </container>
+      <container name="Prenant note" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> de la tenue du Sommet mondial sur l’action humanitaire à Istanbul (Turquie), les 23 et 24 mai 2016, ainsi que du rapport du Secrétaire général sur les résultats du Sommet<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/71/353">A/71/353</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Considérant" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant </span>qu’il incombe au premier chef aux États Membres de se préparer aux épidémies de maladies infectieuses et d’intervenir, conformément au Règlement sanitaire international adopté en 2005 par l’Assemblée mondiale de la Santé<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Organisation mondiale de la Santé, document WHA58/2005/REC/1, résolution 58.3, annexe.</p></authorialNote>, y compris à celles qui entraînent des crises humanitaires, soulignant le rôle vital que jouent les États Membres, l’Organisation mondiale de la Santé, autorité qui dirige et coordonne l’action sanitaire internationale, les organismes humanitaires des Nations Unies, les organisations régionales, les organisations non gouvernementales, le secteur privé et d’autres acteurs humanitaires en fournissant une assistance financière et technique et une aide en nature en vue de maîtriser les épidémies et les pandémies, et sachant qu’il faut améliorer les systèmes de santé locaux et nationaux, les systèmes de notification et d’alerte rapides, l’état de préparation, les capacités d’intervention intersectorielles et la résilience face aux épidémies de maladies infectieuses, notamment en renforçant les capacités des pays en développement,</p>
+      </container>
+      <container name="Considérant également" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Considérant également </span>que les pays en développement, en particulier les pays les moins avancés et les petits États insulaires en développement, restent extrêmement exposés aux pertes humaines et économiques résultant des risques naturels et qu’il est nécessaire de renforcer la coopération internationale, selon qu’il conviendra, pour les rendre plus résilients,</p>
+      </container>
+      <container name="Considérant en outre" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Considérant en outre</span> que la croissance économique partagée et le développement durable sont essentiels pour prévenir les catastrophes naturelles et autres situations d’urgence et s’y préparer,</p>
+      </container>
+      <container name="Sachant" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> à cet égard que le renforcement des capacités nationales et locales de préparation et d’intervention, moyennant notamment des politiques publiques appropriées, inclusives et favorables et une assistance internationale, est crucial pour rendre les interventions plus prévisibles et plus efficaces et qu’il sert les objectifs d’aide humanitaire et de développement, en concourant notamment à accroître la résilience et à atténuer la nécessité d’une action humanitaire,</p>
+      </container>
+      <container name="Soulignant" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Soulignant </span>le caractère essentiellement civil de l’aide humanitaire et réaffirmant que, dans les situations où des moyens militaires doivent être employés, en dernier recours, à l’appui de l’action humanitaire, il faut qu’ils le soient avec le consentement de l’État intéressé et dans le respect du droit international, y compris le droit international humanitaire, ainsi que des principes humanitaires,</p>
+      </container>
+      <container name="Sachant" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> qu’un grand nombre de personnes sont touchées par des crises humanitaires, notamment un nombre sans précédent de personnes déplacées contre leur gré, pour la plupart des femmes et des enfants, qui le sont pour cause de conflit, d’actes de terrorisme, de persécution ou de violence et pour d’autres raisons, souvent pour de longues périodes, crises dans lesquelles il incombe au premier chef aux autorités nationales d’assurer la protection et d’apporter une aide humanitaire aux personnes déplacées relevant de leur juridiction et de trouver des solutions durables à la situation de ces personnes, en gardant à l’esprit leurs besoins particuliers,</p>
+      </container>
+      <container name="Notant" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Notant</span> que la communauté internationale doit prendre davantage conscience de l’ampleur mondiale du problème des déplacés, notamment du fait qu’ils sont des millions à se trouver dans des situations de déplacement prolongé, ainsi que de l’urgente nécessité de leur fournir une aide humanitaire et une protection suffisantes, de soutenir les collectivités d’accueil, de s’attaquer aux causes profondes des déplacements, de trouver des solutions durables dans les pays d’origine et d’écarter les obstacles qui pourraient s’y opposer, et sachant que ces solutions durables comprennent le rapatriement librement consenti, en toute sécurité et dans la dignité, ainsi que l’intégration des déplacés, de leur plein gré, dans les régions où ils se trouvent ou leur installation librement consentie dans une autre partie du pays, sans préjudice du droit des personnes déplacées de quitter leur pays ou de chercher asile,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> la Déclaration de New York pour les réfugiés et les migrants, qu’elle a adoptée à sa réunion plénière de haut niveau sur la gestion des déplacements massifs de réfugiés et de migrants, tenue le 19 septembre 2016<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/71/1">71/1</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Exprimant son inquiétude" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant son inquiétude </span>au sujet des difficultés particulières éprouvées par les millions de réfugiés se trouvant dans des situations d’exil prolongé, sachant que la durée moyenne de leur séjour continue de s’allonger, et soulignant qu’il faut que la communauté internationale redouble d’efforts et renforce sa coopération afin de trouver des moyens pratiques et complets de remédier à leur détresse et de mettre en place des solutions durables à leur intention, dans le respect de la Charte des Nations Unies, du droit international et de ses résolutions pertinentes,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Notant avec une vive préoccupation</span> que des millions de personnes dans plusieurs régions du monde sont en proie à la famine ou sont exposées à un risque immédiat de famine ou à une grave insécurité alimentaire, et notant que ces situations sont provoquées ou exacerbées par les conflits armés, la sécheresse, la pauvreté et l’instabilité du cours des produits de base, entre autres facteurs, et qu’il est urgent de redoubler d’efforts, notamment au niveau international, pour y faire face,</p>
+      </container>
+      <container name="Consciente" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Consciente </span>de l’importance du droit international humanitaire, notamment des Conventions de Genève de 1949<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 75, n<sup>os</sup> 970 à 973.</p></authorialNote>, qui constitue le cadre juridique fondamental de la protection des personnes civiles en temps de guerre et régit notamment l’action humanitaire,</p>
+      </container>
+      <container name="Condamnant fermement" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Condamnant fermement</span> tous les actes de violence, notamment les attaques directes, visant le personnel et les installations humanitaires, ainsi que le personnel médical et les agents humanitaires dont l’activité est d’ordre exclusivement médical, leurs moyens de transport et leur matériel et les hôpitaux et les autres installations médicales, qui, dans la plupart des cas, frappent le personnel recruté sur le plan local, notant avec inquiétude les incidences défavorables de ces actes sur la fourniture de l’aide humanitaire aux populations qui en ont besoin, et saluant entre autres l’action que le Mouvement international de la Croix-Rouge et du Croissant-Rouge mène dans le cadre de son projet intitulé « Les soins de santé en danger », en collaboration avec des États, des organisations internationales, des organisations non gouvernementales et d’autres parties prenantes compétentes, pour mieux faire respecter le droit international humanitaire en sensibilisant le public et en encourageant la préparation afin de faire face aux conséquences humanitaires graves et néfastes de ces actes de violence,</p>
+      </container>
+      <container name="Rappelant" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> l’obligation incombant à tous les États et à toutes les parties à un conflit armé, en vertu des dispositions pertinentes du droit international humanitaire, de respecter et de protéger, en situation de conflit armé, le personnel médical et les agents humanitaires dont l’activité est d’ordre exclusivement médical, leurs moyens de transport et leur matériel et les hôpitaux et les autres installations médicales, qui ne doivent pas être la cible d’attaques, et de veiller à ce que les blessés et les malades reçoivent, dans la mesure du possible et dans les plus brefs délais, les soins médicaux et l’attention nécessaires, et prenant note des règles du droit international humanitaire selon lesquelles nul ne peut être puni pour avoir exercé une activité de caractère médicale conforme à la déontologie,</p>
+      </container>
+      <container name="Constatant avec une grave préoccupation" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Constatant avec une grave préoccupation</span> que des actes de violence, notamment de violence sexuelle et de violence fondée sur le genre, et de violence contre les enfants, notamment de violence sexuelle, continuent d’être commis délibérément contre la population civile dans des situations humanitaires et après,</p>
+      </container>
+      <container name="Consciente" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> que les femmes et les filles sont touchées de manière disproportionnée par les actes de violence sexuelle et de violence fondée sur le genre, mais que les hommes et les garçons comptent aussi parmi les victimes ou les rescapés de tels actes,</p>
+      </container>
+      <container name="Notant avec satisfaction" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Notant avec satisfaction</span> que les États Membres, les organismes des Nations Unies et les autres acteurs concernés continuent de s’employer à améliorer l’efficacité de l’action humanitaire en fonction des besoins, notamment en renforçant les capacités d’intervention, en améliorant la coordination, en trouvant des méthodes novatrices adaptées qu’ils prennent en compte dans la préparation et l’intervention humanitaires et lors du travail de relèvement, en améliorant la transparence, en limitant les doubles emplois, en renforçant les partenariats avec les intervenants locaux et nationaux, selon le cas, en s’attachant à assurer un financement souple, prévisible et suffisant et en responsabilisant davantage toutes les parties intéressées,</p>
+      </container>
+      <container name="Constatant avec une grave préoccupation" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Constatant avec une grave préoccupation</span> que les enfants et les jeunes n’ont toujours pas accès à l’éducation dans les situations d’urgence complexes, et soulignant qu’il est urgent de débloquer davantage de fonds pour qu’un enseignement de qualité soit mieux dispensé dans les situations d’urgence humanitaire et de faciliter un accès continu et équitable à une éducation de qualité pour les enfants et les jeunes dans les situations d’urgence humanitaire, y compris face à la pandémie de COVID‑19, aux catastrophes naturelles, aux effets néfastes des changements climatiques et aux conflits armés,</p>
+      </container>
+      <container name="Estimant" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Estimant</span> que, pour renforcer la coordination de l’aide humanitaire sur le terrain, les organismes des Nations Unies devraient continuer de se concerter et de travailler en liaison étroite avec les autorités nationales,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>les dispositions de sa résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> du 25 septembre 2015, intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle a été adoptée une série complète d’objectifs et de cibles ambitieux, universels, axés sur l’être humain et porteurs de changement, et réaffirmant qu’elle s’engage à œuvrer sans relâche pour que le Programme soit appliqué dans son intégralité d’ici à 2030, qu’elle considère que l’élimination de la pauvreté sous toutes ses formes et dans toutes ses dimensions, notamment de l’extrême pauvreté, constitue le plus grand défi auquel l’humanité doit faire face et une condition indispensable au développement durable, et qu’elle est attachée à réaliser le développement durable dans ses trois dimensions – économique, sociale et environnementale – d’une manière équilibrée et intégrée en tirant parti de ce qui a été fait dans le cadre des objectifs du Millénaire pour le développement, dont elle s’efforcera d’achever la réalisation,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également </span>les dispositions de sa résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a> du 27 juillet 2015 sur le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement, qui fait partie intégrante du Programme de développement durable à l’horizon 2030, qu’il appuie et complète, et qui contribue à replacer dans leur contexte les cibles concernant les moyens de mise en œuvre grâce à l’adoption de politiques et mesures concrètes,</p>
+      </container>
+      <container name="Réaffirmant en outre" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant en outre</span> l’importance de l’aide humanitaire fournie par les organismes des Nations Unies, et prenant note avec satisfaction du trentième anniversaire de l’adoption de sa résolution <a href="https://undocs.org/fr/A/RES/46/182">46/182</a>, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Accueille favorablement</span> les conclusions du vingt-quatrième débat que le Conseil économique et social a consacré aux affaires humanitaires à sa session de fond de 2021<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-seizième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 3</span> (<a href="https://undocs.org/fr/A/76/3">A/76/3</a>), chap. X.</p></authorialNote>, et se félicite de l’adoption de la résolution <a href="https://undocs.org/fr/E/RES/2021/17">2021/17</a> du Conseil économique et social en date du 25 juin 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Coordonnateur des secours d’urgence de poursuivre l’action qu’il mène pour renforcer la coordination de l’aide humanitaire, l’obligation de rendre des comptes dans ce domaine et son autorité au sein du système d’intervention humanitaire des Nations Unies, y compris dans le cadre du programme de transformation du Comité permanent interorganisations, et prie les organismes des Nations Unies concernés et les autres organisations intergouvernementales compétentes, ainsi que les autres acteurs de l’aide humanitaire et du développement, de continuer à coopérer avec le Bureau de la coordination des affaires humanitaires du Secrétariat pour améliorer la coordination, l’efficacité et l’efficience de l’aide humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Coordonnateur des secours d’urgence de continuer à améliorer le dialogue avec tous les États Membres sur le fonctionnement, les activités et les délibérations du Comité permanent interorganisations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres et le Bureau de la coordination des affaires humanitaires à continuer d’améliorer le dialogue et la collaboration concernant les questions humanitaires à l’échelle mondiale et sur le terrain, y compris pour ce qui est de la politique humanitaire, en vue de donner plus d’importance à la consultation et à la participation de tous ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Constate avec satisfaction</span> que le Bureau de la coordination des affaires humanitaires continue à s’efforcer d’établir des partenariats avec les organisations régionales, les donateurs non traditionnels et le secteur privé, et encourage les États Membres et les organismes des Nations Unies à continuer de renforcer les partenariats aux niveaux mondial, régional, national et local à l’appui de l’action des États, en vue de mieux coopérer pour fournir une aide humanitaire aux populations qui en ont besoin et de veiller, ce faisant, au respect des principes de neutralité, d’humanité, d’impartialité et d’indépendance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres, les organismes des Nations Unies et les organisations d’aide humanitaire et de développement à continuer d’évaluer et d’améliorer, de concert avec d’autres parties prenantes, y compris le secteur privé, les mesures permettant de détecter plus tôt et plus systématiquement les innovations et d’en faire bénéficier durablement l’action humanitaire, et de promouvoir le partage des meilleures pratiques et des enseignements tirés de l’expérience, y compris à l’occasion de catastrophes naturelles de grande ampleur et de crises humanitaires prolongées, en matière d’outils, de procédures et de méthodes novateurs à même d’améliorer l’efficacité et la qualité des interventions humanitaires, et encourage à cet égard toutes les parties prenantes à continuer d’appuyer les efforts que font les États Membres, en particulier les pays en développement, pour renforcer leurs capacités, notamment en leur facilitant l’accès aux technologies de l’information et des communications ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Accueille avec intérêt</span> les pratiques novatrices qui, tirant parti de l’expérience des personnes touchées par les crises humanitaires, permettent de mettre au point sur le plan local des solutions viables et de produire localement des articles aidant à sauver des vies avec des moyens logistiques et des infrastructures modestes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux organismes des Nations Unies compétents et, le cas échéant, aux autres intervenants humanitaires concernés de poursuivre l’action engagée pour améliorer les interventions humanitaires en cas de catastrophe naturelle ou de catastrophe d’origine humaine ou de situation d’urgence complexe, en renforçant encore les capacités d’intervention humanitaire à tous les niveaux, en continuant de consolider la fourniture et la coordination de l’aide humanitaire aux niveaux mondial et régional et sur le terrain, notamment en faisant appel aux mécanismes existants de coordination par groupe sectoriel, à l’appui des autorités nationales des pays touchés, selon qu’il conviendra, et en améliorant encore l’efficience, la transparence, les résultats et l’application du principe de responsabilité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">A conscience</span> que l’association et la coordination avec les acteurs de l’aide humanitaire compétents présentent un intérêt pour l’efficacité des interventions humanitaires, et encourage les organismes des Nations Unies à continuer de s’employer à renforcer leurs partenariats au niveau mondial avec le Mouvement international de la Croix-Rouge et du Croissant-Rouge, les organisations non gouvernementales humanitaires compétentes, les autres membres du Comité permanent interorganisations et d’autres parties prenantes compétentes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de continuer à renforcer l’appui apporté aux coordonnateurs résidents et coordonnateurs de l’action humanitaire, ainsi qu’aux équipes de pays des Nations Unies, notamment en leur dispensant la formation nécessaire, en mobilisant des ressources et en améliorant les procédures de recherche et de sélection des coordonnateurs résidents et coordonnateurs de l’action humanitaire, ainsi qu’à les rendre davantage comptables de leur action ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à la Présidente du Groupe des Nations Unies pour le développement durable et au Coordonnateur des secours d’urgence de continuer d’approfondir leurs consultations avant de formuler des recommandations définitives au sujet de la procédure de sélection des coordonnateurs résidents affectés dans des pays où d’importantes opérations humanitaires risquent d’être nécessaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> les organismes des Nations Unies de continuer à rechercher des solutions propres à renforcer leur capacité de recruter et de déployer, rapidement et avec la flexibilité voulue, du personnel humanitaire de haut niveau, compétent et expérimenté, la considération primordiale étant la nécessité de s’attacher les services de personnes possédant les plus hautes qualités de travail, de compétence et d’intégrité, compte étant dûment tenu des principes de l’égalité des sexes et du recrutement sur une base géographique aussi large que possible, et encourage à cet égard le Groupe des Nations Unies pour le développement durable à continuer de renforcer le système des coordonnateurs résidents, sur lequel s’appuie le système des coordonnateurs de l’action humanitaire, en garantissant notamment la mise en œuvre intégrale du système de gestion et de responsabilisation du Groupe et du système des coordonnateurs résidents ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Sait</span> que la diversité du personnel humanitaire est un atout pour l’action humanitaire et la compréhension de la situation des pays en développement, et prie le Secrétaire général de se pencher plus avant sur le manque de diversité dans la répartition géographique et sur la question de la représentation équilibrée des hommes et des femmes dans le personnel humanitaire du Secrétariat et des organismes d’aide humanitaire des Nations Unies, en particulier dans la catégorie des administrateurs et des fonctionnaires de rang supérieur, et de lui rendre compte des mesures concrètes prises à cet égard dans son rapport annuel ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> que la responsabilité est un élément à part entière de l’efficacité de l’aide humanitaire, et souligne qu’il faut responsabiliser davantage les intervenants humanitaires à tous les stades ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_145" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_145__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres à continuer en priorité de prévenir les actes de violence sexuelle et de violence fondée sur le genre dans les crises humanitaires, d’intervenir, d’enquêter et de traduire en justice les auteurs de tels actes, demande aux États Membres et aux organisations concernées d’améliorer la coordination de leurs activités, de renforcer leurs capacités, de veiller à ce que la prévention de la violence sexuelle et de la violence fondée sur le genre et la réduction des risques en la matière soient intégrées aux secours humanitaires et à ce que des données ventilées par âge et par sexe y soient utilisées davantage, et de renforcer les services de soutien aux victimes, aux rescapés de ces violences et aux autres personnes touchées dès les premiers stades de l’intervention, en tenant compte des besoins particuliers et spéciaux des victimes qui découlent des conséquences des violences qu’elles ont subies, et prend note de l’initiative Appel à l’action ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il est d’une importance cruciale de protéger toutes les personnes touchées par les crises humanitaires, en particulier les femmes et les enfants, de toute forme d’exploitation et d’atteintes sexuelles, notamment de celles commises par le personnel humanitaire, constate avec satisfaction que le Secrétaire général est déterminé à mettre en œuvre en tous points la politique de tolérance zéro de l’Organisation des Nations Unies à l’égard de l’exploitation et des atteintes sexuelles, souligne que les victimes et les rescapés doivent être au cœur des efforts déployés, prend note de l’adoption par le Comité permanent interorganisations des six principes fondamentaux concernant l’exploitation et les atteintes sexuelles<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/57/465">A/57/465</a>, annexe I, par. 10 a).</p></authorialNote>, et encourage les États Membres à redoubler d’efforts pour prévenir et combattre l’exploitation et les atteintes sexuelles et amener les auteurs à répondre de leurs actes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>les États Membres à continuer de s’employer à prévenir les violations et atteintes commises contre des enfants, notamment l’exploitation, dans les crises humanitaires, à intervenir, à enquêter et à traduire en justice les auteurs de tels actes, demande aux États Membres et aux organisations concernées de renforcer les services de soutien aux enfants touchés par des crises humanitaires, y compris ceux qui ont été victimes de violences et d’exactions, et appelle à cet égard de ses vœux des interventions plus efficaces et inspirées par les droits de l’enfant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_193" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_193__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’il importe d’appliquer le Cadre de Sendai pour la réduction des risques de catastrophe (2015‑2030) afin de réduire considérablement les risques de catastrophe, de pertes en vies humaines et en moyens de subsistance, de dégâts sanitaires et de pertes d’actifs économiques, matériels, sociaux, culturels et environnementaux de personnes, d’entreprises, de populations et de pays, et souligne qu’il importe de s’attaquer aux facteurs de risque sous-jacents, de se pencher sur les effets des changements climatiques et de concevoir l’aide humanitaire dans l’optique de la réduction des risques de catastrophe afin d’écarter les nouveaux risques et de réduire ceux qui existent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres, aux organismes des Nations Unies et aux organisations d’aide humanitaire et de développement concernées de continuer d’appuyer, dans la mesure du possible, les investissements pluriannuels dans les capacités de préparation, d’intervention et de coordination, et de renforcer à tous les niveaux les capacités des pouvoirs publics, notamment des autorités locales, et celles des organisations et des populations, en particulier dans les collectivités exposées aux catastrophes, afin de mieux les préparer à celles-ci, de réduire les risques de catastrophe et les risques de déplacement de populations en cas de catastrophe, d’améliorer leur résilience et de leur donner les moyens d’intervenir et de se relever en cas de catastrophe et de reconstruire en mieux après, et demande à tous les intervenants intéressés de compléter, plutôt que de remplacer ou de déplacer, les capacités nationales d’intervention en cas de crise, en particulier quand ces crises sont prolongées ou récurrentes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_230" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_230__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres et à la communauté internationale de fournir, en temps voulu et de façon durable, des ressources suffisantes aux fins de la réduction des risques de catastrophe, en vue de renforcer la résilience et de diminuer les risques de déplacement de populations en cas de catastrophe, de dégradation de l’environnement et de changements climatiques, notamment en mettant en place des programmes d’aide humanitaire et de développement complémentaires et en renforçant encore les capacités nationales et locales de prévenir les situations d’urgence humanitaire, de s’y préparer et d’intervenir, et souhaite que les acteurs nationaux et les organisations d’aide humanitaire et de développement resserrent leurs liens de coopération à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>les États Membres, les organismes humanitaires des Nations Unies, les organisations régionales, les organisations non gouvernementales, le secteur privé et les autres agents de l’action humanitaire à renforcer leurs mesures de préparation et leurs capacités d’intervention face aux épidémies de maladies infectieuses qui déclenchent des crises humanitaires ou les intensifient, notamment en appliquant intégralement le Règlement sanitaire international de 2005, et demande aux organismes humanitaires des Nations Unies et aux organisations d’aide humanitaire d’intervenir rapidement, en se fondant sur la procédure d’activation du niveau 3 en cas de maladies infectieuses dans des contextes de crise humanitaire, en étroite coordination avec les pays touchés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_271" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_271__content">
+          <p xml:space="preserve">	<span class="italic">Appelle</span> au renforcement des approches nationales et multilatérales et de la coopération internationale, telles que le Dispositif pour accélérer l’accès aux outils de lutte contre la COVID‑19 (Accélérateur ACT) et son mécanisme COVAX, et d’autres initiatives pertinentes, afin de permettre un accès juste, équitable, rapide et abordable à des vaccins et des traitements contre la COVID‑19 et à des tests de diagnostic sûrs, de qualité, efficaces et performants, afin de prévenir et d’endiguer la transmission pour mettre fin à la pandémie, tout en notant également qu’il est important que soient mis en œuvre des programmes de vaccination inclusifs à l’échelle nationale, qui couvrent les personnes déplacées à l’intérieur de leur propre pays, les migrants et les réfugiés, et engage les entités des Nations Unies et les autres parties prenantes à soutenir les États Membres, notamment les pays accueillant des réfugiés et les pays d’origine, en pleine coordination avec leur gouvernement national ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_293" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_293__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres, aux organismes des Nations Unies et aux autres organisations compétentes, selon qu’il conviendra, de lutter contre les maladies non transmissibles et leurs facteurs de risque et de traiter les personnes vivant avec ces maladies dans les situations d’urgence humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_316" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_316__content">
+          <p xml:space="preserve">	<span class="italic">Souhaite</span> que les acteurs du développement et les acteurs humanitaires resserrent leurs liens de coopération, en coordination avec les États Membres, pour que tous les intervenants travaillent ensemble, conformément à leur mandat, à l’accomplissement de réalisations collectives, afin de réduire les besoins, les vulnérabilités et les risques pour de nombreuses années, sur la base d’une compréhension partagée du contexte et en fonction des atouts opérationnels de chaque intervenant, à l’appui des priorités nationales, tout en respectant pleinement les principes humanitaires de l’action humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_340" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_340__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les acteurs de l’aide humanitaire et du développement à fixer, le cas échéant, des objectifs communs de gestion des risques et de résilience, qu’ils pourront réaliser moyennant des activités conjointes d’analyse et la mise en place de cycles pluriannuels de programmation et de planification ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_365" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_365__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les organismes des Nations Unies et les organisations d’aide humanitaire et de développement à continuer de s’efforcer d’intégrer systématiquement des activités relatives à la préparation et aux interventions et au relèvement rapides dans leurs programmes, considère que ces activités devraient bénéficier de fonds supplémentaires, et engage à cet égard tous ces acteurs à fournir, en temps voulu, des ressources suffisantes, prévisibles et utilisables avec souplesse, en recourant notamment aux budgets d’aide humanitaire et de développement, en tant que de besoin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> les États Membres, les organismes des Nations Unies et les autres organisations compétentes de prendre des mesures supplémentaires pour répondre d’urgence et de manière coordonnée aux besoins alimentaires et nutritionnels des populations touchées, tout en veillant à ce que ces mesures viennent étayer les stratégies et programmes nationaux visant à améliorer la sécurité alimentaire et la nutrition ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_418" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_418__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux États Membres, aux parties à un conflit armé, aux organismes des Nations Unies, aux organisations d’aide humanitaire et de développement et aux autres acteurs compétents de renforcer d’urgence leurs mesures visant à prévenir la famine et à réduire et à combattre l’insécurité alimentaire aiguë, qui est aggravée par les effets de la pandémie de COVID‑19, et, grâce aux alertes rapides et à des analyses multisectorielles, de combattre, de prévenir et d’anticiper efficacement et sans plus attendre la montée de l’insécurité alimentaire mondiale qui touche des millions de personnes, en particulier les personnes en proie à la famine ou à un risque immédiat de famine, notamment en renforçant la coopération humanitaire et la coopération en faveur du développement et en débloquant des fonds d’urgence pour pourvoir aux besoins des populations touchées, souligne la nécessité de s’attaquer à l’insécurité alimentaire, notamment en respectant le droit international humanitaire, en investissant dans l’aide humanitaire et la protection tenant compte des questions de genre, les moyens de subsistance, l’adaptation aux changements climatiques et l’atténuation de leurs effets, la santé, l’eau, l’assainissement et l’hygiène, la nutrition, les systèmes alimentaires durables, l’accès à une alimentation saine, l’énergie, la réduction de la pauvreté et la lutte contre les inégalités, y compris les inégalités entre les sexes, et en prévoyant le règlement pacifique des conflits armés, encourage le renforcement des efforts visant à donner aux femmes rurales les moyens d’agir en tant qu’actrices essentielles de la sécurité alimentaire et de l’amélioration de la nutrition, ainsi qu’à prévenir et à combattre les mécanismes d’adaptation négatifs, compte tenu de leur impact disproportionné sur les femmes et les enfants, et demande aux États Membres et aux parties aux conflits armés de respecter le droit international humanitaire et de garantir un accès sûr et sans entrave à l’aide humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_446" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_446__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> l’utilisation de la famine comme méthode de guerre, prohibée par le droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_475" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_475__content">
+          <p xml:space="preserve">	<span class="italic">S’inquiète </span>des problèmes de sécurité d’accès qui se posent notamment à propos du combustible, du bois de feu et d’autres sources d’énergie, de l’eau et de l’assainissement, du logement, de la nourriture et des soins de santé, y compris les services de santé mentale et de soutien psychosocial, et de l’usage qui en est fait, dans les situations d’urgence humanitaire, et prend note avec satisfaction des initiatives nationales et internationales, notamment de celles axées sur la recherche et l’adoption systématiques de méthodes novatrices et la mise en commun des pratiques optimales, qui contribuent à l’efficacité de la coopération à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_505" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_505__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>la communauté internationale, y compris les organismes des Nations Unies compétents et la Fédération internationale des sociétés de la Croix‑Rouge et du Croissant-Rouge, à appuyer les activités que les États Membres entreprennent pour renforcer leurs capacités de préparation et d’intervention en cas de catastrophe et, en tant que de besoin, les initiatives prises pour améliorer les systèmes, plus particulièrement les systèmes d’alerte rapide, permettant de détecter et de surveiller les risques de catastrophe, y compris les facteurs de vulnérabilité et les risques naturels, et tout particulièrement pour améliorer nettement l’accès des populations aux dispositifs d’alerte rapide multirisque ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_536" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_536__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> du nombre croissant d’États Membres et d’organisations régionales qui ont pris des mesures pour promouvoir l’application des Lignes directrices relatives à la facilitation et à la réglementation nationales des opérations internationales de secours et d’assistance au relèvement initial en cas de catastrophe, encourage les autres à faire de même, selon qu’il conviendra, et salue l’appui précieux que les sociétés nationales de la Croix-Rouge et du Croissant-Rouge fournissent à leurs gouvernements à cet égard, en collaboration avec la Fédération internationale des sociétés de la Croix-Rouge et du Croissant-Rouge, le Bureau de la coordination des affaires humanitaires et d’autres partenaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_568" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_568__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États à créer des conditions propices au renforcement des capacités des autorités locales et des organisations non gouvernementales et communautaires nationales et locales, en vue de mieux les préparer à apporter en temps voulu une aide efficace et prévisible, et engage les organismes des Nations Unies et les autres organisations compétentes à soutenir ces efforts, notamment, selon qu’il conviendra, dans le contexte du Cadre commun pour la préparation aux catastrophes du Comité permanent interorganisations, du Groupe des Nations Unies pour le développement durable et de la Stratégie internationale de prévention des catastrophes, par des transferts de technologie, selon des modalités arrêtées d’un commun accord, et de compétences aux pays en développement et par un appui ayant pour objet de développer les capacités de coordination des États touchés et de renforcer les moyens de ces derniers en matière de science et de technologie ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_601" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_601__content">
+          <p xml:space="preserve">	<span class="italic">Constate</span> que les catastrophes, y compris celles liées aux effets néfastes des changements climatiques, gagnent en nombre et en ampleur, ce qui dans certains cas peut entraîner des déplacements de populations et exercer des pressions supplémentaires sur les communautés d’accueil, encourage les États Membres, les organismes des Nations Unies et les organisations et parties concernées à redoubler d’efforts pour répondre aux besoins des personnes déplacées par des catastrophes, notamment celles causées par les changements climatiques, et note à cet égard qu’il importe de mettre en commun les pratiques optimales pour prévenir ces déplacements et s’y préparer ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_635" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_635__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres, aux organismes des Nations Unies et aux organisations d’aide humanitaire de fournir une aide d’urgence selon des modalités qui contribuent, selon qu’il conviendra, au relèvement et au développement à long terme, y compris grâce à un financement pluriannuel et en recourant en priorité aux moyens d’action humanitaire qui renforcent la résilience, notamment, mais non exclusivement, aux transferts de fonds, aux achats locaux de produits alimentaires et de services, notamment pour les programmes d’alimentation scolaire, et aux filets de protection sociale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_670" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_670__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres et les fonds et programmes des Nations Unies ainsi que les institutions spécialisées à répondre plus efficacement aux besoins dans les contextes humanitaires, notamment en donnant plus d’ampleur aux politiques de protection sociale et aux mécanismes de transfert de fonds, chaque fois que possible, y compris aux programmes d’aide à objectifs multiples en espèces, selon qu’il conviendra, afin de pouvoir répondre avec davantage de souplesse aux besoins humanitaires des personnes touchées, d’appuyer le développement des marchés locaux et de renforcer les capacités nationales et locales, et demande à cet égard aux organismes humanitaires des Nations Unies de continuer de se donner les moyens d’envisager l’aide sous forme d’espèces de manière systématique, au même titre que d’autres formes d’aide humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_706" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_706__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres, les organismes des Nations Unies et les autres organisations compétentes à accélérer et à assouplir, si possible, le financement de la préparation aux catastrophes, de l’action précoce, des interventions rapides et du prompt relèvement, et encourage à cet égard l’étude, l’élaboration et, le cas échéant, le renforcement de mécanismes et de démarches novateurs et préventifs, tels que le financement fondé sur les prévisions et l’assurance contre les risques de catastrophe, afin de limiter les conséquences des catastrophes et de répondre aux besoins humanitaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_743" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_743__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États, ainsi que les organismes des Nations Unies et les organisations humanitaires, agissant dans le cadre de leur mandat et conformément aux principes humanitaires, en tirant les enseignements de l’expérience de la pandémie de COVID‑19, à continuer de miser sur les stratégies d’anticipation, les systèmes d’alerte précoce et d’action rapide, les prévisions, les réponses axées sur la prévention et la préparation aux situations d’urgence, et à améliorer l’analyse des données prédictives et des données sur les risques dans tous les secteurs, à renforcer les capacités systématiques de surveillance des risques, d’alerte précoce et de préparation aux niveaux local, national, régional et mondial, y compris, entre autres, celles qui sont associées aux risques sanitaires et aux épidémies, et prend note des cadres et initiatives pertinents des Nations Unies relatifs à la préparation aux situations d’urgence sanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_781" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_781__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> des efforts faits par les États Membres, le système des Nations Unies et la communauté internationale pour renforcer la préparation aux catastrophes et leurs capacités d’intervention humanitaire aux niveaux local, national et régional, demande aux organismes des Nations Unies et aux partenaires intéressés d’aider les États Membres à renforcer leurs capacités, et prie ces derniers de continuer à contribuer aux fonds de financement commun de l’action humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_820" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_820__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres et invite les organisations d’aide humanitaire compétentes à collaborer étroitement avec les institutions nationales, y compris les administrations locales et le secteur privé, selon qu’il conviendra, pour rechercher des moyens efficaces et adaptés au contexte qui permettent d’améliorer la préparation aux situations d’urgence, de plus en plus nombreuses, en milieu urbain et d’assurer les interventions et le relèvement dans les zones touchées, ce qui peut avoir une incidence sur la fourniture de services essentiels vitaux tels que l’eau, l’énergie et les soins de santé ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_860" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_860__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> le droit à l’éducation pour tous et l’importance qu’il y a, dans les situations d’urgence humanitaire, à assurer la sécurité des établissements scolaires, à mettre en place des conditions propices à l’apprentissage et à dispenser un enseignement de qualité à tous les niveaux, y compris pour les filles, en offrant, lorsque cela est possible, une formation technique et professionnelle, grâce à un financement adéquat et à des investissements dans les infrastructures, pour le bien‑être de tous, estime à cet égard que l’accès à un enseignement de qualité dans les situations d’urgence humanitaire peut contribuer à la réalisation des objectifs de développement à long terme, réaffirme qu’il faut protéger et respecter les établissements d’enseignement, conformément aux dispositions du droit international humanitaire, condamne fermement toutes les attaques dirigées contre des écoles ainsi que l’utilisation des écoles à des fins militaires au mépris de ces dispositions, et encourage les efforts déployés en vue de favoriser la sécurité et la protection des établissements scolaires en cas de situations d’urgence humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_901" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_901__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> les États Membres, les organismes des Nations Unies et les acteurs humanitaires compétents d’appuyer davantage les programmes et les interventions humanitaires en faveur d’une éducation sûre, inclusive, équitable et de qualité à tous les niveaux et à tous les âges, de manière à atténuer les effets directs et indirects de la fermeture d’écoles et d’autres établissements d’enseignement due, entre autres, à la pandémie de COVID‑19, afin de contribuer à assurer la continuité des services éducatifs, en particulier pour les femmes et les enfants, notamment les filles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_943" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_943__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> le Bureau de la coordination des affaires humanitaires et d’autres organismes des Nations Unies à continuer de coopérer avec les États Membres et les entités des Nations Unies compétentes pour faciliter les échanges d’informations à jour, exactes et fiables, notamment sous forme de données ventilées, harmonisées et compréhensibles pour tous, afin d’améliorer l’évaluation et l’analyse des besoins et, par conséquent, la préparation aux catastrophes et les interventions humanitaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_986" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_986__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux organismes des Nations Unies compétents de contribuer à améliorer le cycle des programmes d’action humanitaire, en particulier l’élaboration d’outils d’évaluation concertée et détaillée des besoins tels que l’outil d’évaluation multisectorielle initiale rapide, la réalisation conjointe et immédiate d’analyses impartiales des besoins et la création de plans prioritaires d’intervention humanitaire en consultation avec les États touchés, afin de renforcer la coordination de l’action humanitaire pour répondre aux besoins des populations en situation d’urgence humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1030" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1030__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à allouer et à décaisser en temps voulu des fonds pour le financement de l’action humanitaire en répondant aux appels humanitaires lancés par l’Organisation des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1075" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1075__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres et les organismes des Nations Unies compétents à envisager des mécanismes novateurs de partage des risques et à financer la gestion du risque sur la base de données objectives ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1121" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1121__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les organismes des Nations Unies et les organisations d’aide humanitaire à rationaliser davantage la fourniture de l’aide en réduisant les coûts de gestion, en harmonisant les accords de partenariat, en assurant la transparence et la comparabilité des structures de coûts et en renforçant les mesures en faveur d’une plus grande responsabilisation grâce à l’adoption de nouvelles dispositions destinées à réduire la fraude, le gaspillage et les malversations, et à trouver des moyens de diffuser les rapports d’incident et d’autres informations entre les organismes des Nations Unies, selon qu’il conviendra ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1168" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1168__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> les États Membres, les organismes humanitaires des Nations Unies concernés et les autres intervenants humanitaires intéressés de promouvoir l’égalité des genres et l’autonomisation des femmes dans tous les volets de l’action humanitaire, de prendre des mesures propres à assurer la pleine participation des femmes, des filles, des hommes et des garçons, y compris les personnes handicapées et les personnes âgées, à tous les stades de la prise de décisions, selon qu’il conviendra, afin, notamment, de réduire les inégalités entre les genres et de faire en sorte que l’aide humanitaire soit éclairée, adaptée, appropriée et efficace, et de prendre en considération les besoins, les vulnérabilités et les capacités propres aux femmes, aux filles, aux hommes et aux garçons, en tenant compte de l’âge et du handicap, dans l’établissement des évaluations des besoins et la mise en œuvre de tous les programmes, notamment en s’employant à assurer l’accès à l’éventail complet des services médicaux, juridiques, psychosociaux et matériels, sans discrimination, et encourage à cet égard ce qui est fait pour prendre en compte les questions de genre, notamment dans la collecte et l’analyse de données ventilées, l’analyse des allocations et la mise en œuvre des programmes, et par un usage plus systématique du marqueur genre et âge ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1216" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1216__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> que les femmes peuvent jouer un grand rôle dans les premières opérations de secours, et invite les États Membres, les organismes des Nations Unies et les autres organisations d’aide humanitaire compétentes à favoriser la présence de femmes à des postes de responsabilité et leur participation véritable à la planification et à la mise en œuvre des stratégies d’intervention, notamment en consolidant les partenariats avec les institutions nationales et locales et en renforçant les capacités de celles-ci, y compris les associations de défense des droits des femmes et les autres acteurs de la société civile, selon qu’il conviendra ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1265" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1265__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres, aux organismes humanitaires des Nations Unies concernés et aux autres intervenants humanitaires intéressés de veiller à ce que les personnes handicapées ne soient pas victimes de discrimination et puissent participer, sur un pied d’égalité avec les autres, à la préparation et à l’organisation des interventions humanitaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1315" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1315__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux organismes des Nations Unies et aux organisations d’aide humanitaire et de développement, agissant en coordination avec les États Membres, de dialoguer avec toutes les personnes touchées par des catastrophes et des crises, en particulier avec celles qui y sont le plus exposées, notamment en menant des activités de communication, en les faisant participer aux processus qui les concernent, en appuyant les efforts faits pour répondre à leurs différents besoins et en renforçant leurs capacités à cet effet, compte tenu, selon qu’il conviendra, de leur culture, de leurs traditions et de leurs coutumes locales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1366" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1366__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux organismes humanitaires des Nations Unies d’étoffer, en consultant, s’il y a lieu, les États Membres, la base de données de faits sur laquelle repose l’aide humanitaire, en perfectionnant les mécanismes communs et les méthodes de travail afin d’améliorer la qualité, la transparence, la fiabilité, la compatibilité et la comparabilité des évaluations communes des besoins humanitaires et des données et analyses relatives aux besoins, notamment en améliorant la collecte, l’analyse et la communication de données ventilées selon le sexe, l’âge et le handicap et en tenant compte de l’impact sur l’environnement, pour mesurer l’efficacité de l’aide apportée et veiller à ce que les ressources humanitaires dont ils disposent soient employées au mieux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1418" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1418__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux organismes des Nations Unies et à leurs partenaires de l’action humanitaire de mieux rendre compte de leurs activités aux États Membres, y compris les États touchés, et à toutes les autres parties prenantes, y compris les administrations locales, les organisations locales compétentes et d’autres acteurs, ainsi que les populations touchées, et de renforcer encore les interventions humanitaires, notamment en surveillant et en évaluant la fourniture de l’aide humanitaire, en tenant compte, dans la programmation, des enseignements tirés de l’expérience et en consultant les populations touchées en ce qui concerne la planification et la mise en œuvre de l’action humanitaire, et en redoublant d’efforts à cet égard, de manière à bien évaluer leurs besoins pour y répondre efficacement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1471" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1471__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux États Membres, aux organismes des Nations Unies et aux organisations d’aide humanitaire de trouver de meilleurs moyens de remédier au manque croissant de capacités et de ressources, afin de répondre véritablement aux besoins des populations touchées, notamment en harmonisant et, si possible, en simplifiant les exigences en matière d’établissement de rapports, en assouplissant le financement humanitaire, ce qui passe notamment par la réduction des crédits préaffectés, en limitant encore, autant que faire se peut, le dédoublement des coûts et en tirant un meilleur parti de l’innovation dans l’action humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1525" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1525__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux donateurs de fournir en temps voulu des ressources suffisantes, prévisibles et utilisables avec souplesse, sur la base et en proportion des besoins établis par l’évaluation, et de mobiliser un appui pour faire face aux situations d’urgence méconnues ou recevant un financement insuffisant, d’envisager de prendre très tôt des engagements pluriannuels de contribution à des fonds humanitaires communs, notamment le Fonds central pour les interventions d’urgence et les fonds de financement commun, et de continuer à alimenter divers circuits de financement de l’action humanitaire, encourage les efforts faits pour respecter les Principes et bonnes pratiques d’action humanitaire<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/58/99">A/58/99‑E/2003/94</a>, annexe II.</p></authorialNote> et améliorer la répartition de la charge entre les donateurs, et engage à cet égard le secteur privé, la société civile et les autres entités intéressées à fournir les contributions voulues pour compléter celles qui proviennent d’autres sources ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1580" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1580__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de tout ce qu’a fait le Fonds central pour les interventions d’urgence pour améliorer la rapidité et la prévisibilité des interventions en cas d’urgence humanitaire, souligne qu’il importe de continuer d’améliorer le fonctionnement du Fonds, et encourage à cet égard les fonds et programmes des Nations Unies ainsi que les institutions spécialisées à examiner et à évaluer, au besoin, leurs politiques et leurs pratiques en matière de partenariats pour que les ressources du Fonds soient versées en temps utile aux partenaires d’exécution, afin qu’elles soient employées de la manière la plus efficace, rationnelle, responsable et transparente possible ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1636" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1636__content">
+          <p xml:space="preserve">
+            <span class="italic">	Engage</span> tous les États Membres, et invite le secteur privé et toutes les personnes et institutions intéressées, à envisager d’accroître leurs contributions volontaires au Fonds central pour les interventions d’urgence afin de porter le financement annuel à un milliard de dollars des États‑Unis et à continuer de renforcer ce mécanisme mondial de financement des interventions pour les urgences humanitaires, et souligne qu’il faut élargir et diversifier les sources de financement du Fonds et que les contributions ainsi versées devraient s’ajouter aux engagements déjà pris en faveur des programmes humanitaires et non pas venir en déduction des ressources affectées à la coopération internationale pour le développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1693" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1693__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres et les parties concernées à mobiliser des ressources pour appuyer les plans de réponse humanitaire, qui permettent de faire face à la pandémie de COVID‑19 et à ses conséquences, en soulignant l’importance de financements rapides, souples, prévisibles, adéquats et efficaces et le fait qu’il faut soutenir le Fonds central d’intervention d’urgence et les fonds de financement commun, qui ont joué un rôle clef dans la réponse humanitaire face à la pandémie de COVID‑19, demande aux organismes des Nations Unies et aux partenaires compétents de continuer à veiller à ce que les besoins humanitaires les plus critiques soient considérés comme prioritaires, afin que ces efforts ne remplacent ni ne détournent les ressources des besoins humanitaires préexistants, et encourage les efforts déployés pour faire œuvre de transparence en expliquant où et comment des résultats concrets sont obtenus au moyen des fonds fournis ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1751" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1751__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres, le secteur privé ainsi que toutes les personnes et institutions concernées à envisager d’accroître leurs contributions volontaires aux fonds de financement commun et, selon qu’il conviendra, à d’autres mécanismes de financement commun afin de faciliter la fourniture de l’aide humanitaire aux populations qui en ont besoin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1810" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1810__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux États Membres qui sont en mesure de le faire et aux partenaires de développement et d’aide humanitaire d’envisager, dans les efforts qu’ils font pour mobiliser des ressources avec souplesse, des moyens de mieux prendre en compte systématiquement les questions de préparation aux catastrophes et de renforcement de la résilience dans les activités d’aide humanitaire et d’aide au développement, notamment d’aide à la reconstruction et au relèvement, afin qu’entre autres, le passage de la phase des secours à celle du développement se fasse sans heurt ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1870" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1870__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à tous les États Membres qui sont en mesure de le faire d’accroître leurs contributions volontaires destinées aux situations d’urgence humanitaire, notamment en y allouant, avec la souplesse voulue, des fonds non préaffectés et versés sur plusieurs années lorsque cela est possible, réaffirme à cet égard que le Bureau de la coordination des affaires humanitaires devrait bénéficier de ressources financières suffisantes et plus prévisibles, et souligne qu’il importe que le Bureau dispose en temps voulu d’un financement suffisant, fourni à titre volontaire, avec la souplesse nécessaire, pour pouvoir exécuter son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1931" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1931__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à veiller, en coopération avec les organismes humanitaires des Nations Unies compétents, à ce que les besoins humanitaires de base des populations touchées, notamment pour ce qui est de l’eau potable, de l’alimentation, du logement, des soins de santé, y compris en matière de sexualité et de procréation, de l’éducation et de la protection, de l’énergie, des technologies de l’information et des communications, lorsque cela est possible, soient pris en compte dans l’action humanitaire, notamment en fournissant, en temps opportun, des ressources suffisantes, tout en faisant en sorte que leur mobilisation collective respecte strictement les principes humanitaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1993" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1993__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourage également</span> les États Membres à veiller, en coopération avec les organismes humanitaires des Nations Unies compétents, à ce que les femmes et les filles bénéficient, dès le début des situations d’urgence, de services de soins de santé de base, y compris d’un accès fiable et sans risque aux services de soins de santé sexuelle et procréative, de soins de santé mentale et de soutien psychosocial, estime à cet égard que cette aide protège les femmes, les adolescentes et les nourrissons contre des maladies ou des décès évitables lors des situations d’urgence humanitaire, et demande aux États Membres, aux organismes des Nations Unies et aux autres acteurs intéressés d’accorder à ces programmes l’attention qu’ils méritent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2056" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2056__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres et les organisations humanitaires à intégrer les risques en matière de protection et de santé, en tant que composantes de l’action humanitaire, dans l’évaluation de la situation humanitaire et la planification, la mise en œuvre, le suivi et l’évaluation des interventions humanitaires, et à redoubler d’efforts pour renforcer les systèmes locaux et nationaux, les capacités et les communautés et les acteurs locaux, y compris les organisations dirigées par des femmes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2120" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2120__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres, les organismes des Nations Unies et les organisations humanitaires à redoubler d’efforts pour fournir et financer des services intersectoriels de soutien psychosocial et de santé mentale de qualité, adaptés au contexte, tenant compte des questions de genre et respectueux des droits humains, à veiller à ce que ces services soient intégrés dans les évaluations des besoins humanitaires et les programmes humanitaires de préparation, d’intervention et de relèvement, afin de répondre aux besoins de toutes les populations touchées dans des contextes humanitaires, et d’appuyer les efforts déployés à l’échelle locale et communautaire, qui seront d’autant plus importants pour atténuer les conséquences psychologiques supplémentaires subies dans le contexte de la pandémie de COVID‑19 et y faire face, et demande aux organismes des Nations Unies et à toutes les organisations humanitaires concernées d’accroître en conséquence les capacités de soutien psychosocial et de santé mentale, et de faire rapport sur les programmes de soutien psychosocial et de santé mentale et sur le financement des activités à l’appui du rétablissement et de la résilience de toutes les personnes touchées en matière de santé mentale et de bien-être psychosocial, tout en reconnaissant les effets de la maladie sur le personnel humanitaire et les volontaires ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2185" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2185__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres, les organismes des Nations Unies et les organisations d’aide humanitaire à continuer de collaborer pour cerner les différents besoins des populations touchées, notamment des plus vulnérables, en matière de protection dans les situations de crise humanitaire et y répondre, et de veiller à ce qu’il en soit dûment tenu compte dans les activités relatives à la préparation, aux interventions et au relèvement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2251" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2251__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres ainsi que les organismes et acteurs compétents à mesurer les conséquences que les situations d’urgence humanitaire engendrent pour les migrants, en particulier pour ceux qui sont en situation de vulnérabilité, à y parer et à mieux coordonner les efforts déployés à l’échelle internationale en vue de leur assurer aide et protection, de concert avec les autorités nationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2318" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2318__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à prendre des mesures pour garantir au niveau international la protection et le respect des droits des réfugiés, notamment du principe de non-refoulement et des normes de traitement adéquates, conformément au droit international, y compris, lorsqu’il y a lieu, la Convention de 1951 relative au statut des réfugiés<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 189, n<sup>o</sup> 2545.</p></authorialNote> et les obligations internationales en matière de droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2386" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2386__content">
+          <p xml:space="preserve">	<span class="italic">Sait</span> l’importance que revêt le fait d’immatriculer rapidement et efficacement les populations concernées, qui constitue un outil de protection et un moyen de quantifier et d’évaluer les besoins aux fins de la fourniture et de la distribution de l’aide humanitaire, note que les réfugiés qui se retrouvent sans aucun document d’identité attestant leur statut font face à des difficultés nombreuses et variées, et souligne qu’il importe de renforcer l’application du principe de responsabilité pour veiller à ce que l’aide humanitaire parvienne à celles et à ceux à qui elle est destinée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2455" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2455__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>l’obligation qui incombe à tous les États et à toutes les parties à un conflit armé de protéger les civils, comme le prévoit le droit international humanitaire, encourage les États qui sont parties à un conflit armé à prendre toutes les mesures nécessaires pour améliorer la protection des civils, et invite tous les États à promouvoir une culture de la protection, en prenant en considération les besoins particuliers des femmes, des filles, des garçons et des hommes, des personnes âgées et des personnes handicapées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2525" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2525__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres à continuer de prendre les dispositions nécessaires pour assurer la protection des blessés et des malades, ainsi que la sûreté et la sécurité du personnel médical et des agents humanitaires dont l’activité est d’ordre exclusivement médical, et celles de leurs installations, de leur matériel, de leurs moyens de transport et de leurs fournitures, y compris par l’adoption de mesures efficaces visant à prévenir et à combattre les actes de violence, les attaques et les menaces dont ils font l’objet, réaffirme à cet égard que les États doivent veiller à ce que les auteurs de violations du droit international humanitaire ne restent pas impunis, exhorte les États à enquêter de manière approfondie, rapide, impartiale et efficace sur les violations du droit international humanitaire relevant de leur compétence, en vue d’amener les auteurs à répondre de leurs actes, conformément aux législations nationales et aux obligations nées du droit international, et à veiller à ce que les blessés et les malades reçoivent, dans toute la mesure possible et dans les plus brefs délais, les soins médicaux et l’attention nécessaires, et note les règles du droit international humanitaire selon lesquelles nul ne peut être puni pour avoir exercé une activité de caractère médical conforme à la déontologie ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2596" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_2596__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte également</span> les États Membres à continuer de prendre les mesures nécessaires pour assurer la sûreté et la sécurité des membres du personnel humanitaire, ainsi que celles des installations, du matériel, des moyens de transport et des fournitures dont ils disposent, y compris par l’adoption de mesures efficaces visant à prévenir et à combattre les actes de violence, les attaques et les menaces dont ils font l’objet, prie le Secrétaire général d’accélérer la mise en œuvre des initiatives qu’il a prises en faveur du renforcement de la sûreté et de la sécurité du personnel participant aux opérations humanitaires des Nations Unies, réaffirme à cet égard que les États doivent veiller à ce que les auteurs de violations du droit international humanitaire ne restent pas impunis, exhorte les États à enquêter de manière approfondie, rapide, impartiale et efficace sur les violations du droit international humanitaire relevant de leur compétence, en vue d’amener les auteurs à répondre de leurs actes, conformément aux législations nationales et aux obligations nées du droit international, et exhorte les États Membres à redoubler d’efforts pour garantir la sûreté et la sécurité du personnel humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2668" class="SingleTxt">
+        <num>73.</num>
+        <content eId="para_2668__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que les États ont la responsabilité de prévenir et de combattre efficacement les violences faites aux populations civiles en période de conflit armé, de se conformer aux obligations que leur impose le droit international pour mettre fin à l’impunité et de veiller à ce que les responsables de telles violations soient promptement traduits en justice, dans le respect de la législation nationale et des obligations que leur fait le droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2741" class="SingleTxt">
+        <num>74.</num>
+        <content eId="para_2741__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à tous les États et à toutes les parties concernées par des situations d’urgence humanitaire complexes, en particulier pendant ou après un conflit armé, dans des pays où intervient du personnel humanitaire, de coopérer pleinement, conformément aux dispositions applicables du droit international et de la législation nationale, avec les organismes des Nations Unies et les autres organisations d’aide humanitaire et de garantir au personnel humanitaire et médical, notamment celui qui intervient dans le cadre de la pandémie de COVID‑19, un accès sûr et sans entrave aux populations civiles touchées, y compris les réfugiés et les déplacés, et la possibilité d’acheminer moyens de transports, fournitures et matériel, et de soutenir, de faciliter et d’autoriser le transport et les lignes de ravitaillement, de sorte que ce personnel puisse remplir efficacement sa mission auprès de ces populations, et exhorte toutes les parties aux conflits armés, agissant conformément au droit international humanitaire, à protéger les infrastructures civiles qui sont essentielles à l’acheminement de l’aide humanitaire pour la fourniture de services essentiels, notamment la vaccination et les soins médicaux connexes ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2815" class="SingleTxt">
+        <num>75.</num>
+        <content eId="para_2815__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment </span>les États qui entreprennent des activités de lutte contre le terrorisme de s’acquitter de leurs obligations internationales, notamment dans les cas où s’applique le droit humanitaire international, en particulier en ce qui concerne la fourniture d’une aide humanitaire aux populations civiles, est consciente du rôle crucial que jouent les organisations humanitaires lorsqu’il s’agit de fournir une assistance humanitaire respectueuse des principes établis, et estime par ailleurs qu’il importe de prévenir et de faire cesser le financement du terrorisme et les autres formes de soutien apportées au terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2890" class="SingleTxt">
+        <num>76.</num>
+        <content eId="para_2890__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> que les Principes directeurs relatifs au déplacement de personnes à l’intérieur de leur propre pays<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/fr/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, annexe.</p></authorialNote> sont importants en ce qu’ils constituent un cadre international de protection des déplacés et que les déplacements forcés posent non seulement un problème d’ordre humanitaire mais font aussi obstacle au développement, encourage les États Membres et les organismes humanitaires à continuer de travailler ensemble et avec les communautés d’accueil pour tâcher d’apporter aux déplacés une aide plus prévisible et en particulier lutter contre le phénomène des déplacements de longue durée en adoptant et en mettant en œuvre des stratégies à long terme et une planification pluriannuelle cohérente portant sur des questions telles que les moyens de subsistance, demande à cet égard à la communauté internationale de maintenir et d’accroître le concours qu’elle prête aux activités de renforcement des capacités des États qui le demandent, et encourage les organisations humanitaires à améliorer la coordination, y compris avec les organisations de développement, afin de mieux répondre aux besoins des déplacés et d’aider les États Membres à trouver des solutions durables à leur situation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2966" class="SingleTxt">
+        <num>77.</num>
+        <content eId="para_2966__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des progrès faits dans l’amélioration continue du système de gestion de la sécurité des Nations Unies, et appuie l’orientation que le Secrétaire général lui a donnée, en mettant l’accent sur l’efficacité de la gestion des risques auxquels le personnel est exposé, y compris dans l’acheminement de l’aide humanitaire, afin que les organismes des Nations Unies puissent demeurer sur place et exécuter efficacement leurs programmes les plus urgents, même dans des situations à haut risque, et s’adapter rapidement à l’évolution des conditions de sécurité locales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3043" class="SingleTxt">
+        <num>78.</num>
+        <content eId="para_3043__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les organismes des Nations Unies et les autres acteurs humanitaires intéressés à prévoir, dans le cadre de leur stratégie de gestion des risques, d’entretenir de bonnes relations avec les administrations nationales et locales, de gagner leur confiance et de se faire accepter par les populations locales et tous les acteurs concernés, notamment les chefs religieux le cas échéant, afin que l’aide humanitaire puisse être fournie conformément aux principes humanitaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3121" class="SingleTxt">
+        <num>79.</num>
+        <content eId="para_3121__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de lui faire rapport sur les mesures prises pour permettre aux organismes des Nations Unies de continuer à renforcer leur capacité de recruter et de déployer le personnel requis avec rapidité, efficacité et souplesse, de se procurer rapidement, à bon prix et, si possible, localement les fournitures et les services nécessaires aux secours d’urgence, et de décaisser rapidement les fonds destinés à permettre aux gouvernements et aux équipes de pays des Nations Unies d’assurer la coordination de l’aide humanitaire internationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3200" class="SingleTxt">
+        <num>80.</num>
+        <content eId="para_3200__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande instamment</span> à tous les pays d’incorporer dans leurs politiques et cadres de développement nationaux le Programme de développement durable à l’horizon 2030<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote>, et prie instamment les États Membres, les organismes des Nations Unies et les parties concernées de travailler ensemble à réduire les besoins et à renforcer la résilience des plus vulnérables afin de contribuer à la réalisation des objectifs énoncés dans le Programme 2030, notamment l’ambition de ne laisser personne de côté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3280" class="SingleTxt">
+        <num>81.</num>
+        <content eId="para_3280__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général de lui rendre compte à sa soixante‑dix-septième session, par l’intermédiaire du Conseil économique et social à sa session de 2022, des progrès accomplis dans le sens du renforcement de la coordination de l’aide humanitaire d’urgence fournie par les organismes des Nations Unies, et de lui présenter un rapport détaillé sur l’emploi des ressources du Fonds central pour les interventions d’urgence.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="51e">51e séance plénière</inline>
+        <eol />
+        <docDate date="2021-12-10" refersTo="#adoptionDate">10 décembre 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
