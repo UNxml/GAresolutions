@@ -1,0 +1,824 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+          <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@/"></FRBRuri>
+          <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of Legal Affairs. Treaty Section" showAs="UN. Office of Legal Affairs. Treaty Section" dictionary="DHLAUTH"></keyword>
+        <keyword value="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" showAs="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" showAs="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Multilateral Treaties Deposited with the Secretary-General" showAs="Multilateral Treaties Deposited with the Secretary-General" dictionary="DHLAUTH"></keyword>
+        <keyword value="TREATIES" showAs="TREATIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATY REGISTRATION" showAs="TREATY REGISTRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PUBLICATIONS" showAs="PUBLICATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULES AND REGULATIONS" showAs="RULES AND REGULATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSLATION" showAs="TRANSLATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="88" showAs="TREATIES" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-11" outcome="draftResolution" as="A/C.6/76/L.19" by="introduced in the Committee by the representative of Brazil on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/496" by="" refersTo="8" />
+        <step date="2021-12-09" outcome="adopted" as="A/76/PV.49" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Шестой комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-18679 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/120</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-17" class="rightSmall" refersTo="#dateOfIssuance">17 December 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Семьдесят шестая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 88 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Укрепление и поощрение международного договорного режима</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 9 декабря 2021 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[по докладу Шестого комитета (<inline name="originating document">A/76/496, пункт 8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/120.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Укрепление и поощрение международного договорного режима</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на свои резолюции <a href="https://undocs.org/ru/A/RES/23(I)">23 (</a><a href="https://undocs.org/ru/A/RES/23(I)">I</a><a href="https://undocs.org/ru/A/RES/23(I)">)</a> от 10 февраля 1946 года, <a href="https://undocs.org/ru/A/RES/97(I)">97 (</a><a href="https://undocs.org/ru/A/RES/97(I)">I</a><a href="https://undocs.org/ru/A/RES/97(I)">)</a> от 14 декабря 1946 года, 364 B (IV) от 1 декабря 1949 года, <a href="https://undocs.org/ru/A/RES/482(V)">482 (</a><a href="https://undocs.org/ru/A/RES/482(V)">V</a><a href="https://undocs.org/ru/A/RES/482(V)">)</a> от 12 декабря 1950 года, <a href="https://undocs.org/ru/A/RES/32/144">32/144</a> от 16 декабря 1977 года, <a href="https://undocs.org/ru/A/RES/33/141">33/141</a> A от 19 декабря 1978 года, <a href="https://undocs.org/ru/A/RES/51/158">51/158</a> от 16 декабря 1996, <a href="https://undocs.org/ru/A/RES/73/210">73/210</a> от 20 декабря 2018 года и <a href="https://undocs.org/ru/A/RES/75/144">75/144</a> от 15 декабря 2020 года,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на свои резолюции <a href="https://undocs.org/ru/A/RES/71/328">71/328</a> от 11 сентября 2017 года и <a href="https://undocs.org/ru/A/RES/73/346">73/346</a> от 16 сентября 2019 года, в которых признается, что одной из главных ценностей Организации является многоязычие, которое способствует достижению целей Организации Объединенных Наций, и обращаясь к Генеральному секретарю с просьбой продолжать прилагать усилия к тому, чтобы меры, принимаемые в связи с положением с ликвидностью и коронавирусным заболеванием (COVID-19), не наносили ущерба многоязычию,</p>
+      </container>
+      <container name="сознавая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">сознавая </span>обязательства, налагаемые статьей 102 Устава Организации Объединенных Наций, и важное значение международных договоров для развития международного права и международного правопорядка, </p>
+      </container>
+      <container name="с признательностью отмечая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">с признательностью отмечая</span> роль Секретариата и, в частности, Договорной секции Управления по правовым вопросам в осуществлении статьи 102 Устава, </p>
+      </container>
+      <container name="отмечая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что значительное увеличение числа международных договоров, представленных на регистрацию в последние годы, привело к увеличению рабочей нагрузки Договорной секции и явилось одной из причин образования множества неопубликованных договоров,</p>
+      </container>
+      <container name="отмечая также" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span>, что, хотя аутентичные тексты зарегистрированных договоров незамедлительно размещаются на веб-сайте электронной базы данных по договорам, на текущий момент образовался значительный объем невыполненных работ по опубликованию «Сборника договоров Организации Объединенных Наций», что обусловлено растущими задержками в процессе перевода договоров, связанными, в частности, с ограниченностью ресурсов, имеющихся в наличии для подготовки публикаций, </p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">признавая</span> важность оперативной обработки, регистрации и опубликования договоров и документов о действиях в отношении договоров, </p>
+      </container>
+      <container name="поддерживая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">поддерживая </span>усилия Генерального секретаря по повышению эффективности процесса регистрации и опубликования договоров в рамках имеющихся ресурсов и укреплению роли Договорной секции в оказании государствам-членам поддержки в этой области,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> меры, принимаемые Договорной секцией с целью ускорить опубликование «Сборника договоров Организации Объединенных Наций» и обеспечить электронный доступ ко всем его изданиям на веб-сайте «Собрания договоров Организации Объединенных Наций», и признавая ту роль, которую новые технологии могут играть в совершенствовании доступа к материалам «Сборника договоров Организации Объединенных Наций»,</p>
+      </container>
+      <container name="признавая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что в последние годы практика и технические средства значительно продвинулись вперед в своем развитии, и отмечая важность поддержания единообразия практики заключения международных договоров в международном сообществе, </p>
+      </container>
+      <container name="принимая во внимание" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span> положения Венской конвенции о праве международных договоров<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1155, No. 18232.</p></authorialNote> и отмечая факт ее принятия Конференцией Организации Объединенных Наций по праву договоров 22 мая 1969 года, </p>
+      </container>
+      <container name="будучи убеждена" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">будучи убеждена</span> в необходимости дальнейшего сбора замечаний и обмена мнениями о практике, касающейся укрепления и поощрения международного договорного режима, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на статью 102 Устава Организации Объединенных Наций, подтверждает важность регистрации и опубликования договоров, а также обеспечения их доступности и подчеркивает, что правила для введения в действие статьи 102 должны быть полезными и актуальными для государств-членов и их следует постоянно обновлять с целью содействовать государствам в выполнении ими своих обязательств в соответствии с этими правилами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Генерального секретаря «Обзор правил для введения в действие статьи 102 Устава Организации Объединенных Наций»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/136">A/75/136</a>.</p></authorialNote>, представленный для рассмотрения Генеральной Ассамблеей во исполнение ее резолюции <a href="https://undocs.org/ru/A/RES/73/210">73/210</a>, и содержащиеся в нем рекомендации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">изменяет</span> правила таким образом, как указано в приложении к настоящей резолюции, и постановляет, что правила с внесенными в них поправками начинают применяться 1 февраля 2022 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению, </span>что некоторые государства-члены по-прежнему считают, что еще сохраняются нерешенные вопросы, которые могут потребовать дальнейшего обсуждения правил;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет о своей поддержке</span> дней международных договоров, ежегодно организуемых Генеральным секретарем; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>организацию Договорной секцией семинаров по праву и практике международных договоров в Центральных учреждениях и на национальном и региональном уровнях в качестве важной инициативы по наращиванию потенциала, рекомендует Договорной секции продолжать организовывать такие семинары на как можно более регулярной основе, в том числе с использованием информационно-коммуникационных технологий, когда этого требуют чрезвычайные обстоятельства, и предлагает государствам и заинтересованным международным организациям и учреждениям продолжать поддерживать деятельность в этом направлении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span>, что организация семинаров по праву и практике международных договоров на национальном и региональном уровнях не была возможна с 2016 года, в том числе из-за недостатка средств, и предлагает государствам и заинтересованным организациям и учреждениям вносить в целевой фонд, учрежденный Генеральным секретарем для Управления по правовым вопросам с целью способствовать поощрению международного права, добровольные взносы для финансирования таких семинаров или иным образом оказывать содействие в их проведении и возможном расширении в качестве дополнения к семинарам по праву и практике международных договоров, проводимым в Центральных учреждениях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>усилия по наращиванию потенциала государств в области права и практики международных договоров и предлагает государствам-членам рассмотреть возможность предоставления, по запросу, адресной технической помощи на двустороннем, региональном и многостороннем уровнях, в частности развивающимся странам в целях развития и совершенствования их договорной практики, в том числе в использовании информационно-коммуникационных технологий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает также</span> усилия, направленные на создание и совершенствование электронной базы данных по договорам, которая обеспечивает онлайновый доступ к всеобъемлющей информации о депозитарных функциях Генерального секретаря и регистрации и опубликовании договоров в соответствии со статьей 102 Устава, и призывает продолжать такие усилия в будущем, принимая во внимание трудности, с которыми сталкиваются многие развивающиеся страны в плане доступа к информационно-коммуникационным технологиям; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">обращает внимание</span> на то, что в большинстве случаев договоры представляются на регистрацию в электронном формате, и рекомендует Генеральному секретарю разработать, в консультации с государствами-членами и на основе полученных от них замечаний и предложений, в рамках имеющихся ресурсов онлайновую систему регистрации договоров для облегчения представления договоров на регистрацию в качестве еще одного способа в дополнение к существующим способам представления в электронной или печатной форме;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>важность юридических изданий, выпускаемых Договорной секцией, и подчеркивает необходимость обновления издания<span class="italic"> Summary of Practice of the Secretary-General as Depositary of Multilateral Treaties</span> («Краткий справочник по практике Генерального секретаря как депозитария многосторонних договоров») с учетом новейших изменений и практики; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>работу депозитариев по регистрации договоров в соответствии со статьей 102 Устава и призывает продолжать такую работу в будущем; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>Генерального секретаря обеспечить скорейшее опубликование «Сборника договоров Организации Объединенных Наций» в соответствии с правилами посредством обеспечения оперативного предоставления услуг технического редактирования и письменного перевода с целью сделать возможным эффективное распространение текстов договоров и доступ к ним;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> провести в Шестом комитете тематические прения для содействия техническому обмену мнениями о практике, касающейся укрепления и поощрения международного договорного режима, и в этой связи предлагает государствам-членам в ходе прений на семьдесят восьмой сессии Генеральной Ассамблеи сосредоточить свои комментарии на подтеме «Передовая практика депозитариев многосторонних договоров»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">постановляет также </span>включить в предварительную повестку дня своей семьдесят восьмой сессии пункт, озаглавленный «Укрепление и поощрение международного договорного режима».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="49-е">49-е пленарное заседание</inline>
+        <eol />
+        <docDate date="2021-12-09" refersTo="#adoptionDate">9 декабря 2021 года</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+                <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@/"></FRBRuri>
+                <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="rus"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/rus@.xml"></FRBRuri>
+                <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_121" class="H1">
+              <content eId="para_121__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Приложение</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="H1">
+              <content eId="para_122__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Правила для введения в действие статьи 102 Устава Организации Объединенных Наций</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="H23">
+              <content eId="para_123__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Часть первая</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="H23">
+              <content eId="para_124__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Регистрация</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="H23">
+              <content eId="para_125__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 1</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_126__content">
+                <p xml:space="preserve">	Все договоры или международные соглашения, независимо от их формы или присвоенного им наименования, заключенные одним или несколькими членами Организации Объединенных Наций после 24 октября 1945 года, т. е. после дня вступления в силу Устава, регистрируются в Секретариате в кратчайший срок в соответствии с настоящими правилами. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve">	Регистрация не производится до тех пор, пока договор или международное соглашение не вступят в силу между двумя или более сторонами, участвующими в нем. Договор или международное соглашение, которые до своего вступления в силу применяются временно, могут быть зарегистрированы как применяемые временно. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_128__content">
+                <p xml:space="preserve">	Такая регистрация может быть произведена любой из сторон или в соответствии со статьей 4 настоящих правил. Без ущерба для права той или иной стороны договора или международного соглашения представлять его на регистрацию, в тех случаях, когда договором или международным соглашением назначается один или несколько депозитариев, его регистрацию рекомендуется производить любому из депозитариев, если иное не предусмотрено договором или международным соглашением или не согласовано сторонами.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_129__content">
+                <p xml:space="preserve">	Секретариат заносит зарегистрированные указанным образом договоры и международные соглашения в установленный для этой цели регистр.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="H23">
+              <content eId="para_130__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 2</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_131__content">
+                <p xml:space="preserve">	После того как договор или международное соглашение зарегистрированы в Секретариате, удостоверенные заявления относительно любых последующих действий, влекущих за собой какое-либо изменение, касающееся сторон или относящееся к условиям, сфере действия или применению этого договора или международного соглашения, также регистрируются в Секретариате.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_132__content">
+                <p xml:space="preserve">	Секретариат заносит регистрируемые таким образом удостоверенные заявления в регистр, установленный согласно статье 1 настоящих правил.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="H23">
+              <content eId="para_133__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 3</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_134__content">
+                <p xml:space="preserve">	Регистрация, произведенная одной из сторон в соответствии со статьей 1 настоящих правил, освобождает все другие стороны от обязательства производить регистрацию. Регистрация, произведенная депозитарием в соответствии со статьей 1 настоящих правил, освобождает все стороны от обязательства производить регистрацию.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	Регистрация, произведенная в соответствии со статьей 4 настоящих правил, освобождает все стороны от обязательства производить регистрацию. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="H23">
+              <content eId="para_136__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 4 </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_137__content">
+                <p xml:space="preserve">	Все договоры или международные соглашения, на которые распространяется действие статьи 1 настоящих правил, регистрируются ex officio Организацией Объединенных Наций в нижеследующих случаях:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	a)	когда Организация Объединенных Наций является стороной в договоре или международном соглашении;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <content eId="para_139__content">
+                <p xml:space="preserve">	b)	когда Организация Объединенных Наций самим договором или международным соглашением уполномочена произвести регистрацию;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <content eId="para_140__content">
+                <p xml:space="preserve">	c)	когда Организация Объединенных Наций является депозитарием многостороннего договора или соглашения.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	Договор или международное соглашение, на которые распространяется действие статьи 1 настоящих правил, могут быть зарегистрированы в Секретариате специализированным учреждением в следующих случаях:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <content eId="para_142__content">
+                <p xml:space="preserve">	a)	когда учредительный акт специализированного учреждения предусматривает такую регистрацию;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <content eId="para_143__content">
+                <p xml:space="preserve">	b)	когда договор или международное соглашение были зарегистрированы в специализированном учреждении на основании положений его учредительного акта;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <content eId="para_144__content">
+                <p xml:space="preserve">	с)	когда специализированное учреждение уполномочено договором или международным соглашением произвести регистрацию.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="H23">
+              <content eId="para_145__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 5</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	К каждому договору или международному соглашению, представляемому на регистрацию в соответствии со статьей 1 или статьей 4 настоящих правил, прилагается удостоверенная копия соответствующего договора или соглашения в электронной или печатной форме вместе с заявлением, удостоверяющим, что представленный текст является точной и полной копией данного договора или соглашения.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	В удостоверенной копии воспроизводится текст на всех языках, на которых заключены договор или международное соглашение, включая все приложения или добавления, составляющие неотъемлемую часть договора или международного соглашения. В случае многосторонних договоров или соглашений представляются также тексты всех оговорок или заявлений, сделанных или подтвержденных сторонами в момент сдачи ими на хранение документов о согласии на обязательность, на всех языках, на которых эти оговорки или заявления были сделаны.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_148__content">
+                <p xml:space="preserve">	Помимо удостоверенной копии и упомянутого заявления, любой представляемый документ может также сопровождаться, при наличии, переводом текста на любой из официальных языков Организации Объединенных Наций, представляемым в порядке любезности с целью ускорить перевод на английский и французский языки для публикации в соответствии со статьей 12 настоящих правил.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_149__content">
+                <p xml:space="preserve">	В удостоверяющем заявлении указывается:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <content eId="para_150__content">
+                <p xml:space="preserve">	a)	полное название договора или международного соглашения;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <content eId="para_151__content">
+                <p xml:space="preserve">	b)	дата (даты) и место (места) заключения договора или международного соглашения;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <content eId="para_152__content">
+                <p xml:space="preserve">	с)	дата вступления в силу договора или международного соглашения;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <content eId="para_153__content">
+                <p xml:space="preserve">	d)	порядок его вступления в силу (например, путем подписания, ратификации, утверждения или принятия, присоединения и т. п.);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <content eId="para_154__content">
+                <p xml:space="preserve">	e)	языки, на которых договор или соглашение были заключены, и, если применимо, язык или языки, на которые в порядке любезности был предоставлен перевод;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="SingleTxt">
+              <content eId="para_155__content">
+                <p xml:space="preserve">	f)	если применимо, имена и официальные должности лиц, подписавших договор или международное соглашение от имени каждой стороны.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_156__content">
+                <p xml:space="preserve">	В случае многосторонних договоров или соглашений удостоверяющее заявление включает, в дополнение к информации, указанной в пункте 4 этой статьи:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <content eId="para_157__content">
+                <p xml:space="preserve">	a)	список всех сторон договора или международного соглашения с указанием даты сдачи на хранение каждой из сторон документов о согласии на обязательность, типа документа (документ о ратификации, утверждении, принятии, присоединении и т. п.) и даты вступления договора в силу для каждой стороны; и</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <content eId="para_158__content">
+                <p xml:space="preserve">	b)	удостоверение того, что договор или соглашение включает все оговорки или заявления, сделанные его сторонами.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve">	Требования, изложенные в настоящей статье, применяются также в отношении документов о последующих действиях, представляемых в соответствии со статьей 2 настоящих правил.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="H23">
+              <content eId="para_160__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 6</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	Датой регистрации договора или международного соглашения считается дата получения Секретариатом Организации Объединенных Наций регистрируемого договора или международного соглашения, при этом датой регистрации договора или соглашения, регистрируемых ex officio Организацией Объединенных Наций, является дата первоначального вступления в силу договора или соглашения между двумя или более из его сторон.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="H23">
+              <content eId="para_162__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 7</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <content eId="para_163__content">
+                <p xml:space="preserve">	Свидетельство о регистрации, подписанное Генеральным секретарем или его представителем, выдается регистрирующей стороне, или специализированному учреждению или депозитарию, а также, по требованию, любой стороне в зарегистрированном договоре или международном соглашении. Свидетельство о регистрации также публикуется с использованием электронных средств.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="H23">
+              <content eId="para_164__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 8</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	Регистр ведется на английском и французском языках. По каждому договору или международному соглашению в регистр заносится:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	a)	серийный номер, присвоенный в порядке регистрации;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	b)	заглавие, данное акту сторонами;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <content eId="para_168__content">
+                <p xml:space="preserve">	c)	наименование сторон, между которыми он заключен;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="SingleTxt">
+              <content eId="para_169__content">
+                <p xml:space="preserve">	d)	дата подписания, ратификации, утверждения или принятия, обмена ратификациями, присоединения и вступления в силу;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <content eId="para_170__content">
+                <p xml:space="preserve">	е)	срок действия, если применимо;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <content eId="para_171__content">
+                <p xml:space="preserve">	f)	язык или языки, на которых акт составлен;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="SingleTxt">
+              <content eId="para_172__content">
+                <p xml:space="preserve">	g)	наименование стороны, специализированного учреждения или депозитария, регистрирующих акт, и дата регистрации;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="SingleTxt">
+              <content eId="para_173__content">
+                <p xml:space="preserve">	h)	данные об опубликовании в сборнике договоров Организации Объединенных Наций.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_174__content">
+                <p xml:space="preserve">	Такая же информация заносится в регистр и в отношении заявлений, подлежащих регистрации согласно статье 2 настоящих правил.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	Тексты зарегистрированных договоров или международных соглашений вместе с соответствующими удостоверяющими заявлениями остаются на хранении в Секретариате.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="H23">
+              <content eId="para_176__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 9</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <content eId="para_177__content">
+                <p xml:space="preserve">	Генеральный секретарь или его представитель обеспечивает доступность регистра для общественности, в том числе с помощью электронных средств.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="H23">
+              <content eId="para_178__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Часть вторая</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="H23">
+              <content eId="para_179__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Хранение в делах и занесение в регистр</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="H23">
+              <content eId="para_180__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 10</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="SingleTxt">
+              <content eId="para_181__content">
+                <p xml:space="preserve">	За изъятием договоров и международных соглашений, подлежащих регистрации на основании статьи 1 настоящих правил, Секретариат хранит в делах и заносит в перечень договоры и международные соглашения, если они входят в следующие категории:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="SingleTxt">
+              <content eId="para_182__content">
+                <p xml:space="preserve">	a)	договоры или международные соглашения, заключенные Организацией Объединенных Наций или одним или несколькими специализированными учреждениями;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <content eId="para_183__content">
+                <p xml:space="preserve">	b)	договоры или международные соглашения, переданные государством –– членом Организации Объединенных Наций, которые были заключены до вступления в силу Устава, но не были включены в сборник договоров Лиги Наций;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="SingleTxt">
+              <content eId="para_184__content">
+                <p xml:space="preserve">	с)	договоры или международные соглашения, переданные стороной, не состоящей членом Организации Объединенных Наций, которые были заключены до или после вступления в силу Устава, но не были включены в сборник договоров Лиги Наций.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="H23">
+              <content eId="para_185__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 11</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <content eId="para_186__content">
+                <p xml:space="preserve">	Положения статей 2, 5 и 8 настоящих правил применяются mutatis mutandis ко всем договорам и международным соглашениям, хранящимся в делах и занесенным в перечень согласно статье 10 настоящих правил.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="H23">
+              <content eId="para_187__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Часть третья</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="H23">
+              <content eId="para_188__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Опубликование</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="H23">
+              <content eId="para_189__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 12</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_190__content">
+                <p xml:space="preserve">	В кратчайший срок Секретариат опубликовывает в виде серии сборников все договоры или международные соглашения, зарегистрированные или хранящиеся в делах и занесенные в перечень, на языке или языках подлинника, вместе с их английским и французским переводами. Удостоверенные заявления, указанные в статье 2 настоящих правил, публикуются таким же образом.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_191__content">
+                <p xml:space="preserve">	Однако Секретариат имеет право не публиковать полностью договоры или международные соглашения или технические приложения к договорам или международным соглашениям, относящиеся к одной из следующих категорий:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="SingleTxt">
+              <content eId="para_192__content">
+                <p xml:space="preserve">	a)	соглашения о помощи и сотрудничестве ограниченного характера в области финансов, торговли, административной или технической деятельности;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="SingleTxt">
+              <content eId="para_193__content">
+                <p xml:space="preserve">	b)	соглашения, касающиеся организации конференций, семинаров или совещаний;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="SingleTxt">
+              <content eId="para_194__content">
+                <p xml:space="preserve">	c)	соглашения, предназначенные для опубликования в других источниках, помимо сборников, упомянутых в пункте 1 настоящей статьи, силами Секретариата Организации Объединенных Наций или специализированного или подобного ему учреждения;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="SingleTxt">
+              <content eId="para_195__content">
+                <p xml:space="preserve">	d)	многосторонние договоры, которые подлежат публикации в формате, аналогичном сборникам, упоминаемым в пункте 1 этой статьи, своими депозитариями;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="SingleTxt">
+              <content eId="para_196__content">
+                <p xml:space="preserve">	e)	технические приложения к договорам или соглашениям, когда в такие технические приложения часто вносятся поправки.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_197__content">
+                <p xml:space="preserve">	При решении вопроса об опубликовании или неопубликовании полностью договора или международного соглашения, относящегося к одной из категорий, указанных в пункте 2 настоящей статьи, Секретариат должным образом учитывает, в частности, практическую ценность, которую может иметь опубликование в полном виде. Договоры и международные соглашения, которые Секретариат предусматривает не публиковать полностью, указываются как таковые в регистре, учитывая, что всегда можно будет пересмотреть решение о неопубликовании полностью.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_198__content">
+                <p xml:space="preserve">	Любое государство или любая межправительственная организация может получить у Генерального секретаря копию текста договора или международного соглашения, которое было решено не публиковать полностью в соответствии с пунктом 2 настоящей статьи. Секретариат предоставляет также копии такого договора или соглашения частным лицам за определенную плату.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_199__content">
+                <p xml:space="preserve">	По любому договору или международному соглашению, зарегистрированному или хранящемуся в деле и внесенному в перечень, сборник, предусматриваемый в пункте 1 настоящей статьи, будет содержать следующий минимум информации: номер регистрации или учетный номер, наименования сторон, название договора или соглашения, дату и место его заключения, дату и порядок вступления в силу, срок действия (в соответствующих случаях), языки, на которых оно заключено, название государства или организации, представивших его на регистрацию или для хранения в деле и внесения в перечень, и, в соответствующих случаях, ссылки на издания, в которых в полном виде воспроизводится текст договора или международного соглашения.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="H23">
+              <content eId="para_200__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Статья 13</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="SingleTxt">
+              <content eId="para_201__content">
+                <p xml:space="preserve">	Секретариат обеспечивает публикацию сборников, указанных в статье 12 настоящих правил, с использованием любых имеющихся в его распоряжении электронных средств. Текст зарегистрированного договора или международного соглашения в том виде, в каком они были представлены, и неофициальные переводы на английский и французский языки, подготовленные Секретариатом, также размещаются в Интернете в кратчайший срок после регистрации и до публикации в серии сборников. Секретариат рассылает печатные экземпляры сборников государствам — членам Организации Объединенных Наций по их просьбе.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
