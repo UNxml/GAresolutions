@@ -1,0 +1,756 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+          <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@/"></FRBRuri>
+          <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of Legal Affairs. Treaty Section" showAs="UN. Office of Legal Affairs. Treaty Section" dictionary="DHLAUTH"></keyword>
+        <keyword value="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" showAs="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" showAs="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Multilateral Treaties Deposited with the Secretary-General" showAs="Multilateral Treaties Deposited with the Secretary-General" dictionary="DHLAUTH"></keyword>
+        <keyword value="TREATIES" showAs="TREATIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATY REGISTRATION" showAs="TREATY REGISTRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PUBLICATIONS" showAs="PUBLICATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULES AND REGULATIONS" showAs="RULES AND REGULATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSLATION" showAs="TRANSLATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="88" showAs="TREATIES" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-11" outcome="draftResolution" as="A/C.6/76/L.19" by="introduced in the Committee by the representative of Brazil on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/496" by="" refersTo="8" />
+        <step date="2021-12-09" outcome="adopted" as="A/76/PV.49" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="第六委员会"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-18679 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/120</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-17" class="rightSmall" refersTo="#dateOfIssuance">17 December 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">第七十六届会议</session>
+      </p>
+      <p>
+        <inline name="agenda item">议程项目88</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">加强和促进国际条约框架</inline>
+      </p>
+      <p>
+        <docTitle>2021年12月9日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[根据第六委员会的报告 (<inline name="originating document">A/76/496，第8段</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/120.</docNumber>
+        <docTitle refersTo="#resolutionTitle">加强和促进国际条约框架</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其1946年2月10日第<a href="https://undocs.org/ch/A/RES/23(I)">23</a><a href="https://undocs.org/ch/A/RES/23(I)"> </a><a href="https://undocs.org/ch/A/RES/23(I)">(</a><a href="https://undocs.org/ch/A/RES/23(I)">I</a><a href="https://undocs.org/ch/A/RES/23(I)">)</a>号、1946年12月14日第<a href="https://undocs.org/ch/A/RES/97(I)">97</a><a href="https://undocs.org/ch/A/RES/97(I)"> </a><a href="https://undocs.org/ch/A/RES/97(I)">(</a><a href="https://undocs.org/ch/A/RES/97(I)">I</a><a href="https://undocs.org/ch/A/RES/97(I)">)</a>号、1949年12月1日第<a href="https://undocs.org/ch/A/RES/364(IV)">364 B</a><a href="https://undocs.org/ch/A/RES/364(IV)"> </a><a href="https://undocs.org/ch/A/RES/364(IV)">(IV)</a>号、1950年12月12日第<a href="https://undocs.org/ch/A/RES/482(V)">482</a><a href="https://undocs.org/ch/A/RES/482(V)"> </a><a href="https://undocs.org/ch/A/RES/482(V)">(V)</a>号、1977年12月16日第<a href="https://undocs.org/ch/A/RES/32/144">32/144</a>号、1978年12月19日第<a href="https://undocs.org/ch/A/RES/33/141">33/141</a> A号、1996年12月16日第<a href="https://undocs.org/ch/A/RES/51/158">51/158</a>号、2018年12月20日第<a href="https://undocs.org/ch/A/RES/73/210">73/210</a>号和2020年12月15日第<a href="https://undocs.org/ch/A/RES/75/144">75/144</a>号决议，</p>
+      </container>
+      <container name="又回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>其2017年9月11日第<a href="https://undocs.org/ch/A/RES/71/328">71/328</a>号决议和2019年9月16日第<a href="https://undocs.org/ch/A/RES/73/346">73/346</a>号决议，其中确认使用多种语文是本组织的核心价值，有助于实现联合国的目标，请秘书长继续努力，确保为应对流动性状况和冠状病毒病(COVID-19)而采取的措施无损于使用多种语文原则，</p>
+      </container>
+      <container name="意识到" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">意识到</span>《联合国宪章》第一百零二条规定的义务，以及条约对国际法和国际法律秩序的发展的重要性，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>秘书处、特别是法律事务厅条约科在执行《宪章》第一百零二条方面发挥的作用，</p>
+      </container>
+      <container name="注意到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">注意到</span>在过去几年中提交供登记的条约数目大幅增加，已致使条约科的工作量增加，进而导致未公布条约的累积，</p>
+      </container>
+      <container name="又注意到" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>，虽然已登记条约的作准文本都可迅速通过条约电子数据库在网上查阅，但由于可用于出版过程的资源有限等原因，条约翻译工作日益延误，因此，出版联合国《条约汇编》的工作目前积压严重，</p>
+      </container>
+      <container name="认识到" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">认识到</span>必须迅速处理、登记和公布条约，并采取与条约有关的行动，</p>
+      </container>
+      <container name="支持" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">支持</span>秘书长努力在现有资源范围内提高登记和公布条约工作的效率，并加强条约科在这一领域协助会员国方面发挥的作用，</p>
+      </container>
+      <container name="欢迎" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>条约科采取措施，加快联合国《条约汇编》的出版，在联合国条约集网站上提供其所有出版物的电子查阅方式，并认识到新技术可在使联合国《条约汇编》便于查阅方面发挥作用，</p>
+      </container>
+      <container name="认识到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">认识到</span>过去一些年来，实践和技术有了相当大的发展，并承认必须与国际社会订立条约的实践保持一致，</p>
+      </container>
+      <container name="铭记" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">铭记</span>《维也纳条约法公约》的各项规定，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		联合国，《条约汇编》，第1155卷，第18232号。</p></authorialNote> 并考虑到联合国条约法会议于1969年5月22日通过了该《公约》，</p>
+      </container>
+      <container name="确信" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">确信</span>有必要进一步就加强和促进国际条约框架的有关实践征集和交换意见，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>《联合国宪章》第一百零二条，重申登记并公布条约以及便利查阅条约十分重要，并强调指出第一百零二条施行细则应对会员国有用且有相关性，应继续对其进行更新，以协助各国履行根据细则承担的义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>秘书长根据第<a href="https://undocs.org/ch/A/RES/73/210">73/210</a>号决议提交的题为“审查联合国宪章第一百零二条施行细则”的报告，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/136">A/75/136</a>。</p></authorialNote> 以及其中所载各项供大会审议的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	按本决议附件中所详列方式<span class="bold">修订</span>细则，修订后细则将自2022年2月1日起适用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>一些会员国继续认为，细则仍有一些尚未解决的问题，可能需要进一步审议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">重申支持</span>秘书长组织的年度条约活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>条约科在总部以及国家和区域各级举办条约法和实践讲习班，作为一项重要的能力建设举措，鼓励条约科继续尽可能定期地举办，包括在因特殊情况而必要时利用信息和通信技术举办这些讲习班，并邀请各国和有关国际组织和机构继续支持这一活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>自2016年以来，由于缺乏资金等原因，未能在国家和区域两级举办条约法和实践讲习班，邀请各国和有关组织和机构向秘书长为支持促进国际法而为法律事务厅设立的信托基金提供自愿捐款，用于资助此类讲习班，或以其他方式协助举办和可能时扩展此类讲习班，作为在总部举办的条约法和实践讲习班的补充；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>为了建设各国在条约法和实践方面的能力而作出的努力，并邀请各会员国考虑应要求在双边、区域和多边层面上提供有针对性的技术援助，特别是对发展中国家的技术援助，以发展和加强它们的条约实践，包括信息和通信技术使用方面的实践；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>努力建设和提升联合国条约电子数据库，该数据库方便上网查阅关于秘书长的保存职能和按照《宪章》第一百零二条登记和公布条约的全面资料，并鼓励今后继续做出这种努力，同时铭记许多发展中国家在获取信息和通信技术方面面临的挑战；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>大多数提交供登记的条约都是采用电子形式，鼓励秘书长与会员国协商，根据会员国的反馈并在现有资源范围内开发一个在线条约登记系统，以便利提交条约供登记，作为现有电子形式或硬拷贝形式提交方式之外的另一选择；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>条约科编写的法律出版物的重要性，强调指出需要考虑到新的发展和实践，更新《秘书长作为多边条约保存人的实务提要》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="bold">承认</span>保存人在根据《宪章》第一百零二条对条约进行登记方面作出的努力，并鼓励今后继续作出这种努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>秘书长通过迅速提供编辑和翻译服务，确保根据细则加快联合国《条约汇编》的出版，以便能够有效传播和查阅条约；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>在第六委员会进行一次专题辩论，以促进就有关加强和促进国际条约框架的实践进行技术性意见交流，并在这方面邀请会员国在大会第七十八届会议辩论期间重点就“多边条约保存人的最佳做法”这一分专题发表评论；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="bold">又决定</span>将题为“加强和促进国际条约框架”的项目列入大会第七十八届会议临时议程。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第49次">第49次全体会议</inline>
+        <eol />
+        <docDate date="2021-12-09" refersTo="#adoptionDate">2021年12月9日</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+                <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@/"></FRBRuri>
+                <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="zho"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/zho@.xml"></FRBRuri>
+                <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_121" class="H1">
+              <content eId="para_121__content">
+                <p xml:space="preserve">		附件</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="H1">
+              <content eId="para_122__content">
+                <p xml:space="preserve">		联合国宪章第一百零二条施行细则</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="H23">
+              <content eId="para_123__content">
+                <p xml:space="preserve">		第一章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="H23">
+              <content eId="para_124__content">
+                <p xml:space="preserve">		登记</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="H23">
+              <content eId="para_125__content">
+                <p xml:space="preserve">		第一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <content eId="para_126__content">
+                <p xml:space="preserve">	一.	凡由联合国一个以上之会员国于一九四五年十月二十四日后(即《宪章》发生效力之日后)缔结之任何条约或国际协定，应不论其形式、名称如何，悉依照本细则之规定尽速在秘书处登记。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <content eId="para_127__content">
+                <p xml:space="preserve">	二.	登记应于条约或国际协定业于二个以上之当事者间发生效力后为之。在生效前暂时适用的条约或国际协定，可登记为暂时适用。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	三.	登记得由任何当事者或依照本细则第四条之规定为之。在不影响条约或国际协定当事者将其提交供登记的权利情况下，如条约或国际协定指定一名或多名保存人，则鼓励任何一名保存人办理登记，除非条约或国际协定另有规定或当事者另作商定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	四.	依照此项手续登记之条约或国际协定，应由秘书处于专为此项目的而备置之登记簿内记载之。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="H23">
+              <content eId="para_130__content">
+                <p xml:space="preserve">		第二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="SingleTxt">
+              <content eId="para_131__content">
+                <p xml:space="preserve">	一.	条约或国际协定在秘书处登记后，各该条约或国际协定之当事者、内容、范围及适用如因任何嗣后行动而发生变更，亦应以正式声明书将各该行动向秘书处为变更之登记。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="SingleTxt">
+              <content eId="para_132__content">
+                <p xml:space="preserve">	二.	秘书处应于依本细则第一条备置之登记簿中记载依照此项手续登记之正式声明书。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="H23">
+              <content eId="para_133__content">
+                <p xml:space="preserve">		第三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <content eId="para_134__content">
+                <p xml:space="preserve">	一.	当事者一方如已依照本细则第一条而为登记，所有他方办理登记之义务即因而免除。保存人如已依照本细则第一条而为登记，所有他方办理登记之义务即因而免除。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <content eId="para_135__content">
+                <p xml:space="preserve">	二.	登记如依本细则第四条办理，所有当事者办理登记之义务即因而免除。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="H23">
+              <content eId="para_136__content">
+                <p xml:space="preserve">		第四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <content eId="para_137__content">
+                <p xml:space="preserve">	一.	遇有下列情形之一，原应依照本细则第一条登记之条约或国际协定，应由联合国依职权迳为登记：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	(甲)	联合国系属该条约或国际协定之缔约一方；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <content eId="para_139__content">
+                <p xml:space="preserve">	(乙)	联合国经该条约或国际协定授权办理登记；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <content eId="para_140__content">
+                <p xml:space="preserve">	(丙)	联合国为多边条约或国际协定之保存者。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <content eId="para_141__content">
+                <p xml:space="preserve">	二.	遇有下列情形之一，原应依照本细则第一条登记之条约或国际协定，得由专门机关在秘书处登记：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <content eId="para_142__content">
+                <p xml:space="preserve">	(甲)	该专门机关组织法规定办理此项登记；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <content eId="para_143__content">
+                <p xml:space="preserve">	(乙)	条约或国际协定已依照该专门机关组织法之规定在该专门机关登记；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <content eId="para_144__content">
+                <p xml:space="preserve">	(丙)	该专门机关经条约或国际协定授权办理登记。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="H23">
+              <content eId="para_145__content">
+                <p xml:space="preserve">		第五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <content eId="para_146__content">
+                <p xml:space="preserve">	一.	在根据本细则第一条或第四条提交条约或国际协定以供登记时，应包括一份电子或打印文本格式的核证无误的副本，以及一份声明书，以核证约文是条约或国际协定真实完整的副本。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <content eId="para_147__content">
+                <p xml:space="preserve">	二.	核证无误的副本应以缔结条约或国际协定所用的各种语文照录约文，包括构成条约或国际协定组成部分的所有附件或附文。如果是多边条约或协定，则还应包括当事者在交存同意受约束的文书时作出或确认的所有保留或声明案文，其作准语文为作出保留或声明所用的各种语文。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <content eId="para_148__content">
+                <p xml:space="preserve">	三.	除上述核证无误的副本和声明外，任何呈件还可包括友情提供的联合国任何正式语文的译本(如有)，以便按照本细则第十二条的规定，尽速译成英文和法文，以供出版。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="SingleTxt">
+              <content eId="para_149__content">
+                <p xml:space="preserve">	四．核证声明书应载明：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <content eId="para_150__content">
+                <p xml:space="preserve">	(甲)	条约或国际协定的全称；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <content eId="para_151__content">
+                <p xml:space="preserve">	(乙)	条约或国际协定的缔结日期和地点；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <content eId="para_152__content">
+                <p xml:space="preserve">	(丙)	条约或国际协定生效日期；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <content eId="para_153__content">
+                <p xml:space="preserve">	(丁)	条约或国际协定生效的方法(例如，签字、批准、核准或接受、加入等)；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <content eId="para_154__content">
+                <p xml:space="preserve">	(戊)	缔结条约或国际协定所用的作准语文，以及友情提供的译本所使用的语文(如适用)；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="SingleTxt">
+              <content eId="para_155__content">
+                <p xml:space="preserve">	(己)	如适用，代表各当事者签署条约或国际协定的人员的姓名和职衔。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <content eId="para_156__content">
+                <p xml:space="preserve">	五.	如果是多边条约或协定，除本条第四款所述信息外，核证声明书还应包括以下内容：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <content eId="para_157__content">
+                <p xml:space="preserve">	(甲)	条约或国际协定各当事者名单，其中说明每个当事者交存同意受约束的文书的日期、此类文书的性质(批准、核准、接受、加入等)以及条约对每个当事者生效的日期；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <content eId="para_158__content">
+                <p xml:space="preserve">	(乙)	一份证明，称核证声明书包括各当事者作出的所有保留或声明。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <content eId="para_159__content">
+                <p xml:space="preserve">	六.	本条载明的各项要求还应当适用于根据本细则第二条提交的嗣后行动。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="H23">
+              <content eId="para_160__content">
+                <p xml:space="preserve">		第六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	在秘书处登记之条约或国际协定，以联合国秘书处收到该条约或国际协定之日期为登记日期。但由联合国依职权迳为登记之条约或协定，以该条约或协定在二个以上之当事者间发生效力之最早日期为其登记日期。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="H23">
+              <content eId="para_162__content">
+                <p xml:space="preserve">		第七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <content eId="para_163__content">
+                <p xml:space="preserve">	登记证书由秘书长或其代表签署，发给申请登记之当事者、专门机关或保存人，如经请求，并发给该登记条约或国际协定之任何当事者。登记证书也可通过电子手段予以公布。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="H23">
+              <content eId="para_164__content">
+                <p xml:space="preserve">		第八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <content eId="para_165__content">
+                <p xml:space="preserve">	一.	登记簿应以英文与法文作成。登记簿应就每一条约或国际协定记载下列事项：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	(甲)	依登记先后而定之编号；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	(乙)	当事者所定之文书名称；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <content eId="para_168__content">
+                <p xml:space="preserve">	(丙)	当事者之名称；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="SingleTxt">
+              <content eId="para_169__content">
+                <p xml:space="preserve">	(丁)	签字、批准、核准或接受、互换批准书、加入及发生效力之日期；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <content eId="para_170__content">
+                <p xml:space="preserve">	(戊)	有效期间(在适当情形下)；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <content eId="para_171__content">
+                <p xml:space="preserve">	(己)	约文所用之语文；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="SingleTxt">
+              <content eId="para_172__content">
+                <p xml:space="preserve">	(庚)	申请登记之当事者、专门机关或保存者之名称以及登记日期；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="SingleTxt">
+              <content eId="para_173__content">
+                <p xml:space="preserve">	(辛)	关于在联合国《条约汇编》中刊载之事项。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="SingleTxt">
+              <content eId="para_174__content">
+                <p xml:space="preserve">	二.	于登记簿内登记依照本细则第二条所作之声明书时，亦应记入前列各事项。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <content eId="para_175__content">
+                <p xml:space="preserve">	三.	已登记条约或国际协定的约文连同核证声明书应由秘书处永久保管之。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="H23">
+              <content eId="para_176__content">
+                <p xml:space="preserve">		第九条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <content eId="para_177__content">
+                <p xml:space="preserve">	秘书长或其代表应确保登记簿可公开查阅，包括通过电子手段查阅。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="H23">
+              <content eId="para_178__content">
+                <p xml:space="preserve">		第二章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="H23">
+              <content eId="para_179__content">
+                <p xml:space="preserve">		编录</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="H23">
+              <content eId="para_180__content">
+                <p xml:space="preserve">		第十条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="SingleTxt">
+              <content eId="para_181__content">
+                <p xml:space="preserve">	除应依本细则第一条登记之条约及国际协定外，凡属于下列种类之条约及协定应由秘书处编录之：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="SingleTxt">
+              <content eId="para_182__content">
+                <p xml:space="preserve">	(甲)	联合国或一个以上之专门机关所缔结之条约或国际协定；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <content eId="para_183__content">
+                <p xml:space="preserve">	(乙)	联合国会员国送交之条约或国际协定，其缔结在《宪章》发生效力以前，但未经编入国际联盟之条约汇编者；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="SingleTxt">
+              <content eId="para_184__content">
+                <p xml:space="preserve">	(丙)	非联合国会员国之当事者送交之条约或国际协定，其缔结在《宪章》发生效力以前或以后，并未编入国际联盟之条约汇编者。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="H23">
+              <content eId="para_185__content">
+                <p xml:space="preserve">		第十一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <content eId="para_186__content">
+                <p xml:space="preserve">	本细则第二条、第五条及第八条之规定，于经依照本细则第十条编录之一切条约及国际协定准用之。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="H23">
+              <content eId="para_187__content">
+                <p xml:space="preserve">		第三章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="H23">
+              <content eId="para_188__content">
+                <p xml:space="preserve">		公布</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="H23">
+              <content eId="para_189__content">
+                <p xml:space="preserve">		第十二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="SingleTxt">
+              <content eId="para_190__content">
+                <p xml:space="preserve">	一.	秘书处应尽速将业经登记或编录的一切条约或国际协定的原文在一个单一的汇编中予以公布，并应附列英、法两种译文。关于本细则第二条所指的正式声明书，应依同一方式予以公布。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="SingleTxt">
+              <content eId="para_191__content">
+                <p xml:space="preserve">	二.	但秘书处对属于下列各类的条约或国际协定、或条约或国际协定的技术性附件，有权不予全文公布：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="SingleTxt">
+              <content eId="para_192__content">
+                <p xml:space="preserve">	(甲)	关于金融、商业、行政或技术事项的范围有限的援助或合作协定；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="SingleTxt">
+              <content eId="para_193__content">
+                <p xml:space="preserve">	(乙)	关于安排各种会议、讨论会或集会的协定；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="SingleTxt">
+              <content eId="para_194__content">
+                <p xml:space="preserve">	(丙)	将由联合国秘书处或专门机关或有关机关在本条第一款所述汇编以外的其他文件中予以公布的协定；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="SingleTxt">
+              <content eId="para_195__content">
+                <p xml:space="preserve">	(丁)	将由其保存人以类似于本条第一款所述汇编的方式公布的多边协定；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="SingleTxt">
+              <content eId="para_196__content">
+                <p xml:space="preserve">	(戊)	经常修改技术性附件的条约或协定的技术性附件。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="SingleTxt">
+              <content eId="para_197__content">
+                <p xml:space="preserve">	三.	秘书处在决定是否全文公布属于本条第二款中任一类条约或国际协定时，除其他外，应适当考虑到全文公布所可产生的实用价值。秘书处不拟全文公布的条约和国际协定，应在登记簿中明确指出，但有一项了解，即不予全文公布的决定可以随时改变。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="SingleTxt">
+              <content eId="para_198__content">
+                <p xml:space="preserve">	四.	对于按照本条第二款的规定决定不予全文公布的任何条约或国际协定，任何国家或政府间组织都可向秘书长索取其全文的副本。私人也可缴款向秘书处取得这类条约或协定的副本。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="SingleTxt">
+              <content eId="para_199__content">
+                <p xml:space="preserve">	五.	凡经登记或编录的条约或国际协定，本条第一款所指的汇编中应至少附有下列资料：登记或编录的编号、当事者的名称、标题、缔约的日期和地点、生效的日期和方法、有效期间(在适当情形下)、缔约的语文、登记或送请编录的国家或组织的名称，以及在适当情形下，登载该条约或国际协定全文的出版物。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="H23">
+              <content eId="para_200__content">
+                <p xml:space="preserve">		第十三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="SingleTxt">
+              <content eId="para_201__content">
+                <p xml:space="preserve">	秘书处应通过任何现有电子手段，提供本细则第十二条所称之汇编。已登记条约或国际协定的呈送约文，以及秘书处编制的英文和法文非正式译本，也应在登记后和汇编公布前尽快在网上提供。秘书处应应联合国会员国请求向其分送汇编印本。</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
