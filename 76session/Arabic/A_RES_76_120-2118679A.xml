@@ -1,0 +1,824 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+          <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@/"></FRBRuri>
+          <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of Legal Affairs. Treaty Section" showAs="UN. Office of Legal Affairs. Treaty Section" dictionary="DHLAUTH"></keyword>
+        <keyword value="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" showAs="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" showAs="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Multilateral Treaties Deposited with the Secretary-General" showAs="Multilateral Treaties Deposited with the Secretary-General" dictionary="DHLAUTH"></keyword>
+        <keyword value="TREATIES" showAs="TREATIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATY REGISTRATION" showAs="TREATY REGISTRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PUBLICATIONS" showAs="PUBLICATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULES AND REGULATIONS" showAs="RULES AND REGULATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSLATION" showAs="TRANSLATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="88" showAs="TREATIES" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-11" outcome="draftResolution" as="A/C.6/76/L.19" by="introduced in the Committee by the representative of Brazil on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/496" by="" refersTo="8" />
+        <step date="2021-12-09" outcome="adopted" as="A/76/PV.49" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="اللجنة السادسة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-18679 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/120</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-17" class="rightSmall" refersTo="#dateOfIssuance">17 December 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">الدورة السادسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 88 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز الإطار التعاهدي الدولي وتدعيمه</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 9 كانون الأول/ديسمبر 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[بناء على تقرير اللجنة السادسة (<inline name="originating document">A/76/496، الفقرة 8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/120</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تعزيز الإطار التعاهدي الدولي وتدعيمه</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تشير</span> إلى قراراتها 23 (د-1) المؤرخ 10 شباط/فبراير 1946 و 97 (د-1) المؤرخ 14 كانون الأول/ديسمبر 1946 و 364 باء (د-4) المؤرخ 1 كانون الأول/ديسمبر 1949 و 482 (د-5) المؤرخ 12 كانون الأول/ديسمبر 1950 و <a href="https://undocs.org/ar/A/RES/32/144">32/144</a> المؤرخ 16 كانون الأول/ديسمبر 1977 و <a href="https://undocs.org/ar/A/RES/33/141">33/141</a> ألف المؤرخ 19 كانون الأول/ديسمبر 1978 و <a href="https://undocs.org/ar/A/RES/51/158">51/158</a> المؤرخ 16 كانون الأول/ديسمبر 1996 و <a href="https://undocs.org/ar/A/RES/73/210">73/210</a> المؤرخ 20 كانون الأول/ديسمبر 2018، و <a href="https://undocs.org/ar/A/RES/75/144">75/144</a> المؤرخ 15 كانون الأول/ديسمبر 2020،</p>
+      </container>
+      <container name="وإذ تشير أيضا" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا</span> إلى قراريها <a href="https://undocs.org/ar/A/RES/71/328">71/328</a> المؤرخ 11 أيلول/سبتمبر 2017 و <a href="https://undocs.org/ar/A/RES/73/346">73/346</a> المؤرخ 16 أيلول/سبتمبر 2019 اللذين أكدا مرة أخرى أن تعدد اللغات قيمةٌ من القيم الأساسية للمنظمة تسهم في تحقيق مقاصد الأمم المتحدة، وإذ تطلب إلى الأمين العام أن يواصل بذل الجهود لضمان عدم تأثر تعدد اللغات بالتدابير المتخذة لمواجهة حالة السيولة المالية والتصدي لمرض فيروس كورونا (كوفيد-19)،</p>
+      </container>
+      <container name="وإدراكا منها" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإدراكا منها</span> للالتزامات الناشئة عن المادة 102 من ميثاق الأمم المتحدة ولأهمية المعاهدات في تطوير القانون الدولي والنظام القانوني الدولي،</p>
+      </container>
+      <container name="وإذ تلاحظ مع التقدير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ مع التقدير</span> الدور الذي تضطلع به الأمانة العامة، ولا سيما قسم المعاهدات التابع لمكتب الشؤون القانونية، في تنفيذ المادة 102 من الميثاق،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> أن الزيادة الكبيرة في عدد المعاهدات المقدمة للتسجيل على مدى السنوات الماضية قد أدت إلى نمو حجم العمل الذي يضطلع به قسم المعاهدات، مما أسهم في تراكم المعاهدات غير المنشورة،</p>
+      </container>
+      <container name="وإذ تلاحظ أيضا" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ أيضا</span> أنه رغم السرعة التي تتاح بها نصوص المعاهدات المسجلة ذات الحجية على شبكة الإنترنت عن طريق قاعدة البيانات الإلكترونية للمعاهدات، يوجد حاليا قدر كبير من العمل المتراكم في نشر مجموعة معاهدات الأمم المتحدة، نتيجة تزايد التأخير في ترجمة المعاهدات المرتبط بأمور منها محدودية الموارد المتاحة لعملية النشر،</p>
+      </container>
+      <container name="وإذ تسلّم" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلّم</span> بأهمية التعجيل بتجهيز المعاهدات وتسجيلها ونشرها وبالإجراءات المتعلقة بالمعاهدات،</p>
+      </container>
+      <container name="وإذ تعرب عن دعمها" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن دعمها</span> للجهود التي يبذلها الأمين العام لزيادة كفاءة عملية التسجيل والنشر في حدود الموارد المتاحة، وتعزيز الدور الذي يضطلع به قسم المعاهدات في مساعدة الدول الأعضاء في هذا المجال،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالتدابير التي اتخذها قسم المعاهدات للإسراع بنشر <span class="italic">مجموعة معاهدات</span> الأمم المتحدة ولإتاحة سبل الوصول إلكترونيا إلى جميع منشوراته على الموقع الشبكي <span class="italic">لمجموعة معاهدات</span> الأمم المتحدة، وإذ تعترف بالدور الذي يمكن للتكنولوجيا الجديدة أن تؤديه في إتاحة إمكانية الوصول إلى <span class="italic">مجموعة معاهدات</span> الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ تسلّم" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلّم</span> بأن الممارسات والتكنولوجيات قد تطورت تطورا كبيرا على مدى السنوات الماضية، وإذ تعترف بأهمية الحفاظ على الاتساق مع الممارسات التي يأخذ بها المجتمع الدولي في إبرام المعاهدات،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تضع في اعتبارها</span> أحكام اتفاقية فيينا لقانون المعاهدات لعام 1969<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1155, No. 18232.</p></authorialNote><sup>)</sup> وفي ضوء اعتماد مؤتمر الأمم المتحدة لقانون المعاهدات للاتفاقية في 22 أيار/مايو 1969،</p>
+      </container>
+      <container name="واقتناعا منها" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">واقتناعا منها</span> بالحاجة إلى مواصلة جمع وتبادل الآراء بشأن الممارسات المتعلقة بتعزيز الإطار التعاهدي الدولي وتدعيمه،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى المادة 102 من ميثاق الأمم المتحدة، وتؤكد من جديد أهمية تسجيل المعاهدات ونشرها وتسهيل الوصول إليها، وتشدّد على وجوب أن يكون النظام الموضوع لإعمال المادة 102 مفيداً ومناسباً للدول الأعضاء وعلى وجوب تحديثه بصفة مستمرة من أجل مساعدة الدول في تنفيذ الالتزامات المترتبة عليها بمقتضاه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold italic">تحيط علما</span> بتقرير الأمين العام المعنون ”استعراض نظام إعمال المادة 102 من ميثاق الأمم المتحدة“<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/75/136">A/75/136</a>.</p></authorialNote><sup>)</sup> المقدّم عملا بقرارها <a href="https://undocs.org/ar/A/RES/73/210">73/210</a> وبالتوصيات المتضمنة فيه لعرضها على نظر الجمعية العامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold italic">تُعدِّل </span>النظام على النحو المبيَّن بالتفصيل في مرفق هذا النظام، والذي سيطبَّق، بصيغته المعدلة، اعتبارًا من 1 شباط/فبراير 2022؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى أن بعض الدول الأعضاء لا تزال ترى أن هناك مسائل معلقة قد يلزم معها مواصلة النظر في النظام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold italic">تعيد تأكيد دعمها</span> للمناسبة السنوية المتعلقة بالمعاهدات التي ينظمها الأمين العام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بقيام قسم المعاهدات بتنظيم حلقات عمل بشأن قانون المعاهدات وممارساتها في مقر الأمم المتحدة وعلى الصعيدين الوطني والإقليمي باعتبار ذلك مبادرة هامة لبناء القدرات، وتشجع قسم المعاهدات على الاستمرار في تنظيم حلقات العمل هذه بصورة منتظمة قدر الإمكان وبسبل منها استخدام تكنولوجيا المعلومات والاتصالات متى اقتضت الضرورة ذلك في ظل الظروف الاستثنائية، وتدعو الدول والمنظمات والمعاهد الدولية المهتمة إلى مواصلة دعم هذا النشاط؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>7 -</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ</span> أنه لم يعد يتسنى تنظيم حلقات عمل بشأن قانون المعاهدات وممارساتها على الصعيدين الوطني والإقليمي منذ عام 2016، لأسباب منها نقص التمويل، وتدعو الدول والمنظمات والمؤسسات المهتمة إلى تقديم تبرعات للصندوق الاستئماني الذي أنشأه الأمين العام لصالح مكتب الشؤون القانونية دعمًا لتعزيز القانون الدولي، سواء بهدف تمويل حلقات العمل تلك، أو المساعدة في تنفيذها وتوسيع نطاقها إن أمكن ذلك، باعتبارها تكملةً لحلقات العمل بشأن قانون المعاهدات والممارسات التي تعقد في المقر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <num>8 -</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب </span>بالجهود الرامية إلى بناء قدرات الدول في مجال قانون المعاهدات وممارساتها، وتدعو الدول الأعضاء إلى النظر في تقديم مساعدة تقنية محددة الهدف، عند الطلب، على الصعد الثنائي والإقليمي والمتعدد الأطراف، وبخاصة للبلدان النامية، من أجل تطوير وتعزيز ممارساتها التعاهدية، بما يشمل استخدام تكنولوجيا المعلومات والاتصالات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>9 -</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب أيضا</span> بالجهود المبذولة في سبيل تطوير وتعزيز قاعدة بيانات الأمم المتحدة الإلكترونية للمعاهدات، التي تتيح الاطلاع إلكترونيا على معلومات شاملة عن وظائف الوديع التي يتولاها الأمين العام وعن تسجيل ونشر المعاهدات بموجب المادة 102 من الميثاق، وتشجع على مواصلة بذل هذه الجهود في المستقبل، مع مراعاة التحديات التي يواجهها الكثير من البلدان النامية فيما يتعلق بإمكانية الحصول على تكنولوجيا المعلومات والاتصالات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>10 -</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ</span> أن أغلب المعاهدات المحالة لغرض التسجيل تقدَّم في شكل إلكتروني وتشجع الأمين العام على القيام، بالتشاور مع الدول الأعضاء وبناءً على تعليقاتها وفي حدود الموارد المتوافرة، بإرساء نظام إلكتروني لتسجيل المعاهدات من أجل تيسير إحالتها لغرض التسجيل كي يكون خيارا إضافيا مكمّلا للطرق المتبعة حاليا لتقديم المعاهدات سواء في شكل إلكتروني أو مطبوع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>11 -</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold italic">تقر</span> بأهمية المنشورات القانونية التي يعدها قسم المعاهدات، وتشدد على ضرورة تحديث <span class="italic">موجز ممارسة الأمين العام بوصفه الوديع للمعاهدات المتعددة الأطراف</span> في ضوء التطورات والممارسات الجديدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <num>12 -</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="bold italic">تنوه</span> بالجهود التي تبذلها الجهات الوديعة في تسجيل المعاهدات بموجب المادة 102 من الميثاق وتشجع على مواصلة هذه الجهود في المستقبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="MercuryDocument">
+        <num>13 -</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="bold italic">تهيب</span> بالأمين العام أن يكفل التعجيل بنشر <span class="italic">مجموعة معاهدات</span> الأمم المتحدة، وفقا للنظام، من خلال الإسراع بتوفير خدمات التحرير والترجمة التحريرية، بما يتيح القيام على نحو فعال بنشر المعاهدات وإتاحة سبل الاطلاع عليها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="MercuryDocument">
+        <num>14 -</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="bold italic">تقرر </span>أن تجري مناقشة مواضيعية في اللجنة السادسة للتشجيع على التبادل التقني للآراء بشأن الممارسة المتصلة بتعزيز الإطار التعاهدي الدولي وتدعيمه، وتدعو الدول الأعضاء، في ذلك الصدد، إلى تركيز تعليقاتها خلال المناقشة في الدورة الثامنة والسبعين للجمعية العامة، على الموضوع الفرعي ”أفضل ممارسات الجهات الوديعة للمعاهدات المتعددة الأطراف“؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="MercuryDocument">
+        <num>15 -</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="bold italic">تقرر أيضا</span> أن تدرج في جدول الأعمال المؤقت لدورتها الثامنة والسبعين البند المعنون ”تعزيز الإطار التعاهدي الدولي وتدعيمه“.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="49">الجلسة العامة 49</inline>
+        <eol />
+        <docDate date="2021-12-09" refersTo="#adoptionDate">9 كانون الأول/ديسمبر 2021</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+                <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@/"></FRBRuri>
+                <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="ara"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/ara@.xml"></FRBRuri>
+                <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_121" class="MercuryDocument">
+              <content eId="para_121__content">
+                <p xml:space="preserve">
+                  <span class="bold">المرفق</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="MercuryDocument">
+              <content eId="para_122__content">
+                <p xml:space="preserve">
+                  <span class="bold">		نظام إعمال المادة 102 من ميثاق الأمم المتحدة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="MercuryDocument">
+              <content eId="para_123__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الأول</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="MercuryDocument">
+              <content eId="para_124__content">
+                <p xml:space="preserve">
+                  <span class="bold">		التسجيل</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="MercuryDocument">
+              <content eId="para_125__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 1</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="MercuryDocument">
+              <num>1 -</num>
+              <content eId="para_126__content">
+                <p xml:space="preserve">	يسجل لدى الأمانة العامة بأسرع ما يمكن، وفقا لهذا النظام، كل ما يبرمه عضو أو أكثر من أعضاء الأمم المتحدة من معاهدات أو اتفاقات دولية، أيا كان شكلها واسمها الوصفي، بعد 24 تشرين الأول/أكتوبر 1945، وهو تاريخ بدء نفاذ ميثاق الأمم المتحدة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="MercuryDocument">
+              <num>2 -</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve">	ولا يتم التسجيل إلا بعد دخول المعاهدات أو الاتفاقات الدولية حيز النفاذ بين اثنين أو أكثر من الأطراف فيها. ويجوز تسجيل المعاهدات أو الاتفاقات الدولية التي تطبَّقُ بصفة مؤقتة قبل دخولها حيز النفاذ، على اعتبار أنها مؤقتة التطبيق.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="MercuryDocument">
+              <num>3 -</num>
+              <content eId="para_128__content">
+                <p xml:space="preserve">	ويجوز أن يتم هذا التسجيل من جانب أي طرف، أو وفقا للمادة 4 من هذا النظام. ودون المساس بحق أي طرف في معاهدة أو اتفاق دولي في أن يقدم المعاهدة أو الاتفاق الدولي للتسجيل، إذا حُددت جهة وديعة أو أكثر في أيهما، تُشجَّع تلك الجهة أو الجهات الوديعة على القيام بالتسجيل، ما لم تنص المعاهدة أو الاتفاق الدولي أو يتفق الأطراف على خلاف ذلك.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="MercuryDocument">
+              <num>4 -</num>
+              <content eId="para_129__content">
+                <p xml:space="preserve">	تحفظ الأمانة المعاهدات والاتفاقات الدولية المسجلة على هذا النحو في سجل معد لهذا الغرض.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="MercuryDocument">
+              <content eId="para_130__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 2</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="MercuryDocument">
+              <num>1 -</num>
+              <content eId="para_131__content">
+                <p xml:space="preserve">	عند تسجيل المعاهدات أو الاتفاقات الدولية لدى الأمانة العامة، يسجل لديها أيضا بيان مصدّق عليه بشأن أي إجراء لاحق يتخذ ويحدث تغييرا في أطراف المعاهدات أو الاتفاقات الدولية، أو شروطها أو نطاق تطبيقها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="MercuryDocument">
+              <num>2 -</num>
+              <content eId="para_132__content">
+                <p xml:space="preserve">	تحفظ الأمانة البيان المصدق عليه المسجل على هذا النحو في السجل المنشأ بموجب المادة 1 من هذا النظام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="MercuryDocument">
+              <content eId="para_133__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 3</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="MercuryDocument">
+              <num>1 -</num>
+              <content eId="para_134__content">
+                <p xml:space="preserve">	يعفي قيام أي طرف بالتسجيل، وفقا للمادة 1 من هذا النظام، جميع الأطراف الأخرى من الالتزام بالتسجيل. ويعفي قيام الجهة الوديعة بالتسجيل، وفقا للمادة 1 من هذا النظام، جميع الأطراف من الالتزام بالتسجيل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="MercuryDocument">
+              <num>2 -</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	يعفي التسجيل وفقا للمادة 4 من هذا النظام جميع الأطراف من الالتزام بالتسجيل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="MercuryDocument">
+              <content eId="para_136__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 4</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="MercuryDocument">
+              <num>1 -</num>
+              <content eId="para_137__content">
+                <p xml:space="preserve">	يسجل تلقائيا من جانب الأمم المتحدة في الحالات التالية كل من المعاهدات أو الاتفاقات الدولية التي تدخل في نطاق المادة 1 من هذا النظام:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="MercuryDocument">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	(أ)	عندما تكون الأمم المتحدة طرفا في المعاهدة أو الاتفاق الدولي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="MercuryDocument">
+              <content eId="para_139__content">
+                <p xml:space="preserve">	(ب)	عندما يؤذن للأمم المتحدة بموجب المعاهدة أو الاتفاق الدولي بالقيام بالتسجيل؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="MercuryDocument">
+              <content eId="para_140__content">
+                <p xml:space="preserve">	(ج)	عندما تكون الأمم المتحدة هي الجهة الوديعة لمعاهدة متعددة الأطراف أو لاتفاق دولي متعدد الأطراف.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="MercuryDocument">
+              <num>2 -</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	يجوز في الحالات التالية للوكالات المتخصصة القيام بتسجيل أي من المعاهدات أو الاتفاقات الدولية التي تدخل في نطاق المادة 1 من هذا النظام لدى الأمانة العامة:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="MercuryDocument">
+              <content eId="para_142__content">
+                <p xml:space="preserve">	(أ)	عندما ينص الصك المنشئ للوكالة المتخصصة على هذا التسجيل؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="MercuryDocument">
+              <content eId="para_143__content">
+                <p xml:space="preserve">	(ب)	عند تسجيل المعاهدة أو الاتفاق الدولي لدى الوكالة المتخصصة وفقا لأحكام الصك المنشئ لها؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="MercuryDocument">
+              <content eId="para_144__content">
+                <p xml:space="preserve">	(ج)	عندما يؤذن للوكالة المتخصصة بموجب المعاهدة أو الاتفاق الدولي بالقيام بالتسجيل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="MercuryDocument">
+              <content eId="para_145__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 5</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="MercuryDocument">
+              <num>1 -</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	ينبغي أن يشتمل أي طلب يقدم للتسجيل بموجب المادة 1 أو المادة 4 من هذا النظام على نسخة من المعاهدة أو الاتفاق الدولي مصدّق عليها، سواء في شكل إلكتروني أو مطبوع، مشفوعة ببيان يثبت أن النص هو نسخة حقيقية وكاملة من المعاهدة أو الاتفاق الدولي.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="MercuryDocument">
+              <num>2 -</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	تورد النسخة المصدقة عليها نص المعاهدة أو الاتفاق الدولي بجميع اللغات التي أبرم بها، بما في ذلك جميع المرفقات أو الملحقات التي تشكل جزءا لا يتجزأ من المعاهدة أو الاتفاق الدولي. وتشمل تلك النسخة أيضا، في حالة المعاهدات أو الاتفاقات المتعددة الأطراف، نص جميع التحفظات أو الإعلانات التي تصدرها أو تؤكدها الأطراف وقت إيداع صكوك رضاها الالتزام بتلك المعاهدات أو الاتفاقات، بجميع اللغات الأصلية التي صدرت بها تلك التحفظات أو الإعلانات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="MercuryDocument">
+              <num>3 -</num>
+              <content eId="para_148__content">
+                <p xml:space="preserve">	وإضافة إلى النسخة المصدقة والبيان المشار إليه، يمكن أيضا أن يُشفَع أي طلب يقدم للتسجيل بترجمةٍ للنص على سبيل المجاملة، حيثما توافر ذلك، بأي من اللغات الرسمية للأمم المتحدة من أجل التعجيل بترجمته إلى اللغتين الإنكليزية والفرنسية لأغراض النشر وفقًا للمادة 12 من هذا النظام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="MercuryDocument">
+              <num>4 -</num>
+              <content eId="para_149__content">
+                <p xml:space="preserve">	ينص بيان التصديق على ما يلي:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="MercuryDocument">
+              <content eId="para_150__content">
+                <p xml:space="preserve">	(أ)	العنوان الكامل للمعاهدة أو الاتفاق الدولي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="MercuryDocument">
+              <content eId="para_151__content">
+                <p xml:space="preserve">	(ب)	تاريخ (أو تواريخ) إبرام المعاهدة أو الاتفاق الدولي ومكان (أو أماكن) ذلك؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="MercuryDocument">
+              <content eId="para_152__content">
+                <p xml:space="preserve">	(ج)	تاريخ دخول المعاهدة أو الاتفاق الدولي حيز النفاذ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="MercuryDocument">
+              <content eId="para_153__content">
+                <p xml:space="preserve">	(د)	طريقة دخول المعاهدة أو الاتفاق الدولي حيز النفاذ (على سبيل المثال: بالتوقيع أو التصديق أو الموافقة أو القبول أو الانضمام أو ما إلى ذلك)؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="MercuryDocument">
+              <content eId="para_154__content">
+                <p xml:space="preserve">	(ه)	اللغات الأصلية التي أبرم بها الصك المعني، وعند الاقتضاء، اللغة أو اللغات التي استخدمت لإنجاز ترجمات المجاملة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="MercuryDocument">
+              <content eId="para_155__content">
+                <p xml:space="preserve">	(و)	عند الاقتضاء، أسماء الأشخاص الذين وقعوا على المعاهدة أو الاتفاق الدولي باسم كل طرف وألقابهم الرسمية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="MercuryDocument">
+              <num>5 -</num>
+              <content eId="para_156__content">
+                <p xml:space="preserve">	في حالة المعاهدات أو الاتفاقات المتعددة الأطراف، يتضمن بيان التصديق، بالإضافة إلى المعلومات المذكورة في الفقرة 4 من هذه المادة، ما يلي:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="MercuryDocument">
+              <content eId="para_157__content">
+                <p xml:space="preserve">	(أ)	قائمة بجميع الأطراف في المعاهدة أو الاتفاق الدولي، تبين تاريخ إيداع صك رضا كل طرف بالالتزام بالمعاهدة أو الاتفاق الدولي، وطبيعة الصك (تصديق أو موافقة أو قبول أو انضمام أو ما إلى ذلك) وتاريخ بدء نفاذ المعاهدة بالنسبة إلى كل طرف؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="MercuryDocument">
+              <content eId="para_158__content">
+                <p xml:space="preserve">	(ب)	شهادة بأنه يشتمل على جميع التحفظات أو الإعلانات التي أصدرتها الأطراف في المعاهدة أو الاتفاق الدولي.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="MercuryDocument">
+              <num>6 -</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve">	تسري المتطلبات المنصوص عليها في هذه المادة أيضا على الإجراءات اللاحقة المقدمة عملا بالمادة 2 من هذا النظام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="MercuryDocument">
+              <content eId="para_160__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 6</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="MercuryDocument">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	يعتبر تاريخ استلام الأمانة العامة للأمم المتحدة المعاهدة المسجلة أو الاتفاق الدولي المسجل هو تاريخ التسجيل، على أن يكون تاريخ تسجيل المعاهدات أو الاتفاقات التي تسجلها الأمم المتحدة تلقائيا هو تاريخ بدء نفاذها بين اثنين أو أكثر من أطرافها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="MercuryDocument">
+              <content eId="para_162__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 7</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="MercuryDocument">
+              <content eId="para_163__content">
+                <p xml:space="preserve">	تصدر شهادة تسجيل موقعة من الأمين العام أو ممثله للطرف المسجل أو الوكالة المتخصصة أو الجهة الوديعة، وكذلك، عند الطلب، لأي طرف في أي من المعاهدات أو الاتفاقات الدولية المسجلة. وتتاح شهادات التسجيل أيضا للجمهور من خلال الوسائل الإلكترونية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="MercuryDocument">
+              <content eId="para_164__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 8</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="MercuryDocument">
+              <num>1 -</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	يحتفظ بالسجل باللغتين الانكليزية والفرنسية. ويضم السجل فيما يتعلق بكل معاهدة أو اتفاق دولي بيانا بما يلي:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="MercuryDocument">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	(أ)	الرقم التسلسلي المحدد في ترتيب التسجيل؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="MercuryDocument">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	(ب)	العنوان الذي حددته الأطراف للصك؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="MercuryDocument">
+              <content eId="para_168__content">
+                <p xml:space="preserve">	(ج)	أسماء الأطراف التي أبرمت المعاهدة أو الاتفاق الدولي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="MercuryDocument">
+              <content eId="para_169__content">
+                <p xml:space="preserve">	(د)	تواريخ التوقيع، أو التصديق، أو الموافقة، أو القبول، وتبادل وثائق التصديق، والانضمام، وبدء النفاذ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="MercuryDocument">
+              <content eId="para_170__content">
+                <p xml:space="preserve">	(ه)	مدة المعاهدة أو الاتفاق الدولي، حسب الاقتضاء؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="MercuryDocument">
+              <content eId="para_171__content">
+                <p xml:space="preserve">	(و)	اللغة أو اللغات التي وضعت بها المعاهدة أو الصك الدولي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="MercuryDocument">
+              <content eId="para_172__content">
+                <p xml:space="preserve">	(ز)	اسم من يسجل الصك، سواء كان طرفا أو وكالة متخصصة أو جهة وديعة، وتاريخ ذلك التسجيل؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="MercuryDocument">
+              <content eId="para_173__content">
+                <p xml:space="preserve">	(ح)	تفاصيل النشر في مجموعة معاهدات الأمم المتحدة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="MercuryDocument">
+              <num>2 -</num>
+              <content eId="para_174__content">
+                <p xml:space="preserve">	تدرج هذه المعلومات في السجل فيما يتعلق أيضا بالبيانات المسجلة بموجب المادة 2 من هذا النظام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="MercuryDocument">
+              <num>3 -</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	تبقى نصوص المعاهدات أو الاتفاقات الدولية المسجلة، إلى جانب بيانات التصديق، في عهدة الأمانة العامة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="MercuryDocument">
+              <content eId="para_176__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 9</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="MercuryDocument">
+              <content eId="para_177__content">
+                <p xml:space="preserve">	يكفل الأمين العام أو ممثله أن يكون السجل متاحا لعامة الناس، بما في ذلك من خلال الوسائل الإلكترونية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="MercuryDocument">
+              <content eId="para_178__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الثاني</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="MercuryDocument">
+              <content eId="para_179__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الإيداع في الملفات والحفظ في السجلات</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="MercuryDocument">
+              <content eId="para_180__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 10</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="MercuryDocument">
+              <content eId="para_181__content">
+                <p xml:space="preserve">	تقوم الأمانة العامة بإيداع المعاهدات والاتفاقات الدولية في ملفات وحفظها في السجلات، عدا تلك الخاضعة للتسجيل بموجب المادة 1 من هذا النظام، إذا كانت تندرج ضمن الفئات التالية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="MercuryDocument">
+              <content eId="para_182__content">
+                <p xml:space="preserve">	(أ)	المعاهدات أو الاتفاقات الدولية التي تبرمها الأمم المتحدة أو واحدة أو أكثر من الوكالات المتخصصة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="MercuryDocument">
+              <content eId="para_183__content">
+                <p xml:space="preserve">	(ب)	المعاهدات أو الاتفاقات الدولية التي يحيلها أحد أعضاء الأمم المتحدة وتكون قد أبرمت قبل بدء نفاذ الميثاق، لكنها لم تدرج في مجموعة معاهدات عصبة الأمم؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="MercuryDocument">
+              <content eId="para_184__content">
+                <p xml:space="preserve">	(ج)	المعاهدات أو الاتفاقات الدولية التي يحيلها طرف ليس عضوا في الأمم المتحدة وتكون قد أبرمت قبل أو بعد بدء نفاذ الميثاق ولم تدرج في مجموعة معاهدات عصبة الأمم.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="MercuryDocument">
+              <content eId="para_185__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 11</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="MercuryDocument">
+              <content eId="para_186__content">
+                <p xml:space="preserve">	تسري أحكام المواد 2 و 5 و 8 من هذا النظام، مع مراعاة ما يقتضيه اختلاف الحال، على جميع المعاهدات والاتفاقات الدولية التي تودع في ملفات وتحفظ في السجلات بموجب المادة 10 من هذا النظام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="MercuryDocument">
+              <content eId="para_187__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الثالث</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="MercuryDocument">
+              <content eId="para_188__content">
+                <p xml:space="preserve">
+                  <span class="bold">		النشر</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="MercuryDocument">
+              <content eId="para_189__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 12</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="MercuryDocument">
+              <num>1 -</num>
+              <content eId="para_190__content">
+                <p xml:space="preserve">	تنشر الأمانة العامة في أقرب وقت ممكن في مجموعة واحدة جميع المعاهدات أو الاتفاقات الدولية المسجلة أو المودعة في ملفات ومحفوظة في السجلات، باللغة أو اللغات الأصلية، على أن يلي ذلك ترجمة باللغتين الإنكليزية والفرنسية. وتنشر بالطريقة نفسها البيانات المصدّق عليها المشار إليها في المادة 2 من هذا النظام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="MercuryDocument">
+              <num>2 -</num>
+              <content eId="para_191__content">
+                <p xml:space="preserve">	على أن للأمانة العامة الحق في ألا تنشر النص الكامل لأي معاهدة أو اتفاق دولي، أو ملحق تقني لمعاهدة أو اتفاق دولي من إحدى الفئات التالية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="MercuryDocument">
+              <content eId="para_192__content">
+                <p xml:space="preserve">	(أ)	الاتفاقات المحدودة النطاق المتعلقة بالمساعدة والتعاون في المسائل المالية أو التجارية أو الإدارية أو التقنية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="MercuryDocument">
+              <content eId="para_193__content">
+                <p xml:space="preserve">	(ب)	الاتفاقات المتعلقة بتنظيم المؤتمرات أو الحلقات الدراسية أو الاجتماعات؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="MercuryDocument">
+              <content eId="para_194__content">
+                <p xml:space="preserve">	(ج)	الاتفاقات المقرر نشرها في غير المجموعة المشار إليها في الفقرة 1 من هذه المادة بواسطة الأمانة العامة للأمم المتحدة، أو وكالة متخصصة أو ذات صلة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="MercuryDocument">
+              <content eId="para_195__content">
+                <p xml:space="preserve">	(د)	الاتفاقات المتعددة الأطراف المقرر نشرها في شكل مماثل للمجموعة المشار إليها في الفقرة 1 من هذه المادة بواسطة الجهات التي أودعتها؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="MercuryDocument">
+              <content eId="para_196__content">
+                <p xml:space="preserve">	(ه)	المرفقات التقنية للمعاهدات أو الاتفاقات التي تخضع مرفقاتها التقنية للتعديل بشكل متكرر.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="MercuryDocument">
+              <num>3 -</num>
+              <content eId="para_197__content">
+                <p xml:space="preserve">	عند البت في مسألة ما إذا كان ينبغي نشر النص الكامل لمعاهدة أو اتفاق دولي من إحدى الفئات المذكورة في الفقرة 2 من هذه المادة، تولي الأمانة العامة الاعتبار الواجب لأمور من بينها القيمة العملية التي قد تتأتى من نشر النص الكامل. أما المعاهدات والاتفاقات الدولية التي لا تعتزم الأمانة العامة نشر نصها الكامل، فتوصف على هذا النحو في السجل، مع العلم بأنه يجوز في أي وقت العدول عن قرار عدم نشر النص الكامل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="MercuryDocument">
+              <num>4 -</num>
+              <content eId="para_198__content">
+                <p xml:space="preserve">	يجوز لأي دولة أو منظمة حكومية دولية أن تحصل من الأمين العام على نسخة من نص أي معاهدة أو اتفاق دولي يتقرر عملا بالفقرة 2 من هذه المادة، عدم نشره بالكامل. كذلك تتيح الأمانة العامة للأشخاص العاديين نسخة يدفع ثمنها من أي من هذه المعاهدات أو الاتفاقات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="MercuryDocument">
+              <num>5 -</num>
+              <content eId="para_199__content">
+                <p xml:space="preserve">	تشمل المجموعة المشار إليها في الفقرة 1 من هذه المادة، فيما يتعلق بجميع المعاهدات أو الاتفاقات الدولية المسجلة أو المودعة في ملفات ومحفوظة في السجلات، المعلومات التالية على الأقل: رقم التسجيل أو القيد، وأسماء الأطراف، والعنوان، وتاريخ الإبرام ومكانه، وتاريخ بدء النفاذ وطريقته، والمدة (عند الاقتضاء)، ولغات الإبرام، واسم الدولة أو المنظمة التي سجلته أو أحالته للإيداع في ملفات والحفظ في السجلات، وإشارة، عند الاقتضاء، إلى المنشورات التي يكون النص الكامل للمعاهدة أو الاتفاق الدولي مستنسخا بها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="MercuryDocument">
+              <content eId="para_200__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المادة 13</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="SingleTxt">
+              <content eId="para_201__content">
+                <p xml:space="preserve">	تتيح الأمانة المجموعة المشار إليها في المادة 12 من هذا النظام عن طريق أي وسيلة إلكترونية قد تتوافر. وتتاح أيضًا نصوص المعاهدات أو الاتفاقات الدولية المسجلة، بالشكل الذي تُقدَّم فيه، كما تتاح على الإنترنت، وفي أقرب وقت ممكن، ترجمة غير رسمية تعدها الأمانة باللغتين الإنكليزية والفرنسية، عقب التسجيل وقبل النشر في المجموعة. وتقوم الأمانة بإرسال نسخ مطبوعة من المجموعة لأعضاء الأمم المتحدة، بناء على الطلب.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
