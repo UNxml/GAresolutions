@@ -1,0 +1,823 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+          <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@/"></FRBRuri>
+          <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of Legal Affairs. Treaty Section" showAs="UN. Office of Legal Affairs. Treaty Section" dictionary="DHLAUTH"></keyword>
+        <keyword value="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" showAs="Registration and Publication of Treaties and International Agreements : Regulations to give effect to Article 102 of the Charter of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" showAs="Treaty Series : Treaties and International Agreements Registered or Filed and Recorded with the Secretariat of the United Nations" dictionary="DHLAUTH"></keyword>
+        <keyword value="Multilateral Treaties Deposited with the Secretary-General" showAs="Multilateral Treaties Deposited with the Secretary-General" dictionary="DHLAUTH"></keyword>
+        <keyword value="TREATIES" showAs="TREATIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATY REGISTRATION" showAs="TREATY REGISTRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PUBLICATIONS" showAs="PUBLICATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULES AND REGULATIONS" showAs="RULES AND REGULATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSLATION" showAs="TRANSLATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="88" showAs="TREATIES" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-11" outcome="draftResolution" as="A/C.6/76/L.19" by="introduced in the Committee by the representative of Brazil on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/496" by="" refersTo="8" />
+        <step date="2021-12-09" outcome="adopted" as="A/76/PV.49" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Sexta Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-18679 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/120</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-17" class="rightSmall" refersTo="#dateOfIssuance">17 de diciembre de 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Septuagésimo sexto período de sesiones</session>
+      </p>
+      <p>
+        <inline name="agenda item">Tema 88 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Fortalecimiento y promoción del marco de tratados internacionales</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 9 de diciembre de 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[sobre la base del informe de la Sexta Comisión (<inline name="originating document">A/76/496, párr. 8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/120.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Fortalecimiento y promoción del marco de tratados internacionales</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> sus resoluciones <a href="https://undocs.org/es/A/RES/23(I)">23 (I)</a>, de 10 de febrero de 1946, <a href="https://undocs.org/es/A/RES/97(I)">97 (I)</a>, de 14 de diciembre de 1946, <a href="https://undocs.org/es/A/RES/364(IV)">364 B (IV)</a>, de 1 de diciembre de 1949, <a href="https://undocs.org/es/A/RES/482(V)">482 (V)</a>, de 12 de diciembre de 1950, <a href="https://undocs.org/es/A/RES/32/144">32/144</a>, de 16 de diciembre de 1977, <a href="https://undocs.org/es/A/RES/33/141">33/141</a> A, de 19 de diciembre de 1978, <a href="https://undocs.org/es/A/RES/51/158">51/158</a>, de 16 de diciembre de 1996, <a href="https://undocs.org/es/A/RES/73/210">73/210</a>, de 20 de diciembre de 2018, y <a href="https://undocs.org/es/A/RES/75/144">75/144</a>, de 15 de diciembre de 2020,</p>
+      </container>
+      <container name="Recordando también" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> sus resoluciones <a href="https://undocs.org/es/A/RES/71/328">71/328</a>, de 11 de septiembre de 2017, y <a href="https://undocs.org/es/A/RES/73/346">73/346</a>, de 16 de septiembre de 2019, en las que reafirma que el multilingüismo es un valor básico de la Organización que contribuye al logro de los objetivos de las Naciones Unidas, y solicitando al Secretario General que siga esforzándose por asegurar que el multilingüismo no se vea menoscabado por las medidas adoptadas en respuesta a la situación de liquidez y la enfermedad por coronavirus (COVID-19),</p>
+      </container>
+      <container name="Consciente" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> de las obligaciones dimanantes del Artículo 102 de la Carta de las Naciones Unidas y de la importancia de los tratados en el desarrollo del derecho internacional y el orden jurídico internacional, </p>
+      </container>
+      <container name="Observando con aprecio" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Observando con aprecio</span> la función que desempeña la Secretaría, en particular la Sección de Tratados de la Oficina de Asuntos Jurídicos, en la aplicación del Artículo 102 de la Carta, </p>
+      </container>
+      <container name="Observando" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Observando</span> que el aumento considerable del número de tratados presentados para su registro en los últimos años ha elevado el volumen de trabajo de la Sección de Tratados, lo cual ha contribuido a la acumulación de tratados sin publicar,</p>
+      </container>
+      <container name="Observando también" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Observando también</span> que, si bien los textos auténticos de los tratados registrados pueden consultarse rápidamente en línea a través de la base de datos electrónica sobre tratados, en la actualidad existe un atraso considerable en la publicación de la compilación de tratados (<span class="italic">Treaty Series</span>) de las Naciones Unidas debido a las crecientes demoras en la traducción de los tratados relacionadas, entre otras cosas, con los limitados recursos disponibles para el proceso de publicación, </p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la importancia de que los tratados y los actos relativos a los tratados se procesen, registren y publiquen con rapidez, </p>
+      </container>
+      <container name="Apoyando" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Apoyando</span> los esfuerzos del Secretario General por hacer más eficiente el proceso de registro y publicación con los recursos disponibles y ampliar la función que desempeña la Sección de Tratados en la prestación de apoyo a los Estados Miembros en esta esfera,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> las medidas adoptadas por la Sección de Tratados para agilizar la publicación de la compilación de tratados de las Naciones Unidas y proporcionar acceso electrónico a todas sus publicaciones en el sitio web de la Colección de Tratados de las Naciones Unidas, y reconociendo el papel que la nueva tecnología puede desempeñar en la accesibilidad de dicha compilación,</p>
+      </container>
+      <container name="Reconociendo" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que la práctica y la tecnología han experimentado un considerable desarrollo en los últimos años, y reconociendo asimismo la importancia de mantener la coherencia con la práctica de elaboración de tratados en la comunidad internacional,</p>
+      </container>
+      <container name="Teniendo presentes" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Teniendo presentes</span> las disposiciones de la Convención de Viena sobre el Derecho de los Tratados<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1155, núm. 18232.</p></authorialNote>, y tomando en consideración que esta fue adoptada el 22 de mayo de 1969 por la Conferencia de las Naciones Unidas sobre el Derecho de los Tratados, </p>
+      </container>
+      <container name="Convencida" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Convencida</span> de la necesidad de seguir recabando e intercambiando opiniones sobre el fortalecimiento y la promoción del marco de tratados internacionales,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> el Artículo 102 de la Carta de las Naciones Unidas, reafirma la importancia del registro y la publicación de los tratados, así como de su accesibilidad, y destaca que el Reglamento para la Aplicación del Artículo 102 debería ser útil y pertinente para los Estados Miembros y mantenerse actualizado para ayudarlos a cumplir las obligaciones que les incumben en virtud de él;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del informe del Secretario General titulado “Examen del Reglamento para la Aplicación del Artículo 102 de la Carta de las Naciones Unidas”<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/75/136">A/75/136</a>.</p></authorialNote>, presentado de conformidad con su resolución <a href="https://undocs.org/es/A/RES/73/210">73/210</a>, y de las recomendaciones que figuran en él y se someten a su consideración;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Enmienda</span> el Reglamento según se indica en el anexo de la presente resolución, en el entendido de que la versión enmendada entrará en vigor el 1 de febrero de 2022;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que algunos Estados Miembros siguen considerando que quedan cuestiones pendientes en relación con las cuales tal vez haya que seguir examinando el Reglamento;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma su apoyo</span> a las jornadas anuales de los tratados organizadas por el Secretario General; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la importante iniciativa de creación de capacidad que representan los talleres sobre el derecho de los tratados y la práctica en materia de tratados organizados por la Sección de Tratados en la Sede y a nivel nacional y regional, alienta a la Sección de Tratados a que siga organizándolos con la mayor periodicidad posible, incluso mediante la utilización de la tecnología de la información y las comunicaciones cuando sea necesario debido a circunstancias extraordinarias, e invita a los Estados y a las instituciones y organizaciones internacionales interesadas a que continúen apoyando esa actividad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que desde 2016 no se han podido organizar talleres sobre el derecho de los tratados y la práctica en materia de tratados a nivel nacional y regional, entre otras cosas, por falta de fondos, e invita a los Estados y a las organizaciones e instituciones interesadas a que hagan contribuciones voluntarias al fondo fiduciario creado por el Secretario General para que la Oficina de Asuntos Jurídicos apoye la promoción del derecho internacional, con vistas a financiar dichos talleres, o a que ayuden de otro modo a su realización y posible ampliación, como complemento de los talleres sobre el derecho de los tratados y la práctica en materia de tratados celebrados en la Sede;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> los esfuerzos para fomentar la capacidad de los Estados en relación con el derecho de los tratados y la práctica en materia de tratados, e invita a los Estados Miembros a que consideren la posibilidad de prestar, previa solicitud, asistencia técnica específica a nivel bilateral, regional y multilateral, en particular a los países en desarrollo, para que estos desarrollen y mejoren su práctica en materia de tratados, entre otras cosas, en lo que respecta a la utilización de la tecnología de la información y las comunicaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito también</span> los esfuerzos realizados para desarrollar y mejorar la base de datos electrónica sobre tratados de las Naciones Unidas, que brinda acceso en línea a información completa sobre las funciones de depositario del Secretario General y sobre el registro y la publicación de los tratados con arreglo al Artículo 102 de la Carta, y alienta a que continúen esos esfuerzos en el futuro, teniendo presentes al mismo tiempo las dificultades a las que se enfrentan muchos países en desarrollo a la hora de acceder a la tecnología de la información y las comunicaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que la mayoría de las presentaciones de tratados para su registro están en formato electrónico, y alienta al Secretario General a que elabore, en consulta con los Estados Miembros y sobre la base de sus observaciones y con los recursos disponibles, un sistema de registro de tratados en línea para facilitar las presentaciones de tratados para su registro, como opción adicional a las formas existentes de presentación en formato electrónico o impreso;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la importancia de las publicaciones jurídicas preparadas por la Sección de Tratados y destaca la necesidad de actualizar el resumen de la práctica del Secretario General como depositario de tratados multilaterales (<span class="italic">Summary of Practice of the Secretary-General as Depositary of Multilateral Treaties</span>) a la luz de las novedades y las prácticas recientes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> los esfuerzos que realizan los depositarios para registrar los tratados con arreglo al Artículo 102 de la Carta y alienta a que continúen esos esfuerzos en el futuro;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> al Secretario General a que vele por que la compilación de tratados de las Naciones Unidas se publique con rapidez, de conformidad con el Reglamento, proporcionando sin demora servicios de revisión editorial y de traducción, a fin de permitir la difusión de los tratados y el acceso a ellos de manera eficaz;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> emprender un debate temático en la Sexta Comisión para fomentar un intercambio técnico de opiniones sobre la práctica relativa al fortalecimiento y la promoción del marco de tratados internacionales y, a ese respecto, invita a los Estados Miembros a que centren los comentarios que formulen durante el debate del septuagésimo octavo período de sesiones de la Asamblea General en el subtema “Mejores prácticas de los depositarios de tratados multilaterales”;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">Decide también</span> incluir en el programa provisional de su septuagésimo octavo período de sesiones el tema titulado “Fortalecimiento y promoción del marco de tratados internacionales”.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="49a">49a sesión plenaria</inline>
+        <eol />
+        <docDate date="2021-12-09" refersTo="#adoptionDate">9 de diciembre de 2021</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/"></FRBRuri>
+                <FRBRdate date="2021-12-09" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@/"></FRBRuri>
+                <FRBRdate date="2021-12-17" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="spa"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-09/76-120/spa@.xml"></FRBRuri>
+                <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_121" class="H1">
+              <content eId="para_121__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Anexo</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="H1">
+              <content eId="para_122__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Reglamento para la Aplicación del Artículo 102 de la Carta  de las Naciones Unidas</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="H23">
+              <content eId="para_123__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Primera parte Registro</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="H23">
+              <content eId="para_124__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 1</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125">
+              <num>1.</num>
+              <content eId="para_125__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <content eId="para_126__content">
+                <p xml:space="preserve">Todo tratado o acuerdo internacional, cualesquiera que sean la forma y el nombre con que aparezca designado, que haya sido celebrado por uno o más Miembros de las Naciones Unidas después del 24 de octubre de 1945, fecha en que entró en vigor la Carta, será registrado en la Secretaría de acuerdo con el presente Reglamento tan pronto como sea posible. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127">
+              <num>2.</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <content eId="para_128__content">
+                <p xml:space="preserve">No se hará el registro hasta que el tratado o acuerdo internacional haya entrado en vigor entre dos o más de las partes. Un tratado o acuerdo internacional que se esté aplicando provisionalmente antes de su entrada en vigor puede registrarse como aplicado provisionalmente. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129">
+              <num>3.</num>
+              <content eId="para_129__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="SingleTxt">
+              <content eId="para_130__content">
+                <p xml:space="preserve">Tal registro puede ser efectuado por cualquiera de las partes o de acuerdo con el artículo 4 del presente Reglamento. Sin perjuicio del derecho de una parte en un tratado o acuerdo internacional a presentarlo para su registro, se alienta a que, si un tratado o acuerdo internacional designa a uno o más depositarios, sea cualquiera de estos quien efectúe el registro, salvo que el tratado o acuerdo internacional disponga lo contrario o así lo acuerden las partes en él.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131">
+              <num>4.</num>
+              <content eId="para_131__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="SingleTxt">
+              <content eId="para_132__content">
+                <p xml:space="preserve">La Secretaría inscribirá los tratados y acuerdos internacionales así registrados en un registro establecido con ese fin.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="H23">
+              <content eId="para_133__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 2</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_134__content">
+                <p xml:space="preserve">	Cuando un tratado o acuerdo internacional haya sido registrado en la Secretaría, se registrará también una declaración certificada referente a cualquier acción posterior que signifique un cambio en las partes, o en los términos, el alcance o la aplicación del tratado o acuerdo internacional.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	La Secretaría inscribirá la declaración certificada así registrada en el registro establecido de acuerdo con el artículo 1 del presente Reglamento.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="H23">
+              <content eId="para_136__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 3</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_137__content">
+                <p xml:space="preserve">	El registro por una de las partes, de acuerdo con el artículo 1 del presente Reglamento, exime a todas las demás de la obligación de hacerlo. El registro por un depositario, de acuerdo con el artículo 1 del presente Reglamento, exime a todas las partes de la obligación de hacerlo.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_138__content">
+                <p xml:space="preserve">	El registro efectuado de acuerdo con el artículo 4 del presente Reglamento exime a todas las partes de la obligación de hacerlo. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="H23">
+              <content eId="para_139__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 4 </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_140__content">
+                <p xml:space="preserve">	Todo tratado o acuerdo internacional sujeto al artículo 1 del presente Reglamento será registrado <span class="italic">ex officio</span> por las Naciones Unidas en los siguientes casos:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <content eId="para_141__content">
+                <p xml:space="preserve">	a)	Cuando las Naciones Unidas sean parte en el tratado o acuerdo internacional;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <content eId="para_142__content">
+                <p xml:space="preserve">	b)	Cuando las Naciones Unidas hayan sido autorizadas por el tratado o acuerdo internacional para efectuar el registro;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <content eId="para_143__content">
+                <p xml:space="preserve">	c)	Cuando las Naciones Unidas sean depositarias de un tratado multilateral o acuerdo internacional.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	Un organismo especializado puede registrar en la Secretaría un tratado o acuerdo internacional sujeto al artículo 1 del presente Reglamento en los siguientes casos:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <content eId="para_145__content">
+                <p xml:space="preserve">	a)	Cuando el instrumento constitutivo del organismo especializado disponga tal registro;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <content eId="para_146__content">
+                <p xml:space="preserve">	b)	Cuando el tratado o acuerdo internacional haya sido registrado en el organismo especializado en cumplimiento de los términos de su instrumento constitutivo;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <content eId="para_147__content">
+                <p xml:space="preserve">	c)	Cuando el organismo especializado haya sido autorizado por el tratado o acuerdo internacional para efectuar el registro.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="H23">
+              <content eId="para_148__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 5</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_149__content">
+                <p xml:space="preserve">	Al presentar un tratado o acuerdo internacional para su registro con arreglo a los artículos 1 o 4 del presente Reglamento se deberá incluir una copia certificada del tratado o acuerdo internacional, en formato electrónico o impreso, así como una declaración en la que se certifique que el texto es una copia fiel y completa del tratado o acuerdo internacional.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_150__content">
+                <p xml:space="preserve">	La copia certificada reproducirá el texto en todos los idiomas en que el tratado o acuerdo internacional se haya concluido e incluirá todos los anexos o documentos agregados que formen parte del tratado o acuerdo internacional. En el caso de tratados o acuerdos multilaterales, también deberá incluir el texto de todas las reservas o declaraciones formuladas o confirmadas por las partes en el momento de depositar sus instrumentos de consentimiento en obligarse, en todos los idiomas auténticos en que se formularon esas reservas o declaraciones.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_151__content">
+                <p xml:space="preserve">	Además de una copia certificada y de la declaración mencionadas, toda presentación puede incluir también, cuando se disponga de ellas, traducciones de cortesía del texto a cualquiera de los idiomas oficiales de las Naciones Unidas, con el fin de agilizar las traducciones al francés y al inglés a efectos de su publicación de conformidad con el artículo 12 del presente Reglamento. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_152__content">
+                <p xml:space="preserve">	La declaración de certificación deberá indicar:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <content eId="para_153__content">
+                <p xml:space="preserve">	a)	El título completo del tratado o acuerdo internacional;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <content eId="para_154__content">
+                <p xml:space="preserve">	b)	La fecha o fechas y el lugar o lugares de conclusión del tratado o acuerdo internacional;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="SingleTxt">
+              <content eId="para_155__content">
+                <p xml:space="preserve">	c)	La fecha en que el tratado o acuerdo internacional haya entrado en vigor;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <content eId="para_156__content">
+                <p xml:space="preserve">	d)	El método mediante el cual haya entrado en vigor (por ejemplo, mediante firma, ratificación, aprobación o aceptación, adhesión, etcétera);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <content eId="para_157__content">
+                <p xml:space="preserve">	e)	Los idiomas auténticos en que se haya concluido y, en su caso, el idioma o idiomas en los que se facilitan traducciones de cortesía;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <content eId="para_158__content">
+                <p xml:space="preserve">	f)	En su caso, el nombre y título oficial de las personas que hayan firmado el tratado o acuerdo internacional en nombre de cada parte.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve">	En el caso de los tratados o acuerdos multilaterales, la declaración de certificación incluirá, además de la información descrita en el párrafo 4 del presente artículo:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <content eId="para_160__content">
+                <p xml:space="preserve">	a)	Una lista de todas las partes en el tratado o acuerdo internacional, con indicación de la fecha de depósito de sus respectivos instrumentos de consentimiento en obligarse, la naturaleza de esos instrumentos (ratificación, aprobación, aceptación, adhesión, etcétera) y la fecha de entrada en vigor del tratado para cada una de las partes; y </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	b)	Una certificación de que incluye todas las reservas o declaraciones formuladas por las partes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_162__content">
+                <p xml:space="preserve">	Los requisitos dispuestos en el presente artículo se aplicarán también a las acciones posteriores a las que se refiere el artículo 2 del presente Reglamento.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="H23">
+              <content eId="para_163__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 6</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <content eId="para_164__content">
+                <p xml:space="preserve">	La fecha del recibo en la Secretaría de las Naciones Unidas del tratado o acuerdo internacional inscrito será considerada la fecha del registro. No obstante, la fecha del registro de un tratado o acuerdo registrado <span class="italic">ex officio</span> por las Naciones Unidas será la fecha en que este haya entrado en vigor entre dos o más de las partes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="H23">
+              <content eId="para_165__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 7</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	Se extenderá un certificado del registro firmado por el Secretario General, o su representante, a la parte, el organismo especializado o el depositario que registre un tratado o acuerdo internacional y también a cualquier parte en un tratado o acuerdo internacional registrado, cuando así lo solicite. Los certificados del registro también se harán públicos por medios electrónicos.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="H23">
+              <content eId="para_167__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 8</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_168__content">
+                <p xml:space="preserve">	El registro se llevará en los idiomas francés e inglés. El registro comprenderá, con respecto a cada tratado o acuerdo internacional, una indicación de:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="SingleTxt">
+              <content eId="para_169__content">
+                <p xml:space="preserve">	a)	El número de serie dado en el orden del registro;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <content eId="para_170__content">
+                <p xml:space="preserve">	b)	El título dado al instrumento por las partes;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <content eId="para_171__content">
+                <p xml:space="preserve">	c)	El nombre de las partes entre las que se haya concluido;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="SingleTxt">
+              <content eId="para_172__content">
+                <p xml:space="preserve">	d)	Las fechas de la firma, ratificación, aprobación o aceptación, canje de ratificaciones, adhesión y entrada en vigor;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="SingleTxt">
+              <content eId="para_173__content">
+                <p xml:space="preserve">	e)	La duración, en su caso;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="SingleTxt">
+              <content eId="para_174__content">
+                <p xml:space="preserve">	f)	El idioma o los idiomas en que se haya redactado;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <content eId="para_175__content">
+                <p xml:space="preserve">	g)	El nombre de la parte, organismo especializado o depositario que registre el instrumento y la fecha de registro;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="SingleTxt">
+              <content eId="para_176__content">
+                <p xml:space="preserve">	h)	Todos los datos sobre su publicación en la compilación de tratados de las Naciones Unidas.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_177__content">
+                <p xml:space="preserve">	Tal información también se incluirá en el registro en lo que se refiere a las declaraciones registradas conforme al artículo 2 del presente Reglamento.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_178__content">
+                <p xml:space="preserve">	Los textos de los tratados o acuerdos internacionales registrados, junto con las declaraciones de certificación, permanecerán bajo la custodia de la Secretaría. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="H23">
+              <content eId="para_179__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 9</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="SingleTxt">
+              <content eId="para_180__content">
+                <p xml:space="preserve">	El Secretario General, o su representante, se asegurará de que el registro sea de acceso público, entre otros, por medios electrónicos. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="H23">
+              <content eId="para_181__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Segunda parte Archivo e inscripción </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="H23">
+              <content eId="para_182__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 10</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <content eId="para_183__content">
+                <p xml:space="preserve">	Además de los tratados y acuerdos internacionales sujetos a registro según el artículo 1 del presente Reglamento, la Secretaría archivará y procederá a la inscripción de todos los que entren en las siguientes categorías:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="SingleTxt">
+              <content eId="para_184__content">
+                <p xml:space="preserve">	a)	Tratados o acuerdos internacionales concertados por las Naciones Unidas o por uno o más de los organismos especializados;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="SingleTxt">
+              <content eId="para_185__content">
+                <p xml:space="preserve">	b)	Tratados o acuerdos internacionales transmitidos por un Miembro de las Naciones Unidas y concertados antes de que entrara en vigor la Carta, pero que no estuviesen incluidos en la compilación de tratados de la Sociedad de las Naciones;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <content eId="para_186__content">
+                <p xml:space="preserve">	c)	Tratados o acuerdos internacionales transmitidos por un Estado parte que no sea miembro de las Naciones Unidas y que hubieran sido concertados antes o después de que entrara en vigor la Carta, pero que no estuviesen incluidos en la compilación de tratados de la Sociedad de las Naciones.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="H23">
+              <content eId="para_187__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 11</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="SingleTxt">
+              <content eId="para_188__content">
+                <p xml:space="preserve">	Las disposiciones de los artículos 2, 5 y 8 del presente Reglamento serán aplicables, <span class="italic">mutatis mutandis</span>, a todos los tratados y acuerdos internacionales que se hayan archivado e inscrito conforme al artículo 10 del presente Reglamento.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="H23">
+              <content eId="para_189__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Tercera parte Publicación </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="H23">
+              <content eId="para_190__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 12</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_191__content">
+                <p xml:space="preserve">	La Secretaría publicará en una compilación única, a la brevedad posible, todo tratado o acuerdo internacional que se halle registrado, o archivado e inscrito, en el idioma o idiomas originales, seguido de una traducción al francés y al inglés. Las declaraciones certificadas a que se refiere el artículo 2 del presente Reglamento se publicarán de la misma manera. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_192__content">
+                <p xml:space="preserve">	La Secretaría tendrá, sin embargo, facultades para no publicar <span class="italic">in extenso</span> un tratado o acuerdo internacional, o un anexo técnico del tratado o acuerdo internacional, que pertenezca a una de las categorías siguientes:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="SingleTxt">
+              <content eId="para_193__content">
+                <p xml:space="preserve">	a)	Acuerdos de asistencia y cooperación de ámbito limitado en materia financiera, comercial, administrativa o técnica;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="SingleTxt">
+              <content eId="para_194__content">
+                <p xml:space="preserve">	b)	Acuerdos relativos a la organización de conferencias, seminarios o reuniones;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="SingleTxt">
+              <content eId="para_195__content">
+                <p xml:space="preserve">	c)	Acuerdos que estén destinados a ser publicados por la Secretaría de las Naciones Unidas o la secretaría de un organismo especializado o asimilado en una compilación distinta de la mencionada en el párrafo 1 del presente artículo;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="SingleTxt">
+              <content eId="para_196__content">
+                <p xml:space="preserve">	d)	Acuerdos multilaterales que estén destinados a ser publicados por sus depositarios en un formato similar a la compilación mencionada en el párrafo 1 del presente artículo;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="SingleTxt">
+              <content eId="para_197__content">
+                <p xml:space="preserve">	e)	Anexos técnicos de tratados o acuerdos cuando dichos anexos se modifican con frecuencia.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_198__content">
+                <p xml:space="preserve">	Al decidir si hay motivos para publicar o no <span class="italic">in extenso</span> un tratado o acuerdo internacional perteneciente a una de las categorías enumeradas en el párrafo 2 del presente artículo, la Secretaría tendrá debidamente en cuenta, entre otras cosas, la utilidad práctica que podría tener la publicación del texto íntegro. En el registro se señalarán los tratados y acuerdos internacionales que la Secretaría no tenga intención de publicar <span class="italic">in extenso</span>, quedando entendido que en cualquier momento se podrá modificar la decisión de no publicar el texto íntegro de un tratado.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_199__content">
+                <p xml:space="preserve">	Cualquier Estado u organización intergubernamental podrá obtener del Secretario General una copia del texto de los tratados o acuerdos internacionales que se haya decidido no publicar <span class="italic">in extenso</span> con arreglo a lo dispuesto en el párrafo 2 del presente artículo. La Secretaría proporcionará también copias de tales tratados o acuerdos a los particulares previo pago.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_200__content">
+                <p xml:space="preserve">	Con respecto a todo tratado o acuerdo internacional registrado o archivado e inscrito, en la compilación mencionada en el párrafo 1 del presente artículo se proporcionará como mínimo la información siguiente: el número de registro o inscripción, el nombre de las partes, el título, la fecha y el lugar de conclusión, la fecha y el procedimiento de entrada en vigor, la duración (en su caso), los idiomas en que se haya concluido, el nombre del Estado o de la organización que haya registrado o solicitado el archivo y la inscripción, y, si procede, las remisiones a las publicaciones en que se haya reproducido el texto íntegro del tratado o acuerdo internacional de que se trate. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="H23">
+              <content eId="para_201__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Artículo 13 </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_202" class="SingleTxt">
+              <content eId="para_202__content">
+                <p xml:space="preserve">	La Secretaría publicará la compilación mencionada en el artículo 12 del presente Reglamento utilizando cualesquiera medios electrónicos disponibles. El texto de un tratado o acuerdo internacional registrado, tal y como se haya presentado, y las traducciones oficiosas al francés y al inglés preparadas por la Secretaría también estarán disponibles en línea, tan pronto como sea posible, después del registro y antes de la publicación en la compilación. La Secretaría enviará copias impresas de la compilación a los Miembros de las Naciones Unidas, cuando así lo soliciten. </p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
