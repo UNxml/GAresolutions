@@ -1,0 +1,615 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/"></FRBRuri>
+          <FRBRdate date="2021-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/rus@/"></FRBRuri>
+          <FRBRdate date="2022-01-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Human Rights of Internally Displaced Persons" showAs="UN. Human Rights Council. Special Rapporteur on the Human Rights of Internally Displaced Persons" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Emergency Relief Coordinator" showAs="UN Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Inter-Agency Standing Committee" showAs="Inter-Agency Standing Committee" dictionary="DHLAUTH"></keyword>
+        <keyword value="Guiding Principles on Internal Displacement (1998)" showAs="Guiding Principles on Internal Displacement (1998)" dictionary="DHLAUTH"></keyword>
+        <keyword value="African Union Convention for the Protection and Assistance of Internally Displaced Persons in Africa (2009)" showAs="African Union Convention for the Protection and Assistance of Internally Displaced Persons in Africa (2009)" dictionary="DHLAUTH"></keyword>
+        <keyword value="DISPLACED PERSONS" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESPONSIBILITY TO PROTECT" showAs="RESPONSIBILITY TO PROTECT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="74b" showAs="HUMAN RIGHTS ADVANCEMENT" dictionary="A/76/251"></keyword>
+        <keyword refersTo="agenda" value="74b[4]" showAs="DISPLACED PERSONS" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-10" outcome="draftResolution" as="A/C.3/76/L.26/Rev.1" by="Argentina, Armenia, Australia, Austria, Azerbaijan, Belgium, Bosnia and Herzegovina, Bulgaria, Canada, Central African Republic, Chile, Costa Rica, Côte d’Ivoire, Cyprus, Denmark, Ecuador, Fiji, Finland, France, Georgia, Germany, Greece, Honduras, Iceland, Ireland, Italy, Japan, Liechtenstein, Luxembourg, Mali, Mexico, Micronesia (Federated States of), Monaco, Morocco, Netherlands, Norway, Paraguay, Poland, Portugal, San Marino, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Colombia, Croatia, Czechia, Dominican Republic, El Salvador, Estonia, Guatemala, Haiti, Hungary, Latvia, Lebanon, Lithuania, Madagascar, Maldives, Malta, Montenegro, Mozambique, Myanmar, New Zealand, Papua New Guinea, Peru, Republic of Korea, Republic of Moldova, Romania, Serbia, Slovakia, Thailand, Timor-Leste, Turkey, Uganda, Uruguay and Zambia" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/462/Add.2" by="" refersTo="114" />
+        <step date="2021-12-16" outcome="adopted" as="A/76/PV.53" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Третий комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19231 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/167</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-01-07" class="rightSmall" refersTo="#dateOfIssuance">7 January 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Семьдесят шестая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 74 b) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита прав человека: вопросы прав человека, включая альтернативные подходы в деле содействия эффективному осуществлению прав человека и основных свобод</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 16 декабря 2021 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[по докладу Третьего комитета (<inline name="originating document">A/76/462/Add.2, пункт 114</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/167.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Защита внутренне перемещенных лиц и оказание им помощи</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	руководствуясь </span>целями и принципами Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="напоминая" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	напоминая </span>о том, что внутренне перемещенными лицами считаются лица или группы лиц, которых заставили или вынудили бросить или покинуть свои дома или места обычного проживания, в частности в результате или во избежание последствий вооруженного конфликта, повсеместных проявлений насилия, нарушений прав человека и стихийных или антропогенных бедствий, и которые не пересекали международно признанных государственных границ<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		См. Руководящие принципы по вопросу о перемещении лиц внутри страны (<a href="https://undocs.org/ru/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, приложение), введение, п. 2.</p></authorialNote>,</p>
+      </container>
+      <container name="будучи серьезно обеспокоена" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	будучи серьезно обеспокоена</span> тем, что по причинам, включающим нарушения и ущемление прав человека и нарушения международного гуманитарного права, вооруженные конфликты, преследования и насилие, и другим причинам, включая терроризм, а также стихийные и антропогенные бедствия, во всем мире отмечается внушающая тревогу многочисленность внутренне перемещенных лиц, которые получают недостаточно защиты и помощи, и сознавая серьезность проблем, которые эта ситуация создает для принимающих общин, национальных и местных органов власти и международного сообщества,</p>
+      </container>
+      <container name="напоминая" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	напоминая </span>о том, что очень большое число людей перемещено в пределах национальных границ и что, возможно, такие лица будут искать защиты и помощи в других странах в качестве беженцев и мигрантов, и отмечая в связи с этим необходимость выработки эффективных стратегий обеспечения надлежащей защиты и помощи для внутренне перемещенных лиц, в том числе необходимость во всеохватных и дезагрегированных данных и в других мерах, направленных на предотвращение такого перемещения и уменьшение его масштабов,</p>
+      </container>
+      <container name="подтверждая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> резолюцию <a href="https://undocs.org/ru/A/RES/46/182">46/182</a> Генеральной Ассамблеи от 19 декабря 1991 года и содержащиеся в приложении к ней руководящие принципы, другие соответствующие резолюции  Генеральной Ассамблеи и Экономического и Социального Совета и согласованные выводы Совета, подтверждая также принципы гуманности, нейтральности, беспристрастности и независимости при оказании гуманитарной помощи и подтверждая далее необходимость того, чтобы все субъекты, участвующие в оказании гуманитарной помощи в комплексных чрезвычайных ситуациях и ситуациях стихийных бедствий, пропагандировали эти принципы и полностью соблюдали их,</p>
+      </container>
+      <container name="особо отмечая" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	особо отмечая</span>, что государства несут главную ответственность за предоставление защиты и оказание помощи внутренне перемещенным лицам, находящимся под их юрисдикцией, без какой-либо дискриминации, а также за устранение коренных причин проблемы перемещения и поддержку всех вариантов ее долговременного решения в надлежащем сотрудничестве с перемещенными лицами, принимающими их общинами, гражданским обществом, местными органами власти, участниками деятельности в области развития, частным сектором и международным сообществом,</p>
+      </container>
+      <container name="выражая особую обеспокоенность" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">выражая особую обеспокоенность</span> ростом дискриминации, которой подвергаются внутренне перемещенные лица, в том числе те, которые могут находиться в особо уязвимом положении, включая женщин, детей, пожилых людей и инвалидов, и подчеркивая необходимость удовлетворения их особых потребностей путем предоставления им надлежащей защиты и доступа к помощи,</p>
+      </container>
+      <container name="отмечая" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	отмечая</span> необходимость устранения коренных причин перемещения и повышения уровня информированности международного сообщества о проблеме внутреннего перемещения повсюду в мире, в том числе о положении миллионов людей, для которых это состояние приобрело затяжной характер и многие из которых проживают не в лагерях, а в городских районах, и о настоятельной необходимости оказания надлежащей гуманитарной помощи и предоставления защиты внутренне перемещенным лицам,</p>
+      </container>
+      <container name="учитывая" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	учитывая</span>, что нарушения международного гуманитарного права могут приводить к перемещению, и напоминая о том, что масштабы перемещения можно было бы уменьшить, если бы все стороны в вооруженных конфликтах соблюдали международное гуманитарное право, в частности основополагающие принципы избирательности, соразмерности и предосторожности, а также запрет на принудительное перемещение гражданского населения за исключением случаев, когда это необходимо по соображениям безопасности соответствующих гражданских лиц или по особо веским соображениям военного характера<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Дополнительный протокол к Женевским конвенциям от 12 августа 1949 года, касающийся защиты жертв вооруженных конфликтов немеждународного характера (Протокол II) (United Nations, <span class="italic">Treaty Series</span>, vol. 1125, No. 17513), статьи 13 и 17.</p></authorialNote>,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	выражая глубокую обеспокоенность </span>угрозой, которую представляют для спасающихся от конфликтов внутренне перемещенных лиц наземные мины, взрывоопасные пережитки войны и самодельные взрывные устройства и которая препятствует в некоторых случаях их добровольному возвращению, местной интеграции и расселению и безопасной доставке гуманитарной помощи, и отмечая настоятельную необходимость обеспечения защиты от наземных мин и других взрывоопасных пережитков войны и оказания поддержки принимающим общинам и местным организациям,</p>
+      </container>
+      <container name="выражая особую обеспокоенность" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	выражая особую обеспокоенность</span> тем, что многие дети из числа внутренне перемещенных лиц, прежде всего девочки, оказываются лишены доступа к образованию на всех этапах перемещения из‑за нападений на школы, повреждения или разрушения школьных зданий, небезопасной обстановки, широкого распространения насилия, включая гендерное насилие, в школах и вблизи них, утраты документов, языковых барьеров и дискриминации,</p>
+      </container>
+      <container name="выражая также особую обеспокоенность" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">выражая также особую обеспокоенность</span> тем, что многие внутренне перемещенные лица, включая женщин, мужчин, девочек и мальчиков, не получают необходимой им на всех этапах перемещения медицинской помощи, включая услуги по охране психического здоровья и психосоциальную поддержку,</p>
+      </container>
+      <container name="учитывая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> увеличение числа, масштабов и частотности бедствий — в том числе бедствий, связанных с неблагоприятными последствиями изменения климата, — которые в некоторых случаях могут способствовать перемещению и создавать дополнительную нагрузку на принимающие общины, призывая Организацию Объединенных Наций и всех соответствующих субъектов активизировать усилия, прилагаемые в сотрудничестве с национальными правительствами для удовлетворения потребностей лиц, перемещенных внутри стран в результате стихийных бедствий, в том числе стихийных бедствий, усугубляемых изменением климата, и отмечая в связи с этим важность обмена передовым опытом предотвращения такого перемещения и обеспечения готовности к нему,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	выражая обеспокоенность </span>тем, что внезапные и медленно надвигающиеся бедствия ежегодно приводят к перемещению многих миллионов людей, учитывая, что создание и укрепление потенциала противодействия на уровне государств и общин, включая принятие мер по повышению готовности к бедствиям, их предупреждению и уменьшению их опасности, а также мер по адаптации к изменению климата, в том числе на основе интеграции стратегий уменьшения опасности бедствий в национальные, региональные и глобальные стратегии и программы в области развития, может помочь снизить риск перемещения, вызванного бедствиями, и в этой связи признавая также важную роль устойчивого развития в предотвращении и снижении риска потерь и ущерба,</p>
+      </container>
+      <container name="учитывая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что степень уязвимости внутренне перемещенных лиц может возрастать, когда принимающие их общины страдают от бедствий,</p>
+      </container>
+      <container name="выражая глубочайшую озабоченность" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">выражая глубочайшую озабоченность</span> по поводу краткосрочных и долгосрочных гуманитарных последствий пандемии коронавирусной инфекции (COVID‑19) и создаваемых ею рисков, в том числе уже значительных уровней гуманитарных потребностей и потребностей в области развития и страданий внутренне перемещенных лиц и принимающих общин, признавая несоразмерное воздействие пандемии на перемещенных женщин, детей и людей в уязвимом положении, будучи глубоко озабочена ростом потребностей в гуманитарной помощи и защите, в том числе из‑за роста насилия, включая сексуальное и гендерное насилие и насилие в отношении перемещенных детей, и значительным воздействием на образование, особенно для девочек, а также высоким уровнем отсутствия продовольственной безопасности и недоедания и возрастающими рисками голода, потери средств к существованию и всеми негативными последствиями для здоровья, включая психическое здоровье, которые также усугубляются ослаблением систем здравоохранения, и последствиями перемещения и связанными с ним рисками, учитывая усиление этих рисков и последствий в связи с вооруженными конфликтами, бедностью, стихийными бедствиями, насилием, негативными последствиями изменения климата и другими экологическими проблемами и учитывая также усилия и меры, предложенные Генеральным секретарем в ответ на последствия пандемии COVID‑19,</p>
+      </container>
+      <container name="сознавая" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	сознавая</span>, что проблема внутреннего перемещения, в том числе в ситуациях, когда оно приобретает затяжной характер, и ситуациях многократного временного перемещения, сочетает в себе правозащитный, гуманитарный и связанный с развитием аспекты и в некоторых случаях может включать также аспекты, связанные с миростроительством и правосудием переходного периода, и что государства обязаны при поддержке международного сообщества обеспечивать защиту внутренне перемещенных лиц и оказывать им помощь, в том числе на основе уважения и защиты прав человека и основных свобод всех таких лиц, в целях содействия выработке долговременных решений, </p>
+      </container>
+      <container name="учитывая" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	учитывая </span>важный вклад национальных и местных органов власти и принимающих общин в обеспечение защиты временно перемещенных лиц и оказание им помощи, признавая, что необходимость принимать большие группы временно перемещенных лиц может создавать большую нагрузку на эти органы власти и общины, и учитывая также важность оказания надлежащей поддержки принимающим общинам и местным структурам путем удовлетворения их потребностей,</p>
+      </container>
+      <container name="ссылаясь" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь</span> на Венскую декларацию и Программу действий, принятые 25 июня 1993 года на Всемирной конференции по правам человека<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/CONF.157/24(PartI)">A/CONF.157/24 (Part I)</a>, гл. III. </p></authorialNote>, в связи с необходимостью выработки глобальных стратегий работы над проблемой внутреннего перемещения и ссылаясь также на все соответствующие резолюции Генеральной Ассамблеи и Совета Безопасности,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на резолюцию <a href="https://undocs.org/ru/A/RES/74/160">74/160</a> Генеральной Ассамблеи от 18 декабря 2019 года и на резолюцию <a href="https://undocs.org/ru/A/hrc/RES/41/15">41/15</a> Совета по правам человека от 11 июля 2019 года<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят четвертая сессия, Дополнение № 53</span> (<a href="https://undocs.org/ru/A/74/53">A/74/53</a>), гл. V, разд. А. </p></authorialNote>,</p>
+      </container>
+      <container name="учитывая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что внутренне перемещенные лица должны на основе полного равенства и без какой-либо дискриминации пользоваться теми же предусмотренными международным правом и национальным законодательством правами и свободами, что и остальные лица в их стране, в том числе правом на свободу передвижения и выбора места жительства, и защитой от произвольного перемещения,</p>
+      </container>
+      <container name="ссылаясь" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь</span> на соответствующие нормы международного права, включая международное право прав человека, в частности Конвенцию о правах ребенка<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote>, а также международное беженское право и международное гуманитарное право, включая применимые положения Женевских конвенций 1949 года<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., vol. 75, Nos. 970–973. </p></authorialNote> и Дополнительных протоколов к ним 1977 года<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid., vol. 1125, Nos. 17512 and 17513. </p></authorialNote>, как на существенно важную правовую базу для предоставления защиты и оказания помощи гражданскому населению, включая внутренне перемещенных лиц, в условиях вооруженного конфликта и иностранной оккупации,</p>
+      </container>
+      <container name="учитывая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что внутренне перемещенные лица, не имеющие документов, удостоверяющих личность, включая женщин, детей, пожилых людей и инвалидов, могут подвергаться риску нарушения и ущемления их прав человека и сталкиваться с трудностями в осуществлении своих прав и получении доступа к услугам,</p>
+      </container>
+      <container name="учитывая также" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">учитывая также</span>, что защиту внутренне перемещенных лиц удалось усилить благодаря определению, утверждению и консолидации конкретных стандартов их защиты, в частности с помощью Руководящих принципов по вопросу о перемещении лиц внутри страны<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/ru/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, приложение. </p></authorialNote>,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	с удовлетворением отмечая</span> все более масштабное распространение, пропаганду, применение и интеграцию в национальные законы и стратегии Руководящих принципов по вопросу о перемещении лиц внутри страны при решении вопросов, связанных с ситуациями внутреннего перемещения,</p>
+      </container>
+      <container name="с признательностью отмечая" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">с признательностью отмечая</span> ту важную роль, которую национальные правозащитные учреждения играют на всех этапах перемещения в обеспечении надлежащего решения всех вопросов прав человека внутренне перемещенных лиц,</p>
+      </container>
+      <container name="заявляя о неприятии" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	заявляя о неприятии</span> практики принудительного перемещения, которая отрицательно сказывается на осуществлении прав человека и основных свобод многочисленными группами населения, и ссылаясь на соответствующие положения Римского статута Международного уголовного суда<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 2187, No. 38544. </p></authorialNote>, в которых депортация или насильственное перемещение населения квалифицируются как преступления против человечности, а незаконная депортация, перемещение или отдача распоряжений о перемещении гражданского населения — как военные преступления,</p>
+      </container>
+      <container name="признавая" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">признавая </span>важность Конвенции Африканского союза о защите внутренне перемещенных лиц в Африке и оказании им помощи (Кампальская конвенция)<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Ibid., vol. 3014, No. 52375.</p></authorialNote>, которая базируется на принятых Международной конференцией по району Великих озер Протоколе об обеспечении внутренне перемещенных лиц защитой и помощью и Протоколе об имущественных правах возвращающихся лиц и знаменует собой существенный шаг к упрочению национальной и региональной нормативной базы для обеспечения защиты внутренне перемещенных лиц в Африке и оказания им помощи, и с удовлетворением отмечая проведение первой Конференции государств — участников Конвенции в апреле 2017 года,</p>
+      </container>
+      <container name="отмечая" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> Рамочную основу для поиска долговременных решений проблемы внутренне перемещенных лиц Межучрежденческого постоянного комитета<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/13/21/Add.4">A/HRC/13/21/Add.4</a>.</p></authorialNote> и принимая к сведению решение Комитета по вопросам политики при Генеральном секретаре от 4 октября 2011 года об утверждении предварительного рамочного документа по вопросам преодоления проблемы перемещенных лиц по окончании конфликта,</p>
+      </container>
+      <container name="подчеркивая" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость безопасного и беспрепятственного доступа соответствующих учреждений Организации Объединенных Наций и гуманитарных организаций к внутренне перемещенным лицам, в том числе тем, которые находятся в районах конфликта, в соответствии с нормами международного права,</p>
+      </container>
+      <container name="учитывая" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">	учитывая</span>, что Повестка дня в области устойчивого развития на период до 2030 года<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a>.</p></authorialNote> предусматривает удовлетворение потребностей наиболее уязвимых групп населения, включая внутренне перемещенных лиц, и что удовлетворение потребностей внутренне перемещенных лиц может способствовать достижению странами их общих целей в области развития,</p>
+      </container>
+      <container name="отмечая" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> увеличение числа внутренне перемещенных лиц, проживающих за пределами лагерей и в городских районах, и необходимость удовлетворения их неотложных и долгосрочных потребностей и потребностей семей в принимающих их общинах и признавая важность Новой программы развития городов, принятой на Конференции Организации Объединенных Наций по жилью и устойчивому городскому развитию (Хабитат III)<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/71/256">71/256</a>, приложение.</p></authorialNote>,</p>
+      </container>
+      <container name="отмечая также" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">отмечая также </span>проведение первого Всемирного саммита по гуманитарным вопросам 23 и 24 мая 2016 года в Стамбуле, Турция, и принимая к сведению доклад Генерального секретаря об итогах Всемирного саммита по гуманитарным вопросам<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/71/353">A/71/353</a>. </p></authorialNote>, в котором среди прочего содержатся рекомендации относительно укрепления партнерских отношений между государствами-членами и участниками гуманитарной деятельности и деятельности в области развития в целях удовлетворения неотложных и долгосрочных потребностей внутренне перемещенных лиц,</p>
+      </container>
+      <container name="отмечая далее" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">отмечая далее </span>необходимость изыскания вариантов долговременного решения проблемы внутренне перемещенных лиц на территории их собственных стран и устранения возможных препятствий в этом отношении и учитывая, что долговременные решения могут включать добровольное устойчивое возвращение в безопасных и достойных условиях, а также добровольную местную интеграцию в тех районах, в которые эти лица были перемещены, или добровольное расселение в другой части страны, без ущерба для права внутренне перемещенных лиц на выезд из страны или поиск убежища,</p>
+      </container>
+      <container name="особо отмечая" eId="container_36">
+        <p xml:space="preserve">
+          <span class="italic">	особо отмечая</span>, что все варианты долговременного решения проблемы внутренне перемещенных лиц должны учитывать гуманитарный и связанный с развитием аспекты и предусматривать привлечение на соответствующих этапах временно перемещенных лиц и принимающих общин,</p>
+      </container>
+      <container name="памятуя" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">	памятуя </span>о том, что для удовлетворения потребностей людей, длительное время находящихся в ситуациях внутреннего перемещения, требуется значительный объем гуманитарной помощи и помощи в целях развития, и принимая во внимание большой разрыв между потребностями и ресурсами,</p>
+      </container>
+      <container name="учитывая" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>необходимость расширения охвата информации о внутреннем перемещении, повышения качества и доступности такой информации и сбора достоверных и актуальных лонгитюдных и дезагрегированных данных, включая данные, дезагрегированные по полу, возрасту, инвалидности и географическому местоположению, о внутренне перемещенных лицах и воздействии недавно возникших и затяжных ситуаций перемещения на принимающие общины для совершенствования политики и программ в этой области и мер по предупреждению внутреннего перемещения и реагированию на него, а также для содействия выработке вариантов долговременного решения этой проблемы, в том числе признавая в этой связи значимость Глобальной базы данных о внутренне перемещенных лицах, которая ведется Центром мониторинга внутренних перемещений, и технической поддержки со стороны межучрежденческой Совместной службы по профилированию внутренних перемещений и Группы экспертов по статистике беженцев и внутренне перемещенных лиц, и отмечая принятие Статистической комиссией Международных рекомендаций в отношении статистики внутренне перемещенных лиц, </p>
+      </container>
+      <container name="выражая признательность" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">выражая признательность</span> тем правительствам и межправительственным, региональным и неправительственным организациям, которые оказывали поддержку и содействие работе Специального докладчика Совета по правам человека по вопросу о правах человека внутренне перемещенных лиц и ее предшественников, бывших представителей Генерального секретаря по правам человека внутренне перемещенных лиц, и которые содействовали, в соответствии со своими функциями и обязанностями, обеспечению защиты внутренне перемещенных лиц и оказанию им помощи,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_40">
+        <p xml:space="preserve">
+          <span class="italic">	с удовлетворением отмечая</span> продолжающееся сотрудничество между Специальным докладчиком и национальными правительствами и соответствующими подразделениями и учреждениями Организации Объединенных Наций, а также другими международными и региональными организациями и призывая к дальнейшему укреплению этого сотрудничества в целях совершенствования стратегий, осуществляемых в интересах внутренне перемещенных лиц, улучшения предоставляемой им защиты и оказываемой им помощи и выработки более эффективных долговременных решений для них,</p>
+      </container>
+      <container name="с признательностью отмечая" eId="container_41">
+        <p xml:space="preserve">
+          <span class="italic">	с признательностью отмечая</span> важный и независимый вклад Международного движения Красного Креста и Красного Полумесяца и других гуманитарных учреждений в обеспечение защиты внутренне перемещенных лиц и оказание им помощи в сотрудничестве с национальными правительствами и соответствующими международными органами,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> определенные Специальным докладчиком приоритетные вопросы, о которых говорится в докладе, представленном Совету по правам человека на его тридцать пятой сессии<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/35/27">A/HRC/35/27</a>. </p></authorialNote>, и две стратегические задачи, которые заключаются в оказании правительствам поддержки в разработке национальных документов по проблеме внутреннего перемещения и создании соответствующих ведомств и в содействии выработке надежных вариантов долговременного решения проблемы внутренне перемещенных лиц, в том числе с привлечением участников деятельности в области развития,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">с признательностью принимает к сведению</span> основной доклад Специального докладчика Совета по правам человека по вопросу о правах человека внутренне перемещенных лиц<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/47/37">A/HRC/47/37</a>. </p></authorialNote> и содержащиеся в нем выводы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает </span>работу, проделанную к настоящему времени Специальным докладчиком, каталитическую роль, которую она играет в повышении уровня информированности об участи внутренне перемещенных лиц, и усилия, которые она продолжает прилагать для удовлетворения их потребностей, связанных с развитием, и их других особых потребностей, в том числе содействуя всестороннему учету прав человека внутренне перемещенных лиц в деятельности всех соответствующих компонентов системы Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Специальному докладчику на основе постоянного диалога с правительствами и всеми соответствующими межправительственными и неправительственными организациями продолжать анализировать коренные причины внутреннего перемещения и отслеживать потребности и права человека перемещенных лиц, в том числе потребности лиц, которые могут находиться в особо уязвимом положении, включая женщин, детей, пожилых людей и инвалидов, степень готовности к чрезвычайным ситуациям и пути повышения эффективности защиты и помощи, включая усиление, где это уместно, роли национальных правозащитных учреждений, усиление защиты внутренне перемещенных лиц и совершенствование долговременных решений, рассчитанных на таких лиц, в том числе путем устранения возможных препятствий для осуществления права внутренне перемещенных лиц на жилье, их земельных прав и их прав собственности, рекомендует также Специальному докладчику в связи с последним моментом использовать в своей деятельности Рамочную основу для поиска долговременных решений проблемы внутренне перемещенных лиц Межучрежденческого постоянного комитета и рекомендует далее Специальному докладчику продолжать выступать за удовлетворение потребностей принимающих общин и пропагандировать всеобъемлющие стратегии, учитывая при этом, что главную ответственность за предоставление защиты и оказание помощи внутренне перемещенным лицам несут государства, под юрисдикцией которых находятся эти лица;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> инициативы, осуществляемые такими региональными организациями, как Африканский союз, Международная конференция по району Великих озер, Организация американских государств и Совет Европы, для удовлетворения потребностей внутренне перемещенных лиц, связанных с защитой, помощью и развитием, и для выработки долговременных решений в их интересах, и рекомендует региональным организациям активизировать свою деятельность и сотрудничество со Специальным докладчиком;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> все правительства, в частности правительства стран, где наблюдаются ситуации внутреннего перемещения, продолжать способствовать деятельности Специального докладчика и положительно откликаться на ее просьбы, с тем чтобы она могла продолжать и расширять диалог с правительствами по вопросам реагирования на ситуации внутреннего перемещения, и выражает благодарность тем правительствам, которые уже делают это;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> правительствам в ходе диалога со Специальным докладчиком серьезно рассматривать рекомендации и предложения, которые она предлагает их вниманию в соответствии со своим мандатом, и сообщать ей о принятых в связи с ними мерах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span>, что Специальный докладчик использует Руководящие принципы по вопросу о перемещении лиц внутри страны в диалоге с правительствами, межправительственными и неправительственными организациями и другими соответствующими субъектами, и просит ее продолжать свои усилия по их дальнейшему распространению, пропаганде, применению и интеграции в национальные законы и стратегии и оказывать поддержку усилиям, призванным содействовать наращиванию потенциала и использованию Руководящих принципов, а также разработке национальных законов и стратегий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что государства-члены несут главную ответственность за выработку вариантов долговременного решения проблемы внутренне перемещенных лиц, находящихся под их юрисдикцией, а также за обеспечение уважения, защиты и осуществления их прав человека, внося тем самым вклад в процессы своего собственного национального социально-экономического развития, и рекомендует международному сообществу, системе Организации Объединенных Наций, Специальному докладчику, соответствующим международным и региональным организациям и странам-донорам продолжать поддерживать международные, региональные и национальные усилия по удовлетворению потребностей и осуществлению прав человека внутренне перемещенных лиц, в том числе детей, на основе солидарности, принципов международного сотрудничества и Руководящих принципов по вопросу о перемещении лиц внутри страны и обеспечивать надлежащее финансирование усилий по оказанию гуманитарной помощи, обеспечению быстрого восстановления и оказанию помощи в целях развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> государства-члены активизировать усилия по обеспечению защиты внутренне перемещенных лиц и оказанию им более эффективной помощи, в частности в целях решения сложных проблем, связанных с затяжным перемещением, для чего принимать и осуществлять учитывающие гендерную проблематику политику и стратегии в соответствии с национальными и региональными рамочными документами, признавая при этом Руководящие принципы по вопросу о перемещении лиц внутри страны в качестве важной международной основы для защиты внутренне перемещенных лиц, рекомендует всем соответствующим субъектам сообразно с их мандатами использовать Руководящие принципы, когда они имеют дело с ситуациями внутреннего перемещения, и в этой связи признает центральную роль национальных и местных органов власти и учреждений в удовлетворении особых потребностей внутренне перемещенных лиц и поиске вариантов решения проблемы перемещения, в том числе при дальнейшей и расширенной международной поддержке, оказываемой государствам по их просьбе в деле укрепления их потенциала;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам обеспечить, чтобы внутренне перемещенные лица, в том числе дети, имели доступ к процедурам получения надлежащих документов, удостоверяющих личность;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>реализацию многостороннего Плана действий по более эффективному предотвращению и решению проблем внутренне перемещенных лиц и их защите на 2018–2020 годы (GP20) в ознаменование двадцатой годовщины издания Руководящих принципов по вопросу о перемещении лиц внутри страны и осуществление предусмотренной им последующей инициативы (GP2.0);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> доклад Группы высокого уровня Генерального секретаря по вопросу о перемещении лиц внутри страны, признает, что активизация усилий по устранению коренных причин, а также предотвращению, защите и повышению качества помощи, оказываемой внутренне перемещенным лицам, и поиску долгосрочных решений проблем внутреннего перемещения имеет крайне важное значение, и призывает Генерального секретаря сотрудничать в контексте этих усилий с государствами-членами, структурами системы Организации Объединенных Наций и соответствующими субъектами, по мере необходимости;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">выражает удовлетворение</span> тем, что все больше государств принимают национальные законы и стратегии, касающиеся всех этапов перемещения, рекомендует государствам продолжать эти усилия на инклюзивной и недискриминационной основе сообразно с Руководящими принципами по вопросу о перемещении лиц внутри страны, настоятельно призывает государства активизировать усилия по осуществлению таких национальных законов и стратегий, в том числе назначив национальные инстанции в структуре правительств, отвечающие за вопросы внутреннего перемещения, в частности за разработку национальных целей и показателей для стратегий и программ и выделение бюджетных ресурсов, и рекомендует международному сообществу и национальным субъектам оказывать в этой связи правительствам по их просьбам финансовую помощь и сотрудничать с ними; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> правительства обеспечивать защиту внутренне перемещенных лиц и оказание им помощи, включая помощь в реинтеграции и в области развития, и содействовать усилиям соответствующих учреждений Организации Объединенных Наций и гуманитарных организаций в этом направлении, предоставляя и облегчая безопасный и беспрепятственный доступ гуманитарного персонала к внутренне перемещенным лицам и доставку предметов снабжения и оборудования для них в соответствии с нормами международного права, поддерживая гражданский и гуманитарный характер лагерей и поселений для внутренне перемещенных лиц там, где они существуют, и принимая меры, необходимые для обеспечения охраны и безопасности гуманитарного персонала, с тем чтобы он мог эффективно решать возложенную на него задачу оказания помощи внутренне перемещенным лицам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">выражает особую обеспокоенность </span>всем спектром угроз для прав человека, нарушений и ущемлений прав человека и нарушений международного гуманитарного права, с которыми сталкиваются многие внутренне перемещенные лица, включая женщин и детей, которые находятся в особо уязвимом положении или специально выбираются в качестве жертв, прежде всего жертв сексуального и гендерного насилия, сексуальной эксплуатации и сексуальных надругательств, торговли людьми во всех ее формах<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Согласно определению, содержащемуся в статье 3 Протокола о предупреждении и пресечении торговли людьми, особенно женщинами и детьми, и наказании за нее, дополняющего Конвенцию Организации Объединенных Наций против транснациональной организованной преступности (United Nations, <span class="italic">Treaty Series</span>, vol. 2237, No. 39574).</p></authorialNote>, принудительной вербовки и похищения, рекомендует Специальному докладчику с той же приверженностью, что и прежде, пропагандировать меры по удовлетворению их особых потребностей в помощи и защите и призывает государства в сотрудничестве с международными учреждениями и другими заинтересованными сторонами предоставлять защиту и оказывать помощь внутренне перемещенным лицам, которые стали жертвами вышеупомянутых угроз, нарушений и ущемлений, а также другим группам внутренне перемещенных лиц с особыми потребностями, таким как люди, получившие тяжелые травмы, пожилые люди и инвалиды, учитывая при этом все соответствующие резолюции Генеральной Ассамблеи и Совета Безопасности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> международному сообществу осуществлять техническое сотрудничество с государствами, затрагиваемыми проблемой перемещения, по их просьбе, включая сотрудничество в целях подготовки сотрудников учреждений, занимающихся вопросами регистрации, и разработки национальных законов и стратегий, касающихся внутреннего перемещения и вопросов реституции земли и собственности и выплаты компенсаций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> центральную роль Координатора чрезвычайной помощи в деле координации защиты внутренне перемещенных лиц и оказываемой им помощи, в частности в рамках межучрежденческой системы тематических групп, приветствует инициативы, осуществляемые для совершенствования стратегий, касающихся защиты внутренне перемещенных лиц, оказания им помощи и их развития, а также для улучшения координации связанных с ними мероприятий, и особо отмечает, что необходимо укреплять способность национальных и местных органов власти, принимающих общин, местных организаций, организаций системы Организации Объединенных Наций и других соответствующих субъектов решать колоссальные по сложности гуманитарные задачи, порождаемые внутренним перемещением;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">	<span class="italic">с признательностью отмечает,</span> что вопросу о внутренне перемещенных лицах уделяется повышенное внимание в планах гуманитарного реагирования, и рекомендует продолжать усилия в этом направлении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> важность того, чтобы правительства и другие соответствующие субъекты, действующие согласно своим конкретным мандатам, поддерживали контакты с внутренне перемещенными лицами и принимающими общинами и консультировались с ними на всех этапах перемещения и чтобы в надлежащих случаях внутренне перемещенные лица участвовали в осуществлении касающихся их стратегий, программ и мероприятий, учитывая при этом, что главную ответственность за предоставление защиты и оказание помощи внутренне перемещенным лицам несут государства, под юрисдикцией которых находятся эти лица;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства к тому, чтобы они в сотрудничестве с международными учреждениями и другими заинтересованными сторонами обеспечивали и поддерживали, в частности, всестороннее и реальное участие женщин из числа внутренне перемещенных лиц в процессах принятия решений на всех уровнях и во всех мероприятиях, непосредственно затрагивающих их жизнь, в отношении всех аспектов внутреннего перемещения, включая поощрение и защиту прав человека и предотвращение нарушений этих прав, а также выработку и осуществление долговременных решений, мирные процессы, миростроительство, правосудие в переходный период, постконфликтное восстановление и развитие;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">
+            <span class="italic">	рекомендует</span> всем соответствующим организациям системы Организации Объединенных Наций и организациям, занимающимся оказанием гуманитарной помощи, правами человека и вопросами развития, активизировать сотрудничество и координацию, осуществляемые через Межучрежденческий постоянный комитет и страновые группы Организации Объединенных Наций, в странах, где наблюдаются ситуации внутреннего перемещения, и оказывать всестороннюю помощь и поддержку Специальному докладчику, а также просит Специального докладчика продолжать участие в работе Межучрежденческого постоянного комитета и его вспомогательных органов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует также</span> Межучрежденческому постоянному комитету улучшать координацию и повышать эффективность, результативность и предсказуемость в деле предотвращения внутреннего перемещения, реагирования на него и поиска вариантов решения проблемы внутреннего перемещения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_296" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_296__content">
+          <p xml:space="preserve">	<span class="italic">выражает глубокую обеспокоенность</span> по поводу недостаточного финансирования гуманитарных призывов и в этой связи настоятельно призывает всех соответствующих субъектов предоставлять соответствующим учреждениям Организации Объединенных Наций и гуманитарным организациям достаточные ресурсы на предсказуемой основе, чтобы обеспечить оказание надлежащей поддержки тем, кто подвергся насильственному перемещению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все стороны в вооруженных конфликтах выполнять свои применимые обязательства по международному гуманитарному праву и международному праву прав человека в целях предотвращения насильственного перемещения и содействия защите гражданских лиц и призывает правительства принимать меры для уважения и защиты прав человека всех внутренне перемещенных лиц без каких-либо различий в соответствии со своими применимыми международно-правовыми обязательствами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_343" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_343__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства в сотрудничестве со всеми другими соответствующими субъектами, включая учреждения, участвующие в гуманитарной деятельности и деятельности в области развития, и доноров, обеспечивать детям из числа внутренне перемещенных лиц право на качественное образование, включая начальное и среднее образование, без какой-либо дискриминации и оказывать поддержку существующим школам, чтобы они могли принимать на учебу внутренне перемещенных лиц, призывает все стороны в вооруженных конфликтах уважать гражданский характер школ и других учебных заведений и воздерживаться от действий, которые могут негативно отразиться на защите их зданий от прямых нападений, и решительно осуждает все нападения и угрозы нападения на школы в нарушение международного гуманитарного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_368" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_368__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что обеспечение справедливого и своевременного доступа для всех к безопасным, качественным, эффективным и недорогостоящим вакцинам против COVID‑19 и средствам лечения и диагностики является важной частью глобальных мер реагирования, основанных на единстве, солидарности, активизации многостороннего сотрудничества и принципе никого не оставить без внимания; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span>, что государствам необходимо при поддержке соответствующих партнеров, включая, сообразно обстоятельствам, гуманитарные учреждения и учреждения, занимающиеся вопросами развития, а также доноров, удовлетворять потребности внутренне перемещенных лиц в охране физического и психического здоровья, что может включать оказание помощи, медицинское обслуживание и предоставление психосоциальных и других консультационных услуг;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> обязанность, вытекающую из применимых норм международного гуманитарного права и национальных законов и нормативных актов, уважать статус и обеспечивать защиту медицинского персонала и гуманитарного персонала, выполняющего исключительно медицинские обязанности, транспортных средств и оборудования такого персонала, а также больниц и других медицинских учреждений при любых обстоятельствах, в этой связи отмечает роль внутригосударственных правовых рамок и других соответствующих мер в обеспечении безопасности и защиты такого персонала, настоятельно призывает государства и все стороны вооруженных конфликтов разработать и внедрить эффективные меры по предотвращению и пресечению насилия в отношении такого персонала, его транспортных средств и оборудования, а также больниц и других медицинских учреждений и самым настоятельным образом призывает государства проводить в пределах их юрисдикции всесторонние, оперативные, беспристрастные и эффективные расследования нарушений норм международного гуманитарного права, касающихся защиты в условиях вооруженного конфликта раненых и больных, включая внутренне перемещенных лиц, медицинского персонала и гуманитарного персонала, выполняющего исключительно медицинские обязанности, его транспортных средств и оборудования, а также больниц и других медицинских учреждений, и в соответствующих случаях принимать меры в отношении виновных лиц в соответствии с национальным и международным правом в целях укрепления мер предупреждения, привлечения виновных к ответственности и удовлетворения жалоб жертв, включая внутренне перемещенных лиц;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_449" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_449__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что негативные последствия изменения климата усугубляют экологическую деградацию и экстремальные погодные явления и что они наряду с другими факторами могут вызывать перемещение людей, отмечает в этой связи принятие в марте 2015 года Сендайской рамочной программы по снижению риска бедствий на 2015–2030 годы<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/283">69/283</a>, приложение II. </p></authorialNote>, Парижское соглашение, принятое в контексте Рамочной конвенции Организации Объединенных Наций об изменении климата в декабре 2015 года<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, решение 1/CP.21, приложение. </p></authorialNote>, и соответствующие инициативы, касающиеся внутреннего перемещения, такие как Нансеновская инициатива, а также связанные с ними последующие процессы, и рекомендует Специальному докладчику продолжать изучать, действуя в тесном сотрудничестве с государствами и межправительственными и неправительственными организациями, правозащитные последствия и аспекты внутреннего перемещения, вызываемого бедствиями, в целях оказания государствам-членам поддержки в их усилиях по укреплению местного потенциала противодействия и способности предотвращать перемещение населения и обеспечивать готовность к нему либо оказывать помощь за счет осуществления хорошо спланированных программ восстановления, предусматривающих поддержку внутренне перемещенных лиц и принимающих их общин и защиту тех, кто вынужден спасаться бегством;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">заявляет </span>о необходимости эффективного осуществления Сендайской рамочной программы по снижению риска бедствий на 2015–2030 годы в целях интеграции, сообразно обстоятельствам, мероприятий по реконструкции и восстановлению после бедствий, в том числе на основе принципа «строить лучше, чем было», в деятельность по устойчивому социально-экономическому развитию пострадавших районов и временных поселений, в которых проживают перемещенные лица, содействия периодическому проведению учений для повышения готовности к бедствиям и отработки мер реагирования на них в рамках усилий по восстановлению и расселению, с тем чтобы обеспечить быстрое и эффективное реагирование на бедствия и обусловленное ими перемещение населения, и развития трансграничного сотрудничества в укреплении потенциала противодействия и в снижении риска бедствий, включая риск перемещения, для чего в том числе создать или усовершенствовать системы раннего предупреждения, включая раннее предупреждение о надвигающейся аномальной жаре, обеспечивая, чтобы они были связаны с системами управления рисками, ориентированными на более долгосрочную перспективу, и проводя в их поддержку общественно-информационные кампании, с учетом того, что оперативное принятие мер на основе качественных прогнозов может уменьшить воздействие экстремальных погодных явлений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_508" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_508__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что внутреннее перемещение является не только гуманитарной проблемой, но и проблемой в области развития, а в некоторых случаях и проблемой в области миростроительства, и призывает государства изыскивать долговременные решения и устранять возможные препятствия в этом отношении и учитывать потребности, факторы уязвимости и возможности внутренне перемещенных лиц и принимающих их общин в своих национальных планах развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_539" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_539__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> участникам деятельности в области развития и гуманитарной деятельности укреплять сотрудничество, действуя в рамках своих соответствующих мандатов, в интересах достижения коллективных результатов на многие годы вперед в целях уменьшения потребностей и степени уязвимости внутренне перемещенных лиц в поддержку национальных приоритетов при полном признании важности гуманитарных принципов для гуманитарной деятельности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_571" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_571__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует также</span> укреплять международное сотрудничество, в частности между участниками гуманитарной деятельности и деятельности в области развития, в том числе посредством предоставления ресурсов, разработки согласованных многолетних планов по проблеме затяжного перемещения и оказания затрагиваемым странам, в частности развивающимся странам, экспертной помощи в поддержку национальных усилий и стратегий, связанных, сообразно обстоятельствам, с оказанием помощи внутренне перемещенным лицам и принимающим их общинам, их защитой, обеспечением их жизнестойкости и их реабилитацией, а также с обеспечением учета прав человека и потребностей внутренне перемещенных лиц в стратегиях развития сельских районов и городов и привлечения к разработке и осуществлению этих стратегий как внутренне перемещенных лиц, так и принимающих их общин;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_604" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_604__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> Организацию Объединенных Наций тесно сотрудничать с государствами-членами и другими соответствующими субъектами, в том числе с местными органами власти, гражданским обществом и частным сектором, в осуществлении Новой программы развития городов в целях содействия повышению готовности к чрезвычайным ситуациям и более эффективному реагированию на них в городских районах и отмечает, что необходимо, сообразно обстоятельствам, учитывать особые потребности и факторы уязвимости внутренне перемещенных лиц, которые находятся в городах, и оказывать принимающим их городам поддержку в духе международного сотрудничества, в том числе обеспечивая равный доступ к возможностям получения дохода и предотвращая произвольные принудительные выселения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_638" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_638__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам, гуманитарным учреждениям, донорам, участникам деятельности в области развития и другим субъектам, занимающимся оказанием помощи в целях развития, продолжать сообща работать в тесном сотрудничестве со Специальным докладчиком, обеспечивая более предсказуемое реагирование на потребности внутренне перемещенных лиц, включая оказание долгосрочной помощи в целях развития для реализации долговременных решений, в целях сокращения масштабов внутреннего перемещения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_673" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_673__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует также</span> правительствам, учреждениям Организации Объединенных Наций и другим заинтересованным сторонам при реализации долговременных решений обеспечивать применение инклюзивного подхода к удовлетворению потребностей внутренне перемещенных лиц и принимающих их общин, предусматривающего расширение возможностей для полной реализации человеческого потенциала перемещенного населения на основе содействия достижению такими лицами самообеспеченности благодаря приносящей доход деятельности и возможностям получения средств к существованию на устойчивой основе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_709" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_709__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> все страны в соответствующих случаях интегрировать Повестку дня в области устойчивого развития на период до 2030 года в свои соответствующие национальные стратегии и рамочные программы в области развития и напоминает о том, что Повестка дня на период до 2030 года направлена на удовлетворение потребностей наиболее уязвимых групп, включая внутренне перемещенных лиц;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_746" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_746__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span>, что в соответствующих случаях важно учитывать права человека внутренне перемещенных лиц и их особые потребности в защите и помощи в мирных процессах, и подчеркивает, что долговременные решения проблемы внутренне перемещенных лиц, в том числе решения, предусматривающие осуществление процессов их добровольного возвращения, устойчивой реинтеграции, реабилитации и примирения, а также, сообразно обстоятельствам, их активное участие в мирном процессе, являются необходимыми элементами эффективного миростроительства;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>роль Комиссии по миростроительству в этой связи и вновь настоятельно призывает Комиссию активизировать усилия, которые она в рамках своего мандата прилагает в сотрудничестве с национальными и переходными правительствами и на основе консультаций с соответствующими подразделениями системы Организации Объединенных Наций для того, чтобы охватывать вопросы, касающиеся прав и особых потребностей внутренне перемещенных лиц, включая вопросы их добровольного возвращения в безопасных и достойных условиях и их реинтеграции и реабилитации, а также сопутствующие вопросы, связанные с землей и собственностью, при подготовке рекомендаций или предложений относительно ориентированных на конкретные страны стратегий миростроительства для постконфликтных ситуаций, которые находятся на ее рассмотрении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_823" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_823__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает также</span> приверженность, продемонстрированную Африканским союзом, который в 2019 году в числе прочих мероприятий отметил десятую годовщину принятия Конвенции Африканского союза о защите внутренне перемещенных лиц в Африке и оказании им помощи (Кампальская конвенция), приветствует прогресс в отношении количества государств Африки, подписавших и ратифицировавших Конвенцию, призывает добиваться дальнейшего прогресса на этом направлении и рекомендует другим региональным механизмам разработать собственную региональную нормативную базу для защиты внутренне перемещенных лиц; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_863" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_863__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам и членам Межучрежденческого постоянного комитета, а также координаторам по гуманитарным вопросам и страновым группам Организации Объединенных Наций способствовать представлению достоверных данных о ситуациях внутреннего перемещения, действуя в сотрудничестве с Центром мониторинга внутренних перемещений и при технической поддержке и помощи со стороны Совместной службы по профилированию внутренних перемещений, и выделять для этого необходимые финансовые ресурсы и призывает государства учитывать Международные рекомендации в отношении статистики внутренне перемещенных лиц, действуя при этом, в соответствующих случаях, через свои национальные статистические учреждения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_904" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_904__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о необходимости рассмотрения эффективных стратегий предоставления надлежащей защиты и помощи внутренне перемещенным лицам и предотвращения и уменьшения такого перемещения и в этой связи рекомендует Генеральному секретарю совместно с государствами-членами и системой Организации Объединенных Наций изучать пути более эффективного удовлетворения долгосрочных потребностей внутренне перемещенных лиц, оказания поддержки принимающим их общинам и улучшения жизни многих миллионов внутренне перемещенных лиц; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_946" class="MercuryDocument">
+        <num>43.</num>
+        <content eId="para_946__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря продолжать оказывать Специальному докладчику в пределах имеющихся ресурсов всю помощь, необходимую для усиления и эффективного выполнения ее мандата, и рекомендует Управлению Верховного комиссара Организации Объединенных Наций по правам человека в тесном сотрудничестве с Координатором чрезвычайной помощи, Управлением по координации гуманитарных вопросов Секретариата Организации Объединенных Наций, Управлением Верховного комиссара Организации Объединенных Наций по делам беженцев, Международной организацией по миграции и всеми другими соответствующими подразделениями и учреждениями Организации Объединенных Наций и связанными с ними организациями продолжать оказывать поддержку Специальному докладчику и сотрудничать с ней;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_989" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_989__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> Специального докладчика продолжать усилия по мобилизации взносов государств и соответствующих организаций и учреждений в целях создания более стабильной основы для ее работы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1033" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_1033__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Специального докладчика представить Генеральной Ассамблее на ее семьдесят седьмой и семьдесят восьмой сессиях доклад об осуществлении настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1078" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1078__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжить рассмотрение вопроса о защите внутренне перемещенных лиц и оказании им помощи на своей семьдесят восьмой сессии.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="53-е">53‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2021-12-16" refersTo="#adoptionDate">16 декабря 2021 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,702 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-180/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-180/"></FRBRuri>
+          <FRBRdate date="2021-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-180/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-180/rus@/"></FRBRuri>
+          <FRBRdate date="2022-01-11" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-180/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-180/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Mechanism to Collect, Consolidate, Preserve and Analyse Evidence of the Most Serious International Crimes and  Violations of International Law committed in Myanmar since 2011" showAs="UN. Human Rights Council. Independent Mechanism to Collect, Consolidate, Preserve and Analyse Evidence of the Most Serious International Crimes and  Violations of International Law committed in Myanmar since 2011" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Special Envoy of the Secretary-General to Myanmar" showAs="UN. Special Envoy of the Secretary-General to Myanmar" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MUSLIMS" showAs="MUSLIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINORITIES" showAs="MINORITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOOD OFFICES" showAs="GOOD OFFICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MYANMAR" showAs="MYANMAR" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REFUGEES" showAs="REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BANGLADESH" showAs="BANGLADESH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="74c" showAs="HUMAN RIGHTS--REPORTS" dictionary="A/76/251"></keyword>
+        <keyword refersTo="agenda" value="74c[5]" showAs="HUMAN RIGHTS--MYANMAR" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-11" outcome="draftResolution" as="A/C.3/76/L.30/Rev.1" by="Austria, Belgium, Bulgaria, Central African Republic, Croatia, Cyprus, Czechia, Denmark, Equatorial Guinea, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Liberia, Lithuania, Luxembourg, Malta, Monaco, Montenegro, Netherlands, Niger (on behalf of the States Members of the United Nations that are members of the Organization of Islamic Cooperation), North Macedonia, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Argentina, Australia, Bosnia and Herzegovina, Canada, Costa Rica, Iceland, Japan, Liechtenstein, Marshall Islands, Mexico, New Zealand, Norway, Republic of Korea, San Marino, Switzerland and Ukraine" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/462/Add.3" by="" refersTo="34" />
+        <step date="2021-12-16" outcome="adopted" as="A/76/PV.53" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Третий комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19219 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/180</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-01-11" class="rightSmall" refersTo="#dateOfIssuance">11 January 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Семьдесят шестая сессия</session>
+      </p>
+      <p>
+        <inline name="agenda item">Пункт 74 c) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита прав человека: положение в области прав человека и доклады специальных докладчиков и представителей</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 16 декабря 2021 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[по докладу Третьего комитета (<inline name="originating document">A/76/462/Add.3, пункт 34</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/180.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Положение в области прав человека мусульман народности рохинджа и других меньшинств в Мьянме</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь</span> Уставом Организации Объединенных Наций, Всеобщей декларацией прав человека<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/217(III)">217 A (III)</a>.</p></authorialNote>, Международными пактами о правах человека<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/2200(XXI)">2200 A (XXI)</a>.</p></authorialNote> и другими соответствующими международными документами по правам человека,</p>
+      </container>
+      <container name="напоминая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о том, что основную ответственность за соблюдение, защиту и осуществление прав человека несут государства-члены,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на свои предыдущие резолюции о положении в области прав человека в Мьянме, последними из которых являются резолюции <a href="https://undocs.org/ru/A/RES/75/287">75/287</a> от 18 июня 2021 года, <a href="https://undocs.org/ru/A/RES/75/238">75/238</a> от 31 декабря 2020 года, <a href="https://undocs.org/ru/A/RES/74/246">74/246</a> от 27 декабря 2019 года, <a href="https://undocs.org/ru/A/RES/73/264">73/264</a> от 22 декабря 2018 года и <a href="https://undocs.org/ru/A/RES/72/248">72/248</a> от 24 декабря 2017 года, и ссылаясь на резолюции и решения Совета по правам человека, последними из которых являются резолюции <a href="https://undocs.org/ru/A/HRC/RES/47/1">47/1</a> от 12 июля 2021 года<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят шестая сессия, Дополнение № 53</span> (<a href="https://undocs.org/ru/A/76/53">A/76/53</a>), гл. VII, разд. А.</p></authorialNote>, <a href="https://undocs.org/ru/A/HRC/RES/46/21">46/21</a> от 24 марта 2021 года<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Там же, гл. V, разд. А.</p></authorialNote>, <a href="https://undocs.org/ru/A/HRC/RES/S-29/1">S</a><a href="https://undocs.org/ru/A/HRC/RES/S-29/1">‑29/1</a> от 12 февраля 2021 года<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Там же, гл. IV.</p></authorialNote>, <a href="https://undocs.org/ru/A/HRC/RES/43/26">43/26</a> от 22 июня 2020 года<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Там же, <span class="italic">семьдесят пятая сессия, Дополнение № 53</span> (<a href="https://undocs.org/ru/A/75/53">A/75/53</a>), гл. IV, раздел А.</p></authorialNote>, <a href="https://undocs.org/ru/A/HRC/RES/42/3">42/3</a> от 26 сентября 2019 года<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Там же, <span class="italic">семьдесят четвертая сессия, Дополнение № 53А</span> (<a href="https://undocs.org/ru/A/74/53/Add.1">A/74/53/Add.1</a>), гл. II.</p></authorialNote>, <a href="https://undocs.org/ru/A/HRC/RES/39/2">39/2</a> от 27 сентября 2018 года<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Там же, <span class="italic">семьдесят третья сессия, Дополнение № 53А</span> (<a href="https://undocs.org/ru/A/73/53/Add.1">A/73/53/Add.1</a>), гл. II.</p></authorialNote>, <a href="https://undocs.org/ru/A/HRC/RES/37/32">37/32</a> от 23 марта 2018 года<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Там же, <span class="italic">Дополнение № 53</span> (<a href="https://undocs.org/ru/A/73/53">A/73/53</a>), гл. IV, разд. А.</p></authorialNote> и <a href="https://undocs.org/ru/A/HRC/RES/S-27/1">S</a><a href="https://undocs.org/ru/A/HRC/RES/S-27/1">-27/1</a> от 5 декабря 2017 года<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Там же, гл. III.</p></authorialNote>, заявления Председателя Совета Безопасности от 6 ноября 2017 года<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://undocs.org/ru/S/PRST/2017/22">S/PRST/2017/22</a>, см. <span class="italic">Резолюции и решения Совета Безопасности за 2017 год</span> (<a href="https://undocs.org/ru/S/INF/72">S/INF/72</a>).</p></authorialNote> и 10 марта 2021 года<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		<a href="https://undocs.org/ru/S/PRST/2021/5">S/PRST/2021/5</a>.</p></authorialNote> и заявления Совета Безопасности для печати о положении в Мьянме от 9 мая 2018 года<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		SC/13331.</p></authorialNote>, 4 февраля 2021 года<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		SC/14430.</p></authorialNote> и 1 и 30 апреля 2021 года, а также резолюцию <a href="https://undocs.org/ru/S/RES/2467(2019)">2467 (2019)</a> Совета Безопасности от 23 апреля 2019 года,</p>
+      </container>
+      <container name="выражая серьезную обеспокоенность" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">выражая серьезную обеспокоенность</span> в связи со всеми нарушениями и ущемлениями прав человека в Мьянме, в том числе до и после введения чрезвычайного положения 1 февраля 2021 года и его последующего продления на два года, </p>
+      </container>
+      <container name="заявляя о своей безоговорочной поддержке" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">заявляя о своей безоговорочной поддержке</span> народа Мьянмы, его стремления к демократии и демократических преобразований в Мьянме, а также необходимости восстановления и укрепления демократических институтов и процессов, воздержания от насилия и произвольных задержаний и полного соблюдения прав человека, основных свобод и принципа верховенства права,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> работу и доклады Специального докладчика по вопросу о положении в области прав человека в Мьянме, выражая при этом глубокое сожаление по поводу нежелания Мьянмы сотрудничать с его мандатом и настоятельно призывая Мьянму в полной мере сотрудничать со Специальным докладчиком,</p>
+      </container>
+      <container name="с удовлетворением отмечая также" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая также</span> работу Специального посланника Генерального секретаря по Мьянме,</p>
+      </container>
+      <container name="приветствуя" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	приветствуя </span>в этой связи назначение нового Специального посланника и призывая ее поддерживать взаимодействие и инклюзивный диалог со всеми соответствующими заинтересованными сторонами, включая гражданское общество, и затронутыми группами населения,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая </span>доклад Верховного комиссара Организации Объединенных Наций по правам человека о коренных причинах нарушений и злоупотреблений в области прав человека, с которыми сталкиваются рохинджа и другие меньшинства в Мьянме<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/43/18">A/HRC/43/18</a>.</p></authorialNote>, и вновь заявляя о важности полного осуществления рекомендаций, содержащихся в этом докладе,</p>
+      </container>
+      <container name="отмечая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> работу, проделанную независимой международной миссией по установлению фактов относительно Мьянмы, включая ее заключительный доклад<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/42/50">A/HRC/42/50</a>.</p></authorialNote> и все ее другие доклады, в том числе доклады об экономических интересах вооруженных сил Мьянмы и о сексуальном и гендерном насилии в Мьянме и гендерных последствиях этнических конфликтов в стране, и выражая далее глубокое сожаление по поводу того, что Мьянма не сотрудничала с миссией по установлению фактов,</p>
+      </container>
+      <container name="будучи встревожена" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">будучи встревожена</span> выявленными независимой международной миссией по установлению фактов относительно Мьянмы доказательствами совершенных силами безопасности и вооруженными силами Мьянмы в отношении мусульман народности рохинджа и других меньшинств грубых нарушений и злоупотреблений в области прав человека, которые, согласно миссии по установлению фактов, несомненно, представляют собой тягчайшие преступления по международному праву, </p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> по поводу незначительного прогресса в выполнении рекомендаций миссии по установлению фактов относительно проведения оперативных, эффективных, тщательных, независимых и беспристрастных расследований и привлечения виновных к ответственности за преступления, совершенные на всей территории Мьянмы,</p>
+      </container>
+      <container name="будучи обеспокоена" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">будучи обеспокоена</span> тем, что вопреки рекомендациям миссии по установлению фактов законы, постановления, политика и практика на всех уровнях, ограничивающие свободу передвижения, выражения мнений, ассоциации и собраний или носящие дискриминационный характер в плане их применения или воздействия, не были пересмотрены, изменены или отменены,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> работу учрежденного Советом по правам человека в его резолюции <a href="https://undocs.org/ru/A/HRC/RES/39/2">39/2</a> Независимого механизма для Мьянмы в целях сбора, обобщения, хранения и анализа доказательств наиболее серьезных международных преступлений и нарушений международного права, совершенных в Мьянме с 2011 года, в частности в штатах Ракхайн, Качин и Шан, с использованием информации, переданной независимой международной миссией по установлению фактов, и подготовки материалов для облегчения и ускорения проведения непредвзятых и независимых уголовных разбирательств в соответствии с международно-правовыми стандартами в национальных, региональных или международных судах и трибуналах, которые обладают или будут обладать в будущем юрисдикцией в отношении таких преступлений в соответствии с международным правом,</p>
+      </container>
+      <container name="с удовлетворением отмечая также" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	с удовлетворением отмечая также</span> доклады учрежденного Советом по правам человека в его резолюции <a href="https://undocs.org/ru/A/HRC/RES/39/2">39/2</a> Независимого механизма для Мьянмы Генеральной Ассамблее, включая третий доклад, представленный Генеральной Ассамблее 5 июля 2021 года<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/48/18">A/HRC/48/18</a>.</p></authorialNote>, и выражая сожаление в связи с сохраняющимся отсутствием доступа для Механизма и сотрудничества с ним, </p>
+      </container>
+      <container name="отмечая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> взаимодополняющую и взаимоукрепляющую работу различных мандатариев и механизмов Организации Объединенных Наций, в том числе занимающихся вопросами Мьянмы механизмов обеспечения международного правосудия и подотчетности, по улучшению положения в области прав человека в Мьянме,</p>
+      </container>
+      <container name="отмечая также" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span> важность роли региональных организаций в усилиях по достижению мирного разрешения местных споров, как это предусмотрено в главе VIII Устава, и отмечая вместе с тем, что такие усилия не препятствуют принятию мер на основании главы VI Устава, </p>
+      </container>
+      <container name="признавая далее" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">признавая далее </span>важную роль региональных организаций, в частности Ассоциации государств Юго-Восточной Азии, в содействии созданию в Мьянме условий, благоприятных для добровольного, безопасного, достойного и устойчивого возвращения в Мьянму насильственно перемещенных лиц, включая мусульман народности рохинджа, и подтверждая необходимость работать в тесной координации и на основе всесторонних консультаций с мусульманами народности рохинджа, а также со всеми соответствующими учреждениями Организации Объединенных Наций и международными партнерами и устранять коренные причины кризиса и вынужденного перемещения населения, с тем чтобы затронутые общины смогли восстановить свою жизнь после возвращения в Мьянму,</p>
+      </container>
+      <container name="приветствуя" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> заявление Председателя Ассоциации государств Юго-Восточной Азии на ее совещании лидеров, состоявшемся 24 апреля 2021 года в Джакарте<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/868">A/75/868</a>, приложение.</p></authorialNote>, в котором Председатель, среди прочего, призвал Генерального секретаря Ассоциации продолжать выявление возможных областей, на основе работы в которых можно было бы эффективно облегчить процесс репатриации лиц, перемещенных из штата Ракхайн, отмечая, что в настоящее время эти условия не выполнены, и подчеркивая важное значение осуществления усилий по устранению коренных причин ситуации в штате Ракхайн и состоящего из пяти пунктов заявления о достигнутом консенсусе,</p>
+      </container>
+      <container name="отдавая должное" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">отдавая должное</span> усилиям Организации исламского сотрудничества, предпринимаемым параллельно с соответствующими международными усилиями и направленным на обеспечение мира и стабильности в штате Ракхайн и других штатах и областях Мьянмы, в том числе посредством работы специального посланника ее Генерального секретаря по Мьянме,</p>
+      </container>
+      <container name="приветствуя" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> доклад Генерального секретаря<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/76/312">A/76/312</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> текущие процессы по обеспечению правосудия и подотчетности в отношении предполагаемых преступлений, совершенных против мусульман народности рохинджа и других меньшинств в Мьянме, </p>
+      </container>
+      <container name="отмечая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что Международный уголовный суд уполномочил своего Прокурора расследовать подпадающие под юрисдикцию Суда предполагаемые преступления, относящиеся к ситуации в Бангладеш/Мьянме,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> постановление Международного Суда от 23 января 2020 года об указании временных мер в возбужденном Гамбией против Мьянмы деле о применении Конвенции о предупреждении преступления геноцида и наказании за него<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/260(III)">260 А (III)</a>, приложение.</p></authorialNote>, в котором содержится вывод о том, что Суд prima facie обладает юрисдикцией для рассмотрения этого дела, в ходе которого было установлено, что народность рохинджа в Мьянме, по-видимому, представляет собой «защищаемую группу» по смыслу статьи 2 Конвенции и что существует реальная и непосредственная опасность нанесения непоправимого ущерба правам рохинджа в Мьянме, и принимая к сведению, что в мае и ноябре 2020 года Мьянма представила два доклада в ответ на постановление Суда, а также отмечая принятые в этом отношении меры,</p>
+      </container>
+      <container name="отмечая" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> публикацию резюме доклада учрежденной Мьянмой в 2018 году Независимой комиссии по расследованию, в котором, несмотря на его недостатки, признается, что многочисленными субъектами совершались военные преступления, серьезные нарушения прав человека и нарушения норм внутреннего права и что имеются разумные основания полагать, что к этому причастны представители сил безопасности Мьянмы, и выражая сожаление в связи с тем, что полный доклад Комиссии в настоящее время остается неопубликованным, </p>
+      </container>
+      <container name="осуждая" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">осуждая</span> все нарушения и ущемления прав человека в Мьянме, в том числе в отношении мусульман народности рохинджа и других меньшинств, а также применение вооруженными силами Мьянмы чрезмерной силы и насилия, включая пытки и сексуальное насилие, против мирных демонстрантов, а также членов гражданского общества, женщин, молодежи, детей, меньшинств и других групп населения, что во многих случаях приводит к увечьям и гибели людей, выражая глубокую обеспокоенность по поводу необоснованных ограничений деятельности медицинского персонала, всех других представителей гражданского общества, членов профсоюзов, журналистов и работников средств массовой информации и призывая к немедленному освобождению всех произвольно задержанных лиц, включая иностранных граждан,</p>
+      </container>
+      <container name="вновь заявляя о своей глубокой обеспокоенности" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя о своей глубокой обеспокоенности</span> в связи с чрезмерным применением силы со стороны сил безопасности и вооруженных сил Мьянмы, которое отмечается в большинстве штатов и областей, продолжающимся насильственным перемещением гражданского населения, в том числе меньшинств, вербовкой и использованием детей, похищениями, произвольными задержаниями и убийствами и использованием объектов, функционирующих в качестве школ, для военных целей и для совершения преступлений, а также сообщениями о нарушениях и ущемлениях прав человека, в том числе нарушениями, которые связаны с применением наземных мин и которые делают непригодными условия для добровольного, безопасного, достойного и устойчивого возвращения всех беженцев и вынужденных переселенцев, включая рохинджа, в штате Ракхайн,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя</span> о настоятельной необходимости обеспечения того, чтобы все те, кто несет ответственность за совершение преступлений, связанных с нарушением и попранием норм международного права на всей территории Мьянмы, в том числе международных стандартов в области прав человека, международного гуманитарного права и международного уголовного права, привлекались к ответственности по линии авторитетных и независимых национальных, региональных или международных механизмов правосудия, ссылаясь при этом на полномочия Совета Безопасности в этом отношении, </p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> в связи с тем, что в Ракхайне 600 000 не имеющих гражданства мусульман народности рохинджа, значительное число из которых по‑прежнему содержатся в лагерях в условиях отсутствия свободы передвижения и существенно ограниченного доступа к основным услугам, включая здравоохранение и образование, а также к средствам к существованию, остаются в значительной степени сегрегированными и подвергаются дискриминации при получении гражданства и осуществлении других основных прав, </p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> в связи с тем, что мусульмане народности рохинджа и другие меньшинства, в частности женщины и девочки, по‑прежнему подвергаются значительному риску сексуального насилия, особенно в период после конфликта между силами безопасности и вооруженными силами и Араканской армией,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> в связи с сообщениями о насилии со стороны сил безопасности и вооруженных сил, которое в несоразмерно большой степени затрагивает гражданских лиц из числа рохинджа и других меньшинств в Мьянме, где происходят нападения на школы, религиозные объекты и дома, </p>
+      </container>
+      <container name="вновь выражая глубокую обеспокоенность" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">вновь выражая глубокую обеспокоенность</span> в связи с эскалацией насилия и продолжающимся насильственным перемещением гражданского населения, а также нарушениями и ущемлениями прав человека в отношении мусульман народности рохинджа и других меньшинств, в результате которых складываются условия, непригодные для добровольного, безопасного, достойного и устойчивого возвращения в Мьянму всех беженцев и насильственно перемещенных лиц, включая мусульман народности рохинджа,</p>
+      </container>
+      <container name="вновь подчеркивая" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">вновь подчеркивая</span> необходимость того, чтобы силы безопасности и вооруженные силы Мьянмы и другие вооруженные группы прекратили любые действия, противоречащие требованию защиты всех лиц в стране, включая лиц, принадлежащих к общине рохинджа, путем соблюдения норм международного права, включая международное право прав человека и международное гуманитарное право, и прекращения насилия, включая сексуальное насилие, и призывая безотлагательно предпринять шаги для обеспечения правосудия во всех случаях нарушения прав человека и нарушения международного гуманитарного права, с тем чтобы лица, перемещенные в результате насилия, имели возможность добровольно и на устойчивой основе вернуться в места своего происхождения или в место по своему выбору в условиях безопасности и достоинства,</p>
+      </container>
+      <container name="будучи встревожена" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">будучи встревожена</span> продолжающимися нападениями на гуманитарные организации и отсутствием доступа для них и призывая все стороны соблюдать международное право в этом вопросе,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> в связи с отсутствием доступа Международного комитета Красного Креста в тюрьмы, что имеет серьезные последствия для возможности семей получать информацию о состоянии здоровья и условиях содержания заключенных, а также для доступа заключенных к лекарственным средствам, </p>
+      </container>
+      <container name="вновь выражая глубокое сожаление" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">вновь выражая глубокое сожаление</span> по поводу сообщений о том, что военнослужащие и сотрудники сил безопасности применяют чрезмерную силу в отношении невооруженных лиц в штате Ракхайн и нарушают их права человека и нормы международного гуманитарного права, в том числе подвергают их внесудебным казням, казням без надлежащего судебного разбирательства или произвольным казням, систематическим изнасилованиям и другим формам сексуального и гендерного насилия, произвольным задержаниям и насильственным исчезновениям, о захвате правительственными структурами земель рохинджа, с которых мусульмане народности рохинджа были выселены, и уничтожении их домов, и будучи по‑прежнему обеспокоена имевшими место ранее фактами массового разрушения домов и систематических выселений в северной части штата Ракхайн, в том числе с применением поджогов и насилия, а также незаконного применения силы негосударственными субъектами,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> в связи с тем, что политика, осуществляемая Мьянмой в северной части штата Ракхайн под предлогом экономического развития и восстановления, и усиленная милитаризация этой территории привели к изменению демографической структуры, что еще больше препятствует возвращению в штат Ракхайн перемещенных лиц из числа мусульман народности рохинджа, </p>
+      </container>
+      <container name="напоминая" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">напоминая </span>о призыве Генерального секретаря к прекращению боевых действий, поддержанному в резолюции <a href="https://undocs.org/ru/S/RES/2532(2020)">2532 (2020)</a> Совета Безопасности от 1 июля 2020 года, и подчеркивая при этом необходимость дальнейшей деэскалации и прочного прекращения огня на всей территории страны, которые лучше всего достигаются путем диалога между всеми сторонами,</p>
+      </container>
+      <container name="отмечая" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> организацию в августе 2020 года четвертой сессии Мирной конференции Союза и подчеркивая ее важное значение для инклюзивного государственного строительства на уровне штатов и всей страны,</p>
+      </container>
+      <container name="вновь выражая глубокую обеспокоенность" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">вновь выражая глубокую обеспокоенность</span> по поводу того, что, хотя мусульмане народности рохинджа жили в Мьянме на протяжении многих поколений до обретения Мьянмой независимости, обладали всеми документами и активно участвовали в государственной и гражданской жизни, они стали апатридами в результате принятия Закона о гражданстве 1982 года и в конечном итоге в 2015 году были лишены права на участие в избирательном процессе,</p>
+      </container>
+      <container name="подтверждая," eId="container_42">
+        <p xml:space="preserve">	<span class="italic">подтверждая,</span> что лишение мусульман народности рохинджа и других меньшинств гражданства и связанных с этим прав, в том числе права голоса, вызывает серьезную обеспокоенность с точки зрения прав человека,</p>
+      </container>
+      <container name="вновь подчеркивая" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">вновь подчеркивая</span> право всех беженцев на скорейшее возвращение в свои дома в условиях безопасности и достоинства и на добровольной и устойчивой основе и важность наличия у перемещенных лиц такой возможности и напоминая международному сообществу о его коллективной ответственности в отношении насильственно перемещенных лиц в регионе,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> по поводу незаконных морских перемещений рохинджа, которые рискуют своей жизнью в опасных условиях, доверяясь эксплуатирующим их контрабандистам, что свидетельствует об их отчаянной ситуации и о настоятельной необходимости устранения первопричин их уязвимого положения,</p>
+      </container>
+      <container name="будучи встревожена" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">будучи встревожена</span> непрекращающимся притоком в Бангладеш на протяжении последних четырех десятилетий 1,1 миллиона мусульман народности рохинджа из Мьянмы, включая более 902 000 проживающих там в настоящее время лиц, большинство из которых прибыли в период с 25 августа 2017 года в результате бесчинств со стороны сил безопасности и вооруженных сил Мьянмы,</p>
+      </container>
+      <container name="напоминая" eId="container_46">
+        <p xml:space="preserve">	<span class="italic">напоминая </span>о двустороннем Соглашении о возвращении, заключенном между правительством Бангладеш и правительством Мьянмы 23 ноября 2017 года в Нейпьидо, и о создании 19 декабря 2017 года совместной рабочей группы в составе 30 человек для содействия репатриации перемещенных рохинджа в Мьянму и выражая сожаление в связи с тем, что репатриация не может начаться в соответствии с этим соглашением из‑за отсутствия благоприятных условий в штате Ракхайн, </p>
+      </container>
+      <container name="подчеркивая" eId="container_47">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость осуществления меморандума о взаимопонимании между Мьянмой и Программой развития Организации Объединенных Наций и Управлением Верховного комиссара Организации Объединенных Наций по делам беженцев об оказании помощи в процессе репатриации лиц, перемещенных из штата Ракхайн, включая мусульман народности рохинджа, и необходимость контроля за положением дел с осуществлением этого меморандума и призывая Мьянму предоставить учреждениям Организации Объединенных Наций беспрепятственный доступ к северной части штата Ракхайн, с тем чтобы они могли действенно участвовать в этом процессе,</p>
+      </container>
+      <container name="вновь выражая глубокую обеспокоенность" eId="container_48">
+        <p xml:space="preserve">	<span class="italic">вновь выражая глубокую обеспокоенность</span> по поводу продолжающегося распространения, в частности через социальные сети, ложных сообщений, ненавистнических высказываний и подстрекательской риторики, направленных, в особенности, против мусульман народности рохинджа и других меньшинств, </p>
+      </container>
+      <container name="вновь выражая глубокую обеспокоенность также" eId="container_49">
+        <p xml:space="preserve">	<span class="italic">вновь выражая глубокую обеспокоенность также</span> в связи с ограничениями, вводимыми в отношении гражданского общества, журналистов и работников средств массовой информации, и нападениями на них, в том числе в связи с ограничениями на поиск, получение и распространение информации, включая случаи отключения Интернета в Мьянме, что может еще больше усугубить тяжелое положение мусульман народности рохинджа и других меньшинств, </p>
+      </container>
+      <container name="подчеркивая" eId="container_50">
+        <p xml:space="preserve">
+          <span class="italic">	подчеркивая</span> важное значение призыва Генерального секретаря активизировать усилия в целях осуществления рекомендаций Консультативной комиссии по штату Ракхайн, устранения коренных причин кризиса, включая те, которые касаются доступа рохинджа к получению гражданства, свободы передвижения, ликвидации систематической сегрегации и всех форм дискриминации и обеспечения инклюзивного и равного доступа к медицинским услугам и образованию и регистрации рождений, в полном взаимодействии с членами всех этнических групп и групп меньшинств и лицами, находящимися в уязвимом положении, в том числе по вопросам гражданства для рохинджа,</p>
+      </container>
+      <container name="напоминая" eId="container_51">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о приверженности Генерального секретаря осуществлению рекомендаций, вынесенных по итогам независимого расследования деятельности Организации Объединенных Наций в Мьянме в период с 2010 по 2018 год,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_52">
+        <p xml:space="preserve">
+          <span class="italic">	выражая обеспокоенность</span> в связи с тем, что в результате недавних событий, произошедших за период с 1 февраля 2021 года, возникли серьезные проблемы для добровольного, безопасного, достойного и устойчивого возвращения насильственно перемещенных мусульман народности рохинджа и всех внутренне перемещенных лиц, и в этой связи подчеркивая необходимость устранения коренных причин кризиса в штате Ракхайн и подтверждая необходимость немедленного прекращения применения силы, которое может привести к дальнейшему перемещению мусульман народности рохинджа и других меньшинств как внутри страны, так и через границы,</p>
+      </container>
+      <container name="подчеркивая" eId="container_53">
+        <p xml:space="preserve">
+          <span class="italic">	подчеркивая</span> необходимость нахождения мирного решения для Мьянмы на основе инклюзивного и мирного диалога между всеми сторонами в соответствии с волей и интересами народа Мьянмы, </p>
+      </container>
+      <container name="особо отмечая" eId="container_54">
+        <p xml:space="preserve">
+          <span class="italic">	особо отмечая</span> важность обеспечения равных возможностей для представительства и полного, равного и конструктивного участия рохинджа, других меньшинств и внутренне перемещенных лиц, кандидатов и избирателей во всех всеобщих выборах, а также возможность для всех людей в Мьянме голосовать и для всех кандидатов — честно соревноваться между собой на выборах,</p>
+      </container>
+      <container name="приветствуя" eId="container_55">
+        <p xml:space="preserve">
+          <span class="italic">	приветствуя</span> выводы Рабочей группы Совета Безопасности по вопросу о детях и вооруженных конфликтах в отношении детей и вооруженного конфликта в Мьянме<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		<a href="https://undocs.org/ru/S/AC.51/2019/2">S/AC.51/2019/2</a>.</p></authorialNote> и отмечая озабоченность, выраженную Рабочей группой по поводу грубых нарушений в отношении детей, и обеспокоенность относительно положения детей в условиях вооруженного конфликта в Мьянме, выраженную Генеральным секретарем в его докладе, </p>
+      </container>
+      <container name="высоко оценивая" eId="container_56">
+        <p xml:space="preserve">	<span class="italic">высоко оценивая</span> нынешние гуманитарные усилия и обязательства правительства Бангладеш по оказанию в сотрудничестве с учреждениями Организации Объединенных Наций и международным сообществом, включая всех участников гуманитарной деятельности, помощи тем, кто спасается от нарушений и ущемлений прав человека в Мьянме, приветствуя в этой связи недавно заключенный меморандум о взаимопонимании между правительством Бангладеш и Управлением Верховного комиссара Организации Объединенных Наций по делам беженцев в целях оказания гуманитарной помощи рохинджа, переселенным в Бхашан-Чар, и отмечая значительные инвестиции правительства Бангладеш в его проект, осуществляемый в Бхашан-Чаре, включая инвестиции в объекты и инфраструктуру,</p>
+      </container>
+      <container name="приветствуя" eId="container_57">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> заявления Председателя Ассоциации государств Юго-Восточной Азии от 1 февраля и 2 марта 2021 года, в которых Председатель напомнил о целях и принципах, закрепленных в Уставе Ассоциации, в частности о принципе демократии, приверженности верховенству права, благом правлении, уважении и защите прав человека и основных свобод, и призвал все стороны проявлять максимальную сдержанность и изыскивать мирное решение на основе конструктивного диалога и практического примирения в интересах людей и их средств к существованию, </p>
+      </container>
+      <container name="приветствуя также" eId="container_58">
+        <p xml:space="preserve">	<span class="italic">приветствуя также </span>проведение Ассоциацией государств Юго-Восточной Азии в мае 2019 года оценок гуманитарной ситуации в северной части штата Ракхайн через свой Центр по координации гуманитарной помощи для ликвидации последствий бедствий и создание ею специальной группы поддержки для осуществления рекомендаций по итогам предварительной оценки потребностей, необходимых для создания в штате Ракхайн условий для репатриации, и признавая необходимость более тесного взаимодействия с беженцами из числа рохинджа при поощрении тесного сотрудничества со всеми соответствующими учреждениями Организации Объединенных Наций и международными партнерами и необходимость устранения коренных причин конфликта, с тем чтобы пострадавшие общины могли вернуться там к нормальной жизни,</p>
+      </container>
+      <container name="с озабоченностью отмечая" eId="container_59">
+        <p xml:space="preserve">	<span class="italic">с озабоченностью отмечая</span> обострение существующей гуманитарной ситуации в результате глобальной пандемии коронавирусного заболевания (COVID‑19), ее негативное воздействие на положение в области прав человека в Мьянме, включая доступ к образованию, и введение чрезвычайного положения 1 февраля 2021 года и подчеркивая, что меры по борьбе с пандемией COVID‑19 должны быть целенаправленными, необходимыми, транспарентными, недискриминационными, привязанными к конкретным срокам, соразмерными и согласующимися с обязательствами по применимым международным нормам в области прав человека,</p>
+      </container>
+      <container name="подчеркивая" eId="container_60">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>важность своевременного, равноправного и беспрепятственного доступа к безопасным, доступным, эффективным и качественным лекарственным препаратам, вакцинам, диагностическим и терапевтическим средствам и другим медицинским товарам и технологиям, необходимым для обеспечения надлежащей эффективной борьбы с пандемией COVID‑19, в том числе для лиц, находящихся в наиболее уязвимом положении, лиц, пострадавших или перемещенных в результате вооруженных конфликтов в стране, и лиц, принадлежащих к меньшинствам, таким как рохинджа,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">выражает серьезную обеспокоенность</span> по поводу продолжающих поступать сообщений о серьезных нарушениях и ущемлениях прав человека со стороны вооруженных сил и сил безопасности, а также нарушениях норм международного гуманитарного права в Мьянме, в особенности в отношении рохинджа и других меньшинств, включая произвольные аресты, случаи смерти в период содержания под стражей, пытки и другие жестокие, бесчеловечные или унижающие достоинство виды обращения и наказания, преднамеренное убийство детей и нанесение им увечий, вербовку и использование детей для целей принудительного труда, нападения на школы и больницы и на находящихся под защитой людей в школах и/или больницах, неизбирательные обстрелы в районах проживания гражданского населения, разрушение и поджог домов, лишение экономических и социальных прав, насильственное перемещение более 902 000 представителей рохинджа и других меньшинств в Бангладеш, изнасилования, обращение в сексуальное рабство и другие формы сексуального и гендерного насилия, а также ограничения на осуществление прав на свободу религии или убеждений, выражения мнений и мирных собраний, ограничения свободы средств массовой информации и в плане полного доступа к Интернету и другие ограничения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает</span> все нарушения и ущемления прав человека в Мьянме, совершенные, в частности, в связи с введением чрезвычайного положения 1 февраля 2021 года и в последующий период, и особо отмечает важность проведения международных независимых, справедливых и транспарентных расследований грубых нарушений прав человека в Мьянме, включая сексуальное и гендерное насилие и нарушения и злоупотребления в отношении женщин и детей, и привлечения к ответственности всех виновных в совершении жестоких актов и преступлений против всех лиц, включая рохинджа, в целях отправления правосудия в интересах жертв с использованием всех правовых инструментов и внутренних, региональных и международных судебных механизмов, включая Международный Суд и Международный уголовный суд, сообразно обстоятельствам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> силы безопасности и вооруженные силы Мьянмы уважать стремление народа Мьянмы к демократии и обеспечивать возможности для демократических преобразований, прекратить насилие, полностью соблюдать права человека, основные свободы и принцип верховенства права, а также отменить чрезвычайное положение, введенное 1 февраля 2021 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> силы безопасности и вооруженные силы Мьянмы и другие вооруженные группы прислушаться к призывам Генерального секретаря о глобальном прекращении огня и прекратить все боевые действия и насилие и призывает к немедленному освобождению всех лиц, подвергшихся произвольному задержанию, включая иностранных граждан;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> постановление Международного Суда от 23 января 2020 года об указании временных мер и настоятельно призывает Мьянму в соответствии с постановлением Суда в отношении находящихся на ее территории представителей народности рохинджа принять все имеющиеся в ее распоряжении меры для предотвращения совершения любых деяний, подпадающих под действие статьи 2 Конвенции о предупреждении преступления геноцида и наказании за него, обеспечить, чтобы ее вооруженные силы и любые нерегулярные вооруженные формирования, которые могут находиться под ее управлением или поддерживаться ею, и любые организации и лица, которые могут находиться под ее контролем, управлением или влиянием, не совершали, в частности, никаких подобных деяний, не допускать уничтожения и обеспечивать сохранение доказательств и сообщать Суду, как это предписано, обо всех мерах, принятых во исполнение этого постановления;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">выражает серьезную обеспокоенность</span> по поводу сохраняющихся ограничений на гуманитарный доступ во всех зонах конфликта, включая штаты Ракхайн и Чин, а также по поводу недостаточных мер, принимаемых для обеспечения доступа к здравоохранению для рохинджа, особенно во время пандемии COVID‑19, и настоятельно призывает предоставить всем мандатариям Организации Объединенных Наций и правозащитным механизмам, включая Специального докладчика по вопросу о положении в области прав человека в Мьянме, Специального посланника Генерального секретаря по Мьянме, страновую целевую группу Организации Объединенных Наций по наблюдению и отчетности применительно к серьезным нарушениям в отношении детей, Независимый механизм для Мьянмы, учрежденный Советом по правам человека в его резолюции <a href="https://undocs.org/ru/A/HRC/RES/39/2">39/2</a>, и соответствующие учреждения Организации Объединенных Наций и международные и региональные правозащитные органы, полный, неограниченный и безопасный доступ для ведения на независимой основе наблюдения за положением в области прав человека и обеспечить, чтобы люди могли сотрудничать с этими механизмами беспрепятственно и не опасаясь репрессий, запугивания или нападений, и выражает глубокую обеспокоенность по поводу того, что международный доступ к пострадавшим районам в северной части штата Ракхайн и других районах, затронутых насилием, остается крайне ограниченным для международного сообщества, в том числе для учреждений Организации Объединенных Наций, гуманитарных организаций и международных средств массовой информации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> Организацию Объединенных Наций обеспечить, чтобы Независимому механизму для Мьянмы, учрежденному Советом по правам человека в его резолюции <a href="https://undocs.org/ru/A/HRC/RES/39/2">39/2</a>, была обеспечена необходимая ему гибкость с точки зрения укомплектования штатов, местонахождения и оперативной свободы, с тем чтобы он мог максимально эффективно выполнять свой мандат, и настоятельно призывает Мьянму, государства-члены, судебные органы и частные структуры в полной мере сотрудничать с Механизмом, в том числе путем предоставления ему доступа и оказания всяческой помощи в выполнении его мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">выражает серьезную обеспокоенность</span> по поводу возможности повторного травмирования жертв нарушений и ущемлений прав человека, особенно жертв из числа детей и жертв сексуального насилия, призывает все стороны, занимающиеся оформлением документации, придерживаться принципа «не навреди» при сборе доказательств в целях уважения достоинства и недопущения повторного травмирования жертв и призывает в полной мере удовлетворять потребности жертв и пострадавших и соблюдать их право на эффективные средства правовой защиты, в том числе путем оперативной, эффективной и независимой регистрации пострадавших и предоставления гарантий неповторения подобных нарушений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <num>9.</num>
+        <list eId="para_97_list">
+          <intro eId="para_97_list_intro">
+            <p xml:space="preserve">	<span class="italic">вновь обращается</span> к Мьянме с настоятельным призывом:</p>
+          </intro>
+          <point eId="para_97_list_point_a">
+            <num>a)</num>
+            <content eId="para_97_list_point_a_content">
+              <p xml:space="preserve">	немедленно прекратить все акты насилия и все нарушения международного права в Мьянме, обеспечить защиту прав человека всех лиц в Мьянме, включая рохинджа и лиц, принадлежащих к другим меньшинствам, и принять все необходимые меры для отправления правосудия в интересах жертв, обеспечить всю полноту ответственности виновных и положить конец безнаказанности за любые нарушения и ущемления прав человека и нарушения международного гуманитарного права, начиная с проведения всестороннего, транспарентного и независимого расследования всех сообщений обо всех этих нарушениях, и призывает полностью опубликовать доклад Независимой комиссии по расследованию, созданной в 2018 году, или довести содержащиеся в нем выводы до соответствующих международных механизмов;</p>
+            </content>
+          </point>
+          <point eId="para_97_list_point_b">
+            <num>b)</num>
+            <content eId="para_97_list_point_b_content">
+              <p xml:space="preserve">	обеспечить на основе конкретных действий добровольное, безопасное, достойное и устойчивое возвращение мусульман народности рохинджа в Мьянму и их реинтеграцию в ней;</p>
+            </content>
+          </point>
+          <point eId="para_97_list_point_с">
+            <num>с)</num>
+            <content eId="para_97_list_point_с_content">
+              <p xml:space="preserve"> 	вступить в инклюзивный, конструктивный и мирный диалог и обеспечить примирение в соответствии с волей и интересами народа Мьянмы, включая мусульман народности рохинджа и другие меньшинства;</p>
+            </content>
+          </point>
+          <point eId="para_97_list_point_d">
+              <num>d)</num>
+            <content eId="para_97_list_point_d_content">
+                <p xml:space="preserve">	создать необходимые условия для безопасного, добровольного, достойного и устойчивого возвращения всех беженцев, включая беженцев-мусульман народности рохинджа, особенно с учетом того, что до настоящего времени ни один из рохинджа не вернулся на родину через посредство созданного Бангладеш и Мьянмой на двусторонней основе механизма репатриации из‑за того, что Мьянма не создала такие условия в штате Ракхайн;</p>
+              </content>
+            </point>
+          <point eId="para_97_list_point_e">
+              <num>е)</num>
+            <content eId="para_97_list_point_e_content">
+                <p xml:space="preserve">	добиваться укрепления доверия со стороны мусульман народности рохинджа в лагерях в Бангладеш путем принятия мер по укреплению доверия, включая организацию ознакомительных посещений штата Ракхайн представителями рохинджа;</p>
+              </content>
+            </point>
+          <point eId="para_97_list_point_f">
+                <num>f)</num>
+            <content eId="para_97_list_point_f_content">
+                  <p xml:space="preserve">	обеспечить полную защиту прав человека и основных свобод всех лиц в Мьянме, в том числе мусульман народности рохинджа и других меньшинств, на равноправной и недискриминационной основе и в условиях уважения их достоинства, с тем чтобы предотвратить дальнейшую дестабилизацию и обострение обстановки, облегчить страдания, устранить коренные причины кризиса, в том числе путем отмены или реформирования дискриминационных законов, и выработать надежное, прочное и долгосрочное решение;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_g">
+                <num>g)</num>
+            <content eId="para_97_list_point_g_content">
+                  <p xml:space="preserve">	выполнить свои обязанности в области прав человека и обязательства защищать право на свободу выражения мнений, в том числе в Интернете, и права на свободу ассоциации и мирных собраний, создать и поддерживать безопасные и благоприятные условия деятельности для гражданского общества и независимых средств массовой информации;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_h">
+                <num>h)</num>
+            <content eId="para_97_list_point_h_content">
+                  <p xml:space="preserve">	принять необходимые меры по противодействию распространению дискриминации и предрассудков и бороться с разжиганием ненависти в отношении мусульман народности рохинджа и лиц, принадлежащих к другим меньшинствам, публично осудить такие акты и бороться с ненавистническими высказываниями при полном уважении международного права прав человека, а также содействовать межконфессиональному диалогу в сотрудничестве с международным сообществом и поощрять политических и религиозных лидеров страны к тому, чтобы они добивались примирения между общинами и укрепления национального единства на основе диалога, и осуществить проект Фонда миростроительства по борьбе с языком ненависти;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_i">
+                <num>i)</num>
+            <content eId="para_97_list_point_i_content">
+                  <p xml:space="preserve">	обеспечить всеохватное реагирование на пандемию COVID‑19, в том числе на основе всеобщей вакцинации, в целях защиты всех лиц и общин, включая мусульман народности рохинджа и другие меньшинства, в соответствии с международным гуманитарным правом и правом прав человека;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_j">
+                <num>j)</num>
+            <content eId="para_97_list_point_j_content">
+                  <p xml:space="preserve">	активизировать усилия по ликвидации безгражданства и систематической и институционально закрепленной дискриминации в отношении представителей всех меньшинств, в частности в отношении мусульман народности рохинджа, путем, среди прочего, пересмотра и реформирования Закона о гражданстве 1982 года, принятие которого привело к нарушениям прав человека, путем предоставления равного доступа к полноценному гражданству через применение прозрачных и доступных процедур на добровольной основе и к возможностям для осуществления всех гражданских и политических прав, путем разрешения самоидентификации, путем изменения или отмены всех дискриминационных законов и директивных актов, в том числе дискриминационных положений принятого в 2015 году комплекса «законов о защите расы и религии», охватывающих такие вопросы, как обращение в иную веру, межконфессиональные браки, моногамия и контроль численности населения, и путем отмены всех местных постановлений, ограничивающих права на свободу передвижения и доступ к услугам в области регистрации актов гражданского состояния, здравоохранения и образования и к средствам к существованию;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_k">
+                <num>k)</num>
+            <content eId="para_97_list_point_k_content">
+                  <p xml:space="preserve">	ликвидировать лагеря для внутренне перемещенных лиц в штате Ракхайн в четкие сроки и без дальнейших задержек, обеспечив, чтобы возвращение и расселение внутренне перемещенных лиц осуществлялось в соответствии с международными стандартами и передовой практикой, в сотрудничестве с Организацией Объединенных Наций и международным сообществом, в том числе как это предусмотрено в Руководящих принципах по вопросу о перемещении лиц внутри страны<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		<a href="https://undocs.org/ru/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, приложение.</p></authorialNote>;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_l">
+                <num>l)</num>
+            <content eId="para_97_list_point_l_content">
+                  <p xml:space="preserve">	ускорить выполнение в полном объеме всех рекомендаций Консультативной комиссии по штату Ракхайн, направленных на устранение коренных причин кризиса;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_m">
+                <num>m)</num>
+            <content eId="para_97_list_point_m_content">
+                  <p xml:space="preserve">	обеспечить, чтобы рохинджа, другие меньшинства и внутренне перемещенные лица имели равные возможности для представительства и полного, равноправного и значимого участия во всех всеобщих выборах в качестве кандидатов и избирателей;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_n">
+                <num>n)</num>
+            <content eId="para_97_list_point_n_content">
+                  <p xml:space="preserve">	обеспечить прекращение и предотвращение вербовки и использования детей всеми вооруженными силами, включая силы безопасности и вооруженные силы, и устранить пробелы в вопросе защиты путем взаимодействия с целевой группой по наблюдению и отчетности применительно к нарушениям в отношении детей, в частности на основе разработки совместного плана действий по борьбе с убийствами детей, нанесением им увечий, изнасилованиями и другими формами сексуального насилия в отношении детей;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_o">
+                <num>o)</num>
+            <content eId="para_97_list_point_o_content">
+                  <p xml:space="preserve">	сотрудничать и конструктивно взаимодействовать со Специальным докладчиком по вопросу о положении в области прав человека в Мьянме, Независимым механизмом и другими мандатариями и механизмами Организации Объединенных Наций, занимающимися вопросами Мьянмы, в том числе путем облегчения посещений и предоставления неограниченного доступа по всей стране;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_p">
+                <num>p)</num>
+            <content eId="para_97_list_point_p_content">
+                  <p xml:space="preserve"> 	сотрудничать и конструктивно взаимодействовать со Специальным посланником Генерального секретаря по Мьянме, в том числе на основе содействия ее немедленному посещению Мьянмы без предварительных условий;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_q">
+                <num>q)</num>
+            <content eId="para_97_list_point_q_content">
+                  <p xml:space="preserve">	оперативно выполнить положения состоящего из пяти пунктов заявления о консенсусе, достигнутом на заседании руководителей членов Ассоциации государств Юго-Восточной Азии, состоявшемся 24 апреля 2021 года, для содействия мирному урегулированию в интересах народа Мьянмы и обеспечения его средствами к существованию и в этой связи призывает все заинтересованные стороны в Мьянме сотрудничать с Ассоциацией и Специальным посланником Председателя Ассоциации и заявляет о своей поддержке этих усилий;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_r">
+                <num>r)</num>
+            <content eId="para_97_list_point_r_content">
+                  <p xml:space="preserve">	предпринять конкретные шаги для укрепления организационного строительства и структурных реформ в целях поддержания верховенства права, прав человека и демократических принципов на основе широкого участия и всеохватного подхода, включая усилия по обеспечению независимости судебной системы и реформированию сектора безопасности для усиления гражданского контроля;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_s">
+                <num>s)</num>
+            <content eId="para_97_list_point_s_content">
+                  <p xml:space="preserve">	провести независимые, беспристрастные и тщательные расследования всех утверждений о нарушениях международного гуманитарного права, включая действия, которые могут представлять собой военные преступления и преступления против человечности в штатах Ракхайн и Чин, преступлений, связанных с сексуальным насилием, и утверждений о нарушениях прав человека и обеспечить привлечение виновных к уголовной ответственности посредством транспарентных и заслуживающих доверия процессов;</p>
+                </content>
+              </point>
+          <point eId="para_97_list_point_t">
+                <num>t)</num>
+            <content eId="para_97_list_point_t_content">
+                  <p xml:space="preserve">	продолжать обеспечивать доступ к информации, материалам и медицинским услугам, связанным с пандемией COVID‑19, для всех на целенаправленной, необходимой, транспарентной, недискриминационной, привязанной к конкретным срокам и соразмерной основе и в соответствии с обязательствами по применимым международным нормам в области прав человека;</p>
+                </content>
+              </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_106" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> важность обеспечения защиты и помощи, включая предоставление на недискриминационной основе доступа к таким услугам, как медицинская и психосоциальная помощь, с учетом особых потребностей женщин и девочек, особенно тех, которые являются жертвами сексуального и гендерного насилия и торговли людьми;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">вновь выражает глубокую обеспокоенность</span> по поводу сохраняющегося бедственного положения рохинджа и вынужденных переселенцев, проживающих в Бангладеш и в других странах, и высоко оценивает усилия правительства Бангладеш по предоставлению им временного убежища, гуманитарной помощи и защиты; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">отдает должное</span> правительству Бангладеш за эффективные действия по сдерживанию распространения вируса COVID‑19 в лагерях рохинджа с начала этой пандемии и недопущению гибели людей, предпринимаемые при поддержке всех соответствующих национальных и международных партнеров, включая принимающее общество, и за включение рохинджа в национальную кампанию вакцинации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Мьянме продолжать сотрудничать с Бангладеш в соответствии с двусторонними документами о репатриации, подписанными Бангладеш и Мьянмой, с целью ускорить создание благоприятных условий для добровольного, безопасного, достойного и устойчивого возвращения насильственно перемещенных в Бангладеш рохинджа при полной поддержке и конструктивном участии международного сообщества, включая Организацию Объединенных Наций и ее фонды, программы и учреждения, и подчеркивает важность конструктивного взаимодействия с гражданским обществом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="italic">с признательностью отмечает</span> помощь и поддержку со стороны международного сообщества, в том числе со стороны региональных организаций, в частности Ассоциации государств Юго-Восточной Азии, и соседних с Мьянмой стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> международное сообщество в сотрудничестве с соответствующими учреждениями Организации Объединенных Наций эффективно решить проблему незаконных морских перемещений рохинджа, а также обеспечить распределение международного бремени и ответственности, особенно среди государств — участников Конвенции о статусе беженцев 1951 года<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 189, No. 2545.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> продлить срок действия меморандума о взаимопонимании с Программой развития Организации Объединенных Наций и Управлением Верховного комиссара Организации Объединенных Наций по делам беженцев, предусматривающего их участие в осуществлении двусторонних договоренностей с Бангладеш о возвращении перемещенных лиц из штата Ракхайн, и подчеркивает необходимость того, чтобы Мьянма продолжала в полной мере сотрудничать с правительством Бангладеш и Организацией Объединенных Наций, в частности с Управлением Верховного комиссара Организации Объединенных Наций по делам беженцев, в консультации с соответствующими группами населения, с тем чтобы обеспечить безопасное, добровольное, достойное, устойчивое и осознанное возвращение всех беженцев и вынужденных переселенцев и внутренне перемещенных лиц в места их происхождения в Мьянме и предоставить возвращенцам свободу передвижения и беспрепятственный доступ к средствам к существованию, социальным услугам, включая медицинские услуги, образование и жилье, и компенсировать им все убытки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	<span class="italic">призывает также</span> к скорейшему осуществлению меморандума о взаимопонимании, подписанного Управлением Верховного комиссара Организации Объединенных Наций по делам беженцев и Программой развития Организации Объединенных Наций с Мьянмой, после его возможного продления в целях содействия созданию условий для возвращения беженцев из Бангладеш; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> настоятельную необходимость расширения осуществляемых на экспериментальной основе проектов Программы развития Организации Объединенных Наций и Управления Верховного комиссара Организации Объединенных Наций по делам беженцев, в рамках которых внутренне перемещенные рохинджа, проживающие в тяжелых условиях в северной части штата Ракхайн, имеют возможность вернуться на свои прежние земельные участки, а их общины — получить многосекторальную помощь; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> международное сообщество: a) оказывать Бангладеш содействие в предоставлении гуманитарной помощи беженцам и вынужденным переселенцам из числа рохинджа до тех пор, пока они не будут добровольно репатриированы в Мьянму в условиях безопасности и достоинства; и b) оказывать содействие в предоставлении в Мьянме гуманитарной помощи пострадавшим лицам из всех общин, включая тех, кто оказался в положении внутренне перемещенных лиц, а также тех, кто находится в лагерях для внутренне перемещенных лиц в штате Ракхайн;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_251" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_251__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> международное сообщество поддержать совместный план 2021 года по реагированию на гуманитарный кризис рохинджа, с тем чтобы обеспечить выделение достаточных ресурсов для преодоления этого гуманитарного кризиса;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_271" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_271__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все коммерческие предприятия, в том числе транснациональные корпорации и национальные предприятия, работающие в Мьянме, соблюдать права человека в соответствии с Руководящими принципами предпринимательской деятельности в аспекте прав человека<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/17/31">A/HRC/17/31</a>, приложение.</p></authorialNote> и рекомендациями, вынесенными независимой международной миссией по установлению фактов в ее докладе об экономических интересах вооруженных сил Мьянмы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_292" class="MercuryDocument">
+        <num>22.</num>
+        <list eId="para_292_list">
+          <intro eId="para_292_list_intro">
+            <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря:</p>
+          </intro>
+          <point eId="para_292_list_point_а">
+            <num>а)</num>
+            <content eId="para_292_list_point_а_content">
+              <p xml:space="preserve">	продолжать оказывать свои добрые услуги и продолжать обсуждения, касающиеся Мьянмы, с участием всех соответствующих заинтересованных сторон и предлагать помощь Мьянме;</p>
+            </content>
+          </point>
+          <point eId="para_292_list_point_b">
+            <num>b)</num>
+            <content eId="para_292_list_point_b_content">
+              <p xml:space="preserve">	представить Генеральной Ассамблее на ее семьдесят седьмой сессии доклад Специального посланника по Мьянме, охватывающий все соответствующие вопросы, рассматриваемые в настоящей резолюции;</p>
+            </content>
+          </point>
+          <point eId="para_292_list_point_с">
+            <num>с)</num>
+            <content eId="para_292_list_point_с_content">
+              <p xml:space="preserve">	оказывать всю необходимую помощь, с тем чтобы Специальный посланник по Мьянме могла эффективно выполнять свой мандат и представлять доклады государствам-членам каждые шесть месяцев или по мере необходимости с учетом ситуации на местах, в том числе на основе осуществления плана работы с изложением деятельности Специального посланника в Мьянме;</p>
+            </content>
+          </point>
+          <point eId="para_292_list_point_d">
+              <num>d)</num>
+            <content eId="para_292_list_point_d_content">
+                <p xml:space="preserve">	определить, каким образом нынешние мандатарии могут эффективнее осуществлять свою деятельность в их соответствующих областях ответственности, касающихся Мьянмы, и дополнять работу друг друга посредством укрепления координации;</p>
+              </content>
+            </point>
+          <point eId="para_292_list_point_e">
+              <num>e)</num>
+            <content eId="para_292_list_point_e_content">
+                <p xml:space="preserve">	обеспечить, чтобы все страновые программы включали в себя правозащитный подход и осуществлялись с соблюдением процедур должной осмотрительности;</p>
+              </content>
+            </point>
+          <point eId="para_292_list_point_f">
+              <num>f)</num>
+            <content eId="para_292_list_point_f_content">
+                <p xml:space="preserve">	призвать Совет Безопасности уделять неослабное внимание положению в Мьянме на основе вынесения конкретных рекомендаций по принятию мер, направленных на урегулирование этого гуманитарного кризиса, поощрение безопасного, достойного, добровольного и устойчивого возвращения беженцев и вынужденных переселенцев из числа рохинджа и привлечение к ответственности лиц, виновных в совершении массовых злодеяний и нарушений и злоупотреблений в области прав человека;</p>
+              </content>
+            </point>
+          <point eId="para_292_list_point_g">
+              <num>g)</num>
+            <content eId="para_292_list_point_g_content">
+                <p xml:space="preserve">	содействовать выполнению рекомендаций независимой международной миссии по установлению фактов относительно Мьянмы и оказывать помощь в работе действующего Независимого механизма;</p>
+              </content>
+            </point>
+          <point eId="para_292_list_point_h">
+              <num>h)</num>
+            <content eId="para_292_list_point_h_content">
+                <p xml:space="preserve">	полностью выполнить рекомендации, содержащиеся в докладе по итогам независимого расследования деятельности Организации Объединенных Наций в Мьянме в период с 2010 по 2018 годы;</p>
+              </content>
+            </point>
+          <point eId="para_292_list_point_i">
+              <num>i)</num>
+            <content eId="para_292_list_point_i_content">
+                <p xml:space="preserve">	поддерживать осуществление меморандума о взаимопонимании, подписанного Мьянмой и Управлением Верховного комиссара Организации Объединенных Наций по делам беженцев и Программой развития Организации Объединенных Наций, после его возможного продления и включить в свой ежегодный доклад раздел, посвященный осуществлению этого меморандума о взаимопонимании;</p>
+              </content>
+            </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_314" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_314__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Специального посланника продолжить участие посредством интерактивного диалога в семьдесят седьмой сессии Генеральной Ассамблеи; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_337" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_337__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продолжать заниматься этим вопросом, в частности на основе докладов Генерального секретаря, независимой международной миссии по установлению фактов относительно Мьянмы, Независимого механизма, Специального докладчика по вопросу о положении в области прав человека в Мьянме и Специального посланника Генерального секретаря по Мьянме.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="53-е">53‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2021-12-16" refersTo="#adoptionDate">16 декабря 2021 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
