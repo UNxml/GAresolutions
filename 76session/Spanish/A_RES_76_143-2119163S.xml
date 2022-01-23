@@ -1,0 +1,884 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-143/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-143/"></FRBRuri>
+          <FRBRdate date="2021-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-143/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-143/spa@/"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-143/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-143/spa@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UNHCR" showAs="UNHCR" dictionary="DHLAUTH"></keyword>
+        <keyword value="REFUGEE PROTECTION" showAs="REFUGEE PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REFUGEE ASSISTANCE" showAs="REFUGEE ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STATELESSNESS" showAs="STATELESSNESS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ASYLUM SEEKERS" showAs="ASYLUM SEEKERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="65" showAs="REFUGEES" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-01" outcome="draftResolution" as="A/C.3/76/L.59" by="Andorra, Armenia, Australia, Austria, Bangladesh, Belgium, Bulgaria, Burkina Faso, Canada, Colombia, Costa Rica, Côte d’Ivoire, Croatia, Cyprus, Czechia, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Greece, Iceland, Ireland, Italy, Japan, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands, North Macedonia, Norway, Philippines, Portugal, Romania, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom of Great Britain and Northern Ireland, United States of America and Zambia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Argentina, Bolivia (Plurinational State of), Bosnia and Herzegovina, Brazil, Central African Republic, Dominican Republic, Egypt, El Salvador, Guatemala, Guinea, Haiti, Honduras, Israel, Kiribati, Latvia, Mali, Marshall Islands, Mexico, Micronesia (Federated States of), Mongolia, Montenegro, Morocco, New Zealand, Nigeria, Palau, Panama, Republic of Korea, Sao Tome and Principe, Serbia, Slovakia, South Africa, Uganda, Ukraine and Uruguay" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/456" by="" refersTo="15" />
+        <step date="2021-12-16" outcome="adopted" as="A/76/PV.53" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="180" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AFGHANISTAN</organization>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ANTIGUA AND BARBUDA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">AZERBAIJAN</organization>
+                <organization refersTo="memberState">BAHAMAS</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">BARBADOS</organization>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BELIZE</organization>
+                <organization refersTo="memberState">BENIN</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">BURKINA FASO</organization>
+                <organization refersTo="memberState">BURUNDI</organization>
+                <organization refersTo="memberState">CABO VERDE</organization>
+                <organization refersTo="memberState">CAMBODIA</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">COMOROS</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DJIBOUTI</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">EQUATORIAL GUINEA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">ESWATINI</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">FIJI</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GAMBIA</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GRENADA</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState">GUYANA</organization>
+                <organization refersTo="memberState">HAITI</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAQ</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">KIRIBATI</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">LESOTHO</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState">MAURITANIA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">NAURU</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">RWANDA</organization>
+                <organization refersTo="memberState">SAINT KITTS AND NEVIS</organization>
+                <organization refersTo="memberState">SAINT LUCIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SAMOA</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SERBIA</organization>
+                <organization refersTo="memberState">SEYCHELLES</organization>
+                <organization refersTo="memberState">SIERRA LEONE</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SOMALIA</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">SOUTH SUDAN</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SRI LANKA</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TONGA</organization>
+                <organization refersTo="memberState">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">TURKEY</organization>
+                <organization refersTo="memberState">UGANDA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VANUATU</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+                <organization refersTo="memberState">ZAMBIA</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="5" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ERITREA</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Tercera Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19163 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/143</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-01-06" class="rightSmall" refersTo="#dateOfIssuance">6 de enero de 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Septuagésimo sexto período de sesiones</session>
+      </p>
+      <p>
+        <inline name="agenda item">Tema 65 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Informe del Alto Comisionado de las Naciones Unidas para los Refugiados, cuestiones relacionadas con los refugiados, los retornados y los desplazados y cuestiones humanitarias</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 16 de diciembre de 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sobre la base del informe de la Tercera Comisión (<inline name="originating document">A/76/456, párr. 15</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/143.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Oficina del Alto Comisionado de las Naciones Unidas para los Refugiados</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Habiendo examinado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Habiendo examinado</span> el informe del Alto Comisionado de las Naciones Unidas para los Refugiados sobre las actividades de su Oficina<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo sexto período de sesiones, suplemento núm. 12</span> (<a href="https://undocs.org/sp/A/76/12">A/76/12</a>).</p></authorialNote> y el informe del Comité Ejecutivo del Programa del Alto Comisionado de las Naciones Unidas para los Refugiados sobre la labor realizada en su 72º período de sesiones<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">suplemento núm. 12A</span> (<a href="https://undocs.org/sp/A/76/12/Add.1">A/76/12/Add.1</a>).</p></authorialNote> y las decisiones que figuran en él,</p>
+      </container>
+      <container name="Recordando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> sus resoluciones anuales anteriores sobre las actividades de la Oficina del Alto Comisionado de las Naciones Unidas para los Refugiados aprobadas desde que se estableció la Oficina,</p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación</span> porque el número de personas desplazadas por la fuerza debido, entre otros motivos, a conflictos, persecuciones y violencia, incluido el terrorismo, ha alcanzado las cotas más elevadas desde la Segunda Guerra Mundial,</p>
+      </container>
+      <container name="Observando con profunda preocupación" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Observando con profunda preocupación</span> que, a pesar de la enorme generosidad demostrada por los países de acogida y los donantes, incluidos unos niveles de financiación humanitaria sin precedentes, la brecha entre las necesidades y la financiación humanitaria sigue aumentando,</p>
+      </container>
+      <container name="Reconociendo" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que la mayor parte de los refugiados y otras personas de interés para la Oficina del Alto Comisionado, en su mayoría mujeres y niños, son acogidos por países en desarrollo, </p>
+      </container>
+      <container name="Observando con profunda preocupación" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Observando con profunda preocupación</span> las repercusiones de la pandemia de enfermedad por coronavirus (COVID‑19) en los refugiados y otras personas de interés para la Oficina del Alto Comisionado, así como en sus comunidades y países de acogida y sus países de origen, y recordando que la pandemia exige una respuesta mundial sobre la base de la unidad, la solidaridad y la cooperación multilateral, </p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que los desplazamientos forzados tienen, entre otras cosas, consecuencias humanitarias y para el desarrollo,</p>
+      </container>
+      <container name="Expresando su aprecio" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expresando su aprecio</span> por el liderazgo que ha demostrado el Alto Comisionado y encomiando al personal de su Oficina y a sus asociados por la competencia, valentía y dedicación con que cumplen su cometido,</p>
+      </container>
+      <container name="Subrayando su firme condena" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Subrayando su firme condena</span> de todas las formas de violencia a las que, peligrosamente, está cada vez más expuesto el personal humanitario,</p>
+      </container>
+      <container name="Reafirmando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> la necesidad de que haya coherencia con el derecho internacional y con sus resoluciones pertinentes, y teniendo en cuenta las políticas, prioridades y realidades nacionales,</p>
+      </container>
+      <container name="Recordando" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución <a href="https://undocs.org/sp/A/RES/46/182">46/182</a>, de 19 de diciembre de 1991, relativa al fortalecimiento de la coordinación de la asistencia humanitaria de emergencia que prestan las Naciones Unidas, y todas sus resoluciones subsiguientes al respecto, incluida la resolución <a href="https://undocs.org/sp/A/RES/75/127">75/127</a>, de 11 de diciembre de 2020,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Afirma</span> la importancia de la labor desempeñada por la Oficina del Alto Comisionado de las Naciones Unidas para los Refugiados y su Comité Ejecutivo a lo largo del año, cuyo objetivo es fortalecer el régimen internacional de protección y ayudar a los Gobiernos a cumplir sus obligaciones en materia de protección, y subraya la importancia de encontrar soluciones duraderas y la trascendencia de los esfuerzos de la Oficina por promover la lucha contra las causas fundamentales, en el marco de su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Hace suyo</span> el informe del Comité Ejecutivo del Programa del Alto Comisionado de las Naciones Unidas para los Refugiados sobre la labor realizada en su 72º período de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el 70° aniversario de la Convención sobre el Estatuto de los Refugiados de 1951<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 189, núm. 2545.</p></authorialNote> y el 60° aniversario de la Convención para Reducir los Casos de Apatridia de 1961<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 989, núm. 14458.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la importancia de la práctica del Comité Ejecutivo de aprobar conclusiones y alienta al Comité Ejecutivo a proseguir con ese proceso;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que la Convención sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 606, núm. 8791.</p></authorialNote> son la base del régimen internacional de protección de los refugiados, reconoce la importancia de que los Estados partes los apliquen plena y eficazmente y de los valores que encarnan, observa con satisfacción que 149 Estados son ahora partes en uno o ambos instrumentos, alienta a los Estados que no son partes a que consideren la posibilidad de adherirse a esos instrumentos y a los Estados que son partes con reservas a que consideren la posibilidad de retirarlas, subraya, en particular, la importancia de que se respete plenamente el principio de no devolución, y reconoce que varios Estados que no son partes en los instrumentos internacionales relativos a los refugiados han dado pruebas de generosidad acogiendo a estos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados partes en la Convención sobre el Estatuto de los Refugiados de 1951 y su Protocolo de 1967 a que respeten la letra y el espíritu de sus obligaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve nuevamente</span> que la protección de los refugiados es primordialmente responsabilidad de los Estados, cuya cooperación, acción y voluntad política plenas y efectivas son necesarias para que la Oficina del Alto Comisionado pueda cumplir las funciones de su mandato, y pone de relieve enérgicamente la importancia de una solidaridad internacional activa y del reparto de la carga y la responsabilidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> las recientes adhesiones a la Convención sobre el Estatuto de los Apátridas de 1954<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 360, núm. 5158.</p></authorialNote> y a la Convención para Reducir los Casos de Apatridia de 1961, observa que 96 Estados son ahora partes en la Convención de 1954 y que 77 Estados son partes en la Convención de 1961, alienta a los Estados que no lo hayan hecho a que consideren la posibilidad de adherirse a esos instrumentos, observa la labor del Alto Comisionado de las Naciones Unidas para los Refugiados en relación con la identificación de los apátridas, la prevención y la reducción de la apatridia y la protección de los apátridas, e insta a la Oficina del Alto Comisionado a que siga trabajando en ese ámbito de conformidad con sus resoluciones pertinentes y las conclusiones del Comité Ejecutivo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve nuevamente</span> que la prevención y reducción de la apatridia es primordialmente responsabilidad de los Estados, con la cooperación adecuada de la comunidad internacional, acoge con beneplácito los resultados conseguidos desde la puesta en marcha de la campaña mundial para poner fin a la apatridia en 2014, en particular mediante el cumplimiento por los Estados de las promesas de contribución asumidas en la serie de sesiones de alto nivel que tuvo lugar al comienzo del 70º período de sesiones del Comité Ejecutivo, y alienta a todos los Estados a que consideren las medidas que podrían adoptar para continuar acelerando la prevención y reducción de la apatridia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve nuevamente también</span> que la protección y la asistencia a los desplazados internos, y el logro de soluciones duraderas para ellos, son primordialmente responsabilidad de los Estados, con la cooperación adecuada de la comunidad internacional, de conformidad con el derecho internacional aplicable y teniendo en cuenta las normas y los estándares internacionales y regionales, según corresponda, y acoge con beneplácito los esfuerzos de los Estados por incorporar dichas normas y dichos estándares en las legislaciones nacionales y planes nacionales de desarrollo, con miras a, entre otras cosas, facilitar su regreso voluntario, seguro, sostenible y digno y su reintegración local o reubicación en su propio país;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> los esfuerzos por establecer el Panel de Alto Nivel sobre los Desplazamientos Internos del Secretario General, observa la presentación de su informe y pide que se celebren nuevas consultas sobre su seguimiento con las partes interesadas pertinentes, incluido el examen intergubernamental;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> las actividades que está realizando la Oficina del Alto Comisionado en relación con la protección y asistencia a los desplazados internos, incluso en el contexto de los acuerdos interinstitucionales existentes en esta materia, pone de relieve que dichas actividades deben realizarse con el consentimiento pleno de los Estados afectados, de conformidad con las resoluciones pertinentes de la Asamblea General, y no deben ir en detrimento del mandato de la Oficina en favor de los refugiados ni de la institución del asilo, y alienta al Alto Comisionado a que siga dialogando con los Estados sobre la función de su Oficina a este respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a la Oficina del Alto Comisionado a que siga respondiendo adecuadamente a las emergencias, de conformidad con su mandato y en cooperación con los Estados, observa las medidas en curso para fortalecer su capacidad de responder a las emergencias y alienta a la Oficina a que fortalezca aún más esa capacidad para asegurar de ese modo una respuesta más previsible, efectiva y oportuna;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Alienta también</span> a la Oficina del Alto Comisionado a que trabaje en asociación y en plena cooperación con las autoridades nacionales competentes, las oficinas y los organismos de las Naciones Unidas, las organizaciones internacionales e intergubernamentales, las organizaciones regionales, el sector privado y las organizaciones no gubernamentales para seguir contribuyendo al desarrollo de las capacidades de respuesta humanitaria a todos los niveles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> los esfuerzos realizados por la Oficina del Alto Comisionado para velar por una respuesta inclusiva, transparente, previsible y bien coordinada en favor de los refugiados y de los desplazados internos y otras personas de interés para la Oficina, de conformidad con su mandato, y a este respecto toma nota del modelo de coordinación en materia de refugiados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a la Oficina del Alto Comisionado a que siga trabajando con la Oficina de Coordinación de Asuntos Humanitarios de la Secretaría para mejorar la coordinación, la eficacia y la eficiencia de la respuesta humanitaria y a que contribuya, en consulta con los Estados, según proceda, a seguir avanzando en la preparación de evaluaciones conjuntas de las necesidades humanitarias, como se indica, entre otras cuestiones de importancia, en su resolución <a href="https://undocs.org/sp/A/RES/75/127">75/127</a>, relativa al fortalecimiento de la coordinación de la asistencia humanitaria de emergencia que prestan las Naciones Unidas, y recuerda la función de la Oficina del Alto Comisionado como entidad líder de los grupos temáticos sobre la protección, la coordinación y gestión de los campamentos y el alojamiento de emergencia en situaciones de emergencia complejas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Subraya</span> la importancia que reviste la cooperación internacional para el régimen de protección de los refugiados, reconoce la carga que suponen los grandes desplazamientos de refugiados para los países y las comunidades que desde hace tiempo acogen al mayor número de refugiados, así como para sus recursos nacionales, en especial en el caso de los países en desarrollo, y pide que se repartan más equitativamente la carga y la responsabilidad de acoger y dar apoyo a los refugiados del mundo, atendiendo las necesidades de los refugiados y los Estados que los acogen, teniendo en cuenta las contribuciones existentes y las distintas capacidades y recursos disponibles en los Estados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la importancia de integrar las perspectivas de los refugiados y otras personas de interés para la Oficina del Alto Comisionado en las respuestas humanitarias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> las importantes iniciativas, conferencias y cumbres mundiales y regionales que han tenido lugar para fortalecer la solidaridad y la cooperación a nivel internacional en favor de los refugiados y otras personas de interés para la Oficina del Alto Comisionado, y alienta a los participantes a que cumplan los compromisos asumidos en ellas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_203" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_203__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la aprobación de la Declaración de Nueva York para los Refugiados y los Migrantes<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Resolución <a href="https://undocs.org/sp/A/RES/71/1">71/1</a>.</p></authorialNote> en la reunión plenaria de alto nivel de la Asamblea General sobre la respuesta a los grandes desplazamientos de refugiados y migrantes, celebrada el 19 de septiembre de 2016, y alienta a los Estados a que cumplan los compromisos pertinentes asumidos en ella;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_223" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_223__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda también</span> el pacto mundial sobre los refugiados<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo tercer período de sesiones, suplemento núm. 12 </span>(<a href="https://undocs.org/sp/A/73/12 (Part I)">A/73/12 (Part I)</a> y <a href="https://undocs.org/sp/A/73/12 (Part II)">A/73/12 (Part II)</a>), parte II.</p></authorialNote>, afirmado el 17 de diciembre de 2018<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/sp/A/RES/73/151">73/151</a>.</p></authorialNote>, y exhorta a la comunidad internacional en su conjunto, incluidos los Estados y otros interesados pertinentes, a que apliquen el pacto mundial a fin de lograr sus cuatro objetivos en pie de igualdad, sobre la base del principio del reparto de la carga y la responsabilidad, y en consonancia con los principios rectores y el párrafo 4 del pacto mundial sobre los refugiados, por medio de acciones, promesas y contribuciones concretas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_244" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_244__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> las promesas, las contribuciones y los compromisos asumidos en el Foro Mundial sobre los Refugiados, en diciembre de 2019, alienta el compromiso sostenido de los Estados y otras partes interesadas pertinentes en el cumplimiento de las promesas de contribución y en su proceso de examen, incluida la primera reunión de funcionarios de alto nivel en diciembre de 2021, y, a este respecto, solicita al Alto Comisionado que informe periódicamente sobre los progresos que se estén realizando, los desafíos que se planteen y las esferas que necesiten más apoyo, e invita a la Oficina del Alto Comisionado a iniciar los preparativos para la celebración del Segundo Foro Mundial sobre los Refugiados, en 2023, de manera oportuna e inclusiva;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_266" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_266__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> la necesidad de arreglos concretos, sólidos y que funcionen adecuadamente, así como de posibles mecanismos complementarios para garantizar que la carga y la responsabilidad se repartan de forma previsible, equitativa, eficiente y efectiva en el contexto del pacto mundial sobre los refugiados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_289" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_289__content">
+          <p xml:space="preserve">	<span class="italic">Observa con aprecio</span> los esfuerzos realizados por los países que, en mayor número, aplican el marco de respuesta integral para los refugiados que forma parte del pacto mundial sobre los refugiados, en particular mediante enfoques regionales, cuando procede, como el Marco Integral Regional para la Protección y Soluciones (MIRPS), el enfoque regional de la Autoridad Intergubernamental para el Desarrollo y la Estrategia para Solucionar la Situación de los Refugiados Afganos, y acoge con beneplácito la puesta en marcha y las iniciativas de las plataformas de apoyo creadas para estos mecanismos, como arreglos concretos con el fin de contribuir a compartir la responsabilidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_313" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_313__content">
+          <p xml:space="preserve">	<span class="italic">Renueva su exhortación</span> a todos los Estados y demás instancias pertinentes a que proporcionen el apoyo necesario para la aplicación del pacto mundial sobre los refugiados y su marco de respuesta integral para los refugiados con miras a compartir la carga y las responsabilidades de acoger y dar apoyo a los refugiados, reconociendo al mismo tiempo las contribuciones que ya se han realizado con el fin de garantizar una asistencia humanitaria oportuna, adecuada, flexible y que responda a las necesidades, y recalca la importancia crítica de que se preste apoyo adicional para el desarrollo, además de la asistencia para el desarrollo que se proporciona normalmente a los países de acogida y a los países de origen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_338" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_338__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> al Alto Comisionado a que siga coordinando una iniciativa para medir las repercusiones que tiene dar acogida, protección y asistencia a los refugiados, con miras a evaluar las deficiencias en la cooperación internacional y promover un reparto de la carga y la responsabilidad más equitativo, previsible y sostenible, y a que presente los resultados a los Estados Miembros en 2022;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_364" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_364__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a los Estados y otros interesados que aún no hayan contribuido al reparto de la carga y la responsabilidad a que lo hagan, con miras a ampliar la base de apoyo y con espíritu de solidaridad y cooperación internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la participación activa de la Oficina del Alto Comisionado en la reforma del sistema de las Naciones Unidas para el desarrollo, incluso en el contexto de esfuerzos más amplios por generar eficacia, transparencia, rendición de cuentas y eficiencias en todo el sistema;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_419" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_419__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> el proceso de transformación que está ejecutando el Alto Comisionado para establecer autoridades y estructuras de rendición de cuentas más claras, entre otras cosas a través de la regionalización y la descentralización, a fin de posibilitar una respuesta más oportuna, pertinente y eficiente a las necesidades de las personas de interés para la Oficina del Alto Comisionado y asegurar el aprovechamiento eficaz y transparente de los recursos de la Oficina;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="italic">Afirma</span> la importancia de una fuerza de trabajo geográficamente diversa y representativa, con miras a reflejar el carácter internacional de la Oficina del Alto Comisionado, y exhorta a la Oficina a que adopte medidas eficaces para garantizar una representación geográfica equilibrada y la paridad de género con respecto a todas las regiones, en particular los estados insuficientemente representados, en su fuerza de trabajo tanto en la sede como sobre el terreno, especialmente en el nivel superior, lo cual también promoverá una mejor comprensión del entorno de trabajo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el compromiso y los esfuerzos de la Oficina del Alto Comisionado por prevenir, mitigar y responder a la explotación y los abusos sexuales, el acoso sexual, el fraude, la corrupción y otras formas de conducta indebida, y alienta a la Oficina a que adopte medidas de manera sostenida con miras a fortalecer y aplicar rigurosamente el enfoque de tolerancia cero;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_509" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_509__content">
+          <p xml:space="preserve">	<span class="italic">Expresa profunda preocupación</span> por las crecientes amenazas a la seguridad de los trabajadores, las instalaciones y los convoyes de asistencia humanitaria y, en particular, por la muerte de miembros del personal humanitario que trabaja en las condiciones más difíciles y arriesgadas para prestar ayuda a los necesitados, y exhorta a todos los Estados y las partes en conflictos armados a que cumplan las obligaciones que les incumben en virtud del derecho internacional humanitario de proteger a la población civil y al personal humanitario;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_541" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_541__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> la necesidad de que los Estados aseguren que los autores de ataques cometidos en su territorio contra el personal humanitario, el personal de las Naciones Unidas y el personal asociado no actúen con impunidad, y que quienes cometan tales actos sean llevados prontamente ante la justicia conforme a las leyes nacionales y las obligaciones dimanantes del derecho internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	<span class="italic">Condena enérgicamente</span> los ataques contra refugiados, solicitantes de asilo, apátridas y desplazados internos, así como los actos que entrañan una amenaza a su seguridad personal y su bienestar, exhorta a todos los Estados interesados y, cuando proceda, a las partes involucradas en un conflicto armado a que adopten todas las medidas necesarias para respetar y hacer respetar los derechos humanos y el derecho internacional humanitario, e insta a todos los Estados a que prevengan y combatan el racismo, la discriminación racial, la xenofobia, las formas conexas de intolerancia, el discurso de odio, la estigmatización y el uso de estereotipos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_608" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_608__content">
+          <p xml:space="preserve">	<span class="italic">Deplora</span> el número creciente de incidentes de devolución y expulsión ilegal de refugiados y solicitantes de asilo, así como de prácticas de denegación de acceso al asilo, y exhorta a todos los Estados interesados a que respeten los principios pertinentes de protección de los refugiados y de derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_643" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_643__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la importancia de evitar el abuso de los sistemas de asilo, incluso con fines políticos, con el fin de salvaguardar la eficiencia y la funcionalidad de los sistemas de asilo para quienes necesitan protección internacional; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados a que mantengan el carácter civil y humanitario de los campamentos y asentamientos de refugiados y desplazados internos, entre otras cosas mediante la adopción de medidas efectivas para impedir la infiltración de elementos armados, identificar esos elementos y separarlos de las poblaciones de refugiados, asentar a los refugiados y desplazados internos en lugares seguros y dar a la Oficina del Alto Comisionado y, cuando proceda, a otras organizaciones humanitarias un acceso inmediato, irrestricto y seguro a los solicitantes de asilo, refugiados y demás personas de interés para la Oficina;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_716" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_716__content">
+          <p xml:space="preserve">	<span class="italic">Observa con creciente preocupación</span> que los solicitantes de asilo, los refugiados y los apátridas son objeto de detenciones arbitrarias en numerosas situaciones y alienta a que se trabaje para poner fin a esta práctica, acoge con beneplácito el recurso creciente a soluciones alternativas a la detención, especialmente en el caso de los niños, y pone de relieve la necesidad de que los Estados limiten las detenciones de solicitantes de asilo, refugiados y apátridas a los casos necesarios, sopesando plenamente posibles alternativas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_754" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_754__content">
+          <p xml:space="preserve">	<span class="italic">Observa con grave preocupación</span> los considerables riesgos a que se exponen muchos refugiados y personas en busca de asilo en su intento de buscar seguridad y alienta la cooperación internacional para intensificar los esfuerzos por combatir la trata de personas y el tráfico ilegal de personas y asegurar el establecimiento de mecanismos de respuesta adecuados, incluidas medidas para salvar vidas y servicios de recepción, registro y asistencia, así como para asegurar que el acceso seguro y regular al asilo esté siempre abierto a las personas que necesitan protección internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_793" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_793__content">
+          <p xml:space="preserve">	<span class="italic">Expresa grave preocupación</span> por el elevado número de solicitantes de asilo que han perdido la vida en el mar tratando de llegar a un lugar seguro, alienta la cooperación internacional a fin de reforzar más aún los mecanismos de búsqueda y salvamento de conformidad con el derecho internacional y encomia los grandes esfuerzos y acciones que algunos Estados han desplegado a este respecto para salvar vidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_833" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_833__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> que la protección internacional de los refugiados es una función dinámica y orientada a la acción que constituye el eje del mandato de la Oficina del Alto Comisionado e incluye, en cooperación con los Estados y otros asociados, promover y facilitar la admisión, la recepción y el trato de los refugiados de conformidad con las normas convenidas internacionalmente y asegurar soluciones duraderas orientadas a la protección, teniendo presentes las necesidades particulares de los más vulnerables, y observa en este contexto que la protección internacional es un servicio intensivo en recursos humanos que requiere una dotación de personal suficiente con la preparación adecuada, en particular sobre el terreno;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_874" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_874__content">
+          <p xml:space="preserve">	<span class="italic">Expresa grave preocupación</span> por las consecuencias a largo plazo de los constantes recortes en raciones alimentarias para la salud y el bienestar de los refugiados a nivel mundial y en especial su efecto sobre los niños y las niñas, debido a la financiación insuficiente y al aumento de los costos, y a ese respecto exhorta a los Estados a que aseguren el apoyo sostenido a la Oficina del Alto Comisionado y al Programa Mundial de Alimentos, al tiempo que intentan ofrecer a los refugiados alternativas a la asistencia alimentaria, a la espera de una solución duradera;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_916" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_916__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que la pandemia de COVID‑19 requiere una respuesta global para garantizar que todos los Estados, en particular los Estados en desarrollo, incluidos los países de acogida de refugiados, así como los países de origen, dispongan de un acceso universal, oportuno, eficaz y equitativo a diagnósticos, terapias, medicamentos, vacunas y suministros y equipos médicos seguros y eficaces, y exhorta a los Estados y otros asociados a que apoyen urgentemente la financiación y sigan estudiando mecanismos de financiación innovadores que permitan garantizar el acceso a vacunas contra la COVID‑19 para todos, incluidas las personas de interés para la Oficina del Alto Comisionado y sus comunidades de acogida, teniendo en cuenta que la vacunación generalizada contra la COVID‑19 es un bien de salud pública mundial con miras a la prevención, la contención y la detención de la transmisión y a los esfuerzos por poner fin a la pandemia, y para garantizar que los refugiados puedan acceder a una información correcta a fin de evitar las repercusiones negativas de la desinformación y la información errónea; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_959" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_959__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> las medidas positivas adoptadas por Estados individuales para abrir sus mercados de trabajo a los refugiados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1003" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1003__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la generosidad de los países de acogida, así como sus experiencias y situaciones diferenciadas, aprecia las contribuciones de los refugiados en los países de acogida y en los países de reasentamiento, incluida la facilitación de la creación de oportunidades de trabajo decente, con el fin de desarrollar medios de vida sostenibles hasta que se alcancen soluciones duraderas, y recuerda que la cooperación internacional es necesaria para apoyar a las comunidades de acogida, en particular en los países que acogen a refugiados desde hace tiempo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1048" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1048__content">
+          <p xml:space="preserve">	<span class="italic">Afirma</span> la importancia de integrar las consideraciones de edad, género y diversidad a la hora de analizar las necesidades de protección y asegurar la participación de los refugiados y otras personas de interés para la Oficina del Alto Comisionado, según corresponda, en la planificación y ejecución de los programas de la Oficina y de las políticas de los Estados, afirma también la importancia de combatir con carácter prioritario la discriminación, la desigualdad de género y el problema de la violencia sexual y por razón de género y otras prácticas nocivas, reconociendo la importancia de atender las necesidades de protección de las mujeres, los niños y las niñas y las personas con discapacidad en particular, y subraya la importancia de seguir trabajando en esas cuestiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1094" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1094__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados y a la Oficina del Alto Comisionado a garantizar que se tengan en cuenta las perspectivas de las mujeres y las niñas en situaciones de desplazamiento, promoviendo su participación significativa en los asuntos que les afectan, así como la participación plena e igualitaria de las mujeres en la formulación, la aplicación, el seguimiento y la evaluación de las políticas, los programas y las actividades relacionados con la respuesta humanitaria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1141" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1141__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados Miembros a que, en cooperación con la Oficina del Alto Comisionado y con el apoyo de otras partes interesadas, garanticen que las necesidades humanitarias de las personas de interés para la Oficina, y de sus comunidades de acogida, como el agua limpia, la alimentación y la nutrición, la vivienda, la educación, los medios de subsistencia, la energía, la salud, incluida la salud sexual y reproductiva, y otras necesidades de protección, sean atendidas como componentes de la respuesta humanitaria, entre otras cosas mediante la aportación de recursos oportunos y suficientes, velando al mismo tiempo por que sus actividades de colaboración se ajusten por completo a los principios humanitarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1189" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1189__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> las medidas adoptadas y exhorta a los Estados, la Oficina del Alto Comisionado y otras partes interesadas a que promuevan la igualdad de género y el empoderamiento de las mujeres y, a este respecto, insta a los Estados miembros a que, en cooperación con la Oficina y con el apoyo de otras partes interesadas, garanticen el acceso seguro y fiable de las personas de interés para la Oficina a los servicios de salud sexual y reproductiva, así como a la atención sanitaria básica y al apoyo psicosocial, desde el inicio de las emergencias, al tiempo que reconoce que es importante prestar servicios adecuados para atender de manera efectiva las necesidades de las mujeres y las adolescentes y de los niños menores de 1 año y protegerlos de la mortalidad y morbilidad prevenibles que ocurren durante las emergencias humanitarias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1238" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1238__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los Estados a que, si todavía no lo han hecho, establezcan sistemas y procedimientos adecuados para garantizar que los intereses superiores del niño y de la niña sean una consideración primordial con respecto a todas las medidas relativas a los niños y niñas refugiados y protegerlos de todas las formas de abusos, abandono, explotación y violencia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1288" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1288__content">
+          <p xml:space="preserve">	<span class="italic">Observa con preocupación</span> que una gran parte de la población mundial no escolarizada vive en zonas afectadas por conflictos y exhorta a los Estados a que, al aplicar el pacto mundial sobre los refugiados, ayuden a los países de acogida a brindar educación primaria y secundaria de calidad en entornos de aprendizaje seguros para todos los niños y niñas refugiados, y desarrollen sistemas de educación más inclusivos, que ofrezcan mejores respuestas y que tengan una mayor capacidad de adaptación para satisfacer las necesidades de los niños y las niñas, los jóvenes y los adultos en esos contextos, en particular los desplazados internos y los refugiados<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Véase Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, <span class="italic">Informe Final del Foro Mundial sobre la Educación 2015, Incheon (República de Corea), 19 a 22 de mayo de 2015</span> (París, 2015).</p></authorialNote>, y subraya la importancia de una educación de calidad en los países de origen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1339" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1339__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> los esfuerzos realizados por la Oficina del Alto Comisionado para mejorar su respuesta de asistencia humanitaria y destaca la importancia de adoptar enfoques innovadores y específicos, incluidas intervenciones basadas en el uso de efectivo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1391" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1391__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados y la Oficina del Alto Comisionado a que atiendan la salud mental y el bienestar psicosocial promoviendo la disponibilidad de apoyo psicosocial y de salud mental destinado a las personas de interés para la Oficina, así como a las comunidades de acogida, y alienta a que se sigan reforzando dichas medidas, incluso mediante el apoyo internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1444" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1444__content">
+          <p xml:space="preserve">	<span class="italic">Observa </span>que la falta de registro civil y de documentación conexa hace a las personas vulnerables a la apatridia y a riesgos conexos en materia de protección, reconoce que el registro de los nacimientos proporciona un documento oficial de la identidad jurídica de los niños y las niñas y es esencial para prevenir y reducir la apatridia, y acoge con beneplácito los esfuerzos de los Estados para asegurar que se registren los nacimientos y se disponga de otra documentación esencial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1498" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1498__content">
+          <p xml:space="preserve">	<span class="italic">Observa con preocupación</span> que la privación arbitraria de la nacionalidad empuja a las personas a la apatridia y es una causa de sufrimiento generalizado, y exhorta a los Estados que se abstengan de adoptar medidas discriminatorias y de promulgar o mantener leyes que revoquen arbitrariamente la ciudadanía de sus nacionales, convirtiendo a las personas en apátridas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1553" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1553__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma enérgicamente</span> la importancia fundamental y el carácter puramente humanitario y apolítico de la función de la Oficina del Alto Comisionado de dar protección internacional a los refugiados y buscar soluciones duraderas para ellos y para las situaciones de refugiados, y recuerda que esas soluciones incluyen la repatriación voluntaria y, cuando proceda y sea factible, la integración local y el reasentamiento en un tercer país, reafirmando a la vez que la solución preferible sigue siendo la repatriación voluntaria, complementada, según sea necesario, con asistencia para la rehabilitación y el desarrollo a fin de facilitar una reintegración sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1609" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1609__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que acelerar las vías complementarias de solución es crucial para afrontar las situaciones de presencia prolongada de refugiados, y reconoce la importancia del trabajo de la Oficina del Alto Comisionado para tratar de encontrar soluciones duraderas para los refugiados de conformidad con su mandato; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1666" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1666__content">
+          <p xml:space="preserve">	<span class="italic">Expresa preocupación</span> por las dificultades particulares que atraviesan los millones de refugiados que llevan largo tiempo en esa situación, reconoce con profunda preocupación que la duración media de la estancia ha seguido creciendo y pone de relieve la necesidad de redoblar los esfuerzos y la cooperación internacionales para encontrar enfoques prácticos e integrales que permitan resolver la difícil situación de los refugiados y ofrecerles soluciones duraderas, de conformidad con el derecho internacional y sus resoluciones pertinentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1724" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1724__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la importancia de lograr soluciones duraderas a las situaciones de los refugiados y, en particular, la necesidad de hacer frente en este proceso a sus causas fundamentales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1783" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1783__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a la Oficina del Alto Comisionado a que siga esforzándose, en cooperación con los países que acogen a refugiados y los países de origen, así como con sus respectivas comunidades locales, los organismos competentes de las Naciones Unidas, las organizaciones internacionales e intergubernamentales, las organizaciones regionales, según proceda, las organizaciones no gubernamentales y los agentes de desarrollo, para promover activamente soluciones duraderas, particularmente en casos de refugiados que llevan largo tiempo en esa situación, centrándose en su regreso sostenible, oportuno, voluntario, seguro y digno, que abarque actividades de repatriación, reintegración, rehabilitación y reconstrucción, y alienta a los Estados y a otras instancias pertinentes a que sigan apoyando esos esfuerzos, entre otras cosas mediante la asignación de fondos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1843" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1843__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> el carácter puramente humanitario y apolítico de la Oficina del Alto Comisionado para los Refugiados, exhorta a la comunidad internacional y a la Oficina a coordinar y redoblar los esfuerzos por promover y facilitar, cuando se considere que las circunstancias imperantes son idóneas, el regreso voluntario, dignificado y en condiciones seguras de los refugiados, mediante su elección libre e informada, y de forma sostenible, a sus países de origen, y alienta a la Oficina y, cuando proceda, a otros organismos de las Naciones Unidas a movilizar recursos adicionales a este respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1904" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1904__content">
+          <p xml:space="preserve">	<span class="italic">Expresa preocupación</span> por el reducido número de repatriaciones voluntarias que ha habido hasta ahora, alienta el enfoque orientado a soluciones adoptado por la Oficina del Alto Comisionado para apoyar la sostenibilidad de la repatriación y la reintegración voluntarias, incluso desde el comienzo mismo del desplazamiento, y a ese respecto insta a la Oficina a que siga reforzando las alianzas con los Gobiernos y los agentes de desarrollo nacionales, así como las instituciones financieras internacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1966" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1966__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span>, en el contexto de la repatriación voluntaria, la importancia de que en el país de origen se hagan esfuerzos serios, incluida la asistencia para la rehabilitación y el desarrollo, a fin de fomentar el regreso voluntario, seguro y digno y la reintegración sostenible de los refugiados y asegurar el restablecimiento de la protección a nivel nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2029" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2029__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce con aprecio</span> las medidas voluntarias adoptadas por varios países de acogida para facilitar la residencia permanente y la naturalización de refugiados y exrefugiados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2093" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2093__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a los Estados, con ayuda de las partes interesadas pertinentes, a que creen mayores oportunidades de reasentamiento como solución duradera, amplíen la base de países e instancias que participan y expandan el alcance y el tamaño del reasentamiento, con la máxima protección y calidad posible, como instrumento valioso para repartir la carga y la responsabilidad y reconoce con aprecio a los numerosos países que siguen ofreciendo mayores oportunidades de reasentamiento y reconoce la necesidad de mejorar la integración de los refugiados reasentados, exhorta a los Estados a que incorporen políticas inclusivas y no discriminatorias en sus programas de reasentamiento y observa que el reasentamiento es un instrumento estratégico de protección y una solución para los refugiados, recordando a este respecto las necesidades anuales de reasentamiento determinadas por la Oficina del Alto Comisionado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2158" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2158__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta también</span> a los Estados a que consideren la posibilidad de crear, ampliar o facilitar el acceso a vías complementarias y sostenibles para ofrecer protección y soluciones a los refugiados, en cooperación con los asociados pertinentes, incluido el sector privado, cuando proceda, incluso mediante la admisión o el traslado por motivos humanitarios, la reunificación familiar, la migración de mano de obra cualificada, planes de movilidad laboral, becas y planes de movilidad educativa;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2224" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2224__content">
+          <p xml:space="preserve">	<span class="italic">Observa con aprecio</span> las actividades emprendidas por los Estados para fortalecer las iniciativas regionales que facilitan las políticas y los enfoques de cooperación respecto de los refugiados, y alienta a los Estados a que sigan esforzándose por responder de manera integral a las necesidades de las personas que requieren protección internacional en sus respectivas regiones, incluido el apoyo prestado a las comunidades de acogida que reciben un gran número de personas que necesitan protección internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2291" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2291__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que es importante que los Estados y la Oficina del Alto Comisionado examinen y aclaren la función de la Oficina en lo que respecta a los movimientos mixtos a fin de atender mejor las necesidades de protección de las personas en ese contexto, teniendo en cuenta las necesidades particulares de las personas en situaciones de vulnerabilidad, sobre todo de las mujeres, los niños y las niñas y las personas con discapacidad, lo que incluye salvaguardar el acceso al asilo para quienes necesitan protección internacional, y observa también que el Alto Comisionado está dispuesto, de conformidad con su mandato, a ayudar a los Estados a cumplir sus responsabilidades en materia de protección a este respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2359" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2359__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> la obligación que tienen todos los Estados de aceptar el regreso de sus nacionales, exhorta a los Estados a que faciliten el regreso de sus nacionales cuando se haya determinado que no necesitan protección internacional y afirma la necesidad de que el regreso de esas personas se realice en condiciones seguras y humanas y con pleno respeto de sus derechos humanos y su dignidad, independientemente de su condición;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2428" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2428__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a los Estados a tramitar las solicitudes de asilo identificando como corresponda a quienes necesitan protección internacional, de conformidad con sus obligaciones internacionales y regionales aplicables, con el fin de fortalecer el régimen de protección de los refugiados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2498" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2498__content">
+          <p xml:space="preserve">	<span class="italic">Expresa profunda preocupación</span> por los efectos adversos, repentinos y lentos, del cambio climático, los desastres naturales y la degradación ambiental, que están aumentando en intensidad y frecuencia y que interactúan con los factores que impulsan los desplazamientos forzados y afectan de manera desproporcionada a las personas en situación de vulnerabilidad, incluidas las poblaciones desplazadas por la fuerza en países en desarrollo y, en particular, en pequeños Estados insulares en desarrollo y los países menos adelantados, y acoge con beneplácito el aumento de la atención y los esfuerzos de la Oficina para hacer frente a estos desafíos en su trabajo, incluida la aprobación de un marco estratégico para la acción climática, en el marco de su mandato, en consulta con las autoridades nacionales y en cooperación con los organismos competentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2569" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_2569__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados a que adopten medidas apropiadas para hacer frente al cambio climático, con el fin, entre otros, de fomentar la resiliencia y la capacidad locales y nacionales para prevenir los desplazamientos en este contexto, prepararse para ellos y responder a ellos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2641" class="SingleTxt">
+        <num>73.</num>
+        <content eId="para_2641__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a todos los Estados y a las organizaciones no gubernamentales y demás organizaciones competentes a que, en colaboración con la Oficina del Alto Comisionado, con espíritu de solidaridad internacional y reparto de la carga y la responsabilidad, cooperen y movilicen recursos, por medios como la asistencia financiera y en especie, así como la ayuda directa a los países de acogida, las poblaciones de refugiados y las comunidades de acogida, con miras a aumentar su capacidad y aliviar la pesada carga que soportan los países y las comunidades de acogida, en particular los que han acogido a un gran número de refugiados y personas en busca de asilo, cuya generosidad es de agradecer;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2714" class="SingleTxt">
+        <num>74.</num>
+        <content eId="para_2714__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a la Oficina del Alto Comisionado a que siga desempeñando su función catalizadora movilizando la asistencia de la comunidad internacional para hacer frente a las causas profundas y al impacto económico, ambiental, social y para la seguridad y el desarrollo de la presencia de grandes masas de refugiados en los países en desarrollo, especialmente en los países menos adelantados y en los países de economía en transición, y reconoce con aprecio a esos Estados, organizaciones y particulares que contribuyen a mejorar las condiciones de los refugiados fomentando su resiliencia y la de sus comunidades de acogida, mientras trabajan para lograr una solución duradera;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2788" class="SingleTxt">
+        <num>75.</num>
+        <content eId="para_2788__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce con aprecio</span> la cooperación de la Oficina del Alto Comisionado con los asociados para el desarrollo, haciendo notar las ventajas que tiene la complementariedad de las fuentes de financiación para ayudar a los refugiados y las comunidades de acogida cuando así lo soliciten los Gobiernos de los países de acogida, y la importancia de hacerlo de una forma que no perjudique ni menoscabe el apoyo a los objetivos de desarrollo más amplios en esos países y, cuando proceda, en los países de origen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2863" class="SingleTxt">
+        <num>76.</num>
+        <content eId="para_2863__content">
+          <p xml:space="preserve">	<span class="italic">Expresa preocupación</span> por el continuo aumento de las necesidades de protección y asistencia a las personas de interés para la Oficina del Alto Comisionado y por la creciente disparidad entre las necesidades globales y los recursos disponibles, aprecia la hospitalidad constante y creciente de los países de acogida y la generosidad de los donantes y, por consiguiente, exhorta a la Oficina a que siga aumentando sus esfuerzos por ampliar su base de donantes a fin de lograr un mejor reparto de la carga y la responsabilidad reforzando la cooperación con los donantes gubernamentales y no gubernamentales y el sector privado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2939" class="SingleTxt">
+        <num>77.</num>
+        <content eId="para_2939__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que es esencial que la Oficina del Alto Comisionado disponga de recursos suficientes y oportunos para seguir desempeñando el mandato que se le confió en su estatuto<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Resolución <a href="https://undocs.org/sp/A/RES/428 (V)">428 (V)</a>, anexo.</p></authorialNote> y en las resoluciones posteriores de la Asamblea General relativas a los refugiados y a otras personas de interés para la Oficina, recuerda su resolución <a href="https://undocs.org/sp/A/RES/58/153">58/153</a>, de 22 de diciembre de 2003, y resoluciones posteriores relativas a la Oficina en que se hace referencia, entre otras cuestiones, a la aplicación del párrafo 20 del estatuto de la Oficina, e insta a los Gobiernos y a otros donantes a que respondan prontamente a los llamamientos anuales y suplementarios que haga la Oficina a fin de obtener los recursos que necesita para sus programas, teniendo en cuenta la importancia de la financiación para fines generales y otros tipos de financiación flexible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3016" class="SingleTxt">
+        <num>78.</num>
+        <content eId="para_3016__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Alto Comisionado que en el septuagésimo séptimo período de sesiones de la Asamblea General la informe acerca de sus actividades anuales.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="53a">53a sesión plenaria</inline>
+        <eol />
+        <docDate date="2021-12-16" refersTo="#adoptionDate">16 de diciembre de 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
