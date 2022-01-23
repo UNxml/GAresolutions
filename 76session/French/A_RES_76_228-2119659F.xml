@@ -1,0 +1,936 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/"></FRBRuri>
+          <FRBRdate date="2021-12-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/fra@/"></FRBRuri>
+          <FRBRdate date="2022-01-10" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/fra@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-20" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Organization for the Prohibition of Chemical Weapons" showAs="Organization for the Prohibition of Chemical Weapons" dictionary="DHLAUTH"></keyword>
+        <keyword value="Independent International Commission of Inquiry on the Syrian Arab Republic" showAs="Independent International Commission of Inquiry on the Syrian Arab Republic" dictionary="DHLAUTH"></keyword>
+        <keyword value="International, Impartial and Independent Mechanism to Assist in the Investigation and Prosecution of Persons Responsible for the Most Serious Crimes under International Law Committed in the Syrian Arab Republic since March 2011" showAs="International, Impartial and Independent Mechanism to Assist in the Investigation and Prosecution of Persons Responsible for the Most Serious Crimes under International Law Committed in the Syrian Arab Republic since March 2011" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SYRIAN ARAB REPUBLIC" showAs="SYRIAN ARAB REPUBLIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICAL WEAPONS USE" showAs="CHEMICAL WEAPONS USE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="74c" showAs="HUMAN RIGHTS--REPORTS" dictionary="A/76/251"></keyword>
+        <keyword refersTo="agenda" value="74c[9]" showAs="HUMAN RIGHTS--SYRIAN ARAB REPUBLIC" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-10" outcome="draftResolution" as="A/C.3/76/L.31/Rev.1" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Czechia, Denmark, Finland, France, Georgia, Germany, Iceland, Ireland, Italy, Lithuania, Luxembourg, Marshall Islands, Micronesia (Federated States of), Monaco, Netherlands, Poland, Qatar, Saudi Arabia, Slovakia, Slovenia, Spain, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Cyprus, Estonia, Greece, Hungary, Israel, Japan, Kuwait, Latvia, Liechtenstein, Malta, Montenegro, New Zealand, North Macedonia, Norway, Palau, Portugal, Republic of Korea, Romania, San Marino and Switzerland" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/462/Add.3" by="" refersTo="34" />
+        <step date="2021-12-24" outcome="adopted" as="A/76/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="93" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DJIBOUTI</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GAMBIA</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">KIRIBATI</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">NAURU</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TURKEY</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+            <count value="16" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COMOROS</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">ERITREA</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="52" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">BAHAMAS</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">BARBADOS</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BURUNDI</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">FIJI</organization>
+                <organization refersTo="memberState">GRENADA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState">GUYANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">LESOTHO</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITANIA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">SAINT LUCIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SOMALIA</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">SRI LANKA</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">TONGA</organization>
+                <organization refersTo="memberState">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UGANDA</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Troisième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19659 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/228</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-01-10" class="rightSmall" refersTo="#dateOfIssuance">10 janvier 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">Soixante-seizième session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Point 74 c) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Promotion et protection des droits humains : situations relatives aux droits humains et rapports des rapporteurs et représentants spéciaux</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 24 décembre 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sur la base du rapport de la Troisième Commission (<inline name="originating document">A/76/462/Add.3, par. 34</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/228.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Situation relative aux droits humains en République arabe syrienne</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Guidée" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Guidée</span> par la Charte des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> les buts et principes énoncés dans la Charte, la Déclaration universelle des droits de l’homme<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/217(III)">217 A (III)</a>.</p></authorialNote> et les instruments internationaux pertinents relatifs aux droits humains, y compris les Pactes internationaux relatifs aux droits de l’homme<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/2200(XXI)">2200 A (XXI)</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Réaffirmant son ferme attachement" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant son ferme attachement</span> à la souveraineté, à l’indépendance, à l’unité et à l’intégrité territoriale de la République arabe syrienne et aux principes énoncés dans la Charte, et exigeant du régime syrien qu’il s’acquitte de sa responsabilité de protéger la population syrienne et de respecter, protéger et rendre effectifs les droits humains de toute personne présente sur son territoire et relevant de sa juridiction,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>ses résolutions <a href="https://undocs.org/fr/A/RES/66/176">66/176</a> du 19 décembre 2011, <a href="https://undocs.org/fr/A/RES/66/253">66/253</a> A du 16 février 2012, <a href="https://undocs.org/fr/A/RES/66/176">66/176</a> du 19 décembre 2011, <a href="https://undocs.org/fr/A/RES/66/253">66/253</a> A du 16 février 2012, <a href="https://undocs.org/fr/A/RES/66/253">66/253</a> B du 3 août 2012, <a href="https://undocs.org/fr/A/RES/67/183">67/183</a> du 20 décembre 2012, <a href="https://undocs.org/fr/A/RES/67/262">67/262</a> du 15 mai 2013, <a href="https://undocs.org/fr/A/RES/68/182">68/182</a> du 18 décembre 2013, <a href="https://undocs.org/fr/A/RES/69/189">69/189</a> du 18 décembre 2014, <a href="https://undocs.org/fr/A/RES/70/234">70/234</a> du 23 décembre 2015, <a href="https://undocs.org/fr/A/RES/71/130">71/130</a> du 9 décembre 2016, <a href="https://undocs.org/fr/A/RES/71/203">71/203</a> du 19 décembre 2016, <a href="https://undocs.org/fr/A/RES/71/248">71/248</a> du 21 décembre 2016, <a href="https://undocs.org/fr/A/RES/73/182">73/182</a> du 17 décembre 2018, <a href="https://undocs.org/fr/A/RES/74/169">74/169</a> du 18 décembre 2019 et <a href="https://undocs.org/fr/A/RES/74/262">74/262</a> du 27 décembre 2019, les résolutions du Conseil des droits de l’homme <a href="https://undocs.org/fr/A/HRC/RES/S-16/1">S</a><a href="https://undocs.org/fr/A/HRC/RES/S-16/1">‑16/1</a> du 29 avril 2011<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-sixième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53 </span>(<a href="https://undocs.org/fr/A/66/53">A/66/53</a>), chap. I.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/S-17/1">S</a><a href="https://undocs.org/fr/A/hrc/RES/S-17/1">‑17/1</a> du 23 août 2011<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Ibid.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/S-18/1">S-18/1</a> du 2 décembre 2011<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53B</span> et rectificatif (<a href="https://undocs.org/fr/A/66/53/Add.2">A/66/53/Add.2</a> et <a href="https://undocs.org/fr/A/66/53/Add.2/Corr.1">A/66/53/Add.2/Corr.1</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/19/1">19/1</a> du 1<sup>er</sup> mars 2012<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., <span class="italic">soixante-septième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/67/53">A/67/53</a>), chap. III, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/19/22">19/22</a> du 23 mars 2012<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid.</p></authorialNote>, <a href="https://undocs.org/fr/A/RES/S-19/1">S</a><a href="https://undocs.org/fr/A/RES/S-19/1">‑19/1</a> du 1<sup>er</sup> juin 2012<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Ibid., chap. V.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/20/22">20/22</a> du 6 juillet 2012<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Ibid., chap. IV, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/21/26">21/26</a> du 28 septembre 2012<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/67/53/Add.1">A/67/53/Add.1</a>), chap. III.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/22/24">22/24</a> du 22 mars 2013<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Ibid., <span class="italic">soixante-huitième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/68/53">A/68/53</a>), chap. IV, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/23/1">23/1</a> du 29 mai 2013<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Ibid., chap. V, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/23/26">23/26</a> du 14 juin 2013<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Ibid.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/24/22">24/22</a> du 27 septembre 2013<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/68/53/Add.1">A/68/53/Add.1</a>), chap. III.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/25/23">25/23</a> du 28 mars 2014<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Ibid., <span class="italic">soixante-neuvième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/69/53">A/69/53</a>), chap. IV, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/26/23">26/23</a> du 27 juin 2014<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Ibid., chap. V, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/27/16">27/16</a> du 25 septembre 2014<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> et rectificatif (<a href="https://undocs.org/fr/A/69/53/Add.1">A/69/53/Add.1</a> et <a href="https://undocs.org/fr/A/69/53/Add.1/Corr.2">A/69/53/Add.1/Corr.2</a>), chap. IV, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/28/20">28/20</a> du 27 mars 2015<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Ibid., <span class="italic">soixante-dixième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/70/53">A/70/53</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/29/16">29/16</a> du 2 juillet 2015<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		Ibid., chap. V, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/30/10">30/10</a> du 1<sup>er</sup> octobre 2015<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/70/53/Add.1">A/70/53/Add.1</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/31/17">31/17</a> du 23 mars 2016<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		Ibid., <span class="italic">soixante et onzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53 </span>(<a href="https://undocs.org/fr/A/71/53">A/71/53</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/32/25">32/25</a> du 1<sup>er</sup> juillet 2016<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		Ibid., chap. IV, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/33/23">33/23</a> du 30 septembre 2016<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A </span>et rectificatif (<a href="https://undocs.org/fr/A/71/53/Add.1">A/71/53/Add.1</a> et <a href="https://undocs.org/fr/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/S-25/1">S-25/1</a> du 21 octobre 2016<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53B</span> et rectificatif (<a href="https://undocs.org/fr/A/71/53/Add.2">A/71/53/Add.2</a> et <a href="https://undocs.org/fr/A/71/53/Add.2/Corr.1">A/71/53/Add.2/Corr.1</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/34/26">34/26</a> du 24 mars 2017<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		Ibid.<span class="italic">, soixante-douzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/72/53">A/72/53</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/35/26">35/26</a> du 23 juin 2017<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		Ibid., chap. V, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/36/20">36/20</a> du 29 septembre 2017<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/72/53/Add.1">A/72/53/Add.1</a>), chap. III.</p></authorialNote> et <a href="https://undocs.org/fr/A/HRC/RES/39/15">39/15</a> du 28 septembre 2018<authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">		Ibid., <span class="italic">soixante-treizième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/73/53/Add.1">A/73/53/Add.1</a>), chap. III.</p></authorialNote>, les résolutions du Conseil de sécurité <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a> du 31 octobre 2000, <a href="https://undocs.org/fr/S/RES/2042(2012)">2042 (2012)</a> du 14 avril 2012, <a href="https://undocs.org/fr/S/RES/2043(2012)">2043 (2012)</a> du 21 avril 2012, <a href="https://undocs.org/fr/S/RES/2118(2013)">2118 (2013)</a> du 27 septembre 2013, <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a> du 22 février 2014, <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a> du 14 juillet 2014, <a href="https://undocs.org/fr/S/RES/2170(2014)">2170 (2014)</a> du 15 août 2014, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a> du 24 septembre 2014, <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a> du 17 décembre 2014, <a href="https://undocs.org/fr/S/RES/2209(2015)">2209 (2015)</a> du 6 mars 2015, <a href="https://undocs.org/fr/S/RES/2235(2015)">2235 (2015)</a> du 7 août 2015, <a href="https://undocs.org/fr/S/RES/2242(2015)">2242 (2015)</a> du 13 octobre 2015, <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a> du 18 décembre 2015, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a> du 22 décembre 2015, <a href="https://undocs.org/fr/S/RES/2268(2016)">2268 (2016)</a> du 26 février 2016, <a href="https://undocs.org/fr/S/RES/2286(2016)">2286 (2016)</a> du 3 mai 2016, <a href="https://undocs.org/fr/S/RES/2314(2016)">2314 (2016)</a> du 31 octobre 2016, <a href="https://undocs.org/fr/S/RES/2319(2016)">2319 (2016)</a> du 17 novembre 2016, <a href="https://undocs.org/fr/S/RES/2328(2016)">2328 (2016)</a> du 19 décembre 2016, <a href="https://undocs.org/fr/S/RES/2332(2016)">2332 (2016)</a> du 21 décembre 2016, <a href="https://undocs.org/fr/S/RES/2336(2016)">2336 (2016)</a> du 31 décembre 2016, <a href="https://undocs.org/fr/S/RES/2393(2017)">2393 (2017)</a> du 19 décembre 2017, <a href="https://undocs.org/fr/S/RES/2401(2018)">2401 (2018)</a> du 24 février 2018, <a href="https://undocs.org/fr/S/RES/2449(2018)">2449 (2018)</a> du 13 décembre 2018, <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a> du 10 janvier 2020, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533 (2020)</a> du 11 juillet 2020 et <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> du 9 juillet 2021, et les déclarations de la présidence du Conseil de sécurité en date des 3 août 2011<authorialNote marker="29" placement="bottom" eId="authorialNote_29"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/PRST/2011/16">S/PRST/2011/16</a> ; voir <span class="italic">résolutions et décisions du Conseil de sécurité, 1</span><span class="italic"><sup>er</sup></span><span class="italic"> août 2011-31 juillet 2012</span> (<a href="https://undocs.org/fr/S/INF/67">S/INF/67</a>).</p></authorialNote>, 2 octobre 2013<authorialNote marker="30" placement="bottom" eId="authorialNote_30"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/PRST/2013/15">S/PRST/2013/15</a> ; voir <span class="italic">Résolutions et décisions du Conseil de sécurité, 1</span><span class="italic"><sup>er </sup></span><span class="italic">août 2013‑31 juillet 2014 </span>(<a href="https://undocs.org/fr/S/INF/69">S/INF/69</a>).</p></authorialNote>, 17 août 2015<authorialNote marker="31" placement="bottom" eId="authorialNote_31"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/PRST/2015/15">S/PRST/2015/15</a> ; voir <span class="italic">Résolutions et décisions du Conseil de sécurité, 1</span><span class="italic"><sup>er </sup></span><span class="italic">août 2015‑31 décembre 2016 </span>(<a href="https://undocs.org/fr/S/INF/71">S/INF/71</a>).</p></authorialNote> et 8 octobre 2019<authorialNote marker="32" placement="bottom" eId="authorialNote_32"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/PRST/2019/12">S/PRST/2019/12</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Déplorant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Déplorant </span>le fait que mars 2021 a marqué les 10 ans du soulèvement pacifique et de sa répression brutale qui ont conduit au conflit en République arabe syrienne, lequel a eu des conséquences désastreuses pour les civils et donné lieu, notamment, à de graves violations du droit international des droits de l’homme et atteintes à ce droit et à des violations du droit international humanitaire,</p>
+      </container>
+      <container name="Condamnant fermement" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant fermement</span>, au vu de la gravité de la situation relative aux droits humains en République arabe syrienne, les meurtres sans discrimination et la pratique consistant à prendre délibérément pour cible des civils, notamment les agents humanitaires, y compris la persistance du recours sans discernement aux armes lourdes et aux frappes aériennes, qui a fait plus de 500 000 morts, dont plus de 29 000 enfants, la poursuite des violations flagrantes, généralisées et systématiques des droits humains, des atteintes à ces droits et des violations du droit international humanitaire par le régime syrien, qui utilise notamment la famine comme arme de guerre contre les civils et emploie des armes chimiques, y compris le sarin, le gaz chloré et la moutarde au soufre, interdites par le droit international, ainsi que les actes de violence commis par le régime syrien, qui attisent les tensions sectaires au sein de la population syrienne,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Notant avec une vive préoccupation </span>que le Haut-Commissariat des Nations Unies aux droits de l’homme a dressé une liste faisant apparaître le nom complet ainsi que la date et le lieu de décès de 350 209 personnes tuées dans le cadre du conflit en République arabe syrienne entre mars 2011 et mars 2021, dont 26 727 femmes et 27 126 enfants, et rappelant que cette liste ne rend compte que du nombre minimum de cas vérifiables et que le bilan réel est certainement supérieur,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que la seule solution durable à la crise actuelle en République arabe syrienne passe par un processus politique sans exclusive et conduit par la Syrie, mené sous les auspices de l’Organisation des Nations Unies, qui réponde aux aspirations légitimes du peuple syrien, comme le prévoit la résolution <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a> du Conseil de sécurité, l’objectif étant de mettre place une gouvernance crédible, inclusive et non sectaire, sous l’impulsion et avec la participation pleine, égale et effective de toutes les femmes et des jeunes, à tous les niveaux, se félicitant de la création de la Commission constitutionnelle, réaffirmant à cet égard le rôle important des femmes dans la prévention et le règlement des conflits et dans la consolidation de la paix, soulignant l’importance de leur participation et contribution pleines, égales et véritables à tous les efforts visant à maintenir et à promouvoir la paix et la sécurité et de leur rôle dans la prise de décisions touchant la prévention et le règlement des conflits, et saluant l’action menée à cette fin par l’Envoyé spécial du Secrétaire général pour la Syrie,</p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> qu’elle a exigé de toutes les parties qu’elles prennent toutes les mesures nécessaires pour protéger les civils, notamment les membres des groupes ethniques et religieux,</p>
+      </container>
+      <container name="Se félicitant" eId="container_11">
+          <p xml:space="preserve">	<span class="italic">Se félicitant </span>des efforts déployés par l’Envoyé spécial en vue de faire progresser l’action de l’Organisation des Nations Unies visant à parvenir à un règlement politique durable du conflit en République arabe syrienne, comme le prévoit la résolution <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a> du Conseil de sécurité, rappelant qu’il importe que les travaux de la Commission constitutionnelle progressent et aboutissent à des résultats concrets et, à cet égard, demandant instamment à toutes les parties, en particulier le régime syrien, de collaborer véritablement aux travaux de la Commission constitutionnelle, soulignant que le règlement politique du conflit en République arabe syrienne exige la pleine application de toutes les dispositions de la résolution <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>, y compris la tenue d’élections libres et régulières, sous la supervision de l’Organisation, dans le respect de la gouvernance et conformément aux normes internationales les plus élevées en matière de transparence et de responsabilité, auxquelles tous les Syriens auront le droit de participer, y compris les personnes déplacées et réfugiées et les membres de la diaspora remplissant les conditions voulues, ainsi que l’instauration d’un climat neutre et sûr, et notant que l’élection présidentielle récemment tenue dans le pays n’a été ni libre, ni juste, ni conforme au processus politique que le Conseil de sécurité avait appelé de ses vœux dans sa résolution <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>,</p>
+      </container>
+      <container name="Confirmant de nouveau" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Confirmant de nouveau</span> qu’elle souscrit au Communiqué de Genève du 30 juin 2012<authorialNote marker="33" placement="bottom" eId="authorialNote_33"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/S/RES/2118(2013)">2118 (2013)</a> du Conseil de sécurité, annexe II.</p></authorialNote>, appuyant la déclaration conjointe sur les conclusions des pourparlers multilatéraux sur la Syrie qui se sont tenus à Vienne le 30 octobre 2015 et la déclaration du Groupe international de soutien pour la Syrie du 14 novembre 2015 (« déclarations de Vienne ») en vue de l’application intégrale du Communiqué de Genève, facilitée par l’Envoyé spécial, en tant que fondement d’une transition politique conduite et prise en main par les Syriens et visant à mettre fin au conflit en République arabe syrienne, et soulignant que c’est au peuple syrien qu’il appartient de décider de l’avenir du pays,</p>
+      </container>
+      <container name="Saluant" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Saluant</span> l’appel au cessez-le-feu mondial lancé par le Secrétaire général et l’appel de l’Envoyé spécial en faveur d’un cessez-le-feu complet et immédiat dans toute la République arabe syrienne, tels qu’approuvés par le Conseil de sécurité dans ses résolutions <a href="https://undocs.org/fr/S/RES/2532(2020)">2532 (2020)</a> du 1<sup>er</sup> juillet 2020 et <a href="https://undocs.org/fr/S/RES/2565(2021)">2565 (2021)</a> du 26 février 2021, et réaffirmant que les États Membres doivent faire en sorte que toute mesure prise pour combattre le terrorisme soit conforme à toutes leurs obligations au titre du droit international, en particulier le droit international des droits de l’homme, le droit international des réfugiés et le droit international humanitaire, tout en continuant à soutenir les opérations légitimes de lutte antiterroriste menées contre l’État islamique d’Iraq et du Levant (EIIL, également appelé Daech), Al‑Qaida et Hay’at Tahrir el‑Cham (anciennement dénommé Front el‑Nosra), ainsi que contre tous les autres individus, groupes, entreprises et entités associés à Al‑Qaida ou à l’EIIL et autres groupes terroristes, qui ont été désignés par le Conseil de sécurité,</p>
+      </container>
+      <container name="Exhortant" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Exhortant</span> toutes les parties, en particulier le régime syrien, à participer véritablement au processus politique mené sous les auspices de l’Envoyé spécial et de son bureau à Genève, conformément à la résolution <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a> du Conseil de sécurité, et notamment à assurer la participation et la représentation pleines et véritables des femmes à tous les efforts et décisions, sur un pied d’égalité avec les hommes, se félicitant de la reprise des travaux contrôlés et dirigés par les Syriens de la Commission constitutionnelle convoquée et facilitée par l’Envoyé spécial à Genève du 18 au 22 octobre 2021, exhortant le régime syrien à participer aux travaux de la Commission constitutionnelle sous les auspices de l’Organisation des Nations Unies conformément au mandat et au règlement intérieur convenus, réaffirmant qu’il importe d’appliquer pleinement le programme pour les femmes et la paix et la sécurité du Conseil de sécurité, en application de la résolution <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a> du Conseil et de ses neuf résolutions ultérieures sur la question et, à cet égard, se félicitant que la société civile participe au processus politique, notamment par l’intermédiaire du Bureau d’aide à la société civile et du Comité consultatif des femmes syriennes,</p>
+      </container>
+      <container name="Notant avec une profonde préoccupation" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Notant avec une profonde préoccupation</span> la culture de l’impunité qu’entretient le régime syrien autour des violations les plus graves du droit international, les violations les plus graves du droit international des droits de l’homme et les atteintes les plus graves à ce droit commises pendant le conflit en cours, dont certaines atteignent des niveaux correspondant à des crimes de guerre ou à des crimes contre l’humanité, et qui encourage la poursuite des violations et exactions,</p>
+      </container>
+      <container name="Insistant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Insistant</span> sur la nécessité de demander des comptes aux auteurs des crimes les plus graves commis en violation du droit international durant le conflit, en vue de garantir une paix durable,</p>
+      </container>
+      <container name="Rappelant" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>toutes les résolutions relatives à la sûreté et sécurité du personnel humanitaire et à la protection du personnel des Nations Unies, dont sa résolution <a href="https://undocs.org/fr/A/RES/73/137">73/137</a> du 14 décembre 2018, ainsi que les résolutions du Conseil de sécurité sur la protection du personnel humanitaire, dont les résolutions <a href="https://undocs.org/fr/S/RES/2175(2014)">2175 (2014)</a> du 29 août 2014 et <a href="https://undocs.org/fr/S/RES/2286(2016)">2286 (2016)</a> du 3 mai 2016, et les déclarations de la présidence du Conseil de sécurité sur la question, évoquant les obligations spécifiques qu’impose le droit international humanitaire de respecter et de protéger, en situation de conflit armé, tous les membres du personnel médical et tous les agents humanitaires dont l’activité est d’ordre exclusivement médical, leurs moyens de transport et leur matériel, ainsi que les hôpitaux et autres installations médicales, et de veiller à ce que les blessés et les malades reçoivent, autant que faire se peut et avec le moins de retard possible, les soins médicaux et l’attention nécessaires, et condamnant les attaques contre les hôpitaux et les lieux où des malades ou des blessés sont rassemblés, y compris les hôpitaux de fortune, ainsi que les attaques dirigées contre le personnel médical et humanitaire, commises en violation du droit international humanitaire,</p>
+      </container>
+      <container name="Se déclarant gravement préoccupée" eId="container_18">
+          <p xml:space="preserve">
+            <span class="italic">	Se déclarant gravement préoccupée</span> par le fait que le régime syrien continue d’employer la force sans discernement contre les civils, causant d’immenses souffrances humaines et favorisant la propagation de l’extrémisme violent et la prolifération des groupes extrémistes violents, preuve que le régime ne parvient toujours pas à protéger sa population et à appliquer les résolutions et décisions des organes de l’Organisation des Nations Unies portant sur la question et a créé un sanctuaire et un environnement sûr pour les auteurs de crimes de guerre et de crimes contre l’humanité,</p>
+      </container>
+        <container name="Se déclarant de même gravement préoccupée" eId="container_19">
+          <p xml:space="preserve">
+            <span class="italic">	Se déclarant de même gravement préoccupée </span>par la persistance de l’extrémisme violent et du terrorisme et la présence tenace des groupes extrémistes violents et des groupes terroristes, et condamnant résolument toutes les violations des droits humains, les atteintes à ces droits et les violations du droit international humanitaire commises en République arabe syrienne par les parties au conflit, quelles qu’elles soient, en particulier l’EIIL (également appelé Daech), les groupes terroristes affiliés à Al‑Qaida, les groupes et acteurs non étatiques armés, ainsi que le régime syrien et ses alliés,</p>
+        </container>
+      <container name="Notant avec une vive préoccupation" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Notant avec une vive préoccupation</span> les constatations de la Commission d’enquête internationale indépendante sur la République arabe syrienne, selon lesquelles des groupes armés non étatiques persistent à recourir à l’emploi de la force contre les civils,</p>
+      </container>
+      <container name="Exprimant son appui" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Exprimant son appui</span> aux travaux menés par la Commission d’enquête internationale indépendante sur la République arabe syrienne, se félicitant des rapports de ladite Commission, condamnant énergiquement le manque de coopération du régime syrien avec celle-ci, réitérant sa décision de transmettre les rapports de la Commission d’enquête au Conseil de sécurité, remerciant la Commission d’enquête pour les exposés qu’elle a présentés devant le Conseil et demandant qu’elle continue à lui faire rapport, ainsi qu’aux membres du Conseil,</p>
+      </container>
+      <container name="Réaffirmant qu’elle condamne dans les termes les plus énergiques" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant qu’elle condamne dans les termes les plus énergiques</span> l’emploi d’armes chimiques par quiconque, en toutes circonstances, soulignant que l’emploi d’armes chimiques en tout lieu, à tout moment, par quiconque, en toutes circonstances, est inadmissible et constitue une violation du droit international, et se déclarant fermement convaincue que les personnes responsables de l’emploi de ces armes doivent et devront répondre de leurs actes,</p>
+      </container>
+      <container name="Condamnant dans les termes les plus énergiques" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Condamnant dans les termes les plus énergiques</span> les cas répétés d’emploi d’armes chimiques en République arabe syrienne, notamment ceux dont l’origine a été retracée de manière indépendante par l’Organisation pour l’interdiction des armes chimiques, le Mécanisme d’enquête conjoint de l’Organisation pour l’interdiction des armes chimiques et de l’Organisation des Nations Unies et l’Équipe d’enquête et d’identification de l’Organisation pour l’interdiction des armes chimiques, notant que le Mécanisme d’enquête conjoint a conclu que les Forces armées arabes syriennes étaient responsables d’attaques perpétrées en 2014 et en 2015 au cours desquelles des substances toxiques avaient été libérées et que l’EIIL (également appelé Daech) avait utilisé de la moutarde au soufre en 2015 et 2016, et conclu également, en octobre 2017, que l’armée de l’air syrienne était responsable de l’attaque à l’arme chimique commise le 4 avril 2017 à Khan Cheïkhoun, notant également que l’Équipe d’enquête et d’identification a conclu en avril 2020 qu’il y avait des motifs raisonnables de croire que l’armée de l’air syrienne avait mené trois attaques à l’arme chimique en mars 2017 à Latamné et conclu également, en avril 2021, qu’il y avait des motifs raisonnables de croire que l’armée de l’air syrienne en avait mené une autre à Saraqeb en février 2018,</p>
+      </container>
+      <container name="Notant" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Notant </span>que l’Équipe d’enquête et d’identification de l’Organisation pour l’interdiction des armes chimiques poursuit ses travaux et qu’elle publiera prochainement un rapport sur l’utilisation d’un produit chimique toxique comme arme à Douma,</p>
+      </container>
+      <container name="Se félicitant" eId="container_25">
+          <p xml:space="preserve">	<span class="italic">Se félicitant</span> de la décision adoptée le 9 juillet 2020 par le Conseil exécutif de l’Organisation pour l’interdiction des armes chimiques<authorialNote marker="34" placement="bottom" eId="authorialNote_34"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/74/959">A/74/959-S/2020/724</a>, annexe.</p></authorialNote>, dans laquelle le Conseil exécutif a condamné l’emploi par la République arabe syrienne d’armes chimiques à Latamné et demandé à la République arabe syrienne de prendre des mesures pour redresser la situation, se félicitant également de la décision adoptée le 21 avril 2021 par la Conférence des États parties de l’Organisation pour l’interdiction des armes chimiques<authorialNote marker="35" placement="bottom" eId="authorialNote_35"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/75/871">A/75/871-S/2021/425</a>, annexe.</p></authorialNote> concernant la détention et l’emploi d’armes chimiques par la République arabe syrienne, dans laquelle la Conférence a décidé de suspendre certains droits et privilèges de la République arabe syrienne au titre de la Convention sur l’interdiction de la mise au point, de la fabrication, du stockage et de l’emploi des armes chimiques et sur leur destruction<authorialNote marker="36" placement="bottom" eId="authorialNote_36"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1975, n<sup>o</sup> 33757.</p></authorialNote> jusqu’à ce que le Directeur général de l’Organisation pour l’interdiction des armes chimiques indique, dans ses rapports, que la République arabe syrienne a mené à bien toutes les mesures demandées par le Conseil exécutif, déplorant que la République arabe syrienne n’ait pas donné suite à ces demandes et exigeant que les personnes ayant recouru à des armes chimiques renoncent immédiatement à y recourir à nouveau,</p>
+      </container>
+        <container name="Se félicitant également" eId="container_26">
+          <p xml:space="preserve">	<span class="italic">	Se félicitant également</span> des rapports pour 2019, 2020 et 2021 du Mécanisme international, impartial et indépendant chargé de faciliter les enquêtes sur les violations les plus graves du droit international commises en République arabe syrienne depuis mars 2011 et d’aider à juger les personnes qui en sont responsables<authorialNote marker="37" placement="bottom" eId="authorialNote_37"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/73/295">A/73/295</a>, <a href="https://undocs.org/fr/A/73/741">A/73/741</a>, <a href="https://undocs.org/fr/A/74/313">A/74/313</a>, <a href="https://undocs.org/fr/A/74/699">A/74/699</a>, <a href="https://undocs.org/fr/A/75/311">A/75/311</a> et <a href="https://undocs.org/fr/A/75/743">A/75/743</a>.</p></authorialNote>, qui lui ont été soumis pour examen, notant avec une vive préoccupation l’observation de la Commission d’enquête selon laquelle il y avait des motifs raisonnables de croire que, depuis mars 2011, le régime syrien mène systématiquement contre la population civile des attaques à grande échelle qui correspondent à des crimes de guerre et à des crimes contre l’humanité, notamment des attaques ciblées lancées contre des personnes et des biens protégés, y compris des installations médicales, leur personnel et leurs moyens de transport et des convois humanitaires bloqués, ainsi que des disparitions forcées, des actes de torture de personnes détenues, des détentions arbitraires, des exécutions sommaires et d’autres violations et atteintes, et soulignant qu’il importe que les allégations soient examinées et les éléments de preuve recueillis et mis à disposition aux fins de l’établissement des responsabilités à l’avenir,</p>
+        </container>
+      <container name="Condamnant fermement" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant fermement</span> les exécutions de personnes détenues, signalées dans les locaux du renseignement militaire syrien, et la pratique généralisée des disparitions forcées, des détentions arbitraires et du recours à la violence sexuelle et fondée sur le genre et aux actes de torture dans les centres de détention dont il est fait mention dans les rapports de la Commission d’enquête, notamment, mais sans s’y limiter, dans les bâtiments des sections 215, 227, 235 et 251, la section du Service de renseignement des forces aériennes à l’aéroport militaire de Mazzé et la prison de Sednaya, y compris les pendaisons collectives ordonnées par le régime ainsi que les exécutions de personnes détenues dans les hôpitaux militaires, dont Techrine et Harasta,</p>
+      </container>
+      <container name="Profondément préoccupée" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Profondément préoccupée</span> par le sort de toutes les personnes disparues du fait de la situation en République arabe syrienne, notamment des victimes d’enlèvement, de disparition forcée et de détention arbitraire, actes commis principalement par le régime syrien, et prenant note des observations de la Commission d’enquête et de l’Envoyé spécial du Secrétaire général pour la Syrie selon lesquelles des dizaines de milliers de personnes sont toujours portées disparues dans le pays, rappelant à cet égard les résolutions <a href="https://undocs.org/fr/A/HRC/RES/45/3">45/3</a> et <a href="https://undocs.org/fr/A/HRC/RES/48/15">48/15</a> du Conseil des droits de l’homme, respectivement en date du 6 octobre 2020<authorialNote marker="38" placement="bottom" eId="authorialNote_38"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-quinzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A </span>(<a href="https://undocs.org/fr/A/75/53/Add.1">A75/53/Add.1</a>), chap. III.</p></authorialNote> et du 8 octobre 2021<authorialNote marker="39" placement="bottom" eId="authorialNote_39"><p xml:space="preserve">		Ibid., <span class="italic">soixante-seizième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A </span>(<a href="https://undocs.org/fr/A/76/53/Add.1">A/76/53/Add.1</a>), chap. IV, sect. A.</p></authorialNote>, et les résolutions <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a> et <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a> du Conseil de sécurité, et encourageant toutes les parties à collaborer plus avant avec le Bureau de l’Envoyé spécial en ce qui concerne la question de la détention arbitraire, puisque les mesures de lutte contre les disparitions forcées et la détention arbitraire font partie intégrante de l’action à mener pour protéger les droits de toute la population syrienne et parvenir à un règlement politique durable en République arabe syrienne,</p>
+      </container>
+      <container name="Rappelant" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> les déclarations faites par le Secrétaire général, la Haute‑Commissaire des Nations Unies aux droits de l’homme et les titulaires de mandats au titre des procédures spéciales du Conseil des droits de l’homme, selon lesquelles des crimes contre l’humanité et des crimes de guerre ont probablement été commis en République arabe syrienne, prenant acte du fait que la Haute-Commissaire a maintes fois invité le Conseil de sécurité à saisir la Cour pénale internationale de cette situation, et déplorant qu’un projet de résolution<authorialNote marker="40" placement="bottom" eId="authorialNote_40"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/2014/348">S/2014/348</a>.</p></authorialNote> n’ait pas été adopté en dépit du large appui des États Membres,</p>
+      </container>
+      <container name="Rappelant" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>le rapport publié le 6 avril 2020 par la commission d’enquête de l’Organisation des Nations Unies<authorialNote marker="41" placement="bottom" eId="authorialNote_41"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/S/2020/278">S/2020/278</a>, annexe.</p></authorialNote> sur les frappes qui ont endommagé ou détruit des établissements sanitaires dans le nord-ouest de la République arabe syrienne, y compris des sites dont les coordonnées avaient été inscrites sur la liste de déconfliction des Nations Unies afin de garantir qu’ils ne seraient pas pris pour cible ou touchés par la violence, la commission d’enquête ayant conclu, dans la plupart des cas examinés, qu’il était « hautement probable que les frappes avaient été menées par le Gouvernement de la République arabe syrienne ou ses alliés » et constaté que des services de santé étaient dispensés au moment de certaines des frappes et qu’aucun groupe d’opposition armés ne se trouvait alors dans les établissements ou à proximité, et appelant toutes les parties à adhérer au mécanisme de déconfliction et à s’y conformer,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Rappelant en outre</span> le rapport de mars 2021 de la Commission d’enquête internationale indépendante<authorialNote marker="42" placement="bottom" eId="authorialNote_42"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/46/55">A/HRC/46/55</a>.</p></authorialNote>, dans lequel celle-ci a indiqué que le régime et les forces prorégime avaient bombardé sans discrimination des zones peuplées de civils et délibérément pris pour cible des hôpitaux, des installations médicales et des zones à forte densité de population civile, dont des marchés, des écoles et des quartiers résidentiels, et conclu que les forces gouvernementales avaient commis des crimes contre l’humanité en procédant à des frappes aériennes et à des tirs d’artillerie sur des zones civiles,</p>
+      </container>
+      <container name="Demandant" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Demandant </span>l’abrogation immédiate de la loi n<sup>o</sup> 10 de 2018, préoccupée par les atteintes du régime syrien aux habitations, aux terres et aux biens des Syriens, en particulier par la spoliation des personnes déplacées de leurs terres et de leurs biens, dans la législation nationale et par des mesures analogues, ce qui compromettrait considérablement les droits des Syriens déplacés par le conflit de revendiquer leurs biens et de retourner dans leurs foyers de leur plein gré, en toute sécurité et dans la dignité lorsque la situation sur place le permet, et se déclarant préoccupée par les informations faisant état d’atteintes commises par des groupes armés, dans les zones qu’ils contrôlent, contre les droits des Syriens au logement, à la terre et à la propriété,</p>
+      </container>
+      <container name="Déplorant à cet égard" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	Déplorant à cet égard</span> l’existence et l’application de textes de loi nationaux, en particulier la loi n<sup>o</sup> 42 de 2018 et d’autres lois et pratiques concernant les droits au logement, à la terre et à la propriété, qui ont une incidence fortement préjudiciable sur le droit des Syriens déplacés par le conflit de réclamer leurs biens, comme le montrent les informations continues indiquant des démolitions généralisées de biens dans les zones anciennement contrôlées par l’opposition syrienne ainsi que la confiscation de biens appartenant à des personnes détenues arbitrairement et à des personnes disparues dans toute la République arabe syrienne, demandant l’abrogation immédiate de ces textes, soulignant le droit de chacun, y compris des Syriens déplacés, de ne pas être arbitrairement privé de ses biens et de pouvoir rentrer chez soi en toute sécurité, volontairement et dans la dignité lorsque la situation sur le terrain le permet, prenant note à cet égard de la circulaire n<sup>o</sup> 30 publiée en septembre 2021 par laquelle le Ministère syrien de la justice subordonne la délivrance de procurations à l’octroi d’une habilitation de sécurité, ce qui risque de pénaliser encore plus les personnes déplacées et réfugiées, qui ont besoin de ces procurations pour effectuer des démarches administratives civiles,</p>
+      </container>
+      <container name="Constatant avec inquiétude" eId="container_34">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant avec inquiétude </span>qu’il n’a toujours pas été donné suite aux résolutions <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2268(2016)">2268 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2286(2016)">2286 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2393(2017)">2393 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2401(2018)">2401 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2449(2018)">2449 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533(2020)</a> et <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> du Conseil de sécurité, et notant qu’il est urgent de redoubler d’efforts pour faire face à la situation humanitaire en République arabe syrienne, notamment en assurant la protection des civils et l’acheminement sûr, complet, immédiat, sans entrave et continu de l’aide humanitaire sur tout le territoire de la République arabe syrienne,</p>
+      </container>
+      <container name="Soulignant" eId="container_35">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> que le mécanisme humanitaire transfrontière reste un moyen essentiel de sauver des vies et de répondre aux besoins humanitaires d’une partie importante de la population de la République arabe syrienne, qui ne peut être atteinte dans le cadre des opérations existantes dans le pays, et soulignant également qu’il importe d’agir à travers les lignes de front et qu’il faut améliorer de façon immédiate et tangible l’accès transfrontière et le respect de l’action humanitaire fondée sur des principes pour prévenir toute nouvelle souffrance ou perte de vies humaines évitables,</p>
+      </container>
+      <container name="Exprimant sa profonde inquiétude" eId="container_36">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant sa profonde inquiétude</span> face aux répercussions de la pandémie de COVID‑19 et aux informations communiquées par l’Organisation des Nations Unies sur la multiplication des avis de décès et d’enterrement, qui semble indiquer que le nombre réel de cas de COVID‑19 en République arabe syrienne dépasse de loin les chiffres officiels, sachant que la pandémie pèse lourdement sur le système de santé décimé du pays ainsi que sur la situation socioéconomique et humanitaire du pays et qu’elle touche les femmes et les filles de manière disproportionnée, soulignant que le risque grave posé par la COVID‑19 rend plus impérative encore l’utilisation de tous les moyens possibles, y compris le mécanisme transfrontière, pour atteindre les personnes dans le besoin, sans conditions préalables et sans discrimination, demandant l’acheminement d’une aide humanitaire à toutes les régions de la République arabe syrienne, y compris dans les zones où les besoins humanitaires sont particulièrement urgents, et soulignant l’importance de la collecte et de la communication en temps opportun de données exactes,</p>
+      </container>
+      <container name="Rappelant son attachement" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant son attachement</span> aux résolutions du Conseil de sécurité <a href="https://undocs.org/fr/S/RES/2170(2014)">2170 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a> et <a href="https://undocs.org/fr/S/RES/2253(2015)">2253 (2015)</a> du 17 décembre 2015,</p>
+      </container>
+      <container name="Alarmée" eId="container_38">
+        <p xml:space="preserve">
+          <span class="italic">	Alarmée </span>par le fait que plus de 5,6 millions de réfugiés, dont plus de 3,8 millions de femmes et d’enfants, ont été contraints de fuir la République arabe syrienne et que 11,1 millions de personnes dans le pays, dont 6,6 millions de déplacés, ont besoin d’une aide humanitaire d’urgence, ce qui a donné lieu à un afflux de réfugiés syriens dans les pays voisins, dans d’autres pays de la région et au‑delà, et par le risque que la situation présente pour la stabilité régionale et internationale,</p>
+      </container>
+      <container name="Exprimant sa profonde indignation" eId="container_39">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant sa profonde indignation</span> devant la mort de plus de 29 000 enfants et le nombre encore plus grand d’enfants blessés depuis le début des manifestations pacifiques en mars 2011, ainsi que les violations et sévices graves commis sur la personne d’enfants, en particulier par le régime syrien, au mépris du droit international applicable, tels que leur enrôlement et leur utilisation, les enlèvements, les meurtres et les atteintes à leur intégrité physique, et les viols et autres formes de violence sexuelle et fondée sur le genre, les attaques contre les écoles et les hôpitaux et le refus de l’accès humanitaire ainsi que les arrestations arbitraires, la détention, la torture, les mauvais traitements et l’utilisation d’enfants comme boucliers humains, et notant à cet égard l’adoption, le 18 juillet 2019, par le Groupe de travail du Conseil de sécurité sur les enfants et les conflits armés des conclusions sur le sort des enfants en temps de conflit armé en République arabe syrienne<authorialNote marker="43" placement="bottom" eId="authorialNote_43"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/AC.51/2019/1">S/AC.51/2019/1</a>.</p></authorialNote>, ainsi que le rapport daté du 13 janvier 2020 de la Commission d’enquête internationale indépendante, intitulé « They have erased the dreams of my children: children’s rights in the Syrian Arab Republic », et soulignant que le régime syrien et ses alliés doivent s’acquitter de leurs obligations au titre des dispositions du droit international applicable concernant les enfants, y compris la Convention relative aux droits de l’enfant et les Protocoles y afférents,</p>
+      </container>
+      <container name="Notant avec inquiétude" eId="container_40">
+        <p xml:space="preserve">
+          <span class="italic">	Notant avec inquiétude</span> que le camp de Hol accueille actuellement plus de 58 000 personnes, dont 93 pour cent sont des femmes et des enfants, parmi lesquels quelque 35 000 enfants de moins de 12 ans qui vivent dans des conditions extrêmement difficiles,</p>
+      </container>
+      <container name="Rappelant avec beaucoup d’inquiétude" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Rappelant avec beaucoup d’inquiétude</span> les constatations dont la Commission d’enquête a fait part dans son rapport intitulé « Out of sight, out of mind: deaths in detention in the Syrian Arab Republic » et dans son rapport au Conseil des droits de l’homme en date de septembre 2021<authorialNote marker="44" placement="bottom" eId="authorialNote_44"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/48/70">A/HRC/48/70</a>.</p></authorialNote>, notant à cet égard les informations émanant du régime syrien au sujet du décès de personnes détenues, qui donnent une nouvelle preuve des violations systématiques du droit international des droits de l’homme et du droit international humanitaire, ainsi que les rapports publiés en mars 2019 et mars 2021 par la Commission d’enquête sur la portée et l’échelle des arrestations et détentions arbitraires auxquelles les forces gouvernementales ont recouru comme moyen de répression et qui ont entraîné la mort en détention de dizaines de milliers de civils syriens, la Commission d’enquête ayant indiqué que la mort de milliers de personnes précédemment détenues à Hama, Lattaquié, Hassaké et Damas avait été confirmée par des entités du régime syrien qui ont délivré les certificats de décès correspondants, ainsi que les constatations de la Commission d’enquête dans son rapport de mars 2021 intitulé « Arbitrary Imprisonment and Detention », notant que le lieu où se trouvent des dizaines de milliers de détenus reste inconnu et que le régime syrien ne reconnaît pas ce fait, rappelant les récits effrayants de détention, de meurtres, de disparitions, de torture et de traitements inhumains, que la Commission d’enquête a méticuleusement documentés et décrits comme constituant des crimes contre l’humanité, ainsi que d’extermination, de meurtre, de viol ou d’autres formes de violence sexuelle et fondée sur le genre, de torture et d’emprisonnement dans le contexte des détentions généralisées et systématiques auxquelles s’est livré le régime, et demandant immédiatement que cessent la torture, les autres peines ou traitements cruels, inhumains ou dégradants et les violences sexuelles et fondées sur le genre dans les lieux de détention, que cesse toute forme de détention au secret et que soient libérées toutes les personnes détenues arbitrairement, que toutes les mesures possibles soient prises, en vertu de la résolution <a href="https://undocs.org/fr/S/RES/2474(2019)">2474 (2019)</a> du Conseil de sécurité en date du 11 juin 2019, pour rechercher les personnes détenues ou disparues et révéler leur sort, et que soit poursuivie la mise en place d’un canal de communication efficace avec les familles pour veiller à ce que leurs besoins juridiques, économiques et psychologiques soient dûment pris en compte, comme expliqué dans le dernier rapport de la Commission d’enquête<authorialNote marker="45" placement="bottom" eId="authorialNote_45"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/45/31">A/HRC/45/31</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Exhortant" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Exhortant</span> le régime syrien à remettre aux familles les dépouilles de leurs proches dont le sort est connu, y compris ceux qui ont été sommairement exécutés, à prendre immédiatement toutes les mesures qui s’imposent pour protéger les vies et les droits de toutes les personnes en détention ou portées disparues, et à faire connaître ce qu’il est advenu des personnes disparues ou se trouvant toujours en détention, conformément aux dispositions de la résolution <a href="https://undocs.org/fr/S/RES/2474(2019)">2474 (2019)</a> du Conseil de sécurité en date du 11 juin 2019, nombre d’entre elles étant encore détenues et très vulnérables face à la COVID‑19 en raison de la surpopulation et de problèmes de santé préexistants, tels que la malnutrition généralisée et la tuberculose, en dépit des appels lancés par le Secrétaire général, l’Envoyé spécial et la communauté internationale pour une remise en liberté à grande échelle des personnes détenues en République arabe syrienne afin d’atténuer la propagation du virus,</p>
+      </container>
+      <container name="Saluant" eId="container_43">
+        <p xml:space="preserve">
+          <span class="italic">	Saluant</span> la résolution <a href="https://undocs.org/fr/S/RES/2475(2019)">2475 (2019)</a> du Conseil de sécurité, en date du 20 juin 2019, sur la situation des personnes handicapées dans le contexte des conflits armés, se déclarant gravement préoccupé par les conséquences disproportionnées des conflits armés sur les personnes handicapées, qui sont, notamment, abandonnées, soumises à des violences et privées d’accès aux services de base, soulignant que toutes les populations civiles touchées ont besoin de protection et d’assistance, et insistant sur la nécessité de prendre en compte les besoins particuliers des personnes handicapées dans les interventions humanitaires relatives au conflit syrien,</p>
+      </container>
+      <container name="Exprimant sa profonde gratitude" eId="container_44">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant sa profonde gratitude</span> aux pays voisins et aux autres pays de la région qui ont consenti des efforts considérables pour accueillir des Syriens, tout en étant consciente des répercussions financières, socioéconomiques et politiques croissantes que la présence de ce grand nombre de réfugiés et de déplacés a dans ces pays,</p>
+      </container>
+      <container name="Se félicitant" eId="container_45">
+          <p xml:space="preserve">
+            <span class="italic">	Se félicitant </span>des efforts que font l’Organisation des Nations Unies et la Ligue des États arabes et de l’action diplomatique qui est menée en vue de trouver une solution politique à la crise fondée sur le communiqué final du Groupe d’action pour la Syrie en date du 30 juin 2012 et conformément à la résolution <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a> du Conseil de sécurité,</p>
+      </container>
+      <container name="Exprimant son plein appui" eId="container_46">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant son plein appui</span> à l’action menée par l’Envoyé spécial du Secrétaire général pour la Syrie afin de protéger la population civile et d’assurer la pleine application du processus politique syrien visant à mettre en place une gouvernance crédible, inclusive et non sectaire, conformément au communiqué final et aux résolutions <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a> et <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a> du Conseil de sécurité, exhortant les parties syriennes à collaborer de manière constructive avec la Commission constitutionnelle afin de permettre la négociation d’une transition politique véritable, notant avec satisfaction, à la suite du Conseil de sécurité dans sa résolution <a href="https://undocs.org/fr/S/RES/2336(2016)">2336 (2016)</a>, l’action de médiation entreprise pour faciliter l’instauration d’un cessez-le-feu en République arabe syrienne, et appuyant les efforts déployés pour mettre fin à la violence, tout en se déclarant vivement préoccupée par les violations, exigeant le respect de leurs engagements par toutes les parties au cessez-le-feu en République arabe syrienne, et exhortant tous les États Membres, en particulier les membres du Groupe international de soutien pour la Syrie, à user de leur influence pour assurer le respect de ces engagements et la pleine application de ces résolutions, à appuyer les efforts visant à créer les conditions propices à un cessez-le-feu durable, ce qui est essentiel pour trouver une solution politique au conflit en République arabe syrienne et mettre fin aux violations systématiques, généralisées et flagrantes des droits humains, aux atteintes à ces droits ainsi qu’aux violations du droit international humanitaire,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement </span>les violations systématiques, généralisées et flagrantes du droit international des droits de l’homme, les atteintes à ce droit et les violations du droit international humanitaire commises en République arabe syrienne et toutes les attaques sans discrimination et disproportionnées contre la population civile et contre des infrastructures civiles, en particulier celles dirigées contre des installations médicales et des écoles, qui continuent de faire des victimes parmi les civils, et exige de toutes les parties qu’elles s’acquittent des obligations que leur fait le droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Déplore et condamne dans les termes les plus énergiques</span> la poursuite de la violence armée par le régime syrien contre le peuple syrien depuis le début des manifestations pacifiques en 2011, et exige que le régime syrien mette fin sans tarder à toutes les attaques contre les civils, prenne toutes les précautions possibles pour éviter et en tout cas réduire au minimum les pertes accidentelles en vies humaines parmi la population, les blessures qui pourraient être causées aux civils et les dommages occasionnés aux biens de caractère civil, s’acquitte de sa responsabilité de protéger la population syrienne et mette immédiatement à exécution les résolutions <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a> et <a href="https://undocs.org/fr/S/RES/2286(2016)">2286 (2016)</a> du Conseil de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>tous les États Membres, en particulier les membres du Groupe international de soutien pour la Syrie, à créer les conditions propices à la poursuite des négociations en vue d’un règlement politique du conflit dans le pays sous les auspices de l’Organisation des Nations Unies, en facilitant l’instauration d’un cessez-le-feu à l’échelon national, pour permettre l’acheminement sûr, complet, immédiat, sans entrave et continu de l’aide humanitaire, aboutir à la libération des personnes détenues arbitrairement et déterminer le nombre de personnes qui restent en prison, conformément à la résolution <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a> du Conseil de sécurité, sachant que seule une solution politique durable et sans exclusive au conflit peut mettre fin aux violations systématiques, généralisées et flagrantes du droit international des droits de l’homme, aux atteintes à ce droit ainsi qu’aux violations du droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> tout emploi d’armes chimiques, comme le chlore, le sarin et la moutarde au soufre, par quelque partie au conflit que ce soit, en République arabe syrienne, souligne que la mise au point, la production, l’acquisition, le stockage, la conservation, le transfert ou l’emploi d’armes chimiques en tout lieu et à tout moment, par quiconque, en toutes circonstances, est inadmissible, constitue l’un des crimes les plus graves au regard du droit international et une violation de la Convention sur l’interdiction de la mise au point, de la fabrication, du stockage et de l’emploi des armes chimiques et sur leur destruction et de la résolution <a href="https://undocs.org/fr/S/RES/2118(2013)">2118 (2013)</a> du Conseil de sécurité, et exprime sa ferme conviction que les personnes responsables de la mise au point, de la production, de l’acquisition, du stockage, de la conservation, du transfert ou de l’emploi d’armes chimiques doivent et devraient répondre de leurs actes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>que le régime syrien et l’EIIL (également appelé Daech) renoncent immédiatement à employer de nouveau des armes chimiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de la création et de la mise en service de l’Équipe d’enquête et d’identification de l’Organisation pour l’interdiction des armes chimiques, qui est autorisée à identifier les personnes responsables de l’emploi d’armes chimiques en République arabe syrienne et qui contribue ainsi grandement à l’objectif ultime, à savoir amener les auteurs de ces actes à en répondre, et, à cet égard, se félicite également du mémorandum d’accord conclu entre le Mécanisme international, impartial et indépendant chargé de faciliter les enquêtes sur les violations les plus graves du droit international commises en République arabe syrienne depuis mars 2011 et d’aider à juger les personnes qui en sont responsables et l’Organisation pour l’interdiction des armes chimiques et de la collaboration entre eux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> la publication de la circulaire du Secrétaire général sur les dossiers et les archives du Mécanisme d’enquête conjoint de l’Organisation pour l’interdiction des armes chimiques et de l’Organisation des Nations Unies, et appelle le Secrétaire général, les États Membres et les autres acteurs concernés à veiller à ce que les éléments d’information utiles soient traités promptement afin d’être communiqués au Mécanisme international, impartial et indépendant dans les meilleurs délais ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> du régime syrien qu’il s’acquitte pleinement de ses obligations internationales, y compris celle de déclarer l’intégralité de son programme d’armes chimiques, en mettant l’accent sur la nécessité pour la République arabe syrienne de remédier de toute urgence aux lacunes, incohérences et contradictions relevées au regard de sa déclaration sous le régime de la Convention sur l’interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction, et d’éliminer totalement son programme d’armes chimiques<authorialNote marker="46" placement="bottom" eId="authorialNote_46"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/S/RES/2118(2013)">2118 (2013)</a> du Conseil de sécurité, annexe I.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> que le Conseil exécutif de l’Organisation pour l’interdiction des armes chimiques envisage des procédures supplémentaires de vérification rigoureuse à suivre en application du paragraphe 8 de l’article IV et du paragraphe 10 de l’article V de la Convention, afin de confirmer le démantèlement complet du programme d’armes chimiques en Syrie et de prévenir tout nouvel emploi d’armes chimiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">Déplore et condamne dans les termes les plus énergiques</span> la poursuite des violations flagrantes généralisées et systématiques des droits humains et des libertés fondamentales et des atteintes à ceux-ci et toutes les violations du droit international humanitaire commises par le régime syrien, les milices progouvernementales et ceux qui combattent en leur nom, comme les attaques dirigées contre la population civile ou les biens de caractère civil, les attaques contre les écoles, les hôpitaux, les points de ravitaillement en eau et les lieux de culte, les attaques sans discrimination au moyen d’armes lourdes, de raids aériens, d’armes à sous-munitions, de missiles balistiques, de barils d’explosifs, d’armes chimiques et d’autres types d’armes, et les autres emplois de la force contre les civils, ainsi que l’utilisation de la famine comme arme de guerre, les massacres, les exécutions arbitraires, les exécutions extrajudiciaires, les meurtres de manifestants pacifiques, de défenseurs des droits humains et de journalistes, de personnes et de membres des communautés en raison de leur religion ou de leurs convictions, les détentions arbitraires, les disparitions forcées, le déplacement forcé des membres de groupes minoritaires et des opposants au régime syrien, les obstacles posés illégalement à l’accès aux soins médicaux, le non-respect et la non-protection du personnel médical, la torture, les violences sexuelles et fondées sur le genre systématiques, dont les viols dans les centres de détention, les mauvais traitements, d’autres violations des droits humains et atteintes à ces droits, y compris à l’égard des femmes et des enfants, et les violations du droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">Condamne sans équivoque</span> toutes les attaques et tous les actes de violence visant les journalistes et les professionnels des médias commis par le régime syrien, les milices progouvernementales et des groupes armés non étatiques, demande instamment à toutes les parties au conflit de respecter l’indépendance professionnelle et les droits des journalistes, et rappelle à cet égard que les journalistes et les professionnels des médias qui sont dépêchés dans des zones de conflit armé dans le cadre de missions professionnelles dangereuses doivent être considérés comme des civils et être respectés et protégés comme tels, dès lors qu’ils ne remettent pas en cause par leurs actes leur statut de civils ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">Condamne vivement</span> toutes les violations des droits humains et atteintes à ces droits et toutes les violations du droit international humanitaire, y compris le meurtre et la persécution des personnes ou des membres des communautés en raison de leur religion ou de leurs convictions, commis par des acteurs armés non étatiques, ainsi que toutes les atteintes aux droits humains et violations du droit international humanitaire perpétrées par des groupes armés non étatiques, y compris le Hezbollah et les groupes que le Conseil de sécurité a qualifiés de terroristes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="italic">Déplore et condamne énergiquement</span> les actes terroristes et la violence dirigés contre les civils par l’EIIL (également appelé Daech), Hay’at Tahrir el‑Cham (anciennement dénommé Front el‑Nosra), les groupes terroristes affiliés à Al‑Qaida, les groupes que le Conseil de sécurité a qualifiés de terroristes, comme Hourras el‑Din, et tous les autres groupes extrémistes violents, ainsi que les atteintes aux droits humains et les violations du droit international humanitaire flagrantes, systématiques et généralisées auxquelles ils ne cessent de se livrer, et réaffirme que le terrorisme ne peut ni ne doit être associé à aucune religion, à aucun genre, à aucune ethnie, à aucune nationalité ni à aucune civilisation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Condamne dans les termes les plus énergiques</span> les atteintes flagrantes et systématiques aux droits des femmes et des enfants commises par les groupes terroristes et armés, y compris l’EIIL (également appelé Daech), en particulier les meurtres de femmes et de filles, les actes de violence sexuelle et fondée sur le genre, y compris l’esclavage et l’exploitation et les atteintes sexuelles dont sont victimes les femmes et les filles, et l’enrôlement, l’utilisation et l’enlèvement d’enfants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="italic">Condamne</span> les déplacements forcés qui auraient eu lieu en République arabe syrienne, y compris les déplacements forcés de civils à la suite des trêves locales, dont a fait état la Commission d’enquête internationale indépendante, et leurs conséquences alarmantes pour la démographie du pays, qui subit une transformation radicale du fait de la stratégie menée par le régime syrien, ses alliés et d’autres acteurs non étatiques, demande à toutes les parties concernées de cesser immédiatement toutes activités liées à ces actes, notamment toute activité qui peut constituer un crime de guerre ou un crime contre l’humanité, déclare qu’il est inadmissible que ces crimes restent impunis, réaffirme que ceux qui ont commis ces violations du droit international doivent être traduits en justice, et soutient toute action visant à collecter des éléments de preuve qui pourront servir lors de futures poursuites judiciaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_167__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe d’instaurer des conditions propices au retour dans la sécurité, dans la dignité et en pleine connaissance de cause des personnes déplacées en République arabe syrienne, et exhorte fermement toutes les parties à collaborer avec l’Organisation des Nations Unies pour veiller à ce que ces retours soient conformes aux Principes directeurs relatifs au déplacement de personnes à l’intérieur de leur propre pays<authorialNote marker="47" placement="bottom" eId="authorialNote_47"><p xml:space="preserve">		<a href="https://undocs.org/fr/E/CN.4/1998/53Add.2">E/CN.4/1998/53Add.2</a>, annexe.</p></authorialNote> et que les personnes déplacées reçoivent les informations dont elles ont besoin pour prendre de leur propre gré des décisions éclairées au sujet de leurs déplacements et de leur sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="italic">Condamne</span> les déplacements forcés qui ont été signalés en République arabe syrienne, se déclare gravement préoccupée par les informations faisant état de transformations sociales et démographiques dans certaines zones du pays, et demande aux parties concernées de cesser toutes activités allant en ce sens, notamment toute activité qui peut constituer un crime de guerre ou un crime contre l’humanité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> au Gouvernement syrien les obligations que lui impose la Convention contre la torture et autres peines ou traitements cruels, inhumains ou dégradants<authorialNote marker="48" placement="bottom" eId="authorialNote_48"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1465, n<sup>o</sup> 24841.</p></authorialNote>, notamment celle de prendre des mesures efficaces pour empêcher que des actes de torture soient commis sur tout territoire relevant de sa juridiction, et demande à tous les États parties à la Convention de s’acquitter de toutes les obligations qui en découlent, y compris celle d’extrader ou d’engager des poursuites, énoncée à l’article 7 de la Convention ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Rapporteuse spéciale sur les droits humains des personnes déplacées dans leur propre pays et le Haut-Commissariat des Nations Unies pour les réfugiés à rester saisis des questions urgentes relatives aux droits humains et à la situation humanitaire des personnes déplacées en République arabe syrienne, en vue d’aider les États Membres, l’Organisation des Nations Unies, y compris le Groupe de haut niveau chargé de la question des déplacements internes établi par le Secrétaire général, et d’autres acteurs humanitaires et défenseurs des droits humains à renforcer leurs interventions face aux déplacements internes en République arabe syrienne, à s’employer à déterminer des solutions durables pour les personnes déplacées, à réduire les écarts considérables entre les besoins et les moyens disponibles, à améliorer la collecte et la coordination des données sur le déplacement, y compris en ce qui concerne les enfants déplacés, et à dispenser une aide plus efficace au moyen de programmes bien planifiés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="italic">Déplore</span> que les points de passage de Bab el‑Salam et Yaaroubiyé restent fermés à l’acheminement transfrontalier de l’aide humanitaire, et engage instamment le Conseil de sécurité à autoriser de nouveau l’accès par ces points de passage et à continuer d’envisager d’en ouvrir d’autres afin de répondre aux besoins humanitaires, qui, selon l’Organisation des Nations Unies, ont augmenté de 38 pour cent dans le nord-est de la République arabe syrienne rien que depuis la fermeture du point de passage de Yaaroubiyé, souligne que plus de 6,9 millions de personnes vivent dans des zones qui ne sont pas contrôlées par le régime syrien et que 5,3 millions de personnes ont besoin d’une aide humanitaire dans le nord-est et le nord-ouest du pays, et a conscience de l’effet multiplicateur de la pandémie de COVID‑19 et du fait que le mécanisme transfrontière reste un dispositif indispensable pour faire face aux besoins humanitaires de la population et notamment lui fournir des vaccins et des fournitures permettant de lutter contre la pandémie de COVID‑19, ce que les opérations actuelles en République arabe syrienne ne permettent pas de faire de manière adéquate, l’assistance acheminée à travers les lignes de front étant limitée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> du régime syrien et de toutes les autres parties au conflit qu’ils n’entravent pas l’accès sûr, total, rapide, immédiat, sans restriction et continu des organismes humanitaires, et demande que l’acheminement de l’aide humanitaire à travers les frontières continue d’être facilité après juillet 2022 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_278" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_278__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> le recours constant et généralisé à la violence et aux atteintes et à l’exploitation sexuelles et fondées sur le genre, notamment dans les centres de détention de l’État, y compris ceux qui sont gérés par les services de renseignement, note que ces actes peuvent constituer des violations du droit international humanitaire et des violations du droit international des droits de l’homme ou des atteintes à ces droits et, à cet égard, se déclare profondément préoccupée par le climat d’impunité qui entoure les crimes de violence sexuelle et fondée sur le genre, demande instamment à toutes les parties au conflit, en particulier au régime syrien, de cesser immédiatement de commettre des actes de violence sexuelle et fondée sur le genre, et exhorte le régime syrien à veiller à ce que les victimes et les rescapés d’actes de violence sexuelle et fondée sur le genre puissent recevoir un soutien complet et disposent de voies de recours pour obtenir réparation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">Condamne de même fermement </span>toutes les violations du droit international applicable et exactions commises sur la personne d’enfants au mépris du droit international applicable, qu’il s’agisse d’enrôlement et d’utilisation, de meurtre ou de mutilation, de viol ou de toute autre forme de violence sexuelle et fondée sur le genre, d’enlèvement ou de déni d’accès à l’aide humanitaire et à l’éducation, d’attaques contre des biens à caractère civil comme les écoles et les hôpitaux, ou d’arrestation arbitraire, de détention illicite ou d’actes de torture et de mauvais traitements, ainsi que leur utilisation comme boucliers humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_323" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_323__content">
+          <p xml:space="preserve">	<span class="italic">Se dit gravement préoccupée</span> par la privation de liberté à laquelle sont soumis des enfants qui ont été ou auraient été associés à des groupes ou forces armés, et demande instamment au régime syrien de respecter les obligations qui lui incombent en vertu de la Convention relative aux droits de l’enfant, lorsqu’il y a lieu, en particulier celle qui veut que l’arrestation, la détention ou l’emprisonnement d’un enfant ne doive être utilisé qu’en dernier ressort et pour une durée aussi brève que possible et que, dans toutes les décisions concernant les enfants, l’intérêt supérieur de l’enfant doive être une considération primordiale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> la responsabilité du régime syrien dans le recours systématique aux disparitions forcées, prend note du fait que la Commission d’enquête considère que le recours aux disparitions forcées par le régime syrien constitue un crime contre l’humanité, et condamne les disparitions forcées de jeunes hommes et de garçons et le fait de mettre à profit les cessez-le-feu pour enrôler ces personnes de force et les détenir arbitrairement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="italic">Prend note avec une vive préoccupation</span> du rapport publié par la Commission d’enquête en mars 2021 et des observations que celle-ci a formulées, selon lesquelles toutes les parties au conflit, et en particulier les forces de sécurité du régime syrien, ont délibérément causé des disparitions forcées à grande échelle tout au long des 10 dernières années ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_398" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_398__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare profondément préoccupée</span> par le fait que, d’après les conclusions récentes de la Commission d’enquête, les forces du régime syrien continuent délibérément de garder le silence sur le sort des personnes disparues, prolongeant ainsi intentionnellement les souffrances de centaines de milliers de proches de ces personnes, ce qui est d’autant plus inquiétant que d’après les éléments dont on dispose, le régime syrien administre les détentions de façon très précise et centralisée, notamment au moyen de registres où sont inscrits l’identité des personnes détenues et leur lieu de détention, note l’intérêt que peuvent présenter ces renseignements pour les proches de personnes disparues, y compris de victimes de disparition forcée, et demande au régime syrien de communiquer aux familles des informations sur leurs proches détenus, portés disparus ou victimes de disparitions forcées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_425" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_425__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> toutes les parties au conflit à collaborer davantage avec l’Envoyé spécial du Secrétaire général pour accélérer la remise en liberté de toutes les personnes détenues arbitrairement par le régime syrien et progresser sur la question des personnes disparues ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_453" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_453__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> du régime syrien, conformément aux obligations que lui imposent les dispositions pertinentes du droit international des droits de l’homme et du droit international humanitaire, qu’il favorise l’accès sans discrimination aux services de santé et respecte et protège les blessés, les malades et le personnel médical et sanitaire contre toute entrave, menace ou attaque physique, et note avec préoccupation que l’accès aux services de santé est limité dans le contexte de la COVID‑19, en particulier dans le nord de la République arabe syrienne où les réseaux de santé ont été gravement endommagés et, dans bien des endroits, détruits par les attaques aériennes du régime et de ses alliés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_482" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_482__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> toute attaque dirigée contre les blessés, les malades et le personnel médical et sanitaire, contre les moyens de transport et le matériel que celui‑ci utilise et contre les hôpitaux et autres installations médicales, déplore les répercussions que ces attaques ont à terme sur la population et sur le système de santé de la République arabe syrienne, et réaffirme les obligations imposées par le droit international humanitaire en ce qui concerne la protection du personnel médical et des agents humanitaires, de leurs moyens de transport et de leur matériel ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_512" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_512__content">
+          <p xml:space="preserve">	<span class="italic">Condamne de même fermement</span> le fait de prendre pour cible des agents humanitaires et des personnes exerçant des fonctions médicales, leurs moyens de transport et leur matériel, des hôpitaux et d’autres installations médicales, qui peut constituer des crimes de guerre, et notamment l’attaque menée le 21 mars 2021 contre l’hôpital souterrain d’Atareb, qui figure sur la liste de déconfliction, et l’attentat terroriste qui a visé l’hôpital Chifa le 12 juin 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_543" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_543__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>toutes les parties au conflit à élaborer des mesures efficaces pour prévenir les actes de violence, les attaques et les menaces d’attaque contre les personnes malades ou blessées, les personnes déplacées, le personnel médical et les agents humanitaires, les hôpitaux et autres installations médicales, y compris en menant des enquêtes intégrales, rapides, impartiales et efficaces afin d’amener les auteurs de ces actes à en répondre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_575" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_575__content">
+          <p xml:space="preserve">	<span class="italic">Exprime sa vive préoccupation</span> au sujet des conclusions figurant dans le rapport de juillet 2020 de la Commission d’enquête selon lesquelles au moins 1 500 attaques aériennes ont été menées, principalement au moyen de missiles air-sol et de barils d’explosifs, dans le sud-est d’Edleb et dans l’ouest d’Alep entre le 1<sup>er</sup> novembre 2019 et le 5 mars 2020, endommageant des installations médicales, des écoles et des marchés et tuant des civils, et de celles selon lesquelles il y a des « raisons plausibles de croire que les forces progouvernementales ont commis des crimes de guerre en menant délibérément des attaques aériennes contre le personnel médical et les installations médicales » et en se livrant à « des attaques aveugles qui ont fait des morts et des blessés parmi les civils » et causé le déplacement de plus de 560 000 habitants du nord-ouest d’Edleb, qui sont venus s’ajouter au plus de la moitié des 2,5 millions de personnes habitant à Edleb qui ont déjà été déplacées depuis le début du conflit, souvent à maintes reprises, insiste sur le fait que la situation à Edleb est particulièrement préoccupante, exprime son appui à l’accord de cessation des hostilités actuellement en vigueur en vue d’éviter une nouvelle catastrophe humanitaire, et demande aux garants de l’accord de veiller à ce que le cessez-le-feu soit respecté et à ce qu’un accès humanitaire sans entrave soit accordé de manière sûre, intégrale, rapide et durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_608" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_608__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> du régime syrien qu’il coopère pleinement avec la Commission d’enquête, notamment en lui accordant un accès immédiat, total, sûr, sans entrave et continu à l’ensemble du territoire syrien ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_642" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_642__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> l’intervention en République arabe syrienne de tous les combattants terroristes étrangers et des organisations et forces étrangères qui combattent pour le compte du régime syrien, constate avec une vive préoccupation que leur implication contribue à la dégradation de la situation dans ce pays, notamment sur les plans humanitaire et des droits humains, ce qui a de graves répercussions dans la région, et exige de nouveau de tous les combattants terroristes étrangers et de ceux qui appuient le régime syrien, y compris de toutes les milices financées par des gouvernements étrangers, qu’ils se retirent immédiatement de la République arabe syrienne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_677" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_677__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>de toutes les parties qu’elles mettent immédiatement un terme à toutes les violations du droit international des droits de l’homme, atteintes à ces droits et violations du droit international humanitaire, rappelle en particulier que le droit international humanitaire impose de faire la distinction entre civils et combattants et interdit de mener des attaques aveugles et disproportionnées ou des attaques contre les civils et les objets civils, exige en outre de toutes les parties au conflit qu’elles prennent, conformément au droit international, toutes les mesures nécessaires pour protéger les civils, notamment en cessant de viser des objets civils tels que centres médicaux, écoles et points de ravitaillement en eau, qu’elles s’abstiennent de militariser ces installations, qu’elles cherchent à éviter d’établir des positions militaires dans des zones densément habitées et qu’elles permettent l’évacuation des blessés et autorisent tous les civils qui le souhaitent à quitter les zones de conflit, y compris les zones assiégées, et rappelle à cet égard qu’il incombe au premier chef au régime syrien de protéger sa population ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_713" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_713__content">
+          <p xml:space="preserve">	<span class="italic">Condamne dans les termes les plus énergiques</span> toutes les attaques dirigées contre des biens protégés en République arabe syrienne, notamment les attaques aveugles et disproportionnées, ainsi que celles qui peuvent constituer des crimes de guerre, demande à la Commission d’enquête de continuer d’enquêter sur tous ces actes, et exige du régime syrien qu’il s’acquitte de sa responsabilité de protéger la population syrienne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_750" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_750__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> du régime syrien qu’il cesse immédiatement toute attaque contre les civils, toute attaque disproportionnée et tout emploi aveugle d’armes dans des zones habitées, et rappelle à cet égard l’obligation de respecter le droit international humanitaire en toutes circonstances ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_788" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_788__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> la nécessité d’établir les responsabilités pour les crimes commis en République arabe syrienne depuis mars 2011 en violation du droit international, en particulier du droit international humanitaire et du droit international des droits de l’homme, dont certains peuvent constituer des crimes de guerre ou des crimes contre l’humanité, au moyen d’enquêtes et de poursuites équitables et indépendantes menées à l’échelon national ou international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_827" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_827__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> au Mécanisme international, impartial et indépendant d’établir, à partir de sa soixante-quinzième session, tout en préservant le caractère confidentiel des travaux de fond du Mécanisme, un rapport annuel sur l’exécution du mandat du Mécanisme, suffisamment tôt de manière que la Chef du Mécanisme puisse le lui présenter au mois d’avril, à une séance plénière, au titre du point de l’ordre du jour intitulé « Prévention des conflits armés » ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_867" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_867__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des mesures prises par le Mécanisme international, impartial et indépendant pour participer à la recherche des personnes disparues dans le contexte syrien, dont il fait état dans les rapports qu’il lui soumet, et l’encourage à trouver des moyens supplémentaires de contribuer à cette entreprise ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_908" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_908__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> que le financement total du Mécanisme international, impartial et indépendant ait été inscrit dans le projet de budget du Secrétaire général pour 2020, conformément à sa résolution <a href="https://undocs.org/fr/A/RES/73/182">73/182</a>, et souligne qu’il importe d’appliquer intégralement ses décisions antérieures sur le financement du Mécanisme pour faire en sorte qu’il puisse fonctionner à plein effectif et dans les meilleurs délais ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_950" class="MercuryDocument">
+        <num>43.</num>
+        <content eId="para_950__content">
+          <p xml:space="preserve">	<span class="italic">Insiste</span> sur la nécessité de faire en sorte que tous les auteurs de violations du droit international humanitaire ou du droit des droits de l’homme en répondent dans le cadre de mécanismes équitables et indépendants de justice pénale, nationaux ou internationaux, souligne qu’il faut prendre des mesures concrètes pour atteindre cet objectif et, à cette fin, invite le Conseil de sécurité à prendre les mesures voulues pour faire appliquer le principe de responsabilité, en notant le rôle important que la Cour internationale de Justice peut jouer à cet égard conformément au principe de complémentarité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_993" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_993__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des efforts déployés par certains États pour enquêter sur les agissements commis en République arabe syrienne et ouvrir des poursuites pour les crimes relevant de leur juridiction qui ont été perpétrés dans ce pays, les engage à continuer dans cette voie et à échanger entre eux des éléments d’information utiles, conformément à leur droit interne et au droit international, et engage les autres États à envisager de faire de même ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1037" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_1037__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment </span>à la Commission d’enquête de lui présenter son dernier rapport en date lors d’un dialogue interactif tenu à sa soixante-dix-septième session sur la situation relative aux droits humains en République arabe syrienne, et engage l’Organisation des Nations Unies à surveiller la situation et à en rendre compte pour réunir davantage d’éléments sur les violations du droit international humanitaire et les violations des droits humains et les atteintes à ces droits, y compris ceux qui peuvent constituer des crimes contre l’humanité et des crimes de guerre, de formuler des recommandations visant à renforcer la protection des civils et les mesures de responsabilisation et de faire entendre les témoignages des défenseurs des droits humains, des rescapés d’actes de torture et de violence sexuelle et fondée sur le genre et d’anciens détenus en République arabe syrienne ainsi que d’autres voix syriennes, par des moyens appropriés et sûrs, sous réserve du consentement éclairé des personnes concernées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1082" class="MercuryDocument">
+        <num>46.</num>
+        <content eId="para_1082__content">
+          <p xml:space="preserve">	<span class="italic">Déplore</span> la détérioration de la situation humanitaire en République arabe syrienne, et exhorte la communauté internationale à assumer ses responsabilités et à fournir de toute urgence aux pays et aux communautés d’accueil le soutien financier dont ils ont besoin pour répondre aux besoins humanitaires croissants des réfugiés syriens, tout en insistant sur l’importance du partage de la charge ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1128" class="MercuryDocument">
+        <num>47.</num>
+        <content eId="para_1128__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à tous les membres de la communauté internationale, y compris tous les donateurs, d’honorer leurs promesses et de continuer de fournir à l’Organisation des Nations Unies, aux institutions spécialisées et aux autres acteurs humanitaires l’appui dont ils ont cruellement besoin pour apporter une assistance humanitaire et médicale aux millions de Syriens qui sont dans le besoin, y compris ceux qui sont déplacés à l’intérieur du pays ou qui ont trouvé refuge dans un pays ou une communauté d’accueil ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1175" class="MercuryDocument">
+        <num>48.</num>
+        <content eId="para_1175__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite </span>des mesures prises et des politiques adoptées par des pays extérieurs à la région concernant l’accueil des réfugiés syriens et l’aide qui leur est fournie, engage ces pays à intensifier encore leurs efforts, exhorte les autres États extérieurs à la région à envisager d’adopter des mesures et des politiques semblables, également dans l’optique d’assurer la protection des réfugiés syriens et de leur fournir une assistance humanitaire, constate qu’il faut améliorer les conditions sur le terrain pour faciliter le retour librement consenti, en toute connaissance de cause, dans la sécurité et la dignité, des réfugiés dans leurs lieux d’origine ou à un autre endroit de leur choix et prend note des conclusions récentes de la Commission d’enquête selon lesquelles la République arabe syrienne n’offre pas encore de conditions sûres et stables permettant le retour durable dans la dignité des réfugiés et des 6,7 millions de personnes déplacées dans le pays ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1223" class="MercuryDocument">
+        <num>49.</num>
+        <content eId="para_1223__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> le refus délibéré, par quelque partie que ce soit, de l’apport d’une aide humanitaire aux civils, en particulier la pratique consistant à priver des zones civiles de soins médicaux et de services d’eau et d’assainissement, qui s’est récemment aggravée, en soulignant que l’utilisation de la famine comme arme de guerre est interdite par le droit international et en notant en particulier la responsabilité principale du Gouvernement de la République arabe syrienne à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1272" class="MercuryDocument">
+        <num>50.</num>
+        <content eId="para_1272__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> que le régime syrien et toutes les autres parties au conflit garantissent le plein accès immédiat, sans entrave et continu, sans restriction et en toute sécurité, de l’Organisation des Nations Unies et des intervenants humanitaires aux zones assiégées ou difficiles d’accès, comme Roukban, que le régime syrien cesse d’entraver la capacité de l’Organisation des Nations Unies et des intervenants humanitaires de se déplacer à travers le nord-est de la République arabe syrienne et au‑delà, compte tenu en particulier de la restriction de l’espace humanitaire et de l’aggravation de la situation humanitaire dues au fait que l’accès par le point de passage de Yaaroubiyé n’est toujours pas autorisé, aux termes des résolutions <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533 (2020)</a> et <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> du Conseil de sécurité, et que toutes les parties au conflit maintiennent le point de passage de Fich Khabour et d’autres points de passage le long de la frontière entre la Turquie et la République arabe syrienne et permettent l’acheminement de l’aide humanitaire aux personnes qui en ont besoin dans toute la République arabe syrienne, y compris par les voies commerciales, en conformité avec les résolutions <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2332(2016)">2332 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2393(2017)">2393 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2401(2018)">2401 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2449(2018)">2449 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533 (2020)</a> et <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> du Conseil de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1322" class="MercuryDocument">
+        <num>51.</num>
+        <content eId="para_1322__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> les pratiques comme les enlèvements, les prises d’otages, les détentions arbitraires, les actes de torture et les meurtres de civils perpétrés par des groupes armés non étatiques et groupes que le Conseil de sécurité a qualifiés de terroristes, et surtout par Hay’at Tahrir el‑Cham (anciennement dénommé Front el‑Nosra), l’EIIL (également appelé Daech) et les groupes affiliés à Al‑Qaida comme Hourras el‑Din, et souligne que ces actes peuvent constituer des crimes contre l’humanité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1373" class="MercuryDocument">
+        <num>52.</num>
+        <content eId="para_1373__content">
+          <p xml:space="preserve">	<span class="italic">Déplore</span> les souffrances et les tortures infligées dans les centres de détention de toute la République arabe syrienne, ainsi qu’il ressort des rapports de la Commission d’enquête et du Haut-Commissariat des Nations Unies aux droits de l’homme, des éléments de preuve produits par « César » en janvier 2014 et des informations faisant état du meurtre en grand nombre de détenus perpétré dans les locaux du service de renseignement militaire syrien ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1425" class="MercuryDocument">
+        <num>53.</num>
+        <content eId="para_1425__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> les exécutions signalées de personnes détenues dans les locaux du renseignement militaire syrien, demande au régime syrien de libérer toutes les personnes détenues de manière illégale, y compris les femmes, les enfants et les personnes âgées, et de communiquer des informations sur les personnes qui sont toujours en détention et sur celles qui ont décédé alors qu’elles étaient détenues par le régime, en restituant les dépouilles et en faisant toute la transparence sur ce qui est arrivé à ces personnes, et engage instamment le régime syrien à renoncer immédiatement au recours odieux à la détention et à la torture de masse comme moyen de faire taire et de réprimer l’opposition politique, les journalistes et autres professionnels des médias et de priver les citoyens syriens de leur droit à la liberté d’expression ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1478" class="MercuryDocument">
+        <num>54.</num>
+        <content eId="para_1478__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> que les organes de suivi internationaux compétents soient autorisés à avoir accès aux détenus dans toutes les prisons et tous les centres de détention, y compris toutes les installations militaires mentionnées dans les rapports de la Commission d’enquête ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1532" class="MercuryDocument">
+        <num>55.</num>
+        <content eId="para_1532__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>à cet égard la libération immédiate de toutes les personnes détenues arbitrairement ou illégalement par le régime syrien, note en particulier les risques mortels supplémentaires pour la santé qui sont créés par la pandémie de COVID‑19 et le risque que la situation déjà tragique des détenus ne se dégrade encore, et prend note à cet égard des déclarations de la Haute-Commissaire des Nations Unies aux droits de l’homme, de l’Envoyé spécial et de la Commission d’enquête ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1587" class="MercuryDocument">
+        <num>56.</num>
+        <content eId="para_1587__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> de toutes les parties qu’elles prennent toutes les mesures nécessaires pour protéger les civils et les personnes hors de combat, notamment les membres des groupes nationaux, ethniques, religieux et linguistiques, et souligne à cet égard que la responsabilité de protéger la population incombe au premier chef au régime syrien ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1643" class="MercuryDocument">
+        <num>57.</num>
+        <content eId="para_1643__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> les destructions et dégâts causés au patrimoine culturel de la République arabe syrienne, en particulier à Palmyre et à Alep, ainsi que le pillage et le trafic organisés de biens culturels syriens, dont le Conseil de sécurité a fait état dans ses résolutions <a href="https://undocs.org/fr/S/RES/2199(2015)">2199 (2015)</a> du 12 février 2015 et <a href="https://undocs.org/fr/S/RES/2347(2017)">2347 (2017)</a> du 24 mars 2017, affirme que les attaques délibérées contre des monuments historiques peuvent constituer des crimes de guerre et souligne qu’il faut traduire en justice les auteurs de tels crimes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1700" class="MercuryDocument">
+        <num>58.</num>
+        <content eId="para_1700__content">
+          <p xml:space="preserve">	<span class="italic">Déplore</span> l’offensive militaire qui a été lancée dans la province d’Edleb et alentour en décembre 2019 et qui a causé d’innombrables pertes, déplacements et souffrances à la population civile et d’effroyables dégâts aux infrastructures civiles, rappelle les conclusions formulées à ce sujet par la Commission d’enquête établie par le Secrétaire général, prend note avec une vive préoccupation des conclusions récentes de la Commission d’enquête selon lesquelles il y a des raisons plausibles de croire que des crimes de guerre et des crimes contre l’humanité ont été commis lors de cette offensive, prend note également des observations de la Commission d’enquête concernant l’incidence de l’offensive militaire sur les femmes et demeure extrêmement préoccupée par la situation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1758" class="MercuryDocument">
+        <num>59.</num>
+        <content eId="para_1758__content">
+          <p xml:space="preserve">	<span class="italic">Prend note avec préoccupation </span>de l’insécurité persistante dans le nord-est de la République arabe syrienne, de l’augmentation notable des besoins humanitaires et de la restriction de l’espace humanitaire due au fait que l’accès par le point de passage de Yaaroubiyé n’est toujours pas autorisé aux termes des résolutions <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533 (2020)</a> et <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> du Conseil de sécurité, auxquelles s’ajoute le manque d’accès à l’eau et à l’électricité, ce qui continue de miner la stabilité et la sécurité de la région tout entière, compromet les progrès accomplis dans la lutte contre l’EIIL (également appelé Daech), aggrave la situation humanitaire et amoindrit la capacité des intervenants humanitaires de répondre aux besoins humanitaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1817" class="MercuryDocument">
+        <num>60.</num>
+        <content eId="para_1817__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que la situation dans le nord-ouest de la République arabe syrienne, en particulier à Edleb, est particulièrement préoccupante, condamne fermement les attaques contre les civils et les secouristes et contre les infrastructures civiles là où les violences, y compris les frappes aériennes, continuent de faire des morts et des blessés parmi les civils et les secouristes et des dégâts considérables aux infrastructures civiles, y compris les établissements de santé et d’éducation, et se félicite de la création de la commission d’enquête des Nations Unies chargée d’examiner les destructions et les dégâts subis par les installations inscrites sur la liste de déconfliction de l’Organisation des Nations Unies et par les installations bénéficiant du soutien de l’Organisation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1877" class="MercuryDocument">
+        <num>61.</num>
+        <content eId="para_1877__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare préoccupée</span> par les informations faisant état d’attaques contre des civils dans certaines zones, comme Deraa, qui avaient soutenu les manifestations pacifiques en 2011, par la situation de quasi-siège dans laquelle se trouve Deraa, qui a fait 40 000 déplacés et entraîné une pénurie aiguë de nourriture et de médicaments, et par les assassinats ciblés visant des responsables de la société civile, notamment d’anciens juges, des membres du personnel médical et des personnes participant aux négociations relatives à la réconciliation, notant que la présidence de la Commission d’enquête a signalé en juin 2021 qu’au moins 130 faits de ce type avaient été recensés entre juillet 2020 et avril 2021 et soulignant l’instabilité générale de la situation dans le pays ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1938" class="MercuryDocument">
+        <num>62.</num>
+        <content eId="para_1938__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare profondément préoccupée</span>, en particulier, par la récente augmentation de la violence dans le nord-ouest du pays, notamment par les frappes aériennes, et par les conséquences de cette violence sur les civils, notamment le fait qu’au moins 45 enfants auraient été tués ou blessés depuis le début du mois de juillet 2021, souligne qu’il est urgent de mettre immédiatement fin aux hostilités militaires à Edleb et dans les zones environnantes, de donner la priorité à la protection de tous les civils, y compris les personnes déplacées, et d’assurer l’accès plein et immédiat, en temps voulu, sans restriction et en toute sécurité de l’aide humanitaire, y compris à travers les frontières, rappelle le Protocole additionnel au Mémorandum sur la stabilisation de la situation dans la zone de désescalade d’Edleb, signé par la Fédération de Russie et la Turquie le 5 mars 2020, souligne qu’il importe de continuer de s’employer à favoriser une accalmie sur le terrain et de créer les conditions nécessaires au retour volontaire des personnes déplacées, en toute sécurité et dans la dignité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2000" class="MercuryDocument">
+        <num>63.</num>
+        <content eId="para_2000__content">
+          <p xml:space="preserve">	<span class="italic">Note </span>que la Commission d’enquête a recommandé la mise en place d’un mécanisme indépendant doté d’un mandat international qui serait chargé de coordonner et de regrouper les demandes concernant des personnes portées disparues, y compris les victimes de disparitions forcées, que le Secrétaire général lui a fait, le 30 mars 2021, un exposé dans lequel il a souligné le manque de progrès sur ces questions en l’absence de mandat international, et que le 24 septembre 2021, la Haute-Commissaire des Nations Unies aux droits de l’homme a approuvé le principe d’un mécanisme indépendant, et réaffirme qu’il importe à cet égard de ne pas altérer ou polluer les charniers en République arabe syrienne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2063" class="MercuryDocument">
+        <num>64.</num>
+        <content eId="para_2063__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général d’étudier les moyens de renforcer les efforts déployés, y compris dans le cadre des dispositions et mécanismes existants, afin de faire la lumière sur le sort des personnes disparues en République arabe syrienne et le lieu où elles se trouvent, d’identifier les dépouilles et d’apporter un soutien aux familles, en se concertant avec le Haut-Commissariat des Nations Unies aux droits de l’homme et en s’appuyant sur les recommandations de la Commission d’enquête, avec la participation pleine et entière des victimes, des survivants et de leur famille et en consultant les autres acteurs concernés, de lui présenter oralement un état de la situation d’ici au 1<sup>er</sup> mars 2022 et de lui présenter ensuite un rapport sur la question au premier semestre 2022 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2127" class="MercuryDocument">
+        <num>65.</num>
+        <content eId="para_2127__content">
+          <p xml:space="preserve">	<span class="italic">Engage </span>tous les États Membres, les organismes des Nations Unies concernés, les organisations internationales et les acteurs de la société civile à se coordonner plus avant et, dans une optique préventive, à accorder une attention particulière à la question des personnes disparues en République arabe syrienne, y compris les personnes soumises à une disparition forcée, et rappelle qu’il importe d’assurer la participation pleine et effective des victimes, des survivants et de leur famille à ces efforts ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2192" class="MercuryDocument">
+        <num>66.</num>
+        <content eId="para_2192__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment</span> à toutes les parties au conflit de prendre toutes les dispositions nécessaires pour assurer la sûreté et la sécurité du personnel des Nations Unies et du personnel associé, ainsi que du personnel des institutions spécialisées et de tous les autres acteurs humanitaires, y compris le personnel recruté sur les plans local et national, comme l’exige le droit international humanitaire, sans préjudice de leur liberté de circulation et d’accès, insiste sur la nécessité de ne pas bloquer ou entraver les efforts humanitaires, rappelle que les attaques contre les agents humanitaires peuvent constituer des crimes de guerre, et note à cet égard que le Conseil de sécurité a réaffirmé qu’il prendrait d’autres mesures en cas de non-respect de ses résolutions <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2234(2015)">2234 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2286(2016)">2286 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2393(2017)">2393 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2401(2018)">2401 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2449(2018)">2449 (2018)</a> et <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> par toute partie syrienne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2258" class="MercuryDocument">
+        <num>67.</num>
+        <content eId="para_2258__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> la communauté internationale de contribuer à faire en sorte que les femmes participent pleinement, effectivement et constructivement, y compris dans des rôles directeurs, aux efforts visant à trouver une solution politique à la crise, comme prévu par le Conseil de sécurité dans sa résolution <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a> et toutes ses résolutions ultérieures sur les femmes et la paix et la sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2325" class="MercuryDocument">
+        <num>68.</num>
+        <content eId="para_2325__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que la solution au conflit en République arabe syrienne ne peut être que politique, redit son attachement à l’unité nationale et à l’intégrité territoriale de la République arabe syrienne, et demande instamment aux parties au conflit de s’abstenir de tout acte susceptible d’aggraver encore la situation en matière de droits humains et de sécurité et sur le plan humanitaire, afin d’assurer une véritable transition politique, sur la base du communiqué final du Groupe d’action pour la Syrie en date du 30 juin 2012 et conformément aux résolutions <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2268(2016)">2268 (2016)</a> et <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> du Conseil de sécurité, qui réponde aux aspirations légitimes du peuple syrien à un État civil démocratique et pluraliste, sous l’impulsion et avec la participation pleine, égale et véritable de toutes les femmes, à tous les niveaux, d’où seraient exclus tout sectarisme et toute discrimination fondée sur l’origine ethnique, la religion, la langue, le genre ou tout autre motif et où toutes les personnes bénéficieraient d’une égale protection, sans distinction de sexe, de religion ou d’origine ethnique, et exige que toutes les parties s’emploient de toute urgence à appliquer dans son intégralité le communiqué final, notamment en mettant en place une autorité de transition inclusive dotée des pleins pouvoirs exécutifs, formée sur la base du consentement mutuel et assurant la continuité des institutions de l’État.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54e">54e séance plénière (reprise)</inline>
+        <eol />
+        <docDate date="2021-12-24" refersTo="#adoptionDate">24 décembre 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
