@@ -1,0 +1,932 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/"></FRBRuri>
+          <FRBRdate date="2021-12-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/ara@/"></FRBRuri>
+          <FRBRdate date="2022-01-10" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-24/76-228/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-20" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Organization for the Prohibition of Chemical Weapons" showAs="Organization for the Prohibition of Chemical Weapons" dictionary="DHLAUTH"></keyword>
+        <keyword value="Independent International Commission of Inquiry on the Syrian Arab Republic" showAs="Independent International Commission of Inquiry on the Syrian Arab Republic" dictionary="DHLAUTH"></keyword>
+        <keyword value="International, Impartial and Independent Mechanism to Assist in the Investigation and Prosecution of Persons Responsible for the Most Serious Crimes under International Law Committed in the Syrian Arab Republic since March 2011" showAs="International, Impartial and Independent Mechanism to Assist in the Investigation and Prosecution of Persons Responsible for the Most Serious Crimes under International Law Committed in the Syrian Arab Republic since March 2011" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SYRIAN ARAB REPUBLIC" showAs="SYRIAN ARAB REPUBLIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICAL WEAPONS USE" showAs="CHEMICAL WEAPONS USE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="74c" showAs="HUMAN RIGHTS--REPORTS" dictionary="A/76/251"></keyword>
+        <keyword refersTo="agenda" value="74c[9]" showAs="HUMAN RIGHTS--SYRIAN ARAB REPUBLIC" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-10" outcome="draftResolution" as="A/C.3/76/L.31/Rev.1" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Czechia, Denmark, Finland, France, Georgia, Germany, Iceland, Ireland, Italy, Lithuania, Luxembourg, Marshall Islands, Micronesia (Federated States of), Monaco, Netherlands, Poland, Qatar, Saudi Arabia, Slovakia, Slovenia, Spain, Sweden, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Cyprus, Estonia, Greece, Hungary, Israel, Japan, Kuwait, Latvia, Liechtenstein, Malta, Montenegro, New Zealand, North Macedonia, Norway, Palau, Portugal, Republic of Korea, Romania, San Marino and Switzerland" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/462/Add.3" by="" refersTo="34" />
+        <step date="2021-12-24" outcome="adopted" as="A/76/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="93" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DJIBOUTI</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GAMBIA</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">KIRIBATI</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">NAURU</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TURKEY</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+            <count value="16" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COMOROS</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">ERITREA</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="52" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">BAHAMAS</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">BARBADOS</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BURUNDI</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">FIJI</organization>
+                <organization refersTo="memberState">GRENADA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState">GUYANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">LESOTHO</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITANIA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">SAINT LUCIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SOMALIA</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">SRI LANKA</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">TONGA</organization>
+                <organization refersTo="memberState">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UGANDA</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="اللجنة الثالثة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19659 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/228</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-01-10" class="rightSmall" refersTo="#dateOfIssuance">10 January 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">الدورة السادسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 74 (ج) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز حقوق الإنسان وحمايتها: حالات حقوق الإنسان والتقارير المقدمة من المقررين والممثلين الخاصين</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 24 كانون الأول/ديسمبر 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[بناء على تقرير اللجنة الثالثة (<inline name="originating document">A/76/462/Add.3، الفقرة 34</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/228</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حالة حقوق الإنسان في الجمهورية العربية السورية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ تسترشد</span> بميثاق الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> مقاصد الميثاق ومبادئه والإعلان العالمي لحقوق الإنسان<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	القرار 217 ألف (د-3).</p></authorialNote><sup>)</sup> والمعاهدات الدولية ذات الصلة في مجال حقوق الإنسان، بما فيها العهدان الدوليان الخاصان بحقوق الإنسان<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	القرار 2200 ألف (د-21)، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد التزامها القوي" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد التزامها القوي</span> بسيادة الجمهورية العربية السورية واستقلالها ووحدتها وسلامة أراضيها وبمبادئ الميثاق، وإذ تطالب النظام السوري بالوفاء بمسؤوليته عن حماية الشعب السوري واحترام وحماية وإعمال حقوق الإنسان الواجبة لجميع الأشخاص الموجودين في أراضيه والخاضعين لولايته،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى قراراتها <a href="https://undocs.org/ar/A/RES/66/176">66/176</a> المؤرخ 19 كانون الأول/ديسمبر 2011 و <a href="https://undocs.org/ar/A/RES/66/253">66/253</a> ألف المؤرخ 16 شباط/فبراير 2012 و <a href="https://undocs.org/ar/A/RES/66/253">66/253</a> باء المؤرخ 3 آب/أغسطس 2012 و <a href="https://undocs.org/ar/A/RES/67/183">67/183</a> المؤرخ 20 كانون الأول/ديسمبر 2012 و <a href="https://undocs.org/ar/A/RES/67/262">67/262</a> المؤرخ 15 أيار/مايو 2013 و <a href="https://undocs.org/ar/A/RES/68/182">68/182</a> المؤرخ 18 كانون الأول/ديسمبر 2013 و <a href="https://undocs.org/ar/A/RES/69/189">69/189</a> المؤرخ 18 كانون الأول/ديسمبر 2014 و <a href="https://undocs.org/ar/A/RES/70/234">70/234</a> المؤرخ 23 كانون الأول/ديسمبر 2015 و <a href="https://undocs.org/ar/A/RES/71/130">71/130</a> المؤرخ 9 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/A/RES/71/203">71/203</a> المؤرخ 19 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/A/RES/71/248">71/248</a> المؤرخ 21 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/A/RES/73/182">73/182</a> المؤرخ 17 كانون الأول/ديسمبر 2018 و <a href="https://undocs.org/ar/A/RES/74/169">74/169</a> المؤرخ 18 كانون الأول/ديسمبر 2019 و <a href="https://undocs.org/ar/A/RES/74/262">74/262</a> المؤرخ 27 كانون الأول/ديسمبر 2019، وقرارات مجلس حقوق الإنسان دإ-<a href="https://undocs.org/ar/A/HRC/RES/S-16/1">16/1</a> المؤرخ 29 نيسان/أبريل 2011<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة السادسة والستون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/66/53">A/66/53</a>)، الفصل الأول.</p></authorialNote><sup>) </sup>ودإ-<a href="https://undocs.org/ar/A/HRC/RES/S-17/1">17/1</a> المؤرخ 23 آب/أغسطس 2011<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup> ودإ-<a href="https://undocs.org/ar/A/HRC/RES/S-18/1">18/1</a> المؤرخ 2 كانون الأول/ديسمبر 2011<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الملحق رقم 53 باء</span> والتصويب (<a href="https://undocs.org/ar/A/66/53/Add.2">A/66/53/Add.2</a> و <a href="https://undocs.org/ar/A/66/53/Add.2/Corr.1">A/66/53/Add.2/Corr.1</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/19/1">19/1</a> المؤرخ 1 آذار/مارس 2012<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة السابعة والستون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/67/53">A/67/53</a>)، الفصل الثالث، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/19/22">19/22</a> المؤرخ 23 آذار/مارس 2012<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup> و دإ-<a href="https://undocs.org/ar/A/HRC/RES/S-19/1">19/1</a> المؤرخ 1 حزيران/ يونيه 2012<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	المرجع نفسه، الفصل الخامس.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/20/22">20/22</a> المؤرخ 6 تموز/يوليه 2012<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	المرجع نفسه، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/21/26">21/26</a> المؤرخ 28 أيلول/سبتمبر 2012<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/67/53/Add.1">A/67/53/Add.1</a>)، الفصل الثالث.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/22/24">22/24</a> المؤرخ 22 آذار/مارس 2013<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة الثامنة والستون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/68/53">A/68/53</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/23/1">23/1</a> المؤرخ 29 أيار/مايو 2013<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	()	المرجع نفسه، الفصل الخامس، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/23/26">23/26</a> المؤرخ 14 حزيران/يونيه 2013<sup>(</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/24/22">24/22</a> المؤرخ 27 أيلول/سبتمبر 2013<sup>(</sup><authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/68/53/Add.1">A/68/53/Add.1</a>)، الفصل الثالث.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/25/23">25/23</a> المؤرخ 28 آذار/مارس 2014<sup>(</sup><authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة التاسعة والستون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/69/53">A/69/53</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/26/23">26/23</a> المؤرخ 27 حزيران/يونيه 2014<sup>(</sup><authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	()	المرجع نفسه، الفصل الخامس، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/27/16">27/16</a> المؤرخ 25 أيلول/سبتمبر 2014<sup>(</sup><authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الملحق رقم 53 ألف</span> والتصويبان (<a href="https://undocs.org/ar/A/69/53/Add.1">A/69/53/Add.1</a> و <a href="https://undocs.org/ar/A/69/53/Add.1/Corr.1">A/69/53/Add.1/Corr.1</a> و <a href="https://undocs.org/ar/A/69/53/Add.1/Corr.2">A/69/53/Add.1/Corr.2</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/28/20">28/20</a> المؤرخ 27 آذار/مارس 2015<sup>(</sup><authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة السبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/70/53">A/70/53</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/29/16">29/16</a> المؤرخ 2 تموز/ يوليه 2015<sup>(</sup><authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	()	المرجع نفسه، الفصل الخامس، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/30/10">30/10</a> المؤرخ 1 تشرين الأول/أكتوبر 2015<sup>(</sup><authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/70/53/Add.1">A/70/53/Add.1</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/31/17">31/17</a> المؤرخ 23 آذار/ مارس 2016<sup>(</sup><authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة الحادية والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/71/53">A/71/53</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/32/25">32/25</a> المؤرخ 1 تموز/يوليه 2016<sup>(</sup><authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">	()	المرجع نفسه، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/33/23">33/23</a> المؤرخ 30 أيلول/سبتمبر 2016<sup>(</sup><authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">	()	المرجع نفسه،<span class="italic"> الملحق رقم 53 ألف</span> والتصويب (<a href="https://undocs.org/ar/A/71/53/Add.1">A/71/53/Add.1</a> و <a href="https://undocs.org/ar/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup> ودإ-<a href="https://undocs.org/ar/A/HRC/RES/S-25/1">25/1</a> المؤرخ 21 تشرين الأول/أكتوبر 2016<sup>(</sup><authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الملحق رقم 53 باء</span> والتصويب (<a href="https://undocs.org/ar/A/71/53/Add.2">A/71/53/Add.2</a> و <a href="https://undocs.org/ar/A/71/53/Add.2/Corr.1">A/71/53/Add.2/Corr.1</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/34/26">34/26</a> المؤرخ 24 آذار/مارس 2017<sup>(</sup><authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">	()	المرجع نفسه،<span class="italic"> الدورة الثانية والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/72/53">A/72/53</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/35/26">35/26</a> المؤرخ 23 حزيران/يونيه 2017<sup>(</sup><authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">	()	المرجع نفسه، الفصل الخامس، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/36/20">36/20</a> المؤرخ 29 أيلول/سبتمبر 2017<sup>(</sup><authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/72/53/Add.1">A/72/53/Add.1</a>)، الفصل الثالث.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/39/15">39/15</a> المؤرخ 28 أيلول/سبتمبر 2018<sup>(</sup><authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة الثالثة والسبعون، الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/73/53/Add.1">A/73/53/Add.1</a>)، الفصل الثالث.</p></authorialNote><sup>)</sup>، وقرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/1325(2000)">1325</a><a href="https://undocs.org/ar/S/RES/1325(2000)"> (2000)</a> المؤرخ 31 تشرين الأول/ أكتوبر 2000 و <a href="https://undocs.org/ar/S/RES/2042(2012)">2042</a><a href="https://undocs.org/ar/S/RES/2042(2012)"> (2012)</a> المؤرخ 14 نيسان/أبريل 2012 و <a href="https://undocs.org/ar/S/RES/2043(2012)">2043</a><a href="https://undocs.org/ar/S/RES/2043(2012)"> (2012)</a> المؤرخ 21 نيسان/أبريل 2012 و <a href="https://undocs.org/ar/S/RES/2118(2013)">2118</a><a href="https://undocs.org/ar/S/RES/2118(2013)"> </a><a href="https://undocs.org/ar/S/RES/2118(2013)">(2013)</a> المؤرخ 27 أيلول/سبتمبر 2013 و <a href="https://undocs.org/ar/S/RES/2139(2014)">2139</a><a href="https://undocs.org/ar/S/RES/2139(2014)"> (2014)</a> المؤرخ 22 شباط/فبراير 2014 و <a href="https://undocs.org/ar/S/RES/2165(2014)">2165</a><a href="https://undocs.org/ar/S/RES/2165(2014)"> (2014)</a> المؤرخ 14 تموز/يوليه 2014 و <a href="https://undocs.org/ar/S/RES/2170(2014)">2170</a><a href="https://undocs.org/ar/S/RES/2170(2014)"> (2014)</a> المؤرخ 15 آب/أغسطس 2014 و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> (2014)</a> المؤرخ 24 أيلول/سبتمبر 2014 و <a href="https://undocs.org/ar/S/RES/2191(2014)">2191</a><a href="https://undocs.org/ar/S/RES/2191(2014)"> (2014)</a> المؤرخ 17 كانون الأول/ديسمبر 2014 و <a href="https://undocs.org/ar/S/RES/2209(2015)">2209</a><a href="https://undocs.org/ar/S/RES/2209(2015)"> (2015)</a> المؤرخ 6 آذار/مارس 2015 و <a href="https://undocs.org/ar/S/RES/2235(2015)">2235</a><a href="https://undocs.org/ar/S/RES/2235(2015)"> (2015)</a> المؤرخ 7 آب/أغسطس 2015 و <a href="https://undocs.org/ar/S/RES/2242(2015)">2242</a><a href="https://undocs.org/ar/S/RES/2242(2015)"> (2015)</a> المؤرخ 13 تشرين الأول/أكتوبر 2015 و <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a> المؤرخ 18 كانون الأول/ديسمبر 2015 و <a href="https://undocs.org/ar/S/RES/2258(2015)">2258</a><a href="https://undocs.org/ar/S/RES/2258(2015)"> (2015)</a> المؤرخ 22 كانون الأول/ديسمبر 2015 و <a href="https://undocs.org/ar/S/RES/2268(2016)">2268</a><a href="https://undocs.org/ar/S/RES/2268(2016)"> (2016)</a> المؤرخ 26 شباط/فبراير 2016 و <a href="https://undocs.org/ar/S/RES/2286(2016)">2286</a><a href="https://undocs.org/ar/S/RES/2286(2016)"> (2016)</a> المؤرخ 3 أيار/مايو 2016 و <a href="https://undocs.org/ar/S/RES/2314(2016)">2314</a><a href="https://undocs.org/ar/S/RES/2314(2016)"> (2016)</a> المؤرخ 31 تشرين الأول/أكتوبر 2016 و <a href="https://undocs.org/ar/S/RES/2319(2016)">2319</a><a href="https://undocs.org/ar/S/RES/2319(2016)"> (2016)</a> المؤرخ 17 تشرين الثاني/ نوفمبر 2016 و <a href="https://undocs.org/ar/S/RES/2328(2016)">2328</a><a href="https://undocs.org/ar/S/RES/2328(2016)"> (2016)</a> المؤرخ 19 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/S/RES/2332(2016)">2332</a><a href="https://undocs.org/ar/S/RES/2332(2016)"> (2016)</a> المؤرخ 21 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/S/RES/2336(2016)">2336</a><a href="https://undocs.org/ar/S/RES/2336(2016)"> (2016)</a> المؤرخ 31 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/S/RES/2393(2017)">2393</a><a href="https://undocs.org/ar/S/RES/2393(2017)"> (2017)</a> المؤرخ 19 كانون الأول/ديسمبر 2017 و <a href="https://undocs.org/ar/S/RES/2401(2018)">2401</a><a href="https://undocs.org/ar/S/RES/2401(2018)"> (2018)</a> المؤرخ 24 شباط/ فبراير 2018 و <a href="https://undocs.org/ar/S/RES/2449(2018)">2449</a><a href="https://undocs.org/ar/S/RES/2449(2018)"> (2018)</a> المؤرخ 13 كانون الأول/ديسمبر 2018 و <a href="https://undocs.org/ar/S/RES/2504(2020)">2504</a><a href="https://undocs.org/ar/S/RES/2504(2020)"> (2020)</a> المؤرخ 10 كانون الثاني/يناير 2020 و <a href="https://undocs.org/ar/S/RES/2533(2020)">2533</a><a href="https://undocs.org/ar/S/RES/2533(2020)"> (2020)</a> المؤرخ 11 تموز/يوليه 2020 و <a href="https://undocs.org/ar/S/RES/2585(2021)">2585</a><a href="https://undocs.org/ar/S/RES/2585(2021)"> (2021)</a> المؤرخ 9 تموز/يوليه 2021، وبيانات رئيس مجلس الأمن المؤرخة 3 آب/أغسطس 2011<sup>(</sup><authorialNote marker="29" placement="bottom" eId="authorialNote_29"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/S/PRST/2011/16">S/PRST/2011/16</a>؛ انظر<span class="italic"> قرارات ومقررات مجلس الأمن، 1 آب/أغسطس 2011 - 31 تموز/يوليه 2012</span> (<a href="https://undocs.org/ar/S/INF/67">S/INF/67</a>).</p></authorialNote><sup>)</sup> و 2 تشرين الأول/ أكتوبر 2013<sup>(</sup><authorialNote marker="30" placement="bottom" eId="authorialNote_30"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/S/PRST/2013/15">S/PRST/2013/15</a>؛ انظر<span class="italic"> قرارات ومقررات مجلس الأمن، 1 آب/أغسطس 2013 - 31 تموز/يوليه 2014 </span>(<a href="https://undocs.org/ar/S/INF/69">S/INF/69</a>).</p></authorialNote><sup>)</sup> و 17 آب/أغسطس 2015<sup>(</sup><authorialNote marker="31" placement="bottom" eId="authorialNote_31"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/S/PRST/2015/15">S/PRST/2015/15</a>؛ انظر<span class="italic"> قرارات ومقررات مجلس الأمن، 1 آب/أغسطس 2015 - 31 كانون الأول/ديسمبر 2016 </span>(<a href="https://undocs.org/ar/S/INF/71">S/INF/71</a>).</p></authorialNote><sup>)</sup> و 8 تشرين الأول/أكتوبر 2019<sup>(</sup><authorialNote marker="32" placement="bottom" eId="authorialNote_32"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/S/PRST/2019/12">S/PRST/2019/12</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تعرب عن استيائها" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن استيائها </span>لأن حلول شهر آذار/مارس 2021 صادف مرور عشر سنوات على اندلاع الانتفاضة السلمية وعلى مواجهتها بقمع وحشي أدى إلى نشوب النزاع في الجمهورية العربية السورية، مما كان له أثر مدمر على المدنيين لحق بهم، في جملة أمور، من خلال الانتهاكات والتجاوزات الجسيمة للقانون الدولي لحقوق الإنسان وانتهاكات القانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ تدين بشدة" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدين بشدة</span> خطورة حالة حقوق الإنسان في الجمهورية العربية السورية والقتل العشوائي والاستهداف المتعمد للمدنيين، بمن فيهم العاملون في المجال الإنساني، بما في ذلك الحوادث التي تنطوي على استمرار الاستخدام العشوائي للأسلحة الثقيلة وعمليات القصف الجوي، مما تسبب في مصرع أكثر من 000 500 شخص، بما في ذلك مقتل ما يربو على 000 29 طفل، واستمرار الانتهاكات والتجاوزات الجسيمة لحقوق الإنسان وانتهاكات القانون الدولي الإنساني التي تتم بشكل منهجي وعلى نطاق واسع بطرق منها تجويع المدنيين كوسيلة من وسائل الحرب واستخدام الأسلحة الكيميائية، بما فيها غازات السارين والكلور وخردل الكبريت، المحظورة بموجب القانون الدولي، وأعمال العنف التي يرتكبها النظام السوري والتي تثير التوترات الطائفية بين السكان السوريين،</p>
+      </container>
+      <container name="وإذ تلاحظ بقلق شديد" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ بقلق شديد</span> أن مفوضية الأمم المتحدة لحقوق الإنسان حددت بالاسم الكامل، مع تحديد تاريخ الوفاة ومكانه، هوية 209 350 أشخاص قتلوا خلال النزاع الدائر في الجمهورية العربية السورية في الفترة ما بين آذار/مارس 2011 وآذار/مارس 2021، وأن 727 26 امرأة و 126 27 طفلا هم ضمن أولئك الأشخاص الذين حددت هويتهم، وإذ تشير أيضا إلى أن القائمة التي وضعتها مفوضية الأمم المتحدة لحقوق الإنسان لا تضم إلا الحد الأدنى لعدد القتلى الممكن التحقق منه، ومن المؤكد أنها تمثل عددا أقل من العدد الحقيقي للقتلى،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ تكرر التأكيد</span> على أن الحل الوحيد المستدام للأزمة الحالية في الجمهورية العربية السورية هو ذاك الذي يتم التوصل إليه من خلال عملية سياسية شاملة للجميع تتم بقيادة سورية تحت رعاية الأمم المتحدة وتلبي التطلعات المشروعة للشعب السوري بما يتماشى مع قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a>، بهدف إقامة حكم ذي مصداقية شامل للجميع وغير طائفي بمشاركة جميع النساء والشباب واضطلاعهم بدور قيادي على جميع المستويات على نحو كامل ومؤثر وعلى أساس المساواة، وإذ ترحب بإنشاء اللجنة الدستورية وتؤكد من جديد في هذا الصدد أهمية دور المرأة في منع نشوب النزاعات وحلها وفي بناء السلام، وإذ تشدّد على أهمية اشتراكها وانخراطها بصورة كاملة ومؤثرة في جميع الجهود الرامية إلى صون وتعزيز السلام والأمن على قدم المساواة مع الرجل وعلى دورها في صنع القرار فيما يتعلق بمنع نشوب النزاعات وحلها، وإذ تنوه بالعمل الذي يقوم به المبعوث الخاص للأمين العام إلى سورية لتحقيق هذه الغاية،</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="وإذ تشير" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير </span>إلى مطالبتها جميع الأطراف بأن تتخذ كافة الخطوات المناسبة لحماية المدنيين، بمن فيهم أبناء الطوائف الإثنية والدينية،</p>
+      </container>
+      <container name="وإذ ترحب بالجهود" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب بالجهود </span>التي بذلها المبعوث الخاص من أجل النهوض بمساعي الأمم المتحدة الرامية إلى التوصل إلى حل سياسي مستدام للنزاع في الجمهورية العربية السورية تمشياً مع قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a>، وإذ تشير إلى أهمية النهوض بأعمال اللجنة الدستورية وتحقيق نتائج ملموسة، وإذ تحث في هذا الصدد جميع الأطراف، ولا سيما النظام السوري، على المشاركة بشكل بنّاء في أعمال اللجنة الدستورية، وإذ تؤكّد أن إيجاد حل سياسي للنزاع في الجمهورية العربية السورية يتطلب التنفيذ الكامل للقرار <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a> بجميع جوانبه، بما في ذلك إجراء انتخابات حرة ونزيهة تحت إشراف الأمم المتحدة تمتثل لمتطلبات الحوكمة وأعلى المعايير الدولية من حيث الشفافية والمساءلة ويكون لجميع السوريين، بمن فيهم المشردون واللاجئون وسوريو الشتات، الحق في المشاركة فيها، إضافة إلى تهيئة مناخ من الحياد والأمان، مع الإشارة إلى أن الانتخابات الرئاسية التي أجريت في الآونة الأخيرة في سورية لم تكن حرة ولا نزيهة ولا متسقة مع العملية السياسية التي دعا إليها قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a>،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> تأييدها لبيان جنيف المؤرخ 30 حزيران/يونيه 2012<sup>(</sup><authorialNote marker="33" placement="bottom" eId="authorialNote_33"><p xml:space="preserve">	()	قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2118(2013)">2118 (2013)</a>، المرفق الثاني.</p></authorialNote><sup>)</sup>، وإذ تؤيد البيان المشترك بشأن نتائج المحادثات المتعددة الأطراف المتعلقة بسورية المعقودة في فيينا في 30 تشرين الأول/ أكتوبر 2015 وبيان الفريق الدولي لدعم سورية المؤرخ 14 تشرين الثاني/نوفمبر 2015 (بيانا فيينا) في إطار السعي إلى كفالة التنفيذ الكامل لبيان جنيف، الذي يسّره المبعوث الخاص، كأساس لعملية انتقال سياسي تتم بقيادة سورية ويمتلك السوريون زمامها يراد بها إنهاء النزاع في الجمهورية العربية السورية، وإذ تشدّد على أن الشعب السوري هو الذي سيقرر مستقبل الجمهورية العربية السورية،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بدعوة الأمين العام إلى وقف إطلاق النار على الصعيد العالمي ودعوة المبعوث الخاص إلى وقف كامل وفوري لإطلاق النار في جميع أنحاء الجمهورية العربية السورية على النحو الذي أقره مجلس الأمن في قراريه <a href="https://undocs.org/ar/S/RES/2532(2020)">2532</a><a href="https://undocs.org/ar/S/RES/2532(2020)"> (2020)</a> المؤرخ 1 تموز/يوليه 2020 و <a href="https://undocs.org/ar/S/RES/2565(2021)">2565</a><a href="https://undocs.org/ar/S/RES/2565(2021)"> (2021)</a> المؤرخ 26 شباط/فبراير 2021، وإذ تؤكد مجدداً أن على الدول الأعضاء أن تكفل الامتثال في أي تدابير تُتّخذ لمكافحة الإرهاب لجميع الالتزامات الواقعة على عاتقها بموجب القانون الدولي، وخاصة القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين والقانون الدولي الإنساني، مع مواصلة توفير الدعم لعمليات مكافحة الإرهاب المشروعة المنفذة ضد تنظيم الدولة الإسلامية في العراق والشام (تنظيم الدولة الإسلامية، المعروف أيضاً باسم ”داعش“) وتنظيم القاعدة وهيئة تحرير الشام (المعروفة سابقاً باسم ”جبهة النصرة“) وسائر الأفراد والجماعات والمؤسسات والكيانات المرتبطة بتنظيم القاعدة أو تنظيم الدولة الإسلامية وغير ذلك من الجماعات الإرهابية التي حدّدها مجلس الأمن،</p>
+      </container>
+      <container name="وإذ تحث" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحث</span> جميع الأطراف، ولا سيما النظام السوري، على المشاركة بشكل بنّاء في العملية السياسية التي تتم برعاية المبعوث الخاص ومكتبه في جنيف تماشيا مع قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a>، بما يشمل مشاركة وتمثيل المرأة الكاملين والمؤثرين على قدم المساواة مع الرجل في كل ما يُبذل من جهود وما يُتّخذ من قرارات، وإذ ترحب باستئناف اللجنة الدستورية التي تعمل بقيادة سورية ويمتلك السوريون زمامها جلساتها التي دعا إليها المبعوث الخاص ويسّر انعقادها في جنيف في الفترة من 18 إلى 22 تشرين الأول/ أكتوبر 2021، وإذ تحث النظام على الانخراط في أعمال اللجنة الدستورية التي تيسرها الأمم المتحدة بما يتفق مع المعايير المرجعية واللائحة الداخلية المتفق عليها، وإذ تؤكد مجددا أهمية التنفيذ الكامل لخطة مجلس الأمن المتعلقة بالمرأة والسلام والأمن عملا بقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/1325(2000)">1325</a><a href="https://undocs.org/ar/S/RES/1325(2000)"> (2000)</a> وقراراته التسع اللاحقة المتخذة في هذا الصدد، وإذ ترحب بإشراك المجتمع المدني في العملية السياسية، ولا سيما من خلال غرفة دعم المجتمع المدني والمجلس الاستشاري للمرأة السورية،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق الشديد" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ مع القلق الشديد</span> ثقافة الإفلات من العقاب داخل النظام السوري على أخطر انتهاكات القانون الدولي وانتهاكات وتجاوزات قانون حقوق الإنسان المرتكبة خلال النزاع الحالي والتي يرقى بعضها إلى مرتبة جرائم الحرب والجرائم ضد الإنسانية، وهو ما وفر تربةً خصبة للمزيد من الانتهاكات والتجاوزات،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد </span>أهمية المساءلة عن أخطر الجرائم المرتكبة أثناء النزاع التي تشكّل انتهاكاً للقانون الدولي، وذلك لضمان إحلال سلام قابل للاستمرار،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير </span>إلى جميع القرارات ذات الصلة المتخذة بشأن سلامة وأمن العاملين في المجال الإنساني وحماية موظفي الأمم المتحدة، بما في ذلك قرارها <a href="https://undocs.org/ar/A/RES/73/137">73/137</a> المؤرخ 14 كانون الأول/ديسمبر 2018، وكذلك قرارات مجلس الأمن المتعلقة بحماية العاملين في المجال الإنساني، بما في ذلك القراران <a href="https://undocs.org/ar/S/RES/2175(2014)">2175</a><a href="https://undocs.org/ar/S/RES/2175(2014)"> (2014)</a> المؤرخ 29 آب/أغسطس 2014 و <a href="https://undocs.org/ar/S/RES/2286(2016)">2286</a><a href="https://undocs.org/ar/S/RES/2286(2016)"> (2016)</a> المؤرخ 3 أيار/مايو 2016، وإلى البيانات ذات الصلة الصادرة عن رئيس مجلس الأمن والتي تشير إلى الالتزامات المحددة بموجب القانون الدولي الإنساني بأن يجري، في حالات النزاع المسلح، احترام وحماية جميع العاملين في القطاع الطبي والمشتغلين بالمجال الإنساني الذين يشاركون حصراً في أداء واجبات طبية ووسائل نقلهم ومعداتهم علاوة على المستشفيات وغيرها من المرافق الطبية، وبأن يُكفل تلقي الجرحى والمرضى، إلى أقصى حد ممكن عملياً وبأقل قدر ممكن من التأخير، الرعاية والعناية الطبية المطلوبة، وإذ تدين الهجمات الموجهة ضد المستشفيات والأماكن التي يُجمع فيها المرضى والجرحى، بما في ذلك المستشفيات المؤقتة، وضد العاملين في القطاع الطبي والمشتغلين بالمجال الإنساني في انتهاكٍ للقانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ تعرب عن بالغ القلق" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن بالغ القلق</span> إزاء استمرار استخدام النظام السوري للقوة بشكل عشوائي ضد المدنيين، الأمر الذي لا يزال يتسبب في معاناة إنسانية هائلة وبشجّع على انتشار التطرف العنيف والجماعات المتطرفة العنيفة ويدل على استمرار إخفاق النظام السوري في حماية السكان وتنفيذ ما أصدرته هيئات الأمم المتحدة من قرارات ومقررات ذات صلة ويهيئ ملاذا آمنا وبيئة مؤاتية لمرتكبي جرائم الحرب والجرائم ضد الإنسانية،</p>
+      </container>
+      <container name="وإذ تعرب عن بالغ القلق أيضا" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن بالغ القلق أيضا </span>إزاء استمرار التطرف العنيف والجماعات المتطرفة العنيفة والإرهابيين والجماعات الإرهابية، وإذ تدين بشدة جميع انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني التي يرتكبها في الجمهورية العربية السورية أي طرف من أطراف النزاع، وبخاصة تنظيم الدولة الإسلامية (المعروف أيضا باسم ”داعش“) والجماعات الإرهابية المنتسبة إلى تنظيم القاعدة والجماعات المسلحة والجهات غير الحكومية المسلحة وكذلك النظام السوري وحلفاؤه،</p>
+      </container>
+      <container name="وإذ تحيط علما مع القلق الشديد" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما مع القلق الشديد</span> باستنتاجات لجنة التحقيق الدولية المستقلة المعنية بالجمهورية العربية السورية التي مفادها أن الجماعات المسلحة غير التابعة للدول لا تزال تلجأ إلى استخدام القوة ضد المدنيين،</p>
+      </container>
+      <container name="وإذ تعرب عن دعمها" eId="container_21">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن دعمها</span> للعمل الذي تضطلع به لجنة التحقيق الدولية المستقلة المعنية بالجمهورية العربية السورية، وإذ ترحب بتقاريرها، وإذ تدين بشدة عدم تعاون النظام السوري مع لجنة التحقيق، وإذ تكرر تأكيد قرارها بإحالة تقارير لجنة التحقيق إلى مجلس الأمن، وإذ تعرب عن تقديرها للجنة التحقيق على إحاطاتها المقدمة إلى أعضاء مجلس الأمن، وإذ تطلب إلى لجنة التحقيق أن تواصل تقديم الإحاطات إلى الجمعية العامة وأعضاء مجلس الأمن،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد إدانتها بأشد العبارات الممكنة" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد إدانتها بأشد العبارات الممكنة </span>لاستخدام الأسلحة الكيميائية من جانب أي جهة وتحت أي ظرف من الظروف، وإذ تشدّد على أن أي استخدام للأسلحة الكيميائية في أي مكان وفي أي وقت من جانب أي جهة وتحت أي ظرف من الظروف هو أمر غير مقبول وعلى أنه يشكّل أو من شأنه أن يشكّل انتهاكاً للقانون الدولي، وإذ تعرب عن اقتناعها الراسخ بحتمية ووجوب محاسبة الأفراد المسؤولين عن استخدام الأسلحة الكيميائية،</p>
+      </container>
+      <container name="وإذ تدين بأشد العبارات الممكنة" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدين بأشد العبارات الممكنة</span> استخدام الأسلحة الكيميائية بشكل متكرر في الجمهورية العربية السورية، بما في ذلك الحالات التي قامت بإسناد المسؤولية عنها بصورة مستقلة منظمة حظر الأسلحة الكيميائية، وآلية التحقيق المشتركة بين منظمة حظر الأسلحة الكيميائية والأمم المتحدة، وفريق التحقيق وتحديد الهوية التابع لمنظمة حظر الأسلحة الكيميائية، وإذ تلاحظ أن آلية التحقيق المشتركة خلصت إلى أن القوات المسلحة العربية السورية كانت مسؤولة عن الهجمات التي أطلقت خلالها مواد سامة في عامي 2014 و 2015، وأن تنظيم الدولة الإسلامية (المعروف أيضا باسم ”داعش“) استخدم خردل الكبريت في عامي 2015 و 2016، وخلصت كذلك في تشرين الأول/أكتوبر 2017 إلى أن القوات الجوية العربية السورية كانت مسؤولة عن استخدام الأسلحة الكيميائية في 4 نيسان/أبريل 2017 في خان شيخون، وإذ تلاحظ أيضا أن فريق التحقيق وتحديد الهوية خلص في نيسان/أبريل 2020 إلى أن هناك أسبابا معقولة للاعتقاد بأن القوات الجوية السورية نفذت ثلاث هجمات بالأسلحة الكيميائية في اللطامنة في آذار/مارس 2017، وخلص كذلك في نيسان/أبريل 2021 إلى أن هناك أسبابا معقولة للاعتقاد بأن القوات الجوية السورية نفذت هجوما بالأسلحة الكيميائية في سراقب في شباط/فبراير 2018،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_24">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> أن فريق التحقيق وتحديد الهوية التابع لمنظمة حظر الأسلحة الكيميائية يواصل عمله، وأن تقريره عن استخدام مادة كيميائية سامة كسلاح في دوما يرتقب إصداره،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالقرار الذي اتخذه المجلس التنفيذي لمنظمة حظر الأسلحة الكيميائية في 9 تموز/يوليه 2020<sup>(</sup><authorialNote marker="34" placement="bottom" eId="authorialNote_34"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/74/959">A/74/959-S/2020/724</a>، الضميمة.</p></authorialNote><sup>)</sup> والذي أدان فيه المجلس التنفيذي استخدام الجمهورية العربية السورية للأسلحة الكيميائية في اللطامنة، وطلب فيه إلى الجمهورية العربية السورية اتخاذ خطوات لتصحيح الوضع، وإذ ترحب أيضا بالقرار الذي اتخذه مؤتمر منظمة حظر الأسلحة الكيميائية للدول الأطراف في 21 نيسان/أبريل 2021<sup>(</sup><authorialNote marker="35" placement="bottom" eId="authorialNote_35"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/75/871">A/75/871-S/2021/425</a>، الضميمة.</p></authorialNote><sup>)</sup> والذي يتناول مسألة حيازة واستخدام الجمهورية العربية السورية للأسلحة الكيميائية ويعلق بعض حقوقها وامتيازاتها بموجب اتفاقية حظر استحداث وإنتاج وتخزين واستعمال الأسلحة الكيميائية وتدمير تلك الأسلحة<sup>(</sup><authorialNote marker="36" placement="bottom" eId="authorialNote_36"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1974, No. 33757.</p></authorialNote><sup>)</sup> إلى أن يبلغ المدير العام لمنظمة حظر الأسلحة الكيميائية بأن الجمهورية العربية السورية قد استوفت التدابير التي طلبها المجلس التنفيذي، وإذ تعرب عن الأسف لعدم امتثال الجمهورية العربية السورية لهذا الطلب، وإذ تطالب الجناة بالكف فورا عن أي استخدام آخر للأسلحة الكيميائية،</p>
+      </container>
+      <container name="وإذ ترحب أيضا" eId="container_26">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ ترحب أيضا </span>بتقارير الأعوام 2019 و 2020 و 2021 الصادرة عن الآلية الدولية المحايدة المستقلة للمساعدة في التحقيق والملاحقة القضائية للأشخاص المسؤولين عن الجرائم الأشد خطورة وفق تصنيف القانون الدولي المرتكبة في الجمهورية العربية السورية منذ آذار/مارس 2011<sup>(</sup><authorialNote marker="37" placement="bottom" eId="authorialNote_37"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/73/295">A/73/295</a> و <a href="https://undocs.org/ar/A/73/741">A/73/741</a> و <a href="https://undocs.org/ar/A/74/313">A/74/313</a> و <a href="https://undocs.org/ar/A/74/699">A/74/699</a> و <a href="https://undocs.org/ar/A/75/311">A/75/311</a> و <a href="https://undocs.org/ar/A/75/743">A/75/743</a>.</p></authorialNote><sup>)</sup> وبنظر الجمعية العامة فيها، وإذ تلاحظ بقلق بالغ أن لجنة التحقيق أفادت بأن هناك أسباباً معقولة تدعو إلى الاعتقاد بأن النظام السوري شنّ منذ آذار/مارس 2011 هجمات منهجية واسعة النطاق على السكان المدنيين ترقى إلى مرتبة جرائم الحرب والجرائم ضد الإنسانية، بما في ذلك شنّ هجمات استهدفت الأشخاص المشمولين بالحماية والأعيان المشمولة بها، ومنها المرافق الطبية والعاملون في القطاع الطبي ووسائل نقلهم، ومنع وصول قوافل المساعدات الإنسانية، وكذلك حالات الاختفاء القسري والتعذيب أثناء الاحتجاز والاحتجاز التعسفي والإعدام بإجراءات موجزة وغيرها من الانتهاكات والتجاوزات، وإذ تؤكّد ضرورة النظر في هذه الادعاءات وجمع الأدلة وإتاحتها لتسهيل جهود المساءلة في المستقبل،</p>
+      </container>
+      <container name="وإذ تدين بشدة" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدين بشدة</span> ما أبلغ عنه من قتل المحتجزين في مرافق المخابرات العسكرية السورية وانتشار ممارسة الاختفاء القسري والاحتجاز التعسفي واستخدام العنف الجنسي والعنف الجنساني والتعذيب في مراكز الاحتجاز المشار إليها في تقارير لجنة التحقيق بما يشمل، على سبيل المثال لا الحصر، الفرع 215 والفرع 227 والفرع 235 والفرع 251 وفرع التحقيقات التابع للمخابرات الجوية في مطار المزة العسكري وسجن صيدنايا، بما في ذلك اتباع النظام ممارسة الشنق الجماعي علاوة على قتل المحتجزين في المستشفيات العسكرية، بما في ذلك مستشفى تشرين ومستشفى حرستا،</p>
+      </container>
+      <container name="وإذ تعرب عن بالغ القلق" eId="container_28">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن بالغ القلق</span> إزاء مصير جميع الأشخاص المفقودين نتيجة للوضع في الجمهورية العربية السورية، بمن فيهم من تعرض لعمليات الاختطاف والاختفاء القسري والاحتجاز التعسفي على يد النظام السوري في المقام الأول، وإذ تلاحظ ما أبدي على لسان لجنة التحقيق والمبعوث الخاص للأمين العام إلى سورية من تعليقات تفيد بأن عشرات الآلاف من الأفراد ما زالوا في عداد المفقودين في الجمهورية العربية السورية، وإذ تشير في هذا الصدد إلى قراري مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/45/3">45/3</a> المؤرخ 6 تشرين الأول/ أكتوبر 2020<sup>(</sup><authorialNote marker="38" placement="bottom" eId="authorialNote_38"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الخامسة والسبعون، الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/75/53/Add.1">A/75/53/Add.1</a>)، الفصل الثالث.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/RES/48/15">48/15</a> المؤرخ 8 تشرين الأول/أكتوبر 2021<sup>(</sup><authorialNote marker="39" placement="bottom" eId="authorialNote_39"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة السادسة والسبعون، الملحق رقم 53 ألف </span>((<a href="https://undocs.org/ar/A/76/53/Add.1">A/76/53/Add.1</a>، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup> وقرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2139(2014)">2139</a><a href="https://undocs.org/ar/S/RES/2139(2014)"> </a><a href="https://undocs.org/ar/S/RES/2139(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2191(2041)">2191</a><a href="https://undocs.org/ar/S/RES/2191(2041)"> </a><a href="https://undocs.org/ar/S/RES/2191(2041)">(2041)</a>، وإذ تشجع جميع الأطراف على تعزيز تواصلها مع مكتب المبعوث الخاص بشأن مسألة الاحتجاز التعسفي، اعتبارا لأن العمل في سبيل التصدي للاختفاء القسري والاحتجاز التعسفي يرتبط ارتباطا وثيقا بحماية حقوق جميع السوريين وبالتوصل إلى تسوية سياسية دائمة في الجمهورية العربية السورية،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى البيانات الصادرة عن الأمين العام ومفوضة الأمم المتحدة السامية لحقوق الإنسان والإجراءات الخاصة لمجلس حقوق الإنسان التي ترجح وقوع جرائم ضد الإنسانية وجرائم حرب في الجمهورية العربية السورية، وإذ تلاحظ أن المفوضة السامية شجّعت مجلس الأمن بصورة متكررة على إحالة الحالة إلى المحكمة الجنائية الدولية، وإذ تأسف لعدم اعتماد مشروع قرار<sup>(</sup><authorialNote marker="40" placement="bottom" eId="authorialNote_40"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/S/2014/348">S/2014/348</a>.</p></authorialNote><sup>)</sup> في هذا الشأن رغم ما لقيه من دعم كبير من الدول الأعضاء،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_30">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير أيضاً</span> إلى تقرير مجلس التحقيق التابع للأمم المتحدة الصادر في 6 نيسان/أبريل 2020<sup>(</sup><authorialNote marker="41" placement="bottom" eId="authorialNote_41"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/S/2020/278">S/2020/278</a>، المرفق.</p></authorialNote><sup>)</sup> بشأن الغارات الجوية التي ألحقت أضراراً بمرافق للرعاية الصحية في شمال غرب الجمهورية العربية السورية ودمرتها، بما في ذلك مواقع سُجلت إحداثياتها على قائمة الأمم المتحدة لتفادي التضارب في خطوة أريد بها ضمان عدم تعرضها للاستهداف أو تضرّرها من العنف، وهو التقرير الذي خلص فيه المجلس في معظم الحالات التي تناولها إلى أنه ”من المحتمل جدا أن تكون الغارات المذكورة قد نفذتها حكومة الجمهورية العربية السورية و/أو حلفاؤها“ وتبيّن له أن المرافق المستهدفة كانت تقدّم خدمات الرعاية الصحية وقت وقوع بعض الغارات وأنه لم تكن هناك جماعات للمعارضة المسلحة لا في هذه المرافق ولا بالقرب منها، وإذ تدعو جميع الأطراف إلى التقيّد بآلية الأمم المتحدة لتفادي التضارب والامتثال لها،</p>
+      </container>
+      <container name="وإذ تشير كذلك" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير كذلك</span> إلى تقرير اللجنة الدولية المستقلة للتحقيق الصادر في آذار/مارس 2021<sup>(</sup><authorialNote marker="42" placement="bottom" eId="authorialNote_42"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/46/55">A/HRC/46/55</a>.</p></authorialNote><sup>)</sup> الذي أبلغ عن القصف العشوائي على يد قوات النظام والقوات الموالية له للمناطق المأهولة بالمدنيين واستهدافها المتعمد للمستشفيات والمرافق الطبية والمناطق التي يتركز فيها المدنيون بشكل كبير، بما في ذلك الأسواق والمدارس والأحياء، وخلص إلى أن القوات الحكومية ارتكبت جرائم حرب وجرائم ضد الإنسانية في سياق شنها للغارات الجوية على المناطق المدنية وقصفها بالمدفعية،</p>
+      </container>
+      <container name="وإذ تدعو" eId="container_32">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدعو </span>إلى الإلغاء الفوري للقانون رقم 10/2018، وإذ يساورها القلق إزاء انتهاك النظام السوري لمساكن السوريين وأراضيهم وممتلكاتهم، ولا سيما من خلال نزع ملكية أراضي وممتلكات المشردين السوريين في التشريعات الوطنية والتدابير المماثلة، مما سيلحق ضرراً كبيراً بحقوق السوريين الذين شردهم النزاع في المطالبة بممتلكاتهم وفي العودة الآمنة والطوعية والكريمة إلى ديارهم عندما تسمح الحالة ﰲ الميدان بذلك، وإذ تعرب عن قلقها إزاء التقارير التي تفيد بانتهاك الجماعات المسلحة حقوق السوريين في المسكن وحيازة الأراضي والممتلكات في المناطق الخاضعة لسيطرتها،</p>
+      </container>
+      <container name="وإذ تعرب عن استيائها" eId="container_33">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن استيائها</span> في هذا الصدد لوجود تشريعات وطنية، وبالأخص القانون رقم 42/2018 وغيره من التشريعات والممارسات المتعلقة بالحق في المسكن وحقوق الأرض والملكية، يلحق تطبيقها ضرراً كبيراً بحقوق السوريين الذين شردهم النزاع في المطالبة بممتلكاتهم، على نحو ما يتضح من التقارير المتواترة عن عمليات هدم للممتلكات تجري على نطاق واسع في المناطق التي كانت في السابق خاضعةً لسيطرة المعارضة السورية وعن عمليات لمصادرة الممتلكات الخاصة بالمحتجزين تعسفاً والمفقودين تتم في كافة أنحاء الجمهورية العربية السورية، وإذ تدعو إلى الإلغاء الفوري لهذا التشريع وتشدّد على حق الجميع، بمن فيهم المشردون السوريون، في ألا يُسلبوا ممتلكاتهم تعسفاً وفي أن يتمكنوا من العودة إلى ديارهم طواعية بشكل آمن يحفظ لهم كرامتهم عندما تسمح الحالة في الميدان بذلك، وإذ تلاحظ في هذا الصدد إصدار وزارة العدل السورية في أيلول/سبتمبر للتعميم رقم 30 لعام 2021 الذي يشترط الحصول على الموافقة الأمنية قبل الحصول على الوكالة عن المفقود أو الغائب، وهو أمر ينطوي على خطر المضي في حرمان المشردين واللاجئين من حقوقهم باعتبارهم يعتمدون على الوكالة من أجل القيام بالإجراءات الإدارية المدنية،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق" eId="container_34">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن القلق </span>لأن قرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2139(2014)">2139</a><a href="https://undocs.org/ar/S/RES/2139(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2165(2014)">2165</a><a href="https://undocs.org/ar/S/RES/2165(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2191(2014)">2191</a><a href="https://undocs.org/ar/S/RES/2191(2014)"> </a><a href="https://undocs.org/ar/S/RES/2191(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2258(2015)">2258</a><a href="https://undocs.org/ar/S/RES/2258(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2268(2016)">2268</a><a href="https://undocs.org/ar/S/RES/2268(2016)"> (2016)</a> و <a href="https://undocs.org/ar/S/RES/2286(2016)">2286</a><a href="https://undocs.org/ar/S/RES/2286(2016)"> (2016)</a> و <a href="https://undocs.org/ar/S/RES/2393(2017)">2393</a><a href="https://undocs.org/ar/S/RES/2393(2017)"> (2017)</a> و <a href="https://undocs.org/ar/S/RES/2401(2018)">2401</a><a href="https://undocs.org/ar/S/RES/2401(2018)"> </a><a href="https://undocs.org/ar/S/RES/2401(2018)">(2018)</a> و <a href="https://undocs.org/ar/S/RES/2449(2018)">2449</a><a href="https://undocs.org/ar/S/RES/2449(2018)"> (2018)</a> و <a href="https://undocs.org/ar/S/RES/2504(2020)">2504</a><a href="https://undocs.org/ar/S/RES/2504(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2533(2020)">2533</a><a href="https://undocs.org/ar/S/RES/2533(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2585(2021)">2585</a><a href="https://undocs.org/ar/S/RES/2585(2021)"> (2021)</a> ما زالت غير منفذة، وإذ تلاحظ الحاجة الماسة إلى تعزيز الجهود المبذولة لمعالجة الحالة الإنسانية في الجمهورية العربية السورية بسبل منها حماية المدنيين وكفالة وصول المساعدات الإنسانية بشكل آمن وكامل وفوري ومستمر ودون أية عراقيل إلى جميع أنحاء الجمهورية العربية السورية،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_35">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تؤكد</span> أن آلية المساعدة الإنسانية العابرة للحدود لا تزال تشكّل وسيلة أساسية وأداة لإنقاذ الأرواح تستهدف تلبية الاحتياجات الإنسانية لجزء كبير من سكان الجمهورية العربية السورية لا يمكن الوصول إليهم عن طريق العمليات المنفذة حالياً في الجمهورية العربية السورية، وإذ تؤكد أهمية العمليات العابرة للحدود وأيضا ضرورة العمل بشكل فوري وموسّع على تحسين إمكانية إيصال المساعدات عبر خطوط التماس واحترام العمل الإنساني القائم على المبادئ باعتبار ذلك أمراً أساسياً لتلافي مزيد من المعاناة والخسائر في الأرواح لا لزوم له،</p>
+      </container>
+      <container name="وإذ تعرب عن بالغ قلقها" eId="container_36">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن بالغ قلقها</span> إزاء تأثير جائحة كوفيد-19 وإزاء تقارير الأمم المتحدة التي تفيد بارتفاع عدد إشعارات الوفاة وعمليات الدفن وهو الأمر الذي يشير فيما يبدو إلى أن حالات الإصابة الفعلية بكوفيد-19 في الجمهورية العربية السورية تتجاوز بكثير الأرقام الرسمية، وإذ تدرك أن الجائحة تمثل تحدياً هائلا للنظام الصحي المنهار والأوضاع الاجتماعية - الاقتصادية والإنسانية في الجمهورية العربية السورية وأن لذلك آثارا غير متناسبة على النساء والأطفال، وإذ تؤكد أن الخطر البالغ الذي يشكّله كوفيد-19 يزيد من حتمية استخدام كل الوسائل الممكنة، بما فيها الآلية العابرة للحدود، من أجل الوصول إلى المحتاجين إلى المساعدة دون شروط مسبقة أو تمييز، وإذ تدعو إلى توفير المساعدات الإنسانية في جميع أنحاء الجمهورية العربية السورية، بما في ذلك المناطق التي تمس فيها الحاجة إلى المساعدات الإنسانية بشكل خاص، وإذ تشدّد على أهمية جمع بيانات دقيقة وآنية والإبلاغ عنها،</p>
+      </container>
+      <container name="وإذ تذكّر بالتزامها" eId="container_37">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تذكّر بالتزامها</span> بقرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2170(2014)">2170</a><a href="https://undocs.org/ar/S/RES/2170(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2253(2015)">2253</a><a href="https://undocs.org/ar/S/RES/2253(2015)"> (2015)</a> المؤرخ 17 كانون الأول/ديسمبر 2015،</p>
+      </container>
+      <container name="وإذ يثير جزعها" eId="container_38">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يثير جزعها</span> أن ما يزيد على 5,6 ملايين لاجئ، منهم أكثر من 3,8 ملايين امرأة وطفل، قد أُجبروا على الفرار من الجمهورية العربية السورية وأن 11,1 مليون شخص في الجمهورية العربية السورية، منهم 6,6 ملايين من المشردين داخليا، يحتاجون إلى المساعدة الإنسانية العاجلة، وهو ما أسفر عن تدفق اللاجئين السوريين إلى البلدان المجاورة وبلدان أخرى في المنطقة وخارجها، وإذ يثير جزعها الخطر الذي تشكّله هذه الحالة على الاستقرار الإقليمي والدولي،</p>
+      </container>
+      <container name="وإذ تعرب عن استنكارها الشديد" eId="container_39">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن استنكارها الشديد </span>لمقتل ما يزيد على 000 29 طفل وإصابة العديد من الأطفال الآخرين منذ بدء الاحتجاجات السلمية في آذار/مارس 2011 ولجميع الانتهاكات والتجاوزات المرتكبة ضد الأطفال، ولا سيما على يد النظام السوري، في مخالفةٍ للقانون الدولي الواجب التطبيق، بما في ذلك ما ينطوي منها على تجنيدهم واستخدامهم واختطافهم وقتلهم وتشويههم واغتصابهم وتعريضهم لغير ذلك من أنواع العنف الجنسي والجنساني وشن الهجمات على المدارس والمستشفيات ومنع وصول المساعدات الإنسانية إليهم والقبض عليهم تعسفاً واحتجازهم وتعذيبهم وإساءة معاملتهم واستخدامهم كدروع بشرية، وإذ تلاحظ في هذا الصدد اعتماد الاستنتاجات التي توصل إليها فريق مجلس الأمن العامل المعني بالأطفال والنزاع المسلح بشأن الأطفال والنزاع المسلح في الجمهورية العربية السورية في 18 تموز/يوليه 2019<sup>(</sup><authorialNote marker="43" placement="bottom" eId="authorialNote_43"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/S/AC.51/2019/1">S/AC.51/2019/1</a>.</p></authorialNote><sup>)</sup> وكذلك التقرير الصادر عن اللجنة الدولية المستقلة للتحقيق في 13 كانون الثاني/يناير 2020 بعنوان ”لقد محوا أحلام أطفالي: حقوق الأطفال في الجمهورية العربية السورية“، وإذ تشدّد على وجوب امتثال النظام السوري وحلفائه لالتزاماتهم بموجب القانون الدولي الواجب التطبيق فيما يتعلق بالأطفال، بما فيها تلك المنبثقة عن اتفاقية حقوق الطفل وبروتوكوليها الاختياريين،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق" eId="container_40">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ مع القلق</span> أن مخيم الهول يوجد به حالياً أكثر من 000 58 شخص، نسبة 93 في المائة منهم من النساء والأطفال، ومن هؤلاء نحو 000 35 طفل دون سن الثانية عشرة يعيشون في ظروف بالغة الصعوبة،</p>
+      </container>
+      <container name="وإذ تشير مع القلق الشديد" eId="container_41">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير مع القلق الشديد</span> إلى النتائج التي توصلت إليها لجنة التحقيق في تقريرها المعنون ”بعيداً عن العين ... بعيداً عن الخاطر: الوفيات أثناء الاحتجاز في الجمهورية العربية السورية“ وفي تقريرها المقدم إلى مجلس حقوق الإنسان الصادر في أيلول/سبتمبر 2021<sup>(</sup><authorialNote marker="44" placement="bottom" eId="authorialNote_44"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/48/70">A/HRC/48/70</a>.</p></authorialNote><sup>)</sup>، وإذ تلاحظ في هذا الصدد صدور إشعارات وفاة لأفراد محتجزين من جانب النظام السوري، مما يشكّل دليلا آخر على الانتهاكات المنهجية للقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، وما أتى في تقارير اللجنة في آذار/مارس 2019 وفي عام 2021 بشأن نطاق وكثافة عمليات الاعتقال والاحتجاز التعسفيين التي تستخدمها القوات الحكومية كوسيلة للقمع والتي أدت إلى وفاة عشرات الآلاف من المدنيين السوريين أثناء الاحتجاز وما أفادت به في تقاريرها من أن وفاة آلاف الأفراد الذين كانوا محتجزين في حماة واللاذقية والحسكة ودمشق قد أكدته كيانات النظام السوري عن طريق إصدار شهادات وفاة، والاستنتاجات التي خلصت إليها اللجنة في تقريرها الصادر في آذار/مارس 2021 بعنوان ”السجن والاحتجاز التعسفيان“، وإذ تلاحظ أن أماكن وجود عشرات الآلاف من المحتجزين لا تزال غير معروفة ولا يذكر عنها النظام السوري شيئا وتشير إلى الروايات التي تقشعر لها الأبدان المنطوية على الاحتجاز والقتل والاختفاء والتعذيب والأوضاع غير الإنسانية والتي وثّقتها اللجنة بدقة ووصفتها بأنها تبلغ حد الجرائم ضد الإنسانية المتمثلة في الإبادة والقتل والاغتصاب أو غيره من أشكال العنف الجنسي والجنساني والتعذيب والسجن المرتكبة في سياق عمليات احتجاز منهجية واسعة النطاق يقوم بها النظام، وإذ تدعو إلى الكف فورا عن أعمال التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية واللاإنسانية والمهينة وأعمال العنف الجنسي والجنساني، التي تجري في مرافق الاحتجاز ووقف جميع أشكال احتجاز الأفراد في عزلة تامة وإلى الإفراج عن جميع الأشخاص الذين احتُجزوا تعسفاً واتخاذ جميع التدابير الممكنة وفقا لقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2474(2019)">2474</a><a href="https://undocs.org/ar/S/RES/2474(2019)"> (2019)</a> المؤرخ 11 حزيران/يونيه 2019 من أجل البحث عن المحتجزين و/أو المختفين وتبيّن مآلهم وإلى إنشاء قناة اتصال فعالة مع أسرهم لضمان تلبية احتياجاتهم القانونية والاقتصادية والنفسية على نحو ملائم كما نص عليه في آخر تقرير للجنة<sup>(</sup><authorialNote marker="45" placement="bottom" eId="authorialNote_45"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/45/31">A/HRC/45/31</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تحث" eId="container_42">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تحث</span> النظام السوري على أن يسلّم الأُسر جثامين أقربائها الذين تم الكشف عن مصيرهم، بمن فيهم أولئك الذين أُعدموا بإجراءات موجزة، وعلى أن يتخذ فورا كافة التدابير المناسبة لحماية حياة وحقوق جميع الأشخاص المحتجزين حالياً أو الذين لا يعرف مصيرهم، ويقوم وفقا لقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2474(2019)">2474</a><a href="https://undocs.org/ar/S/RES/2474(2019)"> (2019)</a> بتوضيح ما آل إليه مصير الأشخاص الذين ما زالوا مفقودين أو ظلوا رهن الاحتجاز، ومنهم كثيرون لا يزالون محتجزين ومعرضين بشدة لخطر الإصابة بمرض كوفيد-19 بسبب اكتظاظ المرافق التي يوجدون فيها ومعاناتهم من مشاكل صحية بخلاف الإصابة بالفيروس منها مثلا انتشار سوء التغذية وداء السل بينهم، وذلك على الرغم من النداءات الصادرة عن الأمين العام والمبعوث الخاص والمجتمع الدولي من أجل الإفراج عن أعداد كبيرة من المحتجزين في الجمهورية العربية السورية للتخفيف من انتشار الفيروس،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_43">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2475(2019)">2475</a><a href="https://undocs.org/ar/S/RES/2475(2019)"> (2019)</a> المؤرخ 20 حزيران/يونيه 2019 بشأن أوضاع الأشخاص ذوي الإعاقة في سياق النزاعات المسلحة، وإذ تعرب عن بالغ القلق إزاء التأثير غير المتناسب للنزاع المسلح على الأشخاص ذوي الإعاقة، بما يشمل التخلي عنهم وتعرّضهم للعنف وعدم قدرتهم على الاستفادة من الخدمات الأساسية، وإذ تؤكّد أهمية تزويد جميع السكان المدنيين المتضرّرين باحتياجاتهم على صعيدي الحماية والمساعدة، وإذ تشدّد على ضرورة مراعاة الاحتياجات الخاصة للأشخاص ذوي الإعاقة في عمليات الاستجابة الإنسانية المنفّذة في سياق النزاع السوري،</p>
+      </container>
+      <container name="وإذ تعرب عن تقديرها العميق" eId="container_44">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن تقديرها العميق</span> للجهود الكبيرة التي تبذلها البلدان المجاورة وبلدان أخرى في المنطقة لاستيعاب السوريين، وإذ تعترف في الوقت نفسه بالأثر المتزايد، على الصعُد المالي والاجتماعي - الاقتصادي والسياسي، المترتب على وجود أعداد غفيرة من اللاجئين والمشردين في هذه البلدان،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_45">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب </span>بالجهود التي تبذلها الأمم المتحدة وجامعة الدول العربية وبجميع الجهود الدبلوماسية المبذولة للتوصل إلى حل سياسي للأزمة السورية استناداً إلى البيان الختامي الصادر عن مجموعة العمل من أجل سورية في 30 حزيران/يونيه 2012<sup> </sup>وتمشيا مع قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> </a><a href="https://undocs.org/ar/S/RES/2254(2015)">(2015)</a>،</p>
+      </container>
+      <container name="وإذ تعرب عن الدعم الكامل" eId="container_46">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن الدعم الكامل</span> للجهود التي يبذلها المبعوث الخاص للأمين العام إلى سورية من أجل حماية السكان المدنيين والتنفيذ الكامل للعملية السياسية السورية التي تقيم حُكماً غير طائفي ذا مصداقية يشمل الجميع، وفقا للبيان الختامي وبما يتسق مع قراري مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2258(2015)">2258</a><a href="https://undocs.org/ar/S/RES/2258(2015)"> (2015)</a>، وإذ تحث الأطراف السورية على التعاطي البنَّاء مع اللجنة الدستورية من أجل تمهيد الطريق للتفاوض بشأن عملية انتقال سياسي حقيقي، وإذ تلاحظ مع التقدير جهود الوساطة الرامية إلى تيسير التوصل إلى وقف لإطلاق النار في الجمهورية العربية السورية، على نحو ما أشار إليه مجلس الأمن في قراره <a href="https://undocs.org/ar/S/RES/2336(2016)">2336</a><a href="https://undocs.org/ar/S/RES/2336(2016)"> (2016)</a>، وإذ تؤيد الجهود الرامية إلى إنهاء العنف، معربةً في الوقت نفسه عن بالغ القلق إزاء الانتهاكات، وإذ تطالب جميع أطراف وقف إطلاق النار في الجمهورية العربية السورية بأن تحترم التزاماتها، وإذ تحث جميع الدول الأعضاء، ولا سيما أعضاء الفريق الدولي لدعم سورية، على أن تستخدم نفوذها كي تضمن احترام تلك الالتزامات وتنفيذ تلك القرارات تنفيذا كاملا بغية دعم الجهود الرامية إلى تهيئة الظروف اللازمة للتوصل إلى وقف دائم ومستمر لإطلاق النار، وهو أمر ضروري للتوصل إلى حل سياسي للنزاع في الجمهورية العربية السورية، وكي تنهي الانتهاكات والتجاوزات الجسيمة المنهجية والواسعة النطاق لحقوق الإنسان وانتهاكات القانون الدولي الإنساني،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>1 -</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> الانتهاكات والتجاوزات الجسيمة المنهجية والواسعة النطاق للقانون الدولي لحقوق الإنسان وانتهاكات القانون الدولي الإنساني المرتكبة في الجمهورية العربية السورية والهجمات العشوائية وغير المتناسبة على السكان المدنيين والبنية التحتية المدنية، ولا سيما الهجمات على المرافق الطبية والمدارس، التي ما زالت تُوقع قتلى في صفوف المدنيين، وتطالب جميع الأطراف بالامتثال لالتزاماتها بموجب القانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجب وتدين بأشد العبارات</span> استمرار العنف المسلح من جانب النظام السوري ضد الشعب السوري منذ بداية الاحتجاجات السلمية في عام 2011، وتطالب النظام السوري بأن يضع على الفور حداً لجميع الهجمات على مواطنيه، وأن يتخذ جميع الاحتياطات الممكنة لتفادي إزهاق أرواح المدنيين أو إصابتهم أو الإضرار بالأعيان المدنية بصورة عرضية، وللتقليل من حدوث ذلك إلى أدنى حد ممكن في أي حال من الأحوال، وأن يضطلع بمسؤولياته عن حماية السكان السوريين وينفذ فوراً قرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2258(2015)">2258</a><a href="https://undocs.org/ar/S/RES/2258(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2286(2016)">2286</a><a href="https://undocs.org/ar/S/RES/2286(2016)"> (2016)</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>3 -</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold italic">تحث</span> جميع الدول الأعضاء، ولا سيما أعضاء الفريق الدولي لدعم سورية، على أن تهيئ الظروف لمواصلة المفاوضات من أجل التوصل إلى حل سياسي للنزاع السوري، تحت رعاية الأمم المتحدة، من خلال العمل على وقف إطلاق النار في جميع أنحاء البلد، بما يتيح إمكانية الوصول الآمن والكامل والفوري ودون عوائق للمساعدة الإنسانية ويؤدي إلى الإفراج عن المحتجزين تعسفا وضمان تقدير عدد الباقين في السجون، على نحو يتسق مع قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> (2015)</a>، لأن الحل السياسي الدائم للنزاع بمشاركة الجميع هو وحده الذي يمكن أن يضع حدا للانتهاكات والتجاوزات الجسيمة المنهجية والواسعة النطاق للقانون الدولي لحقوق الإنسان وانتهاكات القانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>4 -</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> أي استخدام من جانب أيِّ طرف في النزاع الدائر في الجمهورية العربية السورية لأية أسلحة كيميائية، مثل الكلور والسارين وخردل الكبريت، وتشدد على أن استحداث الأسلحة الكيميائية أو إنتاجها أو حيازتها أو تخزينها أو الاحتفاظ بها أو نقلها أو استخدامها في أي مكان وفي أي وقت من قبل أي جهة وفي أي ظرف من الظروف هو أمر غير مقبول ويشكّل واحدة من أخطر الجرائم بموجب القانون الدولي كما أنه انتهاك لاتفاقية حظر استحداث وإنتاج وتخزين واستعمال الأسلحة الكيميائية وتدمير تلك الأسلحة ولقرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2118(2013)">2118</a><a href="https://undocs.org/ar/S/RES/2118(2013)"> (2013)</a>، وتعرب عن اقتناعها الراسخ بحتمية ووجوب محاسبة الأفراد المسؤولين عن استحداث الأسلحة الكيميائية أو إنتاجها أو حيازتها أو تخزينها أو الاحتفاظ بها أو نقلها أو استخدامها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> النظام السوري وتنظيم الدولة الإسلامية (المعروف أيضاً باسم ”داعش“) بالكف فوراً عن أي استخدام آخر للأسلحة الكيميائية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>6 -</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بإنشاء وتفعيل فريق التحقيق وتحديد الهوية التابع لمنظمة حظر الأسلحة الكيميائية والمنوطة به مهمة تحديد هوية الجناة في استخدام الأسلحة الكيميائية في الجمهورية العربية السورية والذي سيقدم بذلك مساهمة هامة على طريق تحقيق الهدف النهائي المتمثل في مساءلة هؤلاء الجناة، وترحب أيضاً في هذا الصدد بمذكرة التفاهم المبرمة بين الآلية الدولية المحايدة المستقلة للمساعدة في التحقيق والملاحقة القضائية للأشخاص المسؤولين عن الجرائم الأشد خطورة وفق تصنيف القانون الدولي المرتكبة في الجمهورية العربية السورية منذ آذار/مارس 2011 ومنظمة حظر الأسلحة الكيميائية وبالتعاون الجاري بينهما؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <num>7 -</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى إصدار نشرة الأمين العام بشأن سجلات ومحفوظات آلية التحقيق المشتركة بين منظمة حظر الأسلحة الكيميائية والأمم المتحدة، وتدعو الأمين العام، والدول الأعضاء والجهات الفاعلة الأخرى ذات الصلة إلى ضمان التعجيل بتجهيز المواد ذات الصلة لتقديمها دون مزيد من التأخير إلى الآلية الدولية المحايدة المستقلة العامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>8 -</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> بأن يتقيد النظام السوري تقيدا تاما بالتزاماته الدولية، بما في ذلك واجب الإعلان عن كامل برنامجه المتعلق بالأسلحة الكيميائية، مع التركيز بوجه خاص على ضرورة أن تقوم الجمهورية العربية السورية على وجه السرعة بمعالجة ما تم التحقق منه من ثغرات وتناقضات واختلافات تتعلق بإعلانها الصادر فيما يتصل باتفاقية حظر استحداث وإنتاج وتخزين واستعمال الأسلحة الكيميائية وتدمير تلك الأسلحة وأن تزيل برنامجها المتعلق بالأسلحة الكيميائية بكامله<sup>(</sup><authorialNote marker="46" placement="bottom" eId="authorialNote_46"><p xml:space="preserve">	()	قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2118(2013)">2118 (2013)</a>، المرفق الأول.</p></authorialNote><sup>)</sup>؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>9 -</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى المجلس التنفيذي لمنظمة حظر الأسلحة الكيميائية أن ينظر في وضع إجراءات إضافية للتحقق الصارم عملا بالفقرة 8 من المادة الرابعة والفقرة 10 من المادة الخامسة من الاتفاقية، بغية ضمان التدمير الكامل لبرنامج الأسلحة الكيميائية السوري ومنع أي استخدام آخر للأسلحة الكيميائية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>10 -</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجب وتدين بأشد العبارات</span> استمرار الانتهاكات والتجاوزات الجسيمة المنهجية والواسعة النطاق لحقوق الإنسان والحريات الأساسية وجميع انتهاكات القانون الدولي الإنساني التي يرتكبها النظام السوري والميليشيات التابعة للحكومة ومن يقاتلون باسم تلك الميليشيات، بما في ذلك الانتهاكات التي تستهدف عمدا المدنيين أو الأعيان المدنية والهجمات التي تُشن على المدارس والمستشفيات ومحطات المياه المدنية وأماكن العبادة والهجمات العشوائية بالأسلحة الثقيلة والقصف الجوي والذخائر العنقودية والقذائف التسيارية والبراميل المتفجرة والأسلحة الكيميائية أو غير ذلك من الأسلحة وأشكال القوة الأخرى المستخدمة لاستهداف المدنيين، إضافة إلى تجويع السكان المدنيين كأسلوب من أساليب الحرب والمذابح وعمليات الإعدام التعسفي والقتل خارج نطاق القضاء، وقتل المحتجين السلميين والمدافعين عن حقوق الإنسان والصحفيين والأفراد وأبناء الطوائف بسبب دينهم أو معتقدهم، والاحتجاز التعسفي، والاختفاء القسري، والتشريد القسري لأفراد الأقليات ومعارضي النظام السوري، والتدخل بشكل غير قانوني للحيلولة دون الحصول على العلاج الطبي، وعدم احترام وحماية العاملين في القطاع الطبي، والتعذيب، والعنف المنهجي الجنسي والجنساني، بما في ذلك الاغتصاب أثناء الاحتجاز، وسوء المعاملة وغير ذلك من انتهاكات حقوق الإنسان وتجاوزاتها، بما في ذلك حقوق الإنسان الواجبة للمرأة والطفل، وانتهاكات القانون الدولي الإنساني؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <num>11 -</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشكل قاطع</span> كل الاعتداءات وأعمال العنف الموجهة ضد الصحفيين والعاملين في وسائط الإعلام من قبل النظام السوري والميليشيات التابعة للحكومة والجماعات المسلحة غير التابعة للدولة، وتحث جميع الأطراف على احترام الاستقلال المهني للصحفيين وحقوقهم، وتذكّر في هذا الصدد بأن الصحفيين والعاملين في وسائط الإعلام الذين يقومون بأنشطة مهنية خطرة في مناطق النزاع المسلح يجب اعتبارهم مدنيين وحمايتهم على هذا الأساس، شريطة ألا يصدر عنهم أي فعل يؤثر سلباً على وضعهم كمدنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>12 -</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بقوة</span> جميع ما ترتكبه الجهات المسلحة غير التابعة للدولة من انتهاكات وتجاوزات لحقوق الإنسان وجميع انتهاكات القانون الدولي الإنساني، بما في ذلك قتل الأفراد وأبناء الطوائف واضطهادهم بسبب دينهم أو معتقدهم، وكذلك أي تجاوزات لحقوق الإنسان أو انتهاكات للقانون الدولي الإنساني ترتكبها جماعات مسلحة غير تابعة لدول، بما فيها حزب الله والجماعات التي أدرجها مجلس الأمن في قوائم الكيانات الإرهابية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxt">
+        <num>13 -</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجب وتدين بشدة </span>الأعمال الإرهابية وأعمال العنف التي يرتكبها ضد المدنيين تنظيم الدولة الإسلامية (المعروف أيضا باسم ”داعش“) وهيئة تحرير الشام (المعروفة سابقاً باسم ”جبهة النصرة“) والجماعات الإرهابية المنتسبة إلى تنظيم القاعدة والجماعات الإرهابية التي حدّدها مجلس الأمن مثل تنظيم حراس الدين وسائر الجماعات المتطرفة العنيفة، وتجاوزاتها الجسيمة والمستمرة والمنهجية والواسعة النطاق لحقوق الإنسان وانتهاكاتها للقانون الدولي الإنساني، وتؤكد من جديد أنه لا يمكن ولا ينبغي ربط الإرهاب بأي دين أو جنس أو عِرق أو جنسية أو حضارة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxt">
+        <num>14 -</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بأشد العبارات</span> الانتهاك الجسيم والمنهجي لحقوق المرأة والطفل الذي ترتكبه الجماعات الإرهابية والجماعات المسلحة، بما في ذلك ما يسمى تنظيم الدولة الإسلامية (المعروف أيضا باسم ”داعش“)، وبوجه خاص الانتهاكات التي تنطوي على قتل النساء والفتيات والعنف الجنسي والجنساني، بما في ذلك استرقاق النساء والفتيات واستغلالهن والاعتداء عليهن جنسياً والتجنيد القسري للأطفال واستخدامهم واختطافهم؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxt">
+        <num>15 -</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين</span> ما تنقله التقارير من تشريد قسري للسكان في الجمهورية العربية السورية، بما في ذلك التشريد القسري للمدنيين نتيجة لاتفاقات الهدنة المحلية، على النحو الذي أبرزته لجنة التحقيق، وما يخلفه ذلك من آثار مقلقة على التكوين الديمغرافي للبلد، وهو ما يمثل مخططاً لإحداث تغيير ديمغرافي جذري بدأه النظام السوري وحلفاؤه وجهات فاعلة أخرى من غير الدول، وتهيب بجميع الأطراف المعنية أن تكف على الفور عن جميع الأنشطة المتصلة بهذه الأعمال، بما في ذلك أي أنشطة يمكن أن تشكّل جرائم حرب وجرائم ضد الإنسانية، وتلاحظ أن إفلات مرتكبي هذه الجرائم من العقاب أمر غير مقبول، وتؤكد من جديد أن المسؤولين عن هذه الانتهاكات الماسة بالقانون الدولي يجب تقديمهم إلى العدالة، وتؤيد الجهود المبذولة لجمع الأدلة تمهيداً لاتخاذ إجراءات قانونية في المستقبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="SingleTxt">
+        <num>16 -</num>
+        <content eId="para_167__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدّد</span> على أهمية تهيئة الظروف المؤاتية لتنقل المشردين داخلياً في الجمهورية العربية السورية طواعية وفي ظروف آمنة تحفظ كرامتهم، وعن بينة من الأمور، وتحث بقوة جميع الأطراف على العمل مع الأمم المتحدة لضمان أن تظل أي تنقلات من هذا القبيل منسجمة مع المبادئ التوجيهية بشأن التشريد الداخلي<sup>(</sup><authorialNote marker="47" placement="bottom" eId="authorialNote_47"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>، المرفق.</p></authorialNote><sup>)</sup> وأن يحصل المشردون على المعلومات التي يحتاجون إليها لاتخاذ قرارات مستنيرة وطوعية بشأن تنقلهم وسلامتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxt">
+        <num>17 -</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين</span> ما تفيد به التقارير من أعمال التشريد القسري للسكان في الجمهورية العربية السورية، وتعرب عن بالغ قلقها إزاء ورود تقارير تفيد بحدوث عمليات هندسة اجتماعية وديمغرافية في مناطق مختلفة في كافة أنحاء البلد، وتهيب بجميع الأطراف المعنية أن تكف على الفور عن جميع الأنشطة التي تؤدي إلى هذه الأعمال، بما في ذلك أي أنشطة يمكن أن تشكّل جرائم حرب أو جرائم ضد الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="SingleTxt">
+        <num>18 -</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	تذكّر</span> حكومة الجمهورية العربية السورية بالتزاماتها بموجب اتفاقية مناهضة التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة<sup>(</sup><authorialNote marker="48" placement="bottom" eId="authorialNote_48"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1465, No. 24841.</p></authorialNote><sup>)</sup>، بما في ذلك التزامها باتخاذ إجراءات فعالة لمنع أعمال التعذيب في أي أراض خاضعة لولايتها، وتهيب بجميع الدول الأطراف في الاتفاقية أن تمتثل لأي التزامات ذات صلة بموجب الاتفاقية، بما فيها تلك التي تقضي بالتسليم أو المحاكمة على النحو المنصوص عليه في المادة 7 من الاتفاقية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxt">
+        <num>19 -</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> المقررة الخاصة المعنية بحقوق الإنسان للمشردين داخليا ومفوضية الأمم المتحدة لشؤون اللاجئين على أن تجعلا الحالة العاجلة الإنسانية والمتعلقة بحقوق الإنسان التي يوجد فيها المشردون داخلياً في الجمهورية العربية السورية قيد نظرهما المتواصل بهدف مساعدة الدول الأعضاء والأمم المتحدة، بما في ذلك الفريق الرفيع المستوى المعني بالتشرد الداخلي الذي أنشأه الأمين العام، والجهات الفاعلة الأخرى في المجال الإنساني ومجال حقوق الإنسان على تحسين ما تقوم به من إجراءات بخصوص التشرد الداخلي في الجمهورية العربية السورية، مع التركيز على إيجاد حلول دائمة للمشردين والحد من الفجوة الكبيرة القائمة بين الاحتياجات والموارد المتاحة وتحسين عمليات جمع وتنسيق البيانات المتعلقة بالتشريد، بما في ذلك عن الأطفال المشردين، وتقديم مساعدة أكثر فعالية من خلال برامج جيدة التخطيط؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <num>20 -</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن استيائها</span> لاستمرار إغلاق معبري باب السلام واليعربية الحدوديين أمام المعونة الإنسانية العابرة للحدود، وتحث مجلس الأمن على تجديد الإذن باستخدام هذين المعبرين وعلى مواصلة النظر في إضافة معابر أخرى لأجل تلبية الاحتياجات الإنسانية، اعتبارا لتزايد هذه الاحتياجات بنسبة 38 في المائة في شمال شرقي الجمهورية العربية السورية منذ إغلاق معبر اليعربية الحدودي فقط وفقا للأمم المتحدة، وتشدّد على أن أكثر من 6,9 ملايين شخص يعيشون في مناطق غير خاضعة لسيطرة النظام السوري وأن 5,3 ملايين شخص يحتاجون إلى المساعدة الإنسانية في شمال شرقي وشمال غربي البلد، وتضع في اعتبارها أيضاً التأثير المضاعف لجائحة كوفيد-19 وأن الآلية العابرة للحدود تظل أداة لا غنى عنها لتلبية الاحتياجات الإنسانية للسكان الذين لا يمكن الوصول إليهم بالشكل الكافي عن طريق العمليات المنفذة حالياً داخل الجمهورية العربية السورية وذلك في ضوء القيود المفروضة على إيصال المساعدات عبر خطوط التماس، بما في ذلك تلبية الاحتياجات عن طريق إيصال اللقاحات واللوازم الضرورية لمكافحة جائحة كوفيد-19؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <num>21 -</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> بألا يعوق النظام السوري أو أيٌّ من أطراف النزاع الأخرى سبل إيصال المساعدات الإنسانية في حينها بشكل آمن وكامل وفوري ومتواصل ودون عراقيل، وتدعو إلى مواصلة تقديم الدعم الإنساني عبر الحدود إلى ما بعد تموز/يوليه 2022؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_278" class="SingleTxt">
+        <num>22 -</num>
+        <content eId="para_278__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> استعمال العنف الجنسي والجنساني والانتهاك والاستغلال الجنسيين بشكل مستمر وواسع الانتشار في أماكن من بينها مراكز الاحتجاز الحكومية، بما فيها تلك التي تديرها أجهزة المخابرات، وتشير إلى أن هذه الأعمال يمكن أن تشكّل انتهاكات للقانون الدولي الإنساني وانتهاكات للقانون الدولي لحقوق الإنسان وتجاوزات لحقوق الإنسان، وتعرب في هذا الصدد عن بالغ القلق إزاء مناخ الإفلات من العقاب على جرائم العنف الجنسي والجنساني السائد، وتحث جميع أطراف النزاع، وخاصة النظام السوري، على الكف فورا عن ارتكاب أعمال العنف الجنسي والجنساني، وتحث النظام السوري على كفالة حصول ضحايا العنف الجنسي والجنساني والناجين منه على دعم كلي وتمكينهم من التماس الجبر والوصول إلى سبل الانتصاف؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxt">
+        <num>23 -</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة أيضا</span> جميع الانتهاكات والتجاوزات التي تُرتكب ضد الأطفال في انتهاك للقانون الدولي الواجب التطبيق، بما في ذلك تلك التي تنطوي على تجنيدهم واستخدامهم، وقتلهم وتشويههم، واغتصابهم وتعريضهم لسائر أشكال العنف الجنسي والجنساني، واختطافهم وحرمانهم من المساعدات الإنسانية والتعليم، وشن الهجمات على الأعيان المدنية، بما في ذلك المدارس والمستشفيات، فضلا عن اعتقال الأطفال تعسفا واحتجازهم غير القانوني وتعذيبهم وإساءة معاملتهم واستخدامهم كدروع بشرية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_323" class="SingleTxt">
+        <num>24 -</num>
+        <content eId="para_323__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن بالغ القلق</span> إزاء حرمان الأطفال من حريتهم بدعوى ارتباطهم الحقيقي أو المزعوم بالجماعات المسلحة أو القوات المسلحة، وتحث النظام السوري على الامتثال حسب الانطباق لالتزاماته بموجب اتفاقية حقوق الطفل، وخصوصا الالتزام القاضي بألا يُستخدم اعتقال الأطفال واحتجازهم وسجنهم إلا كتدبير من تدابير الملاذ الأخير ولأقصر فترة زمنية مناسبة وبأن يولى الاعتبار الأول في جميع الإجراءات التي تتعلق بالأطفال لمصالح الطفل الفضلى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_347" class="SingleTxt">
+        <num>25 -</num>
+        <content eId="para_347__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد من جديد</span> مسؤولية النظام السوري عن الاستخدام المنهجي للاختفاء القسري، وتحيط علما بتقييم لجنة التحقيق الذي خلص إلى أن استخدام النظام السوري للاختفاء القسري يشكّل جريمة ضد الإنسانية، وتدين اختفاءات الشبان والفتيان المدبرة واستغلال حالات وقف إطلاق النار كفرصة لتجنيدهم قسرا واحتجازهم تعسفا؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxt">
+        <num>26 -</num>
+        <content eId="para_372__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ بقلق بالغ</span> ما يستفاد من تقرير لجنة التحقيق الصادر في آذار/مارس 2021 ومن تعليقاتها من أن جميع أطراف النزاع، وفي مقدمتها قوات الأمن التابعة للنظام السوري، كانت ضالعة بشكل متعمد في أعمال الاختفاء القسري على نطاق واسع طوال العقد الماضي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_398" class="SingleTxt">
+        <num>27 -</num>
+        <content eId="para_398__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن قلقها البالغ</span> لأن القوات التابعة للنظام السوري تواصل عمدا، وفق ما توصلت إليه لجنة التحقيق من استنتاجات مؤخرا، إخفاء مصير ومكان الأشخاص ضحايا الاختفاء القسري، مما يطيل عن قصد معاناة مئات الآلاف من أفراد أسر المختفين قسرا، وهو أمر يثير القلق الشديد لأن الأدلة تشير إلى أن النظام السوري يتحرى الدقة في عمله الإداري ويمارس مراقبة مركزية عالية فيما يتعلق بالأشخاص الذين احتجزهم، بما في ذلك مسك السجلات عن هوية المحتجزين ومكان احتجازهم، وإذ تلاحظ ما لهذه المعلومات المحتملة من قيمة لأفراد أسر المفقودين، بمن فيهم المختفون قسرا، تدعو النظام السوري إلى تقديم معلومات عن الأشخاص المحتجزين أو المفقودين أو المختفين قسرا إلى أسرهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_425" class="SingleTxt">
+        <num>28 -</num>
+        <content eId="para_425__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع </span>جميع أطراف النزاع على تعزيز تواصلها مع المبعوث الخاص للأمين العام إلى سورية من أجل التعجيل بإفراج النظام السوري عن جميع الأشخاص المحتجزين تعسفا، وإحراز تقدم فيما يتعلق بمسألة الأشخاص المفقودين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_453" class="SingleTxt">
+        <num>29 -</num>
+        <content eId="para_453__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> بأن يعزّز النظام السوري، بما يتفق مع التزاماته بموجب الأحكام ذات الصلة من القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، إمكانية الحصول على الخدمات الصحية دون تمييز وبأن يحترم الجرحى والمرضى والعاملين في القطاعين الطبي والصحي ويحميهم من العراقيل والتهديدات والاعتداءات البدنية، وتلاحظ مع القلق محدودية فرص الوصول إلى خدمات الرعاية الصحية في ضوء تداعيات جائحة كوفيد-19، لا سيما في شمال الجمهورية العربية السورية حيث تضررت شبكات الرعاية الصحية بشدة وجرى في كثير من الحالات تدميرها بفعل الغارات الجوية التي يشنها النظام وحلفاؤه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_482" class="SingleTxt">
+        <num>30 -</num>
+        <content eId="para_482__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> جميع الاعتداءات على الجرحى والمرضى وعلى العاملين في القطاعين الطبي والصحي ووسائل نقلهم ومعداتهم، وعلى المستشفيات والمرافق الطبية الأخرى، وتعرب عن استيائها من العواقب الطويلة الأجل لهذه الاعتداءات على السكان ونظم الرعاية الصحية في الجمهورية العربية السورية، وتؤكد من جديد الالتزامات الواقعة بموجب القانون الدولي الإنساني فيما يتصل بحماية العاملين في القطاع الطبي وفي المجال الإنساني ووسائل نقلهم ومعداتهم؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_512" class="SingleTxt">
+        <num>31 -</num>
+        <content eId="para_512__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة أيضا</span> استهداف العاملين في المجال الإنساني والأشخاص الذين يؤدون واجبات طبية ووسائل نقلهم ومعداتهم والمستشفيات وغيرها من المرافق الطبية، مما قد يشكل جرائم حرب، بما في ذلك الهجوم على مستشفى المغارة في الأتارب في 21 آذار/مارس 2021 المدرج في قائمة تفادي التضارب، والهجوم الإرهابي على مستشفى الشفاء في 12 حزيران/يونيه 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_543" class="SingleTxt">
+        <num>32 -</num>
+        <content eId="para_543__content">
+          <p xml:space="preserve">	<span class="bold italic">تحث</span> جميع أطراف النزاع على وضع تدابير فعالة لمنع أعمال العنف والاعتداءات والتهديدات بالاعتداء الموجهة ضد المرضى والجرحى والمشردين داخلياً وضد العاملين في القطاع الطبي وفي المجال الإنساني والمستشفيات وغيرها من المرافق الطبية، بما في ذلك من خلال إجراء تحقيقات كاملة وفورية ونزيهة وفعالة لمحاسبة المسؤولين عن أي من هذه الأعمال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_575" class="SingleTxt">
+        <num>33 -</num>
+        <content eId="para_575__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن قلقها البالغ</span> إزاء الاستنتاجات الواردة في تقرير لجنة التحقيق الصادر في تموز/يوليه 2020 بشأن تعرّض جنوب شرق إدلب وغرب حلب لما لا يقل عن 500 1 غارة جوية في الفترة ما بين 1 تشرين الثاني/نوفمبر 2019 و 5 آذار/مارس 2020 استُخدمت في أغلبها قذائف جو - أرض وبراميل متفجرة، مما ألحق الضرر بالمرافق الطبية والمدارس والأسواق وأدى إلى مقتل المدنيين، وإزاء استنتاجات لجنة التحقيق التي تفيد بأن هناك ”أسباباً معقولة تدعو إلى الاعتقاد بأن قواتٍ موالية للحكومة ارتكبت جرائم الحرب المتمثلة في الاعتداء المتعمد على العاملين في القطاع الطبي والمرافق الطبية عن طريق شن غارات جوية“ فضلا عن ”جريمة الحرب المتمثلة في شن هجمات عشوائية أدت إلى مقتل أو إصابة المدنيين“ مما أسفر عن نزوح أكثر من 000 560 شخص من شمال غرب إدلب يضافون إلى موجات النزوح السابقة التي شُرد خلالها، منذ بدء النزاع وأكثر من مرة في أحيان كثيرة، ما يزيد على نصف سكان إدلب البالغ عددهم 2,5 مليون نسمة، وتشدّد على أن الحالة في إدلب تثير القلق الشديد، وتعرب عن تأييدها للاتفاق الحالي لوقف الأعمال العدائية من أجل تجنب وقوع كارثة إنسانية أخرى، وتهيب بالجهات الضامنة لذلك الاتفاق أن تكفل التقيّد بوقف إطلاق النار وإيصال المساعدات الإنسانية على نحو آمن وكامل ومستدام وبسرعة ودون عراقيل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_608" class="SingleTxt">
+        <num>34 -</num>
+        <content eId="para_608__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> بأن يتعاون النظام السوري تعاونا كاملا مع لجنة التحقيق، بسبل منها أن يتيح لها إمكانية الدخول والوصول فورا إلى جميع أنحاء الجمهورية العربية السورية بصورة كاملة وآمنة ومستدامة ودون قيود؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_642" class="SingleTxt">
+        <num>35 -</num>
+        <content eId="para_642__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> تدخل جميع المقاتلين الإرهابيين الأجانب والتنظيمات الأجنبية والقوات الأجنبية التي تقاتل باسم النظام السوري في الجمهورية العربية السورية، وتعرب عن القلق البالغ من أن ضلوع تلك الجهات في النزاع يزيد من تفاقم الحالة المتدهورة في الجهورية العربية السورية، بما في ذلك حالة حقوق الإنسان والحالة الإنسانية، الأمر الذي يؤدي إلى آثار سلبية خطيرة في المنطقة، وتنادي كذلك بوجوب أن ينسحب فورا من الجمهورية العربية السورية جميع المقاتلين الإرهابيين الأجانب ومَن يقاتلون دعماً للنظام السوري، بمن فيهم جميع الميليشيات التي ترعاها الحكومات الأجنبية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_677" class="SingleTxt">
+        <num>36 -</num>
+        <content eId="para_677__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> بأن تضع جميع الأطراف على الفور حداً لجميع انتهاكات القانون الدولي لحقوق الإنسان والتجاوزات الماسة بحقوق الإنسان وانتهاكات القانون الدولي الإنساني، وتذكّر بوجه خاص بالالتزام الذي يفرضه القانون الدولي الإنساني بضرورة التمييز بين المدنيين والمحاربين وحظر الهجمات العشوائية وغير المتناسبة وجميع الهجمات على المدنيين والأعيان المدنية، وتطالب كذلك جميع أطراف النزاع باتخاذ جميع الخطوات المناسبة لحماية المدنيين وفقا للقانون الدولي، بوسائل منها الكف عن الهجمات الموجهة ضد الأعيان المدنية، مثل المراكز الطبية والمدارس ومحطات المياه، والامتناع عن تسليح تلك المرافق والسعي إلى تفادي إنشاء مواقع عسكرية في المناطق ذات الكثافة السكانية العالية وإتاحة إجلاء الجرحى وجميع المدنيين الراغبين في مغادرة مناطق النزاع، بما في ذلك المناطق المحاصرة، وتذكِّر في هذا الصدد بأن النظام السوري يتحمل المسؤولية الرئيسية عن حماية سكانه؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_678" class="SingleTxt">
+        <content eId="para_678__content">
+          <p xml:space="preserve">	37 –	<span class="bold italic">تدين بأشد العبارات</span> جميع الاعتداءات على الأعيان المشمولة بالحماية المرتكبة في الجمهورية العربية السورية، بما فيها الهجمات العشوائية وغير المتناسبة وتلك التي يمكن أن تشكّل جرائم حرب، وتطلب إلى لجنة التحقيق أن تواصل تحقيقاتها في جميع هذه الأعمال، وتطالب النظام السوري بالنهوض بمسؤوليته عن حماية السكان السوريين؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="SingleTxt">
+        <num>38 -</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> بأن يوقف النظام السوري فورا أي هجمات على المدنيين وأي هجمات غير متناسبة وأي استخدام عشوائي للأسلحة في المناطق المأهولة بالسكان، وتذكّر في هذا الصدد بواجب احترام القانون الدولي الإنساني في جميع الظروف؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_680" class="SingleTxt">
+        <num>39 -</num>
+        <content eId="para_680__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدّد</span> على ضرورة المساءلة عما ارتُكب في الجمهورية العربية السورية منذ آذار/مارس 2011 من جرائم تنطوي على خرق للقانون الدولي، ولا سيما القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، وهي جرائم يمكن أن يشكّل بعضها جرائم حرب أو جرائم ضد الإنسانية، وذلك من خلال إجراء تحقيقات وملاحقات قضائية نزيهة ومستقلة على المستوى الوطني أو الدولي؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_682" class="SingleTxt">
+        <num>40 -</num>
+        <content eId="para_682__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الآلية الدولية المحايدة المستقلة أن توافي الجمعية العامة، ابتداء من دورتها الخامسة والسبعين، بتقرير سنوي عن تنفيذ الآلية ولايتَها مع الحفاظ على الطابع السري لأعمالها الموضوعية، يتزامن تقديمه مع قيام رئيسة الآلية بعرض التقرير في شهر نيسان/أبريل من كل عام في جلسة عامة للجمعية العامة تُعقد في إطار بند جدول الأعمال المعنون ”منع نشوب النزاعات المسلحة“؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_685" class="SingleTxt">
+        <num>41 -</num>
+        <content eId="para_685__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب </span>بالجهود التي تبذلها الآلية الدولية المحايدة المستقلة للمساعدة في البحث عن المفقودين في السياق السوري، على نحو ما جاء في تقارير الآلية المقدمة إلى الجمعية العامة، وتشجع الآلية كذلك على إيجاد سبل ووسائل إضافية للمساهمة في تحقيق هذه الغاية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_689" class="SingleTxt">
+        <num>42 -</num>
+        <content eId="para_689__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب أيضا</span> بإدراج التمويل الكامل للآلية الدولية المحايدة المستقلة في الميزانية المقترحة من قبل الأمين العام لعام 2020، وفقا لقرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/73/182">73/182</a>، وتشدد على الحاجة إلى التنفيذ الكامل لقراراتها السابقة بشأن تمويل الآلية من أجل تمكينها من العمل بكامل طاقتها في أقرب وقت ممكن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_694" class="SingleTxt">
+        <num>43 -</num>
+        <content eId="para_694__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدد</span> على ضرورة أن تُكفل محاسبة جميع المسؤولين عن انتهاكات القانون الدولي الإنساني أو انتهاكات وتجاوزات قانون حقوق الإنسان، وذلك من خلال آليات محلية أو دولية مناسبة ونزيهة ومستقلة للعدالة الجنائية، وتؤكد ضرورة اتخاذ خطوات عملية لتحقيق هذا الهدف، ولهذا السبب، تشجع مجلس الأمن على اتخاذ الإجراءات المناسبة لضمان المساءلة، مع ملاحظة الدور المهم الذي يمكن أن تقوم به المحكمة الجنائية الدولية في هذا الصدد وفقا لمبدأ التكامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_700" class="SingleTxt">
+        <num>44 -</num>
+        <content eId="para_700__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بالجهود التي تبذلها الدول من أجل التحقيق في الأعمال المرتكبة في الجمهورية العربية السورية وملاحقة الجناة في الجرائم المشمولة بولايتها التي ارتكبت في الجمهورية العربية السورية، وتشجع هذه الدول على مواصلة بذل تلك الجهود وعلى تبادل المعلومات ذات الصلة بين الدول وفقا لتشريعاتها الوطنية وللقانون الدولي، وتشجع الدول الأخرى أيضا على النظر في اتخاذ نفس الإجراءات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_707" class="SingleTxt">
+        <num>45 -</num>
+        <content eId="para_707__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب على وجه الاستعجال</span> أن توافي لجنةُ التحقيق الجمعيةَ العامة بأحدث تقاريرها في جلسة تحاور تُعقد خلال الدورة السابعة والسبعين للجمعية وتتناول حالة حقوق الإنسان في الجمهورية العربية السورية، وتشجع عمليات الرصد والإبلاغ التي تقوم بها الأمم المتحدة على مواصلة توثيق انتهاكات القانون الدولي الإنساني وانتهاكات وتجاوزات حقوق الإنسان، بما في ذلك تلك التي قد ترقى إلى درجة الجرائم المرتكبة ضد الإنسانية وجرائم الحرب، وتقديم توصيات لتيسير إدخال تحسينات على الحماية المقدمة للمدنيين وتدابير المساءلة، وإدراج إفادات الشهود من المدافعين عن حقوق الإنسان السوريين ومن ضحايا التعذيب والعنف الجنسي والجنساني والمحتجزين السابقين وغيرهم من السوريين عن طريق قنوات ملائمة وآمنة، بعد أن يوافقوا على ذلك على بينة من الأمور؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_715" class="SingleTxt">
+        <num>46 -</num>
+        <content eId="para_715__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن استيائها</span> من تدهور الحالة الإنسانية في الجمهورية العربية السورية، وتحث المجتمع الدولي على تحمل مسؤوليته عن تقديم الدعم المالي العاجل لتمكين البلدان والمجتمعات المحلية المضيفة من تلبية الاحتياجات الإنسانية المتزايدة للاجئين السوريين، وتشدد في الوقت نفسه على أهمية تقاسم الأعباء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_724" class="SingleTxt">
+        <num>47 -</num>
+        <content eId="para_724__content">
+          <p xml:space="preserve">	<span class="bold italic">تهيب</span> بجميع أعضاء المجتمع الدولي، بمن فيهم الجهات المانحة كافة، إلى الوفاء بتعهداتهم السابقة ومواصلة تقديم ما تشتد الحاجة إليه من دعم إلى الأمم المتحدة ووكالاتها المتخصصة والجهات الفاعلة الإنسانية الأخرى من أجل تقديم المساعدة الإنسانية والطبية إلى الملايين ممن يحتاجها من السوريين، بمن فيهم المشردون سواء داخليا أو في البلدان والمجتمعات المحلية المضيفة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_734" class="SingleTxt">
+        <num>48 -</num>
+        <content eId="para_734__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بجهود البلدان الواقعة خارج المنطقة التي وضعت تدابير وسياسات لمساعدة اللاجئين السوريين واستضافتهم وتشجعها على بذل المزيد من الجهود، وتشجع أيضا الدول الأخرى الواقعة خارج المنطقة على النظر في تنفيذ تدابير وسياسات مماثلة بهدف توفير الحماية والمساعدة الإنسانية للاجئين السوريين، وتعترف بالحاجة إلى تحسين الظروف على أرض الواقع لتيسير عودة اللاجئين إلى ديارهم أو إلى أي أماكن أخرى يختارونها وذلك بطريقة آمنة وطوعية تحفظ لهم كرامتهم وعن بينة من أمرهم، وتحيط علما باستنتاج لجنة التحقيق الذي توصلت إليه مؤخرا ومفاده أن الجمهورية العربية السورية لم توفر بعد بيئة آمنة مستقرة لعودة اللاجئين، ناهيك عن المشردين البالغ عددهم 6,7 ملايين شخص في البلد، عودة مستدامة تحفظ لهم كرامتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>49 -</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> المنع المتعمّد لوصول المساعدات الإنسانية إلى المدنيين، أيا كانت جهة المنع، ولا سيما منع وصول المساعدات الطبية وسحب خدمات المياه والصرف الصحي في المناطق المدنية، الذي استفحل في الآونة الأخيرة، وتؤكد أن اللجوء إلى تجويع المدنيين كأسلوب من أساليب الحرب محظور بموجب القانون الدولي، وتشير بوجه خاص إلى المسؤولية الملقاة أساساً على عاتق حكومة الجمهورية العربية السورية في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_757" class="SingleTxt">
+        <num>50 -</num>
+        <content eId="para_757__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> بأن يكفل النظام السوري وسائر الأطراف في النزاع وصولَ الأمم المتحدة والجهات الفاعلة الإنسانية وصولا كاملا وفوريا ومستمرا وآمنا ودون عوائق أو عراقيل، بما في ذلك إلى المناطق المحاصرة وتلك التي يصعب الوصول إليها مثل منطقة ركبان، وبأن يمتنع النظام السوري عن عرقلة قدرة الأمم المتحدة والجهات الفاعلة الإنسانية على التحرك عبر المنطقة الشمالية الشرقية من الجمهورية العربية السورية وخارجها، ولا سيما في ضوء التضييق على مساعي العمل الإنساني وتردي الحالة الإنسانية في أعقاب الفشل في تجديد الإذن باستخدام معبر اليعربية الحدودي في قرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2504(2020)">2504</a><a href="https://undocs.org/ar/S/RES/2504(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2533(2020)">2533</a><a href="https://undocs.org/ar/S/RES/2533(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2585(2021)">2585</a><a href="https://undocs.org/ar/S/RES/2585(2021)"> (2021)</a>، وبأن تحافظ جميع الأطراف على معبر فيش خابور الحدودي وعلى المعابر الحدودية الأخرى على الحدود التركية مع الجمهورية العربية السورية، وتسمح بوصول المساعدات الإنسانية باستمرار إلى من يحتاجها في جميع أنحاء الجمهورية العربية السورية، بما في ذلك عبر الطرق التجارية، تمشيا مع قرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2139(2014)">2139</a><a href="https://undocs.org/ar/S/RES/2139(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2165(2014)">2165</a><a href="https://undocs.org/ar/S/RES/2165(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2191(2014)">2191</a><a href="https://undocs.org/ar/S/RES/2191(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> </a><a href="https://undocs.org/ar/S/RES/2254(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2258(2015)">2258</a><a href="https://undocs.org/ar/S/RES/2258(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2332(2016)">2332</a><a href="https://undocs.org/ar/S/RES/2332(2016)"> (2016)</a> و <a href="https://undocs.org/ar/S/RES/2393(2017)">2393</a><a href="https://undocs.org/ar/S/RES/2393(2017)"> (2017)</a> و <a href="https://undocs.org/ar/S/RES/2401(2018)">2401</a><a href="https://undocs.org/ar/S/RES/2401(2018)"> (2018)</a> و <a href="https://undocs.org/ar/S/RES/2449(2018)">2449</a><a href="https://undocs.org/ar/S/RES/2449(2018)"> (2018)</a> و <a href="https://undocs.org/ar/S/RES/2504(2020)">2504</a><a href="https://undocs.org/ar/S/RES/2504(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2533(2020)">2533</a><a href="https://undocs.org/ar/S/RES/2533(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2585(2021)">2585</a><a href="https://undocs.org/ar/S/RES/2585(2021)"> (2021)</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_770" class="SingleTxt">
+        <num>51 -</num>
+        <content eId="para_770__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> الممارسات التي تنتهجها الجماعات المسلحة غير التابعة للدولة والجماعات الإرهابية التي حددها مجلس الأمن، وبخاصة هيئة تحرير الشام (المعروفة سابقاً باسم ”جبهة النصرة“) وتنظيم الدولة الإسلامية (المعروف أيضا باسم ”داعش“) والكيانات المنتسبة إلى تنظيم القاعدة مثل تنظيم حراس الدين، ومنها الاختطاف وأخذ الرهائن والاحتجاز التعسفي والتعذيب وقتل المدنيين، وتشدّد على أن هذه الأعمال يمكن أن تشكّل جرائم ضد الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="SingleTxt">
+        <num>52 -</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن استيائها</span> مما يلاقى من معاناة وما يجري من تعذيب في مراكز الاحتجاز في جميع أنحاء الجمهورية العربية السورية، على النحو الذي تصوره تقارير لجنة التحقيق ومفوضية الأمم المتحدة لحقوق الإنسان، وكذلك الأدلة المقدمة من ”قيصر“ في كانون الثاني/يناير 2014، والتقارير التي تفيد بحدوث أعمال قتل واسعة الانتشار للمحتجزين على أيدي المخابرات العسكرية السورية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_799" class="SingleTxt">
+        <num>53 -</num>
+        <content eId="para_799__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة</span> ما تنقله التقارير من قتل للمحتجزين في مرافق المخابرات العسكرية السورية، وتهيب بالنظام السوري أن يفرج عن جميع المحتجزين بصورة غير قانونية، بمن فيهم النساء والأطفال والمسنون، وأن يتيح معلومات عن الباقين قيد الاحتجاز وعمن لقوا حتفهم وهم رهنه على أيدي النظام السوري، وأن يعيد رفاتهم في إطار الشفافية الكاملة بشأن ما حدث لهؤلاء الأفراد، وتحث النظام على الرجوع فوراً عن استخدامه المقيت للاحتجاز والتعذيب على نطاق واسع كوسيلة لإسكات وقمع المعارضة السياسية والصحفيين وغيرهم من العاملين في وسائط الإعلام ولحرمان المواطنين السوريين من حقوقهم في حرية التعبير؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_815" class="SingleTxt">
+        <num>54 -</num>
+        <content eId="para_815__content">
+          <p xml:space="preserve">	<span class="bold italic">تدعو </span>إلى تمكين هيئات الرصد الدولية المناسبة من الوصول إلى المحتجزين في جميع السجون ومراكز الاحتجاز، بما في ذلك جميع المنشآت العسكرية المشار إليها في تقارير لجنة التحقيق؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_832" class="SingleTxt">
+        <num>55 -</num>
+        <content eId="para_832__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب</span> في هذا الصدد بالإفراج فوراً عن جميع الأشخاص الذين احتجزهم النظام السوري تعسفاً أو بصورة غير قانونية، وتلاحظ بصفة خاصة المخاطر الصحية الفتاكة التي تضيفها جائحة كوفيد-19 إلى ظروف الاحتجاز والمخاطر الشديدة التي تزيد من سوء أوضاع المحتجزين المتردية أصلا، وتلاحظ في هذا الصدد البياناتِ الصادرة عن مفوضة الأمم المتحدة السامية لحقوق الإنسان والمبعوث الخاص ولجنة التحقيق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_850" class="SingleTxt">
+        <num>56 -</num>
+        <content eId="para_850__content">
+          <p xml:space="preserve">	<span class="bold italic">تطالب أيضا</span> بأن تتخذ جميع الأطراف كل الخطوات المناسبة لحماية المدنيين والأشخاص العاجزين عن القتال، بمن فيهم الأشخاص المنتمون إلى الأقليات القومية أو العرقية والدينية واللغوية، وتؤكد في هذا الصدد أن النظام السوري يتحمل المسؤولية الرئيسية عن حماية السكان؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_869" class="SingleTxt">
+        <num>57 -</num>
+        <content eId="para_869__content">
+          <p xml:space="preserve">	<span class="bold italic">تدين بشدة </span>الضرر والدمار اللذين لحقا بالتراث الثقافي للجمهورية العربية السورية، ولا سيما في تدمر وحلب، وعمليات النهب والتهريب المنظمة للممتلكات الثقافية السورية، على النحو الذي أوضحه مجلس الأمن في قراريه <a href="https://undocs.org/ar/S/RES/2199(2015)">2199</a><a href="https://undocs.org/ar/S/RES/2199(2015)"> (2015)</a> المؤرخ 12 شباط/فبراير 2015 و <a href="https://undocs.org/ar/S/RES/2347(2017)">2347</a><a href="https://undocs.org/ar/S/RES/2347(2017)"> (2017)</a> المؤرخ 24 آذار/مارس 2017، وتؤكد أن توجيه الهجمات عمدا ضد المعالم التاريخية يمكن أن يشكّل جرائم حرب، وتشدّد على ضرورة تقديم مرتكبي هذه الجرائم إلى العدالة؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_889" class="SingleTxt">
+        <num>58 -</num>
+        <content eId="para_889__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن استيائها</span> من الهجوم العسكري الذي بدأ في محافظة إدلب والمناطق المحيطة بها في كانون الأول/ديسمبر 2019 وتسبّب في إصابات ووفيات وتشريد ومعاناة بين السكان المدنيين على نطاق واسع وألحق أضراراً فادحة بالبنية التحتية المدنية، وتشير إلى النتائج التي توصل إليها مجلس التحقيق التابع للأمم المتحدة الذي شكّله الأمين العام في هذا الصدد، وتلاحظ بقلق بالغ النتائج التي توصلت إليها مؤخراً لجنة التحقيق والتي تفيد بأن هناك أسباباً معقولة تدعو إلى الاعتقاد بأن جرائم حرب وجرائم ضد الإنسانية قد ارتكبت خلال الهجوم المذكور، وتلاحظ أيضاً ما أبدته اللجنة من تعليقات بشأن الأثر المجنسَن للهجوم العسكري، ولا يزال القلق العميق يساورها بشأن هذه الحالة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_910" class="SingleTxt">
+        <num>59 -</num>
+        <content eId="para_910__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ مع القلق</span> استمرار حالة انعدام الأمن في شمال شرقي الجمهورية العربية السورية، والزيادة الكبيرة في الاحتياجات الإنسانية، والتضييق على مساعي العمل الإنساني بعد إخفاق المحاولات الرامية إلى تجديد الإذن باستخدام معبر اليعربية الحدودي في قرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2504(2020)">2504</a><a href="https://undocs.org/ar/S/RES/2504(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2533(2020)">2533</a><a href="https://undocs.org/ar/S/RES/2533(2020)"> (2020)</a> و <a href="https://undocs.org/ar/S/RES/2585(2021)">2585</a><a href="https://undocs.org/ar/S/RES/2585(2021)"> (2021)</a>، وهو الأمر الذي يزيده سوءا انعدام سبل الحصول على المياه والكهرباء الذي لا يزال يقوّض الاستقرار والأمن في المنطقة بأسرها، حيث يمحو التقدّم المحرز في المعركة ضد تنظيم الدولة الإسلامية (المعروف أيضا باسم ”داعش“) ويفاقِم الحالة الإنسانية ويضعِف قدرة الجهات الفاعلة الإنسانية على الاستجابة للاحتياجات الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_932" class="SingleTxt">
+        <num>60 -</num>
+        <content eId="para_932__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدّد</span> على الوضع المقلق بشكل خاص في شمال غربي الجمهورية العربية السورية، وخاصة في إدلب، وتدين بشدة الهجمات التي تُشن على المدنيين والمسعِفين والبنية التحتية المدنية، حيث لا يزال العنف، بما في ذلك الغارات الجوية، يتسبب في سقوط قتلى ومصابين في صفوف المدنيين والمسعِفين، فضلا عن إلحاق أضرار مدمرة بالبنية التحتية المدنية، بما في ذلك مرافق الرعاية الصحية والمرافق التعليمية، وترحب بإنشاء مجلس التحقيق التابع للأمم المتحدة وتكليفه بالتحقيق في الدمار والأضرار التي لحقت بالمرافق المدرجة في قائمة الأمم المتحدة لتفادي التضارب وبالمرافق التي تدعمها الأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_955" class="SingleTxt">
+        <num>61 -</num>
+        <content eId="para_955__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن قلقها</span> إزاء تقارير تفيد بوقوع اعتداءات على المدنيين في مناطق مثل درعا أيدت الاحتجاجات السلمية في عام 2011، وفرض ظروف شبيهة بالحصار في درعا أدت إلى تشريد 000 40 شخص وأسفرت عن نقص حاد في الأغذية والأدوية، وتنفيذ اغتيالات تستهدف القادة المدنيين، بمن فيهم قضاة سابقون وعاملون في القطاع الطبي وغيرهم من المشاركين في مفاوضات المصالحة، مشيرة إلى أن رئيس لجنة التحقيق أفاد في حزيران/يونيه 2021 بتسجيل ما لا يقل عن 130 حادثة من هذا القبيل فيما بين تموز/يوليه 2020 ونيسان/أبريل 2021، مما يؤكد غياب الاستقرار في البيئة على نطاق واسع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_979" class="SingleTxt">
+        <num>62 -</num>
+        <content eId="para_979__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن قلقها البالغ</span> على وجه الخصوص إزاء تصاعد أعمال العنف مؤخرا في الشمال الغربي، بما في ذلك شن الغارات الجوية، وتأثير ذلك العنف على المدنيين، بما في ذلك ما أبلغ عنه من مقتل وإصابة ما لا يقل عن 45 طفلا منذ بداية تموز/يوليه 2021، وتشدد على الحاجة الملحة إلى الوقف الفوري للأعمال العدائية العسكرية في إدلب والمناطق المحيطة بها، وإعطاء الأولوية لحماية جميع المدنيين، بمن فيهم المشردون، وإتاحة وصول المساعدة الإنسانية في حينها بشكل كامل وفوري وآمن ودون عراقيل، بما في ذلك وصولها عبر الحدود؛ وتشير إلى البروتوكول الإضافي لمذكرة استقرار الوضع في منطقة تخفيف التوتر في إدلب، الموقع بين الاتحاد الروسي وتركيا في 5 آذار/مارس 2020 وتؤكد أهمية مواصلة العمل من أجل الحفاظ على الهدوء في أرض الواقع وتهيئة الظروف اللازمة للعودة الطوعية للمشردين في ظروف آمنة تحفظ لهم كرامتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1004" class="SingleTxt">
+        <num>63 -</num>
+        <content eId="para_1004__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ</span> توصية لجنة التحقيق بإنشاء آلية مستقلة ذات ولاية دولية لتنسيق وتوحيد المطالبات المتعلقة بالمفقودين، بمن فيهم الأشخاص الذين تعرضوا للاختفاء القسري، والإحاطة الإعلامية التي قدمها الأمين العام للأمم المتحدة إلى الجمعية العامة في 30 آذار/مارس 2021 والتي أشار فيها إلى عدم إحراز تقدم بشأن تلك المسائل في غياب ولاية دولية، وتأييد مفوضة الأمم المتحدة السامية لحقوق الإنسان في 24 أيلول/سبتمبر 2021 لإنشاء آلية مستقلة، وتكرر تأكيد أهمية عدم العبث بمواقع المقابر الجماعية في الجمهورية العربية السورية أو تلويثها في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1030" class="SingleTxt">
+        <num>64 -</num>
+        <content eId="para_1030__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الأمين العام أن يقوم بدراسة عن كيفية تعزيز الجهود، بما في ذلك من خلال التدابير والآليات القائمة، لتوضيح مصير وأماكن وجود المفقودين في الجمهورية العربية السورية، والتعرف على الرفات البشرية وتقديم الدعم لأسرهم، بالتشاور مع مفوضية الأمم المتحدة لحقوق الإنسان واستنادا إلى توصيات لجنة التحقيق، بمشاركة كاملة ومجدية للضحايا، والناجين وأسرهم وبالتشاور مع الجهات الفاعلة الأخرى ذات الصلة، وأن يقدم إلى الجمعية العامة إحاطة شفوية مؤقتة بالمستجدات بحلول 1 آذار/مارس 2022، يتلوها تقرير في غضون النصف الأول من عام 2022؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1057" class="SingleTxt">
+        <num>65 -</num>
+        <content eId="para_1057__content">
+          <p xml:space="preserve">	<span class="bold italic">تدعو </span>جميع الدول الأعضاء، وهيئات الأمم المتحدة ذات الصلة، والمنظمات الدولية والمجتمع المدني إلى تنسيق الجهود الإضافية وتركيز الاهتمام بشكل استباقي على مسألة المفقودين في الجمهورية العربية السورية، بمن فيهم الأشخاص الذين تعرضوا للاختفاء القسري، وتذكر بأهمية المشاركة الكاملة والمجدية للضحايا والناجين وأسرهم في هذه الجهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1085" class="SingleTxt">
+        <num>66 -</num>
+        <content eId="para_1085__content">
+          <p xml:space="preserve">	<span class="bold italic">تحث</span> جميع أطراف النزاع على اتخاذ كافة الخطوات المناسبة لضمان سلامة وأمن موظفي الأمم المتحدة والأفراد المرتبطين بها، وموظفي الوكالات المتخصصة، وجميع الموظفين الآخرين المشاركين في أنشطة الإغاثة الإنسانية، بمن فيهم من يوظفون وطنيا أو محليا، حسبما يقتضيه القانون الدولي الإنساني، دون المساس بحريتهم في التنقل ودخولهم المناطق التي يقصدونها، وتشدد على ضرورة الامتناع عن عرقلة أو إعاقة تلك الجهود، وتشير إلى أن الهجمات على العاملين في المجال الإنساني يمكن أن تشكّل جرائم حرب، وتلاحظ في هذا الصدد أن مجلس الأمن أكد من جديد أنه سيتخذ مزيدا من الإجراءات في حالة عدم امتثال أي طرف من الأطراف السورية لقرارته <a href="https://undocs.org/ar/S/RES/2139(2014)">2139</a><a href="https://undocs.org/ar/S/RES/2139(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2165(2014)">2165</a><a href="https://undocs.org/ar/S/RES/2165(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2191(2014)">2191</a><a href="https://undocs.org/ar/S/RES/2191(2014)"> (2014)</a> و <a href="https://undocs.org/ar/S/RES/2234(2015)">2234</a><a href="https://undocs.org/ar/S/RES/2234(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2258(2015)">2258</a><a href="https://undocs.org/ar/S/RES/2258(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2286(2016)">2286</a><a href="https://undocs.org/ar/S/RES/2286(2016)"> (2016)</a> و <a href="https://undocs.org/ar/S/RES/2393(2017)">2393</a><a href="https://undocs.org/ar/S/RES/2393(2017)"> (2017)</a> و <a href="https://undocs.org/ar/S/RES/2401(2018)">2401</a><a href="https://undocs.org/ar/S/RES/2401(2018)"> </a><a href="https://undocs.org/ar/S/RES/2401(2018)">(2018)</a> و <a href="https://undocs.org/ar/S/RES/2449(2018)">2449</a><a href="https://undocs.org/ar/S/RES/2449(2018)"> (2018)</a> و <a href="https://undocs.org/ar/S/RES/2585(2021)">2585</a><a href="https://undocs.org/ar/S/RES/2585(2021)"> (2021)</a>؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1114" class="SingleTxt">
+        <num>67 -</num>
+        <content eId="para_1114__content">
+          <p xml:space="preserve">	<span class="bold italic">تحث</span> المجتمع الدولي على دعم الدور القيادي للمرأة ومشاركتها الكاملة والفعالة والمؤثرة في جميع الجهود الرامية إلى التوصل إلى حل سياسي للأزمة السورية، على النحو الذي توخاه مجلس الأمن في قراره <a href="https://undocs.org/ar/S/RES/1325(2000)">1325</a><a href="https://undocs.org/ar/S/RES/1325(2000)"> (2000)</a> وجميع القرارات اللاحقة التي اتُخذت في إطار الخطة المتعلقة بالمرأة والسلام والأمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1144" class="SingleTxt">
+        <num>68 -</num>
+        <content eId="para_1144__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد من جديد</span> أنه لا سبيل إلى حل النزاع في الجمهورية العربية السورية إلا بالوسائل السياسية، وتكرر تأكيد التزامها بالوحدة الوطنية للجمهورية العربية السورية وسلامة أراضيها، وتحث أطراف النزاع على الامتناع عن أي أعمال قد تسهم في التدهور المتواصل لحالة حقوق الإنسان والحالة الأمنية والإنسانية بغية تحقيق عملية انتقال سياسي حقيقي على أساس البيان الختامي الصادر في 30 حزيران/ يونيه 2012 عن مجموعة العمل من أجل سورية، تمشيا مع قرارات مجلس الأمن <a href="https://undocs.org/ar/S/RES/2254(2015)">2254</a><a href="https://undocs.org/ar/S/RES/2254(2015)"> </a><a href="https://undocs.org/ar/S/RES/2254(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2268(2016)">2268</a><a href="https://undocs.org/ar/S/RES/2268(2016)"> (2016)</a> و <a href="https://undocs.org/ar/S/RES/2585(2021)">2585</a><a href="https://undocs.org/ar/S/RES/2585(2021)"> (2021)</a>، عملية تلبي التطلعات المشروعة للشعب السوري إلى إقامة دولة مدنية ديمقراطية تعددية، بمشاركة جميع النساء واضطلاعهن بدور قيادي على جميع المستويات على نحو كامل ومؤثر وعلى أساس المساواة، ولا مكان فيها للطائفية أو التمييز على أساس العرق أو الدين أو اللغة أو نوع الجنس أو أي أساس آخر، وحيث يتمتع الأشخاص كافة بالحماية على قدم المساواة مع غيرهم بصرف النظر عن نوع الجنس أو الدين أو العرق، وتطالب كذلك جميع الأطراف بالعمل على وجه الاستعجال صوب التنفيذ الشامل للبيان الختامي بطرق منها إنشاء هيئة حكم انتقالية جامعة تتمتع بسلطات تنفيذية كاملة ويتم تشكيلها على أساس الموافقة المتبادلة، مع كفالة استمرار المؤسسات الحكومية في الوقت نفسه.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1145" class="SingleTxt">
+        <content eId="para_1145__content">
+          <p xml:space="preserve">
+            <span class="bold italic">الجلسة العامة 54 (المسـتأنفة)</span>
+          </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <docDate date="2021-12-24" refersTo="#adoptionDate">24 كانون الأول/ديسمبر 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

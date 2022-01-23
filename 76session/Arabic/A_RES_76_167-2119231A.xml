@@ -1,0 +1,633 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/"></FRBRuri>
+          <FRBRdate date="2021-12-16" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/ara@/"></FRBRuri>
+          <FRBRdate date="2022-01-07" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2021-12-16/76-167/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-19" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Human Rights of Internally Displaced Persons" showAs="UN. Human Rights Council. Special Rapporteur on the Human Rights of Internally Displaced Persons" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Emergency Relief Coordinator" showAs="UN Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Inter-Agency Standing Committee" showAs="Inter-Agency Standing Committee" dictionary="DHLAUTH"></keyword>
+        <keyword value="Guiding Principles on Internal Displacement (1998)" showAs="Guiding Principles on Internal Displacement (1998)" dictionary="DHLAUTH"></keyword>
+        <keyword value="African Union Convention for the Protection and Assistance of Internally Displaced Persons in Africa (2009)" showAs="African Union Convention for the Protection and Assistance of Internally Displaced Persons in Africa (2009)" dictionary="DHLAUTH"></keyword>
+        <keyword value="DISPLACED PERSONS" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESPONSIBILITY TO PROTECT" showAs="RESPONSIBILITY TO PROTECT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="74b" showAs="HUMAN RIGHTS ADVANCEMENT" dictionary="A/76/251"></keyword>
+        <keyword refersTo="agenda" value="74b[4]" showAs="DISPLACED PERSONS" dictionary="A/76/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-11-10" outcome="draftResolution" as="A/C.3/76/L.26/Rev.1" by="Argentina, Armenia, Australia, Austria, Azerbaijan, Belgium, Bosnia and Herzegovina, Bulgaria, Canada, Central African Republic, Chile, Costa Rica, Côte d’Ivoire, Cyprus, Denmark, Ecuador, Fiji, Finland, France, Georgia, Germany, Greece, Honduras, Iceland, Ireland, Italy, Japan, Liechtenstein, Luxembourg, Mali, Mexico, Micronesia (Federated States of), Monaco, Morocco, Netherlands, Norway, Paraguay, Poland, Portugal, San Marino, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Colombia, Croatia, Czechia, Dominican Republic, El Salvador, Estonia, Guatemala, Haiti, Hungary, Latvia, Lebanon, Lithuania, Madagascar, Maldives, Malta, Montenegro, Mozambique, Myanmar, New Zealand, Papua New Guinea, Peru, Republic of Korea, Republic of Moldova, Romania, Serbia, Slovakia, Thailand, Timor-Leste, Turkey, Uganda, Uruguay and Zambia" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/76/462/Add.2" by="" refersTo="114" />
+        <step date="2021-12-16" outcome="adopted" as="A/76/PV.53" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="اللجنة الثالثة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19231 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/76/167</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-01-07" class="rightSmall" refersTo="#dateOfIssuance">7 January 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="76" eId="coverPage_1__session_1">الدورة السادسة والسبعون</session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 74 (ب) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز حقوق الإنسان وحمايتها: مسائل حقوق الإنسان، بما في ذلك النهج البديلة لتحسين التمتع الفعلي بحقوق الإنسان والحريات الأساسية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 16 كانون الأول/ديسمبر 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[بناء على تقرير اللجنة الثالثة (<inline name="originating document">A/76/462/Add.2، الفقرة 114</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>76/167</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	توفير الحماية والمساعدة للمشردين داخليا</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تسترشد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ تسترشد</span> بمقاصد ميثاق الأمم المتحدة ومبادئه،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير</span> إلى أن المشردين داخليا أشخاص أو مجموعات من الأشخاص اضطروا أو أجبروا على الفرار أو على مغادرة ديارهم أو أماكن إقامتهم المعتادة، بصفة خاصة نتيجة لنزاع مسلح أو حالات عنف عام أو انتهاكات لحقوق الإنسان أو كوارث طبيعية أو كوارث من فعل البشر، أو سعيا إلى تفادي آثارها، ولم يعبروا حدود دولة معترفا بها دوليا<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	انظر المبادئ التوجيهية بشأن التشريد الداخلي (<a href="https://undocs.org/ar/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>، المرفق)، المقدمة، الفقرة 2.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="	وإذ تشعر بانزعاج بالغ" eId="container_4">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ تشعر بانزعاج بالغ </span>إزاء الازدياد المثير للقلق في عدد المشردين داخليا في جميع أنحاء العالم، لأسباب منها انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني والنزاعات المسلحة والاضطهاد والعنف، وأسباب أخرى منها الإرهاب، وكذلك الكوارث الطبيعية والكوارث التي هي من فعل البشر، الذين لا يحصلون على ما يكفي من الحماية والمساعدة، وإذ تدرك التحديات الخطيرة التي تواجه المجتمعات المضيفة والسلطات الوطنية والمحلية والمجتمع الدولي من جراء ذلك،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير</span> إلى العدد الكبير جدا للأشخاص المشردين داخل الحدود الوطنية وإمكانية أن يلتمس هؤلاء الأشخاص الحماية والمساعدة في بلدان أخرى كلاجئين أو مهاجرين، وإذ تلاحظ الحاجة إلى التفكير في استراتيجيات فعالة لضمان توفير ما يكفي من الحماية والمساعدة للمشردين داخليا في هذا الصدد، بما في ذلك الحاجة إلى بيانات شاملة ومصنفة وتدابير أخرى ترمي إلى منع حالات التشريد هذه والحد منها،</p>
+      </container>
+      <container name="وإذ تعيد تأكيد" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعيد تأكيد</span> قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/46/182">46/182</a> المؤرخ 19 كانون الأول/ديسمبر 1991 والمبادئ التوجيهية الواردة في مرفقه وقرارات الجمعية العامة والمجلس الاقتصادي والاجتماعي الأخرى ذات الصلة واستنتاجات المجلس المتفق عليها، وإذ تعيد أيضا تأكيد أهمية احترام مبادئ الإنسانية والحياد والنزاهة والاستقلال في تقديم المساعدة الإنسانية، وإذ تعيد كذلك تأكيد ضرورة أن تعزز جميع الجهات الفاعلة المشارِكة في تقديم المساعدة الإنسانية في حالات الطوارئ المعقدة والكوارث الطبيعية هذه المبادئ وأن تحترمها احتراما تاما،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشدد</span> على أن الدول تتحمل المسؤولية في المقام الأول عن توفير الحماية للمشردين داخليا الخاضعين لولايتها وتقديم المساعدة لهم، دون تمييز، وكذلك عن معالجة الأسباب الجذرية لمشكلة التشرد ودعم جميع الحلول الدائمة بالتعاون على النحو المناسب مع المشردين، والجهات المستضيفة لهم، والمجتمع المدني، والسلطات المحلية، والجهات الفاعلة في مجال التنمية، والقطاع الخاص، والمجتمع الدولي،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق بشكل خاص" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن القلق بشكل خاص</span> إزاء زيادة مستوى التمييز الذي يعاني منه المشردون داخليا، بمن فيهم الذين قد يعانون من حالات الضعف بشكل خاص، ومن بينهم النساء والأطفال والمسنون والأشخاص ذوو الإعاقة، وإذ تشدد على الحاجة إلى ضمان تلبية احتياجاتهم الخاصة عن طريق توفير ما يكفي من الحماية وإمكانية الحصول على المساعدة،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_9">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ</span> الحاجة إلى معالجة الأسباب الجذرية للتشرد وزيادة الوعي لدى المجتمع الدولي بمسألة التشرد الداخلي في جميع أنحاء العالم، بما يشمل أوضاع الملايين الذين يعيشون في حالات تشرد طال أمدها، حيث يعيش العديد منهم خارج المخيمات وفي المناطق الحضرية، والحاجة الملحة إلى توفير ما يكفي من المساعدة الإنسانية والحماية للمشردين داخليا،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بأن انتهاكات القانون الدولي الإنساني قد تسبب التشرد، وإذ تشير إلى أنه يمكن الحد من حالات التشرد إذا احترمت جميع أطراف النزاعات المسلحة القانون الدولي الإنساني، ولا سيما المبادئ الأساسية المتمثلة في التمييز والتناسب والحيطة، وكذلك حظر التشريد القسري للسكان المدنيين ما لم يقتضِ ذلك أمنُ الأشخاص المدنيين المعنيين أو أسباب عسكرية قهرية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	البروتوكول الإضافي لاتفاقيات جنيف المعقودة في 12 آب/أغسطس 1949، والمتعلق بحماية ضحايا المنازعات المسلحة غير الدولية (البروتوكول الثاني) (United Nations, <span class="italic">Treaty Series</span>, vol. 1125, No. 17513)، المادتان 13 و 17.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تعرب عن بالغ القلق" eId="container_11">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن بالغ القلق</span> إزاء التهديد الذي تطرحه الألغام الأرضية والمتفجرات من مخلفات الحرب والأجهزة المتفجرة اليدوية الصنع للمشردين داخليا الفارين من النزاع، وعرقلتها في حالات معينة لعودتهم الطوعية واندماجهم محليا وإعادة توطينهم ولتقديم المساعدة الإنسانية في ظروف آمنة، وإذ تلاحظ الضرورة الملحة لتوفير الحماية من الألغام الأرضية والمتفجرات الأخرى من مخلفات الحرب ودعم المجتمعات المضيفة والمنظمات المحلية،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق بوجه خاص" eId="container_12">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن القلق بوجه خاص</span> إزاء افتقار العديد من الأطفال المشردين داخليا، ولا سيما البنات، إلى فرص الحصول على التعليم في جميع مراحل التشرد بسبب الهجمات التي تُشن على المدارس، وإلحاق الضرر بمباني المدارس أو تعرضها للتدمير، وانعدام الأمن، وانتشار العنف، بما في ذلك العنف الجنساني، في المدارس وما حولها، وفقدان الوثائق، وحواجز اللغة، والتمييز،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق بوجه خاص أيضا" eId="container_13">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن القلق بوجه خاص أيضا</span> لأن العديد من المشردين داخليا، بمن فيهم النساء والرجال والفتيات والفتيان، لا يتلقون الرعاية الصحية التي يحتاجونها في جميع مراحل التشرد، بما في ذلك الرعاية المتعلقة بالصحة العقلية والدعم النفسي والاجتماعي،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بالزيادة في عدد الكوارث وحجمها وتواترها، بما يشمل الكوارث المتصلة بالآثار الضارة لتغير المناخ، التي قد تسهم في بعض الحالات في التشريد وفي زيادة الضغط الواقع على كاهل المجتمعات المضيفة، وإذ تشجع الأمم المتحدة وجميع الجهات الفاعلة ذات الصلة على تعزيز الجهود، بالتعاون مع الحكومات الوطنية، من أجل تلبية احتياجات المشردين داخليا بسبب الكوارث الطبيعية، بما في ذلك الكوارث التي تتفاقم بفعل تغير المناخ، وإذ تلاحظ في هذا الصدد أهمية تبادل أفضل الممارسات لمنع حالات التشريد هذه والتأهب لها،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق" eId="container_15">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن القلق</span> لأن ملايين كثيرة من الناس يشردون سنويا بسبب الكوارث المفاجئة والبطيئة الظهور، وإذ تسلم بأن بناء قدرة الأمم والمجتمعات على الصمود، بسبل منها تدابير التأهب والوقاية والحد من مخاطر الكوارث والتكيف مع تغير المناخ، يمكن أن يقلل من خطر التشرد الناجم عن الكوارث، بما في ذلك من خلال إدماج استراتيجيات الحد من مخاطر الكوارث في السياسات والبرامج الإنمائية الوطنية والإقليمية والعالمية، وإذ تقر أيضا في هذا الصدد بالدور الهام للتنمية المستدامة في تجنب مخاطر الخسائر والأضرار والحد منها،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_16">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بأن حالة الضعف التي يعيشها المشردون داخليا قد تتفاقم عندما تتعرض المجتمعات المضيفة لهم لكوارث،</p>
+      </container>
+      <container name="وإذ تعرب عن أشد القلق" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن أشد القلق</span> من الأثر الإنساني وما تشكله آثار جائحة مرض فيروس كورونا (كوفيد-19) من مخاطر في الأجلين القصير والطويل، بما في ذلك على المستويات الكبيرة بالفعل من الاحتياجات الإنسانية والإنمائية اللازمة ومعاناة المشردين داخليا والمجتمعات المضيفة، وإذ تسلم بالتأثير غير المتناسب للجائحة على النساء والأطفال والأشخاص المشردين الذين يعانون من أوضاع هشة، وإذ يساورها بالغ القلق من تزايد الاحتياجات المتعلقة بالمساعدة الإنسانية وتوفير الحماية، لأسباب منها تزايد العنف، بما في ذلك العنف الجنسي والجنساني والعنف ضد الأطفال المشردين، والأثر الكبير الذي يلحق التعليم، ولا سيما تعليم الفتيات، وكذلك ارتفاع مستويات انعدام الأمن الغذائي وسوء التغذية وتزايد مخاطر المجاعة، وفقدان سبل العيش، وجميع الآثار السلبية التي تلحق الصحة، بما في ذلك الصحة العقلية، والتي تتفاقم أيضا بسبب ضعف نظم الصحة، وآثار ومخاطر النزوح؛ وإذ تقر بالمخاطر والآثار المضاعفة الناجمة عن النزاعات المسلحة والفقر والكوارث الطبيعية والعنف، والآثار الضارة لتغير المناخ والتحديات البيئية الأخرى؛ وإذ تقر كذلك بالجهود والتدابير التي اقترحها الأمين العام فيما يتعلق بالتصدي لأثر جائحة كوفيد-19،</p>
+      </container>
+      <container name="وإذ تدرك" eId="container_18">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تدرك</span> ما تنطوي عليه مشكلة التشرد الداخلي من أبعاد تتعلق بحقوق الإنسان وأبعاد إنسانية وإنمائية وأبعاد محتملة متعلقة ببناء السلام والعدالة الانتقالية، بما في ذلك حالات التشرد التي طال أمدها وحالات التشرد المؤقتة المتكررة، وما تتحمله الدول، بدعم من المجتمع الدولي، من مسؤوليات عن ضمان توفير الحماية وتقديم المساعدة، بسبل تشمل احترام وحماية حقوق الإنسان والحريات الأساسية لجميع المشردين داخليا، بهدف إيجاد حلول دائمة،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_19">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بما تقدمه السلطات الوطنية والمحلية والمجتمعات المضيفة من مساهمات هامة لحماية المشردين داخليا ومساعدتهم، وإذ تقر بأن استضافة مجموعات كبيرة من المشردين داخليا قد يلقي بضغط على تلك السلطات والمجتمعات، وإذ تسلم أيضا بأهمية توفير الدعم الكافي للمجتمعات المضيفة، وكذلك القدرات المحلية، من خلال تلبية احتياجاتها،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_20">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير</span> إلى إعلان وبرنامج عمل فيينا اللذين اعتمدهما المؤتمر العالمي لحقوق الإنسان في 25 حزيران/يونيه 1993<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/CONF.157/24(PartI)">A/CONF.157/24 (Part I)</a>، الفصل الثالث.</p></authorialNote><sup>)</sup>، فيما يتعلق بضرورة وضع استراتيجيات عالمية للتصدي لمشكلة التشرد الداخلي، وإذ تشير أيضا إلى جميع القرارات الصادرة عن الجمعية العامة ومجلس الأمن في هذا الصدد،</p>
+      </container>
+      <container name="وإذ تشير أيضا" eId="container_21">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير أيضا</span> إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/74/160">74/160</a> المؤرخ 18 كانون الأول/ديسمبر 2019 وإلى قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/41/15">41/15</a> المؤرخ 11 تموز/يوليه 2019<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الرابعة والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/74/53">A/74/53</a>)، الفصل الخامس، الفرع ألف.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_22">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بأن المشردين داخليا يجب أن يتمتعوا، على قدم المساواة التامة ودون تمييز، بنفس الحقوق والحريات التي يتمتع بها غيرهم من الأشخاص في بلدهم بمقتضى القانون الدولي والمحلي، بما في ذلك الحق في حرية التنقل والإقامة، وينبغي أن توفَّر لهم الحماية من التشريد التعسفي،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_23">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير</span> إلى قواعد القانون الدولي ذات الصلة، التي تشمل قواعد القانون الدولي لحقوق الإنسان، بما في ذلك اتفاقية حقوق الطفل<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote><sup>)</sup>، والقانون الدولي للاجئين والقانون الدولي الإنساني، بما في ذلك اتفاقيات جنيف لعام 1949<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	المرجع نفسه، المجلد 75، الأرقام 970 إلى 973.</p></authorialNote><sup>)</sup> وبروتوكولاها الإضافيان لعام 1977<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1125، الرقمان 17512 و 17513.</p></authorialNote><sup>)</sup>، حسب الاقتضاء، باعتبارها إطارا قانونيا حيويا لتوفير الحماية والمساعدة للمدنيين، بمن فيهم المشردون داخليا، في سياق النزاع المسلح وتحت الاحتلال الأجنبي،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_24">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بأن الأشخاص المشردين داخليا، بمن فيهم النساء والأطفال والمسنون والأشخاص ذوو الإعاقة، الذين لا يحملون وثائق هوية، قد يتعرضون لخطر انتهاكات وتجاوزات حقوق الإنسان، وقد يواجهون صعوبات في إعمال حقوقهم وفي الحصول على الخدمات،</p>
+      </container>
+      <container name="وإذ تسلم أيضا" eId="container_25">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم أيضا</span> بأن حماية المشردين داخليا قد تعززت بوضع معايير محددة لحمايتهم وإعادة تأكيد تلك المعايير وتدعيمها، خاصة من خلال المبادئ التوجيهية بشأن التشريد الداخلي<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_26">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ ترحب</span> بالزيادة في نشر وترويج وتطبيق المبادئ التوجيهية بشأن التشريد الداخلي في معالجة حالات التشرد الداخلي، وبزيادة إدماج تلك المبادئ في القوانين والسياسات المحلية،</p>
+      </container>
+      <container name="وإذ تلاحظ مع التقدير" eId="container_27">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ مع التقدير</span> الدور الهام الذي تضطلع به المؤسسات الوطنية لحقوق الإنسان، طوال جميع مراحل التشرد، لضمان التصدي على النحو الملائم لجميع مسائل حقوق الإنسان ذات الصلة بالمشردين داخليا،</p>
+      </container>
+      <container name="وإذ تعرب عن استيائها" eId="container_28">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن استيائها</span> من ممارسات التشريد القسري والآثار السلبية المترتبة عليها فيما يتعلق بتمتع مجموعات كبيرة من السكان بحقوق الإنسان والحريات الأساسية، وإذ تشير إلى الأحكام ذات الصلة من نظام روما الأساسي للمحكمة الجنائية الدولية<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 2187, No. 38544.</p></authorialNote><sup>)</sup> التي تعرِّف الإبعاد أو النقل القسري للسكان بأنه جريمة ضد الإنسانية، وتعرِّف الإبعاد أو النقل غير المشروع للسكان المدنيين أو الأمر غير المشروع بتشريدهم بأنها جرائم حرب،</p>
+      </container>
+      <container name="وإذ تدرك" eId="container_29">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تدرك</span> أهمية اتفاقية الاتحاد الأفريقي لحماية ومساعدة النازحين داخليا في أفريقيا (اتفاقية كمبالا(<sup>)</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	المرجع نفسه، المجلد 3014، الرقم 52375.</p></authorialNote><sup>)</sup>، التي تستند إلى ما حققه البروتوكول المتعلق بحماية الأشخاص المشردين داخليا ومساعدتهم والبروتوكول المتعلق بحقوق الملكية للعائدين اللذان اعتمدهما المؤتمر الدولي المعني بمنطقة البحيرات الكبرى، وهي الاتفاقية التي تمثل خطوة هامة نحو تعزيز الإطار المعياري الوطني والإقليمي لحماية المشردين داخليا في أفريقيا ومساعدتهم، وإذ ترحب بانعقاد المؤتمر الأول للدول الأطراف في الاتفاقية في نيسان/أبريل 2017،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_30">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ</span> الإطار المتعلق بالحلول الدائمة لمشكلة المشردين داخليا الذي وضعته اللجنة الدائمة المشتركة بين الوكالات<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/13/21/Add.4">A/HRC/13/21/Add.4</a>.</p></authorialNote><sup>)</sup>، وإذ تحيط علما بقرار لجنة السياسات التابعة للأمين العام المؤرخ 4 تشرين الأول/أكتوبر 2011 الذي أيد الإطار الأولي المتعلق بإنهاء التشرد في أعقاب النزاعات،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_31">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تؤكد</span> ضرورة تمكين وكالات الأمم المتحدة والمنظمات الإنسانية المعنية من إيصال المساعدات الإنسانية بأمان ودون عوائق إلى المشردين داخليا، ومن بينهم المقيمون في مناطق النزاع، وفقا للقانون الدولي،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_32">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بأن خطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup> تسعى إلى تلبية احتياجات أشد الفئات ضعفا، ومن بينهم المشردون داخليا، وبأن تلبية احتياجات المشردين داخليا يمكن أن تساعد البلدان على تحقيق أهدافها الإنمائية الشاملة،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_33">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ</span> تزايد عدد المشردين داخليا خارج المخيمات وفي المناطق الحضرية والحاجة إلى تلبية احتياجاتهم الفورية والطويلة الأجل واحتياجات الأسر المضيفة، وإذ تقر بأهمية الخطة الحضرية الجديدة المعتمدة خلال مؤتمر الأمم المتحدة المعني بالإسكان والتنمية الحضرية المستدامة (الموئل الثالث(<sup>)</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/71/256">71/256</a>، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_34">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تحيط علما</span> بمؤتمر القمة العالمي الأول للعمل الإنساني الذي عُقد في إسطنبول، تركيا، يومي 23 و 24 أيار/مايو 2016، وإذ تحيط علما أيضا بتقرير الأمين العام عن نتائج مؤتمر القمة العالمي للعمل الإنساني<sup>(</sup><authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/71/353">A/71/353</a>.</p></authorialNote><sup>)</sup> الذي يتضمن، في جملة أمور، توصيات لتعزيز الشراكات بين الدول الأعضاء والجهات الفاعلة في المجالين الإنساني والإنمائي من أجل تلبية احتياجات المشردين داخليا، الملحة منها والطويلة الأجل،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_35">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ</span> الحاجة إلى إيجاد حلول دائمة للمشردين داخليا في بلدانهم وتذليل العقبات المحتملة في هذا الصدد، وإذ تسلم بأن الحلول الدائمة تشمل العودة الطوعية والمستدامة للمشردين بأمان وكرامة، وكذلك إدماجهم محليا وبشكل طوعي في المناطق التي نزحوا إليها أو توطينهم بشكل طوعي في أجزاء أخرى من البلد، دون الإخلال بحق المشردين داخليا في ترك بلدهم أو في التماس اللجوء،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_36">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشدد</span> على أن يكون تناول جميع الحلول الدائمة للمشردين داخليا من منظور إنساني وإنمائي ينطوي على إشراك المشردين داخليا والمجتمعات المضيفة في الوقت المناسب،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_37">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تضع في اعتبارها</span> المساعدة الإنسانية والإنمائية الكبيرة اللازمة لتلبية احتياجات الأشخاص الذين يعيشون حالات تشرد داخلي طال أمدها والفجوةَ الهائلة بين الاحتياجات والموارد،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_38">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بالحاجة إلى الزيادة في تغطية التشرد الداخلي وفي جودة وتوافر المعلومات المتعلقة به، وإلى جمع بيانات موثوقة وحديثة وطولية ومصنفة عن المشردين داخليا، بما في ذلك بيانات مصنفة حسب نوع الجنس والعمر والإعاقة والموقع، وعن تأثير حالات التشرد الحديثة وتلك التي طال أمدها على المجتمعات المضيفة، بهدف تحسين وضع السياسات والبرامج والتدابير الوقائية التي تتناول حالات التشرد الداخلي والاستجابة لها وتعزيز التوصل إلى حلول دائمة، بما يشمل في هذا الصدد أهمية قاعدة البيانات العالمية المعنية بالتشرد الداخلي التي يتعهدها مركز رصد التشرد الداخلي والدعم التقني المتاح من الدائرة المشتركة بين الوكالات المعنية بتحديد سمات المشردين داخليا وفريق الخبراء المعني بإحصاءات اللاجئين والمشردين داخليا، وإذ تلاحظ اعتماد اللجنة الإحصائية التوصيات الدولية بشأن إحصاءات المشردين داخليا،</p>
+      </container>
+      <container name="وإذ تعرب عن تقديرها" eId="container_39">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعرب عن تقديرها</span> للحكومات والمنظمات الحكومية الدولية والمنظمات الإقليمية والمنظمات غير الحكومية التي دعمت ويسرت عمل المقررة الخاصة لمجلس حقوق الإنسان المعنية بحقوق الإنسان للمشردين داخليا ومن سبقوها، وهم الممثلون السابقون للأمين العام المعنيون بحقوق الإنسان للمشردين داخليا، والتي ساعدت، وفقا لأدوارها ومسؤولياتها، في توفير الحماية والمساعدة للمشردين داخليا،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_40">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ ترحب</span> بالتعاون المستمر بين المقررة الخاصة والحكومات الوطنية والمكاتب والوكالات المعنية التابعة للأمم المتحدة وكذلك التعاون مع المنظمات الدولية والإقليمية الأخرى، وإذ تشجع على مواصلة تعزيز ذلك التعاون من أجل وضع استراتيجيات أفضل لحماية المشردين داخليا ومساعدتهم وإيجاد حلول دائمة لهم،</p>
+      </container>
+      <container name="وإذ تعترف مع التقدير" eId="container_41">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تعترف مع التقدير</span> بالمساهمة المهمة والمستقلة التي تقدمها الحركة الدولية للصليب الأحمر والهلال الأحمر والوكالات الإنسانية الأخرى لحماية المشردين داخليا ومساعدتهم، بالتعاون مع الحكومات الوطنية والهيئات الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_42">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ ترحب</span> بالأولويات التي حددتها المقررة الخاصة حسبما وردت في التقرير المقدم إلى مجلس حقوق الإنسان في دورته الخامسة والثلاثين<sup>(</sup><authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/35/27">A/HRC/35/27</a>.</p></authorialNote><sup>)</sup>، وبالهدفين الاستراتيجيين المتمثلين في دعم الحكومات في إرساء صكوك ومؤسسات وطنية تعنى بالتشرد الداخلي وتيسير إيجاد حلول دائمة قابلة للتنفيذ للمشردين داخليا، بسبل منها الاستعانة بالجهات الفاعلة في المجال الإنمائي،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>1 -</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold italic">تحيط علما مع التقدير</span> بالتقرير الرئيسي للمقررة الخاصة لمجلس حقوق الإنسان المعنية بحقوق الإنسان للمشردين داخليا<sup>(</sup><authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/47/37">A/HRC/47/37</a>.</p></authorialNote><sup>)</sup> وبالاستنتاجات الواردة فيه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold italic">تثني</span> على المقررة الخاصة لما اضطلعت به من أنشطة حتى الآن وللدور الحفاز الذي تؤديه في رفع مستوى التوعية بمحنة المشردين داخليا ولجهودها المستمرة من أجل تلبية احتياجاتهم في مجال التنمية وغيرها من الاحتياجات المحددة، بطرق منها تعميم مراعاة حقوق الإنسان للمشردين داخليا في كل الكيانات المعنية في منظومة الأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>3 -</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> المقررة الخاصة على أن تواصل، عن طريق الحوار المستمر مع الحكومات وجميع المنظمات الحكومية الدولية والمنظمات غير الحكومية المعنية، تحليلها لأسباب التشرد الداخلي وأن تظل مطَّلعةً على احتياجات المشردين وحقوق الإنسان الواجبة لهم، بما في ذلك احتياجات أولئك الذين قد يعانون من حالات الضعف بشكل خاص، ومن بينهم النساء والأطفال والمسنون والأشخاص ذوو الإعاقة، ومستوى التأهب لحالات الطوارئ، وسبل تعزيز الحماية والمساعدة بما يشمل تدعيم دور المؤسسات الوطنية لحقوق الإنسان، حسب الاقتضاء، وحماية المشردين داخليا، وتوفير حلول دائمة لهم، بما في ذلك عن طريق تذليل العقبات المحتملة أمام ممارسة المشردين داخليا لحقوقهم في المسكن والأراضي والملكية، وتشجع أيضا المقررة الخاصة فيما يتعلق بالمسألة الأخيرة على أن تستعين في أنشطتها بالإطار الذي وضعته اللجنة الدائمة المشتركة بين الوكالات بشأن إيجاد حلول دائمة للمشردين داخليا، وتشجعها كذلك على أن تواصل أنشطتها الدعوية لتلبية احتياجات المجتمعات المضيفة والنهوض باستراتيجيات شاملة، مع مراعاة مسؤولية الدول في المقام الأول عن حماية المشردين داخليا الخاضعين لولايتها وتقديم المساعدة لهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>4 -</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بالمبادرات التي اتخذتها المنظمات الإقليمية، مثل الاتحاد الأفريقي والمؤتمر الدولي المعني بمنطقة البحيرات الكبرى ومنظمة الدول الأمريكية ومجلس أوروبا، للعمل على تلبية احتياجات المشردين داخليا من الحماية والمساعدة والتنمية ولإيجاد حلول دائمة لهم، وتشجع المنظمات الإقليمية على تعزيز أنشطتها وزيادة تعاونها مع المقررة الخاصة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="bold italic">تحث</span> جميع الحكومات، ولا سيما الحكومات التي لديها حالات تشرد داخلي، على أن تواصل تيسير أنشطة المقررة الخاصة وأن تستجيب للطلبات التي توجهها المقررة الخاصة لتمكينها من مواصلة وتعزيز الحوار مع الحكومات بشأن معالجة حالات التشرد الداخلي، وتشكر الحكومات التي قامت بذلك فعلا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>6 -</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="bold italic">تدعو</span> الحكومات إلى أن تنظر جديا، في حوارها مع المقررة الخاصة، في التوصيات والاقتراحات التي تقدمها إليها وفقا لولايتها، وأن تبلغها بالتدابير المتخذة بشأنها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>7 -</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> باستعانة المقررة الخاصة بالمبادئ التوجيهية بشأن التشريد الداخلي في حوارها مع الحكومات والمنظمات الحكومية الدولية والمنظمات غير الحكومية وغيرها من الجهات الفاعلة المعنية، وتطلب إليها أن تواصل جهودها من أجل زيادة نشر المبادئ التوجيهية وترويجها وتطبيقها وإدماجها في القوانين والسياسات المحلية، وأن تدعم الجهود الرامية إلى تعزيز بناء القدرات واستخدام المبادئ التوجيهية، وكذلك وضع تشريعات وسياسات محلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>8 -</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم</span> بأن الدول الأعضاء مسؤولة في المقام الأول عن إيجاد حلول دائمة للمشردين داخليا من سكانها، فضلا عن احترام حقوق الإنسان الخاصة بهم وحمايتها وإعمالها، بما يسهم فيما تقوم به من عمليات في مجال التنمية الاقتصادية والاجتماعية على الصعيد الوطني، وتشجع المجتمع الدولي ومنظومة الأمم المتحدة والمقررة الخاصة والمنظمات الدولية والإقليمية المعنية والبلدان المانحة على أن يواصلوا دعم ما يبذل من جهود على كل من الصعيد الدولي والإقليمي والوطني لتلبية احتياجات المشردين داخليا، بمن فيهم الأطفال، وإعمال حقوق الإنسان الواجبة لهم، انطلاقا من روح التضامن ومبادئ التعاون الدولي والمبادئ التوجيهية بشأن التشريد الداخلي، وأن يكفلوا توافر التمويل الكافي للجهود المبذولة لتقديم المساعدة الإنسانية والإنعاش المبكر والمساعدة الإنمائية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>9 -</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الدول الأعضاء تعزيز جهودها الرامية إلى ضمان حماية المشردين داخليا وتحسين المساعدة المقدمة لهم، ولا سيما من أجل التصدي لتحديات حالات التشرد التي طال أمدها، من خلال اعتماد وتنفيذ سياسات واستراتيجيات تراعي الاعتبارات الجنسانية وتتوافق مع الأطر الوطنية والإقليمية، مع التسليم بأن المبادئ التوجيهية بشأن التشريد الداخلي تشكل إطارا دوليا مهما لحماية المشردين داخليا، وتشجع جميع الجهات الفاعلة المعنية، تبعا للولاية المنوطة بها، على الاستعانة بالمبادئ التوجيهية عند تعاملها مع حالات تشرد داخلي، وتسلم في هذا الصدد بالدور المحوري الذي تضطلع به السلطات والمؤسسات الوطنية والمحلية في تلبية الاحتياجات الخاصة للمشردين داخليا وفي إيجاد حلول لمشكلة التشرد بوسائل منها مواصلة الدعم الدولي وتعزيزه، عند الطلب، من أجل بناء قدرات الدول؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>10 -</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول على ضمان أن تتوافر أمام المشردين داخليا، بمن فيهم الأطفال، عملية تتيح لهم الحصول على وثائق الهوية المناسبة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>11 -</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ</span> تنفيذ خطة عمل أصحاب المصلحة المتعددين للنهوض بالوقاية والحماية وإيجاد الحلول للأشخاص المشردين داخليا للفترة 2018-2020 (GP20)، للاحتفال بالذكرى السنوية العشرين لصدور المبادئ التوجيهية بشأن التشريد الداخلي، والمبادرة المعنية بمتابعتها (GP2.0)؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>12 -</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ مع التقدير</span> تقرير الفريق الرفيع المستوى المعني بالتشرد الداخلي الذي أنشأه الأمين العام، وتسلم بالأهمية البالغة التي تطبع زيادة الجهود المبذولة لمعالجة الأسباب الجذرية، وكذلك الوقاية والحماية وتحسين المساعدة المقدمة للأشخاص المشردين داخليا وإيجاد حلول دائمة للتشرد الداخلي، وتشجع الأمين العام على التعاون مع الدول الأعضاء ومنظومة الأمم المتحدة والجهات الفاعلة ذات الصلة، حسب الاقتضاء، في إطار تلك الجهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>13 -</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن تقديرها</span> لاعتماد عدد متزايد من الدول تشريعات وسياسات محلية تتصدى لجميع مراحل التشرد، وتشجع الدول على مواصلة القيام بذلك بشكل شامل للجميع ودون تمييز، بما يتفق مع المبادئ التوجيهية بشأن التشريد الداخلي، وتحث الدول على زيادة جهودها الرامية إلى تنفيذ هذه القوانين والسياسات المحلية، بوسائل منها تحديد جهات تنسيق وطنية داخل الحكومات تعنى بمسائل التشرد الداخلي وتُعنى خصوصا بوضع غايات ومؤشرات وطنية للسياسات والبرامج وتخصيص موارد من الميزانية، وتشجع المجتمع الدولي والجهات الفاعلة الوطنية على تقديم الدعم المالي إلى الحكومات، عند طلبها، والتعاون معها في هذا الشأن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>14 -</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="bold italic">تهيب</span> بالحكومات أن توفر الحماية والمساعدة للمشردين داخليا، بما في ذلك المساعدة المتعلقة بإعادة الإدماج والتنمية، وأن تيسر الجهود التي تبذلها وكالات الأمم المتحدة والمنظمات الإنسانية المعنية في هذا الصدد، من خلال إتاحة وتيسير وصول العاملين في مجال تقديم المساعدة الإنسانية بأمان ودون عوائق وإيصال اللوازم والمعدات إلى المشردين داخليا، وفقا للقانون الدولي، ومن خلال المحافظة على الطابع المدني والإنساني لمخيمات المشردين داخليا ومستوطناتهم حيثما وجدت، وكذلك من خلال اتخاذ الخطوات الضرورية لكفالة سلامة وأمن العاملين في مجال تقديم المساعدة الإنسانية بحيث يتسنى لهم أن يؤدوا بكفاءة مهمتهم المتمثلة في تقديم المساعدة للمشردين داخليا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>15 -</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن القلق بوجه خاص</span> إزاء الطائفة الواسعة من التهديدات والانتهاكات والتجاوزات التي تطال حقوق الإنسان وانتهاكات القانون الدولي الإنساني التي يواجهها العديد من المشردين داخليا، بمن فيهم النساء والأطفال، الذين يكونون عرضة بشكل خاص أو مستهدفين على وجه التحديد بأعمال تشمل خصوصا العنف الجنسي والجنساني والاستغلال والانتهاك الجنسيين والاتجار بالأشخاص بكافة صوره<sup>(</sup><authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	()	حسب التعريف الوارد في المادة 3 من بروتوكول منع وقمع ومعاقبة الاتجار بالأشخاص، وبخاصة النساء والأطفال، المكمل لاتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة عبر الوطنية (United Nations, <span class="italic">Treaty Series</span>, vol. 2237, No. 39574).</p></authorialNote><sup>)</sup> والتجنيد القسري والاختطاف، وتشجع المقررة الخاصة على مواصلة الالتزام بالحث على اتخاذ إجراءات لتلبية احتياجاتهم الخاصة من المساعدة والحماية، وتهيب بالدول أن تقوم، بالتعاون مع الوكالات الدولية وغيرها من أصحاب المصلحة، بتوفير الحماية والمساعدة للمشردين داخليا الذين يقعون ضحية للتهديدات والانتهاكات والتجاوزات المذكورة أعلاه، وللفئات الأخرى من المشردين داخليا ذوي الاحتياجات الخاصة، مثل الأفراد الذين تعرضوا لصدمات شديدة والمسنين والأشخاص ذوي الإعاقة، مع مراعاة جميع قرارات الجمعية العامة ومجلس الأمن ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>16 -</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> المجتمع الدولي على توفير التعاون التقني للدول المتأثرة بحالات التشرد، بناء على طلبها، في مجالات منها تدريب موظفي الهيئات المسؤولة عن تسجيل المشردين داخليا ووضع القوانين والسياسات الوطنية المتعلقة بالتشرد الداخلي والمسائل ذات الصلة باسترداد الأراضي والممتلكات والتعويض عنها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>17 -</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدد</span> على الدور الرئيسي الذي يضطلع به منسق الإغاثة في حالات الطوارئ في تنسيق حماية المشردين داخليا ومساعدتهم بالاستعانة بجهات منها منظومة مجموعات العمل الإنساني المشتركة بين الوكالات، وترحب بالمبادرات المتخذة باستمرار لكفالة وضع استراتيجيات أفضل للحماية والمساعدة والتنمية لصالح المشردين داخليا وتحسين تنسيق الأنشطة المتعلقة بهم، وتشدد على ضرورة تعزيز قدرات السلطات الوطنية والمحلية، والمجتمعات المضيفة، والمنظمات المحلية، ومنظمات الأمم المتحدة والجهات الفاعلة الأخرى ذات الصلة من أجل التصدي للتحديات الإنسانية الضخمة الناجمة عن التشرد الداخلي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="SingleTxt">
+        <num>18 -</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ مع التقدير</span> الاهتمام المتزايد بمسألة المشردين داخليا في خطط الاستجابة الإنسانية، وتشجع على بذل المزيد من الجهود في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>19 -</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدد</span> على أهمية أن تقوم الحكومات والجهات الفاعلة الأخرى ذات الصلة، وفقا لولاية كل منها، بالتواصل والتشاور مع المشردين داخليا والمجتمعات المضيفة خلال جميع مراحل التشرد، فضلا عن إشراك المشردين داخليا، حيثما كان ذلك مناسبا، في السياسات والبرامج والأنشطة المتصلة بهم، مع مراعاة مسؤولية الدول في المقام الأول عن حماية المشردين داخليا الخاضعين لولايتها وتقديم المساعدة لهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxt">
+        <num>20 -</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="bold italic">تهيب</span> بالدول أن تقوم، على وجه الخصوص، بالتعاون مع الوكالات الدولية وأصحاب المصلحة الآخرين، بتوفير ما يلزم للمشاركة الكاملة والمجدية للنساء المشردات داخليا وبدعم تلك المشاركة على جميع مستويات عمليات اتخاذ القرار وفي جميع الأنشطة التي تؤثر مباشرة على حياتهن وفي جميع الجوانب المتصلة بالتشرد الداخلي، بما في ذلك تعزيز حقوق الإنسان وحمايتها، ومنع انتهاكات حقوق الإنسان، وتصميم وتنفيذ الحلول الدائمة، وعمليات إحلال السلام، وبناء السلام، والعدالة الانتقالية، وإعادة الإعمار بعد انتهاء النزاع، وتحقيق التنمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>21 -</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> جميع منظمات الأمم المتحدة المعنية ومنظمات تقديم المساعدة الإنسانية ومنظمات حقوق الإنسان والمنظمات الإنمائية على تعزيز التعاون والتنسيق فيما بينها عن طريق اللجنة الدائمة المشتركة بين الوكالات وأفرقة الأمم المتحدة القطرية في البلدان التي تشهد حالات من التشرد الداخلي، وعلى تقديم كل ما يمكن من أوجه المساعدة والدعم للمقررة الخاصة، وتطلب أن تتواصل مشاركة المقررة الخاصة في أعمال اللجنة الدائمة المشتركة بين الوكالات وهيئاتها الفرعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxt">
+        <num>22 -</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> اللجنة الدائمة المشتركة بين الوكالات على تعزيز التنسيق والفعالية والكفاءة وقابلية التنبؤ في منع حالات التشرد الداخلي والاستجابة لها وإيجاد حلول تعالجها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_296" class="SingleTxt">
+        <num>23 -</num>
+        <content eId="para_296__content">
+          <p xml:space="preserve">	<span class="bold italic">تعرب عن بالغ القلق</span> إزاء عدم كفاية مستويات تمويل النداءات الإنسانية، وتحث في هذا الصدد جميع الجهات الفاعلة ذات الصلة على أن توفر لوكالات الأمم المتحدة والمنظمات الإنسانية المعنية موارد كافية يمكن التنبؤ بها لكفالة تقديم دعم كاف لمن شُردوا قسرا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="SingleTxt">
+        <num>24 -</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="bold italic">تهيب</span> بجميع أطراف النزاعات المسلحة أن تمتثل لالتزاماتها بموجب القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، حسب الانطباق، بغية منع التشريد القسري وتعزيز حماية المدنيين، وتهيب بالحكومات أن تتخذ التدابير اللازمة لاحترام وحماية حقوق الإنسان لجميع المشردين داخليا، دون تمييز من أي نوع، وفقا لما يسري عليها من التزامات بموجب القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_343" class="SingleTxt">
+        <num>25 -</num>
+        <content eId="para_343__content">
+          <p xml:space="preserve">	<span class="bold italic">تهيب</span> بالدول أن تعمل، بالتعاون مع سائر الجهات الفاعلة المعنية، بما فيها الوكالات الإنسانية والإنمائية والجهات المانحة، على كفالة حق الأطفال المشردين داخليا في الحصول على تعليم جيد النوعية، بما يشمل التعليم الابتدائي والثانوي، دون تمييز من أي نوع، وكذلك دعم المدارس القائمة ليتسنى لها أن تشمل المشردين داخليا بخدماتها، وتهيب بجميع أطراف النزاعات المسلحة أن تحترم الطابع المدني للمدارس وسائر المؤسسات التعليمية وتمتنع عن القيام بأعمال يمكن أن تضر بحماية تلك المباني من الهجمات المباشرة، وتدين بشدة جميع الهجمات التي تشن على المدارس، وكذلك التهديد بشن هجمات عليها، في انتهاك للقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_368" class="SingleTxt">
+        <num>26 -</num>
+        <content eId="para_368__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم</span> بأن حصول الجميع في الوقت المناسب وعلى قدم المساواة على اللقاحات المضادة لفيروس كوفيد-19 وعلى الوسائل الآمنة والناجعة والفعالة والميسورة التكلفة لعلاجه وتشخيصه جزء أساسي من استجابة عالمية تقوم على الوحدة والتضامن والتعاون المتجدد المتعدد الأطراف ومبدأ عدم ترك أحد خلف الركب؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="SingleTxt">
+        <num>27 -</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلط الضوء </span>على ضرورة قيام الدول، بدعم من الشركاء المعنيين، بما في ذلك الوكالات الإنسانية والإنمائية والجهات المانحة، حسب الاقتضاء، بمعالجة الاحتياجات الصحية البدنية والعقلية للمشردين داخليا، التي قد تشمل المساعدة والرعاية الصحية وخدمات المشورة النفسية والاجتماعية وغيرها من خدمات المشورة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxt">
+        <num>28 -</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> على الالتزام، وفقا للقانون الدولي الإنساني والقوانين والأنظمة الوطنية المعمول بها، باحترام وحماية الموظفين الطبيين وكذلك العاملين في مجال تقديم المساعدة الإنسانية الذين يؤدون مهاما طبية حصرا، وأيضا وسائل النقل والمعدات الخاصة بهم، والمستشفيات وغيرها من المرافق الطبية، في جميع الظروف، وتلاحظ في هذا الصدد دور الأطر القانونية الداخلية وغيرها من التدابير الملائمة في تعزيز سلامة وحماية هؤلاء الموظفين، وتحث الدول وجميع أطراف النـزاعات المسلحة على وضع وإدماج تدابير فعالة لمنع العنف ضد هؤلاء الموظفين وضد وسائل نقلهم ومعداتهم، وكذلك ضد المستشفيات وغيرها من المرافق الطبية، والتصدي له، وتحث الدول بقوة على إجراء تحقيقات كاملة وفورية ومحايدة وفعالة، كل ضمن ولايته القضائية، في انتهاكات القانون الدولي الإنساني المتصلة بحماية الجرحى والمرضى، بمن فيهم المشردون داخليا، والعاملين في المجال الطبي والعاملين في مجال تقديم المساعدة الإنسانية الذين يزاولون حصريا مهاما طبية، وبحماية وسائل نقلهم ومعداتهم، وكذلك المستشفيات وسائر المرافق الطبية، في النـزاعات المسلحة، وعلى القيام، عند الاقتضاء، باتخاذ الإجراءات اللازمة ضد المسؤولين عن تلك الانتهاكات وفقا للقانون الداخلي والقانون الدولي، وذلك بغية تعزيز التدابير الوقائية، وكفالة المساءلة، ومعالجة تظلمات الضحايا، بمن فيهم المشردون داخليا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_449" class="SingleTxt">
+        <num>29 -</num>
+        <content eId="para_449__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم</span> بما يترتب على تغير المناخ من آثار وخيمة تسهم في تدهور البيئة واشتداد الظواهر الجوية التي يمكن أن تؤدي، إلى جانب عوامل أخرى، إلى تشريد السكان، وتلاحظ في هذا الصدد اعتماد إطار سنداي للحد من مخاطر الكوارث للفترة 2015-2030 في آذار/مارس 2015<sup>(</sup><authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/69/283">69/283</a>، المرفق الثاني.</p></authorialNote><sup>)</sup> واتفاق باريس الذي اعتُمد بموجب اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ في كانون الأول/ديسمبر 2015<sup>(</sup><authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>، المقرر 1/م أ-21، المرفق.</p></authorialNote><sup>)</sup> والمبادرات ذات الصلة المتعلقة بالتشرد الداخلي، من قبيل مبادرة نانسن وعمليات متابعتها، وتشجع المقررة الخاصة على أن تواصل، بالتعاون الوثيق مع الدول والمنظمات الحكومية الدولية والمنظمات غير الحكومية، بحثَ ما للتشرد الداخلي الناجم عن الكوارث من آثار وأبعاد تتصل بحقوق الإنسان، بهدف مساعدة الدول الأعضاء في الجهود التي تبذلها من أجل بناء قدرة المجتمعات المحلية على الصمود وتطوير قدراتها لمنع التشرد والتأهب له أو تقديم المساعدة من خلال برامج إنعاش مُحكمة التخطيط تدعم المشردين داخليا والمجتمعات المضيفة لهم وتوفر الحماية لمن أجبروا على الفرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>30 -</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> الحاجة إلى التنفيذ الفعال لإطار سنداي للحد من مخاطر الكوارث للفترة 2015-2030 من أجل القيام، حسب الاقتضاء، بإدماج الإعمار والإنعاش بعد وقوع الكوارث، بما في ذلك مبدأ ”إعادة البناء على نحو أفضل“، في التنمية الاقتصادية والاجتماعية المستدامة للمناطق المتضررة، وكذلك للمستوطنات المؤقتة التي يعيش فيها المشردون، وتشجيع إدراج التمارين الدورية للتأهب للكوارث والتصدي لها ضمن الجهود المبذولة للإنعاش وإعادة التوطين، بهدف كفالة التصدي السريع والفعال للكوارث وما يتصل بها من حالات التشرد، وتعزيز التعاون عبر الحدود لبناء القدرة على الصمود والحد من مخاطر الكوارث، بما في ذلك مخاطر التشرد، بسبل من بينها إنشاء نظم الإنذار المبكر، بما في ذلك الإنذار المبكر بموجات الحر، أو تحسين تلك النظم، التي تتصل بنظم إدارة المخاطر على المدى الطويل وتدعمها حملات للتوعية العامة، اعترافا بأن العمل المبكر الذي يعقب التنبؤات الجيدة يمكن أن يقلل من تأثير الظواهر المناخية القاسية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_508" class="SingleTxt">
+        <num>31 -</num>
+        <content eId="para_508__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم</span> بأن التشرد الداخلي ليس تحديا إنسانيا فحسب، بل هو تحدٍ إنمائي أيضا ويمكن في بعض الحالات أن يكون كذلك تحديا يعترض مساعي بناء السلام، وتهيب بالدول أن تقدم حلولا دائمة وتذلل العقبات المحتملة في هذا الصدد وأن تدرج احتياجات المشردين داخليا والمجتمعات المضيفة ومواطن ضعفهم وقدراتهم في خططها الإنمائية الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_539" class="SingleTxt">
+        <num>32 -</num>
+        <content eId="para_539__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> على توثيق التعاون بين الجهات الفاعلة في المجالين الإنمائي والإنساني، وفقا لولايات كل منها، وذلك لتحقيق نتائج مشتركة على مدى سنوات متعددة بهدف تقليل احتياجات المشردين داخليا ومواطن ضعفهم، دعما للأولويات الوطنية، مع الاحترام الكامل لأهمية المبادئ الإنسانية التي يقوم عليها العمل الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_571" class="SingleTxt">
+        <num>33 -</num>
+        <content eId="para_571__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع أيضا</span> على تعزيز التعاون الدولي، خاصة بين الجهات الفاعلة في المجالين الإنمائي والإنساني، بوسائل منها توفير الموارد ووضع خطط متسقة متعددة السنوات تعالج حالات التشرد التي طال أمدها وتقديم الخبرات لمساعدة البلدان المتضررة، ولا سيما البلدان النامية، في جهودها وسياساتها الوطنية المتصلة بتقديم المساعدة وتوفير الحماية وبناء القدرة على الصمود والتأهيل لفائدة المشردين داخليا وللمجتمعات المضيفة، حسب الاقتضاء، وإدماج حقوق الإنسان للمشردين داخليا واحتياجاتهم في استراتيجيات التنمية الريفية والحضرية على السواء، ومشاركة المشردين داخليا والمجتمعات المضيفة لهم في تصميم تلك الاستراتيجيات وتنفيذها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_604" class="SingleTxt">
+        <num>34 -</num>
+        <content eId="para_604__content">
+          <p xml:space="preserve">	<span class="bold italic">تهيب</span> بالأمم المتحدة أن تعمل عن كثب مع الدول الأعضاء والجهات الفاعلة الأخرى المعنية، بما في ذلك الحكومات المحلية والمجتمع المدني والقطاع الخاص، تعزيزا للخطة الحضرية الجديدة من أجل زيادة فعالية التأهب والاستجابة لحالات الطوارئ في المناطق الحضرية، وتلاحظ أهمية الاستجابة، على النحو الملائم، للاحتياجات ومواطن الضعف الخاصة للمشردين داخليا في المناطق الحضرية وأهمية دعم المدن المضيفة لهم انطلاقا من روح التعاون الدولي، بما في ذلك من خلال كفالة وصولهم على قدم المساواة مع غيرهم إلى الفرص المدرة للدخل والحيلولة دون تعرضهم للإخلاء القسري تعسفا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_638" class="SingleTxt">
+        <num>35 -</num>
+        <content eId="para_638__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء والوكالات الإنسانية والجهات المانحة والجهات الفاعلة في المجال الإنمائي وسائر مقدمي المساعدة الإنمائية على مواصلة العمل معا، وفي تعاون وثيق مع المقررة الخاصة، لتوفير استجابة يمكن التنبؤ بها بقدر أكبر تلبية لاحتياجات المشردين داخليا، بما يشمل المساعدة الإنمائية الطويلة الأجل من أجل تنفيذ الحلول الدائمة، وذلك بغية الحد من التشرد الداخلي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_673" class="SingleTxt">
+        <num>36 -</num>
+        <content eId="para_673__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> الحكومات ووكالات الأمم المتحدة وغيرها من الجهات صاحبة المصلحة على تعزيز اتباع نهج شامل للجميع إزاء الحلول الدائمة يلبي احتياجات المشردين داخليا والمجتمعات المضيفة لهم، بما في ذلك تعزيز فرص الاستفادة الكاملة من الإمكانات البشرية للسكان المشردين عن طريق تشجيعهم على تحقيق الاكتفاء الذاتي من خلال الأنشطة المدرة للدخل وفرص كسب الرزق المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_709" class="SingleTxt">
+        <num>37 -</num>
+        <content eId="para_709__content">
+          <p xml:space="preserve">	<span class="bold italic">تحث</span> جميع البلدان على إدماج خطة التنمية المستدامة لعام 2030 في سياساتها الوطنية وأطرها الإنمائية، حسب الاقتضاء، وتذكر بأن خطة عام 2030 تسعى إلى تلبية احتياجات أشد الفئات ضعفا، بما يشمل المشردين داخليا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_746" class="SingleTxt">
+        <num>38 -</num>
+        <content eId="para_746__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ</span> أهمية مراعاة حقوق الإنسان للمشردين داخليا واحتياجاتهم الخاصة من الحماية والمساعدة، حسبما يكون مناسبا، في سياق عمليات السلام، وتشدد على أن إيجاد حلول دائمة للمشردين داخليا، بطرق منها العودة الطوعية والعمليات المستدامة لإعادة الإدماج والتأهيل والمصالحة، ومشاركتهم النشطة حسب الاقتضاء في عملية السلام، هي عناصر ضرورية لبناء السلام بفعالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="SingleTxt">
+        <num>39 -</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بالدور الذي تؤديه لجنة بناء السلام في هذا الصدد، وتواصل حث اللجنة على تكثيف جهودها، في حدود ولايتها، بالتعاون مع الحكومات الوطنية والحكومات الانتقالية وبالتشاور مع كيانات الأمم المتحدة المعنية، من أجل مراعاة حقوق المشردين داخليا واحتياجاتهم الخاصة، بما فيها عودتهم بصورة طوعية وآمنة تحفظ كرامتهم وإعادةُ إدماجهم وتأهيلهم، وما يتصل بذلك من مسائل تتعلق بالأراضي والملكية، عند إسداء المشورة بشأن استراتيجيات قطرية لبناء السلام بعد انتهاء النزاع في الحالات التي هي قيد النظر أو عند اقتراح استراتيجيات من هذا القبيل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_823" class="SingleTxt">
+        <num>40 -</num>
+        <content eId="para_823__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى تخصيص الاتحاد الأفريقي عام 2019 للاحتفال في جملة أمور بالذكرى السنوية العاشرة لإبرام اتفاقية الاتحاد الأفريقي لحماية ومساعدة النازحين داخليا في أفريقيا (اتفاقية كمبالا)، وترحب بالتقدم المحرز في عدد الدول الأفريقية التي وقعت الاتفاقية وصدقت عليها، وتشجع على إحراز مزيد من التقدم في هذا الصدد، وتشجع الآليات الإقليمية الأخرى على وضع أطر معيارية إقليمية خاصة بها لحماية المشردين داخليا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_863" class="SingleTxt">
+        <num>41 -</num>
+        <content eId="para_863__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء، وأعضاء اللجنة الدائمة المشتركة بين الوكالات، ومنسقي الشؤون الإنسانية التابعين للأمم المتحدة، والأفرقة القطرية للأمم المتحدة على المساهمة في توفير بيانات موثوقة عن حالات التشرد الداخلي، بالتعاون مع مركز رصد التشرد الداخلي وبدعم تقني ومساعدة من الدائرة المشتركة المعنية بتحديد سمات المشردين داخليا، وعلى توفير الموارد المالية، حسب الاقتضاء، في هذه الجوانب، وتشجع الدول على أن تضع في اعتبارها التوصيات الدولية بشأن إحصاءات المشردين داخليا عن طريق مكاتبها الإحصائية الوطنية، حيثما انطبق ذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_904" class="SingleTxt">
+        <num>42 -</num>
+        <content eId="para_904__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى ضرورة التفكير في استراتيجيات فعالة لضمان توفير ما يكفي من الحماية والمساعدة للمشردين داخليا ولمنع هذا التشرد والحد منه، وتشجع في هذا الصدد الأمين العام على العمل مع الدول الأعضاء ومنظومة الأمم المتحدة لبحث السبل الكفيلة بتلبية احتياجات المشردين داخليا الطويلة الأجل على نحو أفضل، ودعم المجتمعات التي تستضيفهم، وتحسين حياة ملايين كثيرة من المشردين داخليا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_946" class="SingleTxt">
+        <num>43 -</num>
+        <content eId="para_946__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الأمين العام أن يواصل تزويد المقررة الخاصة، في حدود الموارد المتاحة، بكل ما يلزم من مساعدة لتعزيز ولايتها والنهوض بها على نحو فعال، وتشجع مفوضية الأمم المتحدة لحقوق الإنسان على أن تقوم، بالتعاون الوثيق مع منسق الإغاثة في حالات الطوارئ ومكتب تنسيق الشؤون الإنسانية في الأمانة العامة للأمم المتحدة ومفوضية الأمم المتحدة السامية لشؤون اللاجئين والمنظمة الدولية للهجرة وسائر مكاتب الأمم المتحدة ووكالاتها المعنية والمنظمات ذات الصلة، بمواصلة تقديم الدعم للمقررة الخاصة والتعاون معها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_989" class="SingleTxt">
+        <num>44 -</num>
+        <content eId="para_989__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> المقررة الخاصة على أن تواصل التماس مساهمات الدول والمنظمات والمؤسسات المعنية من أجل تهيئة أساس أكثر استقرارا لعملها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1033" class="SingleTxt">
+        <num>45 -</num>
+        <content eId="para_1033__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى المقررة الخاصة أن تقدم إلى الجمعية العامة في دورتيها السابعة والسبعين والثامنة والسبعين تقريرا عن تنفيذ هذا القرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1078" class="SingleTxt">
+        <num>46 -</num>
+        <content eId="para_1078__content">
+          <p xml:space="preserve">	<span class="bold italic">تقرر</span> أن تواصل في دورتها الثامنة والسبعين النظر في مسألة توفير الحماية والمساعدة للمشردين داخليا.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="53">الجلسة العامة 53</inline>
+        <eol />
+        <docDate date="2021-12-16" refersTo="#adoptionDate">16 كانون الأول/ديسمبر 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
