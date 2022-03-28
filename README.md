@@ -2,7 +2,7 @@
 This repository contains a set of resolutions adopted by the General Assembly of the United Nations, converted into XML format using the Akoma Ntoso for the United Nations (AKN4UN) schema.
 The XML files are unofficial copies for informational purposes only and prepared from the official electronic files. 
 
-For more information, visit the [Machine-readable documents page](https://www.un.org/dgacm/en/content/visualizations-and-machine-readability).
+For more information, contact us at untranslation@un.org or visit the [Machine-readable documents page](https://www.un.org/dgacm/en/content/visualizations-and-machine-readability).
 
 
 # Disclaimer and terms of use
