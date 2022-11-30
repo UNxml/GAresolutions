@@ -1,0 +1,689 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/"></FRBRuri>
+          <FRBRdate date="2022-11-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/fra@/"></FRBRuri>
+          <FRBRdate date="2022-11-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/fra@.xml"></FRBRuri>
+          <FRBRdate date="2022-11-20" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Assistance Mission in Afghanistan" showAs="UN Assistance Mission in Afghanistan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Taliban (Afghanistan)" showAs="Taliban (Afghanistan)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RECONCILIATION" showAs="RECONCILIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOVERNANCE" showAs="GOVERNANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULE OF LAW" showAs="RULE OF LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG CONTROL" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC DEVELOPMENT" showAs="ECONOMIC DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHANISTAN" showAs="AFGHANISTAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHANISTAN SITUATION" showAs="AFGHANISTAN SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHAN REFUGEES" showAs="AFGHAN REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL COOPERATION" showAs="REGIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="34" showAs="The situation in Afghanistan." shortForm="AFGHANISTAN SITUATION" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-04" outcome="draftResolution" as="A/77/L.11" by="Afghanistan, Albania, Austria, Belgium, Canada, Cyprus, Czechia, Denmark, Estonia, France, Germany, Greece, Iceland, Ireland, Italy, Kazakhstan, Luxembourg, Malta, Netherlands, Norway, Qatar, Slovenia, Spain, Sweden, United Arab Emirates, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Australia, Bosnia and Herzegovina, Bulgaria, Croatia, Dominican Republic, Finland, Hungary, Japan, Kuwait, Latvia, Liechtenstein, Lithuania, Monaco, Mongolia, Montenegro, New Zealand, North Macedonia, Palau, Poland, Portugal, Republic of Korea, Romania, San Marino, Saudi Arabia, Slovakia, Switzerland, Tajikistan, Thailand, Türkiye, Ukraine and Vanuatu" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2022-11-10" outcome="adopted" as="A/77/PV.33" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="116" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AFGHANISTAN</organization>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CAMBODIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">IRAQ</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SERBIA</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TUVALU</organization>
+                <organization refersTo="memberState">TURKIYE</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+            <count value="10" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">BURUNDI</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sans renvoi à une grande commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-25538 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-11-14" class="rightSmall" refersTo="#dateOfIssuance">14 novembre 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Soixante-dix-septième session</session>
+      </p>
+      <p>
+        <inline title="34" name="agenda item">Point 34 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">La situation en Afghanistan</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 10 novembre 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sans renvoi à une grande commission (<inline name="originating document">A/77/L.11</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	La situation en Afghanistan</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>sa résolution <a href="https://undocs.org/fr/A/RES/75/90">75/90</a> du 10 décembre 2020 et toutes ses résolutions antérieures sur la question,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant également </span>toutes les résolutions du Conseil de sécurité, en particulier la résolution <a href="https://undocs.org/fr/S/RES/2626(2022)">2626 (2022)</a> du 17 mars 2022, et toutes les déclarations de la présidence du Conseil sur la question,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>son ferme attachement à la souveraineté, à l’indépendance, à l’intégrité territoriale et à l’unité nationale de l’Afghanistan, et respectant le patrimoine multiculturel, multiethnique et historique du pays,</p>
+      </container>
+      <container name="Soulignant avec force" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant avec force </span>qu’il importe de créer un gouvernement inclusif et représentatif et insistant sur l’importance qu’il y a à faire respecter les droits humains, notamment les droits humains des femmes, des enfants et des personnes appartenant à des minorités, et à promouvoir la participation pleine, égale, véritable et en toute sécurité des femmes à tous les aspects de la vie sociale afghane,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant </span>qu’il importe au plus haut point que l’Afghanistan parvienne à une paix pérenne, au développement durable, au relèvement et à la stabilité économique, et que soient éliminées toutes les menaces qui entravent encore considérablement la stabilité du pays et la sécurité régionale,</p>
+      </container>
+      <container name="Exprimant" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant </span>sa profonde préoccupation devant la situation économique et humanitaire désastreuse qui règne en Afghanistan, y compris les niveaux alarmants d’insécurité alimentaire, et considérant qu’il faut remédier aux problèmes considérables qui pèsent sur l’économie afghane, notamment en s’efforçant de rétablir les systèmes bancaire et financier et de permettre l’utilisation des actifs appartenant à la Banque centrale d’Afghanistan au profit du peuple afghan, et qu’il faut redoubler d’efforts pour fournir une aide humanitaire et mener d’autres activités visant à répondre aux besoins essentiels en Afghanistan, notamment pour garantir un libre accès humanitaire, </p>
+      </container>
+      <container name="Se déclarant de nouveau gravement préoccupée" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant de nouveau gravement préoccupée</span> par les conditions de sécurité qui règnent en Afghanistan et par le besoin urgent de surmonter les problèmes auxquels se heurtent le pays et sa population civile, en particulier la menace que constituent les groupes terroristes tels qu’Al‑Qaida et l’État islamique d’Iraq et du Levant (EIIL) (Daech) et leurs affiliés, dont l’EIIL-Province du Khorassan, pour l’Afghanistan et la région, et mettant en garde contre toute tentative de faire dérailler la paix et la stabilité en Afghanistan,</p>
+      </container>
+      <container name="Insistant" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Insistant </span>sur l’importance du rôle de la coopération régionale pour promouvoir à long terme la stabilité, la paix, la sécurité, la prospérité, le développement durable et les droits humains en Afghanistan, et se félicitant de l’action menée par les organisations régionales, les partenaires internationaux, les pays de la région et les pays voisins à cet égard,</p>
+      </container>
+      <container name="Prenant acte" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Prenant acte </span>du premier rapport annuel sur les droits humains de la Mission d’assistance des Nations Unies en Afghanistan, publié en juillet 2022, et du rapport du Rapporteur spécial sur la situation des droits de l’homme en Afghanistan, publié en septembre 2022<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/51/6">A/HRC/51/6</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Rappelant" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>le Plan d’action pour la promotion des femmes de l’Organisation de la coopération islamique, qui accorde une place importante à l’inclusion des femmes dans la prise de décisions, à l’égalité d’accès des filles et des garçons à l’éducation à tous les niveaux, à l’accès des femmes et des filles à des soins de santé et à des services de qualité, à l’égalité des chances sur le plan matériel entre les femmes et les hommes, à l’égalité d’accès à l’aide humanitaire et à la lutte contre toutes les formes de violence contre les femmes et les filles,</p>
+      </container>
+      <container name="Soulignant" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> le rôle central que l’Organisation des Nations Unies joue, en toute impartialité, dans la promotion de la paix et de la stabilité en Afghanistan, exprimant sa satisfaction et son appui sans réserve aux efforts que déploient le Secrétaire général et sa représentante spéciale pour l’Afghanistan et exprimant sa satisfaction et son plein appui, en particulier, à l’action menée par la Mission d’assistance des Nations Unies en Afghanistan,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Accueillant avec satisfaction</span> les rapports du Secrétaire général,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare vivement préoccupée</span> par l’évolution et l’instabilité de la situation en Afghanistan depuis la prise de pouvoir par les Taliban et par les conditions économiques, humanitaires et sociales catastrophiques, la persistance de la violence, la présence de groupes terroristes, l’absence d’inclusion sur le plan politique et de représentation au niveau de la prise de décisions, ainsi que les atteintes aux droits humains, notamment aux droits humains des femmes, des filles et des personnes appartenant à des minorités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Maintient </span>qu’une paix durable et pérenne ne peut être instaurée qu’au moyen d’une stabilité économique, politique et sociale à long terme, dans le plein respect des droits civils, politiques, économiques et culturels, ainsi que d’un attachement à une gouvernance inclusive et représentative ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">S’engage</span> à continuer d’aider le peuple afghan à rebâtir un État stable, sûr et autosuffisant sur le plan économique, à l’abri du terrorisme, des stupéfiants, de la criminalité transnationale organisée, dont la traite d’êtres humains, et de la corruption, et à asseoir la démocratie constitutionnelle dans le pays pour en faire un membre responsable de la communauté internationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite </span>des mesures prises par la communauté internationale, notamment les pays voisins, les organismes donateurs et les autres organisations internationales sur le plan de la fourniture d’une aide humanitaire urgente à l’Afghanistan et souligne que la paix, la sécurité, la prospérité et le développement durable à long terme en Afghanistan et dans la région requièrent une coopération plus étroite et plus efficace ainsi qu’une plus grande cohérence et davantage de complémentarité dans les démarches suivies par la communauté internationale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’elle compte que les Taliban tiendront leurs engagements concernant le départ d’Afghanistan, en toute sécurité, en toute sûreté et en bon ordre, de tous les Afghans qui souhaitent partir et de tous les ressortissants étrangers, sans que personne cherche à les empêcher de quitter le pays, et faciliteront le retour volontaire, durable, sûr et digne de tous les réfugiés, et réaffirme également qu’elle compte que les Taliban donneront suite à leur annonce d’amnistie générale pour encourager le retour d’anciens responsables afghans et pour promouvoir une gouvernance inclusive en Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> l’Afghanistan à honorer, à respecter et à appliquer intégralement l’ensemble des conventions, pactes et traités, bilatéraux ou multilatéraux, auxquels il est partie ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux Taliban de respecter les garanties qu’ils ont données sur la sûreté et la sécurité du personnel et des locaux diplomatiques, des travailleurs humanitaires et des organisations internationales en Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">	Souligne </span>que les relations entre tous les acteurs politiques et parties prenantes afghans concernés et la communauté internationale seront éclairées par les promesses, les actes et les avancées réalisés par rapport aux attentes du peuple afghan, largement partagées par la communauté internationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="H23">
+        <subheading>		Droits humains, gouvernance et état de droit</subheading>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare vivement préoccupée</span> par les atteintes aux droits humains et tout particulièrement aux droits humains des femmes et des filles, y compris la violence sexuelle, et des personnes appartenant à des minorités et par la répression croissante des libertés fondamentales, rappelle les obligations de l’Afghanistan au regard du droit international, en particulier du droit international des droits de l’homme, du droit international des réfugiés et du droit international humanitaire, et souligne qu’il importe de garantir le respect des droits humains et des libertés fondamentales, en particulier le plein exercice par les femmes et les filles, les enfants, les personnes handicapées et les personnes appartenant à des minorités de leurs droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme son attachement sans faille </span>au droit international humanitaire et aux droits humains de tous les Afghans, insistant sur l’importance que revêtent une participation véritable des femmes à tous les domaines de la vie et le respect des droits humains, notamment des femmes, des enfants et des personnes appartenant à des minorités, se déclare en particulier gravement inquiète de la situation des femmes et des filles, de l’imposition de restrictions à leur participation pleine, égale et en toute sécurité à la vie publique, notamment à leur liberté de circulation, et de l’absence d’égalité d’accès à l’éducation, tout particulièrement la décision prise par les Taliban de ne pas rouvrir les écoles secondaires aux filles afghanes, ainsi qu’à des perspectives économiques et à l’emploi, à la justice et à d’autres services, et demande aux Taliban d’inverser les politiques et pratiques qui restreignent le plein exercice par les femmes et les filles afghanes de leurs droits humains et de leurs libertés fondamentales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe de garantir le respect des droits humains et des libertés fondamentales des enfants en Afghanistan et de faire cesser et de prévenir tous les actes de maltraitance commis sur la personne d’enfants, encourage la mise en œuvre intégrale de la Convention relative aux droits de l’enfant et des protocoles facultatifs s’y rapportant<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1577, 2171, 2173 et 2983, n<sup>o</sup> 27531.</p></authorialNote> et condamne vivement toutes les formes de violence contre les enfants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>l’importance du dialogue entre tous les acteurs politiques et parties prenantes afghans concernés, l’accent étant mis sur la promotion d’une gouvernance inclusive, représentative, participative et réactive aux niveaux national et infranational, sans aucune discrimination fondée sur le genre, la religion ou l’origine ethnique, avec la participation pleine, égale, véritable et en toute sécurité des femmes et la participation effective des personnes appartenant à des minorités, des jeunes et des personnes handicapées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Insiste fortement</span> sur la nécessité d’enquêter sur les allégations concernant des violations des droits humains et des atteintes à ces droits commises aujourd’hui et dans le passé en Afghanistan, et souligne qu’il importe d’offrir aux victimes et aux personnes rescapées des voies de recours utiles et effectives et de poursuivre en justice les auteurs de ces actes, conformément au droit interne et au droit international ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Condamne tout particulièrement</span> toutes les attaques, les représailles et les violences dirigées contre les journalistes et autres professionnels des médias, ainsi que les restrictions particulières auxquelles se heurtent les femmes travaillant dans les médias, demande instamment que les auteurs de harcèlement et d’attaques contre les journalistes soient traduits en justice, conformément au droit interne et au droit international, et exhorte tous les acteurs politiques et parties prenantes afghans concernés à garantir et respecter la liberté d’opinion et d’expression, la liberté des médias et l’accès aux médias ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare inquiète</span> des informations faisant état de punitions extrajudiciaires, comme les représailles et les exécutions sommaires, les disparitions et les détentions, notamment celles visant d’anciens membres des Forces nationales de défense et de sécurité afghanes et d’autres responsables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>que l’action collective et soutenue de lutte contre la corruption en Afghanistan demeure essentielle pour l’avenir du pays, et exhorte tous les acteurs politiques et parties prenantes afghans concernés à promouvoir l’état de droit et à lutter contre l’impunité de la corruption et à mettre en place aux niveaux national, provincial et local une administration plus efficace, plus responsable et plus transparente ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="H23">
+        <subheading>		Sécurité et lutte contre le terrorisme et les stupéfiants</subheading>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare de nouveau gravement préoccupée</span> par les conditions de sécurité et la persistance de la violence en Afghanistan et par la présence de groupes terroristes tels qu’Al‑Qaida et l’État islamique d’Iraq et du Levant (EIIL) (Daech) et leurs affiliés, notamment l’EIIL-Province du Khorassan, ainsi que de combattants terroristes étrangers, et se déclare vivement inquiète des attaques lâches et odieuses commises par l’EIIL-Province du Khorassan contre des civils et des infrastructures civiles, qui ont visé tout particulièrement des établissements d’enseignement, des locaux et le personnel diplomatiques et des sites religieux appartenant à des minorités, ainsi que des tentatives déplorables de compromettre les relations entre les communautés, faisant peser une grave menace sur la sécurité de l’Afghanistan, de ses voisins immédiats et des pays de la région ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’il importe de combattre le terrorisme en Afghanistan, y compris les personnes et les groupes désignés par le Comité du Conseil de sécurité faisant suite aux résolutions <a href="https://undocs.org/fr/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/fr/S/RES/1989(2011)">1989 (2011)</a> et <a href="https://undocs.org/fr/S/RES/2253(2015)">2253 (2015)</a>, et de prévenir l’extrémisme violent pouvant conduire au terrorisme, demande instamment que le territoire afghan ne soit pas utilisé comme base ou sanctuaire par quelque groupe, organisation ou individu terroriste que ce soit pour menacer ou attaquer tout autre pays, pour préparer ou financer des actes terroristes, ou pour abriter ou entraîner des terroristes, et qu’aucun groupe ou individu afghan ne soutienne des terroristes opérant sur le territoire d’un autre pays, et demande aux Taliban de prendre des mesures concrètes contre toutes les organisations terroristes, en particulier Al‑Qaida et l’État islamique d’Iraq et du Levant (EIIL) (Daech) et leurs affiliés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Est consciente </span>que le terrorisme a des conséquences dévastatrices sur les droits humains et les libertés fondamentales des victimes et de leurs familles, déplore les souffrances du peuple afghan et réaffirme sa profonde solidarité avec lui, et souligne qu’il faut promouvoir la solidarité internationale en faveur des victimes du terrorisme et veiller à ce que les victimes du terrorisme soient traitées avec dignité et respect et à ce que leur droit à l’accès à la justice et aux mécanismes de réparation, prévu dans le droit interne applicable et conformément aux principes du droit international, soit pleinement respecté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>que les pays voisins, les pays de la région et la communauté internationale doivent continuer de collaborer étroitement et de mieux coordonner la lutte contre tous les actes de terrorisme et les menaces associées, notamment celles relatives aux combattants terroristes étrangers et au financement du terrorisme en Afghanistan et dans la région, et affirme son appui à la poursuite de l’action menée à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">Demeure profondément préoccupée</span> par les ravages persistants causés par les mines terrestres antipersonnel, les restes explosifs de guerre, les engins explosifs improvisés et les armes parmi les civils, notamment parmi les enfants qui en subissent les effets de manière disproportionnée, encourage tous les acteurs politiques et parties prenantes afghans concernés à continuer de s’employer à éliminer la menace que constituent les mines terrestres antipersonnel et les engins explosifs improvisés, et se déclare favorable à des mesures de lutte contre le commerce illicite et l’accumulation déstabilisante des armes légères et de petit calibre en Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">Est encore vivement préoccupée </span>par la menace grave et persistante que la culture d’opium et la production de méthamphétamine illicites ainsi que la consommation et le trafic de ces drogues continuent d’avoir sur la sécurité, le développement et la gouvernance de l’Afghanistan ainsi que de la région et au‑delà et, sachant que ces activités peuvent grandement contribuer au financement de groupes terroristes opérant dans la région, demande aux États de renforcer la coopération internationale et régionale pour contrer cette menace, et sait l’importance du rôle que jouent les pays voisins de l’Afghanistan dans la lutte contre le trafic international de drogues et de l’action menée par l’Office des Nations Unies contre la drogue et le crime ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">Insiste </span>sur l’importance de l’interdiction des stupéfiants pour la lutte contre la production, le commerce et la consommation de drogues illicites, prend note de l’annonce faite par les Taliban concernant l’interdiction de la culture du pavot et en demande la pleine application, et souligne l’importance que revêt, face au problème de la drogue en Afghanistan, l’adoption d’une démarche globale et équilibrée qui, pour être efficace, doit s’intégrer dans le cadre plus vaste de l’action menée en faveur de la sécurité, de la gouvernance, de l’état de droit, des droits humains, de la santé publique et du développement économique et social, en particulier dans les zones rurales, notamment la mise en place de meilleurs programmes visant à créer de nouveaux moyens de subsistance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">Constate avec une vive préoccupation</span> qu’il existe des liens étroits entre le trafic de drogues et le terrorisme en Afghanistan, souligne qu’il importe d’accorder une attention constante aux liens existant en Afghanistan entre les produits de la criminalité organisée, notamment la production et le trafic illicites de drogues et de leurs précurseurs, et le financement respectif des individus et des groupes désignés par le Comité du Conseil de sécurité faisant suite aux résolutions <a href="https://undocs.org/fr/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/fr/S/RES/1989(2011)">1989 (2011)</a> et <a href="https://undocs.org/fr/S/RES/2253(2015)">2253 (2015)</a>, et souligne qu’il importe de renforcer les capacités des institutions afghanes compétentes afin de régler les problèmes que constituent le terrorisme, les stupéfiants, la contrebande, le blanchiment d’argent et la criminalité organisée ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="H23">
+        <subheading>		Assistance humanitaire</subheading>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Note avec une vive préoccupation</span> la situation humanitaire déplorable en Afghanistan, où des millions de personnes souffrent d’une insécurité alimentaire relevant de l’urgence, constate que les femmes et les enfants, y compris les filles, sont touchés de manière disproportionnée par la crise économique et humanitaire, exhorte la communauté internationale à fournir, conformément au droit international, y compris le droit international humanitaire, et dans le respect des principes humanitaires, une aide humanitaire et des ressources financières pour soutenir les activités humanitaires dans l’ensemble du pays, et demande un appui au Plan de réponse humanitaire pour l’Afghanistan 2022 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> de la résolution <a href="https://undocs.org/fr/S/RES/2615(2021)">2615 (2021)</a> du Conseil de sécurité en date du 22 décembre 2021, dans laquelle le Conseil a souligné que l’aide humanitaire et les autres activités visant à répondre aux besoins essentiels des personnes en Afghanistan ne constituaient pas une violation de l’alinéa a) du paragraphe 1 de sa résolution <a href="https://undocs.org/fr/S/RES/2255(2015)">2255 (2015)</a> du 21 décembre 2015, tout en rappelant la nécessité de surveiller et de réduire autant que faire se peut le risque de détournement de l’aide ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à tous les acteurs de s’efforcer de rendre plus accessibles l’ensemble des activités menées par les organismes d’aide humanitaire et de développement et leur personnel, notamment aux Afghans appartenant à tous les groupes ethniques, dans tous les secteurs, de sorte que l’aide soit apportée à toutes les personnes qui en ont besoin, y compris les femmes, les enfants, les personnes déplacées, les minorités et les personnes handicapées, et d’épauler les efforts visant à créer des conditions propices au retour et à la réintégration volontaire, sûre, digne et durable des personnes déplacées à l’intérieur du pays et des populations réfugiées, en particulier celles de pays voisins qui ont connu un grand afflux de réfugiés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">Insiste en particulier</span> sur le fait que l’aide humanitaire ne peut être effectivement acheminée que si tous les acteurs permettent un accès total, sûr et sans entrave à l’ensemble du personnel humanitaire, y compris le personnel féminin, ainsi qu’aux organismes des Nations Unies, aux organisations non gouvernementales internationales et nationales et aux autres acteurs humanitaires, et souligne l’importance d’un engagement soutenu de la communauté internationale en faveur de l’Afghanistan, visant tout particulièrement à appuyer les besoins humanitaires et les besoins humains fondamentaux du peuple afghan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="H23">
+        <subheading>		Développement économique et social</subheading>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">Considère </span>qu’il est nécessaire d’améliorer les conditions de vie du peuple afghan et souligne par conséquent la nécessité de répondre aux besoins fondamentaux des personnes dans tout le pays, en particulier pour ce qui est de l’égalité d’accès à des services de base comme l’éducation et la santé publique, en prenant en considération la résolution <a href="https://undocs.org/fr/S/RES/2615(2021)">2615 (2021)</a> du Conseil de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">
+            <span class="italic">	Considère également</span> qu’il faut contribuer à remédier aux problèmes de taille que connaît l’économie afghane, notamment en s’efforçant de rétablir les systèmes bancaire et financier et de permettre l’accès aux actifs appartenant à la Banque centrale d’Afghanistan au profit du peuple afghan, constate que le système financier afghan continue de se heurter à des problèmes considérables, et demande à tous les acteurs politiques et parties prenantes afghans concernés de créer des conditions favorables à des activités et au relèvement économiques en adhérant à l’état de droit, en respectant pleinement les droits civils, politiques, sociaux, économiques et culturels, en garantissant les droits à l’éducation de tous les Afghans, notamment des femmes et des filles, en établissant une gouvernance responsable et comptable et en élargissant les capacités et le professionnalisme des institutions afghanes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> la poursuite des efforts au moyen d’une collaboration avec tous les acteurs politiques et parties prenantes afghans concernés, pour contribuer à appuyer la fourniture de services essentiels à la population afghane et à créer des conditions économiques et sociales pouvant conduire à l’autonomie et à la stabilité et pour faciliter l’activité commerciale et financière en Afghanistan au profit du peuple afghan, notamment au moyen de mesures visant à rétablir les systèmes bancaire et financier en Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle </span>qu’elle craint les effets néfastes des changements climatiques, des catastrophes naturelles et des problèmes environnementaux en Afghanistan et souligne qu’il importe de renforcer de toute urgence la résilience, en particulier celle des personnes les plus vulnérables, notamment par la revitalisation de systèmes alimentaires durables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="H23">
+        <subheading>		Réfugiés</subheading>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Se dit préoccupée</span> par l’augmentation du nombre de déplacés et de réfugiés d’Afghanistan, rappelle les obligations respectives qu’impose aux États le droit international des réfugiés s’agissant de la protection des réfugiés, à savoir respecter le principe du retour volontaire des réfugiés et le droit de demande d’asile et permettre aux organismes humanitaires d’avoir pleinement accès, sans entrave et en toute sécurité, aux zones où se trouvent des déplacés et des réfugiés pour leur offrir protection et assistance, et engage les États à continuer d’accepter un nombre suffisant de réfugiés afghans aux fins de leur réinstallation, dans un esprit de responsabilité partagée et de solidarité ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Exprime sa gratitude</span> aux gouvernements des pays hébergeant des réfugiés afghans, en particulier ceux de la République islamique du Pakistan et de la République islamique d’Iran, consciente de l’énorme fardeau que cet accueil leur fait assumer en tant que pays voisins, demande à la communauté internationale de continuer de fournir un appui généreux, et prie les organisations internationales compétentes, notamment le Haut-Commissariat des Nations Unies pour les réfugiés et l’Organisation internationale pour les migrations, de poursuivre une collaboration étroite avec tous les acteurs politiques et parties prenantes afghans concernés et les pays accueillant des réfugiés afghans afin de faciliter leur retour volontaire, sûr et digne et leur réintégration durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="italic">Rend hommage</span> aux Émirats arabes unis, au Koweït et au Qatar et à d’autres États voisins et États de la région pour le rôle important qu’ils jouent dans la coordination de l’action régionale et mondiale plus vaste de réinstallation des réfugiés afghans ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>que la coopération internationale est au cœur même du régime de protection des réfugiés, constate que les déplacements massifs de réfugiés font peser un fardeau sur les principaux pays et communautés d’accueil à long terme ainsi que sur les ressources nationales, en particulier dans le cas des pays en développement, et demande une répartition plus équitable des charges et des responsabilités liées à l’accueil des réfugiés et à l’aide qui leur est apportée, pour ce qui est de répondre aux besoins des réfugiés et des pays d’accueil, tout en tenant compte des contributions actuelles et des différences entre États en termes de moyens et de ressources ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>que la paix et la stabilité, le développement économique et social, le respect des droits humains et un gouvernement d’inclusion en Afghanistan contribueraient également au retour volontaire, durable, sûr et digne de tous les réfugiés afghans et des personnes déplacées, pour qu’ils jouent un rôle constructif en Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">
+            <span class="italic">	Est consciente </span>du rôle important joué par les États voisins et les États de la région, dont le Pakistan, dans la coordination d’une action de réinstallation régionale et mondiale plus vaste des réfugiés afghans ainsi que la facilitation de la réinstallation des personnes de diverses nationalités d’Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="H23">
+        <subheading>		Coopération régionale</subheading>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il est essentiel de favoriser une coopération régionale constructive et durable, moyen efficace de promouvoir et d’accompagner la paix, la sécurité, la stabilité et le développement économique et social en Afghanistan et dans la région, et sait à cet égard l’importance de la contribution des partenaires voisins et régionaux et des organisations régionales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Est consciente</span> que l’Afghanistan peut jouer un rôle important pour ce qui est de relier l’Asie centrale et l’Asie du Sud et que son développement économique et son intégration dans les processus économiques interrégionaux sont essentiels à l’instauration d’une paix et d’une stabilité durables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> que l’Afghanistan a de tout temps été une voie de passage majeure en Asie, et rappelle que la stabilité et le développement de l’Afghanistan passent par une coopération économique régionale de cette sorte ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	<span class="italic">Est consciente</span> de l’importance des projets de connectivité régionale avec l’Asie centrale qui peuvent offrir des possibilités de croissance économique et de stabilisation en Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">Remercie </span>les partenaires voisins et régionaux de leur attachement à la paix et à la stabilité en Afghanistan et en Asie centrale et de la manifestation d’un appui sans faille à l’Organisation des Nations Unies et, à cet égard, remercie le Gouvernement kazakhstanais d’avoir hébergé en ces temps décisifs à Almaty un bureau temporaire de la présence des Nations Unies en Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des travaux menés par le Centre régional des Nations Unies pour la diplomatie préventive en Asie centrale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="H23">
+        <subheading>		Mission d’assistance des Nations Unies en Afghanistan</subheading>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Appuie pleinement</span> le travail accompli par la Mission d’assistance des Nations Unies en Afghanistan dans l’exécution du mandat que lui a confié le Conseil de sécurité dans sa résolution <a href="https://undocs.org/fr/S/RES/2626(2022)">2626 (2022)</a>, insiste sur l’importance fondamentale d’une présence constante de la Mission et des autres organismes, fonds et programmes des Nations Unies sur l’ensemble du territoire afghan et se félicite de la nomination de la nouvelle Représentante spéciale du Secrétaire général pour l’Afghanistan ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle </span>que tous les acteurs politiques et parties prenantes afghans concernés et les acteurs internationaux doivent coordonner leur action avec la Mission et les autres organismes, fonds et programmes des Nations Unies sur l’ensemble du territoire afghan dans l’exécution de leurs mandats et garantir la sécurité, la sûreté et la liberté de circulation du personnel du Nations Unies et du personnel associé, sans distinction de genre, dans tout le pays ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de continuer à rendre compte tous les trois mois de l’évolution de la situation en Afghanistan, ainsi que des progrès faits dans l’application de la présente résolution ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> d’inscrire à l’ordre du jour provisoire de sa soixante-dix-neuvième session la question intitulée « La situation en Afghanistan ».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33e">33e séance plénière</inline>
+        <eol />
+        <docDate date="2022-11-10" refersTo="#adoptionDate">10 novembre 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
