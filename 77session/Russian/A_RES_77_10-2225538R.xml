@@ -1,0 +1,676 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/"></FRBRuri>
+          <FRBRdate date="2022-11-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/rus@/"></FRBRuri>
+          <FRBRdate date="2022-11-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-11-10/77-10/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-11-20" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Assistance Mission in Afghanistan" showAs="UN Assistance Mission in Afghanistan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Taliban (Afghanistan)" showAs="Taliban (Afghanistan)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RECONCILIATION" showAs="RECONCILIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOVERNANCE" showAs="GOVERNANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULE OF LAW" showAs="RULE OF LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG CONTROL" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC DEVELOPMENT" showAs="ECONOMIC DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHANISTAN" showAs="AFGHANISTAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHANISTAN SITUATION" showAs="AFGHANISTAN SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHAN REFUGEES" showAs="AFGHAN REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL COOPERATION" showAs="REGIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="34" showAs="The situation in Afghanistan." shortForm="AFGHANISTAN SITUATION" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-04" outcome="draftResolution" as="A/77/L.11" by="Afghanistan, Albania, Austria, Belgium, Canada, Cyprus, Czechia, Denmark, Estonia, France, Germany, Greece, Iceland, Ireland, Italy, Kazakhstan, Luxembourg, Malta, Netherlands, Norway, Qatar, Slovenia, Spain, Sweden, United Arab Emirates, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Australia, Bosnia and Herzegovina, Bulgaria, Croatia, Dominican Republic, Finland, Hungary, Japan, Kuwait, Latvia, Liechtenstein, Lithuania, Monaco, Mongolia, Montenegro, New Zealand, North Macedonia, Palau, Poland, Portugal, Republic of Korea, Romania, San Marino, Saudi Arabia, Slovakia, Switzerland, Tajikistan, Thailand, Türkiye, Ukraine and Vanuatu" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="" />
+        <step date="2022-11-10" outcome="adopted" as="A/77/PV.33" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="116" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AFGHANISTAN</organization>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CAMBODIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">IRAQ</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SERBIA</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TUVALU</organization>
+                <organization refersTo="memberState">TURKIYE</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+            <count value="10" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">BURUNDI</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="без передачи в главные комитеты"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-25538 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-11-14" class="rightSmall" refersTo="#dateOfIssuance">14 November 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Семьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <inline title="34" name="agenda item">Пункт 34 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Положение в Афганистане</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 10 ноября 2022 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[без передачи в главные комитеты (<inline name="originating document">A/77/L.11</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Положение в Афганистане</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на свою резолюцию <a href="https://undocs.org/ru/A/RES/75/90">75/90</a> от 10 декабря 2020 года и все свои предыдущие резолюции по данному вопросу,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на все соответствующие резолюции Совета Безопасности, в частности на резолюцию <a href="https://undocs.org/ru/S/RES/2626(2022)">2626 (2022)</a> от 17 марта 2022 года, и заявления Председателя Совета о положении в Афганистане,</p>
+      </container>
+      <container name="подтверждая свою твердую приверженность" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">подтверждая свою твердую приверженность </span>суверенитету, независимости, территориальной целостности и национальному единству Афганистана и уважая его многокультурное, полиэтническое и историческое наследие,</p>
+      </container>
+      <container name="особо подчеркивая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">особо подчеркивая </span>важность формирования инклюзивного и представительного правительства и подчеркивая далее важность соблюдения прав человека, включая права женщин, детей и лиц, принадлежащих к меньшинствам, и содействия полноценному, равноправному, значимому и безопасному участию женщин во всех аспектах жизни афганского общества,</p>
+      </container>
+      <container name="подтверждая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">подтверждая </span>исключительную важность установления в Афганистане прочного мира, обеспечения устойчивого развития, восстановления и экономической стабильности, а также устранения всех угроз, которые по‑прежнему создают огромные проблемы для стабильности в Афганистане и региональной безопасности,</p>
+      </container>
+      <container name="выражая глубокую озабоченность" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую озабоченность </span>по поводу тяжелого экономического и гуманитарного положения в Афганистане, в том числе вызывающих тревогу проблем с обеспечением продовольственной безопасности, и признавая необходимость оказания помощи в решении серьезных проблем, с которыми сталкивается экономика Афганистана, в том числе посредством усилий, направленных на восстановление банковской и финансовой систем и обеспечение возможности использования активов, принадлежащих Центральному банку Афганистана, на благо афганского народа, а также необходимость активизации усилий по оказанию гуманитарной помощи и осуществлению других видов деятельности, направленных на удовлетворение основных потребностей человека в Афганистане, включая необходимость обеспечения беспрепятственного гуманитарного доступа,</p>
+      </container>
+      <container name="вновь заявляя о своей серьезной озабоченности" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя о своей серьезной озабоченности </span>по поводу положения в плане безопасности в Афганистане и насущной необходимости преодоления стоящих страной и ее гражданским населением проблем, в частности угроз, создаваемых для Афганистана и всего региона террористическими группами, такими как «Аль‑Каида» и «Исламское государство Ирака и Леванта» (ИГИЛ) (ДАИШ), и их филиалами, включая «ИГИЛ — вилайет Хорасан», и предостерегая от попыток подорвать мир и стабильность в Афганистане,</p>
+      </container>
+      <container name="подчеркивая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> важную роль регионального сотрудничества в деле содействия обеспечению долгосрочной стабильности, мира, безопасности, благополучия, устойчивого развития и прав человека в Афганистане и с удовлетворением отмечая усилия, предпринимаемые в этом направлении региональными организациями, международными партнерами и странами региона и соседними странами,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению </span>первый ежегодный доклад по вопросам прав человека, подготовленный Миссией Организации Объединенных Наций по содействию Афганистану и опубликованный в июле 2022 года, и доклад Специального докладчика по вопросу о положении в области прав человека в Афганистане, опубликованный в сентябре 2022 года<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/51/6">A/HRC/51/6</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="напоминая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о принятом Организацией исламского сотрудничества Плане действий по расширению прав и возможностей женщин, в котором признается важность включения женщин в процессы принятия решений, полноценного и равного доступа мальчиков и девочек к образованию на всех уровнях, доступа женщин и девочек к качественному медицинскому обслуживанию и соответствующим услугам, равных экономических возможностей для мужчин и женщин, равного доступа к гуманитарной помощи и борьбы со всеми формами насилия в отношении женщин и девочек,</p>
+      </container>
+      <container name="подчеркивая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>центральную и беспристрастную роль Организации Объединенных Наций в деле содействия обеспечению мира и стабильности в Афганистане, выражая признательность и решительную поддержку Генеральному секретарю и его Специальному представителю по Афганистану за все усилия, прилагаемые ими в этой связи, и в частности выражая признательность Миссии Организации Объединенных Наций по содействию Афганистану за ее работу и полностью поддерживая ее,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая </span>доклады Генерального секретаря,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">выражает глубокую озабоченность </span>по поводу развития событий и нестабильности в Афганистане после прихода к власти движения «Талибан» и тяжелых экономических, гуманитарных и социальных условий, продолжающегося насилия и присутствия террористических групп, отсутствия политического участия и представительного принятия решений, а также нарушения прав человека, включая права женщин, девочек и лиц, принадлежащих к меньшинствам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что устойчивого и прочного мира можно достичь только благодаря долгосрочной социальной, экономической и политической стабильности, что требует полного соблюдения гражданских, политических, социальных, экономических и культурных прав, а также приверженности инклюзивному и представительному государственному управлению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">заявляет о своей неизменной поддержке</span> народа Афганистана как ответственного члена международного сообщества в целях восстановления стабильного, безопасного и экономически самостоятельного государства, свободного от терроризма, наркотиков, транснациональной организованной преступности, включая торговлю людьми и коррупцию, и укрепления основ конституционной демократии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>усилия международного сообщества, в том числе соседних стран, учреждений-доноров и других международных организаций, по оказанию Афганистану неотложной гуманитарной помощи и подчеркивает, что для достижения в Афганистане и в регионе долгосрочного мира, безопасности, благополучия и устойчивого развития необходимо более тесное и эффективное сотрудничество, а также бόльшая согласованность и взаимодополняемость подходов, применяемых международным сообществом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">вновь выражает надежду </span>на то, что движение «Талибан» выполнит свои обязательства в отношении безопасного, гарантированного и упорядоченного выезда из Афганистана всех афганцев, желающих покинуть страну, и всех иностранных граждан и что никто не будет препятствовать их выезду из страны, а также будет содействовать добровольному, безопасному, достойному и окончательному возвращению всех беженцев, и вновь выражает также надежду на то, что движение «Талибан» будет действовать сообразно сделанному им объявлению о всеобщей амнистии, чтобы способствовать возвращению бывших афганских должностных лиц и поощрять инклюзивность в государственном управлении в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>Афганистан уважать, полностью соблюдать и выполнять все двусторонние и многосторонние договоры, пакты и конвенции, участником которых он является;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>движение «Талибан» выполнять и соблюдать свои заверения об охране и безопасности дипломатических работников и помещений, гуманитарного персонала и международных организаций в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что отношения всех соответствующих афганских политических субъектов и заинтересованных сторон с международным сообществом будут определяться их обязательствами, действиями и достижениями с учетом ожиданий афганского народа, широко разделяемых международным сообществом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="H23">
+        <subheading>		Права человека, государственное управление и верховенство права</subheading>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">выражает глубокую озабоченность </span>по поводу нарушения прав человека, особенно прав женщин и девочек, в том числе сексуального насилия, и лиц, принадлежащих к меньшинствам, и по поводу расширения практики подавления основных свобод, напоминает об обязательствах Афганистана в соответствии с международным правом, в частности правом прав человека, беженским правом и гуманитарным правом, и подчеркивает необходимость обеспечения уважения прав человека и основных свобод, в частности полного осуществления женщинами и девочками, детьми, лицами с инвалидностью и лицами, принадлежащими к меньшинствам, их прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет о своей непоколебимой приверженности</span> международному гуманитарному праву и соблюдению прав человека всех афганцев, подчеркивая важность значимого участия женщин во всех сферах жизни и соблюдения прав человека, включая права женщин, детей и лиц, принадлежащих к меньшинствам, выражает, в частности, серьезную озабоченность по поводу положения женщин и девочек, введения ограничений на их полноценное, равноправное, значимое и безопасное участие в общественной жизни, включая ограничение свободы передвижения, и отсутствия равного доступа к образованию, особенно решением движения «Талибан» не разрешать афганским девочкам продолжать учебу в средних школах, доступа к экономическим возможностям и возможностям трудоустройства, правосудию и другим услугам и призывает движение «Талибан» отказаться от политики и практики, ограничивающих осуществление афганскими женщинами и девочками прав человека и основных свобод;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>необходимость обеспечить уважение прав человека и основных свобод детей в Афганистане и прекратить и предотвращать все злоупотребления в отношении детей, призывает к осуществлению в полном объеме Конвенции о правах ребенка и факультативных протоколов к ней<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vols. 1577, 2171, 2173 and 2983, No. 27531.</p></authorialNote> и решительно осуждает все формы насилия в отношении детей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>важность диалога между всеми соответствующими афганскими политическими субъектами и заинтересованными сторонами с упором на установление инклюзивного, представительного, основанного на широком участии и чутком реагировании государственного управления на национальном и субнациональном уровнях без какой-либо дискриминации по признаку пола, религии или этнической принадлежности при полноценном, равноправном, значимом и безопасном участии женщин и значимом участии представителей меньшинств, молодежи и лиц с инвалидностью;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">особо подчеркивает </span>необходимость расследования заявлений о предполагаемых нынешних и прошлых случаях ущемления и нарушения прав человека в Афганистане и подчеркивает важность содействия обеспечению для жертв и пострадавших лиц эффективных и действенных средств правовой защиты и привлечения к суду виновных лиц в соответствии с нормами национального и международного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">осуждает</span>,<span class="italic"> в частности</span>, все нападения на журналистов и работников средств массовой информации, репрессии и насилие в отношении них, а также особые ограничения, с которыми сталкиваются женщины — работницы средств массовой информации, настоятельно призывает привлечь лиц, виновных в преследовании журналистов и нападениях на них, к ответственности в соответствии с нормами национального и международного права, и настоятельно призывает всех соответствующих афганских политических субъектов и заинтересованные стороны обеспечивать и уважать свободу мнений и их выражения, свободу средств массовой информации и доступ к ним;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">выражает озабоченность </span>по поводу сообщений о внесудебных наказаниях, таких как репрессии и суммарные казни, исчезновения и задержания, в том числе в отношении бывших военнослужащих Афганских национальных сил обороны и безопасности и других должностных лиц;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span>, что неустанные и эффективные усилия по борьбе с коррупцией в Афганистане по‑прежнему имеют решающее значение для будущего страны, и настоятельно призывает всех соответствующих афганских политических субъектов и заинтересованные стороны поощрять верховенство закона, бороться с безнаказанностью за коррупцию и обеспечить создание более эффективной, подотчетной и прозрачной административно-управленческой системы на национальном, провинциальном и местном уровнях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="H23">
+        <subheading>		Безопасность, борьба с терроризмом и оборотом наркотиков</subheading>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">вновь выражает серьезную озабоченность </span>в связи с положением в плане безопасности и продолжающимся насилием в Афганистане, присутствием террористических групп, таких как «Аль‑Каида» и «Исламское государство Ирака и Леванта» (ИГИЛ) (ДАИШ), и их филиалов, включая «ИГИЛ — вилайет Хорасан», а также присутствием иностранных боевиков-террористов и выражает серьезную озабоченность в связи с совершением организацией «ИГИЛ — вилайет Хорасан» подлых и гнусных нападений на гражданское население и гражданскую инфраструктуру, объектами для которых целенаправленно выбирались учебные заведения, дипломатические помещения и работники и принадлежащие меньшинствам религиозные объекты, а также в связи с заслуживающими осуждения попытками внести разлад в отношения между общинами, что создает серьезную угрозу для безопасности Афганистана, его ближайших соседей и стран региона;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">вновь подтверждает </span>важность противодействия терроризму в Афганистане, в том числе физическим лицам и группам, включенным в санкционный перечень Комитетом Совета Безопасности в соответствии с резолюциями <a href="https://undocs.org/ru/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/ru/S/RES/1989(2011)">1989 (2011)</a> и <a href="https://undocs.org/ru/S/RES/2253(2015)">2253 (2015)</a>, и предотвращения насильственного экстремизма, создающего питательную среду для терроризма, требует, чтобы территория Афганистана не использовалась в качестве плацдарма или убежища никакими террористическими группами, организациями или физическими лицами для угроз в адрес любых других стран или нападений на них, для планирования или финансирования террористических актов или для укрытия и подготовки террористов и чтобы никакие афганские группы или физические лица не оказывали поддержки террористам, действующим на территории любой страны, и призывает движение «Талибан» принять конкретные меры против всех террористических организаций, в частности «Аль‑Каиды», «Исламского государства Ирака и Леванта» (ИГИЛ) (ДАИШ) и их филиалов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что терроризм имеет разрушительные последствия для прав человека и основных свобод жертв и их семей, выражает сожаление по поводу страданий народа Афганистана, подтверждает свою искреннюю солидарность с ним и особо отмечает необходимость содействовать международной солидарности в поддержку жертв терроризма и обеспечивать достойное и уважительное обращение с жертвами терроризма и полное уважение их права на доступ к механизмам правосудия и возмещения ущерба в порядке, который предусмотрен применимым национальным законодательством и соответствует принципам международного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>необходимость того, чтобы соседние страны, страны региона и международное сообщество продолжали работать в тесном контакте друг с другом и улучшали координацию в борьбе со всеми актами терроризма и сопутствующими угрозами, включая угрозу, исходящую от иностранных боевиков-террористов и финансирования терроризма в Афганистане и в регионе, и заявляет о своей поддержке дальнейших усилий в этом направлении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">продолжает испытывать глубокую озабоченность </span>по поводу непрекращающегося вреда, причиняемого противопехотными минами, взрывоопасными пережитками войны, самодельными взрывными устройствами и оружием гражданскому населению, в том числе в непропорционально большей степени детям, призывает всех соответствующих афганских политических субъектов и заинтересованные стороны продолжать усилия по искоренению угрозы, создаваемой противопехотными минами и самодельными взрывными устройствами, и призывает принять меры для решения проблемы незаконной купли-продажи и дестабилизирующего накопления стрелкового оружия и легких вооружений в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">заявляет о своей сохраняющейся глубокой озабоченности </span>по поводу не уменьшающейся серьезной угрозы и ущерба, который незаконное выращивание опийного мака и производство метамфетаминов, а также потребление и незаконный оборот этих наркотиков продолжают причинять безопасности, развитию и государственному управлению в Афганистане, а также региону и миру в целом, и, признавая, что доходы от такой деятельности могут существенно пополнять финансовые ресурсы действующих в регионе террористических групп, призывает государства укреплять международное и региональное сотрудничество для борьбы с этой угрозой и отмечает важную роль соседних с Афганистаном стран в борьбе с международным незаконным оборотом наркотиков и в противодействии ему, а также усилия Управления Организации Объединенных Наций по наркотикам и преступности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>важность запрета на выращивание, производство, оборот и потребление незаконных наркотических средств, принимает к сведению объявление движением «Талибан» запрета на выращивание опийного мака и призывает к его полному соблюдению и особо подчеркивает важность применения всеобъемлющего и сбалансированного подхода к решению проблемы наркотиков в Афганистане, для обеспечения эффективности которого необходимо интегрировать его в более широкие усилия, предпринимаемые в сфере обеспечения безопасности, государственного управления, верховенства закона, прав человека, общественного здравоохранения и социально-экономического развития, особенно в сельских районах, включая разработку более эффективных программ по созданию альтернативных источников дохода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">с глубокой озабоченностью отмечает </span>тесную связь между незаконным оборотом наркотиков и терроризмом в Афганистане, особо отмечает важность неослабевающего внимания к существующим в Афганистане связям между доходами от организованной преступной деятельности, и в частности от незаконного производства и оборота наркотиков и их химических прекурсоров, и финансированием, соответственно, физических лиц и групп, включенных в санкционный перечень Комитетом Совета Безопасности в соответствии с резолюциями <a href="https://undocs.org/ru/S/RES/1267(1999)">1267</a><a href="https://undocs.org/ru/S/RES/1267(1999)"> </a><a href="https://undocs.org/ru/S/RES/1267(1999)">(1999)</a>, <a href="https://undocs.org/ru/S/RES/1989(2011)">1989 (2011)</a> и <a href="https://undocs.org/ru/S/RES/2253(2015)">2253 (2015)</a>, и подчеркивает потребность в наращивании потенциала соответствующих афганских учреждений, необходимого для устранения проблем, связанных с терроризмом, наркотиками, контрабандой, отмыванием денег и организованной преступностью;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="H23">
+        <subheading>		Гуманитарная помощь</subheading>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">с глубокой озабоченностью отмечает</span> крайне тяжелое гуманитарное положение в Афганистане, где миллионы людей оказались на грани голода, признает, что женщины и дети, включая девочек, в непропорционально большей степени страдают от гуманитарного и экономического кризиса, настоятельно призывает международное сообщество предоставлять в соответствии с международным правом, включая международное гуманитарное право, и согласно гуманитарным принципам гуманитарную помощь и финансовые ресурсы для поддержки гуманитарной деятельности по всей территории Афганистана и призывает поддержать план оказания гуманитарной помощи Афганистану на 2022 год;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению </span>резолюцию <a href="https://undocs.org/ru/S/RES/2615(2021)">2615 (2021)</a> Совета Безопасности от 22 декабря 2021 года, в которой подчеркивается, что гуманитарная помощь и иная деятельность по поддержке удовлетворения основных потребностей человека в Афганистане не являются нарушением пункта 1 a) резолюции <a href="https://undocs.org/ru/S/RES/2255(2015)">2255</a><a href="https://undocs.org/ru/S/RES/2255(2015)"> </a><a href="https://undocs.org/ru/S/RES/2255(2015)">(2015)</a> Совета от 21 декабря 2015 года, напоминая при этом о необходимости минимизировать и отслеживать риск нецелевого использования помощи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>всех субъектов работать над улучшением доступности всего спектра гуманитарной деятельности, осуществляемой гуманитарными учреждениями и организациями по вопросам развития и их сотрудниками, включая всех афганцев независимо от этнической принадлежности, во всех районах страны в поддержку всех нуждающихся, включая женщин, детей, перемещенных лиц, меньшинства и лиц с инвалидностью, а также поддерживать усилия по созданию условий, способствующих добровольному, безопасному, достойному и окончательному возвращению и реинтеграции внутренне перемещенных лиц и беженцев, особенно из соседних стран, которые столкнулись с большим притоком беженцев;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>,<span class="italic"> в частности</span>, что для эффективного оказания гуманитарной помощи необходимо, чтобы все стороны обеспечивали полный, безопасный и беспрепятственный гуманитарный доступ для всего гуманитарного персонала, включая женщин, для учреждений Организации Объединенных Наций, международных и национальных неправительственных организаций и других участников гуманитарной деятельности, и заявляет о важности непрерывного взаимодействия международного сообщества с Афганистаном, особенно по вопросам удовлетворения гуманитарных и основных потребностей афганского народа;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="H23">
+        <subheading>		Социальное и экономическое развитие</subheading>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>необходимость улучшения условий жизни афганского народа и в этой связи подчеркивает необходимость удовлетворения основных потребностей человека на всей территории Афганистана, в частности предоставления равного доступа к основным услугам, таким как образование и здравоохранение, с учетом положений резолюции <a href="https://undocs.org/ru/S/RES/2615(2021)">2615 (2021)</a> Совета Безопасности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve">	<span class="italic">признает также </span>необходимость оказания помощи в решении существенных проблем, стоящих перед экономикой Афганистана, в том числе посредством усилий, направленных на восстановление банковской и финансовой систем, а также обеспечения возможности использования активов, принадлежащих Центральному банку Афганистана, на благо афганского народа, отмечает, что финансовая система Афганистана продолжает испытывать серьезные трудности, и призывает всех соответствующих афганских политических субъектов и заинтересованные стороны создать благоприятные условия для экономической деятельности и восстановления экономики путем обеспечения верховенства права, соблюдения в полном объеме гражданских, политических, социальных, экономических и культурных прав, обеспечения образовательных прав всех афганцев, включая женщин и девочек, обеспечения ответственного и подотчетного государственного управления и наращивания потенциала и повышения профессионального уровня афганских учреждений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>продолжать, работая со всеми соответствующими афганскими политическими субъектами и заинтересованными сторонами, усилия по содействию оказанию населению Афганистана базовых услуг и созданию экономических и социальных условий, которые позволят достичь самообеспеченности и стабильности, и стимулированию коммерческой и финансовой деятельности в Афганистане на благо афганского народа, в том числе посредством усилий по восстановлению банковской и финансовой систем в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">вновь выражает озабоченность</span> по поводу негативного воздействия изменения климата, природных бедствий и экологических проблем в Афганистане и подчеркивает настоятельную необходимость повышения устойчивости к потрясениям, особенно наиболее уязвимых групп населения, в том числе путем восстановления устойчивых продовольственных систем;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="H23">
+        <subheading>		Беженцы</subheading>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">выражает озабоченность </span>по поводу увеличения числа внутренне перемещенных лиц в Афганистане и беженцев из Афганистана, напоминает о соответствующих обязательствах государств по международному беженскому праву, касающихся защиты беженцев, уважения принципа добровольного возвращения беженцев и права на убежище и обеспечения полного, безопасного и беспрепятственного доступа для учреждений, занимающихся оказанием чрезвычайной гуманитарной помощи, в целях обеспечения защиты внутренне перемещенных лиц и беженцев и оказания им помощи, и призывает государства продолжать принимать надлежащее число афганских беженцев для расселения исходя из общей ответственности и проявления солидарности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">выражает признательность </span>правительствам тех стран, которые принимают афганских беженцев, и в частности правительствам Исламской Республики Пакистан и Исламской Республики Иран, отмечая, что они, будучи соседними государствами, до сих пор несут это тяжелое бремя, призывает международное сообщество продолжать оказывать щедрую поддержку, а также просит соответствующие международные организации, в частности Управление Верховного комиссара Организации Объединенных Наций по делам беженцев и Международную организацию по миграции, продолжать тесно сотрудничать со всеми соответствующими афганскими политическими субъектами и заинтересованными сторонами и странами, принимающими афганских беженцев, в целях содействия их добровольной, безопасной, достойной и окончательной реинтеграции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>важную роль Катара, Кувейта, Объединенных Арабских Эмиратов и других соседних государств и государств региона в координации более широких региональных и глобальных усилий по переселению афганских беженцев;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что центральное место в режиме защиты беженцев отводится международному сотрудничеству, признает то бремя, которым массовые перемещения беженцев оборачиваются для стран и населения районов, давно принимающих у себя большое количество беженцев, а также для их национальных ресурсов, особенно в случае развивающихся стран, призывает к более справедливому совместному несению бремени и ответственности, связанных с приемом и поддержкой беженцев во всем мире, при котором учитываются как нужды беженцев и принимающих государств, так и нынешний вклад различных государств и неодинаковость их возможностей и ресурсов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что мир и стабильность, социально-экономическое развитие, соблюдение прав человека и инклюзивное правительство в Афганистане будут также способствовать добровольному, безопасному, достойному и окончательному возвращению всех афганских беженцев и внутренне перемещенных лиц, которые будут играть конструктивную роль в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>важную роль соседних государств и государств региона, включая Пакистан, в координации более широких региональных и глобальных усилий по переселению афганских беженцев, а также в содействии переезду граждан различных государств из Афганистана;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="H23">
+        <subheading>		Региональное сотрудничество</subheading>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>исключительно важное значение развития конструктивного и устойчивого регионального сотрудничества в качестве эффективного средства содействия миру, безопасности, стабильности и социально-экономическому развитию в Афганистане и регионе и дополнения соответствующих усилий и признает в этой связи важность вклада соседних и региональных государств-партнеров и региональных организаций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">учитывает </span>важность потенциальной роли Афганистана в установлении связей между Центральной и Южной Азией, а также его экономического развития и интеграции в межрегиональные экономические процессы для обеспечения прочного мира и стабильности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>историческую роль Афганистана как сухопутного моста в Азии и напоминает, что региональное экономическое сотрудничество играет важную роль в обеспечении стабильности и развития в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>важность региональных проектов по налаживанию связей с Центральной Азией, которые могут обеспечить путь к экономическому росту и стабилизации в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">выражает признательность </span>соседним и региональным государствам-партнерам за их приверженность миру и стабильности в Афганистане и Центральной Азии, за демонстрацию непоколебимой поддержки Организации Объединенных Наций и в этой связи выражает признательность правительству Республики Казахстан за размещение в Алматы в критические периоды дистанционного отделения представительства Организации Объединенных Наций в Афганистане;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_153__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>работу Регионального центра Организации Объединенных Наций по превентивной дипломатии для Центральной Азии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="H23">
+        <subheading>		Миссия Организации Объединенных Наций по содействию Афганистану</subheading>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="italic">полностью поддерживает </span>работу Миссии Организации Объединенных Наций по содействию Афганистану, мандат которой определен Советом Безопасности в его резолюции <a href="https://undocs.org/ru/S/RES/2626(2022)">2626 (2022)</a>, подчеркивает исключительную важность дальнейшего присутствия Миссии и других учреждений, фондов и программ Организации Объединенных Наций на всей территории Афганистана и выражает признательность за назначение нового Специального представителя Генерального секретаря по Афганистану;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет </span>о необходимости того, чтобы все соответствующие афганские политические субъекты и заинтересованные стороны, а также международные субъекты координировали с Миссией и другими работающими в Афганистане учреждениями, фондами и программами Организации Объединенных Наций выполнение их мандатов и обеспечивали на всей территории страны охрану, безопасность и свободу передвижения сотрудников Организации Объединенных Наций и связанных с ней сотрудников независимо от их пола;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря продолжать представлять каждые три месяца доклады о развитии событий в Афганистане, а также о ходе осуществления настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_161__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> включить в предварительную повестку дня своей семьдесят девятой сессии пункт, озаглавленный «Положение в Афганистане».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33-е">33‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2022-11-10" refersTo="#adoptionDate">10 ноября 2022 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
