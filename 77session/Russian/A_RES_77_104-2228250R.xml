@@ -1,0 +1,999 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/"></FRBRuri>
+          <FRBRdate date="2022-12-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@/"></FRBRuri>
+          <FRBRdate date="2022-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-01" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Principles on the Protection of the Environment in Relation to Armed Conflicts (Draft)" showAs="Principles on the Protection of the Environment in Relation to Armed Conflicts (Draft)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMED CONFLICTS" showAs="ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL LAW" showAs="ENVIRONMENTAL LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL LAW" showAs="INTERNATIONAL LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="77" showAs="Report of the International Law Commission on the work of its 73rd session." shortForm="INTERNATIONAL LAW" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-11" outcome="draftResolution" as="A/C.6/77/L.22" by="the representative of Mexico, on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/415" by="" refersTo="12" />
+        <step date="2022-12-07" outcome="adopted" as="A/77/PV.47" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Шестой комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-28250 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/104</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 December 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Семьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <inline title="77" name="agenda item">Пункт 77 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Доклад Комиссии международного права о работе ее семьдесят третьей сессии</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 7 декабря 2022 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[по докладу Шестого комитета (<inline name="originating document">A/77/415, пункт 12</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/104.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Защита окружающей среды в связи с вооруженными конфликтами</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="рассмотрев" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">рассмотрев </span>главу V доклада Комиссии международного права о работе ее семьдесят третьей сессии<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят седьмая сессия, Дополнение № 10</span> (<a href="https://undocs.org/ru/A/77/10">A/77/10</a>).</p></authorialNote>, в которой содержатся проекты принципов, касающихся защиты окружающей среды в связи с вооруженными конфликтами,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> рекомендацию Комиссии международного права, содержащуюся в пункте 55 ее доклада,</p>
+      </container>
+      <container name="подчеркивая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> непреходящее значение кодификации и прогрессивного развития международного права, о которых говорится в пункте 1 а) статьи 13 Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на рекомендацию Программы Организации Объединенных Наций по окружающей среде о том, чтобы Комиссия международного права изучила существующее международное право в части защиты окружающей среды во время вооруженных конфликтов и рекомендовала, как его можно уточнить, кодифицировать и расширить<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	United Nations Environment Programme, <span class="italic">Protecting the Environment During Armed Conflict: An Inventory and Analysis of International Law</span> (Nairobi, 2009), recommendation 3.</p></authorialNote>,</p>
+      </container>
+      <container name="отмечая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что тема защиты окружающей среды в связи с вооруженными конфликтами имеет большое значение в международных отношениях,</p>
+      </container>
+      <container name="напоминая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о том, что в той мере, в какой они, в соответствующих случаях, не отражают обычные или договорные обязательства государств, проекты принципов содержат рекомендации относительно прогрессивного развития международного права, среди прочего, в виде примеров эффективных добровольных мер по усилению защиты окружающей среды в связи с вооруженными конфликтами,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> завершение работы Комиссии международного права над темой защиты окружающей среды в связи с вооруженными конфликтами и принятие ею проектов принципов, касающихся защиты окружающей среды в связи с вооруженными конфликтами, и комментариев к ним<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят седьмая сессия, Дополнение № 10 </span>(<a href="https://undocs.org/ru/A/77/10">A/77/10</a>), пп. 58–59.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">выражает </span>признательность Комиссии международного права за то, что она продолжает вносить вклад в кодификацию и прогрессивное развитие международного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> все мнения и комментарии, высказанные в ходе прений в Шестом комитете по этой теме, в том числе те из них, которые были высказаны на семьдесят седьмой сессии Генеральной Ассамблеи<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/C.6/77/SR.21">A/C.6/77/SR.21</a>, <a href="https://undocs.org/ru/A/C.6/77/SR.22">A/C.6/77/SR.22</a>, <a href="https://undocs.org/ru/A/C.6/77/SR.23">A/C.6/77/SR.23</a>, <a href="https://undocs.org/ru/A/C.6/77/SR.24">A/C.6/77/SR.24</a>, <a href="https://undocs.org/ru/A/C.6/77/SR.25">A/C.6/77/SR.25</a> и <a href="https://undocs.org/ru/A/C.6/77/SR.31">A/C.6/77/SR.31</a>. Полный текст заявлений, сделанных в Шестом комитете, доступен (на языке оригинала) на веб-сайте Шестого комитета по адресу <a href="http://www.un.org/en/ga/sixth/">www.un.org/en/ga/sixth/</a>.</p></authorialNote>, а также комментарии и замечания, представленные в письменном виде правительствами в отношении проектов принципов, касающихся защиты окружающей среды в связи с вооруженными конфликтами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению также</span> принципы, касающиеся защиты окружающей среды в связи с вооруженными конфликтами, текст которых содержится в приложении к настоящей резолюции, с комментариями к ним, обращает на них внимание государств, международных организаций и всех тех, кому, возможно, придется заниматься этим вопросом, и призывает обеспечить их максимально широкое распространение.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="47-е">47‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2022-12-07" refersTo="#adoptionDate">7 декабря 2022 года</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/"></FRBRuri>
+                <FRBRdate date="2022-12-07" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@/"></FRBRuri>
+                <FRBRdate date="2022-12-19" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="rus"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/rus@.xml"></FRBRuri>
+                <FRBRdate date="2023-01-01" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_16" class="H23">
+              <content eId="para_16__content">
+                <p xml:space="preserve">
+                  <subheading>Приложение</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="H23">
+              <content eId="para_17__content">
+                <p xml:space="preserve">
+                  <subheading>Принципы, касающиеся защиты окружающей среды в связи с вооруженными конфликтами</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="H23">
+              <content eId="para_18__content">
+                <p xml:space="preserve">
+                  <subheading>Преамбула</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="SingleTxt">
+              <content eId="para_19__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Напоминая</span> о насущной необходимости и общих целях укрепления и дальнейшего прогресса в деле сохранения, восстановления и устойчивого использования окружающей среды для нынешнего и будущих поколений,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <content eId="para_20__content">
+                <p xml:space="preserve">
+                  <span class="italic">	напоминая также</span>, что принципом 24 Рио-де-Жанейрской декларации по окружающей среде и развитию предусматривается, в частности, что государства должны уважать международное право, обеспечивающее защиту окружающей среды во время вооруженных конфликтов, и должны сотрудничать в деле его дальнейшего развития,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="SingleTxt">
+              <content eId="para_21__content">
+                <p xml:space="preserve">	<span class="italic">признавая</span>, что экологические последствия вооруженных конфликтов могут быть серьезными и способны усугубить глобальные экологические вызовы, такие как изменение климата и утрата биоразнообразия,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="SingleTxt">
+              <content eId="para_22__content">
+                <p xml:space="preserve">	<span class="italic">осознавая </span>важность окружающей среды для обеспечения средств к существованию, продовольственной и водной безопасности, сохранения традиций и культур, а также осуществления прав человека,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23" class="SingleTxt">
+              <content eId="para_23__content">
+                <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что экологические факторы должны приниматься во внимание в контексте осуществления принципов и норм права, применимого в вооруженном конфликте,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="SingleTxt">
+              <content eId="para_24__content">
+                <p xml:space="preserve">
+                  <span class="italic">	сознавая </span>необходимость усиления защиты окружающей среды в связи как с международными, так и с немеждународными вооруженными конфликтами, включая ситуации оккупации,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <content eId="para_25__content">
+                <p xml:space="preserve">
+                  <span class="italic">	считая, </span>что эффективная защита окружающей среды в связи с вооруженными конфликтами требует от государств, международных организаций и других соответствующих субъектов принятия мер по предотвращению, смягчению и устранению вреда окружающей среде до, во время и после вооруженного конфликта,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="H23">
+              <content eId="para_26__content">
+                <p xml:space="preserve">
+                  <subheading>Часть первая</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="H23">
+              <content eId="para_27__content">
+                <p xml:space="preserve">
+                  <subheading>Введение</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="H23">
+              <content eId="para_28__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 1</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="H23">
+              <content eId="para_29__content">
+                <p xml:space="preserve">
+                  <subheading>Сфера охвата</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <content eId="para_30__content">
+                <p xml:space="preserve">	Настоящие принципы применяются к защите окружающей среды до, во время или после вооруженного конфликта, включая ситуации оккупации.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="H23">
+              <content eId="para_31__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 2</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="H23">
+              <content eId="para_32__content">
+                <p xml:space="preserve">
+                  <subheading>Цель</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <content eId="para_33__content">
+                <p xml:space="preserve">	Настоящие принципы направлены на усиление защиты окружающей среды в связи с вооруженными конфликтами, в том числе посредством мер по предотвращению, смягчению и устранению вреда окружающей среде. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="H23">
+              <content eId="para_34__content">
+                <p xml:space="preserve">
+                  <subheading>Часть вторая</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="H23">
+              <content eId="para_35__content">
+                <p xml:space="preserve">
+                  <subheading>Принципы общего применения</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="H23">
+              <content eId="para_36__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 3</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="H23">
+              <content eId="para_37__content">
+                <p xml:space="preserve">
+                  <subheading>Меры по усилению защиты окружающей среды</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_38__content">
+                <p xml:space="preserve">	Во исполнение своих обязательств по международному праву государства принимают эффективные законодательные, административные, судебные и другие меры для усиления защиты окружающей среды в связи с вооруженными конфликтами.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_39__content">
+                <p xml:space="preserve">	Помимо этого, в надлежащих случаях государствам следует принимать дальнейшие меры для усиления защиты окружающей среды в связи с вооруженными конфликтами.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="H23">
+              <content eId="para_40__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 4</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="H23">
+              <content eId="para_41__content">
+                <p xml:space="preserve">
+                  <subheading>Обозначение охраняемых зон</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	На основании соглашений или иным образом, государствам следует обозначить районы, имеющие важное значение с точки зрения окружающей среды, в качестве охраняемых зон в случае вооруженного конфликта, включая те из них, которые имеют важное культурное значение.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="H23">
+              <content eId="para_43__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 5</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="H23">
+              <content eId="para_44__content">
+                <p xml:space="preserve">
+                  <subheading>Защита окружающей среды коренных народов</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_45__content">
+                <p xml:space="preserve">	Государства, международные организации и другие соответствующие субъекты в случае вооруженного конфликта принимают надлежащие меры для защиты окружающей среды на землях и территориях, которые населяют или традиционно используют коренные народы.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_46__content">
+                <p xml:space="preserve">	В случае если вооруженный конфликт оказывает негативное воздействие на окружающую среду земель и территорий, которые населяют или традиционно используют коренные народы, государства предпринимают надлежащие и эффективные консультации и сотрудничество с соответствующими коренными народами посредством надлежащих процедур, и в частности через их собственные представительные институты, с целью принятия восстановительных мер.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="H23">
+              <content eId="para_47__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 6</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="H23">
+              <content eId="para_48__content">
+                <p xml:space="preserve">
+                  <subheading>Соглашения относительно присутствия военных сил</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	Когда это необходимо, государствам и международным организациям следует включать положения о защите окружающей среды в связи с вооруженным конфликтом в соглашения относительно присутствия военных сил. В таких положениях следует предусматривать меры по предотвращению, смягчению и устранению вреда окружающей среде.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="H23">
+              <content eId="para_50__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 7</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="H23">
+              <content eId="para_51__content">
+                <p xml:space="preserve">
+                  <subheading>Операции в пользу мира</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	Государства и международные организации, участвующие в операциях в пользу мира, учрежденных в связи с вооруженными конфликтами, учитывают воздействие таких операций на окружающую среду и принимают в случае необходимости меры по предотвращению, смягчению и устранению вреда окружающей среде в результате таких операций.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="H23">
+              <content eId="para_53__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 8</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="H23">
+              <content eId="para_54__content">
+                <p xml:space="preserve">
+                  <subheading>Перемещение людей</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <content eId="para_55__content">
+                <p xml:space="preserve">	Государствам, международным организациям и другим соответствующим субъектам следует принимать надлежащие меры по предотвращению, смягчению и устранению вреда окружающей среде в районах, где находятся перемещенные в результате вооруженного конфликта лица или через которые они перемещаются, при оказании помощи и содействия таким лицам и местным сообществам.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="H23">
+              <content eId="para_56__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 9</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="H23">
+              <content eId="para_57__content">
+                <p xml:space="preserve">
+                  <subheading>Ответственность государств</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_58__content">
+                <p xml:space="preserve">	Международно-противоправное деяние государства в связи с вооруженным конфликтом, наносящее ущерб окружающей среде, влечет за собой международную ответственность этого государства, которое обязано предоставить полное возмещение за такой ущерб, включая ущерб окружающей среде как таковой.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve">	Настоящие принципы не затрагивают нормы об ответственности государств или международных организаций за международно-противоправные деяния.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_60__content">
+                <p xml:space="preserve">	Настоящие принципы также не затрагивают:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <content eId="para_61__content">
+                <p xml:space="preserve">	a)	нормы об ответственности негосударственных вооруженных групп;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="SingleTxt">
+              <content eId="para_62__content">
+                <p xml:space="preserve">	b)	нормы об индивидуальной уголовной ответственности.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="H23">
+              <content eId="para_63__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 10</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="H23">
+              <content eId="para_64__content">
+                <p xml:space="preserve">
+                  <subheading>Должная осмотрительность со стороны коммерческих предприятий</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="SingleTxt">
+              <content eId="para_65__content">
+                <p xml:space="preserve">	Государствам следует принимать надлежащие меры, направленные на обеспечение того, чтобы коммерческие предприятия, осуществляющие деятельность на их территории или с их территории, или же территории под их юрисдикцией, проявляли должную осмотрительность в отношении защиты окружающей среды, в том числе с точки зрения здоровья человека, когда они действуют в районе, затронутом вооруженным конфликтом. Такие меры включают в себя меры, направленные на обеспечение применения экологически устойчивого подхода к закупке и иному получению природных ресурсов.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="H23">
+              <content eId="para_66__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 11</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="H23">
+              <content eId="para_67__content">
+                <p xml:space="preserve">
+                  <subheading>Ответственность коммерческих предприятий</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="SingleTxt">
+              <content eId="para_68__content">
+                <p xml:space="preserve">	Государствам следует принимать надлежащие меры, направленные на обеспечение того, чтобы коммерческие предприятия, осуществляющие деятельность на или с их территории, или же территории под их юрисдикцией, могли быть привлечены к ответственности за вред, причиненный ими окружающей среде, в том числе с точки зрения здоровья человека, в районе, затронутом вооруженным конфликтом. В надлежащих случаях в такие меры следует включать меры, направленные на обеспечение того, чтобы коммерческое предприятие могло быть привлечено к ответственности в той мере, в которой такой вред был причинен его дочерним предприятием, действующим под его фактическим контролем. С этой целью в надлежащих случаях государствам следует предусмотреть адекватные и эффективные процедуры и средства правовой защиты, в частности для пострадавших от такого вреда.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="H23">
+              <content eId="para_69__content">
+                <p xml:space="preserve">
+                  <subheading>Часть третья</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70" class="H23">
+              <content eId="para_70__content">
+                <p xml:space="preserve">
+                  <subheading>Принципы, применимые во время вооруженных конфликтов</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="H23">
+              <content eId="para_71__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 12</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="H23">
+              <content eId="para_72__content">
+                <p xml:space="preserve">
+                  <subheading>Оговорка Мартенса в отношении защиты окружающей среды в связи с вооруженными конфликтами</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="SingleTxt">
+              <content eId="para_73__content">
+                <p xml:space="preserve">	В случаях, не предусмотренных международными соглашениями, окружающая среда остается под защитой и действием принципов международного права, проистекающих из установившихся обычаев, из принципов гуманности и из требований общественного сознания.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="H23">
+              <content eId="para_74__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 13</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="H23">
+              <content eId="para_75__content">
+                <p xml:space="preserve">
+                  <subheading>Общая защита окружающей среды во время вооруженного конфликта</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_76__content">
+                <p xml:space="preserve">	Обеспечиваются уважение и защита окружающей среды в соответствии с применимым международным правом, и в частности правом вооруженных конфликтов.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_77__content">
+                <p xml:space="preserve">	В соответствии с применимым международным правом:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="SingleTxt">
+              <content eId="para_78__content">
+                <p xml:space="preserve">	a)	проявляется забота о защите окружающей среды от обширного, долговременного и серьезного ущерба;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="SingleTxt">
+              <content eId="para_79__content">
+                <p xml:space="preserve">	b)	применение методов или средств ведения военных действий, которые имеют своей целью причинить или, как можно ожидать, причинят обширный, долговременный и серьезный ущерб окружающей среде, запрещено.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_80__content">
+                <p xml:space="preserve">	Никакой компонент окружающей среды не может подвергаться нападению, если только он не становится военным объектом.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="H23">
+              <content eId="para_81__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 14</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="H23">
+              <content eId="para_82__content">
+                <p xml:space="preserve">
+                  <subheading>Применение права вооруженных конфликтов к окружающей среде</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="SingleTxt">
+              <content eId="para_83__content">
+                <p xml:space="preserve">	Право вооруженных конфликтов, в том числе принципы и нормы в отношении проведения различия, соразмерности и мер предосторожности, применяется к окружающей среде с целью ее защиты.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="H23">
+              <content eId="para_84__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 15</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="H23">
+              <content eId="para_85__content">
+                <p xml:space="preserve">
+                  <subheading>Запрещение репрессалий</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="SingleTxt">
+              <content eId="para_86__content">
+                <p xml:space="preserve">	Причинение ущерба окружающей среде в качестве репрессалий запрещается.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="H23">
+              <content eId="para_87__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 16</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="H23">
+              <content eId="para_88__content">
+                <p xml:space="preserve">
+                  <subheading>Запрещение разграбления</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="SingleTxt">
+              <content eId="para_89__content">
+                <p xml:space="preserve">	Разграбление природных ресурсов запрещается.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="H23">
+              <content eId="para_90__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 17</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="H23">
+              <content eId="para_91__content">
+                <p xml:space="preserve">
+                  <subheading>Средства воздействия на окружающую среду</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <content eId="para_92__content">
+                <p xml:space="preserve">	В соответствии со своими международными обязательствами государства не прибегают к военному или любому иному враждебному использованию средств воздействия на окружающую среду, которые имеют обширные, долговременные и серьезные последствия, в качестве способов разрушения, нанесения ущерба или причинения вреда любому другому государству.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="H23">
+              <content eId="para_93__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 18</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="H23">
+              <content eId="para_94__content">
+                <p xml:space="preserve">
+                  <subheading>Охраняемые зоны</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <content eId="para_95__content">
+                <p xml:space="preserve">	Район, имеющий важное значение с точки зрения окружающей среды, включая такой, который имеет и важное культурное значение, обозначенный по соглашению в качестве охраняемой зоны, находится под защитой от любого нападения, за исключением тех случаев, когда он содержит военный объект. На такую охраняемую зону распространяются любые дополнительные согласованные меры защиты.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="H23">
+              <content eId="para_96__content">
+                <p xml:space="preserve">
+                  <subheading>Часть четвертая</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="H23">
+              <content eId="para_97__content">
+                <p xml:space="preserve">
+                  <subheading>Принципы, применимые в ситуациях оккупации</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="H23">
+              <content eId="para_98__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 19</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="H23">
+              <content eId="para_99__content">
+                <p xml:space="preserve">
+                  <subheading>Общие обязательства оккупирующей державы по защите окружающей среды</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_100__content">
+                <p xml:space="preserve">	Оккупирующая держава уважает и защищает окружающую среду оккупированной территории в соответствии с применимыми нормами международного права и при управлении такой территорией принимает во внимание экологические соображения.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_101__content">
+                <p xml:space="preserve">	Оккупирующая держава принимает надлежащие меры для предотвращения причинения значительного вреда окружающей среде оккупированной территории, включая вред, который способен нанести ущерб здоровью и благополучию пользующихся защитой лиц на оккупированной территории или иным образом нарушить их права.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_102__content">
+                <p xml:space="preserve">	Оккупирующая держава уважает право и институты оккупированной территории, касающиеся защиты окружающей среды, и может вносить изменения только в пределах, предусмотренных правом вооруженных конфликтов.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="H23">
+              <content eId="para_103__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 20</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="H23">
+              <content eId="para_104__content">
+                <p xml:space="preserve">
+                  <subheading>Устойчивое использование природных ресурсов</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <content eId="para_105__content">
+                <p xml:space="preserve">	В той степени, в которой оккупирующей державе разрешается управлять природными ресурсами на оккупированной территории и использовать их в интересах пользующегося защитой населения оккупированной территории и для других законных целей в соответствии с правом вооруженных конфликтов, она делает это таким образом, чтобы обеспечить их устойчивое использование и свести к минимуму вред окружающей среде.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="H23">
+              <content eId="para_106__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 21</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="H23">
+              <content eId="para_107__content">
+                <p xml:space="preserve">
+                  <subheading>Предотвращение трансграничного вреда</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <content eId="para_108__content">
+                <p xml:space="preserve">	Оккупирующая держава принимает надлежащие меры для обеспечения того, чтобы деятельность на оккупированной территории не причиняла значительного вреда окружающей среде других государств или районов, находящихся за пределами национальной юрисдикции, или же любому району оккупированного государства вне оккупированной территории.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="H23">
+              <content eId="para_109__content">
+                <p xml:space="preserve">
+                  <subheading>Часть пятая</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="H23">
+              <content eId="para_110__content">
+                <p xml:space="preserve">
+                  <subheading>Принципы, применимые после вооруженного конфликта</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="H23">
+              <content eId="para_111__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 22</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="H23">
+              <content eId="para_112__content">
+                <p xml:space="preserve">
+                  <subheading>Мирные процессы</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_113__content">
+                <p xml:space="preserve">	Сторонам вооруженного конфликта следует, как часть мирного процесса, в том числе в надлежащих случаях в мирных соглашениях, решать вопросы, относящиеся к восстановлению и защите окружающей среды, которой был нанесен ущерб в результате конфликта. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_114__content">
+                <p xml:space="preserve">	В надлежащих случаях соответствующим международным организациям следует играть в этой связи посредническую роль.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="H23">
+              <content eId="para_115__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 23</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="H23">
+              <content eId="para_116__content">
+                <p xml:space="preserve">
+                  <subheading>Обмен информацией и предоставление к ней доступа</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_117__content">
+                <p xml:space="preserve">	Для содействия мерам по устранению вреда окружающей среде в результате вооруженного конфликта, государства и соответствующие международные организации обмениваются соответствующей информацией и предоставляют к ней доступ согласно своим обязательствам по применимому международному праву.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_118__content">
+                <p xml:space="preserve">	Ничто в пункте 1 не затрагивает право ссылаться на основания для отказа в обмене информацией или предоставлении доступа к информации, предусмотренные применимым международным правом. Тем не менее государства и международные организации добросовестно сотрудничают в целях предоставления по возможности более полной в сложившихся обстоятельствах информации.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="H23">
+              <content eId="para_119__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 24</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="H23">
+              <content eId="para_120__content">
+                <p xml:space="preserve">
+                  <subheading>Оценки состояния окружающей среды и восстановительные меры после вооруженных конфликтов</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="SingleTxt">
+              <content eId="para_121__content">
+                <p xml:space="preserve">	Соответствующим субъектам, включая государства и международные организации, следует сотрудничать в отношении оценок состояния окружающей среды и восстановительных мер после вооруженных конфликтов.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="H23">
+              <content eId="para_122__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 25</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="H23">
+              <content eId="para_123__content">
+                <p xml:space="preserve">
+                  <subheading>Помощь и содействие</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <content eId="para_124__content">
+                <p xml:space="preserve">	Когда в связи с вооруженным конфликтом источник ущерба окружающей среде не идентифицирован или возмещение недоступно, государствам и соответствующим международным организациям следует принимать надлежащие меры, с тем чтобы не оставлять такой ущерб без возмещения или компенсации, и они могут рассмотреть вопрос о создании специальных компенсационных фондов или оказании помощи или содействия в других формах.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="H23">
+              <content eId="para_125__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 26</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="H23">
+              <content eId="para_126__content">
+                <p xml:space="preserve">
+                  <subheading>Пережитки войны</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve">	Стороны вооруженного конфликта стремятся, на возможно более раннем этапе, устранить или обезвредить находящиеся под их юрисдикцией или контролем токсичные или иные опасные пережитки войны, которые наносят ущерб или порождают риск нанесения ущерба окружающей среде. Такие меры принимаются в соответствии с применимыми нормами международного права.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_128__content">
+                <p xml:space="preserve">	Стороны прилагают также усилия к тому, чтобы достичь договоренности между собой и, в надлежащих случаях, с другими государствами и с международными организациями о технической и материальной помощи, включая проведение в соответствующих обстоятельствах совместных операций для устранения или обезвреживания таких токсичных или иных опасных пережитков войны.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_129__content">
+                <p xml:space="preserve">	Пункты 1 и 2 не затрагивают каких-либо прав или обязательств по международному праву в отношении очистки, устранения, уничтожения или содержания минных полей, заминированных районов, мин, мин-ловушек, взрывоопасных боеприпасов и других устройств.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="H23">
+              <content eId="para_130__content">
+                <p xml:space="preserve">
+                  <subheading>Принцип 27</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="H23">
+              <content eId="para_131__content">
+                <p xml:space="preserve">
+                  <subheading>Пережитки войны на море</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="SingleTxt">
+              <content eId="para_132__content">
+                <p xml:space="preserve">	Государствам и соответствующим международным организациям следует сотрудничать в обеспечении того, чтобы пережитки войны на море не представляли опасности для окружающей среды.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
