@@ -1,0 +1,971 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/"></FRBRuri>
+          <FRBRdate date="2022-12-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@/"></FRBRuri>
+          <FRBRdate date="2022-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-01" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Principles on the Protection of the Environment in Relation to Armed Conflicts (Draft)" showAs="Principles on the Protection of the Environment in Relation to Armed Conflicts (Draft)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMED CONFLICTS" showAs="ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL LAW" showAs="ENVIRONMENTAL LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL LAW" showAs="INTERNATIONAL LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="77" showAs="Report of the International Law Commission on the work of its 73rd session." shortForm="INTERNATIONAL LAW" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-11" outcome="draftResolution" as="A/C.6/77/L.22" by="the representative of Mexico, on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/415" by="" refersTo="12" />
+        <step date="2022-12-07" outcome="adopted" as="A/77/PV.47" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="اللجنة السادسة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-28250 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/104</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 December 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">الدورة السابعة والسبعون</session>
+      </p>
+      <p>
+        <inline title="77" name="agenda item">البند 77 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تقرير لجنة القانون الدولي عن أعمال دورتها الثالثة والسبعين</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 7 كانون الأول/ديسمبر 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[بناء على تقرير اللجنة السادسة (<inline name="originating document">A/77/415، الفقرة 12</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/104</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حماية البيئة فيما يتعلق بالنزاعات المسلحة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="وقد نظرت" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">وقد نظرت</span> في الفصل الخامس من تقرير لجنة القانون الدولي عن أعمال دورتها الثالثة والسبعين<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<span class="italic">الوثائق الرسمية للجمعية العامة، الدورة السابعة والسبعون، الملحق رقم 10</span> (<a href="https://undocs.org/ar/A/77/10">A/77/10</a>).</p></authorialNote><sup>)</sup>، الذي يتضمن مشاريع المبادئ المتصلة بحماية البيئة فيما يتعلق بالنزاعات المسلحة،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما</span> بتوصية لجنة القانون الدولي الواردة في الفقرة 55 من تقريرها،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على استمرار أهمية تدوين القانون الدولي وتطويره التدريجي، على النحو المشار إليه في الفقرة 1 (أ) من المادة 13 من ميثاق الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى توصية برنامج الأمم المتحدة للبيئة بأن تدرس لجنة القانون الدولي القانون الدولي القائم لحماية البيئة أثناء النزاعات المسلحة وأن توصي بكيفية توضيحه وتدوينه وتوسيعه<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	United Nations Environment Programme, <span class="italic">Protecting the Environment During Armed Conflict: An Inventory and Analysis of International Law </span>(Nairobi, 2009), recommendation 3.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> أن لموضوع حماية البيئة فيما يتعلق بالنزاعات المسلحة أهميةً كبرى في العلاقات الدولية،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى أن مشاريع المبادئ، بقدر ما لا تعكس التزامات الدول العرفية أو التعاهدية، حسب الاقتضاء، فإنها تقدم توصيات من أجل التطوير التدريجي للقانون الدولي، بسبل منها تقديم أمثلة على التدابير الطوعية الفعالة لتعزيز حماية البيئة فيما يتعلق بالنزاعات المسلحة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <content eId="para_8__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">ترحب</span> باختتام أعمال لجنة القانون الدولي بشأن حماية البيئة فيما يتعلق بالنزاعات المسلحة، واعتمادها مشاريع المبادئ المتصلة بحماية البيئة فيما يتعلق بالنزاعات المسلحة، وشروحها<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	<span class="italic">الوثائق الرسمية للجمعية العامة، الدورة السابعة والسبعون، الملحق رقم 10</span> (<a href="https://undocs.org/ar/A/77/10">A/77/10</a>)، الفقرتان 58 و 59.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="MercuryDocument">
+        <content eId="para_9__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">تعرب عن تقديرها</span> للجنة القانون الدولي لإسهامها المتواصل في تدوين القانون الدولي وتطويره ‏تدريجيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <content eId="para_10__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">تحيط علما</span> بجميع الآراء والتعليقات المعرب عنها في مناقشات اللجنة السادسة بشأن هذا الموضوع، بما فيها تلك التي أُبديت في الدورة السابعة والسبعين للجمعية العامة<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/C.6/77/SR.21">A/C.6/77/SR.21</a> و <a href="https://undocs.org/ar/A/C.6/77/SR.22">A/C.6/77/SR.22</a> و <a href="https://undocs.org/ar/A/C.6/77/SR.23">A/C.6/77/SR.23</a> و <a href="https://undocs.org/ar/A/C.6/77/SR.24">A/C.6/77/SR.24</a> و <a href="https://undocs.org/ar/A/C.6/77/SR.25">A/C.6/77/SR.25</a> و <a href="https://undocs.org/ar/A/C.6/77/SR.31">A/C.6/77/SR.31</a>. ونصوص البيانات التي أُدلي بها في اللجنة السادسة متاحة بصيغتها الكاملة (باللغات الأصلية) على الموقع الشبكي للجنة السادسة، عبر الرابط التالي: <a href="http://www.un.org/en/ga/sixth/">www.un.org/en/ga/sixth/</a>.</p></authorialNote><sup>)</sup>، وكذلك التعليقات والملاحظات المقدمة خطيا من الحكومات بشأن مشاريع المبادئ المتصلة بحماية البيئة فيما يتعلق بالنزاعات المسلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <content eId="para_11__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">تحيط علما أيضا</span> بالمبادئ المتصلة بحماية البيئة فيما يتعلق بالنزاعات المسلحة، الوارد نصها في مرفق هذا القرار، مشفوعة بشروحها، وتسترعي إليها انتباه الدول والمنظمات الدولية وجميع الجهات التي قد تدعى إلى تناول هذا الموضوع، وتشجع نشرها على أوسع نطاق ممكن.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="47">الجلسة العامة 47</inline>
+        <eol />
+        <docDate date="2022-12-07" refersTo="#adoptionDate">7 كانون الأول/ديسمبر 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/"></FRBRuri>
+                <FRBRdate date="2022-12-07" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@/"></FRBRuri>
+                <FRBRdate date="2022-12-19" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="ara"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/ara@.xml"></FRBRuri>
+                <FRBRdate date="2023-01-01" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_13" class="H1">
+              <content eId="para_13__content">
+                <p xml:space="preserve">
+                  <heading>المرفق</heading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="H1">
+              <content eId="para_14__content">
+                <p xml:space="preserve">
+                  <heading>المبادئ المتصلة بحماية البيئة فيما يتعلق بالنزاعات المسلحة</heading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="H23">
+              <content eId="para_15__content">
+                <p xml:space="preserve">
+                  <subheading>الديباجة</subheading>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="MercuryDocument">
+              <content eId="para_16__content">
+                <p xml:space="preserve">	<span class="bold italic">إذ تشير</span> إلى الحاجة الملحة والأهداف المشتركة لتعزيز حفظ البيئة وإصلاحها واستخدامها المستدام والنهوض بذلك لمصلحة أجيال الحاضر والمستقبل،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="MercuryDocument">
+              <content eId="para_17__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا</span> إلى أن المبدأ 24 من إعلان ريو بشأن البيئة والتنمية ينص، فيما ينص، على أن الدول يجب أن تحترم القانون الدولي الذي يوفر الحماية للبيئة وقت النزاع المسلح وأن تتعاون في زيادة تطويره،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="MercuryDocument">
+              <content eId="para_18__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تسلّم</span> بأن العواقب البيئية للنزاعات المسلحة قد تكون وخيمة، ويمكن أن تؤدي إلى تفاقم التحديات البيئية العالمية، مثل تغير المناخ وفقدان التنوع البيولوجي،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="SingleTxt">
+              <content eId="para_19__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تدرك</span> أهمية البيئة لسبل العيش والأمن الغذائي والمائي وصون التقاليد والثقافات والتمتع بحقوق الإنسان،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="MercuryDocument">
+              <content eId="para_20__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على ضرورة مراعاة العوامل البيئية في سياق تنفيذ مبادئ وقواعد القانون الساري في النزاعات المسلحة،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="MercuryDocument">
+              <content eId="para_21__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تعي</span> الحاجة إلى تعزيز حماية البيئة فيما يتعلق بالنزاعات المسلحة الدولية وغير الدولية على السواء، بما في ذلك في حالات الاحتلال،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="MercuryDocument">
+              <content eId="para_22__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تضع في اعتبارها</span> أن حماية البيئة حماية فعالة فيما يتعلق بالنزاعات المسلحة تتطلب من الدول والمنظمات الدولية والجهات الفاعلة المعنية الأخرى أن تتخذ تدابير لمنع إلحاق ضرر بالبيئة والتخفيف من آثاره وتصحيحه قبل اندلاع نزاع مسلح وفي أثنائه وبعده،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23" class="MercuryDocument">
+              <content eId="para_23__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الأول</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="MercuryDocument">
+              <content eId="para_24__content">
+                <p xml:space="preserve">
+                  <span class="bold">		مقدمة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="MercuryDocument">
+              <content eId="para_25__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 1</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="MercuryDocument">
+              <content eId="para_26__content">
+                <p xml:space="preserve">
+                  <span class="bold">		النطاق</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="MercuryDocument">
+              <content eId="para_27__content">
+                <p xml:space="preserve">	تنطبق هذه المبادئ على حماية البيئة قبل اندلاع نزاع مسلح وفي أثنائه وبعده، بما في ذلك في حالات الاحتلال.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="MercuryDocument">
+              <content eId="para_28__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 2</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="MercuryDocument">
+              <content eId="para_29__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الغرض</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="MercuryDocument">
+              <content eId="para_30__content">
+                <p xml:space="preserve">	تهدف هذه المبادئ إلى تعزيز حماية البيئة فيما يتعلق بالنزاعات المسلحة، بطرق منها اتخاذ تدابير لمنع إلحاق ضرر بالبيئة والتخفيف من أثاره وتصحيحه.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="MercuryDocument">
+              <content eId="para_31__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الثاني</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="MercuryDocument">
+              <content eId="para_32__content">
+                <p xml:space="preserve">
+                  <span class="bold">		مبادئ ذات تطبيق عام</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="MercuryDocument">
+              <content eId="para_33__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 3</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="MercuryDocument">
+              <content eId="para_34__content">
+                <p xml:space="preserve">
+                  <span class="bold">		تدابير لتعزيز حماية البيئة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="MercuryDocument">
+              <content eId="para_35__content">
+                <p xml:space="preserve">1 -	تتخذ الدول، عملاً بالتزاماتها بموجب القانون الدولي، تدابير تشريعية وإدارية وقضائية وتدابير أخرى فعالة لتعزيز حماية البيئة فيما يتعلق بالنزاعات المسلحة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="MercuryDocument">
+              <content eId="para_36__content">
+                <p xml:space="preserve">2 -	إضافةً إلى ذلك، ينبغي للدول أن تتخذ مزيداً من التدابير، حسب الاقتضاء، لتعزيز حماية البيئة فيما يتعلق بالنزاعات المسلحة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="MercuryDocument">
+              <content eId="para_37__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 4</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="MercuryDocument">
+              <content eId="para_38__content">
+                <p xml:space="preserve">
+                  <span class="bold">		تحديد المناطق المحمية</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="MercuryDocument">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	ينبغي للدول أن تحدد، بالاتفاق أو غيره، المناطق ذات الأهمية البيئية باعتبارها مناطق محمية في حال اندلاع نزاع مسلح، بما في ذلك الحالات التي تكون فيها تلك المناطق ذات أهمية ثقافية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="MercuryDocument">
+              <content eId="para_40__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 5</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="MercuryDocument">
+              <content eId="para_41__content">
+                <p xml:space="preserve">
+                  <span class="bold">		حماية بيئة الشعوب الأصلية</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="MercuryDocument">
+              <content eId="para_42__content">
+                <p xml:space="preserve">1 -	تتخذ الدول والمنظمات الدولية والجهات الفاعلة المعنية الأخرى تدابير مناسبة، في حال اندلاع نزاع مسلح، لحماية بيئة الأراضي والأقاليم التي تسكنها الشعوب الأصلية أو التي درجت على استخدامها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="MercuryDocument">
+              <content eId="para_43__content">
+                <p xml:space="preserve">2 -	متى أثر نزاع مسلح تأثيراً سلبياً في بيئة الأراضي والأقاليم التي تسكنها الشعوب الأصلية أو التي درجت على استخدامها، وجب على الدول أن تتشاور وتتعاون بصورة مناسبة وفعالة مع الشعوب الأصلية المعنية، من خلال إجراءات مناسبة ولا سيما عبر المؤسسات التي تمثل هذه الشعوب، لغرض اتخاذ تدابير تصحيحية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="MercuryDocument">
+              <content eId="para_44__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 6</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="MercuryDocument">
+              <content eId="para_45__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الاتفاقات المتصلة بوجود قوات عسكرية</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="MercuryDocument">
+              <content eId="para_46__content">
+                <p xml:space="preserve">	ينبغي للدول والمنظمات الدولية، حسب الاقتضاء، أن تدرج أحكاماً بشأن حماية البيئة فيما يتعلق بالنزاعات المسلحة في الاتفاقات المتصلة بوجود قوات عسكرية. وينبغي أن تتناول هذه الأحكام تدابير لمنع إلحاق ضرر بالبيئة والتخفيف من آثاره وتصحيحه.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="MercuryDocument">
+              <content eId="para_47__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 7</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="MercuryDocument">
+              <content eId="para_48__content">
+                <p xml:space="preserve">
+                  <span class="bold">		عمليات السلام</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="MercuryDocument">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	تراعي الدول والمنظمات الدولية المشاركة في عمليات سلام أُنشئت فيما يتعلق بنزاعات مسلحة تأثير تلك العمليات في البيئة وتتخذ، حسب الاقتضاء، تدابير لمنع إلحاق ضرر بالبيئة من جراء تلك العمليات والتخفيف من آثاره وتصحيحه.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="MercuryDocument">
+              <content eId="para_50__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 8</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="MercuryDocument">
+              <content eId="para_51__content">
+                <p xml:space="preserve">
+                  <span class="bold">		النزوح البشري</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="MercuryDocument">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	ينبغي للدول والمنظمات الدولية والجهات الفاعلة المعنية الأخرى أن تتخذ تدابير مناسبة لمنع إلحاق ضرر بالبيئة والتخفيف من آثاره وتصحيحه في المناطق التي يقيم فيها نازحون بسبب نزاع مسلح أو المناطق التي يمرون منها، أثناء توفيرها الإغاثة والمساعدة لهؤلاء الأشخاص وللمجتمعات المحلية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="MercuryDocument">
+              <content eId="para_53__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 9</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="MercuryDocument">
+              <content eId="para_54__content">
+                <p xml:space="preserve">
+                  <span class="bold">		مسؤولية الدول</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="MercuryDocument">
+              <content eId="para_55__content">
+                <p xml:space="preserve">1 -	كل فعل غير مشروع دولياً يصدر عن دولة، فيما يتعلق بنزاع مسلح، ويلحق ضرراً بالبيئة يستتبع المسؤولية الدولية لتلك الدولة، التي عليها التزام بجبر هذا الضرر كاملاً، بما في ذلك الضرر الذي يلحق بالبيئة في حد ذاتها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="MercuryDocument">
+              <content eId="para_56__content">
+                <p xml:space="preserve">2 -	لا تخل هذه المبادئ بقواعد مسؤولية الدول أو المنظمات الدولية عن الأفعال غير المشروعة دولياً.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="MercuryDocument">
+              <content eId="para_57__content">
+                <p xml:space="preserve">3 -	ولا تخل هذه المبادئ أيضاً بما يلي:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="MercuryDocument">
+              <content eId="para_58__content">
+                <p xml:space="preserve">	(أ)	القواعد المتعلقة بمسؤولية الجماعات المسلحة غير التابعة للدول؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="MercuryDocument">
+              <content eId="para_59__content">
+                <p xml:space="preserve">	(ب)	القواعد المتعلقة بالمسؤولية الجنائية الفردية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="MercuryDocument">
+              <content eId="para_60__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 10</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="MercuryDocument">
+              <content eId="para_61__content">
+                <p xml:space="preserve">
+                  <span class="bold">		بذل مؤسسات الأعمال العناية الواجبة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="MercuryDocument">
+              <content eId="para_62__content">
+                <p xml:space="preserve">	ينبغي للدول أن تتخذ تدابير مناسبة لضمان قيام مؤسسات الأعمال العاملة في أراضيها أو في أراض خاضعة لولايتها أو انطلاقاً منها ببذل العناية الواجبة فيما يتعلق بحماية البيئة، بما في ذلك ما يخص الصحة البشرية، حين تعمل في منطقة متأثرة بنزاع مسلح. ويشمل ذلك تدابير يراد منها ضمان شراء الموارد الطبيعية أو الحصول عليها بأي وسائل أخرى بطريقة مستدامة بيئياً.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="MercuryDocument">
+              <content eId="para_63__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 11</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="MercuryDocument">
+              <content eId="para_64__content">
+                <p xml:space="preserve">
+                  <span class="bold">		مسؤولية مؤسسات الأعمال</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="MercuryDocument">
+              <content eId="para_65__content">
+                <p xml:space="preserve">	ينبغي للدول أن تتخذ تدابير مناسبة لضمان إمكان مساءلة مؤسسات الأعمال العاملة في أراضيها أو في أراض خاضعة لولايتها أو انطلاقاً منها عن الضرر الذي تسببه للبيئة، بما في ذلك ما يخص الصحة البشرية، في منطقة متأثرة بنزاع مسلح. وينبغي أن تشمل هذه التدابير، حسب الاقتضاء، تدابير يراد منها ضمان إمكان مساءلة مؤسسة أعمال إذا ما تسبب بهذا الضرر فرع يعمل تحت سيطرتها الفعلية. وتحقيقاً لهذه الغاية، ينبغي للدول، حسب الاقتضاء، توفير إجراءات وسبل انتصاف مناسبة وفعالة، خاصةً لضحايا هذا الضرر.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="MercuryDocument">
+              <content eId="para_66__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الثالث</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="MercuryDocument">
+              <content eId="para_67__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبادئ السارية في أثناء النزاع المسلح</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="MercuryDocument">
+              <content eId="para_68__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 12</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="MercuryDocument">
+              <content eId="para_69__content">
+                <p xml:space="preserve">
+                  <span class="bold">		شرط مارتنز في مجال حماية البيئة فيما يتعلق بالنزاعات المسلحة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70" class="MercuryDocument">
+              <content eId="para_70__content">
+                <p xml:space="preserve">	في الحالات غير المشمولة بالاتفاقات الدولية، تظل البيئة تحت حماية وسلطة مبادئ القانون الدولي المستمدة من العرف المستقر ومبادئ الإنسانية وما يمليه الضمير العام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="MercuryDocument">
+              <content eId="para_71__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 13</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="MercuryDocument">
+              <content eId="para_72__content">
+                <p xml:space="preserve">
+                  <span class="bold">		توفير حماية عامة للبيئة في أثناء النزاع المسلح</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="MercuryDocument">
+              <content eId="para_73__content">
+                <p xml:space="preserve">1 -	تُحترم البيئة وتُحمى وفقاً للقانون الدولي الساري، ولا سيما قانون النزاعات المسلحة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="MercuryDocument">
+              <content eId="para_74__content">
+                <p xml:space="preserve">2 -	رهناً بالقانون الدولي الساري:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="MercuryDocument">
+              <content eId="para_75__content">
+                <p xml:space="preserve">	(أ)	يُحرص على حماية البيئة من الأضرار الواسعة الانتشار والطويلة الأمد والبالغة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="MercuryDocument">
+              <content eId="para_76__content">
+                <p xml:space="preserve">	(ب)	يُحظر استخدام أساليب ووسائل قتال، يُقصد بها أو قد يُتوقع منها أن تلحق بالبيئة أضراراً واسعة الانتشار وطويلة الأمد وبالغة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="MercuryDocument">
+              <content eId="para_77__content">
+                <p xml:space="preserve">3 -	لا يجوز الهجوم على أي جزء من البيئة، إلا إذا صار هدفاً عسكرياً.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="MercuryDocument">
+              <content eId="para_78__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 14</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="MercuryDocument">
+              <content eId="para_79__content">
+                <p xml:space="preserve">
+                  <span class="bold">		تطبيق قانون النزاعات المسلحة على البيئة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="MercuryDocument">
+              <content eId="para_80__content">
+                <p xml:space="preserve">	يُطبَّق على البيئة، بغرض حمايتها، قانون النزاعات المسلحة، بما فيه المبادئ والقواعد المتعلقة بالتمييز والتناسب واتخاذ الاحتياطات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="MercuryDocument">
+              <content eId="para_81__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 15</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="MercuryDocument">
+              <content eId="para_82__content">
+                <p xml:space="preserve">
+                  <span class="bold">		حظر الأعمال الانتقامية</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="MercuryDocument">
+              <content eId="para_83__content">
+                <p xml:space="preserve">	يُحظر شن هجمات على البيئة بهدف الانتقام.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="MercuryDocument">
+              <content eId="para_84__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 16</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="MercuryDocument">
+              <content eId="para_85__content">
+                <p xml:space="preserve">
+                  <span class="bold">		حظر النهب</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="MercuryDocument">
+              <content eId="para_86__content">
+                <p xml:space="preserve">	يُحظَر نهب الموارد الطبيعية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="MercuryDocument">
+              <content eId="para_87__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 17</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="MercuryDocument">
+              <content eId="para_88__content">
+                <p xml:space="preserve">
+                  <span class="bold">		تقنيات التغيير في البيئة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="MercuryDocument">
+              <content eId="para_89__content">
+                <p xml:space="preserve">	تمتنع الدول، وفقاً لالتزاماتها الدولية، عن استخدام تقنيات التغيير في البيئة ذات الآثار الواسعة الانتشار أو الطويلة البقاء أو البالغة لأغراض عسكرية أو لأي أغراض عدائية أخرى كوسيلة لإلحاق الدمار أو الخسائر أو الأضرار بأي دولة أخرى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="MercuryDocument">
+              <content eId="para_90__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 18</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="MercuryDocument">
+              <content eId="para_91__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المناطق المحمية</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="MercuryDocument">
+              <content eId="para_92__content">
+                <p xml:space="preserve">	تُوفَّر الحماية من أي هجوم للمناطق ذات الأهمية البيئية، بما في ذلك الحالات التي تكون فيها تلك المناطق ذات أهمية ثقافية، والمحددة بالاتفاق باعتبارها مناطق محمية، ما دامت لا تحتوي هدفاً عسكرياً. وتستفيد هذه المنطقة المحمية من أي تدابير حماية إضافية متفق عليها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="MercuryDocument">
+              <content eId="para_93__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الرابع</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="MercuryDocument">
+              <content eId="para_94__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبادئ السارية في حالات الاحتلال</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="MercuryDocument">
+              <content eId="para_95__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 19</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="MercuryDocument">
+              <content eId="para_96__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الالتزامات البيئية العامة لقوة الاحتلال</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="MercuryDocument">
+              <content eId="para_97__content">
+                <p xml:space="preserve">1 -	تحترم قوة الاحتلال وتحمي بيئة الإقليم المحتل وفقاً للقانون الدولي الساري وتراعي الاعتبارات البيئية في إدارة هذا الإقليم.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="MercuryDocument">
+              <content eId="para_98__content">
+                <p xml:space="preserve">2 -	تتخذ قوة الاحتلال التدابير المناسبة للحيلولة دون تعرض بيئة الإقليم المحتل لضرر ذي شأن، بما في ذلك الضرر الذي يرجَّح أن يضر بصحة ورفاه الأشخاص المحميين في الإقليم المحتل أو أن ينتهك حقوقهم بطريقة أخرى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="MercuryDocument">
+              <content eId="para_99__content">
+                <p xml:space="preserve">3 -	تحترم قوة الاحتلال قوانين ومؤسسات الإقليم المحتل المتعلقة بحماية البيئة ولا يجوز لها إدخال تغييرات إلا في حدود ما ينص عليه قانون النزاعات المسلحة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="MercuryDocument">
+              <content eId="para_100__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 20</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="MercuryDocument">
+              <content eId="para_101__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الاستخدام المستدام للموارد الطبيعية</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="MercuryDocument">
+              <content eId="para_102__content">
+                <p xml:space="preserve">	في الحدود التي يُسمح فيها لقوة الاحتلال بإدارة الموارد الطبيعية في الإقليم المحتل واستخدامها لما فيه منفعة سكان الإقليم المحتل المحميين وللأغراض الأخرى المشروعة بموجب قانون النزاعات المسلحة، فإنها تقوم بذلك بطريقة تكفل استخدام هذه الموارد على نحو مستدام يقلل إلى أدنى حد من الإضرار بالبيئة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="MercuryDocument">
+              <content eId="para_103__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 21</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="MercuryDocument">
+              <content eId="para_104__content">
+                <p xml:space="preserve">
+                  <span class="bold">		منع الضرر العابر للحدود</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="MercuryDocument">
+              <content eId="para_105__content">
+                <p xml:space="preserve">	تتخذ قوة الاحتلال التدابير المناسبة لضمان ألا تُلحِق الأنشطة في الإقليم المحتل ضرراً ذا شأن ببيئة الدول الأخرى أو المناطق الواقعة خارج نطاق الولاية الوطنية، أو بأي منطقة في الدولة المحتلة خارج نطاق الإقليم المحتل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="MercuryDocument">
+              <content eId="para_106__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الجزء الخامس</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="MercuryDocument">
+              <content eId="para_107__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبادئ السارية بعد نزاع مسلح</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="MercuryDocument">
+              <content eId="para_108__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 22</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="MercuryDocument">
+              <content eId="para_109__content">
+                <p xml:space="preserve">
+                  <span class="bold">		مسارات السلام</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="MercuryDocument">
+              <content eId="para_110__content">
+                <p xml:space="preserve">1 -	ينبغي أن تعالج أطراف نزاع مسلح، في إطار مسار السلام، بما في ذلك حسب الاقتضاء في اتفاقات السلام، المسائل المتعلقة بإصلاح البيئة المتضررة من جراء النزاع وحمايتها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="MercuryDocument">
+              <content eId="para_111__content">
+                <p xml:space="preserve">2 -	ينبغي للمنظمات الدولية المعنية أن تؤدي، حسب الاقتضاء، دور الميسّر في هذا الصدد.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="MercuryDocument">
+              <content eId="para_112__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 23</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="MercuryDocument">
+              <content eId="para_113__content">
+                <p xml:space="preserve">
+                  <span class="bold">		تبادل المعلومات والسماح بالحصول عليها</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="MercuryDocument">
+              <content eId="para_114__content">
+                <p xml:space="preserve">1 -	تيسيراً لاتخاذ تدابير لتصحيح الضرر الذي يلحق بالبيئة من جراء نزاع مسلح، تتبادل الدول والمنظمات الدولية المعنية المعلومات ذات الصلة وتسمح بالحصول عليها وفقاً لالتزاماتها بموجب القانون الدولي الساري.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="MercuryDocument">
+              <content eId="para_115__content">
+                <p xml:space="preserve">2 -	ليس في الفقرة 1 ما يمس بالحق في الاحتجاج بأسباب رفض تبادل المعلومات المنصوص عليها في القانون الدولي الساري أو السماح بالحصول عليها. ومع ذلك، تتعاون الدول والمنظمات الدولية بحسن نية بقصد تقديم أكبر قدر من المعلومات التي تسمح الظروف بتقديمها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="MercuryDocument">
+              <content eId="para_116__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 24</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="MercuryDocument">
+              <content eId="para_117__content">
+                <p xml:space="preserve">
+                  <span class="bold">		التقييمات البيئية والتدابير التصحيحية بعد النزاع المسلح</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="MercuryDocument">
+              <content eId="para_118__content">
+                <p xml:space="preserve">	ينبغي للأطراف المعنية، بما فيها الدول والمنظمات الدولية، أن تتعاون فيما يتعلق بالتقييمات البيئية والتدابير التصحيحية بعد النزاع المسلح.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="MercuryDocument">
+              <content eId="para_119__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 25</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="MercuryDocument">
+              <content eId="para_120__content">
+                <p xml:space="preserve">
+                  <span class="bold">		الإغاثة والمساعدة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="MercuryDocument">
+              <content eId="para_121__content">
+                <p xml:space="preserve">	عندما يكون مصدر الضرر البيئي، فيما يتعلق بنزاع مسلح، غير محدد، أو يكون جبرُ الضرر غير متاح، ينبغي للدول والمنظمات الدولية المعنية اتخاذ التدابير المناسبة كيلا يظل الضرر دون جبر أو دون تعويض، ويمكن أن تنظر في إنشاء صناديق خاصة للتعويض أو توفير أشكال أخرى من الإغاثة أو المساعدة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="MercuryDocument">
+              <content eId="para_122__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 26</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="MercuryDocument">
+              <content eId="para_123__content">
+                <p xml:space="preserve">
+                  <span class="bold">		مخلفات الحرب</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="MercuryDocument">
+              <content eId="para_124__content">
+                <p xml:space="preserve">1 -	تسعى الأطراف في نزاع مسلح، بأسرع ما يمكن، إلى إزالة أو إبطال ضرر ما يخضع لولايتها أو سيطرتها من مخلفات الحرب السامة أو غيرها من المخلفات الخطرة التي تسبب أو يُحتمل أن تسبب ضرراً للبيئة. وتُتخذ تلك التدابير رهناً بقواعد القانون الدولي السارية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="MercuryDocument">
+              <content eId="para_125__content">
+                <p xml:space="preserve">2 -	تسعى الأطراف أيضاً إلى التوصل إلى اتفاق فيما بينها، وعند الاقتضاء، مع غيرها من الدول ومع المنظمات الدولية، على المساعدة التقنية والمادية، بما في ذلك القيام، في الظروف المناسبة، بتنفيذ عمليات مشتركة لإزالة مخلفات الحرب السامة تلك أو غيرها من المخلفات الخطرة أو إبطال ضررها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="MercuryDocument">
+              <content eId="para_126__content">
+                <p xml:space="preserve">3 -	لا تخل الفقرتان 1 و 2 بأي من الحقوق أو الالتزامات بموجب القانون الدولي فيما يتعلق بتطهير أو إزالة أو تدمير أو صيانة حقول الألغام والمناطق الملغَّمة والألغام والفخاخ المتفجرة والذخائر المتفجرة والأجهزة الأخرى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="MercuryDocument">
+              <content eId="para_127__content">
+                <p xml:space="preserve">
+                  <span class="bold">		المبدأ 27</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="MercuryDocument">
+              <content eId="para_128__content">
+                <p xml:space="preserve">
+                  <span class="bold">		مخلفات الحرب في البحر</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	ينبغي للدول والمنظمات الدولية المعنية أن تتعاون على ضمان ألا تشكل مخلفات الحرب في البحر خطراً على البيئة.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
