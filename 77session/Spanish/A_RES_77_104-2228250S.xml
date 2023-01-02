@@ -1,0 +1,992 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/"></FRBRuri>
+          <FRBRdate date="2022-12-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@/"></FRBRuri>
+          <FRBRdate date="2022-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-01" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Principles on the Protection of the Environment in Relation to Armed Conflicts (Draft)" showAs="Principles on the Protection of the Environment in Relation to Armed Conflicts (Draft)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMED CONFLICTS" showAs="ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL LAW" showAs="ENVIRONMENTAL LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL LAW" showAs="INTERNATIONAL LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="77" showAs="Report of the International Law Commission on the work of its 73rd session." shortForm="INTERNATIONAL LAW" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-11" outcome="draftResolution" as="A/C.6/77/L.22" by="the representative of Mexico, on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/415" by="" refersTo="12" />
+        <step date="2022-12-07" outcome="adopted" as="A/77/PV.47" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Sexta Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-28250 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/104</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 de diciembre de 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Septuagésimo séptimo período de sesiones</session>
+      </p>
+      <p>
+        <inline title="77" name="agenda item">Tema 77 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Informe de la Comisión de Derecho Internacional sobre la labor realizada en su 73er período de sesiones</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 7 de diciembre de 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[sobre la base del informe de la Sexta Comisión (<inline name="originating document">A/77/415, párr. 12</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/104.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Protección del medio ambiente en relación con los conflictos armados</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Habiendo examinado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Habiendo examinado</span> el capítulo V del informe de la Comisión de Derecho Internacional sobre la labor realizada en su 73<sup>er</sup> período de sesiones<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Documentos Oficiales de la Asamblea General de las Naciones Unidas, septuagésimo séptimo período de sesiones, suplemento núm. 10</span> (<a href="https://undocs.org/es/A/77/10">A/77/10</a>).</p></authorialNote>, en el que figura el proyecto de principios sobre la protección del medio ambiente en relación con los conflictos armados,</p>
+      </container>
+      <container name="Tomando nota" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Tomando nota </span>de la recomendación de la Comisión de Derecho Internacional que figura en el párrafo 55 de su informe,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve </span>la importancia que siguen teniendo la codificación y el desarrollo progresivo del derecho internacional a que se hace referencia en el Artículo 13, párrafo 1 a), de la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la recomendación del Programa de las Naciones Unidas para el Medio Ambiente de que la Comisión de Derecho Internacional examine el derecho internacional vigente sobre la protección del medio ambiente durante los conflictos armados y haga propuestas respecto a cómo aclararlo, codificarlo y ampliarlo<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Programa de las Naciones Unidas para el Medio Ambiente, <span class="italic">Protecting the Environment During Armed Conflict: An Inventory and Analysis of International Law</span> (Nairobi, 2009), recomendación 3.</p></authorialNote>,</p>
+      </container>
+      <container name="Observando" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Observando </span>que el tema de la protección del medio ambiente en relación con los conflictos armados reviste gran importancia en las relaciones internacionales,</p>
+      </container>
+      <container name="Recordando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>que, en la medida en que no refleja obligaciones consuetudinarias o convencionales de los Estados, según el caso, el proyecto de principios ofrece recomendaciones para el desarrollo progresivo del derecho internacional, entre otras cosas, mediante ejemplos de medidas eficaces que se pueden adoptar a título voluntario para mejorar la protección del medio ambiente en relación con los conflictos armados,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> que la Comisión de Derecho Internacional haya concluido su labor sobre la protección del medio ambiente en relación con los conflictos armados y haya aprobado el proyecto de principios sobre la protección del medio ambiente en relación con los conflictos armados, con sus comentarios<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Documentos Oficiales de la Asamblea General de las Naciones Unidas, septuagésimo séptimo período de sesiones, suplemento núm. 10</span> (<a href="https://undocs.org/es/A/77/10">A/77/10</a>), párrs. 58 y 59.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Expresa su reconocimiento</span> a la Comisión de Derecho Internacional por su incesante contribución a la codificación y al desarrollo progresivo del derecho internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota </span>de todas las opiniones y observaciones formuladas en los debates de la Sexta Comisión sobre el tema, incluidas las expresadas en el septuagésimo séptimo período de sesiones de la Asamblea General<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Véanse <a href="https://undocs.org/es/A/C.6/77/SR.21">A/C.6/77/SR.21</a>, <a href="https://undocs.org/es/A/C.6/77/SR.22">A/C.6/77/SR.22</a>, <a href="https://undocs.org/es/A/C.6/77/SR.23">A/C.6/77/SR.23</a>, <a href="https://undocs.org/es/A/C.6/77/SR.24">A/C.6/77/SR.24</a>, <a href="https://undocs.org/es/A/C.6/77/SR.25">A/C.6/77/SR.25</a> y <a href="https://undocs.org/es/A/C.6/77/SR.31">A/C.6/77/SR.31</a>. El texto completo de las declaraciones realizadas en la Sexta Comisión está disponible (en el idioma original) en el sitio web de la Sexta Comisión (<a href="http://www.un.org/es/ga/sixth/">www.un.org/es/ga/sixth/</a>). </p></authorialNote>, así como de los comentarios y observaciones presentados por escrito por los Gobiernos acerca del proyecto de principios sobre la protección del medio ambiente en relación con los conflictos armados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota también</span> de los principios sobre la protección del medio ambiente en relación con los conflictos armados, cuyo texto figura en el anexo de la presente resolución, y de los comentarios que los acompañan, los señala a la atención de los Estados, las organizaciones internacionales y todos aquellos que puedan estar llamados a ocuparse del tema, y alienta a que se les dé la máxima difusión posible.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="47ª">47ª sesión plenaria</inline>
+        <eol />
+        <docDate date="2022-12-07" refersTo="#adoptionDate">7 de diciembre de 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/"></FRBRuri>
+                <FRBRdate date="2022-12-07" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@/"></FRBRuri>
+                <FRBRdate date="2022-12-19" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="spa"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-07/77-104/spa@.xml"></FRBRuri>
+                <FRBRdate date="2023-01-01" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+    <mainBody>
+      <paragraph eId="para_16" class="H23">
+        <content eId="para_16__content">
+          <p xml:space="preserve">
+            <subheading>		Anexo Principios sobre la protección del medio ambiente en relación con los conflictos armados</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="H23">
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <subheading>	Preámbulo</subheading>
+          </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="Recordando" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>la urgente necesidad y los objetivos comunes de reforzar y promover la conservación, restauración y utilización sostenible del medio ambiente para las generaciones presentes y futuras,</p>
+      </container>
+      <container name="Recordando también" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando también </span>que el principio 24 de la Declaración de Río sobre el Medio Ambiente y el Desarrollo establece, entre otras cosas, que los Estados deberán respetar las disposiciones de derecho internacional que protegen al medio ambiente en épocas de conflicto armado y cooperar en su ulterior desarrollo,</p>
+      </container>
+      <container name="Reconociendo" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que las consecuencias ambientales de los conflictos armados pueden ser graves y exacerbar los problemas ambientales mundiales, como el cambio climático y la pérdida de biodiversidad,</p>
+      </container>
+      <container name="Consciente" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente </span>de la importancia del medio ambiente para los medios de vida, la seguridad alimentaria e hídrica, el mantenimiento de las tradiciones y culturas, y el disfrute de los derechos humanos,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve </span>que es preciso tener en cuenta los factores ambientales en el contexto de la aplicación de los principios y normas del derecho aplicable en los conflictos armados,</p>
+      </container>
+      <container name="Consciente" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente </span>de la necesidad de mejorar la protección del medio ambiente en relación con los conflictos armados tanto internacionales como no internacionales, también en las situaciones de ocupación,</p>
+      </container>
+      <container name="Considerando" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Considerando </span>que la protección efectiva del medio ambiente en relación con los conflictos armados requiere que los Estados, las organizaciones internacionales y otros actores pertinentes tomen medidas para prevenir, mitigar y reparar los daños al medio ambiente antes y después de un conflicto armado y durante este,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_25" class="H23">
+        <content eId="para_25__content">
+          <p xml:space="preserve">
+            <subheading>	Primera parte</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="H23">
+        <content eId="para_26__content">
+          <p xml:space="preserve">
+            <subheading>	Introducción</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="H23">
+        <content eId="para_27__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 1 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="H23">
+        <content eId="para_28__content">
+          <p xml:space="preserve">
+            <subheading>	Alcance</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <content eId="para_29__content">
+          <p xml:space="preserve">	Los presentes principios se aplican a la protección del medio ambiente antes o después de un conflicto armado o durante este, también en las situaciones de ocupación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="H23">
+        <content eId="para_30__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 2 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="H23">
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <subheading>	Propósito</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <content eId="para_32__content">
+          <p xml:space="preserve">	Los presentes principios tienen por objeto mejorar la protección del medio ambiente en relación con los conflictos armados, entre otras cosas mediante medidas para prevenir, mitigar y reparar los daños al medio ambiente.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="H23">
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <subheading>Segunda parte</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="H23">
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <subheading>Principios de aplicación general</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="H23">
+        <content eId="para_35__content">
+          <p xml:space="preserve">
+            <subheading>Principio 3</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="H23">
+        <content eId="para_36__content">
+          <p xml:space="preserve">
+            <subheading>Medidas para mejorar la protección del medio ambiente</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	Los Estados, de conformidad con las obligaciones que les incumban en virtud del derecho internacional, adoptarán medidas legislativas, administrativas, judiciales y de otra índole efectivas para mejorar la protección del medio ambiente en relación con los conflictos armados.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	Además, los Estados deben adoptar otras medidas, cuando proceda, para mejorar la protección del medio ambiente en relación con los conflictos armados.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="H23">
+        <content eId="para_39__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 4 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="H23">
+        <content eId="para_40__content">
+          <p xml:space="preserve">
+            <subheading>	Designación de zonas protegidas</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <content eId="para_41__content">
+          <p xml:space="preserve">	Los Estados deben designar, mediante acuerdo o de otro modo, las zonas de importancia ambiental como zonas protegidas en caso de conflicto armado, también cuando esas zonas sean de importancia cultural.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="H23">
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 5 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="H23">
+        <content eId="para_43__content">
+          <p xml:space="preserve">
+            <subheading>	Protección del medio ambiente de los Pueblos Indígenas</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	Los Estados, las organizaciones internacionales y otros actores pertinentes adoptarán medidas apropiadas, en caso de conflicto armado, para proteger el medio ambiente de las tierras y los territorios en que habiten Pueblos Indígenas o que sean utilizados tradicionalmente por estos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	Cuando un conflicto armado haya afectado de manera adversa al medio ambiente de tierras o territorios en que habiten Pueblos Indígenas o que sean utilizados tradicionalmente por estos, los Estados mantendrán consultas y una cooperación apropiadas y efectivas con los Pueblos Indígenas en cuestión, mediante procedimientos apropiados y, en particular, por conducto de instituciones que los representen, con el fin de adoptar medidas de reparación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="H23">
+        <content eId="para_46__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 6 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="H23">
+        <content eId="para_47__content">
+          <p xml:space="preserve">
+            <subheading>	Acuerdos sobre la presencia de fuerzas militares</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <content eId="para_48__content">
+          <p xml:space="preserve">	Los Estados y las organizaciones internacionales deben, cuando proceda, incluir disposiciones en materia de protección ambiental en relación con los conflictos armados en los acuerdos sobre la presencia de fuerzas militares. Tales disposiciones deben prever medidas para prevenir, mitigar y reparar los daños al medio ambiente.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="H23">
+        <content eId="para_49__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 7</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="H23">
+        <content eId="para_50__content">
+          <p xml:space="preserve">
+            <subheading>	Operaciones de paz</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <content eId="para_51__content">
+          <p xml:space="preserve">	Los Estados y las organizaciones internacionales que participen en operaciones de paz establecidas en relación con conflictos armados considerarán el impacto de esas operaciones en el medio ambiente y adoptarán, cuando proceda, medidas para prevenir, mitigar y reparar los daños al medio ambiente causados por esas operaciones.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="H23">
+        <content eId="para_52__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 8 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="H23">
+        <content eId="para_53__content">
+          <p xml:space="preserve">
+            <subheading>	Desplazamientos humanos</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <content eId="para_54__content">
+          <p xml:space="preserve">	Los Estados, las organizaciones internacionales y otros actores pertinentes deben adoptar medidas apropiadas para prevenir, mitigar y reparar los daños al medio ambiente en las zonas donde se encuentren o por las que transiten personas desplazadas por un conflicto armado, a la vez que prestar socorro y asistencia a esas personas y a las comunidades locales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="H23">
+        <content eId="para_55__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 9</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="H23">
+        <content eId="para_56__content">
+          <p xml:space="preserve">
+            <subheading>	Responsabilidad del Estado</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	Todo hecho internacionalmente ilícito de un Estado, en relación con un conflicto armado, que cause daños al medio ambiente generará la responsabilidad internacional de ese Estado, que estará obligado a reparar íntegramente esos daños, incluidos los causados al medio ambiente en sí mismo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	Los presentes principios se entenderán sin perjuicio de las normas sobre la responsabilidad del Estado o de las organizaciones internacionales por hechos internacionalmente ilícitos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>3.</num>
+        <list eId="para_60_list">
+          <intro eId="para_60_list_intro">
+            <p xml:space="preserve">	Los presentes principios se entenderán también sin perjuicio de:</p>
+          </intro>
+          <point eId="para_60_list_point_a">
+            <num>a)</num>
+            <content eId="para_60_list_point_a_content">
+              <p xml:space="preserve">	Las normas sobre la responsabilidad de los grupos armados no estatales;</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_b">
+            <num>b)</num>
+            <content eId="para_60_list_point_b_content">
+              <p xml:space="preserve">	Las normas sobre la responsabilidad penal individual.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_61" class="H23">
+        <content eId="para_61__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 10</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="H23">
+        <content eId="para_62__content">
+          <p xml:space="preserve">
+            <subheading>	Debida diligencia de las empresas</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <content eId="para_63__content">
+          <p xml:space="preserve">	Los Estados deben adoptar medidas apropiadas para que las empresas que operen en su territorio o desde él, o en territorios bajo su jurisdicción, actúen con la debida diligencia en lo que respecta a la protección del medio ambiente, también en relación con la salud humana, cuando realicen actividades en una zona de conflicto armado. Esas medidas están destinadas, entre otras cosas, a velar por que los recursos naturales se adquieran u obtengan de otro modo de una manera ambientalmente sostenible.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="H23">
+        <content eId="para_64__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 11</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="H23">
+        <content eId="para_65__content">
+          <p xml:space="preserve">
+            <subheading>	Responsabilidad civil de las empresas</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <content eId="para_66__content">
+          <p xml:space="preserve">	Los Estados deben adoptar medidas apropiadas para que las empresas que operen en su territorio o desde él, o en territorios bajo su jurisdicción, puedan ser consideradas responsables de los daños que hayan causado al medio ambiente, también en relación con la salud humana, en una zona de conflicto armado. Cuando proceda, esas medidas deben estar destinadas, entre otras cosas, a velar por que las empresas puedan ser consideradas responsables en la medida en que esos daños hayan sido causados por una filial suya que actúe bajo su control <span class="italic">de facto</span>. A tal efecto, los Estados deben prever, cuando proceda, procedimientos y medios de reparación adecuados y efectivos, en particular para las víctimas de esos daños.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="H23">
+        <content eId="para_67__content">
+          <p xml:space="preserve">
+            <subheading>	Tercera parte</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="H23">
+        <content eId="para_68__content">
+          <p xml:space="preserve">
+            <subheading>	Principios aplicables durante un conflicto armado</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="H23">
+        <content eId="para_69__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 12</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="H23">
+        <content eId="para_70__content">
+          <p xml:space="preserve">
+            <subheading>Cláusula de Martens con respecto a la protección del medio ambiente en relación con los conflictos armados</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <content eId="para_71__content">
+          <p xml:space="preserve">	En los casos no contemplados por acuerdos internacionales, el medio ambiente quedará bajo la protección y el gobierno de los principios del derecho internacional derivados de la costumbre establecida, de los principios de humanidad y de los dictados de la conciencia pública.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="H23">
+        <content eId="para_72__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 13 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="H23">
+        <content eId="para_73__content">
+          <p xml:space="preserve">
+            <subheading>	Protección general del medio ambiente durante un conflicto armado</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	El medio ambiente se respetará y protegerá de conformidad con el derecho internacional aplicable y, en particular, el derecho de los conflictos armados.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_75_list">
+          <intro eId="para_75_list_intro">
+            <p xml:space="preserve">	Con arreglo al derecho internacional aplicable:</p>
+          </intro>
+          <point eId="para_75_list_point_a">
+            <num>a)</num>
+            <content eId="para_75_list_point_a_content">
+              <p xml:space="preserve">	Se velará por la protección del medio ambiente contra los daños vastos, duraderos y graves;</p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_b">
+            <num>b)</num>
+            <content eId="para_75_list_point_b_content">
+              <p xml:space="preserve">	Queda prohibido el empleo de métodos y medios de hacer la guerra que hayan sido concebidos para causar, o de los que quepa prever que causen, daños vastos, duraderos y graves al medio ambiente.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	Ninguna parte del medio ambiente podrá ser atacada, a menos que se haya convertido en un objetivo militar.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="H23">
+        <content eId="para_78__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 14</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="H23">
+        <content eId="para_79__content">
+          <p xml:space="preserve">
+            <subheading>	Aplicación del derecho de los conflictos armados al medio ambiente</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <content eId="para_80__content">
+          <p xml:space="preserve">	El derecho de los conflictos armados, incluidos los principios y normas sobre distinción, proporcionalidad y precaución, será de aplicación al medio ambiente con miras a su protección.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="H23">
+        <content eId="para_81__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 15</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="H23">
+        <content eId="para_82__content">
+          <p xml:space="preserve">
+            <subheading>	Prohibición de las represalias</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <content eId="para_83__content">
+          <p xml:space="preserve">	Quedan prohibidos los ataques contra el medio ambiente como represalia.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="H23">
+        <content eId="para_84__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 16</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="H23">
+        <content eId="para_85__content">
+          <p xml:space="preserve">
+            <subheading>	Prohibición del pillaje</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <content eId="para_86__content">
+          <p xml:space="preserve">	Queda prohibido el pillaje de recursos naturales.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="H23">
+        <content eId="para_87__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 17</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="H23">
+        <content eId="para_88__content">
+          <p xml:space="preserve">
+            <subheading>	Técnicas de modificación ambiental</subheading>
+          </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <preamble>
+      <container name="De conformidad con" eId="container_89">
+        <p xml:space="preserve">	De conformidad con sus obligaciones internacionales, los Estados no utilizarán técnicas de modificación ambiental con fines militares u otros fines hostiles que tengan efectos vastos, duraderos o graves como medios para ocasionar destrucción, daños o perjuicios a otro Estado.</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_90" class="H23">
+        <content eId="para_90__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 18</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="H23">
+        <content eId="para_91__content">
+          <p xml:space="preserve">
+            <subheading>	Zonas protegidas</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <content eId="para_92__content">
+          <p xml:space="preserve">	Se protegerán de cualquier ataque las zonas de importancia ambiental designadas mediante acuerdo como zonas protegidas, también cuando se trate de zonas de importancia cultural, salvo en los casos en que contengan un objetivo militar. Esas zonas protegidas gozarán de cualquier protección adicional acordada.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="H23">
+        <content eId="para_93__content">
+          <p xml:space="preserve">
+            <subheading>	Cuarta parte</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="H23">
+        <content eId="para_94__content">
+          <p xml:space="preserve">
+            <subheading>	Principios aplicables en situaciones de ocupación</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="H23">
+        <content eId="para_95__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 19 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="H23">
+        <content eId="para_96__content">
+          <p xml:space="preserve">
+            <subheading>	Obligaciones ambientales generales de la Potencia ocupante</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	La Potencia ocupante respetará y protegerá el medio ambiente del territorio ocupado de conformidad con el derecho internacional aplicable y tendrá en cuenta las consideraciones ambientales en la administración de dicho territorio.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	La Potencia ocupante adoptará medidas apropiadas para prevenir los daños sensibles al medio ambiente del territorio ocupado, incluidos los daños que es probable que sean perjudiciales para la salud y el bienestar de las personas protegidas del territorio ocupado o que vulneren de otro modo los derechos de estas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	La Potencia ocupante respetará el derecho y las instituciones del territorio ocupado en lo que se refiere a la protección del medio ambiente y solo podrá introducir cambios dentro de los límites previstos por el derecho de los conflictos armados.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="H23">
+        <content eId="para_101__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 20</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="H23">
+        <content eId="para_102__content">
+          <p xml:space="preserve">
+            <subheading>	Utilización sostenible de los recursos naturales</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <content eId="para_103__content">
+          <p xml:space="preserve">	En tanto que se permita a la Potencia ocupante administrar y utilizar los recursos naturales de un territorio ocupado en beneficio de la población protegida del territorio ocupado y con otros fines lícitos con arreglo al derecho de los conflictos armados, aquella lo hará de forma que asegure su utilización sostenible y reduzca al mínimo los daños al medio ambiente.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="H23">
+        <content eId="para_104__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 21</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="H23">
+        <content eId="para_105__content">
+          <p xml:space="preserve">
+            <subheading>	Prevención de los daños transfronterizos</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <content eId="para_106__content">
+          <p xml:space="preserve">	La Potencia ocupante adoptará medidas apropiadas para que las actividades en el territorio ocupado no causen daños sensibles al medio ambiente de otros Estados o de zonas situadas fuera de la jurisdicción nacional o de cualquier zona del Estado ocupado situada fuera del territorio ocupado.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="H23">
+        <content eId="para_107__content">
+          <p xml:space="preserve">
+            <subheading>	Quinta parte</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="H23">
+        <content eId="para_108__content">
+          <p xml:space="preserve">
+            <subheading>	Principios aplicables después de un conflicto armado</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="H23">
+        <content eId="para_109__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 22</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="H23">
+        <content eId="para_110__content">
+          <p xml:space="preserve">
+            <subheading>	Procesos de paz</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	Las partes en un conflicto armado deben, en el contexto del proceso de paz, también, cuando proceda, en los acuerdos de paz, ocuparse de las cuestiones relativas a la restauración y la protección del medio ambiente dañado como consecuencia del conflicto.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	Las organizaciones internacionales pertinentes deben, cuando proceda, desempeñar un papel facilitador al respecto.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="H23">
+        <content eId="para_113__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 23 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="H23">
+        <content eId="para_114__content">
+          <p xml:space="preserve">
+            <subheading>	Intercambio de información y acceso a esta</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	Para facilitar la adopción de medidas destinadas a reparar los daños causados por un conflicto armado, los Estados y las organizaciones internacionales pertinentes intercambiarán información relevante y permitirán el acceso a esta de conformidad con las obligaciones que les incumban en virtud del derecho internacional aplicable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	Nada de lo dispuesto en el párrafo 1 afecta al derecho a invocar los motivos para denegar el intercambio de información o el acceso a esta previstos en el derecho internacional aplicable. No obstante, los Estados y las organizaciones internacionales cooperarán de buena fe para proporcionar tanta información como sea posible teniendo en cuenta las circunstancias.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="H23">
+        <content eId="para_117__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 24 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="H23">
+        <content eId="para_118__content">
+          <p xml:space="preserve">
+            <subheading>Evaluaciones ambientales y medidas de reparación posteriores a un conflicto armado</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <content eId="para_119__content">
+          <p xml:space="preserve">	Los actores pertinentes, incluidos los Estados y las organizaciones internacionales, deben cooperar en relación con las evaluaciones ambientales y las medidas de reparación posteriores a un conflicto armado.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="H23">
+        <content eId="para_120__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 25</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="H23">
+        <content eId="para_121__content">
+          <p xml:space="preserve">
+            <subheading>	Socorro y asistencia</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <content eId="para_122__content">
+          <p xml:space="preserve">	Cuando, en relación con un conflicto armado, la fuente de los daños ambientales no se haya identificado o no haya acceso a una reparación, los Estados y las organizaciones internacionales pertinentes deben adoptar medidas apropiadas para que los daños no queden sin reparar o sin indemnizar, y pueden considerar el establecimiento de fondos de indemnización especiales o la prestación de otras formas de socorro o asistencia.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="H23">
+        <content eId="para_123__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 26 </subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="H23">
+        <content eId="para_124__content">
+          <p xml:space="preserve">
+            <subheading>	Restos de guerra</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	Las partes en un conflicto armado se ocuparán lo antes posible de eliminar o inutilizar los restos de guerra tóxicos u otros restos de guerra peligrosos bajo su jurisdicción o control que estén causando o corran el riesgo de causar daños al medio ambiente. Tales medidas se adoptarán con sujeción a las normas de derecho internacional aplicables.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	Las partes también se esforzarán por alcanzar un acuerdo, entre ellas y, cuando proceda, con otros Estados y con organizaciones internacionales, sobre asistencia técnica y material, incluida, en su caso, la realización de operaciones conjuntas para eliminar o inutilizar tales restos de guerra tóxicos u otros restos de guerra peligrosos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	Los párrafos 1 y 2 se entenderán sin perjuicio de cualquier derecho u obligación de derecho internacional de limpiar, eliminar, destruir o mantener campos de minas, zonas minadas, minas, trampas explosivas, artefactos explosivos y otros artefactos.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="H23">
+        <content eId="para_129__content">
+          <p xml:space="preserve">
+            <subheading>	Principio 27</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="H23">
+        <content eId="para_130__content">
+          <p xml:space="preserve">
+            <subheading>	Restos de guerra en el mar</subheading>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <content eId="para_131__content">
+          <p xml:space="preserve">	Los Estados y las organizaciones internacionales pertinentes deben cooperar para que los restos de guerra en el mar no constituyan un peligro para el medio ambiente.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
