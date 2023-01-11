@@ -1,0 +1,234 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/"></FRBRuri>
+          <FRBRdate date="2022-12-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/eng@/"></FRBRuri>
+          <FRBRdate date="2023-01-05" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Working Capital Fund" showAs="UN Working Capital Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+        <keyword value="PROGRAMME BUDGETING" showAs="PROGRAMME BUDGETING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESOURCES ALLOCATION" showAs="RESOURCES ALLOCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FUNDS" showAs="FUNDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="138" showAs="Proposed programme budget for 2023." shortForm="UN--BUDGET (2023)" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-12-30" outcome="draftResolution" as="A/C.5/77/L.10" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/672" by="" refersTo="68" />
+        <step date="2022-12-30" outcome="adopted" as="A/77/PV.56 (Resumption 1)" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="Fifth Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-00150 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/266</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-05" class="rightSmall" refersTo="#dateOfIssuance">5 January 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Seventy-seventh session</session>
+      </p>
+      <p>
+        <inline title="138" name="agenda item">Agenda item 138</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Proposed programme budget for 2023</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 30 December 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[on the report of the Fifth Committee (<inline name="originating document">A/77/672, para. 68</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/266.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Working Capital Fund for 2023</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>
+        </p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">Resolves</span> that: </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_3__content">
+          <p xml:space="preserve">	The Working Capital Fund shall be established for 2023 in the amount of 250 million United States dollars;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	Member States shall make advances to the Working Capital Fund amounting to 150 million dollars in accordance with the scale of assessments adopted by the General Assembly for contributions of Member States to the budget for 2023, and the remaining 100 million dollars shall be financed from the unspent funds of the 2021 regular budget, on an exceptional basis and without setting a precedent, in accordance with General Assembly resolution <a href="https://undocs.org/en/A/RES/76/272">76/272</a> of 29 June 2022;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>3.</num>
+        <list eId="para_6_list">
+          <intro eId="para_6_list_intro">
+            <p xml:space="preserve">	There shall be set off against this allocation of advances:</p>
+          </intro>
+          <point eId="para_6_list_point_a">
+            <num>(a)</num>
+            <content eId="para_6_list_point_a_content">
+              <p xml:space="preserve">	Credits to Member States resulting from transfers made in 1959 and 1960 from the surplus account to the Working Capital Fund in an adjusted amount of 1,025,092 dollars;</p>
+            </content>
+          </point>
+          <point eId="para_6_list_point_b">
+            <num>(b)</num>
+            <content eId="para_6_list_point_b_content">
+              <p xml:space="preserve">	Cash advances paid by Member States to the Working Capital Fund for 2022 in accordance with General Assembly resolution <a href="https://undocs.org/en/A/RES/76/249">76/249</a> of 24 December 2021;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	Should the credits and advances paid by any Member State to the Working Capital Fund for 2022 exceed the amount of that Member State’s advance under the provisions of paragraph 2 above, the excess shall be set off against the amount of the contributions payable by the Member State in respect of 2023;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+            <p xml:space="preserve">	The Secretary-General is authorized to advance from the Working Capital Fund:</p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>(a)</num>
+            <content eId="para_13_list_point_a_content">
+              <p xml:space="preserve">	Such sums as may be necessary to finance budgetary appropriations pending the receipt of contributions; sums so advanced shall be reimbursed as soon as receipts from contributions are available for that purpose;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>(b)</num>
+            <content eId="para_13_list_point_b_content">
+              <p xml:space="preserve">	Such sums as may be necessary to finance commitments that may be duly authorized under the provisions of the resolutions adopted by the General Assembly, in particular resolution <a href="https://undocs.org/en/A/RES/77/265">77/265</a> of 30 December 2022 relating to unforeseen and extraordinary expenses for 2023; the Secretary-General shall make provision in the budget estimates for reimbursing the Working Capital Fund;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>(c)</num>
+            <content eId="para_13_list_point_c_content">
+              <p xml:space="preserve">	Such sums as may be necessary to continue the revolving fund to finance miscellaneous self-liquidating purchases and activities, which, together with net sums outstanding for the same purpose, do not exceed 200,000 dollars; advances in excess of 200,000 dollars may be made with the prior concurrence of the Advisory Committee on Administrative and Budgetary Questions;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_d">
+            <num>(d)</num>
+            <content eId="para_13_list_point_d_content">
+              <p xml:space="preserve">	With the prior concurrence of the Advisory Committee, such sums as may be required to finance payments of advance insurance premiums where the period of insurance extends beyond the end of the year in which payment is made; the Secretary-General shall make provision in the budget estimates of each year, during the life of the related policies, to cover the charges applicable to each year;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_e">
+            <num>(e)</num>
+            <content eId="para_13_list_point_e_content">
+              <p xml:space="preserve">	Such sums as may be necessary to enable the Tax Equalization Fund to meet current commitments pending the accumulation of credits; such advances shall be repaid as soon as credits are available in the Tax Equalization Fund;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	Should the provision in paragraph 1 above prove inadequate to meet the purposes normally related to the Working Capital Fund, the Secretary-General is authorized to utilize, in 2023, cash from special funds and accounts in his custody, under the conditions approved by the General Assembly in its resolution <a href="https://undocs.org/en/A/RES/1341(XIII)">1341 (XIII)</a> of 13 December 1958, or the proceeds of loans authorized by the Assembly.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="56th">56th (resumed) plenary meeting</inline>
+        <eol />
+        <docDate date="2022-12-30" refersTo="#adoptionDate">30 December 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
