@@ -1,0 +1,234 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/"></FRBRuri>
+          <FRBRdate date="2022-12-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/fra@/"></FRBRuri>
+          <FRBRdate date="2023-01-05" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-30/77-266/fra@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Working Capital Fund" showAs="UN Working Capital Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+        <keyword value="PROGRAMME BUDGETING" showAs="PROGRAMME BUDGETING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESOURCES ALLOCATION" showAs="RESOURCES ALLOCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FUNDS" showAs="FUNDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="138" showAs="Proposed programme budget for 2023." shortForm="UN--BUDGET (2023)" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-12-30" outcome="draftResolution" as="A/C.5/77/L.10" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/672" by="" refersTo="68" />
+        <step date="2022-12-30" outcome="adopted" as="A/77/PV.56 (Resumption 1)" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="Cinquième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-00150 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/266</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-05" class="rightSmall" refersTo="#dateOfIssuance">5 janvier 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Soixante-dix-septième session</session>
+      </p>
+      <p>
+        <inline title="138" name="agenda item">Point 138 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Projet de budget-programme pour 2023</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 30 décembre 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[sur la base du rapport de la Cinquième Commission (<inline name="originating document">A/77/672, par. 68</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/266.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Fonds de roulement pour 2023</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>
+        </p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> ce qui suit : </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_3__content">
+          <p xml:space="preserve">	Le montant du Fonds de roulement pour 2023 est fixé à 250 millions de dollars des États-Unis ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	Les avances versées par les États Membres, d’un montant total de 150 millions de dollars, seront calculées au moyen du barème des quotes-parts qu’elle a adopté pour l’année 2023, et le montant restant, à savoir 100 millions de dollars, sera imputé sur les soldes inutilisés du budget ordinaire de 2021, à titre exceptionnel et sans créer de précédent, conformément à sa résolution <a href="https://undocs.org/fr/A/RES/76/272">76/272</a> du 29 juin 2022 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>3.</num>
+        <list eId="para_6_list">
+          <intro eId="para_6_list_intro">
+            <p xml:space="preserve">	Il sera déduit des montants ainsi calculés :</p>
+          </intro>
+          <point eId="para_6_list_point_a">
+            <num>a)</num>
+            <content eId="para_6_list_point_a_content">
+              <p xml:space="preserve"> les crédits, d’un montant ajusté de 1 025 092 dollars, revenant aux États Membres en raison du virement d’excédents budgétaires au Fonds de roulement en 1959 et 1960 ;</p>
+            </content>
+          </point>
+          <point eId="para_6_list_point_b">
+            <num>b)</num>
+            <content eId="para_6_list_point_b_content">
+              <p xml:space="preserve"> les avances en espèces que les États Membres auront versées au Fonds de roulement pour l’année 2022 en application de sa résolution <a href="https://undocs.org/fr/A/RES/76/249">76/249</a> du 24 décembre 2021 ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	Si le total des crédits revenant à un État Membre et des avances qu’il a versées au Fonds de roulement pour 2022 est supérieur au montant de l’avance qu’il doit verser en application du paragraphe 2 ci‑dessus, l’excédent sera déduit du montant des contributions dues par cet État Membre pour l’année 2023 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+            <p xml:space="preserve">	Le Secrétaire général est autorisé à avancer, par prélèvement sur le Fonds de roulement :</p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>a)</num>
+            <content eId="para_13_list_point_a_content">
+              <p xml:space="preserve"> les sommes qui seraient nécessaires pour financer les crédits ouverts en attendant le recouvrement des contributions, étant entendu que les sommes ainsi avancées devront être remboursées à mesure du recouvrement des contributions ;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>b)</num>
+            <content eId="para_13_list_point_b_content">
+              <p xml:space="preserve"> les sommes qui seraient nécessaires pour financer les engagements de dépenses qu’elle a autorisés dans ses résolutions, en particulier la résolution <a href="https://undocs.org/fr/A/RES/77/265">77/265</a> du 30 décembre 2022, relative aux dépenses imprévues et extraordinaires de 2023, étant entendu que le Secrétaire général demandera dans le projet de budget les montants nécessaires au remboursement du Fonds de roulement ;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>c)</num>
+            <content eId="para_13_list_point_c_content">
+              <p xml:space="preserve"> les sommes qui seraient nécessaires pour alimenter le fonds d’avances remboursables destiné à financer divers achats et opérations auto-amortissables, étant entendu que, jointes aux montants nets avancés pour le même objet, elles ne pourront dépasser 200 000 dollars mais que des avances dépassant ce montant pourront être versées avec l’assentiment préalable du Comité consultatif pour les questions administratives et budgétaires ;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_d">
+            <num>d)</num>
+            <content eId="para_13_list_point_d_content">
+              <p xml:space="preserve"> avec l’assentiment préalable du Comité consultatif, les sommes qui seraient nécessaires pour régler les primes d’assurance payables d’avance pour une période d’assurance allant au‑delà de l’exercice au cours duquel le versement est effectué, étant entendu que pendant toute la durée de validité des polices, le Secrétaire général demandera dans le projet de budget de chaque exercice les crédits nécessaires au financement des primes dues au titre de l’exercice considéré ;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_e">
+            <num>e)</num>
+            <content eId="para_13_list_point_e_content">
+              <p xml:space="preserve"> les sommes qui seraient nécessaires pour que les engagements courants du Fonds de péréquation des impôts puissent être réglés en attendant que celui‑ci soit crédité des sommes devant venir l’alimenter, étant entendu que les avances ainsi faites seront remboursées dès que le Fonds aura été crédité des sommes attendues ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	Au cas où la somme prévue au paragraphe 1 de la présente résolution ne suffirait pas à financer les besoins de trésorerie normalement couverts par le Fonds de roulement, le Secrétaire général est autorisé à utiliser pendant l’exercice 2023 des sommes qu’il prélèvera sur les fonds et comptes spéciaux commis à sa garde, aux conditions qu’elle a approuvées dans sa résolution <a href="https://undocs.org/fr/A/RES/1341(XIII)">1341 (XIII)</a> du 13 décembre 1958, ou sur le produit d’emprunts qu’elle aura autorisés.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="56e">56e séance plénière (reprise)</inline>
+        <eol />
+        <docDate date="2022-12-30" refersTo="#adoptionDate">30 décembre 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
