@@ -1,0 +1,816 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-227/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-227/"></FRBRuri>
+          <FRBRdate date="2022-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-227/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-227/fra@/"></FRBRuri>
+          <FRBRdate date="2023-01-09" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-227/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-227/fra@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Independent Mechanism to Collect, Consolidate, Preserve and Analyse Evidence of the Most Serious International Crimes and  Violations of International Law committed in Myanmar since 2011" showAs="UN. Human Rights Council. Independent Mechanism to Collect, Consolidate, Preserve and Analyse Evidence of the Most Serious International Crimes and  Violations of International Law committed in Myanmar since 2011" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Special Envoy of the Secretary-General to Myanmar" showAs="UN. Special Envoy of the Secretary-General to Myanmar" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MUSLIMS" showAs="MUSLIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINORITIES" showAs="MINORITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOOD OFFICES" showAs="GOOD OFFICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MYANMAR" showAs="MYANMAR" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REFUGEES" showAs="REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BANGLADESH" showAs="BANGLADESH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="68c" showAs="Human rights situations and reports of special rapporteurs and representatives." shortForm="HUMAN RIGHTS--REPORTS" dictionary="A/77/251"></keyword>
+        <keyword refersTo="agenda" value="68c[5]" showAs="HUMAN RIGHTS--MYANMAR" shortForm="HUMAN RIGHTS--MYANMAR" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-10" outcome="draftResolution" as="A/C.3/77/L.33/Rev.1" by="Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Central African Republic, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Monaco, Montenegro, Netherlands, North Macedonia, Pakistan (on behalf of the States Members of the United Nations that are members of the Organization of Islamic Cooperation), Poland, Portugal, Republic of Korea, Romania, Slovakia, Slovenia, Spain, Sweden and Ukraine" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Argentina, Australia, Canada, Congo, Costa Rica, Guatemala, Japan, Kiribati, Liberia, Liechtenstein, Marshall Islands, Mexico, New Zealand, Norway, San Marino, Switzerland, United Kingdom and United States" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/463/Add.3" by="" refersTo="29" />
+        <step date="2022-12-15" outcome="adopted" as="A/77/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Troisième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-28993 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/227</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-09" class="rightSmall" refersTo="#dateOfIssuance">9 janvier 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Soixante-dix-septième session</session>
+      </p>
+      <p>
+        <inline title="68 c)" name="agenda item">Point 68 c) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 15 décembre 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sur la base du rapport de la Troisième Commission (<inline name="originating document">A/77/463/Add.3, par. 29</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/227.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Situation relative aux droits humains des musulmans rohingya et des autres minorités au Myanmar</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Guidée" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Guidée </span>par la Charte des Nations Unies, la Déclaration universelle des droits de l’homme<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/217(III)">217 A (III)</a>.</p></authorialNote>, les Pactes internationaux relatifs aux droits de l’homme<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/2200(XXI)">2200 A (XXI)</a>.</p></authorialNote> et les autres instruments applicables du droit international et du droit des droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> que c’est aux États qu’il incombe au premier chef de respecter, de promouvoir et de réaliser les droits humains,</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> ses résolutions antérieures sur la situation relative aux droits humains au Myanmar, dont les plus récentes sont les résolutions <a href="https://undocs.org/fr/A/RES/76/180">76/180</a> du 16 décembre 2021, <a href="https://undocs.org/fr/A/RES/75/287">75/287</a> du 18 juin 2021, <a href="https://undocs.org/fr/A/RES/75/238">75/238</a> du 31 décembre 2020, <a href="https://undocs.org/fr/A/RES/74/246">74/246</a> du 27 décembre 2019, <a href="https://undocs.org/fr/A/RES/73/264">73/264</a> du 22 décembre 2018 et <a href="https://undocs.org/fr/A/RES/72/248">72/248</a> du 24 décembre 2017, et rappelant également les résolutions et décisions du Conseil des droits de l’homme, dont les plus récentes sont les résolutions <a href="https://undocs.org/fr/A/hrc/RES/50/3">50/3</a> du 7 juillet 2022<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Documents officiels de l’Assemblée générale</span>, <span class="italic">soixante-dix-septième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/77/53">A/77/53</a>), chap. VIII, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/49/23">49/23</a> du 1<sup>er</sup> avril 2022<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Ibid., chap. VI, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/47/1">47/1</a> du 12 juillet 2021<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Ibid.,<span class="italic"> soixante-seizième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/76/53">A/76/53</a>), chap. VII, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/46/21">46/21</a> du 24 mars 2021<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Ibid., chap. V, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/S-29/1">S-29/1</a> du 12 février 2021<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Ibid., chap. IV.</p></authorialNote>, <a href="https://undocs.org/fr/A/hrc/RES/43/26">43/26</a> du 22 juin 2020<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Ibid.,<span class="italic"> soixante-quinzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/73/53">A/73/53</a>), chap. IV, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/42/3">42/3</a> du 26 septembre 2019<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Ibid.,<span class="italic"> soixante-quatorzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/74/53/Add.1">A/74/53/Add.1</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/39/2">39/2</a> du 27 septembre 2018<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Ibid., <span class="italic">soixante-treizième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/73/53/Add.1">A/73/53/Add.1</a>), chap. II.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/37/32">37/32</a> du 23 mars 2018<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/73/53">A/73/53</a>), chap. IV, sect. A.</p></authorialNote> et <a href="https://undocs.org/fr/A/hrc/RES/S-27/1">S-27/1</a> du 5 décembre 2017<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Ibid., chap. III.</p></authorialNote>, les déclarations de la présidence du Conseil de sécurité en date du 6 novembre 2017<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/PRST/2017/22">S/PRST/2017/22</a> ; voir <span class="italic">Résolutions et décisions du Conseil de sécurité, 2017</span> (<a href="https://undocs.org/fr/S/INF/72">S/INF/72</a>).</p></authorialNote> et du 10 mars 2021<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/PRST/2021/5">S/PRST/2021/5</a>.</p></authorialNote> et les déclarations à la presse du Conseil de sécurité sur la situation au Myanmar en date du 9 mai 2018<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	 	SC/13331.</p></authorialNote>, du 4 février 2021<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		SC/14430.</p></authorialNote> et des 1<sup>er</sup> et 30 avril 2021, ainsi que la résolution <a href="https://undocs.org/fr/S/RES/2467(2019)">2467 (2019)</a> du Conseil de sécurité en date du 23 avril 2019,</p>
+      </container>
+      <container name="Condamnant avec la plus grande fermeté" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant avec la plus grande fermeté </span>toutes les violations des droits humains et atteintes à ces droits commises contre des civils, dont les musulmans rohingya et d’autres minorités au Myanmar, notamment celles commises avant et après la déclaration injustifiée de l’état d’urgence, le 1<sup>er</sup> février 2021, et sa prorogation ultérieure,</p>
+      </container>
+      <container name="Constatant avec préoccupation" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant avec préoccupation</span> que les événements récents résultant de la déclaration de l’état d’urgence par l’armée du Myanmar rendent particulièrement difficile le retour volontaire et durable, en toute sécurité et dans la dignité, de tous les musulmans rohingya déplacés de force et de toutes les personnes déplacées à l’intérieur du pays,</p>
+      </container>
+      <container name="Condamnant avec la plus grande fermeté" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant avec la plus grande fermeté</span> les détentions et les arrestations arbitraires et les condamnations, les peines et les exécutions motivées par des considérations politiques, notamment celles visant les militants de l’opposition, ainsi que les actes de violence, y compris les exécutions extrajudiciaires, les violences sexuelles et fondées sur le genre et les actes de torture commis contre la population civile, notamment contre des médecins, des enseignants, des étudiants, des avocats, des artistes, des journalistes et bien d’autres, ce qui accentue la polarisation, exacerbe la violence et aggrave la situation humanitaire dans le pays,</p>
+      </container>
+      <container name="Se déclarant profondément préoccupée" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant profondément préoccupée </span>par le recours aveugle à la violence et par l’escalade actuelle du conflit, qui compromettent gravement l’exercice des droits humains par les civils au Myanmar, en particulier les femmes, les enfants et les personnes âgées, ainsi que les personnes appartenant à des minorités ethniques et religieuses, notamment les musulmans rohingya, en raison de la forte militarisation du Myanmar, aggravée par un accès ininterrompu aux armes,</p>
+      </container>
+      <container name="Soulignant" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant </span>qu’il est urgent que l’armée du Myanmar mette fin sans plus tarder à tous les actes de violence et libère immédiatement et sans condition toutes les personnes détenues arbitrairement,</p>
+      </container>
+      <container name="Exprimant son appui sans équivoque" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Exprimant son appui sans équivoque </span>à la population du Myanmar et à sa volonté et ses intérêts démocratiques, et affirmant sans conteste qu’il faut reconstruire et renforcer les institutions et mécanismes démocratiques, s’abstenir de tout recours à la violence et à la détention arbitraire et respecter pleinement les droits humains, les libertés fondamentales et l’état de droit,</p>
+      </container>
+      <container name="Saluant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> l’action menée par l’Envoyée spéciale du Secrétaire général pour le Myanmar, et l’encourageant dans les efforts qu’elle déploie pour se concerter avec toutes les parties prenantes, y compris la société civile et les populations touchées, en particulier les femmes et les jeunes, et pour engager un dialogue inclusif avec elles, et exhortant l’armée du Myanmar à coopérer pleinement avec l’Envoyée spéciale,</p>
+      </container>
+      <container name="Saluant également" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Saluant également</span> l’action menée par le Rapporteur spécial sur la situation des droits de l’homme au Myanmar et se félicitant des rapports qu’il a présentés, tout en regrettant vivement l’absence de coopération de la part de l’armée du Myanmar aux fins de l’exécution du mandat à cet égard, et exhortant celle-ci à coopérer pleinement avec le Rapporteur spécial,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Accueillant avec satisfaction </span>le rapport de la Haute-Commissaire des Nations Unies aux droits de l’homme sur les causes profondes des violations des droits humains et atteintes à ces droits dont les Rohingya et d’autres minorités au Myanmar sont victimes<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/49/72">A/HRC/49/72</a>.</p></authorialNote>, et réaffirmant combien il importe d’appliquer pleinement les recommandations qui y figurent,</p>
+      </container>
+      <container name="Rappelant" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>le travail accompli par la mission internationale indépendante d’établissement des faits sur le Myanmar, y compris son dernier rapport<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/42/50">A/HRC/42/50</a>.</p></authorialNote> et tous ses autres rapports, dont celui sur les intérêts économiques de l’armée du Myanmar et celui sur la violence sexuelle et fondée sur le genre au Myanmar et l’incidence disproportionnée sur les femmes et les filles de ses conflits ethniques, et regrettant vivement que le Myanmar n’ait pas coopéré avec la mission d’établissement des faits,</p>
+      </container>
+      <container name="Alarmée" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Alarmée</span> par les conclusions de la mission internationale indépendante d’établissement des faits sur le Myanmar sur les preuves de violations les plus graves des droits humains et d’atteintes à ces droits subies par les musulmans rohingya et d’autres minorités et perpétrées par l’armée et les forces de sécurité du Myanmar, qui, selon elle, constituent indéniablement les crimes les plus graves au regard du droit international,</p>
+      </container>
+      <container name="Déplorant vivement" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Déplorant vivement</span> qu’il n’y ait guère eu de progrès dans la mise en œuvre des recommandations de la mission d’établissement des faits concernant la conduite d’enquêtes rapides, effectives, approfondies, indépendantes et impartiales et l’engagement de poursuites contre les auteurs de crimes commis dans l’ensemble du Myanmar,</p>
+      </container>
+      <container name="Déplorant" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Déplorant </span>que, contrairement aux recommandations de la mission d’établissement des faits, les lois, ordonnances, politiques et pratiques qui restreignent les libertés de circulation, d’expression, d’association ou de réunion ou sont discriminatoires dans leur application ou leurs effets et qui sont en vigueur à tous les niveaux de l’administration publique continuent d’être utilisées pour étouffer la liberté d’association, la liberté d’expression et la liberté de la presse,</p>
+      </container>
+      <container name="Saluant" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Saluant</span> les travaux du Mécanisme d’enquête indépendant pour le Myanmar, créé par le Conseil des droits de l’homme dans sa résolution <a href="https://undocs.org/fr/A/HRC/RES/39/2">39/2</a> afin de recueillir, de rassembler, de conserver et d’analyser, en utilisant les informations communiquées par la mission internationale indépendante d’établissement des faits, les éléments venant prouver que des crimes internationaux et des violations du droit international humanitaire parmi les plus graves sont commis au Myanmar depuis 2011, en particulier mais non exclusivement dans les États rakhine, kachin et shan, et de constituer des dossiers en vue de faciliter la tenue rapide de procès équitables et indépendants conduits dans le respect des normes du droit international devant des cours ou des tribunaux nationaux, régionaux ou internationaux qui ont ou pourraient avoir compétence pour connaître de pareils crimes, conformément au droit international,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Accueillant avec satisfaction</span> les rapports du Mécanisme d’enquête indépendant pour le Myanmar créé par le Conseil des droits de l’homme dans sa résolution <a href="https://undocs.org/fr/A/HRC/RES/39/2">39/2</a>, notamment le quatrième rapport qui lui a été présenté le 12 juillet 2022<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/51/4">A/HRC/51/4</a>.</p></authorialNote>, et encourageant le Mécanisme à poursuivre l’expansion de sa communication externe, par laquelle il explique son mandat et son fonctionnement aux victimes et à d’autres parties concernées,</p>
+      </container>
+      <container name="Se félicitant" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> que le Gouvernement bangladais ait coopéré avec le Mécanisme d’enquête indépendant pour le Myanmar et soulignant, à cet égard, l’appel lancé par le Mécanisme aux autres États Membres pour qu’ils coopèrent pleinement et de manière constructive, de sorte que le Mécanisme puisse s’acquitter pleinement de son mandat,</p>
+      </container>
+      <container name="Consciente" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente</span> des travaux complémentaires relatifs au Myanmar menés par les divers titulaires de mandat au titre des procédures spéciales et les mécanismes de surveillance des organes conventionnels des Nations Unies, y compris les mécanismes internationaux de justice et d’établissement des responsabilités qui s’emploient à améliorer la situation relative aux droits humains au Myanmar,</p>
+      </container>
+      <container name="Considérant" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant</span> l’importance du rôle joué par les organisations régionales dans les efforts faits pour régler de manière pacifique les différends locaux, comme le prévoit le Chapitre VIII de la Charte, tout en notant que ces efforts n’excluent aucune action au titre du Chapitre VI de la Charte,</p>
+      </container>
+      <container name="Consciente" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> de l’importance du rôle joué par l’Association des nations de l’Asie du Sud-Est pour ce qui est de faciliter l’instauration au Myanmar de conditions favorisant le retour volontaire et durable, en toute sécurité et dans la dignité, des personnes déplacées de force, notamment des musulmans rohingya, et réaffirmant la nécessité de travailler en étroite coordination et en pleine concertation avec les musulmans rohingya, ainsi qu’avec tous les organismes compétents des Nations Unies et les partenaires internationaux, afin de trouver une solution aux causes profondes de la crise et des déplacements pour permettre aux communautés touchées de se reconstruire après leur retour au Myanmar,</p>
+      </container>
+      <container name="Saluant" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> la déclaration faite par le Président de l’Association des nations de l’Asie du Sud-Est à la réunion des dirigeants de l’Association qui s’est tenue le 24 avril 2021 à Jakarta<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/75/868">A/75/868</a>, annexe.</p></authorialNote>, dans laquelle le Président a encouragé le Secrétaire général de l’Association à continuer de recenser les domaines dans lesquels il serait possible de faciliter effectivement le rapatriement des personnes déplacées de l’État rakhine, constatant que ces conditions ne sont pas remplies, et insistant sur l’importance que revêtent les efforts visant à remédier aux causes profondes de la situation dans l’État rakhine et le consensus en cinq points de l’Association, notamment le fait que celui‑ci soit appliqué intégralement dans les meilleurs délais,</p>
+      </container>
+      <container name="Se félicitant" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Se félicitant </span>de l’action menée par l’Organisation de la coopération islamique, outre celle menée sur le plan international, pour instaurer la paix et la stabilité dans l’État rakhine et dans d’autres États et régions du Myanmar, y compris par le truchement de l’Envoyé spécial du Secrétaire général de l’Organisation de la coopération islamique pour le Myanmar,</p>
+      </container>
+      <container name="Soulignant" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> à quel point il importe qu’il y ait une coordination étroite entre l’Envoyée spéciale du Secrétaire général pour le Myanmar et tous les autres envoyés concernés,</p>
+      </container>
+      <container name="Considérant" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> le rôle que la société civile joue pour ce qui est de signaler les violations et les atteintes les plus graves aux droits humains et les violations du droit international humanitaire commises au Myanmar, le cas échéant,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Accueillant avec satisfaction</span> le rapport du Secrétaire général<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/77/255">A/77/255</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Se félicitant" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Se félicitant </span>des processus en cours visant à ce que justice soit faite et à ce que soient établies les responsabilités pour les crimes qui auraient été commis contre les musulmans rohingya et d’autres minorités au Myanmar,</p>
+      </container>
+      <container name="Notant" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Notant</span> que la Cour pénale internationale a autorisé son procureur à enquêter sur des infractions relevant de la compétence de la Cour qui auraient été commises au Bangladesh et au Myanmar, et se félicitant de la coopération dont le Bangladesh a fait preuve à l’égard du Bureau du Procureur,</p>
+      </container>
+      <container name="Se félicitant" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de l’arrêt rendu par la Cour internationale de Justice le 22 juillet 2022 rejetant les exceptions préliminaires soulevées par le Myanmar suite à la requête déposée par la Gambie contre le Myanmar en l’affaire relative à l’application de la Convention pour la prévention et la répression du crime de génocide<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/260(III)">260 A (III)</a>, annexe.</p></authorialNote>, et jugeant la requête de la Gambie recevable,</p>
+      </container>
+      <container name="Rappelant" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> l’ordonnance rendue, le 23 janvier 2020, par la Cour internationale de Justice, indiquant des mesures conservatoires sur la requête déposée par la Gambie contre le Myanmar en l’affaire relative à l’application de la Convention pour la prévention et la répression du crime de génocide, dans laquelle la Cour a estimé que les Rohingya au Myanmar semblaient constituer un groupe protégé au sens de l’article 2 de la Convention et qu’il existait un risque réel et imminent qu’un préjudice irréparable soit causé à leurs droits, et demandant au Myanmar de respecter pleinement l’ordonnance de la Cour,</p>
+      </container>
+      <container name="Prenant note" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note </span>de la publication du résumé du rapport de la commission d’enquête indépendante créée par le Myanmar en 2018 qui, nonobstant ses limites, a conclu que des crimes de guerre, des violations graves des droits humains et des violations du droit interne avaient été commis par de multiples acteurs et qu’il y avait des motifs raisonnables de penser que des membres des forces de sécurité du Myanmar étaient impliqués, et regrettant que le rapport de la commission n’ait pas été publié dans son intégralité à ce jour,</p>
+      </container>
+      <container name="Condamnant" eId="container_34">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant </span>toutes les violations des droits humains au Myanmar et les atteintes à ces droits, y compris celles commises contre les musulmans rohingya et d’autres minorités, ainsi que l’usage excessif de la force et le recours à la violence, y compris à la torture et à la violence sexuelle et fondée sur le genre, par l’armée du Myanmar à l’égard de manifestants pacifiques, de membres de la société civile, de femmes, de jeunes, d’enfants, des minorités et d’autres, qui ont fait des blessés et des morts dans bien des cas, notant avec une profonde préoccupation les restrictions injustifiées auxquelles sont soumises les activités du personnel médical et humanitaire, de tous les autres représentants de la société civile, des syndiqués, des journalistes et des professionnels des médias, et demandant la libération immédiate de toutes les personnes détenues arbitrairement, y compris les ressortissants étrangers,</p>
+      </container>
+      <container name="Se déclarant de nouveau vivement préoccupée" eId="container_35">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant de nouveau vivement préoccupée</span> par l’usage excessif de la force par l’armée et les forces de sécurité du Myanmar dans la plupart des États et des régions, par le fait que des civils, y compris des membres de minorités ethniques, continuent d’être déplacés de force, enlevés, placés en détention arbitraire et tués, ou subissent des atteintes à leur intégrité physique, par l’enrôlement et l’utilisation d’enfants, par les attaques perpétrées contre des écoles, des hôpitaux, des lieux de culte et des rassemblements de civils, par l’utilisation à des fins militaires ou criminelles d’installations qui servent normalement d’hôpitaux ou d’écoles, et par les informations faisant état de violations des droits humains et d’atteintes à ces droits, y compris celles impliquant l’utilisation de mines terrestres, qui empêchent le retour volontaire et durable, en toute sécurité et dans la dignité, de tous les réfugiés et de toutes les personnes déplacées de force, y compris les Rohingya, dans l’État rakhine,</p>
+      </container>
+      <container name="Soulignant" eId="container_36">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant </span>qu’il faut promouvoir d’urgence le déminage, l’élimination des restes explosifs de guerre et les programmes de sensibilisation des civils au danger des mines et considérer comme prioritaires l’assistance aux victimes et la destruction des stocks, notamment avant tout retour de personnes déplacées dans des zones contaminées,</p>
+      </container>
+      <container name="Alarmée" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">	Alarmée</span> par le fait que des enfants continuent d’être soumis aux six violations graves des droits de l’enfant commises lors de conflits armés et que l’ampleur et la récurrence de ces violations et atteintes auront des conséquences sur plusieurs générations à venir,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_38">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> qu’il faut d’urgence veiller à ce que tous les auteurs de violations des droits humains et d’atteintes à ces droits au Myanmar, y compris le droit international des droits de l’homme, le droit international humanitaire et le droit pénal international, répondent de leurs actes dans le cadre de mécanismes crédibles et indépendants de justice pénale nationaux, régionaux ou internationaux, tout en rappelant la compétence du Conseil de sécurité à cet égard,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Notant avec une vive préoccupation </span>que, dans l’État rakhine, plus de 600 000 musulmans rohingya continuent de faire l’objet d’une forte ségrégation et d’une grave discrimination pour ce qui est de l’accès à la citoyenneté et de l’exercice de leurs droits humains et de leurs libertés fondamentales, et un grand nombre d’entre eux demeurent confinés dans des camps, privés de la liberté de circulation et n’ayant qu’un accès extrêmement restreint aux services essentiels, y compris aux services de santé et à l’éducation, ainsi qu’aux moyens de subsistance,</p>
+      </container>
+      <container name="Exprimant sa profonde inquiétude" eId="container_40">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant sa profonde inquiétude</span> face à l’escalade des affrontements dans l’État rakhine, notamment les activités militaires croissantes des forces de sécurité du Myanmar près de la frontière qui sépare le Bangladesh du Myanmar, y compris les échanges de tirs répétés à la frontière et les violations de l’espace aérien du Bangladesh qui font des victimes et sèment la panique parmi les civils des deux côtés de la frontière,</p>
+      </container>
+      <container name="Préoccupée" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Préoccupée</span> par le fait que les musulmans rohingya et d’autres minorités, en particulier les femmes et les filles, continuent d’être fortement exposés au risque de violences sexuelles et fondées sur le genre, surtout dans le contexte du conflit qui oppose l’armée et les forces de sécurité à l’armée arakanaise,</p>
+      </container>
+      <container name="Exprimant sa profonde inquiétude" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Exprimant sa profonde inquiétude</span> face aux informations faisant état de violences perpétrées par l’armée et les forces de sécurité, qui touchent de manière disproportionnée les civils, notamment les musulmans rohingya et d’autres minorités au Myanmar, des écoles, des sites religieux et des habitations ayant été pris pour cible,</p>
+      </container>
+      <container name="Se déclarant de nouveau profondément préoccupée" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Se déclarant de nouveau profondément préoccupée</span> par l’escalade de la violence et par les déplacements forcés de civils qui se poursuivent, ainsi que par les violations des droits humains et les atteintes à ces droits commises contre des musulmans rohingya et d’autres minorités, qui rendent les conditions impropres au retour volontaire et durable, en toute sécurité et dans la dignité, de tous les réfugiés et personnes déplacées de force, y compris les Rohingya, au Myanmar,</p>
+      </container>
+      <container name="Soulignant de nouveau" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">Soulignant de nouveau</span> qu’il importe que l’armée et les forces de sécurité du Myanmar et les autres groupes armés cessent immédiatement toute action qui soit de nature à compromettre la protection de l’ensemble des personnes se trouvant dans le pays, dont celles appartenant à la communauté rohingya, dans le respect du droit international, notamment le droit international humanitaire et le droit international des droits de l’homme, et qu’elles mettent fin à la violence, y compris la violence sexuelle, et demandant que des mesures urgentes soient prises pour que justice soit faite s’agissant de toutes les violations des droits humains et du droit international humanitaire, et pour assurer le retour volontaire et durable, dans des conditions de sécurité et de dignité, dans leur lieu d’origine ou à l’endroit de leur choix, des personnes déplacées par la violence,</p>
+      </container>
+      <container name="Alarmée" eId="container_45">
+        <p xml:space="preserve">
+          <span class="italic">	Alarmée</span> par les attaques qui ne cessent d’être dirigées contre des membres du personnel médical et humanitaire et par l’absence d’accès humanitaire sûr et sans entrave, et demandant à toutes les parties, en particulier aux forces armées du Myanmar, de respecter à cet égard le droit international, y compris le droit international humanitaire, et de permettre aux acteurs humanitaires d’apporter une aide humanitaire de manière indépendante, neutre et impartiale,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_46">
+        <p xml:space="preserve">	<span class="italic">Notant avec une vive préoccupation</span> que l’accès aux prisons n’a pas été accordé au Comité international de la Croix-Rouge, ce qui empêche les familles d’être informées de l’état de santé et des conditions des détenus, et que les détenus n’ont pas accès aux soins dont ils ont besoin,</p>
+      </container>
+      <container name="Se déclarant de nouveau profondément consternée" eId="container_47">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant de nouveau profondément consternée</span> par les informations selon lesquelles, dans l’État rakhine, des personnes non armées sont soumises à un emploi excessif de la force ainsi qu’à des violations du droit des droits de l’homme et du droit international humanitaire par l’armée et les forces de sécurité, notamment des exécutions extrajudiciaires, sommaires ou arbitraires, des viols systématiques et d’autres formes de violence sexuelle et fondée sur le genre, des détentions arbitraires, des disparitions forcées et la saisie par le Gouvernement des terres des Rohingya dont les musulmans rohingya ont été évincés et où leurs habitations ont été détruites, et demeurant préoccupée par les destructions à grande échelle de logements et les expulsions systématiques dans le nord de l’État rakhine, y compris le recours aux incendies volontaires et à la violence, ainsi que l’emploi illicite de la force par des agents non étatiques, qui ont été signalés précédemment,</p>
+      </container>
+      <container name="Se déclarant préoccupée" eId="container_48">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant préoccupée</span> par le fait que, dans le nord de l’État rakhine, la mise en place de politiques sous prétexte de développement économique et de reconstruction par l’armée du Myanmar et la forte militarisation de la zone ont entraîné une modification de la structure démographique qui empêche les musulmans rohingya déplacés de retourner dans l’État rakhine,</p>
+      </container>
+      <container name="Soulignant" eId="container_49">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il faut engager une désescalade et mettre en place un cessez-le-feu durable dans l’ensemble du Myanmar et que la meilleure façon d’y parvenir est d’instaurer un dialogue entre toutes les parties,</p>
+      </container>
+      <container name="Soulignant également" eId="container_50">
+        <p xml:space="preserve">	<span class="italic">Soulignant également</span> qu’il convient de reprendre les travaux de consolidation de la paix vu l’importance qu’ils revêtent pour l’édification d’un État-nation inclusif,</p>
+      </container>
+      <container name="Soulignant en outre" eId="container_51">
+        <p xml:space="preserve">	<span class="italic">Soulignant en outre</span> qu’il importe de soutenir la participation des femmes, y compris à des fonctions de responsabilité, à l’édification d’un État-nation inclusif, notamment en donnant plus de poids au rôle qu’elles pourraient jouer au Myanmar en tant que relais de la paix, par la promotion de la cohésion sociale dans les différentes communautés ethniques et religieuses, et se félicitant ainsi du développement du cadre pour les femmes et la paix et la sécurité au Myanmar, avec le concours de l’Envoyée spéciale du Secrétaire général pour le Myanmar et de la Ministre indonésienne des affaires étrangères,</p>
+      </container>
+      <container name="Constatant une fois de plus avec une vive inquiétude" eId="container_52">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant une fois de plus avec une vive inquiétude</span> que, bien qu’ils aient vécu au Myanmar durant des générations avant l’indépendance du pays, aient détenu des pièces d’identité en règle et aient participé activement à la vie publique et civique, les membres de la minorité rohingya ont été rendus apatrides par la promulgation de la loi de 1982 sur la citoyenneté et privés du droit de vote et exclus du processus électoral en 2015,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_53">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> que le refus d’accorder aux musulmans rohingya et à d’autres minorités la citoyenneté et les droits qui y sont attachés, notamment le droit de vote, pose un problème grave sur le plan des droits humains,</p>
+      </container>
+      <container name="Mettant de nouveau l’accent" eId="container_54">
+          <p xml:space="preserve">
+            <span class="italic">	Mettant de nouveau l’accent</span> sur le droit de tous les réfugiés et l’importance pour toutes les personnes déplacées de réintégrer leurs foyers et le faire dans la sécurité et la dignité, de leur plein gré et de façon durable, et appelant la communauté internationale à assumer collectivement la responsabilité de la prise en charge des personnes déplacées de force dans la région,</p>
+      </container>
+      <container name="Se disant préoccupée" eId="container_55">
+        <p xml:space="preserve">
+          <span class="italic">	Se disant préoccupée</span> par les mouvements maritimes irréguliers des Rohingya, qui risquent leur vie en se soumettant à des conditions périlleuses aux mains de passeurs qui les exploitent, ce qui met en évidence leur situation désespérée et la nécessité urgente de remédier aux causes profondes de leur vulnérabilité,</p>
+      </container>
+      <container name="Alarmée" eId="container_56">
+        <p xml:space="preserve">
+          <span class="italic">	Alarmée </span>par l’afflux au Bangladesh, depuis une quarantaine d’années, de 1,1 million de musulmans rohingya du Myanmar, dont plus de 940 000 qui y vivent actuellement et qui, pour la plupart, sont arrivés après le 25 août 2017 à la suite des atrocités commises par l’armée et les forces de sécurité du Myanmar,</p>
+      </container>
+      <container name="Rappelant" eId="container_57">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> qu’un accord bilatéral sur le retour a été conclu entre le Gouvernement bangladais et le Gouvernement du Myanmar le 23 novembre 2017 à Nay Pyi Taw et qu’un groupe de travail conjoint composé de 30 membres a été constitué le 19 décembre 2017 pour faciliter le rapatriement des Rohingya déplacés au Myanmar, et regrettant que le processus de rapatriement visé dans l’accord n’ait pas pu démarrer, les conditions dans l’État rakhine n’étant toujours pas favorables,</p>
+      </container>
+      <container name="Soulignant" eId="container_58">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il faut que le mémorandum d’accord entre le Myanmar et le Programme des Nations Unies pour le développement et le Haut-Commissariat des Nations Unies pour les réfugiés sur l’aide au processus de rapatriement de toutes les personnes déplacées de l’État rakhine, y compris les musulmans rohingya, soit appliqué et que son application fasse l’objet d’un suivi, et demandant aux parties concernées du Myanmar d’accorder aux organismes des Nations Unies un accès sans entrave au nord de l’État afin de pouvoir œuvrer concrètement en ce sens,</p>
+      </container>
+      <container name="Se déclarant de nouveau vivement préoccupée" eId="container_59">
+        <p xml:space="preserve">	<span class="italic">Se déclarant de nouveau vivement préoccupée</span> par la diffusion constante, en particulier dans les médias sociaux, d’informations fallacieuses, de discours de haine et de propos incendiaires, visant surtout les musulmans rohingya et d’autres minorités,</p>
+      </container>
+      <container name="Se déclarant de nouveau gravement préoccupée" eId="container_60">
+        <p xml:space="preserve">	<span class="italic">Se déclarant de nouveau gravement préoccupée </span>par les restrictions et les attaques dont font l’objet la société civile, les journalistes et les professionnels des médias au Myanmar, notamment les restrictions concernant le fait de chercher, de recevoir et de communiquer des informations et le blocage d’Internet, qui peuvent exacerber plus encore la détresse des musulmans rohingya et d’autres minorités,</p>
+      </container>
+      <container name="Insistant" eId="container_61">
+        <p xml:space="preserve">	<span class="italic">Insistant </span>sur l’importance de l’appel lancé par le Secrétaire général en vue d’une intensification des efforts menés pour appliquer les recommandations de la Commission consultative sur l’État rakhine, afin de s’attaquer aux causes profondes de la crise, y compris l’accès à la citoyenneté pour les Rohingya, la liberté de circulation, l’élimination de la ségrégation systématique et de toutes formes de discrimination et un accès égal et équitable aux services de santé, à l’éducation et à l’enregistrement des naissances, en pleine consultation avec les membres de tous les groupes ethniques et minoritaires et les personnes en situation de vulnérabilité, y compris en ce qui concerne les questions de citoyenneté pour les Rohingya,</p>
+      </container>
+      <container name="Prenant acte" eId="container_62">
+        <p xml:space="preserve">	<span class="italic">Prenant acte</span> des déclarations formulées par le Gouvernement d’union nationale dans le document de position politique sur les Rohingya dans l’État rakhine, publié le 3 juin 2021,</p>
+      </container>
+      <container name="Rappelant" eId="container_63">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> l’attachement du Secrétaire général à l’application des recommandations formulées par l’enquête indépendante sur l’engagement des organismes des Nations Unies au Myanmar de 2010 à 2018 et soulignant qu’il faut appliquer les recommandations pertinentes pour renforcer la capacité de prévention des organismes des Nations Unies et accroître l’efficacité de leurs travaux,</p>
+      </container>
+      <container name="Se déclarant préoccupée" eId="container_64">
+        <p xml:space="preserve">	<span class="italic">Se déclarant préoccupée</span> par le fait que les événements survenus depuis le 1<sup>er</sup> février 2021 rendent particulièrement difficile le retour volontaire et durable, en toute sécurité et dans la dignité, des musulmans rohingya déplacés de force et de toutes les autres personnes déplacées, et soulignant à cet égard qu’il importe de s’attaquer aux causes profondes de la crise sévissant au Myanmar, notamment dans l’État rakhine, et réaffirmant qu’il faut que cesse immédiatement l’emploi de la force qui entraînerait, pour les musulmans rohingya et les membres d’autres minorités, de nouveaux déplacements dans le pays ou dans les pays voisins,</p>
+      </container>
+      <container name="Insistant" eId="container_65">
+        <p xml:space="preserve">	<span class="italic">Insistant</span> sur la nécessité de trouver une solution pacifique pour le Myanmar au moyen d’un dialogue ouvert et serein entre toutes les parties, selon le vœu et dans l’intérêt de la population du Myanmar,</p>
+      </container>
+      <container name="Soulignant" eId="container_66">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> qu’il importe d’assurer l’égalité des chances aux fins de la représentation et de la participation pleine, égale et effective des Rohingya, des autres minorités et des personnes déplacées, des candidats et des électeurs à toutes les élections générales organisées de manière démocratique, et de veiller à ce que tous les ressortissants du Myanmar puissent voter, pour permettre à tous les candidats de participer aux élections de manière équitable,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_67">
+        <p xml:space="preserve">
+          <span class="italic">	Accueillant avec satisfaction </span>les conclusions formulées par le Groupe de travail du Conseil de sécurité sur les enfants et les conflits armés au sujet des enfants et du conflit armé au Myanmar<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		<a href="https://undocs.org/fr/S/2022/493">S/2022/493</a>.</p></authorialNote>, et prenant note des inquiétudes exprimées par le Groupe sur les violations graves commises à l’égard des enfants et de la préoccupation exprimée par le Secrétaire général au sujet des enfants et du conflit armé au Myanmar dans son rapport,</p>
+      </container>
+      <container name="Saluant" eId="container_68">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> les engagements humanitaires que le Gouvernement bangladais a pris en faveur des personnes qui fuient les violations des droits humains et les atteintes à ces droits commises au Myanmar et les efforts continus qu’il déploie dans ce cadre en coopération avec les organismes des Nations Unies et la communauté internationale, notamment tous les acteurs humanitaires, accueillant à cet égard avec satisfaction le mémorandum d’accord conclu entre le Gouvernement bangladais et le Haut-Commissariat des Nations Unies pour les réfugiés agissant pour le compte de l’Organisation des Nations Unies en vue de la fourniture de l’aide humanitaire aux Rohingya réinstallés à Bhashan Char, et consciente des investissements importants que le Gouvernement bangladais effectue en faveur de son projet de Bhashan Char, notamment des structures d’accueil et des infrastructures, tout en notant l’importance des efforts déployés pour assurer la durabilité du projet,</p>
+      </container>
+      <container name="Sachant" eId="container_69">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> que de nombreux États membres de l’Organisation de la coopération islamique continuent d’accueillir un grand nombre de réfugiés musulmans rohingya qui ont fui la crise,</p>
+      </container>
+      <container name="Se félicitant" eId="container_70">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> des déclarations faites le 1<sup>er</sup> février et le 2 mars 2021, dans lesquelles le Président de l’Association des nations de l’Asie du Sud-Est a rappelé les buts et principes énoncés dans la Charte de cette organisation, notamment le principe de démocratie, le respect de l’état de droit, la bonne gouvernance, le respect et la protection des droits humains et des libertés fondamentales, et demandé à toutes les parties de faire preuve de la plus grande retenue et de rechercher une solution pacifique par un dialogue constructif et une réconciliation pragmatique dans l’intérêt de la population et des moyens de subsistance de celle-ci,</p>
+      </container>
+      <container name="Exprimant sa profonde inquiétude" eId="container_71">
+        <p xml:space="preserve">	<span class="italic">Exprimant sa profonde inquiétude</span> quant au fait qu’il n’y a pas de véritables progrès dans la mise en œuvre du consensus en cinq points de l’Association des nations de l’Asie du Sud-Est, notant que l’Association a considéré que l’exécution de militants de l’opposition était hautement répréhensible et témoignait d’une absence flagrante de volonté de soutenir les efforts de la présidence de l’Association, et demandant de nouveau que des actions concrètes soient prises pour mettre en œuvre effectivement et intégralement le consensus en cinq points,</p>
+      </container>
+      <container name="Soulignant" eId="container_72">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> que, pour mener une action rationnelle et efficace face à la pandémie de maladie à coronavirus (COVID‑19), il faut garantir un accès rapide, équitable et sans entrave à des médicaments, vaccins, diagnostics, thérapies et autres produits et technologies de santé sûrs, abordables, efficaces et de bonne qualité, y compris pour les personnes les plus vulnérables, celles touchées ou déplacées par les conflits armés dans le pays et les membres des minorités, notamment rohingya,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare vivement préoccupée</span> par la persistance des informations faisant état de graves violations des droits humains et d’atteintes à ces droits commises par l’armée et les forces de sécurité ainsi que de violations du droit international humanitaire commises au Myanmar, en particulier contre les Rohingya et d’autres minorités, y compris les arrestations arbitraires, la mort en détention, la torture et autres peines ou traitements cruels, inhumains ou dégradants, le meurtre et les atteintes intentionnelles à l’intégrité physique d’enfants, le recrutement et l’emploi d’enfants à des fins de travail forcé, les attaques visant des écoles, des hôpitaux et des lieux de culte et les personnes protégées liées aux écoles et aux hôpitaux, le pilonnage sans discrimination de zones civiles, la destruction, y compris par le feu, d’habitations, la privation des droits économiques et sociaux, le déplacement forcé, notamment celui de plus de 1,5 million de Rohingya et de membres d’autres minorités au Bangladesh et dans toute la région, le viol, l’esclavage sexuel et d’autres formes de violence sexuelle et fondée sur le genre, ainsi que les restrictions à l’exercice du droit à la liberté de religion ou de conviction, d’expression et de réunion pacifique, les restrictions à la liberté des médias ou à la liberté d’accès à Internet et autres restrictions ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Condamne avec la plus grande fermeté </span>toutes les violations des droits humains et atteintes à ces droits commises contre des civils au Myanmar, dont les musulmans rohingya et d’autres minorités du Myanmar, notamment celles commises avant et après la déclaration injustifiée de l’état d’urgence, le 1<sup>er</sup> février 2021, et sa prorogation ultérieure, et insiste sur l’importance de diligenter des enquêtes internationales indépendantes, équitables et transparentes sur les violations les plus graves des droits humains au Myanmar, y compris les violences sexuelles et fondées sur le genre et les violations et sévices commis contre les femmes et les enfants, et de demander des comptes aux responsables d’actes brutaux et de crimes contre toutes les personnes, y compris les Rohingya, afin de rendre justice aux victimes au moyen de tous les instruments juridiques et les mécanismes judiciaires nationaux, régionaux et internationaux, y compris la Cour internationale de Justice et la Cour pénale internationale, le cas échéant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à l’armée et aux forces de sécurité du Myanmar de respecter les aspirations démocratiques de la population du Myanmar, de mettre fin à la violence, de respecter pleinement les droits humains, les libertés fondamentales et l’état de droit, et de mettre un terme à l’état d’urgence déclaré le 1<sup>er</sup> février 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à l’armée et aux forces de sécurité du Myanmar ainsi qu’aux autres groupes armés de mettre fin à toutes les hostilités et violences, et appelle de ses vœux la libération immédiate de toutes les personnes détenues arbitrairement, y compris les ressortissants étrangers ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe de convenir d’un cessez-le-feu durable, y compris dans l’État rakhine, de le faire respecter et de faire cesser la violence, et que l’armée et les forces de sécurité du Myanmar ainsi que les autres groupes armés doivent faire preuve de retenue, le but étant de garantir la sûreté, la sécurité et la protection des civils, y compris ceux qui sont déplacés et qui souhaitent rentrer chez eux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à toutes les parties au conflit de coopérer davantage avec l’Organisation des Nations Unies et la Représentante spéciale du Secrétaire général pour la question des enfants et des conflits armés, afin de mieux protéger les enfants, notamment par la signature d’engagements concrets assortis de délais ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Prend note </span>de l’ordonnance rendue, le 23 janvier 2020, par la Cour internationale de Justice indiquant des mesures conservatoires, et prie instamment le Myanmar de respecter les dispositions de cette ordonnance en ce qu’elles concernent les Rohingya présents sur son territoire et de faire tout ce qui est en son pouvoir pour prévenir la commission de tous les actes visés à l’article 2 de la Convention pour la prévention et la répression du crime de génocide, de veiller à ce qu’aucun de ces actes, entre autres, ne soit commis par ses unités militaires, par les unités armées non conventionnelles qui pourraient relever de son autorité ou bénéficier de son appui, ou par les organisations ou personnes qui pourraient être placées sous son contrôle, son autorité ou son influence, d’empêcher la destruction des éléments de preuve et d’en assurer la conservation, et de rendre compte à la Cour de l’ensemble des mesures prises pour donner effet à l’ordonnance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="italic">Note </span>que la Cour internationale de Justice a rejeté, le 22 juillet 2022, les exceptions préliminaires soulevées par le Myanmar contestant la compétence de la Cour en l’affaire introduite par la Gambie concernant l’application de la Convention sur le génocide, et qu’elle a jugé les requêtes de la Gambie recevables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare profondément préoccupée</span> par le fait que, malgré les mesures conservatoires ordonnées par la Cour internationale de Justice le 23 janvier 2020, les musulmans rohingya du Myanmar, y compris des femmes et des enfants, continuent d’être victimes d’assassinats ciblés et d’actes de violence aveugle et de subir des blessures graves causées notamment par des tirs frappant sans discrimination, des bombardements, des mines terrestres ou des munitions non explosées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare vivement préoccupée</span> par les restrictions imposées à l’accès humanitaire dans toutes les zones de conflit au Myanmar, notamment dans les États rakhine et chin, ainsi que par la faible portée des mesures prises pour assurer l’accès des Rohingya aux soins de santé, et demande instamment qu’un accès total, sûr et sans entrave soit accordé à tous les acteurs humanitaires et à tous les titulaires de mandat et mécanismes de l’Organisation des Nations Unies relatifs aux droits de l’homme, y compris le Rapporteur spécial sur la situation des droits de l’homme au Myanmar, l’Envoyée spéciale du Secrétaire général pour le Myanmar, l’équipe spéciale de surveillance et d’information des Nations Unies chargée des cas de violations graves commises contre des enfants, le Mécanisme d’enquête indépendant pour le Myanmar créé par le Conseil des droits de l’homme dans sa résolution <a href="https://undocs.org/fr/A/HRC/RES/39/2">39/2</a>, les organismes des Nations Unies compétents et les organes régionaux et internationaux chargés des droits de l’homme, pour qu’ils puissent surveiller de manière indépendante la situation relative aux droits humains, et qu’il soit fait en sorte que les personnes puissent coopérer avec ces mécanismes sans entrave ni crainte de représailles, d’intimidation ou d’agression, et se dit très préoccupée par le fait que l’accès aux zones touchées dans le nord de l’État rakhine et aux autres régions où sévit la violence reste extrêmement limité pour la communauté internationale, y compris pour les organismes des Nations Unies, les acteurs humanitaires et les médias internationaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> l’Organisation des Nations Unies de veiller à ce que le Mécanisme d’enquête indépendant pour le Myanmar créé par le Conseil des droits de l’homme dans sa résolution <a href="https://undocs.org/fr/A/HRC/RES/39/2">39/2</a> bénéficie de la souplesse dont il a besoin sur le plan des effectifs, des locaux et de la liberté opérationnelle, afin de pouvoir s’acquitter au mieux de son mandat et rendre compte de ses activités aux États Membres, et exhorte le Myanmar, les États Membres, les autorités judiciaires et les entités privées à coopérer pleinement avec le Mécanisme, notamment en lui donnant accès, y compris aux témoins le cas échéant, et en lui fournissant toute assistance dans l’accomplissement de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">Se dit vivement préoccupée</span> par le risque que les victimes de violations des droits humains et d’atteintes à ces droits, en particulier les enfants et les personnes rescapées de violences sexuelles, ne revivent leur traumatisme, et prie tous les acteurs menant des activités de collecte de preuves de suivre le principe consistant à « ne pas nuire » afin de respecter la dignité des victimes et d’éviter la réactivation du traumatisme, et demande que soient pleinement pris en compte les besoins des victimes et des survivants et le droit de ces personnes à un recours effectif, et notamment qu’il soit procédé rapidement, efficacement et en toute indépendance à leur recensement et que des garanties de non-répétition soient offertes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il importe de consulter les survivants et les familles des victimes, y compris les Rohingya et les membres d’autres minorités, et de les associer à la promotion de la justice et du principe de responsabilité, selon les circonstances ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>14.</num>
+        <list eId="para_164_list">
+          <intro eId="para_164_list_intro">
+            <p xml:space="preserve">	<span class="italic">Engage de nouveau</span> le Myanmar ou l’armée du Myanmar, s’il y a lieu, à prendre les mesures urgentes suivantes :</p>
+          </intro>
+          <point eId="para_164_list_point_a">
+            <num>a)</num>
+            <content eId="para_164_list_point_a_content">
+              <p xml:space="preserve"> Mettre fin immédiatement à toutes les violences et à toutes les violations du droit international commises au Myanmar, garantir la protection des droits humains de toutes les personnes vivant au Myanmar, y compris les Rohingya et les membres d’autres minorités, et prendre toutes les mesures nécessaires pour rendre justice aux victimes, garantir l’établissement de toutes les responsabilités et mettre fin à l’impunité de toutes les violations du droit des droits de l’homme et du droit international humanitaire et des atteintes à ces droits, en commençant par ouvrir une enquête complète, transparente et indépendante sur toutes ces violations, et demande la publication intégrale du rapport de la commission d’enquête indépendante créée en 2018 ou la transmission de ses conclusions aux mécanismes internationaux compétents ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_b">
+            <num>b)</num>
+            <content eId="para_164_list_point_b_content">
+              <p xml:space="preserve"> Assurer, par des mesures concrètes, le retour et la réintégration volontaires, et durables, en toute sécurité et dans la dignité, des musulmans rohingya au Myanmar ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_c">
+            <num>c)</num>
+            <content eId="para_164_list_point_c_content">
+              <p xml:space="preserve"> Engager un dialogue ouvert, constructif et pacifique et un processus de réconciliation, conformément au vœu et dans l’intérêt de la population du Myanmar, y compris des musulmans rohingya et des autres minorités ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_d">
+            <num>d)</num>
+            <content eId="para_164_list_point_d_content">
+              <p xml:space="preserve"> Créer les conditions nécessaires au retour volontaire et durable, en toute sécurité et dans la dignité, de tous les réfugiés, y compris des réfugiés musulmans rohingya, regrettant qu’il n’y ait eu jusqu’ici aucun retour de Rohingya dans le cadre du mécanisme de rapatriement établi à titre bilatéral par le Bangladesh et le Myanmar, en raison de l’incapacité du Myanmar de créer de telles conditions dans l’État rakhine ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_e">
+            <num>e)</num>
+            <content eId="para_164_list_point_e_content">
+              <p xml:space="preserve"> Instaurer des mesures de confiance parmi les musulmans rohingya dans les camps au Bangladesh, y compris par l’organisation de visites de reconnaissance effectuées dans l’État rakhine par des représentants des Rohingya ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_f">
+            <num>f)</num>
+            <content eId="para_164_list_point_f_content">
+              <p xml:space="preserve"> Garantir la pleine protection des droits humains et des libertés fondamentales de toutes et tous au Myanmar, y compris pour les musulmans rohingya et les autres minorités, dans l’égalité et la dignité, sans discrimination, pour empêcher que l’instabilité et l’insécurité ne s’aggravent, atténuer les souffrances, s’attaquer aux causes profondes de la crise, y compris en abrogeant ou en réformant les lois discriminatoires, et trouver une solution viable et durable ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_g">
+            <num>g)</num>
+            <content eId="para_164_list_point_g_content">
+              <p xml:space="preserve"> Honorer ses obligations en matière de droits humains et les engagements qu’il a pris de protéger le droit à la liberté d’expression, y compris en ligne, et le droit à la liberté d’association et de réunion pacifique, et de créer et de maintenir des conditions permettant à la société civile et aux médias indépendants d’agir en toute sécurité et en toute tranquillité ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_h">
+            <num>h)</num>
+            <content eId="para_164_list_point_h_content">
+              <p xml:space="preserve"> Prendre les mesures nécessaires pour empêcher la propagation de la discrimination et des préjugés et lutter contre l’incitation à la haine à l’égard des musulmans rohingya et des membres d’autres minorités, condamner publiquement ces actes et s’opposer aux discours de haine tout en respectant pleinement le droit international des droits de l’homme, promouvoir le dialogue interconfessionnel en coopération avec la communauté internationale et encourager les dirigeants politiques et les chefs religieux du pays à œuvrer à la réconciliation entre les communautés et à l’unité nationale par le dialogue, et mettre en œuvre le projet du Fonds pour la consolidation de la paix visant à lutter contre les discours de haine ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_i">
+            <num>i)</num>
+            <content eId="para_164_list_point_i_content">
+              <p xml:space="preserve"> Protéger toutes les personnes et communautés conformément au droit international humanitaire et au droit international des droits de l’homme, y compris les musulmans rohingya et les membres d’autres minorités ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_j">
+            <num>j)</num>
+            <content eId="para_164_list_point_j_content">
+              <p xml:space="preserve"> Accélérer les mesures visant à éliminer l’apatridie et la discrimination systématique et institutionnalisée à l’égard des membres de toutes les minorités, en particulier les musulmans rohingya, notamment en revoyant et en réformant la loi de 1982 sur la citoyenneté, qui a entraîné un déni des droits humains, en veillant à l’égal accès à une citoyenneté de plein droit, dans le cadre d’une procédure transparente, volontaire et ouverte à tous, et à l’ensemble des droits civils et politiques, en permettant l’auto-identification, grâce à la modification ou à l’abrogation de toutes les lois et politiques discriminatoires, notamment les dispositions discriminatoires de la série de « lois relatives à la protection de la race et de la religion » promulguées en 2015 et portant sur les conversions religieuses, les mariages interconfessionnels, la monogamie et la maîtrise de la croissance démographique, et en abrogeant tous les arrêtés locaux qui restreignent le droit à la liberté de circulation et l’accès à l’enregistrement des actes d’état civil, aux services de santé et d’éducation et aux moyens de subsistance ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_k">
+            <num>k)</num>
+            <content eId="para_164_list_point_k_content">
+              <p xml:space="preserve"> Démanteler sans plus tarder les camps de déplacés dans l’État rakhine, selon un calendrier précis, en s’assurant que le retour et la réinstallation de ces personnes s’effectuent conformément aux normes et aux meilleures pratiques internationales, en coopération avec l’Organisation des Nations Unies et la communauté internationale, telles que les Principes directeurs relatifs au déplacement de personnes à l’intérieur de leur propre pays<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		<a href="https://undocs.org/fr/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, annexe.</p></authorialNote> ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_l">
+            <num>l)</num>
+            <content eId="para_164_list_point_l_content">
+              <p xml:space="preserve"> Accélérer l’application intégrale de toutes les recommandations de la Commission consultative sur l’État rakhine pour s’attaquer aux causes profondes de la crise ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_m">
+            <num>m)</num>
+            <content eId="para_164_list_point_m_content">
+              <p xml:space="preserve"> Veiller à ce que les Rohingya, les membres d’autres minorités et les personnes déplacées aient des chances égales de se faire représenter et de participer pleinement et effectivement, sur un pied d’égalité, en tant que candidats et électeurs à toutes les élections générales ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_n">
+            <num>n)</num>
+            <content eId="para_164_list_point_n_content">
+              <p xml:space="preserve"> Faire cesser et prévenir l’enrôlement illicite et l’utilisation d’enfants par toutes les forces armées et les forces de sécurité, notamment en mettant en œuvre, en coordination avec l’Organisation des Nations Unies, toutes les activités prévues dans le Plan d’action conjoint sur les enfants et les conflits armés, et combler les lacunes en matière de protection en coopérant avec l’équipe de surveillance et d’information chargée des cas de violations commises contre des enfants, notamment en élaborant un plan d’action commun visant à mettre fin aux meurtres, atteintes à l’intégrité physique et viols et autres formes de violences sexuelles commises contre des enfants ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_o">
+            <num>o)</num>
+            <content eId="para_164_list_point_o_content">
+              <p xml:space="preserve"> Coopérer avec l’Envoyée spéciale du Secrétaire général pour le Myanmar, notamment en facilitant des visites au Myanmar sans qu’elles soient assorties de conditions et en favorisant des concertations significatives avec toutes les parties prenantes, y compris les musulmans rohingya et les personnes détenues arbitrairement ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_p">
+            <num>p)</num>
+            <content eId="para_164_list_point_p_content">
+              <p xml:space="preserve"> Coopérer et engager un véritable dialogue avec le Rapporteur spécial sur la situation des droits de l’homme au Myanmar, avec le Mécanisme d’enquête indépendant et avec d’autres titulaires de mandat et mécanismes des Nations Unies s’occupant de la question du Myanmar, notamment en facilitant les visites et en leur accordant un accès sans restriction à l’ensemble du pays ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_q">
+            <num>q)</num>
+            <content eId="para_164_list_point_q_content">
+              <p xml:space="preserve"> Autoriser la reprise des visites des familles, accorder un accès immédiat, sans restrictions injustifiées, aux organismes internationaux compétents et offrir des services médicaux aux détenus et dans les lieux de détention ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_r">
+            <num>r)</num>
+            <content eId="para_164_list_point_r_content">
+              <p xml:space="preserve"> Revoir et abroger les modifications apportées en 2018 à la loi relative aux terres vacantes, en jachère ou vierges, établir un cadre de gouvernance foncière inclusif et régler les problèmes d’occupation des terres, en pleine concertation avec les populations concernées, y compris les groupes ethniques et religieux minoritaires, en particulier les musulmans rohingya ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_s">
+            <num>s)</num>
+            <content eId="para_164_list_point_s_content">
+              <p xml:space="preserve"> Mettre un terme immédiatement à la reclassification des zones où se trouvaient auparavant des villages rohingya et à la suppression des noms des villages des cartes officielles, qui pourraient modifier l’affectation des terres, et mettre fin sans délai à la construction d’installations militaires dans ces villages ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_t">
+            <num>t)</num>
+            <content eId="para_164_list_point_t_content">
+              <p xml:space="preserve"> Appliquer rapidement le consensus en cinq points établi à la réunion des dirigeants de l’Association des nations de l’Asie du Sud-Est, tenue le 24 avril 2021, afin de faciliter la recherche d’une solution pacifique dans l’intérêt de la population du Myanmar et des moyens de subsistance de celle-ci, et, à cette fin, demande à toutes les parties prenantes au Myanmar de coopérer avec l’Association et l’Envoyé spécial du Président de l’Association, et déclare qu’elle soutient ces efforts ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_u">
+            <num>u)</num>
+            <content eId="para_164_list_point_u_content">
+              <p xml:space="preserve"> Prendre des mesures concrètes pour renforcer les efforts de développement des institutions et de réforme structurelle, dans le cadre d’une approche participative et inclusive, pour faire respecter l’état de droit, les droits humains et les principes démocratiques, y compris en prenant des mesures pour assurer l’indépendance du pouvoir judiciaire et en réformant le secteur de la sécurité en vue d’accroître le contrôle civil ;</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_v">
+            <num>v)</num>
+            <content eId="para_164_list_point_v_content">
+              <p xml:space="preserve"> Faciliter la tenue d’enquêtes indépendantes, impartiales et approfondies sur toutes les allégations de violations du droit international humanitaire, notamment sur les agissements susceptibles de constituer des crimes de guerre et des crimes contre l’humanité, y compris le recours à la famine comme arme de guerre, dans les États rakhine et chin, les crimes de violence sexuelle et les allégations de violations des droits humains, et veiller à ce que les responsables soient traduits en justice dans le cadre de procédures transparentes et crédibles ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe de fournir une protection et une assistance, y compris un accès non discriminatoire à des services comme les soins médicaux et psychosociaux, adaptées tout particulièrement aux femmes et aux filles, et notamment à celles qui ont été victimes de violences sexuelles et fondées sur le genre et de traite des personnes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_193" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_193__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare de nouveau profondément préoccupée</span> par la situation toujours critique des Rohingya et salue l’engagement pris par le Gouvernement bangladais et d’autres États Membres de leur offrir un accueil provisoire, une aide humanitaire et une protection ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> le Myanmar à continuer de coopérer avec le Bangladesh, conformément aux instruments bilatéraux de rapatriement que les deux pays ont signés, afin d’accélérer la mise en place de conditions permettant le retour durable et librement consenti, en toute sécurité et dans la dignité, des Rohingya déplacés de force se trouvant au Bangladesh, avec le plein appui et la participation active de la communauté internationale, notamment de l’Organisation des Nations Unies et ses fonds, programmes et organismes, et souligne qu’il importe de maintenir un dialogue constructif avec la société civile ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_226" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_226__content">
+          <p xml:space="preserve">	<span class="italic">Estime</span> que la crise multiforme persistante qui s’est déclenchée à la suite de la déclaration de l’état d’urgence le 1<sup>er</sup> février 2021, notamment les déplacements transfrontières et les retards prolongés enregistrés s’agissant du rapatriement des Rohingya, nuit gravement à la paix et à la stabilité de la région, en particulier en ce qui concerne les pays voisins du Myanmar, et souligne qu’il est urgent de prendre des mesures concrètes en vue de trouver une solution durable à la crise qui réponde à la volonté du peuple du Myanmar ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_244" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_244__content">
+          <p xml:space="preserve">	<span class="italic">Prend note avec satisfaction</span> de l’aide et de l’appui apportés par la communauté internationale, y compris les organisations régionales, en particulier l’Association des nations de l’Asie du Sud-Est, et les pays voisins du Myanmar ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_263" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_263__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>à la communauté internationale de s’attaquer efficacement au problème des mouvements maritimes irréguliers de Rohingya, en coopération avec les organismes des Nations Unies compétents, ainsi que d’assumer en partage les charges et les responsabilités à cet égard, en particulier au niveau des États parties à la Convention de 1951 relative au statut des réfugiés<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 189, n<sup>o</sup> 2545.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_283" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_283__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe que le Myanmar continue de coopérer pleinement avec le Gouvernement bangladais et avec l’Organisation des Nations Unies, en particulier avec le Haut-Commissariat des Nations Unies pour les réfugiés et en consultation avec les populations concernées, pour permettre le retour durable et librement consenti, en toute sécurité et dans la dignité, dans leur lieu d’origine au Myanmar, de tous les réfugiés et de toutes les personnes déplacées de force, et pour assurer la protection des personnes rapatriées et leur accorder la liberté de circulation et un accès sans entrave à des moyens de subsistance, à des services sociaux, y compris des services de santé, à une éducation et à un logement et pour les dédommager de toutes les pertes subies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">	<span class="italic">Appelle </span>à la mise en œuvre systématique et effective du mémorandum d’accord signé par le Haut-Commissariat des Nations Unies pour les réfugiés et le Programme des Nations Unies pour le développement avec le Myanmar, pour concourir à la création de conditions propices au retour des réfugiés du Bangladesh ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_326" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_326__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il faut étendre d’urgence les projets pilotes du Programme des Nations Unies pour le développement et du Haut-Commissariat des Nations Unies pour les réfugiés, qui permettent aux Rohingya déplacés vivant dans des conditions difficiles dans le nord de l’État rakhine de retourner dans leur lieu d’origine et à leurs communautés de recevoir une assistance multisectorielle ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la communauté internationale, agissant dans un véritable esprit d’interdépendance et de partage équitable des charges et des responsabilités, a) à aider le Bangladesh à apporter une assistance humanitaire aux réfugiés rohingya et aux personnes déplacées de force, jusqu’à ce qu’ils soient rapatriés de leur plein gré au Myanmar, en toute sécurité et dans la dignité, et b) à aider à fournir une assistance humanitaire, au Myanmar, à toutes les personnes touchées appartenant à une communauté déplacée à l’intérieur du pays, y compris dans l’État rakhine, en tenant compte de la vulnérabilité des femmes, des enfants, des personnes âgées et des personnes handicapées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_373" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_373__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de la suite donnée par l’Association des nations de l’Asie du Sud-Est aux recommandations issue de l’évaluation préliminaire des besoins pour ce qui est d’apporter une véritable aide humanitaire, de faciliter le processus de rapatriement et de promouvoir le développement durable dans l’État rakhine, et est consciente qu’il faut resserrer les liens avec les réfugiés rohingya, tout en encourageant une coopération étroite avec tous les organismes des Nations Unies concernés et les partenaires internationaux, et qu’il faut trouver une solution aux causes profondes du conflit de manière à permettre aux communautés touchées de se reconstruire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_398" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_398__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>la communauté internationale à appuyer le plan d’intervention conjoint 2022 face à la crise humanitaire des Rohingya pour faire en sorte qu’il y ait des moyens suffisants pour faire face à la crise humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_424" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_424__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> toutes les entreprises, y compris les sociétés transnationales et les entreprises nationales menant des activités au Myanmar, à respecter les droits humains conformément aux Principes directeurs relatifs aux entreprises et aux droits de l’homme<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/17/31">A/HRC/17/31</a>, annexe.</p></authorialNote> et aux recommandations formulées par la mission internationale indépendante d’établissement des faits sur le Myanmar dans son rapport sur les intérêts économiques des forces armées du Myanmar ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_451" class="SingleTxt">
+        <num>28.</num>
+        <list eId="para_451_list">
+          <intro eId="para_451_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général :</p>
+          </intro>
+          <point eId="para_451_list_point_a">
+            <num>a)</num>
+            <content eId="para_451_list_point_a_content">
+              <p xml:space="preserve"> de continuer d’offrir ses bons offices et de poursuivre ses entretiens sur le Myanmar, en y associant toutes les parties concernées, et d’apporter son concours au Myanmar ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_b">
+            <num>b)</num>
+            <content eId="para_451_list_point_b_content">
+              <p xml:space="preserve"> de proroger le mandat de l’Envoyée spéciale pour le Myanmar et de lui présenter, à sa soixante-dix-huitième session, le rapport que l’Envoyée spéciale aura établi concernant toutes les questions pertinentes abordées dans la présente résolution ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_c">
+            <num>c)</num>
+            <content eId="para_451_list_point_c_content">
+              <p xml:space="preserve"> de prêter toute l’assistance voulue à l’Envoyée spéciale pour le Myanmar afin de permettre à celle-ci de s’acquitter efficacement de son mandat et de faire le point auprès des États Membres, soit tous les six mois, soit lorsque la situation sur le terrain l’exigera, y compris en établissant un programme de travail pour l’Envoyée spéciale ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_d">
+            <num>d)</num>
+            <content eId="para_451_list_point_d_content">
+              <p xml:space="preserve"> de déterminer comment les titulaires de mandat peuvent s’acquitter plus efficacement de leurs attributions respectives concernant le Myanmar et collaborer plus activement pour accroître la complémentarité de leurs travaux ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_e">
+            <num>e)</num>
+            <content eId="para_451_list_point_e_content">
+              <p xml:space="preserve"> de veiller à ce que tous les programmes exécutés dans le pays intègrent une approche fondée sur les droits humains et fassent l’objet de procédures de diligence raisonnable ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_f">
+            <num>f)</num>
+            <content eId="para_451_list_point_f_content">
+              <p xml:space="preserve"> de veiller à ce que le Conseil de sécurité continue de suivre de près la situation au Myanmar, en formulant des recommandations concrètes en vue de régler la crise humanitaire, de promouvoir le retour durable et librement consenti, en toute sécurité et dans la dignité, des réfugiés rohingya et des personnes déplacées de force, et de garantir que les auteurs d’atrocités de masse, de violations des droits humains et d’atteintes à ces droits auront à répondre de leurs actes ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_g">
+            <num>g)</num>
+            <content eId="para_451_list_point_g_content">
+              <p xml:space="preserve"> d’appuyer la mise en œuvre des recommandations formulées par la mission internationale indépendante d’établissement des faits sur le Myanmar et de contribuer aux travaux engagés par le Mécanisme d’enquête indépendant, notamment en facilitant un dialogue entre elle-même et le Mécanisme à sa soixante-dix-huitième session ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_h">
+            <num>h)</num>
+            <content eId="para_451_list_point_h_content">
+              <p xml:space="preserve"> d’appliquer intégralement les recommandations figurant dans le rapport issu de l’enquête indépendante sur l’engagement des organismes des Nations Unies au Myanmar de 2010 à 2018 pour renforcer la capacité de prévention des organismes des Nations Unies et accroître l’efficacité de leurs travaux ;</p>
+            </content>
+          </point>
+          <point eId="para_451_list_point_i">
+            <num>i)</num>
+            <content eId="para_451_list_point_i_content">
+              <p xml:space="preserve"> d’appuyer l’application du mémorandum d’accord signé par le Myanmar avec le Haut-Commissariat des Nations Unies pour les réfugiés et le Programme des Nations Unies pour le développement et de consacrer un chapitre de son rapport annuel à l’application du mémorandum d’accord ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_479" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_479__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>l’Envoyée spéciale de continuer à participer au moyen d’un dialogue interactif à sa soixante-dix-huitième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_508" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_508__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de rester saisie de la question, entre autres sur la base des rapports du Secrétaire général, de la mission internationale indépendante d’établissement des faits sur le Myanmar, du Mécanisme d’enquête indépendant, du Rapporteur spécial sur la situation des droits de l’homme au Myanmar et de l’Envoyée spéciale du Secrétaire général pour le Myanmar.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54e">54e séance plénière</inline>
+        <eol />
+        <docDate date="2022-12-15" refersTo="#adoptionDate">15 décembre 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,648 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/"></FRBRuri>
+          <FRBRdate date="2022-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/fra@/"></FRBRuri>
+          <FRBRdate date="2023-01-09" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/fra@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Democratic People's Republic of Korea" showAs="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Democratic People's Republic of Korea" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Human Rights Council. Commission of Inquiry on Human Rights in the Democratic People's Republic of Korea" showAs="UN. Human Rights Council. Commission of Inquiry on Human Rights in the Democratic People's Republic of Korea" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Human Rights Office in Seoul" showAs="UN Human Rights Office in Seoul" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" showAs="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="68c" showAs="Human rights situations and reports of special rapporteurs and representatives." shortForm="HUMAN RIGHTS--REPORTS" dictionary="A/77/251"></keyword>
+        <keyword refersTo="agenda" value="68c[4]" showAs="HUMAN RIGHTS--DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" shortForm="HUMAN RIGHTS--DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-01" outcome="draftResolution" as="A/C.3/77/L.32" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Honduras, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Micronesia (Federated States of), Monaco, Montenegro, Netherlands, North Macedonia, Poland, Portugal, Republic of Korea, Republic of Moldova, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Bosnia and Herzegovina, Chile, Georgia, Guatemala, Israel, Kiribati, Liberia, Maldives, Mexico, Nauru, New Zealand, Norway, Palau, San Marino, Serbia and Tuvalu" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/463/Add.3" by="" refersTo="29" />
+        <step date="2022-12-15" outcome="adopted" as="A/77/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Troisième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-28992 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/226</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-09" class="rightSmall" refersTo="#dateOfIssuance">9 janvier 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Soixante-dix-septième session</session>
+      </p>
+      <p>
+        <inline title="68 c)" name="agenda item">Point 68 c) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 15 décembre 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sur la base du rapport de la Troisième Commission (<inline name="originating document">A/77/463/Add.3, par. 29</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/226.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Situation relative aux droits humains en République populaire démocratique de Corée</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Réaffirmant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> que tous les États ont l’obligation de respecter, de protéger et de réaliser les droits humains et les libertés fondamentales et de s’acquitter des obligations que leur imposent les divers instruments internationaux,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> toutes les résolutions précédentes sur la situation relative aux droits humains en République populaire démocratique de Corée adoptées par elle-même, la Commission des droits de l’homme et le Conseil des droits de l’homme, dont sa résolution <a href="https://undocs.org/fr/A/RES/76/177">76/177</a> du 16 décembre 2021 et la résolution <a href="https://undocs.org/fr/A/hrc/RES/49/22">49/22</a> du Conseil en date du 1<sup>er</sup> avril 2022<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-dix-septième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/77/53">A/77/53</a>), chap. V, sect. A.</p></authorialNote>, et consciente que la communauté internationale doit redoubler d’efforts concertés pour qu’elles soient appliquées,</p>
+      </container>
+      <container name="Profondément préoccupée" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Profondément préoccupée</span> par la gravité de la situation relative aux droits humains, la culture d’impunité généralisée et le non-établissement des responsabilités pour les violations des droits humains et les atteintes à ces droits en République populaire démocratique de Corée,</p>
+      </container>
+      <container name="Réitérant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Réitérant</span> qu’il importe de donner suite aux recommandations figurant dans le rapport de la Commission d’enquête sur la situation des droits de l’homme en République populaire démocratique de Corée<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/25/63">A/HRC/25/63</a>.</p></authorialNote> et réitérant également qu’elle est vivement préoccupée par les conclusions détaillées que contient le rapport,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> qu’il incombe à la République populaire démocratique de Corée de protéger sa population des crimes contre l’humanité, et que la Commission d’enquête a exhorté les dirigeants de la République populaire démocratique de Corée à prévenir et à réprimer les crimes contre l’humanité et à veiller à ce que leurs auteurs soient poursuivis et traduits en justice,</p>
+      </container>
+      <container name="Prenant note" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> du rapport de la Rapporteuse spéciale du Conseil des droits de l’homme sur la situation des droits de l’homme en République populaire démocratique de Corée<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/77/522">A/77/522</a>.</p></authorialNote>, regrettant que le précédent Rapporteur spécial n’ait pas été autorisé à se rendre dans le pays et que les autorités nationales n’aient pas coopéré avec lui, et prenant acte du rapport détaillé présenté par le Secrétaire général sur la situation relative aux droits humains en République populaire démocratique de Corée en application de la résolution <a href="https://undocs.org/fr/A/RES/76/177">76/177</a><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/77/247">A/77/247</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Sachant" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Sachant </span>que la République populaire démocratique de Corée est partie au Pacte international relatif aux droits civils et politiques<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Voir résolution <a href="http://www.un.org/fr/documents/view_doc.asp?symbol=A/RES/2200(XXI)">2200 A (XXI)</a>, annexe.</p></authorialNote>, au Pacte international relatif aux droits économiques, sociaux et culturels<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid.</p></authorialNote>, à la Convention relative aux droits de l’enfant<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1577, n<sup>o</sup> 27531.</p></authorialNote>, à la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Ibid., vol. 1249, n<sup>o</sup> 20378.</p></authorialNote> et à la Convention relative aux droits des personnes handicapées<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Ibid., vol. 2515, n<sup>o</sup> 44910.</p></authorialNote>, et demandant instamment la pleine application de ces conventions, ainsi que des recommandations faites par les organes conventionnels dans leurs observations finales à l’issue de leur examen, et la présentation aux organes conventionnels concernés de tous les rapports périodiques en retard,</p>
+      </container>
+      <container name="Encourageant" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Encourageant</span> la République populaire démocratique de Corée à appliquer toutes les recommandations figurant dans le rapport que la Rapporteuse spéciale du Conseil des droits de l’homme sur les droits des personnes handicapées a établi à la suite de la visite qu’elle a effectuée dans le pays en mai 2017 et qui a été présenté au Conseil à sa trente-septième session<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/37/56/Add.1">A/HRC/37/56/Add.1</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Soulignant" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il importe que le Gouvernement de la République populaire démocratique de Corée coopère avec les autres titulaires de mandats au titre des procédures spéciales des Nations Unies et avec les autres mécanismes des Nations Unies relatifs aux droits humains, conformément à leurs attributions, et en particulier qu’il saisisse l’occasion qui se présente de collaborer avec la nouvelle Rapporteuse spéciale sur la situation des droits de l’homme en République populaire démocratique de Corée, </p>
+      </container>
+      <container name="Rappelant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> la participation de la République populaire démocratique de Corée au troisième Examen périodique universel, notant que le Gouvernement de la République populaire démocratique de Corée a accepté 132 des 262 recommandations<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/42/10">A/HRC/42/10</a>.</p></authorialNote> et l’engageant à appliquer de bonne foi ces recommandations,</p>
+      </container>
+      <container name="Déplorant" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Déplorant</span> que les organisations indépendantes de la société civile ne puissent pas mener leurs activités en République populaire démocratique de Corée et que, de ce fait, aucune des organisations de la société civile basées en République populaire démocratique de Corée ne soit en mesure de constater et de consigner les violations des droits humains dans le pays et d’établir des rapports à ce sujet en toute indépendance,</p>
+      </container>
+      <container name="Rappelant" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> que le Gouvernement de la République populaire démocratique de Corée et le Haut-Commissariat des Nations Unies aux droits de l’homme ont collaboré pour dispenser une formation aux droits humains à un petit nombre de représentants du Gouvernement à Genève en mai 2019, et demandant instamment que ce type de coopération technique soit élargie, notamment au moyen de réunions virtuelles,</p>
+      </container>
+      <container name="Soulignant" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il importe que le Gouvernement de la République populaire démocratique de Corée coopère également avec l’antenne du Haut-Commissariat des Nations Unies aux droits de l’homme dans la région,</p>
+      </container>
+      <container name="Notant" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Notant</span> que le Gouvernement de la République populaire démocratique de Corée coopère avec le Fonds des Nations Unies pour l’enfance et l’Organisation mondiale de la Santé en vue d’améliorer la situation sanitaire dans le pays, et notamment communique avec l’Organisation mondiale de la Santé aux fins de la lutte contre la pandémie de maladie à coronavirus (COVID‑19) et de la livraison de vaccins anti-COVID‑19 à la République populaire démocratique de Corée,</p>
+      </container>
+      <container name="Notant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Notant</span> les activités menées, à modeste échelle, par le Programme des Nations Unies pour le développement en République populaire démocratique de Corée avant le retrait du personnel recruté sur le plan international et engageant le gouvernement de ce pays à collaborer avec la communauté internationale pour faire en sorte que les personnes ayant besoin d’assistance bénéficient des programmes et que ceux-ci continuent d’être exécutés sans préjudice des mesures visant à prévenir la propagation de la COVID‑19,</p>
+      </container>
+      <container name="Notant" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Notant</span> que le Gouvernement de la République populaire démocratique de Corée coopère avec le Programme alimentaire mondial, le Fonds des Nations Unies pour l’enfance et l’Organisation des Nations Unies pour l’alimentation et l’agriculture pour procéder à une série d’évaluations, soulignant que ces évaluations importantes permettent d’analyser l’évolution de la situation concernant la sécurité alimentaire, l’état nutritionnel, la santé, l’eau et l’assainissement, sur le plan national et aux niveaux des ménages et des personnes, renforçant ainsi la confiance dans la façon dont les programmes d’aide sont ciblés et dans le suivi dont ils font l’objet, et notant avec satisfaction le travail accompli par les pourvoyeurs d’aide internationale,</p>
+      </container>
+      <container name="Soulignant" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> qu’il importe que les organismes humanitaires soient autorisés à accéder au pays sans délai, compte tenu surtout de la prévalence de la malnutrition et de la nécessité de poursuivre la lutte contre la COVID‑19 et du fait qu’il est indispensable que les organisations internationales d’aide humanitaire puissent procéder à des évaluations indépendantes des besoins et mettre en œuvre leurs programmes conformément aux normes internationales et aux principes humanitaires, y compris dans les zones sans présence opérationnelle, et qu’elles aient un accès total, sûr, rapide et sans entrave afin de fournir une assistance aux personnes en situation de vulnérabilité particulière, y compris aux détenus et aux personnes handicapées, notamment en dépêchant du personnel recruté sur le plan international et en faisant parvenir en priorité une aide humanitaire vitale, conformément aux directives et aux meilleures pratiques recommandées par l’Organisation mondiale de la Santé,</p>
+      </container>
+      <container name="Notant avec préoccupation" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Notant avec préoccupation </span>les conclusions formulées par l’Organisation des Nations Unies dans le rapport humanitaire intitulé « Democratic People’s Republic of Korea 2020: needs and priorities » et les évaluations rapides de la sécurité alimentaire menées conjointement par l’Organisation des Nations Unies pour l’alimentation et l’agriculture et le Programme alimentaire mondial, dans lesquelles il est souligné qu’il faut répondre aux besoins humanitaires essentiels en République populaire démocratique de Corée,</p>
+      </container>
+      <container name="Condamnant" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Condamnant </span>le fait que la République populaire démocratique de Corée détourne ses ressources pour poursuivre ses programmes d’armes nucléaires et de missiles balistiques au lieu d’améliorer le sort de sa population et insistant sur la nécessité pour ce pays de respecter et de garantir le bien-être et la dignité intrinsèque de son peuple, comme l’a fait le Conseil de sécurité dans ses résolutions <a href="https://undocs.org/fr/S/RES/2321(2016)">2321 (2016)</a> du 30 novembre 2016, <a href="https://undocs.org/fr/S/RES/2371(2017)">2371 (2017)</a> du 5 août 2017, <a href="https://undocs.org/fr/S/RES/2375(2017)">2375 (2017)</a> du 11 septembre 2017 et <a href="https://undocs.org/fr/S/RES/2397(2017)">2397 (2017)</a> du 22 décembre 2017,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Notant avec une vive préoccupation </span>la détérioration de la situation humanitaire en République populaire démocratique de Corée et les répercussions négatives que les mesures prises depuis l’apparition de la pandémie de COVID‑19 ont eues sur la situation relative aux droits humains dans ce pays, et soulignant que toute restriction imposée en vue de lutter contre la pandémie et contre la flambée de cas à l’échelle nationale annoncée en mai 2022 doit être nécessaire, proportionnée, non discriminatoire, limitée dans le temps et strictement conforme au droit international, notamment au droit international des droits humains, ainsi qu’aux résolutions pertinentes du Conseil de sécurité,</p>
+      </container>
+      <container name="Notant avec préoccupation" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Notant avec préoccupation</span> que le Gouvernement de la République populaire démocratique de Corée a imposé des restrictions qui ont contraint le personnel des organismes humanitaires recruté sur le plan international à quitter le pays et à interrompre des projets d’assistance et qu’il est possible que ces restrictions aient eu des répercussions sur les niveaux de malnutrition et l’accès aux services de santé, à l’eau et à l’assainissement,</p>
+      </container>
+      <container name="Prenant note" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Prenant note </span>du cadre stratégique de coopération en vigueur entre l’Organisation des Nations Unies et le Gouvernement de la République populaire démocratique de Corée et de l’engagement pris par le Gouvernement au regard des principes, buts et cibles des objectifs de développement durable<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Voir résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote> et en accord avec les engagements qu’il a contractés en vertu des conventions et des accords internationaux,</p>
+      </container>
+      <container name="Soulignant de nouveau avec une vive inquiétude" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Soulignant de nouveau avec une vive inquiétude </span>l’urgence et l’importance que revêt la question des enlèvements internationaux, lesquels constituent une violation grave des droits humains, et du retour immédiat de toutes les personnes enlevées, étant donné que celles‑ci et les membres de leurs familles prennent de l’âge, se disant profondément préoccupée par les longues années de grande souffrance endurées par ces personnes et leurs familles, par l’absence d’initiatives concrètes ou positives de la part de la République populaire démocratique de Corée, notamment depuis que les enquêtes sur tous les ressortissants japonais ont commencé, sur la base des consultations tenues en mai 2014 entre les Gouvernements de la République populaire démocratique de Corée et du Japon, et par les réponses identiques et sans substance de la République populaire démocratique de Corée aux nombreuses communications transmises par le Groupe de travail sur les disparitions forcées ou involontaires, et exigeant de nouveau fermement que la République populaire démocratique de Corée écoute de façon sincère la voix des victimes et de leur famille afin de répondre à toutes les allégations de disparitions forcées, fasse la lumière sur le sort des personnes disparues et le lieu où elles se trouvent et fournisse de bonne foi aux familles des victimes des informations exactes et détaillées, et règle immédiatement toutes les questions relatives à toutes les personnes enlevées, en particulier qu’elle assure le retour immédiat de tous les ressortissants du Japon et de la République de Corée qui ont été enlevés,</p>
+      </container>
+      <container name="Prenant note avec inquiétude" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note avec inquiétude </span>des allégations selon lesquelles les droits humains des prisonniers de guerre non rapatriés et de leurs descendants continuent d’être bafoués,</p>
+      </container>
+      <container name="Soulignant" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant </span>l’urgence et l’importance que revêt la question des familles séparées, notamment pour les Coréens concernés dans le monde entier, et demandant instamment à cet égard que reprennent les réunions de familles séparées de part et d’autre de la frontière et, en particulier, que soit honoré l’engagement pris à ce sujet lors du sommet intercoréen tenu le 19 septembre 2018, à savoir renforcer la coopération humanitaire afin de régler définitivement la question et de permettre aux familles séparées de se retrouver régulièrement et de rester en contact permanent, y compris dans le cadre de réunions dans un lieu et un centre faciles d’accès et habituels, par une correspondance écrite régulière, par des visioconférences et par l’échange de messages vidéos, conformément aux résolutions du Conseil de sécurité,</p>
+      </container>
+      <container name="Saluant" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> l’action que les États Membres ont menée jusqu’à présent pour sensibiliser la communauté internationale à la situation relative aux droits humains en République populaire démocratique de Corée, les engageant à poursuivre leurs efforts, et notant que les droits humains, y compris l’égalité des genres, sont intrinsèquement liés à la paix et la sécurité,</p>
+      </container>
+      <container name="Encourageant" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Encourageant </span>l’action diplomatique menée pour améliorer la situation relative aux droits humains et la situation humanitaire dans le pays, et soulignant l’importance du dialogue et des échanges à cette fin, y compris le dialogue intercoréen,</p>
+      </container>
+      <container name="Saluant" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> les efforts déployés par le Secrétaire général pour contribuer à l’amélioration des relations intercoréennes et à la promotion de la réconciliation et de la stabilité de la péninsule coréenne ainsi qu’au bien-être de la population coréenne,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Condamne dans les termes les plus vigoureux</span> les violations systématiques, généralisées et flagrantes des droits humains commises depuis longtemps et encore aujourd’hui en République populaire démocratique de Corée et par la République populaire démocratique de Corée, y compris celles dont la Commission d’enquête sur la situation des droits de l’homme en République populaire démocratique de Corée, créée par le Conseil des droits de l’homme dans sa résolution <a href="https://undocs.org/fr/A/HRC/RES/22/13">22/13</a> du 21 mars 2013<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-huitième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/68/53">A/68/53</a>), chap. IV, sect. A.</p></authorialNote>, considère qu’elles peuvent constituer des crimes contre l’humanité, et celles relevées par le Groupe d’experts indépendants sur l’établissement des responsabilités pour les violations des droits de l’homme en République démocratique populaire de Corée<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/A/HRC/34/66/Add.1">A/HRC/34/66/Add.1</a>.</p></authorialNote>, créé par la résolution <a href="https://undocs.org/fr/A/HRC/RES/31/18">31/18</a> du Conseil, en date du 23 mars 2016<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante et onzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/71/53">A/71/53</a>), chap. IV, sect. A.</p></authorialNote>, et par le Haut-Commissariat des Nations Unies aux droits de l’homme dans le cadre de ses activités continues de surveillance et de collecte d’informations, et l’impunité dont les auteurs de ces violations continuent de jouir ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_31_list">
+          <intro eId="para_31_list_intro">
+            <p xml:space="preserve">	<span class="italic">Se déclare très gravement préoccupée</span> par :</p>
+          </intro>
+          <point eId="para_31_list_point_a">
+            <num>a)</num>
+            <content eId="para_31_list_point_a_content">
+              <p xml:space="preserve"> la persistance d’informations faisant état de violations des droits humains, dont les conclusions détaillées présentées par la Commission d’enquête dans son rapport, par le Haut-Commissariat des Nations Unies aux droits de l’homme dans le cadre de ses activités continues de surveillance et de collecte d’informations et par la Rapporteuse spéciale sur la situation des droits de l’homme en République populaire démocratique de Corée et notamment :</p>
+            </content>
+          </point>
+          <sublist eId="para_31_list_point_a_sublist">
+            <point eId="para_31_list_point_a_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_31_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve"> la torture et les autres peines ou traitements cruels, inhumains ou dégradants, y compris les conditions inhumaines de détention ; toutes les formes de violence sexuelle et fondée sur le genre, notamment les viols, en particulier celles commises contre les femmes et les filles ; les exécutions extrajudiciaires, sommaires et arbitraires ; l’imposition de la peine de mort pour des motifs politiques et religieux ; les exécutions publiques ; les détentions extrajudiciaires et arbitraires ; l’absence de procédure régulière et d’état de droit, s’agissant notamment des garanties d’un procès équitable et de l’indépendance de la magistrature ; les châtiments collectifs qui peuvent s’étendre à trois générations ; le recours très fréquent au travail forcé, y compris celui des enfants ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_31_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	l’existence d’un vaste système de camps de prisonniers politiques, où de très nombreuses personnes sont privées de leur liberté et vivent dans des conditions indignes, où elles sont notamment soumises au travail forcé, et où des violations alarmantes des droits humains sont commises ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_31_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	les disparitions forcées et involontaires de personnes arrêtées, détenues ou enlevées contre leur gré ; le refus de révéler leur sort et leur localisation ; le refus de reconnaître que ces personnes ont été privées de liberté, ce qui les soustrait à la protection de la loi et cause à elles-mêmes et à leur famille de graves souffrances ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_31_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	les transferts forcés de population et les limitations imposées aux personnes qui souhaitent circuler librement à l’intérieur du pays et voyager à l’étranger, notamment les peines et châtiments infligés à ceux qui ont quitté ou ont essayé de quitter le pays sans autorisation, ou à leur famille, ainsi qu’à ceux qui ont été refoulés ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_v">
+              <num>v)</num>
+              <content eId="para_31_list_point_a_sublist_point_v_content">
+                <p xml:space="preserve"> la situation des réfugiés et des demandeurs d’asile expulsés ou refoulés vers la République populaire démocratique de Corée, notamment dans les cas où le Gouvernement de la République populaire démocratique de Corée fait pression sur d’autres États pour qu’ils refoulent ces personnes, et les représailles exercées contre les citoyens de la République populaire démocratique de Corée qui ont été rapatriés, menant à des châtiments tels que l’internement, la torture et les autres peines ou traitements cruels, inhumains ou dégradants, la violence sexuelle et fondée sur le genre ou la peine de mort et, à cet égard, engage vivement tous les États à respecter le principe fondamental de non-refoulement, y compris lorsque le Gouvernement de la République populaire démocratique de Corée fait pression sur eux pour qu’ils procèdent à des renvois, à traiter avec humanité ceux qui cherchent un refuge et à garantir un accès sans entrave au Haut-Commissaire et au Haut-Commissariat des Nations Unies pour les réfugiés afin de protéger les droits humains de ceux qui cherchent un refuge, et exhorte de nouveau les États parties à s’acquitter des obligations que leur imposent la Convention relative au statut des réfugiés de 1951<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 189, n<sup>o</sup> 2545.</p></authorialNote> et le Protocole de 1967 s’y rapportant<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Ibid., vol. 606, n<sup>o</sup> 8791.</p></authorialNote> en ce qui concerne les réfugiés originaires de la République populaire démocratique de Corée qui relèvent de ces instruments ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_vi">
+              <num>vi)</num>
+              <content eId="para_31_list_point_a_sublist_point_vi_content">
+                <p xml:space="preserve">	les restrictions généralisées et draconiennes, durcies encore par les mesures de lutte contre la COVID‑19, imposées en ligne et hors ligne aux libertés de pensée, de conscience, de religion ou de conviction, d’opinion et d’expression, de réunion pacifique et d’association, au droit à la vie privée et à l’égal accès à l’information, en recourant à des moyens comme la surveillance illicite et arbitraire, la persécution, la torture et les autres peines ou traitements cruels, inhumains ou dégradants, l’emprisonnement et, dans certains cas, l’exécution sommaire de ceux qui exercent leur liberté d’opinion, d’expression, de religion ou de conviction, et de leur famille, ainsi qu’au droit de tous, y compris les femmes, de prendre pleinement et véritablement part à la conduite des affaires publiques de leur pays, sur un pied d’égalité, directement ou par l’intermédiaire de représentants librement choisis ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_vii">
+              <num>vii)</num>
+              <content eId="para_31_list_point_a_sublist_point_vii_content">
+                <p xml:space="preserve">	les violations des droits économiques, sociaux et culturels, qui sont aggravées par les effets néfastes de la pandémie de COVID‑19 et par le fait que la République populaire démocratique de Corée continue de tenir ses frontières fermées et qui mènent à l’insécurité alimentaire, à une grave famine, à la malnutrition, à des problèmes sanitaires généralisés et à d’autres épreuves pour la population de la République populaire démocratique de Corée, en particulier les femmes, les enfants, les personnes handicapées, les personnes âgées et les prisonniers politiques ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_viii">
+              <num>viii)</num>
+              <content eId="para_31_list_point_a_sublist_point_viii_content">
+                <p xml:space="preserve">	les violations des droits humains et des libertés fondamentales des femmes et des filles, notamment l’inégalité d’accès à l’emploi et les règlementations discriminatoires, et en particulier la création dans le pays d’une situation qui oblige les femmes et les filles à en partir, ce qui les rend extrêmement vulnérables face à la traite des êtres humains à des fins d’exploitation sexuelle, de travail forcé, de servitude domestique ou de mariage forcé, et le fait qu’elles subissent des pratiques discriminatoires fondées sur le sexe et le genre, notamment dans les sphères politique et sociale ainsi qu’en milieu carcéral, telles que des avortements forcés et d’autres formes de violence sexuelle et fondée sur le genre ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_ix">
+              <num>ix)</num>
+              <content eId="para_31_list_point_a_sublist_point_ix_content">
+                <p xml:space="preserve">	les violations des droits humains et des libertés fondamentales des enfants, en particulier le fait que nombre d’entre eux ne peuvent toujours pas exercer leurs droits économiques, sociaux et culturels élémentaires, et note à cet égard la situation de vulnérabilité particulière dans laquelle se trouvent, notamment, les enfants refoulés ou rapatriés, les enfants dépourvus de logement, les enfants handicapés, les enfants dont les parents sont détenus, décédés ou absents de quelque façon, les enfants qui vivent en détention ou en institution et les enfants en conflit avec la loi ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_x">
+              <num>x)</num>
+              <content eId="para_31_list_point_a_sublist_point_x_content">
+                <p xml:space="preserve"> les violations des droits humains et des libertés fondamentales des personnes handicapées, en particulier celles ayant trait à leur envoi dans des camps collectifs et au recours à des mesures coercitives pour les empêcher de décider de manière libre et responsable du nombre de leurs enfants et de l’espacement des naissances, et les allégations selon lesquelles des personnes handicapées seraient utilisées dans des expériences médicales ou déplacées contre leur gré dans des zones rurales et des enfants handicapés seraient séparés de leurs parents ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_xi">
+              <num>xi)</num>
+              <content eId="para_31_list_point_a_sublist_point_xi_content">
+                <p xml:space="preserve">	les violations des droits des travailleurs, dont le droit à la liberté d’association et la reconnaissance effective du droit à la négociation collective, le droit de grève tel que défini en vertu des obligations contractées par la République populaire démocratique de Corée au titre du Pacte international relatif aux droits économiques, sociaux et culturels, et l’interdiction d’exploiter les enfants à des fins économiques et de les astreindre à un travail comportant des risques ou susceptible de nuire à leur santé, telle qu’elle découle des obligations contractées par la République populaire démocratique de Corée au titre de la Convention relative aux droits de l’enfant, ainsi que l’exploitation de ressortissants de la République populaire démocratique de Corée envoyés travailler à l’étranger dans des conditions qui s’apparenteraient à du travail forcé, et soulignant à cet égard qu’il importe que soit pleinement honorée l’obligation de procéder, dans le respect de la législation nationale et du droit international applicables, au rapatriement des ressortissants de la République populaire démocratique de Corée qui perçoivent des revenus à l’étranger dans les meilleurs délais, conformément au paragraphe 8 de la résolution <a href="https://undocs.org/fr/S/RES/2397(2017)">2397 (2017)</a> du Conseil de sécurité, de présenter des rapports finaux au plus vite, conformément à ce même paragraphe, et de s’abstenir de fournir aux nationaux de la République populaire démocratique de Corée des permis de travail, conformément au paragraphe 17 de la résolution <a href="https://undocs.org/fr/S/RES/2375(2017)">2375 (2017)</a>, et exhorte la République populaire démocratique de Corée à promouvoir, à respecter et à protéger les droits humains des travailleurs, y compris les travailleurs rapatriés vers la République populaire démocratique de Corée ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_xii">
+              <num>xii)</num>
+              <content eId="para_31_list_point_a_sublist_point_xii_content">
+                <p xml:space="preserve">	la discrimination fondée sur le système <span class="italic">songbun</span>, selon lequel les individus sont classés en fonction de leur naissance et de la classe sociale que leur assigne l’État, mais aussi de leurs opinions politiques et de leur religion ;</p>
+              </content>
+            </point>
+            <point eId="para_31_list_point_a_sublist_point_xiii">
+              <num>xiii)</num>
+              <content eId="para_31_list_point_a_sublist_point_xiii_content">
+                <p xml:space="preserve">	la violence et la discrimination à l’égard des femmes, notamment l’inégalité d’accès à l’emploi et les lois et règlementations discriminatoires ;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_31_list_point_b">
+            <num>b)</num>
+            <content eId="para_31_list_point_b_content">
+              <p xml:space="preserve"> le refus constant du Gouvernement de la République populaire démocratique de Corée d’adresser une invitation au Rapporteur spécial sur la situation des droits de l’homme en République populaire démocratique de Corée et de coopérer avec lui et avec plusieurs autres titulaires de mandat au titre des procédures spéciales des Nations Unies, conformément à leurs attributions, ainsi qu’avec d’autres mécanismes des Nations Unies relatifs aux droits humains ;</p>
+            </content>
+          </point>
+          <point eId="para_31_list_point_c">
+            <num>c)</num>
+            <content eId="para_31_list_point_c_content">
+              <p xml:space="preserve"> le fait que le Gouvernement de la République populaire démocratique de Corée continue de ne pas reconnaître la gravité de la situation relative aux droits humains dans le pays et qu’il ne fait par conséquent rien pour rendre compte de l’application des recommandations formulées dans les documents finals du premier<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/13/13">A/HRC/13/13</a>.</p></authorialNote>, du deuxième<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/27/10">A/HRC/27/10</a>.</p></authorialNote> et du troisième<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/42/10">A/HRC/42/10</a>.</p></authorialNote> Examen périodique universel ou pour tenir compte des observations finales faites par les organes conventionnels ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Condamne </span>les enlèvements systématiques, les refus de rapatriement et les disparitions forcées de personnes qui en résultent, y compris de ressortissants d’autres pays, qui sont pratiqués à grande échelle et à titre de politique d’État et, à cet égard, engage vivement le Gouvernement de la République populaire démocratique de Corée à nouer un dialogue constructif avec les parties concernées afin de régler d’urgence, avec bonne foi et transparence et de manière transparente, ces problèmes qui sont une source de vive préoccupation pour la communauté internationale, y compris en assurant de facto le retour immédiat de toutes les personnes enlevées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Souligne la très grande inquiétude</span> que lui inspirent les informations faisant état de tortures et autres peines ou traitements cruels, inhumains ou dégradants, d’exécutions sommaires, de détentions arbitraires, d’enlèvements et d’autres formes de violations des droits humains et d’exactions commises par la République populaire démocratique de Corée contre des ressortissants d’autres pays à l’intérieur et à l’extérieur du territoire national et exhorte la République populaire démocratique de Corée à divulguer toutes les informations voulues aux familles endeuillées et aux entités compétentes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare très profondément préoccupée</span> par la prévalence d’une malnutrition chronique et aiguë, en particulier parmi les personnes les plus vulnérables, notamment les femmes enceintes et allaitantes, les enfants, les personnes handicapées, les personnes âgées et les prisonniers, y compris les prisonniers politiques, qu’exacerbent l’absence de services essentiels, notamment les services de santé, d’approvisionnement en eau propre, d’assainissement et d’hygiène, les faiblesses structurelles de la production agricole donnant lieu à des pénuries d’aliments diversifiés, la capacité limitée du Gouvernement de faire face à des catastrophes naturelles et les politiques gouvernementales qui limitent l’accès à une alimentation adéquate et la disponibilité des denrées, telles que les restrictions imposées à la culture et au commerce des denrées alimentaires et la fermeture des frontières, et, à cet égard, exhorte le Gouvernement de la République populaire démocratique de Corée à prendre des mesures préventives et correctives, notamment en coopérant avec les organismes donateurs internationaux et les organismes humanitaires et en les autorisant à se rendre auprès des personnes vulnérables afin d’exécuter des programmes d’aide humanitaire, le suivi étant assuré conformément aux normes internationales applicables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Accueille avec satisfaction</span> le dernier rapport présenté au Conseil des droits de l’homme par le Rapporteur spécial sur la situation des droits de l’homme en République populaire démocratique de Corée<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/46/51">A/HRC/46/51</a>.</p></authorialNote>, notamment l’énergie déployée pour conserver une double approche associant coopération et mise en cause des responsabilités, sachant qu’il importe de traiter les questions de manière globale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite de nouveau</span> du rapport du Groupe d’experts indépendants sur l’établissement des responsabilités pour les violations des droits de l’homme en République populaire démocratique de Corée<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/34/66/Add.1">A/HRC/34/66/Add.1</a>.</p></authorialNote>, créé par la résolution <a href="https://undocs.org/fr/A/HRC/RES/31/18">31/18</a> du Conseil des droits de l’homme, en particulier des mécanismes proposés pour établir les responsabilités et la vérité et rendre justice à toutes les victimes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Accueille avec satisfaction </span>le dernier rapport de la Haute-Commissaire des Nations Unies aux droits de l’homme<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/46/52">A/HRC/46/52</a>.</p></authorialNote> sur les mesures prises conformément aux résolutions <a href="https://undocs.org/fr/A/HRC/RES/34/24">34/24</a> et <a href="https://undocs.org/fr/A/HRC/RES/40/20">40/20</a> du Conseil des droits de l’homme, en date, respectivement, du 24 mars 2017<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-douzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53 </span>(<a href="https://undocs.org/fr/A/72/53">A/72/53</a>), chap. IV, sect. A.</p></authorialNote> et du 22 mars 2019<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		Ibid., <span class="italic">soixante-quatorzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/74/53">A/74/53</a>), chap. IV, sect. A.</p></authorialNote>, ainsi que la résolution <a href="https://undocs.org/fr/A/hrc/RES/49/22">49/22</a> du Conseil, qui continue de renforcer la capacité du Haut-Commissariat des Nations Unies aux droits de l’homme, notamment de son antenne à Séoul, afin de permettre la mise en œuvre des recommandations pertinentes formulées par le Groupe d’experts indépendants sur l’établissement des responsabilités qui visent à renforcer les mesures actuelles de surveillance et de collecte de données, à créer un répertoire central des informations et éléments de preuve et à faire évaluer l’ensemble des informations et des témoignages par des experts en matière de responsabilité juridique en vue d’élaborer des stratégies applicables dans tout processus ultérieur d’établissement des responsabilités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Appuie sans réserve</span> l’action menée par le Haut-Commissariat des Nations Unies aux droits de l’homme en application de la résolution <a href="https://undocs.org/fr/A/hrc/RES/49/22">49/22</a> du Conseil des droits de l’homme pour que les violations du droit international qu’aurait commises la République populaire démocratique de Corée ou qui auraient été perpétrées sur son territoire ne restent pas impunies, et invite tous les États à appuyer ces efforts ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Remercie de nouveau </span>la Commission d’enquête pour son travail et mesure l’importance de son rapport, dans lequel elle a conclu que l’ensemble des témoignages qu’elle a réunis et les informations qu’elle a reçues constituent des motifs raisonnables de croire que des crimes contre l’humanité ont bel et bien été commis en République populaire démocratique de Corée, dans le cadre de politiques établies au plus haut niveau de l’État depuis des décennies et par des institutions contrôlées par ses dirigeants, conclusion confirmée par la Haute-Commissaire des Nations Unies aux droits de l’homme dans le rapport qu’elle a présenté au Conseil des droits de l’homme en application des résolutions <a href="https://undocs.org/fr/A/HRC/RES/34/24">34/24</a> et <a href="https://undocs.org/fr/A/HRC/RES/40/20">40/20</a> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Déplore </span>que les autorités de la République populaire démocratique de Corée n’amènent pas les responsables de violations des droits humains à répondre de leurs actes, y compris lorsqu’il s’agit de violations considérées par la Commission d’enquête comme pouvant constituer des crimes contre l’humanité, et engage la communauté internationale à coopérer en vue d’établir les responsabilités et à prendre toutes les mesures nécessaires pour que ces crimes ne restent pas impunis ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> le Conseil de sécurité à continuer d’examiner les conclusions et recommandations pertinentes de la Commission d’enquête et à prendre les mesures voulues pour établir les responsabilités, notamment en envisageant de renvoyer devant la Cour pénale internationale la situation en République populaire démocratique de Corée et en envisageant l’adoption de nouvelles sanctions ciblées contre ceux qui semblent porter la plus grande part de responsabilité dans les violations des droits humains dont la Commission a déclaré qu’elles pouvaient constituer des crimes contre l’humanité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Engage également </span>le Conseil de sécurité à reprendre immédiatement l’examen de la situation en République populaire démocratique de Corée et à inviter le Haut-Commissariat des Nations Unies aux droits de l’homme à lui présenter un exposé portant notamment sur la question des droits humains, au vu des vives préoccupations exprimées dans la présente résolution, et compte qu’il continuera de s’intéresser plus activement à la question ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Appuie </span>les efforts que continue de déployer le Haut‑Commissariat des Nations Unies aux droits de l’homme, notamment par l’intermédiaire de son antenne à Séoul, pour mettre au point un répertoire central permettant de regrouper les informations et les éléments de preuve relatifs aux allégations de violations du droit international et pour évaluer l’ensemble des informations et des preuves en vue d’élaborer des stratégies applicables dans tout processus ultérieur d’établissement des responsabilités, et encourage le Haut-Commissariat à coopérer avec de nombreux acteurs en vue de recueillir des éléments de preuve qui pourraient être utilisés à l’avenir dans des procédures pénales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de veiller à ce que l’antenne mise en place sur le terrain par le Haut‑Commissariat des Nations Unies aux droits de l’homme puisse fonctionner en toute indépendance, dispose des ressources et de l’appui nécessaires à l’exécution de son mandat, bénéficie de la pleine coopération des États Membres concernés et ne fasse l’objet ni de représailles ni de menaces ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_150__content">
+          <p xml:space="preserve">	<span class="italic">Demande également</span> aux États Membres de continuer à contribuer au renforcement des capacités du Haut-Commissariat des Nations Unies aux droits de l’homme, notamment de son antenne à Séoul, afin de permettre la mise en œuvre des recommandations pertinentes formulées par le Groupe d’experts indépendants sur l’établissement des responsabilités dans son rapport et conformément aux résolutions <a href="https://undocs.org/fr/A/HRC/RES/34/24">34/24</a>, <a href="https://undocs.org/fr/A/HRC/RES/40/20">40/20</a>, <a href="https://undocs.org/fr/A/hrc/RES/46/17">46/17</a> du 23 mars 2021<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		Ibid., <span class="italic">soixante-seizième session</span>, <span class="italic">Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/76/53">A/76/53</a>), chap. IV, sect. A.</p></authorialNote> et <a href="https://undocs.org/fr/A/hrc/RES/49/22">49/22</a> du Conseil des droits de l’homme, recommandations qui visent à renforcer les mesures de surveillance et de collecte de données, à créer un répertoire central des informations et éléments de preuve et à faire évaluer l’ensemble des informations et des témoignages par des experts en matière de responsabilité juridique en vue d’élaborer des stratégies applicables dans tout processus ultérieur d’établissement des responsabilités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Demande en outre</span> aux États Membres de collaborer avec le Haut-Commissariat des Nations Unies aux droits de l’homme en vue d’élaborer les stratégies applicables à l’avenir dans les procédures d’établissement des responsabilités et de diligenter, lorsque cela est possible et dans le respect du droit international, des enquêtes et des poursuites contre les personnes soupçonnées d’avoir commis des crimes internationaux en République populaire démocratique de Corée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxt">
+        <num>18.</num>
+        <list eId="para_183_list">
+          <intro eId="para_183_list_intro">
+            <p xml:space="preserve">	<span class="italic">Engage vivement</span> le Gouvernement de la République populaire démocratique de Corée à respecter, à protéger et à réaliser tous les droits humains et libertés fondamentales et, à cet égard :</p>
+          </intro>
+          <point eId="para_183_list_point_a">
+            <num>a)</num>
+            <content eId="para_183_list_point_a_content">
+              <p xml:space="preserve"> à mettre immédiatement fin aux violations systématiques, généralisées et graves des droits humains et aux atteintes à ces droits, notamment celles susvisées, en appliquant pleinement les mesures prévues dans les résolutions susmentionnées de l’Assemblée générale, de la Commission des droits de l’homme et du Conseil des droits de l’homme, ainsi que les recommandations que lui ont adressées le Conseil, dans le cadre de l’Examen périodique universel, la Commission d’enquête, les titulaires de mandats au titre des procédures spéciales et les organes conventionnels des Nations Unies ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_b">
+            <num>b)</num>
+            <content eId="para_183_list_point_b_content">
+              <p xml:space="preserve"> à fermer immédiatement les camps de prisonniers politiques, à libérer tous les prisonniers politiques sans condition et sans plus de retard, à procéder immédiatement à un examen approfondi des conditions de détention dans les centres de détention et à prendre des mesures pour que ces conditions soient conformes aux obligations et engagements visant à assurer un traitement humain des personnes détenues, comme le prévoient le Pacte international relatif aux droits civils et politiques, le Pacte international relatif aux droits économiques, sociaux et culturels et l’Ensemble de règles minima des Nations Unies pour le traitement des détenus (Règles Nelson Mandela)<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/175">70/175</a>, annexe.</p></authorialNote> ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_c">
+            <num>c)</num>
+            <content eId="para_183_list_point_c_content">
+              <p xml:space="preserve"> à cesser immédiatement de recourir à la torture et à d’autres peines ou traitements cruels, inhumains ou dégradants, y compris dans les lieux de détention ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_d">
+            <num>d)</num>
+            <content eId="para_183_list_point_d_content">
+              <p xml:space="preserve"> à protéger ses habitants, à s’attaquer au problème de l’impunité et à veiller à ce que les responsables de violations des droits humains et d’atteintes à ces droits soient traduits en justice devant des tribunaux indépendants ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_e">
+            <num>e)</num>
+            <content eId="para_183_list_point_e_content">
+              <p xml:space="preserve"> à s’attaquer aux causes profondes des flux de migrants et de réfugiés, à poursuivre, dans le cadre de procès qui répondent aux normes internationales des droits de l’homme en matière de procès équitable, ceux qui participent au trafic de migrants, à la traite d’êtres humains et à l’extorsion, en s’abstenant de pénaliser les victimes de la traite, et à faire en sorte que les femmes rapatriées victimes de la traite bénéficient d’un soutien approprié et ne soient pas punies, envoyées dans des camps de travail ou des centres de détention ou privées de leur liberté de quelque autre façon que ce soit ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_f">
+            <num>f)</num>
+            <content eId="para_183_list_point_f_content">
+              <p xml:space="preserve"> à veiller à ce que toutes les personnes se trouvant sur le territoire de la République populaire démocratique de Corée jouissent du droit à la liberté de circulation et soient libres de quitter le pays, y compris pour chercher asile dans un autre pays, sans être inquiétées par les autorités de la République populaire démocratique de Corée ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_g">
+            <num>g)</num>
+            <content eId="para_183_list_point_g_content">
+              <p xml:space="preserve"> à veiller à ce que les citoyens de la République populaire démocratique de Corée expulsés ou refoulés vers leur pays puissent rentrer en sécurité et dans la dignité, soient traités humainement et ne subissent aucune violation de leurs droits humains, du fait notamment de disparitions forcées, d’exécutions arbitraires, d’actes de torture et de mauvais traitements ou de procès ne respectant pas les garanties internationales en matière de procès équitable, et à fournir des renseignements sur leur statut et le sort qui leur est réservé ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_h">
+            <num>h)</num>
+            <content eId="para_183_list_point_h_content">
+              <p xml:space="preserve"> à offrir une protection aux ressortissants d’autres pays détenus dans le pays, notamment à leur garantir la liberté de communiquer et de se mettre en rapport avec des agents consulaires, conformément à la Convention de Vienne sur les relations consulaires<authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 596, n<sup>o</sup> 8638.</p></authorialNote> à laquelle la République populaire démocratique de Corée est partie, et à prendre toutes autres dispositions nécessaires pour confirmer leur statut et communiquer avec leur famille ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_i">
+            <num>i)</num>
+            <content eId="para_183_list_point_i_content">
+              <p xml:space="preserve"> à coopérer pleinement avec la nouvelle Rapporteuse spéciale, notamment en lui accordant un accès au pays sans réserve, entrave ni contrainte, ainsi qu’avec les titulaires de mandats au titre d’une procédure spéciale du Conseil des droits de l’homme et avec d’autres mécanismes des Nations Unies actifs dans le domaine des droits humains pour permettre une évaluation complète de la situation relative aux droits humains ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_j">
+            <num>j)</num>
+            <content eId="para_183_list_point_j_content">
+              <p xml:space="preserve"> à inviter le Haut-Commissariat des Nations Unies aux droits de l’homme à effectuer une visite dans le pays ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_k">
+            <num>k)</num>
+            <content eId="para_183_list_point_k_content">
+              <p xml:space="preserve"> à entreprendre avec le Haut-Commissaire et le Haut-Commissariat des Nations Unies aux droits de l’homme, y compris l’antenne dans la région, des activités de coopération technique dans le domaine des droits humains, comme la Haute‑Commissaire a cherché à le faire ces dernières années, en vue d’améliorer la situation relative aux droits humains dans le pays ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_l">
+            <num>l)</num>
+            <content eId="para_183_list_point_l_content">
+              <p xml:space="preserve"> à appliquer les recommandations issues des Examens périodiques universels auxquelles il a souscrit et à présenter un rapport volontaire à mi‑parcours sur l’application des recommandations issues du troisième cycle qui auront été acceptées ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_m">
+            <num>m)</num>
+            <content eId="para_183_list_point_m_content">
+              <p xml:space="preserve"> à devenir membre de l’Organisation internationale du Travail, à adopter des lois et des pratiques répondant aux normes internationales du travail et à envisager de ratifier toutes les conventions pertinentes, en particulier les principales conventions de l’Organisation relatives au travail ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_n">
+            <num>n)</num>
+            <content eId="para_183_list_point_n_content">
+              <p xml:space="preserve"> à poursuivre et à renforcer sa coopération avec les organismes des Nations Unies à vocation humanitaire, notamment en autorisant le retour du personnel recruté sur le plan international et du personnel humanitaire ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_o">
+            <num>o)</num>
+            <content eId="para_183_list_point_o_content">
+              <p xml:space="preserve"> à faire en sorte qu’il soit possible d’accéder pleinement, librement et de manière sûre aux personnes ayant besoin d’une aide humanitaire, à prendre des mesures pour permettre aux organismes humanitaires d’évaluer les besoins des membres de groupes vulnérables, d’obtenir des données de référence essentielles et d’acheminer l’aide humanitaire librement et en toute impartialité dans toutes les régions du pays, en fonction des besoins et conformément aux principes humanitaires, comme il s’y est engagé, à assurer l’accès aux services de base adéquats et à mettre en œuvre des mesures relatives à la sécurité alimentaire et à la nutrition plus efficaces, grâce notamment à la pratique d’une agriculture viable, à l’adoption de mesures rationnelles de production et de distribution alimentaires et à l’augmentation des crédits alloués au secteur alimentaire, à faire en sorte que l’action humanitaire soit suivie de près et comme il se doit et à permettre aux organisations humanitaires de mener à bien leurs activités en lien avec la pandémie de COVID‑19 ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_p">
+            <num>p)</num>
+            <content eId="para_183_list_point_p_content">
+              <p xml:space="preserve"> à coopérer avec le Dispositif pour accélérer l’accès aux outils de lutte contre la COVID‑19, le Mécanisme COVAX pour un accès mondial aux vaccins contre la COVID‑19 et les organismes concernés et à donner suite aux propositions d’assistance pour faire en sorte que des vaccins contre la COVID‑19 soient rapidement acheminés et équitablement distribués en quantité suffisante, sachant que l’accès aux vaccins est un élément essentiel de l’exercice du droit qu’a toute personne de jouir du meilleur état de santé physique et mentale possible, notamment lorsqu’il s’agit pour un gouvernement de prendre les mesures voulues pour permettre au personnel recruté sur le plan international d’entrer dans le pays et de donner priorité aux chargements contenant une aide humanitaire vitale, conformément aux résolutions applicables du Conseil de sécurité et aux directives et aux meilleures pratiques recommandées par l’Organisation mondiale de la Santé ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_q">
+            <num>q)</num>
+            <content eId="para_183_list_point_q_content">
+              <p xml:space="preserve"> à coopérer davantage avec les membres de l’équipe de pays des Nations Unies et les organismes de développement de manière qu’ils puissent contribuer directement à l’amélioration des conditions de vie de la population civile, notamment en progressant dans la réalisation des objectifs de développement durable<sup>11</sup> ;</p>
+            </content>
+          </point>
+          <point eId="para_183_list_point_r">
+            <num>r)</num>
+            <content eId="para_183_list_point_r_content">
+              <p xml:space="preserve"> à envisager de ratifier les instruments internationaux relatifs aux droits de l’homme auxquels le pays n’est pas encore partie et d’y adhérer, pour permettre le dialogue avec les organes conventionnels des droits de l’homme, à recommencer de rendre compte aux organes de contrôle de l’application des dispositions des traités auxquels il est partie, à participer véritablement aux examens conduits par ces organes et à tenir compte des observations finales dont ils lui font part afin d’améliorer la situation relative aux droits humains dans le pays ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_201" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_201__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> le Gouvernement de la République populaire démocratique de Corée à appliquer sans délai les recommandations de la Commission d’enquête, du Groupe d’experts indépendants et du Haut-Commissariat des Nations Unies aux droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’il importe que la situation préoccupante relative aux droits humains en République populaire démocratique de Corée continue d’occuper une place importante dans les préoccupations de la communauté internationale, notamment grâce à des activités soutenues de communication, de sensibilisation et d’information, et prie le Haut-Commissariat des Nations Unies aux droits de l’homme de renforcer ces activités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_240" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_240__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> tous les États Membres qui entretiennent un dialogue avec la République populaire démocratique de Corée à continuer de plaider en faveur de l’instauration d’une paix et d’une sécurité durables dans la péninsule coréenne et à aborder la question de la situation relative aux droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> tous les États Membres, ses propres membres, le Conseil des droits de l’homme, le Haut‑Commissariat des Nations Unies aux droits de l’homme, le Secrétariat de l’Organisation des Nations Unies, les institutions spécialisées des Nations Unies compétentes, les organisations et instances régionales intergouvernementales, les organisations de la société civile, les fondations, les entreprises concernées et les autres parties prenantes auxquelles la Commission d’enquête a adressé des recommandations, à appliquer celles‑ci ou à y donner suite, et à appuyer également les efforts visant à renouer et à renforcer le dialogue, notamment le dialogue intercoréen, sur la situation humanitaire et la situation relative aux droits humains, notamment en ce qui concerne les enlèvements internationaux, en République populaire démocratique de Corée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_283" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_283__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> l’ensemble du système des Nations Unies à continuer de prendre des mesures face à la situation préoccupante relative aux droits humains en République populaire démocratique de Corée de manière coordonnée et unifiée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_306" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_306__content">
+          <p xml:space="preserve">	<span class="italic">Engage </span>les programmes, fonds et institutions spécialisées concernés des Nations Unies ainsi que les autres organisations compétentes en la matière à aider le Gouvernement de la République populaire démocratique de Corée à mettre en œuvre les recommandations émanant des mécanismes des Nations Unies relatifs aux droits humains, notamment des Examens périodiques universels, des examens menés par les organes créés en vertu d’instruments internationaux relatifs aux droits de l’homme et du rapport de la Commission d’enquête ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_330" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_330__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à la République populaire démocratique de Corée de collaborer de manière constructive avec ses interlocuteurs internationaux pour permettre une amélioration concrète de la situation relative aux droits humains sur le terrain, en priorité par le dialogue, la conduite dans le pays de visites officielles menées avec la liberté d’accès voulue pour évaluer pleinement la situation relative aux droits humains, des initiatives de coopération et la multiplication des contacts interpersonnels ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_355" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_355__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de poursuivre l’examen de la situation relative aux droits humains en République populaire démocratique de Corée à sa soixante-dix-huitième session, et à cette fin, prie le Secrétaire général de lui présenter un rapport détaillé sur la situation relative aux droits humains dans le pays et prie la Rapporteuse spéciale de continuer à rendre compte de ses conclusions et recommandations, ainsi que de la suite donnée à l’application des recommandations de la Commission d’enquête.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54e">54e séance plénière</inline>
+        <eol />
+        <docDate date="2022-12-15" refersTo="#adoptionDate">15 décembre 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
