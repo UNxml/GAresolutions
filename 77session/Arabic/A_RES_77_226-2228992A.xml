@@ -1,0 +1,617 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/"></FRBRuri>
+          <FRBRdate date="2022-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/ara@/"></FRBRuri>
+          <FRBRdate date="2023-01-09" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-226/ara@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-13" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Democratic People's Republic of Korea" showAs="UN. Human Rights Council. Special Rapporteur on the Situation of Human Rights in the Democratic People's Republic of Korea" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Human Rights Council. Commission of Inquiry on Human Rights in the Democratic People's Republic of Korea" showAs="UN. Human Rights Council. Commission of Inquiry on Human Rights in the Democratic People's Republic of Korea" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Human Rights Office in Seoul" showAs="UN Human Rights Office in Seoul" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" showAs="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="68c" showAs="Human rights situations and reports of special rapporteurs and representatives." shortForm="HUMAN RIGHTS--REPORTS" dictionary="A/77/251"></keyword>
+        <keyword refersTo="agenda" value="68c[4]" showAs="HUMAN RIGHTS--DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" shortForm="HUMAN RIGHTS--DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-01" outcome="draftResolution" as="A/C.3/77/L.32" by="Albania, Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Honduras, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Marshall Islands, Micronesia (Federated States of), Monaco, Montenegro, Netherlands, North Macedonia, Poland, Portugal, Republic of Korea, Republic of Moldova, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Türkiye, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Andorra, Bosnia and Herzegovina, Chile, Georgia, Guatemala, Israel, Kiribati, Liberia, Maldives, Mexico, Nauru, New Zealand, Norway, Palau, San Marino, Serbia and Tuvalu" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/463/Add.3" by="" refersTo="29" />
+        <step date="2022-12-15" outcome="adopted" as="A/77/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="اللجنة الثالثة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-28992 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/226</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-09" class="rightSmall" refersTo="#dateOfIssuance">9 January 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">الدورة السابعة والسبعون</session>
+      </p>
+      <p>
+        <inline title="68 (ج)" name="agenda item">البند 68 (ج) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">تعزيز حقوق الإنسان وحمايتها: حالات حقوق الإنسان والتقارير المقدمة من المقررين والممثلين الخاصين</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 15 كانون الأول/ديسمبر 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[بناء على تقرير اللجنة الثالثة (<inline name="originating document">A/77/463/Add.3، الفقرة 29</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/226</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	حالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة</span>،</p>
+      </formula>
+      <container name="إذ تؤكد من جديد" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تؤكد من جديد</span> أن على جميع الدول التزاما باحترام حقوق الإنسان والحريات الأساسية وحمايتها وإعمالها والوفاء بالالتزامات التي تعهدت بها بموجب مختلف الصكوك الدولية،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تشير</span> إلى جميع القرارات السابقة التي اتخذتها الجمعية العامة ولجنة حقوق الإنسان ومجلس حقوق الإنسان بشأن حالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية، بما فيها قرار الجمعية <a href="https://undocs.org/ar/A/RES/76/177">76/177</a> المؤرخ 16 كانون الأول/ديسمبر 2021 وقرار المجلس <a href="https://undocs.org/ar/A/RES/49/22">49/22</a> المؤرخ 1 نيسان/أبريل 2022<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة السابعة والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/77/53">A/77/53</a>)، الفصل الخامس، الفرع ألف.</p></authorialNote><sup>)</sup>، وإذ تضع في اعتبارها ضرورة أن يعزز المجتمع الدولي جهوده المتضافرة الرامية إلى تنفيذ تلك القرارات،</p>
+      </container>
+      <container name="وإذ يساورها بالغ القلق" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساورها بالغ القلق</span> إزاء الحالة الخطيرة لحقوق الإنسان وشيوع ثقافة الإفلات من العقاب وانعدام المساءلة عن انتهاكات وتجاوزات حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية،</p>
+      </container>
+      <container name="وإذ تكرر التأكيد" eId="container_5">
+          <p xml:space="preserve">	<span class="bold italic">وإذ تكرر التأكيد</span> على أهمية متابعة التوصيات التي يتضمنها تقرير لجنة التحقيق المعنية بحقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/25/63">A/HRC/25/63</a>.</p></authorialNote><sup>)</sup>، وإذ تكرر أيضا الإعراب عن بالغ القلق إزاء النتائج التفصيلية الواردة فيه،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى مسؤولية جمهورية كوريا الشعبية الديمقراطية عن حماية سكانها من الجرائم المرتكبة ضد الإنسانية، وإذ تشير أيضا إلى أن لجنة التحقيق حثت قيادة جمهورية كوريا الشعبية الديمقراطية على منع ارتكاب الجرائم ضد الإنسانية وقمعها، وكفالة ملاحقة الجناة وتقديمهم إلى العدالة،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما</span> بتقرير المقررة الخاصة لمجلس حقوق الإنسان المعنية بحالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/77/522">A/77/522</a>.</p></authorialNote><sup>)</sup>، وإذ تأسف لعدم السماح للمقرر الخاص السابق بزيارة البلد وعدم تعاون سلطات جمهورية كوريا الشعبية الديمقراطية معه، وإذ تحيط علما أيضا بالتقرير الشامل للأمين العام عن حالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية المقدم عملا بالقرار <a href="https://undocs.org/ar/A/RES/76/177">76/177</a><sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/77/247">A/77/247</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تضع في اعتبارها</span> أن جمهورية كوريا الشعبية الديمقراطية طرف في العهد الدولي الخاص بالحقوق المدنية والسياسية<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	انظر القرار 2200 ألف (د-21)، المرفق.</p></authorialNote><sup>)</sup> والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup> واتفاقية حقوق الطفل<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote><sup>)</sup> واتفاقية القضاء على جميع أشكال التمييز ضد المرأة<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1249، الرقم 20378.</p></authorialNote><sup>)</sup> واتفاقية حقوق الأشخاص ذوي الإعاقة<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	المرجع نفسه، المجلد 2515، الرقم 44910.</p></authorialNote><sup>)</sup>، وإذ تحث على التنفيذ الكامل لهذه لاتفاقيات، وللتوصيات الواردة في الملاحظات الختامية المنبثقة عن الاستعراضات التي أجرتها هيئات المعاهدات وتقديم جميع التقارير الدورية المتأخرة إلى هيئات المعاهدات المعنية،</p>
+      </container>
+      <container name="وإذ تشجع" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشجع</span> جمهورية كوريا الشعبية الديمقراطية على تنفيذ التوصيات الواردة في تقرير المقررة الخاصة لمجلس حقوق الإنسان المعنية بحقوق الأشخاص ذوي الإعاقة عن زيارتها إلى جمهورية كوريا الشعبية الديمقراطية في أيار/مايو 2017، المقدم إلى المجلس في دورته السابعة والثلاثين<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/37/56/Add.1">A/HRC/37/56/Add.1</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على أهمية تعاون حكومة جمهورية كوريا الشعبية الديمقراطية مع سائر القائمين على الإجراءات الخاصة وآليات حقوق الإنسان التابعة للأمم المتحدة، وخصوصا لاستغلال الفرصة للتواصل مع المقررة الخاصة الجديدة المعنية بحالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية، وفقا لاختصاصات كل منهم،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى مشاركة جمهورية كوريا الشعبية الديمقراطية في عملية الاستعراض الدوري الشامل الثالثة، وإذ تلاحظ قبول حكومة جمهورية كوريا الشعبية الديمقراطية 132 توصية من أصل التوصيات البالغ عددها 262 توصية<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/42/10">A/HRC/42/10</a>.</p></authorialNote><sup>)</sup>، وإذ تشجع الحكومة على تنفيذ هذه التوصيات بحسن نية،</p>
+      </container>
+      <container name="وإذ تلاحظ مع الأسف" eId="container_12">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ مع الأسف</span> أن منظمات المجتمع المدني المستقلة لا يمكنها العمل في جمهورية كوريا الشعبية الديمقراطية، وأنه نتيجةً لذلك، لا تتمكن أي منظمة من منظمات المجتمع المدني مقرها جمهورية كوريا الشعبية الديمقراطية من القيام بشكل مستقل برصد انتهاكات حقوق الإنسان في البلد وتوثيقها وتقديم تقارير عنها،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى التعاون القائم بين حكومة جمهورية كوريا الشعبية الديمقراطية ومفوضية الأمم المتحدة لحقوق الإنسان في توفير التثقيف في مجال حقوق الإنسان لعدد صغير من المسؤولين الحكوميين في جنيف في أيار/مايو 2019، وإذ تحث على توسيع نطاق هذا التعاون التقني، بما في ذلك من خلال الاجتماعات الافتراضية،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد</span> أهمية تعاون حكومة جمهورية كوريا الشعبية الديمقراطية مع الجهاز الميداني لمفوضية الأمم المتحدة لحقوق الإنسان في المنطقة،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> التعاون القائم بين حكومة جمهورية كوريا الشعبية الديمقراطية ومنظمة الأمم المتحدة للطفولة ومنظمة الصحة العالمية من أجل تحسين الحالة الصحية في البلد، بما في ذلك التواصل مع منظمة الصحة العالمية بشأن التصدي لجائحة مرض فيروس كورونا (كوفيد-19) وإيصال لقاحات كوفيد-19 إلى جمهورية كوريا الشعبية الديمقراطية،</p>
+      </container>
+      <container name="وإذ تلاحظ أيضا" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ أيضا</span> الأنشطة التي يقوم بها برنامج الأمم المتحدة الإنمائي على نطاق ضيق في جمهورية كوريا الشعبية الديمقراطية قبل انسحاب الموظفين الدوليين، وإذ تشجع حكومة جمهورية كوريا الشعبية الديمقراطية على العمل مع المجتمع الدولي لضمان استفادة الأشخاص المحتاجين إلى المساعدة من البرامج وضمان استمرار تنفيذ تلك البرامج حتى في سياق التدابير الرامية إلى منع انتشار كوفيد-19،</p>
+      </container>
+      <container name="وإذ تلاحظ كذلك" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ كذلك</span> التعاون القائم بين حكومة جمهورية كوريا الشعبية الديمقراطية وبرنامج الأغذية العالمي ومنظمة الأمم المتحدة للطفولة ومنظمة الأغذية والزراعة للأمم المتحدة في إجراء عدد من التقييمات، وإذ تشدد على أهمية هذه التقييمات في تحليل التغيرات التي تطرأ على الحالة فيما يتعلق بالأمن الغذائي والتغذية والصحة والمياه والصرف الصحي على المستويات الوطني والأسري والفردي، ومن ثم في دعم الثقة في تحديد أهداف برامج المعونة ورصدها، وإذ تلاحظ مع التقدير عمل الجهات الدولية العاملة في مجال تقديم المعونة،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد</span> أهمية منح الوكالات الإنسانية إمكانية الوصول الفوري إلى البلد، لا سيما بالنظر إلى انتشار سوء التغذية والحاجة إلى مواصلة التصدي لجائحة كوفيد-19 وضرورة أن تتمكن منظمات المعونة الإنسانية الدولية من إجراء تقييمات مستقلة للاحتياجات وتنفيذ برامجها الإنسانية بما يتمشى مع المعايير الدولية والمبادئ الإنسانية، وذلك في المناطق التي ليس لها وجود عملي فيها وغيرها من المناطق، وكذلك الحاجة إلى وصول المنظمات الإنسانية بشكل كامل وآمن وسريع ودون عوائق لتقديم المساعدة إلى الأشخاص في أشد الحالات ضعفا، بمن فيهم الأفراد المحتجزون والأشخاص ذوو الإعاقة، بما في ذلك من خلال دخول موظفين دوليين وإعطاء الأولوية لشحنات المساعدة الإنسانية المنقذة للحياة، وفقاً للتوجيهات وأفضل الممارسات المقدمة من منظمة الصحة العالمية،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ مع القلق </span>النتائج التي توصلت إليها الأمم المتحدة في التقرير المتعلق بالعمل الإنساني المعنون ”جمهورية كوريا الشعبية الديمقراطية عام 2020: الاحتياجات والأولويات“ وبالتقييمات المشتركة السريعة للأمن الغذائي التي أجرتها منظمة الأغذية والزراعة للأمم المتحدة وبرنامج الأغذية العالمي وبدعوتهما إلى تلبية الاحتياجات الإنسانية الملحة في جمهورية كوريا الشعبية الديمقراطية،</p>
+      </container>
+      <container name="وإذ تدين" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدين</span> جمهورية كوريا الشعبية الديمقراطية لتحويل مواردها صوب اقتناء الأسلحة النووية والقذائف التسيارية بدلا من استخدامها لتحقيق الرفاه لشعبها، وإذ تشدد على الحاجة إلى أن تحترم جمهورية كوريا الشعبية الديمقراطية شعبها وأن تكفل رفاهَه وتصون كرامته الأصيلة في البلد على نحو ما أشار إليه مجلس الأمن في قراراته <a href="https://undocs.org/ar/S/RES/2321(2016)">2321 (2016)</a> المؤرخ 30 تشرين الثاني/نوفمبر 2016 و <a href="https://undocs.org/ar/S/RES/2371(2017)">2371 (2017)</a> المؤرخ 5 آب/أغسطس 2017 و <a href="https://undocs.org/ar/S/RES/2375(2017)">2375 (2017)</a> المؤرخ 11 أيلول/سبتمبر 2017 و <a href="https://undocs.org/ar/S/RES/2397(2017)">2397 (2017)</a> المؤرخ 22 كانون الأول/ديسمبر 2017،</p>
+      </container>
+      <container name="وإذ تلاحظ بقلق شديد" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ بقلق شديد</span> تفاقم الحالة الإنسانية والآثار السلبية التي خلّفتها على حالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية التدابيرُ المتخذة في أعقاب تفشي جائحة كوفيد-19 في العالم، وإذ تشدد على أن أي قيود تُفرض من أجل التصدي لجائحة كوفيد-19 ولموجة تفشي الجائحة على الصعيد الوطني التي أُعلن عنها في أيار/مايو 2022 يجب أن تكون ضرورية ومتناسبة وغير تمييزية ومحددة زمنياً ومتوافقة تماماً مع القانون الدولي، بما في ذلك القانون الدولي لحقوق الإنسان، ومع قرارات مجلس الأمن ذات الصلة،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق" eId="container_22">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تلاحظ مع القلق</span> القيود الحكومية التي أجبرت الموظفين الدوليين التابعين للوكالات الإنسانية على مغادرة البلد وتعليق مشاريع المساعدة، والأثر الذي ربما تكون هذه القيود قد خلّفته على صعيدي سوء التغذية والحصول على الخدمات الصحية والمياه والمرافق الصحية،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما</span> بالإطار الاستراتيجي القائم للتعاون بين الأمم المتحدة وحكومة جمهورية كوريا الشعبية الديمقراطية وبالتزام الحكومة المتوائم مع المبادئ والمقاصد والغايات المنبثقة من أهداف التنمية المستدامة<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	()	انظر القرار <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup> والمتّسِق مع التزاماتها بموجب الاتفاقات والاتفاقيات الدولية،</p>
+      </container>
+      <container name="وإذ تشدد مرة أخرى مع بالغ القلق" eId="container_24">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد مرة أخرى مع بالغ القلق</span> على ما تتسم به مسألة الاختطاف الدولي، التي تتضمن انتهاكا خطيرا لحقوق الإنسان، والإعادة الفورية لجميع المختطَفين، مع تقدمهم وأفراد أسرهم في السن، من إلحاح وأهمية، وإذ تعرب عن بالغ القلق إزاء المعاناة الشديدة التي يكابدها المختطَفون وأسرهم لسنوات طويلة، وعدم اتخاذ جمهورية كوريا الشعبية الديمقراطية أي إجراءات ملموسة أو إيجابية، لا سيما وأن التحقيقات التي أجريت بشأن جميع المواطنين اليابانيين قد بدأت على أساس المشاورات التي أجريت على المستوى الحكومي بين جمهورية كوريا الشعبية الديمقراطية واليابان في أيار/مايو 2014، والردود المتطابقة وغير الموضوعية التي قدمتها جمهورية كوريا الشعبية الديمقراطية على الرسائل العديدة التي أحالها الفريق العامل المعني بحالات الاختفاء القسري أو غير الطوعي، وإذ تطالب بشدة مرة أخرى جمهورية كوريا الشعبية الديمقراطية بأن تصغي بإخلاص إلى أصوات الضحايا وأسرهم لتعالج جميع مزاعم الاختفاء القسري، وأن توضح مصير الأشخاص المختفين وأماكن وجودهم وأن تقدم بحسن نية معلومات دقيقة ومفصّلة إلى أسر الضحايا، وأن تحل على الفور جميع المسائل المتعلقة بجميع المختطفين، لا سيما تحقيق العودة الفورية لجميع مختطَفي اليابان وجمهورية كوريا،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ مع القلق</span> الادعاءات المتعلقة باستمرار انتهاكات حقوق الإنسان الواجبة لأسرى الحرب الذين لم يعادوا إلى وطنهم وذريتهم،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على ما تتسم به مسألة الأسر المشتتة الشمل من إلحاح وأهمية، بما في ذلك بالنسبة للكوريين المتضررين في جميع أنحاء العالم، وإذ تحثّ في هذا الصدد على استئناف اللقاءات بين أفراد الأسر المشتتة الشمل عبر الحدود، بما في ذلك تنفيذ ما تم التعهّد به بشأن هذه المسألة في مؤتمر قمة الكوريتين المعقود في 19 أيلول/سبتمبر 2018 من التزامات بتعزيز التعاون الإنساني من أجل إيجاد حل جذري لمسألة الأسر المشتتة الشمل، والسماح بعمليات لم الشمل الدائمة المنتظمة لأفراد العائلات المشتتة الشمل وبالاتصال فيما بينهم، بوسائل منها عقد لقاءات في مكان يسهل الوصول إليه وفي منشأة نظامية، وإتاحة المراسلات الخطية المنتظمة، واللقاءات بواسطة الفيديو، وتبادل رسائل الفيديو، وفقاً لقرارات مجلس الأمن ذات الصلة،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بما بذلته الدول الأعضاء حتى الآن من جهود لإذكاء الوعي على الصعيد الدولي بشأن حالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية، وإذ تشجعها على بذل المزيد من الجهود في هذا المجال، وإذ تلاحظ أن حقوق الإنسان، بما في ذلك المساواة بين الجنسين، مرتبطةٌ ارتباطا جوهريا بالسلام والأمن،</p>
+      </container>
+      <container name="وإذ تشجع" eId="container_28">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشجع</span> الجهود الدبلوماسية وإذ تشدد على أهمية الحوار والتواصل، بما في ذلك الحوار بين الكوريتين، للسعي من أجل تحسين حالة حقوق الإنسان والحالة الإنسانية في البلد،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالجهود التي يبذلها الأمين العام للإسهام في تحسين العلاقات بين الكوريتين وتعزيز المصالحة وتحقيق الاستقرار في شبه الجزيرة الكورية ورفاه الشعب الكوري،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <content eId="para_30__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">تدين بأشد العبارات</span> انتهاكات حقوق الإنسان الجسيمة والمنهجية المستمرة التي تُرتكب منذ أمد بعيد وعلى نطاق واسع في جمهورية كوريا الشعبية الديمقراطية وبأيديها، بما في ذلك الانتهاكات التي قد ترقى إلى مستوى الجرائم المرتكبة ضد الإنسانية وفقا لما ذكرته لجنة التحقيق المعنية بحقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية، التي أنشأها مجلس حقوق الإنسان بقراره <a href="https://undocs.org/ar/A/HRC/RES/22/13">22/13</a> المؤرخ 21 آذار/ مارس 2013<sup>(</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الثامنة والستون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/68/53">A/68/53</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup>، والانتهاكات التي حددها فريق الخبراء المستقلين المعني بالمساءلة عن انتهاكات حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية<sup>(</sup><authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/HRC/34/66/Add.1">A/HRC/34/66/Add.1</a>.</p></authorialNote><sup>)</sup> المنشأ عملا بقرار المجلس <a href="https://undocs.org/ar/A/HRC/RES/31/18">31/18</a> المؤرخ 23 آذار/مارس 2016<sup>(</sup><authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الحادية والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/71/53">A/71/53</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup>، ومفوضية الأمم المتحدة لحقوق الإنسان أثناء عملها المستمر في مجال الرصد والتوثيق، كما تدين استمرار إفلات مرتكبي هذه الانتهاكات من العقاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <content eId="para_31__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">تعرب عن قلقها البالغ </span>إزاء ما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>(أ)</num>
+        <list eId="para_32_list">
+          <intro eId="para_32_list_intro">
+            <p xml:space="preserve">	استمرار ورود تقارير متواصلة عن انتهاكات حقوق الإنسان، بما في ذلك النتائج التفصيلية التي توصلت إليها لجنة التحقيق في تقريرها، من مفوضية الأمم المتحدة السامية لحقوق الإنسان في عملها المستمر في مجال الرصد والتوثيق ومن جانب المقررة الخاصة لمجلس حقوق الإنسان المعنية بحالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية، من قبيل ما يلي:</p>
+          </intro>
+          <point eId="para_32_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_32_list_point_’1‘_content">
+              <p xml:space="preserve">	التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، بما فيها ظروف الاحتجاز اللاإنسانية؛ وجميع أشكال العنف الجنسي والجنساني، بما في ذلك الاغتصاب، ولا سيما ضد النساء والفتيات؛ وحالات الإعدام خارج نطاق القضاء وبإجراءات موجزة وتعسفا؛ وفرض عقوبة الإعدام لأسباب سياسية ودينية؛ وحالات الإعدام العلني؛ والاحتجاز خارج نطاق القضاء والاحتجاز التعسفي؛ وعدم مراعاة الأصول القانونية وانعدام سيادة القانون، بما في ذلك عدم وجود ضمانات لإجراء محاكمة عادلة وعدم استقلال القضاء؛ وإنزال العقوبات الجماعية التي امتدت على مدى ما يقارب ثلاثة أجيال؛ واستخدام السخرة على نطاق واسع، بما في ذلك سخرة الأطفال؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_32_list_point_’2‘_content">
+              <p xml:space="preserve">	وجود شبكة واسعة من معسكرات الاعتقال السياسي، يحرم فيها عدد كبير من الأشخاص من حريتهم ويعيشون ظروفا يرثى لها، بما يشمل أعمال السخرة، وترتكب فيها انتهاكات مثيرة للجزع على صعيد حقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_32_list_point_’3‘_content">
+              <p xml:space="preserve">	حالات الاختفاء القسري وغير الطوعي للأشخاص بالاعتقال أو الاحتجاز أو الاختطاف رغما عنهم؛ ورفض الكشف عن مصير ومكان وجود الأشخاص المعنيين؛ ورفض الاعتراف بسلبهم حريتهم، الأمر الذي يجعل هؤلاء الأشخاص المسلوبة حريتهم خارج نطاق حماية القانون وهو ما يؤدي إلى إلحاق معاناة شديدة بهم وبأُسرهم؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’4‘">
+            <num>’4‘</num>
+            <content eId="para_32_list_point_’4‘_content">
+              <p xml:space="preserve">	النقل القسري للسكان والقيود المفروضة على الأشخاص الراغبين في التنقل بحرية في البلد والسفر إلى الخارج، بما في ذلك إيذاء أو معاقبة الأشخاص الذين يغادرون البلد أو يحاولون مغادرته من غير إذن، أو أسرهم، ومعاقبة المعادين إلى البلد؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’5‘">
+            <num>’5‘</num>
+            <content eId="para_32_list_point_’5‘_content">
+              <p xml:space="preserve">	حالة اللاجئين وملتمسي اللجوء المطرودين أو المعادين إلى جمهورية كوريا الشعبية الديمقراطية، بما في ذلك في الحالات التي تمارس فيها حكومة جمهورية كوريا الشعبية الديمقراطية الضغط على الدول التي هي بصدد إعادة هؤلاء الأشخاص من أجل إنجاز عمليات الإعادة تلك، وعمليات الانتقام ضد مواطني جمهورية كوريا الشعبية الديمقراطية الذين أعيدوا إلى الوطن، التي تفضي إلى فرض عقوبات الحبس أو التعذيب أو غيرها من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة أو العنف الجنسي والجنساني أو عقوبة الإعدام، وفي هذا الصدد تحث بشدة جميع الدول على احترام المبدأ الأساسي المتمثل في عدم الإعادة القسرية، بما في ذلك في الحالات التي تمارس فيها حكومة جمهورية كوريا الشعبية الديمقراطية الضغط على الدول التي هي بصدد إعادة هؤلاء الأشخاص من أجل إنجاز عمليات الإعادة تلك، وعلى معاملة ملتمسي اللجوء معاملة إنسانية وعلى كفالة وصول مفوض الأمم المتحدة السامي لشؤون اللاجئين ومفوضيته دون عائق إلى ملتمسي اللجوء بغرض حماية حقوق الإنسان الخاصة بهم، وتحث مرة أخرى الدول الأطراف في اتفاقية عام 1951 الخاصة بوضع اللاجئين<sup>(</sup><authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 189, No. 2545.</p></authorialNote><sup>)</sup> وبروتوكولها لعام 1967<sup>(</sup><authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	()	المرجع نفسه، المجلد 606، الرقم 8791.</p></authorialNote><sup>)</sup> على التقيّد بالتزاماتها بموجبهما فيما يتعلق باللاجئين من جمهورية كوريا الشعبية الديمقراطية المشمولين بأحكام هذين الصكين؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’6‘">
+            <num>’6‘</num>
+            <content eId="para_32_list_point_’6‘_content">
+              <p xml:space="preserve">	القيود الشاملة المشددة المفروضة، التي شددتها أكثر تدابير الوقاية من كوفيد-19، خارج شبكة الإنترنت وداخلها، على حريات الفكر والضمير والدين أو المعتقد، والرأي والتعبير، والتجمع السلمي وتكوين الجمعيات، وعلى الحق في الخصوصية وتكافؤ فرص الحصول على المعلومات، بوسائل منها على سبيل المثال المراقبة غير القانونية والتعسفية واضطهاد الأفراد الذين يمارسون حرية الرأي والتعبير أو الدين أو المعتقد، وأسرهم، وإخضاعهم للتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وسجنهم، وفي بعض الحالات إعدامهم بإجراءات موجزة، وعلى حق كل شخص، بمن في ذلك النساء، في المشاركة الكاملة على قدم المساواة وبصورة هادفة، في إدارة الشؤون العامة لبلده بشكل مباشر أو من خلال ممثلين مختارين بحرية؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’7‘">
+            <num>’7‘</num>
+            <content eId="para_32_list_point_’7‘_content">
+              <p xml:space="preserve">	انتهاكات الحقوق الاقتصادية والاجتماعية والثقافية، التي تفاقمت بسبب الأثر السلبي لجائحة كوفيد-19 واستمرار إغلاق جمهورية كوريا الشعبية الديمقراطية لحدودها، والتي تؤدي إلى انعدام الأمن الغذائي والجوع الحاد وسوء التغذية ومشاكل صحية واسعة النطاق وغير ذلك من المشاق التي يعاني منها السكان في جمهورية كوريا الشعبية الديمقراطية، وبخاصة النساء والأطفال والأشخاص ذوو الإعاقة وكبار السن والسجناء السياسيون؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’8‘">
+            <num>’8‘</num>
+            <content eId="para_32_list_point_’8‘_content">
+              <p xml:space="preserve">	انتهاكات حقوق الإنسان والحريات الأساسية للنساء والفتيات، بما في ذلك عدم تكافؤ فرص الحصول على العمل واللوائح التمييزية؛ وبخاصة إيجادُ ظروف داخل البلد تجبر النساء والفتيات على مغادرته، مما يجعلهن شديدات الضعف إزاء التعرض للاتجار بالأشخاص لغرض الاستغلال الجنسي أو العمل القسري أو الاسترقاق المنزلي أو الزواج بالإكراه، وتعريضهن للتمييز الجنسي والقائم على أساس نوع الجنس، بما في ذلك في المجالين السياسي والاجتماعي، وكذلك أثناء الاحتجاز، بما في ذلك من خلال الإجهاض القسري وغير ذلك من أشكال العنف الجنسي والقائم على أساس نوع الجنس؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’9‘">
+            <num>’9‘</num>
+            <content eId="para_32_list_point_’9‘_content">
+              <p xml:space="preserve">	انتهاكات حقوق الإنسان والحريات الأساسية للأطفال، وخصوصا عدم تمكن الكثير من الأطفال حتى الآن من التمتع بالحقوق الاقتصادية والاجتماعية والثقافية الأساسية، مع ملاحظتها في هذا الصدد حالةَ الضعف التي تعيشها بشكل خاص فئات عدة، منها الأطفال العائدون أو المعادون إلى وطنهم والأطفال الذين لا مسكن لهم والأطفال ذوو الإعاقة والأطفال الذين يكون أبواهم رهن الاحتجاز أو متوفين أو غائبين على أي نحو آخر، والأطفال الذين يعيشون في أماكن الاحتجاز أو في المؤسسات والأطفال الجانحون؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’10‘">
+            <num>’10‘</num>
+            <content eId="para_32_list_point_’10‘_content">
+              <p xml:space="preserve">	انتهاكات حقوق الإنسان والحريات الأساسية للأشخاص ذوي الإعاقة، وبخاصة الانتهاكات المنطوية على استخدام المعسكرات الجماعية والتدابير القسرية التي تمس حق الأشخاص ذوي الإعاقة في اتخاذ القرار الحر والمسؤول بشأن عدد الأطفال الذين يرغبون في إنجابهم والفترة التي تفصل بين إنجاب طفل وآخر والادعاءات المتعلقة باحتمال استخدام الأشخاص ذوي الإعاقة في التجارب الطبية، والترحيل القسري إلى المناطق الريفية، وفصل الأطفال ذوي الإعاقة عن والديهم؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’11‘">
+            <num>’11‘</num>
+            <content eId="para_32_list_point_’11‘_content">
+              <p xml:space="preserve">	انتهاكات حقوق العمال، بما فيها الحق في حرية تكوين الجمعيات والاعتراف الفعلي بالحق في التفاوض الجماعي والحق في الإضراب على النحو المحدد في الالتزامات التي تعهدت بها جمهورية كوريا الشعبية الديمقراطية بموجب العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية، وحظر استغلال الأطفال اقتصاديا وعمل الأطفال الضار أو الخطر بجميع أشكاله على النحو المحدد في الالتزامات التي تعهدت بها جمهورية كوريا الشعبية الديمقراطية بموجب اتفاقية حقوق الطفل، وكذلك استغلال العمال الموفدين إلى الخارج من جمهورية كوريا الشعبية الديمقراطية للعمل في ظروف تصل إلى حد السخرة حسبما تفيد به التقارير، مع التأكيد في هذا السياق على أهمية التنفيذ الكامل لشرط إعادة رعايا جمهورية كوريا الشعبية الديمقراطية الذين يكسبون دخلا إلى الوطن، طبقا لأحكام القوانين الوطنية والدولية السارية، في أقرب وقت ممكن عملا بالفقرة 8 من قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2397(2017)">2397 (2017)</a>، وتقديم التقارير النهائية في أقرب وقت ممكن عملا بالفقرة نفسها، وحظر منح تراخيص العمل عملاً بالفقرة 17 من القرار <a href="https://undocs.org/ar/S/RES/2375(2017)">2375 (2017)</a>، وتحث جمهورية كوريا الشعبية الديمقراطية على تعزيز واحترام وحماية حقوق الإنسان الخاصة بالعمال، بمن في ذلك العمال الذين تتم إعادتهم إلى جمهورية كوريا الشعبية الديمقراطية؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’12‘">
+            <num>’12‘</num>
+            <content eId="para_32_list_point_’12‘_content">
+              <p xml:space="preserve">	التمييز على أساس نظام <span class="italic">سونغبون</span> الذي يصنف الناس على أساس النسب والطبقة الاجتماعية التي تحددها الدولة، كما يأخذ بعين الاعتبار الآراء السياسية والانتماء الديني؛</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_’13‘">
+            <num>’13‘</num>
+            <content eId="para_32_list_point_’13‘_content">
+              <p xml:space="preserve">	العنف والتمييز ضد المرأة، بما في ذلك عدم تكافؤ فرص الحصول على العمل، والقوانين واللوائح التمييزية؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <num>(ب)</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	استمرار حكومة جمهورية كوريا الشعبية الديمقراطية في رفض توجيه دعوة إلى المقررة الخاصة المعنية بحالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية لزيارة البلد أو التعاون مع المقررة الخاصة ومع العديد غيرها من القائمين على إجراءات الأمم المتحدة الخاصة وفقا لاختصاصات كل منهم، وكذلك مع آليات الأمم المتحدة الأخرى لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>(ج)</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	استمرار حكومة جمهورية كوريا الشعبية الديمقراطية في عدم الاعتراف بخطورة حالة حقوق الإنسان في البلد، ومن ثم عدم اتخاذها الإجراءات اللازمة للإبلاغ بحالة تنفيذ التوصيات الواردة في نتائج استعراضاتها الدورية الشاملة الأول<sup>(</sup><authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/13/13">A/HRC/13/13</a>.</p></authorialNote><sup>)</sup> والثاني<sup>(</sup><authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/27/10">A/HRC/27/10</a>.</p></authorialNote><sup>)</sup> والثالث<sup>(</sup><authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/42/10">A/HRC/42/10</a>.</p></authorialNote><sup>)</sup> أو إيلاء الاعتبار للملاحظات الختامية للهيئات المنشأة بموجب المعاهدات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <content eId="para_36__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">تدين</span> عمليات اختطاف الأشخاص المنهجية ورفض إعادتهم إلى الوطن وما يتلو ذلك من حالات الاختفاء القسري، بما في ذلك اختفاء رعايا بلدان أخرى، التي تُمارس على نطاق واسع وباعتبارها سياسة تتبعها الدولة، وتهيب بقوة في هذا الصدد بحكومة جمهورية كوريا الشعبية الديمقراطية الانخراط في حوارات بنّاءة مع الأطراف المعنية والتعجيل بتسوية هذه الأمور التي تشكل مصدر قلق بالغ للمجتمع الدولي، بحسن نية وبروح من الشفافية، وبسبل منها كفالة تحقيق العودة الفورية لجميع المختطَفين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <content eId="para_37__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">تؤكد قلقها الشديد للغاية</span> إزاء التقارير التي تفيد بارتكاب جمهورية كوريا الشعبية الديمقراطية أعمال تعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة، وحالات إعدام بإجراءات موجزة واحتجاز تعسفي وعملياتِ اختطاف وغيرها من أشكال انتهاكات حقوق الإنسان وتجاوزاتها بحق أشخاص من رعايا البلدان الأخرى، وذلك داخل أراضيها وخارجها، وتحث جمهورية كوريا الشعبية الديمقراطية على الكشف عن جميع المعلومات ذات الصلة للأسر المكلومة والكيانات ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <content eId="para_38__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">تعرب عن قلقها البالغ</span> إزاء انتشار سوء التغذية المزمن والحاد، وبخاصة عند الأشخاص في أشد الحالات ضعفا بمن في ذلك النساء الحوامل والمرضعات والأطفال والأشخاص ذوو الإعاقة وكبار السن والسجناء، بمن فيهم السجناء السياسيون، والذي يُفاقمه تعذر الحصول على الخدمات الأساسية، بما في ذلك الرعاية الصحية، وخدمات المياه النظيفة والصرف الصحي والنظافة الصحية، وأوجه الضعف الهيكلية في الإنتاج الزراعي التي تؤدي إلى نقص في الأغذية المتنوعة، ومحدودية قدرة الحكومة على التصدي للكوارث الطبيعية والسياسات الحكومية التي تحد من إمكانية الحصول على الغذاء الكافي ومن توافره، بما في ذلك من خلال فرض قيود على زراعة الأغذية والاتجار بها وإغلاق الحدود، وتحث حكومة جمهورية كوريا الشعبية الديمقراطية، في هذا الصدد، على اتخاذ إجراءات وقائية وعلاجية، بما في ذلك بالتعاون مع الوكالات المانحة والإنسانية الدولية وتمكينها من الوصول إلى الأشخاص في حالات الضعف، من أجل تنفيذ برامج المساعدة الإنسانية، ورصدها بما يتمشى مع المعايير الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <content eId="para_39__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">ترحب</span> بأحدث تقرير قدمه إلى مجلس حقوق الإنسان المقرر الخاص المعني بحالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية<sup>(</sup><authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/46/51">A/HRC/46/51</a>.</p></authorialNote><sup>)</sup>، بما في ذلك الجهود الرامية إلى دعم اتباع نهج ذي مسارين للتواصل والمساءلة، بالنظر إلى الحاجة إلى اتباع نهج شامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <content eId="para_40__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">تكرر الإعراب عن تقديرها</span> لتقرير فريق الخبراء المستقلين المعني بالمساءلة عن انتهاكات حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية<sup>(</sup><authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/34/66/Add.1">A/HRC/34/66/Add.1</a>.</p></authorialNote><sup>)</sup> والمنشأ عملا بقرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/31/18">31/18</a>، الذي يتضمن خيارات لضمان المساءلة وكفالة التوصل إلى الحقيقة والعدالة لفائدة جميع الضحايا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <content eId="para_41__content">
+          <p xml:space="preserve">	8 -	<span class="bold italic">ترحب</span> بأحدث تقرير لمفوض الأمم المتحدة السامية لحقوق الإنسان<sup>(</sup><authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/46/52">A/HRC/46/52</a>.</p></authorialNote><sup>)</sup> عن الخطوات المتخذة وفقا لقراري مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/34/24">34/24</a> المؤرخ 24 آذار/مارس 2017<sup>(</sup><authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الثانية والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/72/53">A/72/53</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/HRC/RES/40/20">40/20</a> المؤرخ 22 آذار/مارس 2019<sup>(</sup><authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة الرابعة والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/74/53">A/74/53</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup>، وترحب أيضا بقرار المجلس <a href="https://undocs.org/ar/A/RES/49/22">49/22</a>، اللذين يواصلان تدعيم قدرات مفوضية الأمم المتحدة لحقوق الإنسان، بما في ذلك جهازها الميداني في سيول، لتيسير تنفيذ التوصيات ذات الصلة التي قدمها فريق الخبراء المستقلين المعني بالمساءلة بهدف تعزيز جهود الرصد والتوثيق الحالية وإنشاء مستودع مركزي للمعلومات والأدلة وتكليف خبراء في المساءلة القانونية بتقييم جميع المعلومات والشهادات بغية وضع استراتيجيات ممكنة للاستخدام في أي عملية مساءلة مستقبلاً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <content eId="para_42__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">تعرب عن دعمها الشديد</span> للعمل الذي تقوم به مفوضية الأمم المتحدة لحقوق الإنسان لتنفيذ قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/RES/49/22">49/22</a>، بهدف ضمان المساءلة عن انتهاكات القانون الدولي المشتبه في ارتكابها في جمهورية كوريا الشعبية الديمقراطية أو من جانبها، وتهيب بجميع الدول أن تدعم هذه الجهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <content eId="para_43__content">
+          <p xml:space="preserve">	10 -	<span class="bold italic">تكرر الإعراب عن تقديرها</span> لعمل لجنة التحقيق، وتسلم بما يتسم به تقريرها من أهمية، وبما خلصت إليه لجنة التحقيق من أن الروايات التي استمعت إليها من الشهود والمعلومات التي تلقتها تشكل سببا كافيا للاعتقاد بأن جرائم ضد الإنسانية قد ارتُكبت في جمهورية كوريا الشعبية الديمقراطية، عملاً بالسياسات المكرسة على أعلى مستويات الدولة منذ عقود وعلى يد مؤسسات تقع تحت السيطرة الفعلية لقيادتها، وهو ما أكدته مفوضة الأمم المتحدة السامية لحقوق الإنسان في تقريرها المقدم عملا بالقرارين <a href="https://undocs.org/ar/A/HRC/RES/34/24">34/24</a> و <a href="https://undocs.org/ar/A/HRC/RES/40/20">40/20</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">تعرب عن قلقها</span> إزاء تقاعس سلطات جمهورية كوريا الشعبية الديمقراطية عن محاسبة المسؤولين عن انتهاكات حقوق الإنسان، بما في ذلك الانتهاكات التي قالت عنها لجنة التحقيق إنها قد ترقى إلى درجة الجرائم المرتكبة ضد الإنسانية، وتشجع المجتمع الدولي على المساهمة في جهود المساءلة وعلى كفالة ألا يظل مرتكبو هذه الجرائم دون عقاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <content eId="para_45__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">تشجع</span> مجلس الأمن على مواصلة نظره في استنتاجات لجنة التحقيق وتوصياتها ذات الصلة واتخاذ الإجراءات المناسبة لكفالة المساءلة، بما في ذلك من خلال النظر في إمكانية إحالة الحالة في جمهورية كوريا الشعبية الديمقراطية إلى المحكمة الجنائية الدولية والنظر في فرض المزيد من الجزاءات لضمان الفعالية في استهداف كل من يبدو أنه يتحمل القسط الأوفر من المسؤولية عن انتهاكات حقوق الإنسان التي قالت عنها اللجنة إنها ربما تشكل جرائم ضد الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <content eId="para_46__content">
+          <p xml:space="preserve">	13 -	<span class="bold italic">تشجع أيضا</span> مجلس الأمن على أن يستأنف مباشرة مناقشة الحالة في جمهورية كوريا الشعبية الديمقراطية، وتدعو مفوضية الأمم المتحدة لحقوق الإنسان إلى تقديم إحاطة إلى المجلس، بما في ذلك بشأن حالة حقوق الإنسان في البلد، في ضوء الشواغل الخطيرة المثارة في هذا القرار، وتتطلع إلى مشاركته باستمرار وبفعالية أكبر فيما يتعلق بهذه المسألة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <content eId="para_47__content">
+          <p xml:space="preserve">	14 -	<span class="bold italic">تشجع</span> الجهود المتواصلة التي تبذلها مفوضية الأمم المتحدة لحقوق الإنسان، بما في ذلك عن طريق جهازها الميداني في سيول، في إنشاء مستودع مركزي لتجميع المعلومات والأدلة المتعلقة بانتهاكات القانون الدولي المشتبه في وقوعها وتقييم جميع هذه الأدلة والمعلومات من أجل وضع استراتيجيات ممكنة لاستخدامها في أي عملية مساءلة في المستقبل، وتشجع أيضا تعاون المفوضية مع طائفة واسعة من أصحاب المصلحة في الحصول على أدلة يمكن استخدامها في دعاوى جنائية تُرفع مستقبلا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <content eId="para_48__content">
+          <p xml:space="preserve">	15 -	<span class="bold italic">تهيب</span> بالدول الأعضاء العمل على كفالة اضطلاع الجهاز الميداني لمفوضية الأمم المتحدة لحقوق الإنسان بعمله باستقلالية، وتزويده بما يكفي من الموارد والدعم من أجل تنفيذ ولايته، وضمان تعاون الدول الأعضاء ذات الصلة بشكل تام مع الجهاز، وعدم تعرضه لأي أعمال انتقامية أو تهديدات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <content eId="para_49__content">
+          <p xml:space="preserve">	16 -	<span class="bold italic">تهيب أيضا</span> بالدول الأعضاء مواصلة دعم مفوضية الأمم المتحدة لحقوق الإنسان، بما في ذلك جهازها الميداني في سيول، لتيسير تنفيذ التوصيات ذات الصلة التي قدمها فريق الخبراء المستقلين المعني بالمساءلة في تقريره ووفقا لقرارات مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/34/24">34/24</a> و <a href="https://undocs.org/ar/A/HRC/RES/40/20">40/20</a> و <a href="https://undocs.org/ar/A/RES/46/17">46/17</a> المؤرخ 23 آذار/مارس 2021<sup>(</sup><authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">الدورة السادسة والسبعون، الملحق رقم 53 </span>(<a href="https://undocs.org/ar/A/76/53">A/76/53</a>)، الفصل الخامس، الفرع ألف.</p></authorialNote><sup>)</sup> و <a href="https://undocs.org/ar/A/RES/49/22">49/22</a> الرامية إلى تعزيز جهود الرصد والتوثيق، وإنشاء مستودع مركزي للمعلومات والأدلة، وتكليف خبراء في المساءلة القانونية بتقييم جميع المعلومات والشهادات بغية وضع استراتيجيات ممكنة للاستخدام في أي عملية مساءلة مستقبلاً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <content eId="para_50__content">
+          <p xml:space="preserve">	17 -	<span class="bold italic">تهيب كذلك</span> بالدول الأعضاء أن تتعاون مع مفوضية الأمم المتحدة لحقوق الإنسان في وضع استراتيجيات لعمليات المساءلة في المستقبل وأن تقوم حيثما أمكن بالتحقيق بشأن الأشخاص المشتبه في ارتكابهم جرائم دولية في جمهورية كوريا الشعبية الديمقراطية ومقاضاتهم، وفقا للقانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <content eId="para_51__content">
+          <p xml:space="preserve">	18 -	<span class="bold italic">تحث بقوة</span> حكومة جمهورية كوريا الشعبية الديمقراطية على احترام جميع حقوق الإنسان والحريات الأساسية وحمايتها وإعمالها، وعلى الاضطلاع في هذا الصدد بما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>(أ)</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	القيام فورا بوضع حد للانتهاكات والتجاوزات الجسيمة والمنهجية والواسعة النطاق لحقوق الإنسان التي تم تأكيدها آنفا، بسبل منها التنفيذ الكامل للتدابير المبينة في قرارات الجمعية العامة ولجنة حقوق الإنسان ومجلس حقوق الإنسان المذكورة أعلاه والتوصيات التي وجهها المجلس في سياق الاستعراض الدوري الشامل، وكذلك لجنة التحقيق والهيئات المنشأة بموجب معاهدات والقائمون على الإجراءات الخاصة للأمم المتحدة، إلى جمهورية كوريا الشعبية الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <num>(ب)</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	إغلاق معسكرات الاعتقال السياسي على الفور وإطلاق سراح جميع السجناء السياسيين دون قيد أو شرط ودون أي تأخير، والقيام على الفور بإجراء استعراض شامل للأوضاع في مرافق الاحتجاز واتخاذ خطوات لضمان امتثال الأوضاع في تلك المرافق للالتزامات والتعهدات ذات الصلة المتعلقة بالمعاملة الإنسانية للأشخاص المحتجزين، على النحو المبين في الأحكام ذات الصلة من ‎العهد الدولي الخاص بالحقوق المدنية والسياسية‏‏ و‎‎العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية‏‏ وفي‎‎‎ قواعد الأمم المتحدة النموذجية الدنيا لمعاملة السجناء (قواعد نيلسون مانديلا)<sup>(</sup><authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/70/175">70/175</a>، المرفق.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>(ج)</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	الكف فورا عن استخدام التعذيب وغيره من ضروب المعاملة أو العقوبة القاسية واللاإنسانية والمهينة، بما في ذلك في أماكن الاحتجاز؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="MercuryDocument">
+        <num>(د)</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	حماية سكانها والتصدي لمسألة الإفلات من العقاب وكفالة تقديم المسؤولين عن ارتكاب جرائم تنطوي على انتهاكات وتجاوزات حقوق الإنسان إلى المحاكمة أمام هيئة قضائية مستقلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <num>(هـ)</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	التصدي للأسباب الجذرية لنزوح المهاجرين واللاجئين إلى الخارج، في محاكمات تستوفي معايير حقوق الإنسان الدولية للمحاكمة العادلة، ومقاضاة الأشخاص الضالعين في تهريب المهاجرين والاتجار بالبشر والابتزاز، مع عدم تجريم ضحايا الاتجار، وكفالة حصول النساء العائدات اللاتي وقعن ضحايا للاتجار على الدعم المناسب وعدم معاقبتهنّ أو إرسالهنّ إلى معسكرات العمل أو السجون أو حرمانهن من حريتهن على أي نحو آخر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="MercuryDocument">
+        <num>(و)</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	كفالة أن يتمتع جميع الأشخاص في أراضي جمهورية كوريا الشعبية الديمقراطية بالحق في حرية التنقل وأن تكون لهم حرية مغادرة البلد، بما في ذلك لغرض التماس اللجوء خارج جمهورية كوريا الشعبية الديمقراطية، دون تدخل من جانب سلطات جمهورية كوريا الشعبية الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="MercuryDocument">
+        <num>(ز)</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	كفالة أن يكون بإمكان مواطني جمهورية كوريا الشعبية الديمقراطية المطرودين أو المعادين إليها العودة بأمان وكرامة وأن يعاملوا معاملة إنسانية وألا يتعرضوا لأي نوع من انتهاكات حقوق الإنسان، بما في ذلك الاختفاء القسري والإعدام التعسفي والتعذيب وسوء المعاملة والمحاكمات التي لا تتمشى مع الضمانات الدولية للمحاكمة العادلة، وتقديم المعلومات عن وضعهم ومعاملتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <num>(ح)</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	تزويد مواطني البلدان الأخرى المحتجزين في جمهورية كوريا الشعبية الديمقراطية بأشكال الحماية، بما في ذلك حرية الاتصال بالموظفين القنصليين والوصول إليهم وفقا لأحكام اتفاقية فيينا للعلاقات القنصلية<sup>(</sup><authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 596, No. 8638.</p></authorialNote><sup>)</sup> التي تعد جمهورية كوريا الشعبية الديمقراطية إحدى الدول الأطراف فيها، وأيّ ترتيبات أخرى تلزم لتأكيد وضعهم والاتصال بأسرهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>(ط)</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	التعاون التام مع المقررة الخاصة الجديدة بطرق منها إتاحة كل الفرص أمامها للدخول بحرية ودون عوائق إلى جمهورية كوريا الشعبية الديمقراطية، والوصول بحرية ودون عوائق إلى سائر الإجراءات الخاصة التابعة لمجلس حقوق الإنسان وكذلك إلى آليات الأمم المتحدة الأخرى المعنية بحقوق الإنسان ليتسنى لها إجراء تقييم كامل لحالة حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <num>(ي)</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	توجيه دعوة إلى مفوضية الأمم المتحدة لحقوق الإنسان لزيارة البلد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="MercuryDocument">
+        <num>(ك)</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	الاشتراك في أنشطة التعاون التقني في ميدان حقوق الإنسان مع مفوض الأمم المتحدة السامي لحقـوق الإنسـان ومفوضيته، بما في ذلك جهازها الميداني في المنطقة، على نحـو ما سعت إليه المفوضــة الساميــة السابقة في السنوات الأخيرة، من أجل تحسين حالة حقوق الإنسان في البلد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="MercuryDocument">
+        <num>(ل)</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	تنفيذ التوصيات المقبولة المنبثقة من الاستعراضات الدورية الشاملة، وتقديم تقرير طوعي لمنتصف المدة يفصِّل ما أحرز من تقدم في تنفيذ التوصيات المقبولة من الدورة الثالثة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="MercuryDocument">
+        <num>(م)</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	الانضمام إلى عضوية منظمة العمل الدولية، وسن القوانين واعتماد الممارسات الكفيلة بالامتثال لمعايير العمل الدولية، والنظر في التصديق على جميع الاتفاقيات ذات الصلة، ولا سيما الاتفاقيات الأساسية المتعلقة بالعمل الصادرة عن منظمة العمل الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="MercuryDocument">
+        <num>(ن)</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	مواصلة تعاونها مع الوكالات الإنسانية التابعة للأمم المتحدة وتعزيزه، بما في ذلك عن طريق السماح بعودة الموظفين الدوليين والعاملين في المجال الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="MercuryDocument">
+        <num>(س)</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	ضمان وصول المساعدات الإنسانية بشكل كامل وآمن ودون عوائق إلى الأشخاص الذين يحتاجون إليها، واتخاذ تدابير للسماح للوكالات الإنسانية باستطلاع احتياجات الأشخاص المنتمين إلى الفئات الضعيفة، والحصول على بيانات أساسية حيوية والتمكين من إيصال هذه المعونة الإنسانية دون عوائق وبشكل نزيه إلى جميع أنحاء البلد، استنادا إلى الاحتياجات ووفقا للمبادئ الإنسانية، على نحو ما تعهدت به، والتكفل، فضلا عن ذلك، بتوفير سبل الحصول على الخدمات الأساسية وتنفيذ سياسات أكثر فعالية في مجال الأمن الغذائي والتغذية، بسبل منها الزراعة المستدامة واتخاذ تدابير سليمة لإنتاج وتوزيع الأغذية وتخصيص مزيد من الأموال لقطاع الأغذية، والسماح برصد واف للمساعدة الإنسانية والسماح للمنظمات الدولية بالاضطلاع بأنشطتها في سياق جائحة كوفيد-19؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="MercuryDocument">
+        <num>(ع)</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	التعاون مع مبادرة تسريع إتاحة أدوات مكافحة كوفيد-19 ومرفق كوفاكس لإتاحة لقاحات كوفيد-19 على الصعيد العالمي التابع لها والهيئات ذات الصلة والاستجابة بشكل بناء لعروض تقديم المساعدة لضمان إيصال جرعات كافية من اللقاحات في أوانها وتوزيعها بشكل منصف، مع التسليم بأن الحصول على اللقاحات هو بعد أساسي من الأبعاد المشمولة بحق كل شخص في التمتع بأعلى مستوى يمكن بلوغه من الصحة البدنية والنفسية، بما في ذلك ما يتعلق بقيام حكومة ما باتخاذ الإجراءات اللازمة لدخول الموظفين الدوليين وإعطاء الأولوية لشحنات المساعدة الإنسانية المنقذة للحياة، وفقاً لقرارات مجلس الأمن ذات الصلة وبما يتسق مع التوجيهات وأفضل الممارسات المقدمة من منظمة الصحة العالمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_188" class="MercuryDocument">
+        <num>(ف)</num>
+        <content eId="para_188__content">
+          <p xml:space="preserve">	مواصلة تحسين سبل التعاون مع أعضاء فريق الأمم المتحدة القطري ووكالات التنمية بما يتيح لهم أن يساهموا مباشرة في تحسين الظروف المعيشية للسكان المدنيين، بما في ذلك إحراز تقدم في تحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205" class="MercuryDocument">
+        <num>(ص)</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve">	النظر في التصديق على بقية المعاهدات الدولية لحقوق الإنسان والانضمام إليها، مما سيتيح المجال لإجراء حوار مع الهيئات المنشأة بموجب معاهدات حقوق الإنسان، واستئناف تقديم التقارير إلى هيئات رصد المعاهدات التي هي طرف فيها، والمشاركة بصورة مجدية في استعراضات هيئات المعاهدات، والنظر في الملاحظات الختامية المقدمة من هذه الهيئات من أجل تحسين حالة حقوق الإنسان في البلد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="MercuryDocument">
+        <content eId="para_206__content">
+          <p xml:space="preserve">	19 -	<span class="bold italic">تحث</span> حكومة جمهورية كوريا الشعبية الديمقراطية على تنفيذ توصيات لجنة التحقيق وفريق الخبراء المستقلين التابع لمفوضية الأمم المتحدة لحقوق الإنسان دون تأخير؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207" class="MercuryDocument">
+        <content eId="para_207__content">
+          <p xml:space="preserve">	20 -	<span class="bold italic">تكرر تأكيد</span> أهمية إبقاء الحالة الخطيرة لحقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية في صدارة جدول الأعمال الدولي عبر سبل منها المبادرات المستمرة في مجالات الاتصالات والدعوة والتوعية، وتطلب إلى مفوضية الأمم المتحدة لحقوق الإنسان تعزيز هذه الأنشطة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="MercuryDocument">
+        <content eId="para_208__content">
+          <p xml:space="preserve">	21 -	<span class="bold italic">تشجع</span> جميع الدول الأعضاء التي تجري حواراً مع جمهورية كوريا الشعبية الديمقراطية على مواصلة الدعوة إلى إحلال سلام وأمن دائمين في شبه الجزيرة الكورية ومعالجة حالة حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="MercuryDocument">
+        <content eId="para_209__content">
+          <p xml:space="preserve">	22 -	<span class="bold italic">تشجع</span> جميع الدول الأعضاء، والجمعية العامة، ومجلس حقوق الإنسان، ومفوضية الأمم المتحدة لحقوق الإنسان، والأمانة العامة للأمم المتحدة، والوكالات المتخصصة ذات الصلة، والمنظمات والمنتديات الحكومية الدولية الإقليمية، ومنظمات المجتمع المدني، والمؤسسات، ومؤسسات مباشرة الأعمال التجارية، والأطراف صاحبة المصلحة الأخرى التي توجهت إليها لجنة التحقيق بتوصياتها، على تنفيذ تلك التوصيات أو المضي قدما في تنفيذها، وعلى القيام أيضا بدعم الجهود الرامية إلى استئناف وتحسين الحوار، بما في ذلك الحوار بين الكوريتين، بشأن الحالة الإنسانية وحالة حقوق الإنسان، بما في ذلك عمليات الاختطاف الدولية، في جمهورية كوريا الشعبية الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="MercuryDocument">
+        <content eId="para_210__content">
+          <p xml:space="preserve">	23 -	<span class="bold italic">تشجع</span> منظومة الأمم المتحدة برمتها على مواصلة التصدي بطريقة منسقة وموحدة للحالة الخطيرة التي تشهدها حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="MercuryDocument">
+        <content eId="para_211__content">
+          <p xml:space="preserve">	24 -	<span class="bold italic">تشجع</span> برامج الأمم المتحدة وصناديقها ووكالاتها المتخصصة وسائر المنظمات ذات الصلة على تقديم المساعدة لحكومة جمهورية كوريا الشعبية الديمقراطية في تنفيذ التوصيات المنبثقة من آليات الأمم المتحدة لحقوق الإنسان، بما في ذلك الاستعراضات الدورية الشاملة والصادرة عن هيئات معاهدات حقوق الإنسان والواردة في تقرير لجنة التحقيق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212" class="MercuryDocument">
+        <content eId="para_212__content">
+          <p xml:space="preserve">	25 -	<span class="bold italic">تهيب</span> بجمهورية كوريا الشعبية الديمقراطية أن تتعاون بروح بنّاءة مع المحاورين الدوليين بهدف تحقيق تحسّن ملموس في حالة حقوق الإنسان على أرض الواقع، بوسائل منها إجراء حوارات بشأن حقوق الإنسان والقيام بزيارات رسمية إلى البلد توفر خلالها سبل الوصول الكافية لإجراء تقييم تام لأوضاع حقوق الإنسان ومبادرات التعاون، والقيام بالمزيد من الاتصالات الشخصية المباشرة على سبيل الأولوية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="MercuryDocument">
+        <content eId="para_213__content">
+          <p xml:space="preserve">	26 -	<span class="bold italic">تقرر</span> مواصلة دراسة حالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية في دورتها الثامنة والسبعين، وتطلب إلى الأمين العام، تحقيقا لهذه الغاية، أن يقدم تقريرا شاملا عن حالة حقوق الإنسان في جمهورية كوريا الشعبية الديمقراطية، وتطلب إلى المقررة الخاصة أن تواصل موافاتها باستنتاجاتها وتوصياتها، وأن تقدم كذلك تقريرا عن متابعة حالة تنفيذ توصيات لجنة التحقيق.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54">الجلسة العامة 54</inline>
+        <eol />
+        <docDate date="2022-12-15" refersTo="#adoptionDate">15 كانون الأول/ديسمبر 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
