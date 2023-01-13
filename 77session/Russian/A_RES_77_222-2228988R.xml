@@ -1,0 +1,582 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-222/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-222/"></FRBRuri>
+          <FRBRdate date="2022-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-222/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-222/rus@/"></FRBRuri>
+          <FRBRdate date="2023-01-06" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-222/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-222/rus@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-12" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="CAPITAL PUNISHMENT" showAs="CAPITAL PUNISHMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="68b" showAs="Human rights questions, including alternative approaches for improving the effective enjoyment of human rights and fundamental freedoms." shortForm="HUMAN RIGHTS ADVANCEMENT" dictionary="A/77/251"></keyword>
+        <keyword refersTo="agenda" value="68b[1]" showAs="CAPITAL PUNISHMENT" shortForm="CAPITAL PUNISHMENT" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-01" outcome="draftResolution" as="A/C.3/77/L.44/Rev.1" by="Albania, Argentina, Armenia, Australia, Austria, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cabo Verde, Canada, Chile, Colombia, Costa Rica, Côte d’Ivoire, Croatia, Cyprus, Czechia, Denmark, Dominican Republic, Ecuador, Estonia, Fiji, Finland, France, Georgia, Germany, Greece, Honduras, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Madagascar, Mali, Malta, Mexico, Micronesia (Federated States of), Monaco, Mongolia, Montenegro, Netherlands, New Zealand, Nicaragua, Norway, Panama, Paraguay, Poland, Portugal, Republic of Moldova, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Timor-Leste, Ukraine, United Kingdom of Great Britain and Northern Ireland, Uruguay and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Algeria, Andorra, Angola, Bolivia (Plurinational State of), Congo, El Salvador, Israel, Kiribati, Kyrgyzstan, North Macedonia, San Marino, Serbia, Seychelles and Togo" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/463/Add.2" by="" refersTo="87" />
+        <step date="2022-12-15" outcome="adopted" as="A/77/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="125" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">AZERBAIJAN</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BENIN</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">BURKINA FASO</organization>
+                <organization refersTo="memberState">CABO VERDE</organization>
+                <organization refersTo="memberState">CAMBODIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">CONGO</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DJIBOUTI</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">EQUATORIAL GUINEA</organization>
+                <organization refersTo="memberState">ERITREA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FIJI</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GAMBIA</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState">HAITI</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KIRIBATI</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">NAURU</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">RWANDA</organization>
+                <organization refersTo="memberState">SAMOA</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SERBIA</organization>
+                <organization refersTo="memberState">SIERRA LEONE</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SRI LANKA</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">TURKMENISTAN</organization>
+                <organization refersTo="memberState">TUVALU</organization>
+                <organization refersTo="memberState">TURKIYE</organization>
+                <organization refersTo="memberState">UGANDA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+              </akn4un:voters>
+            </count>
+            <count value="37" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANTIGUA AND BARBUDA</organization>
+                <organization refersTo="memberState">BAHAMAS</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">BARBADOS</organization>
+                <organization refersTo="memberState">BELIZE</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">DEMOCRATIC REPUBLIC OF THE CONGO</organization>
+                <organization refersTo="memberState">DOMINICA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GRENADA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">IRAQ</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">SAINT KITTS AND NEVIS</organization>
+                <organization refersTo="memberState">SAINT LUCIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">TONGA</organization>
+                <organization refersTo="memberState">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+            <count value="22" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">BURUNDI</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">ESWATINI</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GUYANA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LESOTHO</organization>
+                <organization refersTo="memberState">MAURITANIA</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+                <organization refersTo="memberState">ZAMBIA</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Третий комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-28988 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/222</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-06" class="rightSmall" refersTo="#dateOfIssuance">6 January 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Семьдесят седьмая сессия</session>
+      </p>
+      <p>
+        <inline title="68 b)" name="agenda item">Пункт 68 b) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Поощрение и защита прав человека: вопросы прав человека, включая альтернативные подходы в деле содействия эффективному осуществлению прав человека и основных свобод</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 15 декабря 2022 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[по докладу Третьего комитета (<inline name="originating document">A/77/463/Add.2, пункт 87</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/222.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Мораторий на применение смертной казни</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="руководствуясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">руководствуясь</span> целями и принципами, закрепленными в Уставе Организации Объединенных Наций,</p>
+      </container>
+      <container name="подтверждая" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	подтверждая</span> Всеобщую декларацию прав человека<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/217(III)">217 A (III)</a>.</p></authorialNote>, Международный пакт о гражданских и политических правах<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/2200(XXI)">2200 A (XXI)</a>, приложение.</p></authorialNote> и Конвенцию о правах ребенка<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote>,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на второй Факультативный протокол к Международному пакту о гражданских и политических правах, направленный на отмену смертной казни<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Ibid., vol. 1642, No. 14668.</p></authorialNote>, и в этой связи приветствуя увеличение числа государств, присоединившихся ко второму Факультативному протоколу и ратифицировавших его,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на свои резолюции <a href="https://undocs.org/ru/A/RES/62/149">62/149</a> от 18 декабря 2007 года, <a href="https://undocs.org/ru/A/RES/63/168">63/168</a> от 18 декабря 2008 года, <a href="https://undocs.org/ru/A/RES/65/206">65/206</a> от 21 декабря 2010 года, <a href="https://undocs.org/ru/A/RES/67/176">67/176</a> от 20 декабря 2012 года, <a href="https://undocs.org/ru/A/RES/69/186">69/186</a> от 18 декабря 2014 года, <a href="https://undocs.org/ru/A/RES/71/187">71/187</a> от 19 декабря 2016 года, <a href="https://undocs.org/ru/A/RES/73/175">73/175</a> от 17 декабря 2018 года и <a href="https://undocs.org/ru/A/RES/75/183">75/183</a> от 16 декабря 2020 года по вопросу о моратории на применение смертной казни, в которых Генеральная Ассамблея призвала государства, в которых все еще сохраняется смертная казнь, ввести мораторий на приведение смертных приговоров в исполнение в целях отмены смертной казни,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на все соответствующие решения и резолюции Совета по правам человека, последней из которых была резолюция <a href="https://undocs.org/ru/A/HRC/RES/48/9">48</a><a href="https://undocs.org/ru/A/HRC/RES/48/9">/</a><a href="https://undocs.org/ru/A/HRC/RES/48/9">9</a> от 8 октября 2021 года<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят шестая сессия, Дополнение № 53А</span> (<a href="https://undocs.org/ru/A/76/53/Add.1">A/76/53/Add.1</a>), гл. IV, разд. A.</p></authorialNote>,</p>
+      </container>
+      <container name="памятуя" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">памятуя</span> о том, что любые ошибки или сбои системы правосудия при применении смертной казни имеют необратимый и непоправимый характер,</p>
+      </container>
+      <container name="будучи убеждена" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">будучи убеждена</span> в том, что мораторий на применение смертной казни способствует уважению человеческого достоинства и более полному осуществлению и прогрессивному развитию прав человека, и принимая во внимание, что нет никаких исчерпывающих доказательств того, что смертная казнь является фактором сдерживания,</p>
+      </container>
+      <container name="отмечая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> продолжающиеся на местном и национальном уровнях дискуссии и осуществляемые региональные инициативы по вопросу о смертной казни, готовность все большего числа государств-членов представлять общественности информацию, касающуюся применения смертной казни, а также, в этой связи, решение Совета по правам человека, содержащееся в его резолюции <a href="https://undocs.org/ru/A/HRC/RES/26/2">26/2</a> от 26 июня 2014 года<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Там же,<span class="italic"> шестьдесят девятая сессия, Дополнение № 53</span> (<a href="https://undocs.org/ru/A/69/53">A/69/53</a>), гл. V, разд. А.</p></authorialNote>, о проведении раз в два года групповых обсуждений в рамках дискуссионной группы высокого уровня с целью дальнейшего обмена мнениями по вопросу о смертной казни,</p>
+      </container>
+      <container name="признавая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">признавая</span> роль национальных правозащитных учреждений и гражданского общества в содействии продолжающимся на местном и национальном уровнях дискуссиям и осуществляемым региональным инициативам по вопросу о смертной казни,</p>
+      </container>
+      <container name="отмечая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> на основе поступающих сообщений долговременную тенденцию к уменьшению числа случаев приведения в исполнение смертных приговоров и увеличение числа случаев смягчения смертных приговоров и приветствуя все шаги, предпринимаемые государствами в целях ограничения применения смертной казни,</p>
+      </container>
+      <container name="подчеркивая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость обеспечения лицам, которым грозит смертная казнь, доступа к правосудию, в том числе к услугам адвокатов, без какой бы то ни было дискриминации, необходимость гуманного обращения с ними, уважения их неотъемлемого достоинства и соблюдения их прав согласно международному праву прав человека, а также необходимость улучшения условий содержания в тюрьмах с целью обеспечить их соответствие международным стандартам, таким как Минимальные стандартные правила Организации Объединенных Наций в отношении обращения с заключенными (Правила Нельсона Манделы)<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/175">70/175</a>, приложение.</p></authorialNote>,</p>
+      </container>
+      <container name="с глубокой обеспокоенностью отмечая" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	с глубокой обеспокоенностью отмечая</span>, что, как следует из последних докладов Генерального секретаря<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		См., в частности, <a href="https://undocs.org/ru/A/73/260">A/73/260</a> и <a href="https://undocs.org/ru/A/75/309">A/75/309</a>.</p></authorialNote>, непропорционально большую долю приговоренных к смертной казни зачастую составляют малообеспеченные и экономически не защищенные лица, иностранные граждане, лица, отстаивающие свои права человека, и представители религиозных и этнических меньшинств, а также что женщины приговариваются к смертной казни на дискриминационных основаниях, </p>
+      </container>
+      <container name="отмечая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что прозрачная отчетность и доступ к информации о применении смертной казни и уголовных процессах может пролить свет на дискриминационную практику и обнажить влияние дискриминации на вынесение смертных приговоров и применение смертной казни, и напоминая, что государства обязаны гарантировать транспарентность, особенно при рассмотрении дел, по которым обвиняемым угрожает смертная казнь, с тем чтобы все люди могли пользоваться гарантиями справедливого судебного разбирательства,</p>
+      </container>
+      <container name="отмечая также" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	отмечая также</span>, что вынесение смертных приговоров пагубно сказывается на правах детей и молодых людей, чьим родителям или лицам, их заменяющим, были вынесены смертные приговоры, а также на правах других членов семьи,</p>
+      </container>
+      <container name="отмечая далее" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">отмечая далее</span> техническое сотрудничество между государствами-членами, а также роль соответствующих учреждений и правозащитных механизмов Организации Объединенных Наций в поддержке усилий государств по введению моратория на смертную казнь,</p>
+      </container>
+      <container name="памятуя" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">памятуя</span> о работе договорных органов и мандатариев специальных процедур, которые в рамках своих соответствующих мандатов занимаются вопросами прав человека, касающимися смертной казни,</p>
+      </container>
+      <container name="приветствуя" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	приветствуя</span> значительный прогресс в деле отмены смертной казни во всем мире и тот факт, что многие государства с различными правовыми системами, традициями, культурами и религиозными особенностями соблюдают мораторий, в том числе либо давно введенный в законодательном порядке, либо давно действующий на практике, на применение смертной казни,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">	подтверждает</span> суверенное право всех стран на развитие собственных правовых систем, включая определение надлежащих мер наказания, в соответствии с их обязательствами по международному праву;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">выражает глубокую обеспокоенность</span> по поводу продолжающегося применения смертной казни;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> доклад Генерального секретаря об осуществлении резолюции <a href="https://undocs.org/ru/A/RES/75/183">75/183</a> и содержащиеся в нем рекомендации<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/77/274">A/77/274</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">приветствует также</span> шаги, предпринятые некоторыми государствами для сокращения числа преступлений, которые могут караться смертной казнью, а также шаги, предпринятые для ограничения ее применения, в том числе путем смягчения смертных приговоров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">приветствует далее </span>инициативы и меры политического руководства, направленные на поощрение национальных дискуссий и обсуждений по вопросу о возможности отказа от смертной казни посредством принятия решений на национальном уровне;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>принимаемые на всех уровнях управления все бόльшим числом государств всех регионов решения о введении моратория на исполнение смертных приговоров, за которыми во многих случаях следует отмена смертной казни;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>7.</num>
+        <list eId="para_40_list">
+          <intro eId="para_40_list_intro">
+            <p xml:space="preserve">	<span class="italic">призывает</span> все государства:</p>
+          </intro>
+          <point eId="para_40_list_point_а">
+            <num>а)</num>
+            <content eId="para_40_list_point_а_content">
+              <p xml:space="preserve">	соблюдать международные стандарты, обеспечивающие гарантии защиты прав лиц, которым грозит смертная казнь, в частности минимальные стандарты, установленные в приложении к резолюции 1984/50 Экономического и Социального Совета от 25 мая 1984 года, а также представлять Генеральному секретарю информацию по этому вопросу;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_b">
+            <num>b)</num>
+            <content eId="para_40_list_point_b_content">
+              <p xml:space="preserve">	соблюдать свои обязательства по статье 36 Венской конвенции о консульских сношениях 1963 года<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 596, No. 8638.</p></authorialNote>, в частности обязательство государства пребывания безотлагательно уведомлять представляемое государство о том, что гражданин этого государства был арестован, заключен в тюрьму или взят под стражу в ожидании судебного разбирательства или же задержан в каком-либо ином порядке, если этот гражданин этого потребует; а также обязательство государства пребывания безотлагательно сообщить указанному лицу о правах, которые оно имеет согласно статье 36;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_c">
+            <num>c)</num>
+            <content eId="para_40_list_point_c_content">
+              <p xml:space="preserve">	предоставить имеющуюся соответствующую информацию о применении ими смертной казни с разбивкой по половому и возрастному признакам, по признакам инвалидности и гражданства, а также по расовому и другим применимым признакам, включая информацию о числе лиц, приговоренных к смертной казни, числе и месте содержания под стражей лиц, ожидающих исполнения смертного приговора, числе исполненных смертных приговоров и числе смертных приговоров, которые были отменены или смягчены в результате обжалования или в отношении которых была объявлена амнистия или помилование с указанием процедуры, на основании которой это было сделано, и информацию о любых планируемых смертных казнях, которая может способствовать возможному проведению предметных и транспарентных национальных и международных дискуссий, в том числе по вопросу об обязательствах государств, связанных с применением смертной казни;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_d">
+            <num>d)</num>
+            <content eId="para_40_list_point_d_content">
+              <p xml:space="preserve">	обеспечить соответствие любого судебного разбирательства, ведущего к вынесению смертного приговора, международно признанным гарантиям справедливого судебного разбирательства, таким как справедливый и публичный суд и право на юридическую помощь, включая надлежащий доступ к услугам адвоката на всех этапах судебного разбирательства без какой-либо дискриминации, в том числе в тех случаях, когда обвиняемыми выступают представители меньшинств или иностранные граждане, памятуя о том, что несоблюдение гарантий справедливого судебного разбирательства при рассмотрении дел, по итогам которых были вынесены смертные приговоры, может представлять собой нарушение права на жизнь;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_e">
+            <num>e)</num>
+            <content eId="para_40_list_point_e_content">
+              <p xml:space="preserve">	постепенно ограничивать применение смертной казни и не выносить смертные приговоры за преступления, совершенные лицами, не достигшими 18 лет, или лицами, в отношении которых невозможно точно установить, достигли ли они на момент совершения преступления 18-летнего возраста, беременными женщинами или лицами с психическими или умственными расстройствами;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_f">
+            <num>f)</num>
+            <content eId="para_40_list_point_f_content">
+              <p xml:space="preserve">	сократить перечень преступлений, которые могут караться смертной казнью, в частности рассмотреть вопрос об исключении положений, требующих обязательного применения смертной казни;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_g">
+            <num>g)</num>
+            <content eId="para_40_list_point_g_content">
+              <p xml:space="preserve">	принимать меры к тому, чтобы лица, которым грозит смертная казнь, могли осуществлять свое право ходатайствовать о помиловании или смягчении приговора, путем обеспечения справедливости и транспарентности процедур помилования и предоставления оперативной информации на всех этапах судебного процесса;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_h">
+            <num>h)</num>
+            <content eId="para_40_list_point_h_content">
+              <p xml:space="preserve">	обеспечивать, чтобы детям, родители или опекуны которых ожидают исполнения смертного приговора, самим таким заключенным и их родственникам и законным представителям заблаговременно предоставлялась достаточная информация о месте их содержания под стражей, предстоящем приведении в исполнение смертного приговора и дате, времени и месте его приведения в исполнение, с целью дать им возможность в последний раз увидеться или пообщаться с осужденным лицом, а также обеспечивать возвращение тела семье для захоронения или предоставление информации о том, где находится тело, за исключением случаев, когда это не отвечает наилучшим интересам ребенка;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_i">
+            <num>i)</num>
+            <content eId="para_40_list_point_i_content">
+              <p xml:space="preserve">	предоставлять лицам, приговоренным к смертной казни, доступ к информации о методе казни, в частности о конкретных процедурах ее исполнения;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_j">
+            <num>j)</num>
+            <content eId="para_40_list_point_j_content">
+              <p xml:space="preserve">	обеспечивать, чтобы смертная казнь не применялась на основании дискриминационных законов, в том числе законов, направленных против лиц, осуществляющих свои права человека, или в результате дискриминационного или произвольного применения законодательства; </p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_k">
+            <num>k)</num>
+            <content eId="para_40_list_point_k_content">
+              <p xml:space="preserve">	улучшить условия содержания под стражей лиц, судимых за преступления, наказуемые смертной казнью, или ожидающих исполнения смертного приговора, обеспечивая гуманное обращение со всеми заключенными и уважение их неотъемлемого достоинства и соблюдая международные стандарты, такие как Минимальные стандартные правила Организации Объединенных Наций в отношении обращения с заключенными (Правила Нельсона Манделы), в частности посредством оценки, поддержки, защиты и улучшения физического и психического здоровья таких заключенных;</p>
+            </content>
+          </point>
+          <point eId="para_40_list_point_l">
+            <num>l)</num>
+            <content eId="para_40_list_point_l_content">
+              <p xml:space="preserve">	ввести мораторий на исполнение смертных приговоров в целях отмены смертной казни;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства, которые отменили смертную казнь, не вводить ее вновь и рекомендует им делиться своим опытом в этом отношении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам, в которых действует мораторий, сохранять его и делиться своим опытом в этом отношении; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства, которые еще не сделали этого, рассмотреть вопрос о присоединении ко второму Факультативному протоколу к Международному пакту о гражданских и политических правах, направленному на отмену смертной казни, или о его ратификации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря представить Генеральной Ассамблее на ее семьдесят девятой сессии доклад об осуществлении настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжить рассмотрение этого вопроса на своей семьдесят девятой сессии по пункту, озаглавленному «Поощрение и защита прав человека».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54-е">54‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2022-12-15" refersTo="#adoptionDate">15 декабря 2022 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
