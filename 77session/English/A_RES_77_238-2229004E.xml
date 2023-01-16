@@ -1,0 +1,862 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/"></FRBRuri>
+          <FRBRdate date="2022-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/eng@/"></FRBRuri>
+          <FRBRdate date="2023-01-10" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-16" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Office on Drugs and Crime" showAs="UN Office on Drugs and Crime" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Commission on Narcotic Drugs" showAs="UN. Commission on Narcotic Drugs" dictionary="DHLAUTH"></keyword>
+        <keyword value="WHO" showAs="WHO" dictionary="DHLAUTH"></keyword>
+        <keyword value="DRUG CONTROL" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NARCOTIC DRUGS" showAs="NARCOTIC DRUGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG POLICY" showAs="DRUG POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG TRAFFIC" showAs="DRUG TRAFFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="111" showAs="International drug control." shortForm="NARCOTIC DRUGS" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-09" outcome="draftResolution" as="A/C.3/77/L.13/Rev.1" by="Ecuador, Honduras and Mexico" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Argentina, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Dominican Republic, El Salvador, Equatorial Guinea, Estonia, France, Germany, Greece, Guatemala, Hungary, Ireland, Israel, Italy, Latvia, Lithuania, Luxembourg, Malta, Monaco, Myanmar, Netherlands, Norway, Paraguay, Poland, Portugal, Republic of Korea, Romania, Serbia, Slovakia, Slovenia, Spain, Thailand, Timor-Leste and United States" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/466" by="" refersTo="12" />
+        <step date="2022-12-15" outcome="adopted" as="A/77/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="124" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AFGHANISTAN</organization>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ANTIGUA AND BARBUDA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BAHAMAS</organization>
+                <organization refersTo="memberState">BARBADOS</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BELIZE</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">BURKINA FASO</organization>
+                <organization refersTo="memberState">CABO VERDE</organization>
+                <organization refersTo="memberState">CAMBODIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">CONGO</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DEMOCRATIC REPUBLIC OF THE CONGO</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">EQUATORIAL GUINEA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">ESWATINI</organization>
+                <organization refersTo="memberState">FIJI</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GAMBIA</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GRENADA</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">GUYANA</organization>
+                <organization refersTo="memberState">HAITI</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KIRIBATI</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">LESOTHO</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">SAINT LUCIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SAMOA</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SERBIA</organization>
+                <organization refersTo="memberState">SIERRA LEONE</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState">TUVALU</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">ZAMBIA</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="9" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">TURKIYE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="45" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">AZERBAIJAN</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">DJIBOUTI</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ERITREA</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAQ</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITANIA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">SAINT KITTS AND NEVIS</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SRI LANKA</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UGANDA</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Third Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-29004 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/238</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-10" class="rightSmall" refersTo="#dateOfIssuance">10 January 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Seventy-seventh session</session>
+      </p>
+      <p>
+        <inline title="111" name="agenda item">Agenda item 111</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">International drug control</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 15 December 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[on the report of the Third Committee (<inline name="originating document">A/77/466, para. 12</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/238.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Addressing and countering the world drug problem through a comprehensive, integrated and balanced approach</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Underscoring" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> that the Single Convention on Narcotic Drugs of 1961 as amended by the 1972 Protocol,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 976, No. 14152.</p></authorialNote> the Convention on Psychotropic Substances of 1971,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Ibid., vol. 1019, No. 14956.</p></authorialNote> the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances of 1988<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Ibid., vol. 1582, No. 27627.</p></authorialNote> and other relevant international instruments constitute the cornerstone of the international drug control system,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>the outcome document of the thirtieth special session of the General Assembly, entitled “Our joint commitment to effectively addressing and countering the world drug problem”,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/S-30/1">S-30/1</a>, annex.</p></authorialNote> in its entirety, and reiterating that the operational recommendations contained therein are integrated, indivisible, multidisciplinary and mutually reinforcing and are aimed at a comprehensive, integrated and balanced approach to addressing and countering the world drug problem, </p>
+      </container>
+      <container name="Welcoming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the 2019 Ministerial Declaration on Strengthening Our Actions at the National, Regional and International Levels to Accelerate the Implementation of Our Joint Commitments to Address and Counter the World Drug Problem<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		See <span class="italic">Official Records of the Economic and Social Council, 2019, Supplement No. 8</span> (<a href="https://undocs.org/en/E/2019/28">E/2019/28</a>), chap. I, sect. B.</p></authorialNote> adopted at the ministerial segment of the sixty-second session of the Commission on Narcotic Drugs, which was held to take stock of the implementation of the commitments made over the past decade to jointly address and counter the world drug problem,</p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>the 2009 Political Declaration and Plan of Action on International Cooperation towards an Integrated and Balanced Strategy to Counter the World Drug Problem<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., <span class="italic">2009, Supplement No. 8</span> (<a href="https://undocs.org/en/E/2009/28">E/2009/28</a>), chap. I, sect. C.</p></authorialNote> and the Joint Ministerial Statement of the 2014 high-level review by the Commission on Narcotic Drugs of the implementation by Member States of the Political Declaration and Plan of Action,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid., <span class="italic">2014, Supplement No. 8 </span>(<a href="https://undocs.org/en/E/2014/28">E/2014/28</a>), chap. I, sect. C.</p></authorialNote> and recalling the resolutions adopted at the twentieth special session of the General Assembly,<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Resolutions <a href="https://undocs.org/en/A/RES/S-20/1">S-20/1</a>, <a href="https://undocs.org/en/A/RES/S-20/2">S-20/2</a>, <a href="https://undocs.org/en/A/RES/S-20/3">S-20/3</a> and <a href="https://undocs.org/en/A/RES/S-20/4">S-20/4</a> A–E.</p></authorialNote></p>
+      </container>
+      <container name="Reaffirming also" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> the Universal Declaration of Human Rights,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/217(III)">217 A (III)</a>.</p></authorialNote> and recalling the International Covenant on Economic, Social and Cultural Rights,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		See resolution <a href="https://undocs.org/en/A/RES/2200(XXI)">2200 A (XXI)</a>, annex.</p></authorialNote> the International Covenant on Civil and Political Rights,<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Ibid. </p></authorialNote> the Vienna Declaration and Programme of Action<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		<a href="https://undocs.org/en/A/CONF.157/24(PartI)">A/CONF.157/24 (Part I)</a>, chap. III.</p></authorialNote> and other relevant international human rights instruments,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> all relevant United Nations resolutions, including all resolutions and decisions adopted by the Commission on Narcotic Drugs,</p>
+      </container>
+      <container name="Reaffirming" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>its resolution <a href="https://undocs.org/en/A/RES/76/188">76/188</a> of 16 December 2021 and all its preceding resolutions on international cooperation to address and counter the world drug problem,</p>
+      </container>
+      <container name="Reaffirming also its unwavering commitment" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also its unwavering commitment</span> to ensuring that all aspects of demand reduction and related measures, supply reduction and related measures, and international cooperation are addressed in full conformity with the purposes and principles of the Charter of the United Nations, international law and the Universal Declaration of Human Rights, with full respect for the sovereignty and territorial integrity of States, the principle of non-intervention in the internal affairs of States, all human rights, fundamental freedoms, the inherent dignity of all individuals and the principles of equal rights and mutual respect among States, </p>
+      </container>
+      <container name="Reaffirming" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the 2030 Agenda for Sustainable Development,<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and noting that efforts to achieve the Sustainable Development Goals and to effectively address the world drug problem are complementary and mutually reinforcing,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also </span>the principal role of the Commission on Narcotic Drugs as the policymaking body of the United Nations system with prime responsibility for drug control matters, as well as the treaty-mandated functions of the Commission to consider and make recommendations relating to all matters pertaining to the aims and provisions of the United Nations drug conventions, reaffirming also the support and appreciation of the General Assembly for the efforts of the United Nations, in particular those of the United Nations Office on Drugs and Crime as the leading entity in the United Nations system for addressing and countering the world drug problem, reaffirming further the treaty-mandated roles of the International Narcotics Control Board and the World Health Organization, and recognizing the role and contributions of the United Nations Development Programme, the Office of the United Nations High Commissioner for Human Rights, the Joint United Nations Programme on HIV/AIDS and the United Nations Entity for Gender Equality and the Empowerment of Women (UN-Women), among other agencies, within their respective mandates, </p>
+      </container>
+      <container name="Recalling" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> Human Rights Council resolution <a href="https://undocs.org/en/A/HRC/RES/37/42">37/42</a> of 23 March 2018, entitled “Contribution to the implementation of the joint commitment to effectively addressing and countering the world drug problem with regard to human rights”,<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		See <span class="italic">Official Records of the General Assembly, Seventy-third Session, Supplement No. 53</span> (<a href="https://undocs.org/en/A/73/53">A/73/53</a>), chap. IV, sect. A.</p></authorialNote> and taking note of the efforts to address arbitrary detention related to drug policies, </p>
+      </container>
+      <container name="Recalling also" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recalling also </span>Commission on Narcotic Drugs resolution 65/2 of 18 March 2022 on strengthening international cooperation to address the links between illicit drug trafficking and illicit firearms trafficking,<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		See <span class="italic">Official Records of the Economic and Social Council, 2022, Supplement No. 8</span> (<a href="https://undocs.org/en/E/2022/28">E/2022/28</a>), chap. I, sect. B.</p></authorialNote></p>
+      </container>
+      <container name="Recalling further" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> Commission on Narcotic Drugs resolution 65/4 of 18 March 2022 on promoting comprehensive and scientific evidence-based early prevention,<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Ibid.</p></authorialNote></p>
+      </container>
+      <container name="Taking note" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of the <span class="italic">World Drug Report 2022</span>, which reflects the current trends on global drug markets, </p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span> that the three international drug control conventions concern the health and welfare of humankind and that human rights are an indispensable part of the international legal framework for the design and implementation of drug policies, and bearing in mind efforts to address the human rights consequences of the world drug problem,</p>
+      </container>
+      <container name="Noting with appreciation" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Noting with appreciation</span> the contributions of United Nations entities, international financial institutions and relevant regional and international organizations, within their respective mandates, to the work of the Commission on Narcotic Drugs and the efforts of Member States to address and counter the world drug problem, upon their request, to strengthen international and inter-agency cooperation, and encouraging them to make available relevant information to the Commission on Narcotic Drugs in order to facilitate its work and to enhance coherence within the United Nations system at all levels with regard to the world drug problem, </p>
+      </container>
+      <container name="Recalling" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> relevant United Nations standards and norms in crime prevention and criminal justice, including the United Nations Rules for the Treatment of Women Prisoners and Non-custodial Measures for Women Offenders (the Bangkok Rules),<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/65/229">65/229</a>, annex.</p></authorialNote> the United Nations Standard Minimum Rules for Non-custodial Measures (the Tokyo Rules)<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/45/110">45/110</a>, annex.</p></authorialNote> and the United Nations Standard Minimum Rules for the Treatment of Prisoners (the Nelson Mandela Rules),<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/70/175">70/175</a>, annex.</p></authorialNote></p>
+      </container>
+      <container name="Recalling also" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recalling also </span>the need to develop, adopt and implement, with due regard for national, constitutional, legal and administrative systems, alternative or additional measures with regard to conviction or punishment in cases of an appropriate nature, in accordance with the three international drug control conventions and taking into account, as appropriate, relevant United Nations standards and rules, such as the Tokyo Rules, </p>
+      </container>
+      <container name="Condemning" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> any discriminatory or violent practice perpetrated by law enforcement officials against persons who are vulnerable or marginalized, including systemic racism in the law enforcement and criminal justice systems, underscoring the importance of ensuring that such acts are not treated with impunity, and, in this regard, taking note of the request of the Human Rights Council, through its resolution <a href="https://undocs.org/en/A/HRC/RES/42/22">42/22</a> of 26 September 2019,<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		See <span class="italic">Official Records of the General Assembly, Seventy-fourth Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/74/53/Add.1">A/74/53/Add.1</a>), chap. III.</p></authorialNote> that the Working Group on Arbitrary Detention, within its mandate, prepare a study on arbitrary detention related to drug policies, which was published on 18 May 2021,</p>
+      </container>
+      <container name="Recognizing" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Recognizing </span>the importance of appropriately mainstreaming gender and age perspectives into drug-related policies and programmes, as well as the full, equal, meaningful and effective participation of women and young persons in their design and implementation,</p>
+      </container>
+      <container name="Recognizing also" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> the need to enhance efforts to strengthen the prevention of drug abuse among children and youth, also in educational settings, including by promoting the exchange of experiences and good practices, as well as technical assistance, and recalling Commission on Narcotic Drugs resolution 61/2 of 16 March 2018 on strengthening efforts to prevent drug abuse in educational settings,<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		See <span class="italic">Official Records of the Economic and Social Council, 2018, Supplement No. 8</span> (<a href="https://undocs.org/en/E/2018/28">E/2018/28</a>), chap. I, sect. B.</p></authorialNote></p>
+      </container>
+      <container name="Expressing deep concern" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> at the high price paid by society and by individuals and their families as a result of the world drug problem, and paying special tribute to those who have sacrificed their lives, including law enforcement and judicial personnel, and to the health-care and civil society personnel and volunteers whose work is dedicated to countering and addressing this phenomenon,</p>
+      </container>
+      <container name="Reaffirming" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that Indigenous Peoples have the right to their traditional medicines and to maintain their health practices, including the conservation of their vital medicinal plants, animals and minerals, and that they also have the right to access, without any discrimination, to all social and health services and to participate in decision-making processes, in accordance with United Nations Declaration on the Rights of Indigenous Peoples,<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/61/295">61/295</a>, annex.</p></authorialNote></p>
+      </container>
+      <container name="Welcoming" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> continued efforts to enhance coherence within the United Nations system at all levels, and reaffirming the need to continue and strengthen cooperation between the United Nations Office on Drugs and Crime and other United Nations entities, including the World Health Organization and the International Narcotics Control Board, within their respective mandates, in their efforts to support Member States in the implementation of international drug control treaties in accordance with applicable human rights obligations and to promote protection of and respect for human rights, fundamental freedoms and the dignity of all individuals in the context of drug programmes, strategies and policies,</p>
+      </container>
+      <container name="Expressing its appreciation" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Expressing its appreciation</span> for the results already achieved by the initiatives at the bilateral, regional and international levels, recognizing that further positive results can be achieved with sustained and collective efforts through international cooperation in reducing the demand and supply of illicit drugs, recognizing also that the world drug problem continues to present challenges to the health, including mental health, safety and well-being of all humanity, and resolving to reinforce national and international efforts and further increase international cooperation to face those challenges,</p>
+      </container>
+      <container name="Reaffirming" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming</span> the crucial role of Member States in developing an effective and comprehensive approach to addressing and countering the world drug problem, </p>
+      </container>
+      <container name="Recognizing" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that there are persistent, new and evolving challenges that should be addressed in conformity with the three international drug control conventions, which allow for sufficient flexibility for States parties to design and implement national drug policies according to their priorities and needs, consistent with the principle of common and shared responsibility and applicable international law, </p>
+      </container>
+      <container name="Recognizing also" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing also</span> that the world drug problem remains a common and shared responsibility that should be addressed in a multilateral setting through effective and increased international cooperation and demands an integrated, multidisciplinary, mutually reinforcing, balanced, scientific evidence-based and comprehensive approach,</p>
+      </container>
+      <container name="Reaffirming" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming </span>the need for close cooperation and coordination among domestic authorities at all levels to address the key causes and consequences of the world drug problem, including those in the health, education, social, human rights, economic, justice, public security and law enforcement fields, in line with the principle of common and shared responsibility, and recognizing the value of comprehensive and balanced policy interventions, including those in the field of promotion of sustainable and viable livelihoods,</p>
+      </container>
+      <container name="Recognizing" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span>, as part of a comprehensive, integrated and balanced approach to addressing and countering the world drug problem, that appropriate emphasis should be placed on individuals, families, communities and society as a whole, with a view to promoting and protecting the health, safety and well-being of all humanity,</p>
+      </container>
+      <container name="Reaffirming equally" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Reaffirming equally</span> that reducing drug abuse requires efforts to reduce demand, which must be demonstrated by sustained widespread demand reduction initiatives that are age- and gender-responsive and integrate a comprehensive public health approach spanning the spectrum of prevention, education, early detection and intervention, treatment, care and related support services, recovery support and the rehabilitation and social reintegration of drug users, in full compliance with the three international drug control conventions,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	Deeply concerned </span>that drug traffickers are heavily arming themselves with trafficked firearms, exposing people and law enforcement personnel to significant levels of violence and harm,</p>
+      </container>
+      <container name="Welcoming" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the progress made in strengthening and expanding existing cooperation on the public health-related aspects of the world drug problem, including progress related to minimizing its adverse public health and social consequences, and reaffirming the need to take into account both the public health and the criminal justice dimensions of the world drug problem, in accordance with the outcome document of the thirtieth special session of the General Assembly, including by intensifying efforts to support Member States, upon request, in addressing and countering the world drug problem in accordance with a comprehensive, integrated and balanced approach,</p>
+      </container>
+      <container name="Mindful" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Mindful </span>of the importance of encouraging the voluntary engagement and participation of individuals with drug use disorders in treatment programmes, with informed consent, where consistent with national legislation, and developing and implementing scientific evidence-based outreach programmes and campaigns, involving affected populations, including those in long-term recovery, where appropriate, to promote healthy lifestyles and reduce the adverse health and social consequences of the world drug problem, prevent social marginalization and promote non-stigmatizing attitudes, as well as of implementing effective outreach to engage and maintain the engagement of people who are in treatment, care or sustained recovery programmes and taking measures to facilitate access to such programmes and related support services, including treatment for comorbidities, and to expand capacity, </p>
+      </container>
+      <container name="Recognizing" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that rapid technological change has helped address some of the challenges posed by the coronavirus disease (COVID-19) pandemic, including through remote consultations for drug treatment services, telemedicine and greater flexibility in the provision and delivery of medication, while also recognizing the need to address the challenges posed by changes in trafficking routes and methods, including increased maritime trafficking, and online sales of drugs through both the darknet and the surface web,</p>
+      </container>
+      <container name="Recognizing also" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> the consequences of the COVID-19 pandemic on all aspects of the world drug problem, including the social impacts, such as increased unemployment, weakened social support systems, lack of access to treatment and recovery support services, and deepened inequalities, resulting in the development of new patterns of illicit drug use and the illicit cultivation, production and manufacture of and trafficking in drugs that may have also resulted in new methods of manufacture, distribution and marketing of and trafficking in some types of drugs, including increased online sales of drugs through both the darknet and the surface web,</p>
+      </container>
+      <container name="Noting with grave concern" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Noting with grave concern</span> the increasing sophistication of the transnational criminal groups engaged in the illicit manufacture and distribution of amphetamine-type stimulants worldwide, as well as the proliferation and diversion of chemical precursors used in the illicit manufacture of narcotic drugs and psychotropic substances, and deeply concerned that new psychoactive substances continue to be a challenge, including the increased abuse of certain drugs and the proliferation of new substances worldwide, which are a possible threat to public health and are not controlled under the three international drug control conventions,</p>
+      </container>
+      <container name="Reaffirming" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that alternative development is an important, lawful, viable and sustainable alternative to the illicit cultivation of drug crops and an effective measure to counter the world drug problem and other drug-related crime challenges, and reaffirming also its commitment to addressing drug-related socioeconomic issues related to the illicit cultivation, manufacture and production of and trafficking in drugs through the implementation of long-term, comprehensive and sustainable development-oriented and balanced drug control policies and programmes, including alternative development and, as appropriate, preventive alternative development programmes, which are part of sustainable crop control strategies,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_40">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming also</span> the need to mobilize adequate resources to address and counter the world drug problem, and calling for the enhancement of assistance to developing countries, upon request, in effectively implementing the Political Declaration and Plan of Action on International Cooperation towards an Integrated and Balanced Strategy to Counter the World Drug Problem and the operational recommendations of the outcome document of the thirtieth special session of the General Assembly,</p>
+      </container>
+      <container name="Expressing concern" eId="container_41">
+        <p xml:space="preserve">
+          <span class="italic">	Expressing concern </span>that aspects of the world drug problem associated with illicit drug production and illicit cultivation of drug crops can cause serious harm to the environment, including food security, deforestation, soil erosion and degradation, the loss of endemic species, contamination of the soil, groundwater and waterways, and the release of greenhouse gases,</p>
+      </container>
+      <container name="Recalling" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the commitment of Member States in the 2019 Ministerial Declaration to review in the Commission on Narcotic Drugs in 2029 the progress in implementing all international drug policy commitments, with a midterm review in the Commission in 2024,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates its commitment</span> to promoting the health, welfare and well-being of all individuals, families, communities and society as a whole and to facilitating healthy lifestyles through effective, comprehensive, scientific evidence-based demand reduction initiatives at all levels, covering, in accordance with national legislation and the three international drug control conventions, prevention, early intervention, treatment, care, recovery, rehabilitation and social reintegration measures, as well as initiatives and measures aimed at minimizing the adverse public health and social consequences of drug abuse; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms its commitment</span> to respecting, protecting and promoting all human rights, fundamental freedoms and the inherent dignity of all individuals and the rule of law in the development and implementation of drug policies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the determination of Member States to tackle the world drug problem, while also recognizing the need to address the key causes and consequences of the world drug problem, including those in the health, social, human rights, economic, justice, public security and law enforcement fields, in line with the principle of common and shared responsibility, further reaffirms the determination of Member States to address public health, safety and social problems resulting from drug abuse, and recognizes the value of comprehensive and balanced policy interventions, including those in the field of the promotion of sustainable and viable livelihoods;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to promote bilateral, regional and international cooperation with and technical assistance to the States most affected by illicit crop cultivation and the illicit production, manufacture, transit, trafficking, distribution and abuse of narcotic drugs and psychotropic substances, including synthetic drugs, in developing and implementing comprehensive and integrated policies, including through intelligence-sharing and cross-border cooperation, and by reinforcing national programmes aimed at education, prevention, early intervention, treatment, care, rehabilitation and social reintegration;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the ongoing efforts to strengthen cooperation in addressing and countering the world drug problem and to seek effectiveness and comprehensiveness in the strategies and policies undertaken by regional and subregional organizations and transregional initiatives;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to engage in effective cooperation and practical action, including North-South, South-South and triangular cooperation, in cooperation with the international development community and other key stakeholders, aimed at addressing and countering the world drug problem on the basis of the principle of common and shared responsibility;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon </span>Member States to strengthen regional, subregional and international cooperation in criminal matters, as appropriate, including judicial cooperation in the areas of, inter alia, extradition, mutual legal assistance and transfer of proceedings, in accordance with the three international drug control conventions and other international legal instruments and national legislation, and to strive to provide appropriate resources to national competent authorities, including through the provision of targeted technical assistance to requesting countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to promote the prevention and treatment of drug use disorders, using scientific evidence-based practices, and takes note of the second updated edition of the International Standards on Drug Use Prevention and the International Standards for the Treatment of Drug Use Disorders, developed by the United Nations Office on Drugs and Crime in collaboration with the World Health Organization, that reflect respect for human rights and dignity, including the right to enjoy the highest attainable standard of physical and mental health and well-being, including mental health and psychosocial support services, promoting non‑stigmatizing attitudes in the development and implementation of scientific evidence-based policies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes </span>drug dependence as a complex, multifactorial health disorder characterized by a chronic and relapsing nature, with social causes and consequences, that can be prevented and treated through, inter alia, effective scientific evidence-based drug treatment, care and rehabilitation programmes, including community-based programmes, and also recognizes the need to strengthen capacity for aftercare for and the rehabilitation, recovery and social reintegration of individuals with substance use disorders, including mental health and psychosocial support services and, as appropriate, through assistance for effective reintegration into the labour market and other support services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>Member States to develop quality assurance mechanisms for drug prevention, treatment, including for comorbidities, sustained recovery and related support services that reduce the adverse health and social consequences of drug abuse with a view to ensuring continuous improvement, through, inter alia, effective supervision of drug treatment and rehabilitation facilities by competent domestic authorities, including to prevent any possible acts of cruel, inhuman or degrading treatment or punishment, in accordance with national legislation and applicable international law; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages </span>Member States to promote the inclusion in national drug policies, in accordance with national legislation and as appropriate, of elements for the prevention and treatment of drug overdose, in particular opioid overdose, including the use of opioid receptor antagonists, such as naloxone, to reduce drug-related mortality;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to increase the availability, coverage and quality of scientific evidence-based prevention measures and tools, especially life skills programmes with demonstrated effectiveness, that target relevant age and risk groups in multiple settings, including in educational institutions, in both the public and private sectors, reaching youth in school as well as out of school, among others, including by providing children and youth with information on drug abuse and its harmful effects and consequences as well as through drug use prevention programmes and public awareness-raising campaigns, including by using the Internet, social media and other online platforms, to develop and implement prevention curricula and early intervention programmes for use in the education system at all levels, as well as in vocational training, including in the workplace, and to enhance the capacity of teachers and other relevant professionals, as well as that of parents and guardians, to provide or recommend counselling, prevention and health-care services, and opportunities to choose healthy lifestyles, and to promote safe and drug-free environments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to consider enhancing cooperation among public health, education and law enforcement authorities when developing and implementing evidence-based drug use prevention initiatives;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges </span>the important advances made in prevention science, establishing prevention as one of the main components of comprehensive, scientific evidence-based demand-reduction initiatives to address the non-medical use of controlled drugs, and also acknowledges that effective early prevention strategies and measures focused on addressing, inter alia, adverse childhood experiences as well as individual and environmental, including social, risk and protective, factors, contribute significantly to the positive engagement of children, youth and adults with their families and in educational settings, workplaces and communities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates </span>the strong commitment of Member States to improve access to controlled substances for medical and scientific purposes by appropriately addressing existing barriers in this regard, while concurrently preventing the diversion and abuse of and trafficking in such substances, and to strengthen, as appropriate, the proper functioning of national drug control systems and domestic assessment mechanisms and programmes, with a view to promoting the health and welfare of humankind, in cooperation with the International Narcotics Control Board, the United Nations Office on Drugs and Crime, the World Health Organization and other relevant United Nations system agencies, to identify, analyse and remove impediments to the availability and accessibility of controlled substances for medical and scientific purposes, within appropriate control mechanisms, as required by the three international drug control conventions and, for that purpose, to consider the provision of technical and financial assistance, upon request, to developing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to reduce the adverse health and social consequences of the world drug problem through a comprehensive approach, including by utilizing existing United Nations Office on Drugs and Crime technical assistance tools, and ensuring that evidence-based treatment is available;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">
+            <span class="italic">	Urges</span> Member States and other donors to continue to provide bilateral and other funding for the global drug problem response, including in particular the HIV/AIDS response, including to the Joint United Nations Programme on HIV/AIDS, and to strive to ensure that such funding contributes to addressing the growing HIV/AIDS epidemic among people who inject drugs, and HIV/AIDS in prison settings, in the spirit of the pledge made in the 2030 Agenda for Sustainable Development to leave no one behind;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to consider alternative, non-custodial measures for persons accused of minor, non-violent drug-related offences, to promote, consistent with the three international drug control conventions and domestic law, and in accordance with national, constitutional, legal and administrative systems, alternative or additional measures with regard to conviction or punishment in cases of an appropriate nature, and to ensure that law enforcement drug control efforts are consistent with States’ human rights obligations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to promote and implement effective criminal justice responses to drug-related crimes to bring perpetrators to justice that ensure legal guarantees and due process safeguards pertaining to criminal justice proceedings, including practical measures to uphold the prohibition of arbitrary arrest and detention and of torture and other cruel, inhuman or degrading treatment or punishment and to eliminate impunity, in accordance with relevant and applicable international law and taking into account United Nations standards and norms on crime prevention and criminal justice, and ensure timely access to legal aid and the right to a fair trial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to promote proportionate national sentencing policies, practices and guidelines for drug-related offences, whereby the severity of penalties is proportionate to the gravity of offences and both mitigating and aggravating factors are taken into account, including the circumstances enumerated in article 3 of the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances of 1988 and other relevant and applicable international law, and in accordance with national legislation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to take further steps to prevent the use and diversion of synthetic drugs for non-medical purposes, including through measures and initiatives addressing the training of relevant health-care professionals and, where appropriate, education and raising public awareness and engaging with the private sector on, inter alia, issues related to marketing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates its commitment </span>to protect the safety and assure the security of individuals, societies and communities by intensifying efforts to prevent and counter the illicit cultivation, production and manufacture of and trafficking in narcotic drugs and psychotropic substances, as well as drug-related crime and violence, through, inter alia, more effective drug-related crime prevention and law enforcement measures, as well as by addressing links with other forms of organized crime, including firearms trafficking, money-laundering, corruption and other criminal activities, mindful of their social and economic causes and consequences; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_296" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_296__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to enhance national, regional, subregional, interregional and international capacity, and utilize existing and relevant regional and, as appropriate, subregional and international networks for the exchange of operational information to respond to the serious challenges posed by the increasing links between drug trafficking, corruption and other forms of organized crime, including trafficking in persons, trafficking in firearms, cybercrime and money-laundering, and, in some cases, terrorism, including money-laundering in connection with the financing of terrorism, by using an integrated and multidisciplinary approach, such as through promoting and supporting reliable data collection, research and, as appropriate, intelligence- and analysis-sharing to ensure effective policymaking and interventions, by using, inter alia, existing United Nations Office on Drugs and Crime technical assistance tools;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> Member States to adopt and strengthen coordinated border management strategies, if needed, to prevent, monitor and counter the illicit production, manufacture and trafficking of narcotic drugs and psychotropic substances, including when associated with other forms of transnational organized crime, such as trafficking in firearms, illicit financial flows, smuggling of goods and of bulk cash, and money-laundering, and also calls upon Member States to provide technical assistance, upon request, including where appropriate the provision of equipment and technology, along with necessary training and maintenance support, to increase the capacity of border and law enforcement agencies, in particular for developing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_343" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_343__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes </span>that transit States continue to face multifaceted challenges, and reaffirms the continuing need for cooperation and support, including the provision of technical assistance, to, inter alia, enhance their capacities to effectively address and counter the world drug problem, in conformity with the 1988 Convention;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_368" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_368__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates its commitment </span>to strengthen specialized, targeted, effective and sustainable technical assistance, including, where appropriate, adequate financial assistance, training, capacity-building, equipment and technological know-how, to requesting countries, including transit countries, through and in cooperation with the United Nations Office on Drugs and Crime, as well as the World Health Organization and other relevant United Nations entities and international and regional organizations, within their respective mandates, so as to help Member States to effectively address the health, socioeconomic, human rights, justice and law enforcement aspects of the world drug problem;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>Member States to strengthen national and international action to address the emerging challenge of new psychoactive substances, including their adverse health consequences, and the evolving threat of amphetamine-type stimulants, including methamphetamine, underscores the importance of enhancing information-sharing and early warning networks, developing appropriate national legislative, prevention and treatment models and supporting scientific evidence-based review and scheduling of the most prevalent, persistent and harmful substances, and notes the importance of preventing the diversion and misuse of pharmaceuticals containing narcotic drugs and psychotropic substances and precursors, while ensuring their availability for legitimate purposes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to ensure that measures to prevent the illicit cultivation of and to eradicate plants containing narcotic and psychotropic substances respect fundamental human rights, take due account of traditional licit uses, where there is historical evidence of such use, and of the protection of the environment, in accordance with the three international drug control conventions, and also take into account, as appropriate and in accordance with domestic law, the United Nations Declaration on the Rights of Indigenous Peoples; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_449" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_449__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to improve the assessment of the impact of demand and supply reduction strategies, including the impact of alternative development programmes and preventive alternative development programmes, as appropriate, with a view to increasing the effectiveness of such programmes, including through the use of relevant human development indicators, criteria related to environmental sustainability and other measurements in line with the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">Further encourages</span> Member States to examine and address, within the efforts of alternative development, the harmful impact of the illicit cultivation of crops used for the production of narcotic drugs on the environment, which leads to illegal deforestation, the pollution of soil and water, and negative consequences on food safety, and to seize the opportunities offered by alternative development with regard to the conservation and sustainable use of the environment and the protection of biodiversity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_508" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_508__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the need for strengthening sustainable crop control strategies that may include, inter alia, alternative development, eradication and law enforcement measures, and in this regard encourages Member States to consider development-oriented interventions to address the illicit cultivation of drug crops and other illicit drug-related activities, while ensuring that both men and women benefit equally from them, including through job opportunities, improved infrastructure and basic public services and, as appropriate, access and legal titles to land for farmers and local communities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_539" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_539__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates its commitment </span>to strengthen subregional, regional and international cooperation, in accordance with the principle of common and shared responsibility, to support comprehensive and sustainable alternative development programmes, including, as appropriate, preventive alternative development, in close collaboration with all relevant stakeholders at the local, national and international levels, and to develop and share best practices towards implementing the United Nations Guiding Principles on Alternative Development,<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/68/196">68/196</a>, annex.</p></authorialNote> taking into account all the lessons learned and good practices, in particular by countries with extensive expertise in alternative development, and in this regard recalls its resolution <a href="https://undocs.org/en/A/RES/72/197">72/197</a> of 19 December 2017, as well as Commission on Narcotic Drugs resolution 65/1 of 18 March 2022;<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		See <span class="italic">Official Records of the Economic and Social Council, 2022, Supplement No. 8</span> (<a href="https://undocs.org/en/E/2022/28">E/2022/28</a>), chap. I, sect. B. </p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_571" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_571__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> relevant international financial institutions, United Nations entities, non-governmental organizations and the private sector, as appropriate, to consider increasing their support, including through long-term and flexible funding, for the implementation of comprehensive and balanced development-oriented drug control programmes and viable economic alternatives for the promotion of inclusive economic growth and support for initiatives that contribute to poverty eradication, inter alia, alternative development, including, as appropriate, preventive alternative development programmes, based on identified needs and national priorities, for areas and populations affected by or vulnerable to the illicit cultivation of drug crops, and encourages Member States to develop measures for rural development, improving infrastructure and social inclusion and protection and addressing the consequences of illicit crop cultivation and the manufacture and production of narcotic drugs and psychotropic substances on the environment, with the incorporation and participation of local communities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_604" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_604__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>Member States to ensure the participation of local communities, including farmers, women, minorities and Indigenous Peoples, in the design and implementation of alternative development programmes and to secure alternative livelihoods, preferably before removing existing livelihoods earned from the cultivation of illicit crops;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_638" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_638__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon </span>Member States to mainstream a gender perspective into and ensure the full, equal, meaningful and effective participation of women in all stages of the development, implementation, monitoring and evaluation of drug policies and programmes, including drug prevention, treatment, sustained recovery, reintegration and related support services, to develop and disseminate gender-sensitive and age-appropriate measures that take into account the specific needs and circumstances faced by women and girls with regard to the world drug problem and, as States parties, implement the Convention on the Elimination of All Forms of Discrimination against Women,<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1249, No. 20378.</p></authorialNote> and bearing in mind the importance of targeted interventions that are based on the collection and analysis of data, including age- and gender-related data, in meeting the specific needs of drug-affected populations and communities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_673" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_673__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations Office on Drugs and Crime to continue to support Member States, upon request, in mainstreaming a gender perspective into their policies and programmes related to the world drug problem, and invites the United Nations Entity for Gender Equality and the Empowerment of Women (UN‑Women) and other relevant United Nations entities, within their mandates, to cooperate with the Office in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_709" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_709__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the consideration of the specific needs and possible multiple vulnerabilities of women drug offenders when imprisoned, in line with the United Nations Rules for the Treatment of Women Prisoners and Non-custodial Measures for Women Offenders (the Bangkok Rules);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_746" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_746__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to adapt their drug policies and to consider, when developing comprehensive policies to address and counter the world drug problem, measures, programmes and actions that respond the specific needs of members of society in situations of vulnerability; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the Political Declaration on HIV and AIDS: Ending Inequalities and Getting on Track to End AIDS by 2030, adopted by the General Assembly on 8 June 2021;<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		Resolution <a href="https://undocs.org/en/A/RES/75/284">75/284</a>, annex.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_823" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_823__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> relevant national authorities to consider, in accordance with their domestic law and the three international drug control conventions, including in national prevention, treatment, care, recovery, rehabilitation and community-based social reintegration measures and programmes, in the context of comprehensive and balanced drug demand reduction efforts, effective evidence-based measures aimed at minimizing the adverse public health and social consequences of drug abuse, including appropriate medication-assisted therapy programmes, injecting equipment programmes as well as antiretroviral therapy and other relevant interventions that prevent the transmission of HIV, viral hepatitis and other blood-borne diseases associated with drug use, and to consider ensuring access to such interventions, including in treatment and outreach services, prisons and other custodial settings, and promoting in that regard the use, as appropriate, of the technical guide for countries to set targets for universal access to HIV prevention, treatment and care for injecting drug users, issued by the World Health Organization, the United Nations Office on Drugs and Crime and the Joint United Nations Programme on HIV/AIDS; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_863" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_863__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to identify and take advantage of opportunities to conduct collaborative research and continuously share the latest scientific research, taking into account the contributions of the national, regional and international scientific community, including academia, on the most effective demand and supply reduction strategies, and to develop improved best practices on interventions to reduce demand for drugs, in accordance with the three international drug control conventions and drug policy commitments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_904" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_904__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to promote and improve the systematic collection of information and gathering of evidence as well as the sharing, at the national and international levels, of reliable and comparable data on drug use and epidemiology, including scientific data on any risks or damage to health and societal consequences that are caused by abusing drugs, including in vaporized form, and on social, economic and other risk factors, as well as the links between drug policies and human rights, to promote, as appropriate, through the Commission on Narcotic Drugs and the World Health Assembly, the use of internationally recognized standards, such as the International Standards on Drug Use Prevention, and the exchange of best practices, and to formulate effective drug use prevention strategies and programmes in cooperation with the United Nations Office on Drugs and Crime, the World Health Organization and other relevant United Nations entities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_946" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_946__content">
+          <p xml:space="preserve">	<span class="italic">Also invites</span> Member States to provide the United Nations Office on Drugs and Crime with information on best practices and programmes recently implemented, consistent with the three international drug control conventions, in order to assess recent developments and current and future challenges;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_989" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_989__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need for national statistical capacity-building to support Member States in improving the quality and availability of drug statistics and to respond effectively to data-collection requests from the United Nations Office on Drugs and Crime, invites international and regional organizations to support Member States in this regard, upon their request, invites Member States to regularly report data and information relating to all aspects of the world drug problem to the Office through the annual report questionnaires, and invites the Commission on Narcotic Drugs, as the central policymaking body of the United Nations system on drug-related matters, to strengthen the capacity of the Office to collect, analyse, use and disseminate accurate, reliable, objective and comparable data and to reflect such information in the <span class="italic">World Drug Report</span>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1033" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1033__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to consider the need to review the set of national drug policy metrics and tools for the collection and analysis of accurate, reliable, disaggregated, comprehensive and comparable data to measure the effectiveness of programmes to address all relevant aspects of the world drug problem, including, as appropriate, as related to the 2030 Agenda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1078" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1078__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to promote data collection, research and the sharing of information, as well as the exchange of best practices on preventing and countering drug-related crime and on drug supply reduction measures and practices, in order to enhance the effectiveness of criminal justice responses, within the framework of applicable law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1124" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1124__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations Office on Drugs and Crime to continue providing assistance to Member States, upon request, with regard to data collection, research and, as appropriate, intelligence- and analysis-sharing to disclose the extent of the links between illicit drug trafficking and firearms trafficking, and to continue its already existing research on these links, subject to the availability of extrabudgetary resources;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1171" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1171__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to intensify efforts to prevent and counter the illicit cultivation, production and manufacture of and trafficking in narcotic drugs and psychotropic substances, as well as drug-related crime and violence, through, inter alia, more effective drug-related crime prevention and law enforcement measures consistent with national legislation and international law, including applicable human rights obligations, as well as by addressing links with other forms of organized crime, including firearms trafficking, money-laundering, corruption and other criminal activities, mindful of their social and economic causes and consequences;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1219" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1219__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the importance of an integrated approach in drug policies, including by strengthening partnerships between the public health, development, human rights, justice and law enforcement fields, as well as the private sector, in particular chemical and pharmaceutical industries, and by facilitating inter-agency cooperation and communication, where appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1268" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1268__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that civil society, the scientific community, academia, the private sector and affected communities can play a significant role in addressing and countering the world drug problem by analysing drugs issues, in delivering services and in evaluating the human rights impact of drug policies, and encourages, where appropriate, the participation of civil society and affected communities in the design, implementation and provision of relevant scientific evidence in support of the evaluation of drug control policies and programmes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1318" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1318__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the importance of the United Nations Office on Drugs and Crime and its field offices in building capacity at the local level in the fight against transnational organized crime and drug trafficking, encourages the Office to maintain an effective level of support for national and regional efforts, requests all Member States to provide the fullest possible financial and political support to the Office by widening its donor base, as appropriate, and increasing voluntary contributions, in particular general-purpose contributions, so as to enable it to continue, expand, improve and strengthen, within its mandates, its operational and technical cooperation activities, and requests the Office to continue to collaborate with relevant intergovernmental, international and regional organizations involved in addressing and countering the world drug problem, as appropriate, in order to share best practices and scientific standards and to maximize the benefits from their unique comparative advantage;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1369" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1369__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the statements by the President of the International Narcotics Control Board of 21 and 22 September 2022;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1421" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1421__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations Office on Drugs and Crime and the International Narcotics Control Board to continue to strengthen cooperation with the World Health Organization and other competent United Nations entities, within their respective mandates, as part of a comprehensive, integrated and balanced approach to strengthening health and social welfare measures in addressing the world drug problem, including through effective prevention, early intervention, treatment, care, recovery, rehabilitation and social reintegration, in cooperation, as appropriate, with civil society and the scientific community, and to keep the Commission on Narcotic Drugs appropriately updated;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1474" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1474__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations Office on Drugs and Crime, in close cooperation with Member States and pertinent United Nations entities, intergovernmental and regional organizations and the scientific community and civil society, to continue to support Member States, upon request, in strengthening their capacity to develop their reporting mechanisms, including through technical assistance, by identifying gaps in the current drug statistics and by exploring possibilities to strengthen existing data-collection and analysis tools at the national level; and to provide technical assistance to Governments so as to facilitate the implementation of and enable them to fully meet their obligations under the conventions and give adequate follow-up to subsequent resolutions of the Commission on Narcotic Drugs, the Economic and Social Council and the General Assembly; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1528" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1528__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all relevant United Nations entities, in close cooperation with the United Nations Office on Drugs and Crime, to support Member States in developing and implementing balanced, comprehensive, integrated, multidisciplinary, evidence-based, development-oriented and sustainable responses to the world drug problem, while respecting human rights, within the framework of the three international drug control conventions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1583" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1583__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the follow-up to the implementation of all commitments to address and counter the world drug problem made since 2009, including the recommendations set out in the outcome document of the thirtieth special session of the General Assembly, through the intersessional process of the Commission on Narcotic Drugs, encourages the Commission to continue to work on and support Member States in their implementation and sharing of scientific and evidence-based best practices in addressing and countering the world drug problem, and invites the Commission to continue to examine how its subsidiary bodies can better contribute to the implementation of, inter alia, the outcome document and all relevant commitments by ensuring that the Commission is informed of regional and domestic concerns, developments and best practices arising from all stakeholders, including contributions from the scientific community, academia and civil society;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1639" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1639__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Member States to actively participate in the discussions of the Commission on Narcotic Drugs concerning the preparations for the 2024 midterm review of the progress in implementing all international drug policy commitments, which should include inputs by the General Assembly concerning the follow‑up to the 2019 Ministerial Declaration on Strengthening Our Actions at the National, Regional and International Levels to Accelerate the Implementation of Our Joint Commitments to Address and Counter the World Drug Problem; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1696" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1696__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Secretary-General,<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		<a href="https://undocs.org/en/A/77/137">A/77/137</a>.</p></authorialNote> and requests that he submit to the General Assembly at its seventy-ninth session a report on the implementation of the present resolution, including a focus on international cooperation to address and counter the world drug problem.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54th">54th plenary meeting</inline>
+        <eol />
+        <docDate date="2022-12-15" refersTo="#adoptionDate">15 December 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
