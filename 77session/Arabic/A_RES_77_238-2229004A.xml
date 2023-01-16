@@ -1,0 +1,794 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/"></FRBRuri>
+          <FRBRdate date="2022-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/ara@/"></FRBRuri>
+          <FRBRdate date="2023-01-10" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/ara@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-16" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Office on Drugs and Crime" showAs="UN Office on Drugs and Crime" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Commission on Narcotic Drugs" showAs="UN. Commission on Narcotic Drugs" dictionary="DHLAUTH"></keyword>
+        <keyword value="WHO" showAs="WHO" dictionary="DHLAUTH"></keyword>
+        <keyword value="DRUG CONTROL" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NARCOTIC DRUGS" showAs="NARCOTIC DRUGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG POLICY" showAs="DRUG POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG TRAFFIC" showAs="DRUG TRAFFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="111" showAs="International drug control." shortForm="NARCOTIC DRUGS" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-09" outcome="draftResolution" as="A/C.3/77/L.13/Rev.1" by="Ecuador, Honduras and Mexico" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Argentina, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Dominican Republic, El Salvador, Equatorial Guinea, Estonia, France, Germany, Greece, Guatemala, Hungary, Ireland, Israel, Italy, Latvia, Lithuania, Luxembourg, Malta, Monaco, Myanmar, Netherlands, Norway, Paraguay, Poland, Portugal, Republic of Korea, Romania, Serbia, Slovakia, Slovenia, Spain, Thailand, Timor-Leste and United States" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/466" by="" refersTo="12" />
+        <step date="2022-12-15" outcome="adopted" as="A/77/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="124" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AFGHANISTAN</organization>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ANTIGUA AND BARBUDA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BAHAMAS</organization>
+                <organization refersTo="memberState">BARBADOS</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BELIZE</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">BURKINA FASO</organization>
+                <organization refersTo="memberState">CABO VERDE</organization>
+                <organization refersTo="memberState">CAMBODIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">CONGO</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DEMOCRATIC REPUBLIC OF THE CONGO</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">EQUATORIAL GUINEA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">ESWATINI</organization>
+                <organization refersTo="memberState">FIJI</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GAMBIA</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GRENADA</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">GUYANA</organization>
+                <organization refersTo="memberState">HAITI</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KIRIBATI</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">LESOTHO</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">SAINT LUCIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SAMOA</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SERBIA</organization>
+                <organization refersTo="memberState">SIERRA LEONE</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState">TUVALU</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">ZAMBIA</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="9" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">TURKIYE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="45" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">AZERBAIJAN</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">DJIBOUTI</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ERITREA</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAQ</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITANIA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">SAINT KITTS AND NEVIS</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SRI LANKA</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UGANDA</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="اللجنة الثالثة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-29004 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/238</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-10" class="rightSmall" refersTo="#dateOfIssuance">10 January 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">الدورة السابعة والسبعون</session>
+      </p>
+      <p>
+        <inline title="111" name="agenda item">البند 111 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المراقبة الدولية للمخدرات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 15 كانون الأول/ديسمبر 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[بناء على تقرير اللجنة الثالثة (<inline name="originating document">A/77/466، الفقرة 12</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/238</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	التصدي لمشكلة المخدرات العالمية ومواجهتها من خلال نهج شامل ومتكامل ومتوازن</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة،</span>
+        </p>
+      </formula>
+      <container name="إذ تشدد" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تشدد</span> على أن الاتفاقية الوحيدة للمخدرات لسنة 1961 بصيغتها المعدلة ببروتوكول عام 1972<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 976, No. 14152.</p></authorialNote><sup>)</sup> واتفاقية المؤثرات العقلية لسنة 1971<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1019، الرقم 14956.</p></authorialNote><sup>)</sup> واتفاقية الأمم المتحدة لمكافحة الاتجار غير المشروع في المخدرات والمؤثرات العقلية لسنة 1988<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1582، الرقم 27627.</p></authorialNote><sup>)</sup> وسائر الصكوك الدولية ذات الصلة، تشكل حجر الزاوية في النظام الدولي لمراقبة المخدرات،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> مجمل مضمون الوثيقة الختامية لدورة الجمعية العامة الاستثنائية الثلاثين المعنونة ”التزامنا المشترك بالتصدي لمشكلة المخدرات العالمية ومواجهتها على نحو فعال“ <sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	القرار دإ-<a href="https://undocs.org/ar/A/RES/30/1">30/1</a>، المرفق.</p></authorialNote><sup>)</sup>، وإذ تكرر التأكيد على أن التوصيات العملية الواردة في الوثيقة الختامية هي توصيات متكاملة وغير قابلة للتجزئة ومتعددة التخصصات ومتعاضدة، وترمي إلى إرساء نهج شامل متكامل متوازن للتصدي لمشكلة المخدرات العالمية ومواجهتها،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالإعلان الوزاري لعام 2019 بشأن تعزيز إجراءاتنا على الصعيد الوطني والإقليمي والدولي ابتغاء التعجيل بتنفيذ التزاماتنا المشتركة بالتصدِّي لمشكلة المخدِّرات العالمية ومواجهتها<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2019، الملحق رقم 8</span> (<a href="https://undocs.org/ar/E/2019/28">E/2019/28</a>)، الفصل الأول، الفرع باء.</p></authorialNote><sup>)</sup>، الذي اعتمد خلال الجزء الوزاري من الدورة الثانية والستين للجنة المخدرات، الذي عقد لتقييم مدى تنفيذ الالتزامات المقطوعة خلال العقد الماضي بالعمل معاً على التصدي لمشكلة المخدِّرات العالمية ومواجهتها،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> الإعلان السياسي وخطة العمل بشأن التعاون الدولي صوب استراتيجية متكاملة ومتوازنة لمواجهة مشكلة المخدرات العالمية لعام 2009<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">2009، الملحق رقم 8</span> (<a href="https://undocs.org/ar/E/2009/28">E/2009/28</a>)، الفصل الأول، الفرع جيم.</p></authorialNote><sup>)</sup> والبيان الوزاري المشترك المنبثق عن الاستعراض الرفيع المستوى لعام 2014 الذي أجرته لجنة المخدرات بشأن تنفيذ الدول الأعضاء للإعلان السياسي وخطة العمل<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	المرجع نفسه، <span class="italic">2014، الملحق رقم 8</span> (<a href="https://undocs.org/ar/E/2014/28">E/2014/28</a>)، الفصل الأول، الفرع جيم.</p></authorialNote><sup>)</sup>، وإذ تشير إلى القرارات المتخذة في دورة الجمعية العامة الاستثنائية العشرين<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	القرارات دإ-<a href="https://undocs.org/ar/A/RES/20/1">20/1</a> و دإ-<a href="https://undocs.org/ar/A/RES/20/2">20/2</a> و دإ-<a href="https://undocs.org/ar/A/RES/20/3">20/3</a> و دإ-<a href="https://undocs.org/ar/A/RES/20/4">20/4</a> ألف إلى هاء.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد أيضا" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد أيضا</span> الإعلان العالمي لحقوق الإنسان<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	القرار 217 ألف (د-3).</p></authorialNote><sup>)</sup>، وإذ تشير إلى العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	انظر القرار 2200 ألف (د-21)، المرفق.</p></authorialNote><sup>)</sup>، والعهد الدولي الخاص بالحقوق المدنية والسياسية<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup>، وإعلان وبرنامج عمل فيينا<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/CONF.157/24(PartI)">A/CONF.157/24 (Part I)</a>، الفصل الثالث.</p></authorialNote><sup>)</sup>، وغير ذلك من صكوك حقوق الإنسان الدولية ذات الصلة،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى جميع قرارات الأمم المتحدة الأخرى ذات الصلة، بما فيها جميع القرارات والمقررات التي اتخذتها لجنة المخدرات،</p>
+      </container>
+      <container name="وإذ تعيد تأكيد" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعيد تأكيد</span> قرارها <a href="https://undocs.org/ar/A/RES/76/188">76/188</a> المؤرخ 16 كانون الأول/ديسمبر 2021 وجميع قراراتها السابقة بشأن التعاون الدولي على التصدي لمشكلة المخدرات العالمية ومواجهتها،</p>
+      </container>
+      <container name="وإذ تعيد أيضا تأكيد" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعيد أيضا تأكيد</span> <span class="bold italic">التزامها الراسخ </span>بضمان معالجة جميع جوانب خفض الطلب والتدابير ذات الصلة وخفض العرض والتدابير ذات الصلة والتعاون الدولي، على نحو يتوافق تماما مع مقاصد ومبادئ ميثاق الأمم المتحدة والقانون الدولي والإعلان العالمي لحقوق الإنسان، في ظل الاحترام التام لسيادة الدول وسلامتها الإقليمية ولمبدأ عدم التدخل في الشؤون الداخلية للدول ولجميع حقوق الإنسان والحريات الأساسية والكرامة المتأصلة للأفراد كافة ولمبدأي التساوي في الحقوق والاحترام المتبادل بين الدول، </p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> خطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>، وإذ تلاحظ أن الجهود الرامية إلى تحقيق أهداف التنمية المستدامة والتصدي بفعالية لمشكلة المخدرات العالمية هي جهود متكاملة يعزز بعضها بعضا،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد أيضا" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد أيضا</span> الدور الرئيسي الذي تؤديه لجنة المخدرات بصفتها هيئة تقرير السياسات في منظومة الأمم المتحدة التي تتولى المسؤولية الأولى عن شؤون مراقبة المخدرات، والمهام المنوطة باللجنة بموجب المعاهدات للنظر في جميع المسائل المتصلة بأهداف وأحكام اتفاقيات الأمم المتحدة المتعلقة بالمخدرات، وتقديم توصيات بشأنها، وإذ تؤكد من جديد <span class="bold">أيضا</span> دعم الجمعية العامة وتقديرها لجهود الأمم المتحدة، وخصوصاً جهود مكتب الأمم المتحدة المعني بالمخدرات والجريمة بصفته الهيئة التي تتولى زمام القيادة داخل منظومة الأمم المتحدة في مجال التصدي لمشكلة المخدرات العالمية ومواجهتها، وإذ تؤكد من جديد <span class="bold">كذلك</span> الدور المنوط بالهيئة الدولية لمراقبة المخدرات وبمنظمة الصحة العالمية بمقتضى المعاهدات، وإذ تسلم بدور وإسهامات برنامج الأمم المتحدة الإنمائي، ومفوضية الأمم المتحدة لحقوق الإنسان، وبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز، وهيئة الأمم المتحدة للمساواة بين الجنسين وتمكين المرأة (هيئة الأمم المتحدة للمرأة)، وغير ذلك من الوكالات، كل في نطاق ولايته،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/37/42">37/42</a> المؤرخ 23 آذار/مارس 2018 المعنون ”الإسهام في تنفيذ الالتزام المشترك بالتصدي لمشكلة المخدرات العالمية ومواجهتها على نحو فعال فيما يتعلق بحقوق الإنسان“ <sup>(</sup><authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الثالثة والسبعون، الملحق رقم 53</span> (<a href="https://undocs.org/ar/A/73/53">A/73/53</a>)، الفصل الرابع، الفرع ألف.</p></authorialNote><sup>)</sup>، وإذ تحيط علما بالجهود المبذولة لمعالجة الاحتجاز التعسفي في علاقته بسياسات المخدرات،</p>
+      </container>
+      <container name="وإذ تشير أيضا" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا</span> إلى قرار لجنة المخدرات <a href="https://undocs.org/ar/A/RES/65/2">65/2</a> المؤرخ 18 آذار/مارس 2022 بشأن تعزيز التعاون الدولي من أجل معالجة الصلات بين الاتجار غير المشروع بالمخدرات والاتجار غير المشروع بالأسلحة النارية<sup>(</sup><authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2022، الملحق رقم 8 </span>(<a href="https://undocs.org/ar/E/2022/28">E/2022/28</a>)، الفصل الأول، الفرع باء.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشير كذلك" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير كذلك</span> إلى قرار لجنة المخدرات <a href="https://undocs.org/ar/A/RES/65/4">65/4</a> المؤرخ 18 آذار/مارس 2022 بشأن تعزيز الوقاية المبكرة الشاملة والمستندة إلى الأدلة العلمية<sup>(</sup><authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما </span><span class="italic">بتقرير المخدرات العالمي لعام 2022</span> الذي يبين الاتجاهات الراهنة في أسواق المخدرات العالمية،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بأن الاتفاقيات الدولية الثلاث لمراقبة المخدرات تتعلق بصحة البشرية ورفاهها، وأن حقوق الإنسان جزء ضروري من الإطار القانوني الدولي لتصميم وتنفيذ السياسات المتعلقة بالمخدرات، وإذ تضع الجهود الرامية إلى التصدي لعواقب مشكلة المخدرات العالمية المتعلقة بحقوق الإنسان في الاعتبار،</p>
+      </container>
+      <container name="وإذ تلاحظ مع التقدير" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ مع التقدير</span> إسهامات كيانات الأمم المتحدة والمؤسسات المالية الدولية والمنظمات الإقليمية والدولية ذات الصلة، كل في نطاق ولايته، في أعمال لجنة المخدرات، وجهود الدول الأعضاء المبذولة في مجال التصدي لمشكلة المخدرات العالمية ومواجهتها، بناء على طلبها، لتعزيز التعاون الدولي والتعاون بين الوكالات، وإذ تشجعها على أن تتيح المعلومات ذات الصلة للجنة المخدرات من أجل تيسير عملها وتعزيز الاتساق داخل منظومة الأمم المتحدة على جميع المستويات فيما يتعلق بمشكلة المخدرات العالمية،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى معايير الأمم المتحدة وقواعدها في مجال منع الجريمة والعدالة الجنائية، بما في ذلك قواعد الأمم المتحدة لمعاملة السجينات والتدابير غير الاحتجازية للمجرمات (قواعد بانكوك)<sup>(</sup><authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/65/229">65/229</a>، المرفق.</p></authorialNote><sup>)</sup>، وقواعد الأمم المتحدة الدنيا النموذجية للتدابير غير الاحتجازية (قواعد طوكيو)<sup>(</sup><authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/45/110">45/110</a>، المرفق.</p></authorialNote><sup>)</sup>، وقواعد الأمم المتحدة النموذجية الدنيا لمعاملة السجناء (قواعد نيلسون مانديلا)<sup>(</sup><authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/70/175">70/175</a>، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشير أيضا" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا</span> إلى ضرورة استحداث تدابير بديلة أو إضافية بشأن الإدانة أو العقاب في الحالات ذات الطابع المناسب، وفقا لأحكام الاتفاقيات الدولية الثلاث لمراقبة المخدِّرات، واعتماد تلك التدابير وتنفيذها مع إيلاء الاعتبار الواجب للنظم الدستورية والقانونية والإدارية الوطنية، ومع مراعاة معايير الأمم المتحدة وقواعدها ذات الصلة، حسب الاقتضاء، مثل قواعد طوكيو؛</p>
+      </container>
+      <container name="وإذ تدين" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدين</span> أي ممارسات تمييزية أو عنيفة يرتكبها الموظفون المكلفون بإنفاذ القانون ضد الأشخاص الضعفاء أو المهمشين، بما في ذلك العنصرية النظمية على صعيد نظامي إنفاذ القانون والعدالة الجنائية، وإذ تشدد على أهمية كفالة عدم معاملة هذه الأعمال معاملة تفضي إلى الإفلات من العقاب، وإذ تحيط علما، في هذا الصدد، بطلب مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/42/22">42/22</a> المؤرخ 26 أيلول/سبتمبر 2019<sup>(</sup><authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الرابعة والسبعون، الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/74/53/Add.1">A/74/53/Add.1</a>)، الفصل الثالث.</p></authorialNote><sup>)</sup> بأن يعد الفريق العامل المعني بالاحتجاز التعسفي، ضمن ولايته، دراسة عن الاحتجاز التعسفي في علاقته بسياسات المخدرات، وهي الدراسة التي صدرت في 18 أيار/مايو 2021،</p>
+      </container>
+      <container name="وإذ تدرك" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدرك</span> أهمية إدماج منظور مراعٍ لنوع الجنس والسن على النحو المناسب في صلب السياسات والبرامج المتعلقة بالمخدرات، وأهمية مشاركة النساء والشباب مشاركة كاملة وهادفة وفعالة على قدم المساواة في تصميمها وتنفيذها،</p>
+      </container>
+      <container name="وإذ تدرك أيضا" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدرك أيضا</span> ضرورة تكثيف الجهود الرامية إلى تعزيز الوقاية من تعاطي المخدرات في أوساط الأطفال والشباب، وكذلك في الأوساط التعليمية، بما في ذلك عن طريق تشجيع تبادل الخبرات والممارسات الجيدة وأيضا المساعدة التقنية، وإذ تشير إلى قرار لجنة المخدرات 61/2 المؤرخ 16 آذار/مارس 2018 بشأن تعزيز الجهود الرامية إلى منع تعاطي المخدرات في الأوساط التعليمية<sup>(</sup><authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2018، الملحق رقم 8</span> (<a href="https://undocs.org/ar/E/2018/28">E/2018/28</a>)، الفصل الأول، الفرع باء.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق البالغ" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن القلق البالغ</span> إزاء الثمن الباهظ الذي يتكبَّده المجتمع والأفراد وأُسرهم من جراء مشكلة المخدرات العالمية، وإذ تعرب عن إجلالها الخاص لأولئك الذين ضحوا بأرواحهم في هذا السبيل، بمن فيهم موظفو أجهزة إنفاذ القانون والقضاء، وكذلك لموظفي هيئات الرعاية الصحية ومنظمات المجتمع المدني والمتطوعين فيها الذين يكرسون عملهم لمواجهة هذه الظاهرة ومعالجتها،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_24">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> أن للشعوب الأصلية الحق في الحصول على أدويتها التقليدية وفي الحفاظ على ممارساتها الصحية، بما في ذلك حفظ نباتاتها الطبية وحيواناتها ومعادنها الحيوية، وأن لها أيضا الحق في الحصول دون أي تمييز على جميع الخدمات الاجتماعية والصحية، وفي المشاركة في عمليات صنع القرار، وفقا لإعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية<sup>(</sup><authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/61/295">61/295</a>، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالجهود المتواصلة المبذولة لتعزيز الاتساق داخل منظومة الأمم المتحدة على جميع المستويات، وإذ تجدد التأكيد على ضرورة مواصلة وتوطيد التعاون بين مكتب الأمم المتحدة المعني بالمخدرات والجريمة وكيانات الأمم المتحدة الأخرى، بما في ذلك منظمة الصحة العالمية والهيئة الدولية لمراقبة المخدرات، كل في نطاق ولايته، فيما تبذله هذه الهيئات من جهود من أجل دعم الدول الأعضاء في تنفيذ المعاهدات الدولية لمراقبة المخدرات بما يتوافق مع الالتزامات المنطبقة في مجال حقوق الإنسان، ومن أجل تعزيز حماية واحترام حقوق الإنسان والحريات الأساسية لجميع الأفراد وكرامتهم في سياق البرامج والاستراتيجيات والسياسات المتعلقة بالمخدرات،</p>
+      </container>
+      <container name="وإذ تعرب عن تقديرها" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن تقديرها</span> للنتائج التي حققتها بالفعل المبادرات المتخذة على كل من الصعيد الثنائي والإقليمي والدولي، وإذ تسلّم بإمكانية تحقيق المزيد من النتائج الإيجابية ببذل جهود جماعية مطردة من خلال التعاون الدولي على الحد من الطلب على المخدرات غير المشروعة ومن عرضها، وإذ تسلم أيضا بأن صحة البشرية جمعاء، بما في ذلك صحتها النفسية، وسلامتها ورفاهها لا تزال محفوفة بالتحديات من جراء مشكلة المخدرات العالمية، وإذ تعقد العزم على تدعيم الجهود الوطنية والدولية وزيادة تعزيز التعاون الدولي لمواجهة هذه التحديات،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> الدور البالغ الأهمية الذي تضطلع به الدول الأعضاء في بلورة نهج فعال وشامل للتصدي لمشكلة المخدرات العالمية ومواجهتها،</p>
+      </container>
+      <container name="وإذ تدرك" eId="container_28">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدرك</span> أن هناك تحديات مستمرة وجديدة ومتغيرة ينبغي التصدي لها وفقا لأحكام الاتفاقيات الدولية الثلاث لمراقبة المخدرات، التي تتيح للدول الأطراف ما يكفي من المرونة لتصميم وتنفيذ سياسات وطنية بشأن المخدرات تتوافق مع أولوياتها واحتياجاتها وتتسق مع مبدأ المسؤولية العامة والمشتركة والقانون الدولي المنطبق،</p>
+      </container>
+      <container name="وإذ تدرك أيضا" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدرك أيضا</span> أن مشكلة المخدرات العالمية تظل مسؤولية عامة ومشتركة ينبغي معالجتها ضمن إطار متعدد الأطراف من خلال تعاون دولي فعال ومعزز وتتطلب اتباع نهج متكامل ومتعدد التخصصات ومتعاضد ومتوازن وشامل ومستند إلى أدلة علمية،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_30">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> ضرورة التعاون والتنسيق عن كثب بين السلطات المحلية على جميع المستويات من أجل معالجة الأسباب والعواقب الرئيسية لمشكلة المخدرات العالمية، بما فيها الأسباب والعواقب الرئيسية في ميادين الصحة والتعليم والشؤون الاجتماعية وحقوق الإنسان والاقتصاد والقضاء والأمن العام وإنفاذ القانون، وفقا لمبدأ المسؤولية العامة والمشتركة، وإذ تسلم بقيمة التدخلات السياساتية الشاملة والمتوازنة في مجالات منها تشجيع سبل العيش المستدامة والمجدية؛</p>
+      </container>
+      <container name="وإذ تدرك" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تدرك</span> ضرورة التركيز بصورة مناسبة على الأفراد والأسر والمجتمعات المحلية والمجتمع برمته، في إطار نهج شامل ومتكامل ومتوازن للتصدي لمشكلة المخدرات العالمية ومواجهتها، ابتغاء تعزيز وحماية صحة وسلامة ورفاه البشرية جمعاء،</p>
+      </container>
+      <container name="وإذ تعيد التأكيد" eId="container_32">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعيد التأكيد</span> بنفس القدر على أن تخفيض تعاطي المخدرات يتطلب بذل جهود لخفض الطلب، والبرهنة على ذلك بتنفيذ مبادرات واسعة النطاق على نحو مستدام للحد من الطلب تكون مراعية للسن وللمنظور الجنساني وتندرج ضمن نهج شامل في مجال الصحة العامة يشمل الوقاية، والتثقيف، والكشف والتدخل للمساعدة في المراحل المبكرة، والعلاج، والرعاية وخدمات الدعم المتصلة بها، والمساعدة على التعافي، وإعادة تأهيل متعاطي المخدرات وإعادة إدماجهم في المجتمع، في ظل الامتثال التام للاتفاقيات الدولية الثلاث لمكافحة المخدرات،</p>
+      </container>
+      <container name="وإذ يساورها بالغ القلق" eId="container_33">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساورها بالغ القلق</span> لأن تجار المخدرات يسلحون أنفسهم بكثافة بأسلحة نارية يتم الاتجار بها، ويعرضون الأشخاص وموظفي إنفاذ القانون لمستويات عنف وأضرار كبيرة،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_34">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالتقدم المحرز في تعزيز وتوسيع التعاون القائم بشأن الجوانب المتصلة بالصحة العامة في مشكلة المخدرات العالمية، بما في ذلك التقدم المتصل بتقليل أثر نتائجها الوخيمة على صعيد الصحة العامة وعلى الصعيد الاجتماعي إلى أدنى حد، وإذ تؤكد من جديد الحاجة إلى مراعاة بعدي الصحة العامة والعدالة الجنائية في آن واحد في مشكلة المخدرات العالمية، وفقاً للوثيقة الختامية للدورة الاستثنائية الثلاثين للجمعية العامة، بسبل منها مضاعفة الجهود الرامية إلى دعم الدول الأعضاء، بناء على طلبها، في التصدي لمشكلة المخدرات العالمية ومواجهتها وفقاً لنهج شامل ومتكامل ومتوازن،</p>
+      </container>
+      <container name="وإذ تضع في اعتبارها" eId="container_35">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تضع في اعتبارها</span> أهمية تشجيع الأفراد الذين يعانون من اضطرابات تعاطي المخدرات على الانخراط والمشاركة طوعا في برامج العلاج، بموافقتهم المستنيرة، حيثما كان ذلك متسقا مع التشريعات الوطنية، ووضع وتنفيذ برامج وحملات للتوعية قائمة على الأدلة العلمية، تشرك الأشخاص المتضررين، بمن فيهم الأشخاص الذين هم في حالة التعافي الطويل الأجل، حسب الاقتضاء، من أجل تعزيز أنماط الحياة الصحية والحد من الآثار الصحية والاجتماعية الوخيمة الناجمة عن مشكلة المخدرات العالمية، والحيلولة دون التهميش الاجتماعي، وتعزيز المواقف المناهضة للوصم، وتنفيذ أنشطة توعية فعالة من أجل التواصل مع الأشخاص الذين يتابعون برامج العلاج أو الرعاية أو التعافي المستدام والاستمرار في التواصل معهم، واتخاذ تدابير لتيسير الاستفادة من هذه البرامج وخدمات الدعم المتصلة بها، بما في ذلك علاج الاعتلالات المصاحبة، وتوسيع القدرات،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_36">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بأن التغير التكنولوجي السريع أسهم في معالجة بعض التحديات التي تطرحها جائحة مرض فيروس كورونا (كوفيد-19)، بسبل تشمل توفير سبل الفحص عن بعد فيما يتعلق بخدمات علاج تعاطي المخدرات والتطبيب عن بعد وتوفير الأدوية وتسليمها بمرونة أكبر، وإذ تسلم في الوقت نفسه بالحاجة إلى التصدي للتحديات التي تطرحها التغيرات الطارئة على مسالك الاتجار بالمخدرات وأساليبه، بما في ذلك تزايد الاتجار بها عبر البحر، وبيع المخدرات عبر الإنترنت من خلال كل من شبكة الإنترنت الخفية والشبكة السطحية،</p>
+      </container>
+      <container name="وإذ تسلّم أيضا" eId="container_37">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلّم أيضا</span> بعواقب جائحة كوفيد-19 فيما يتعلق بجميع جوانب مشكلة المخدرات العالمية، بما في ذلك الآثار الاجتماعية، مثل زيادة البطالة وضعف نظم الدعم الاجتماعي والافتقار لسبل الاستفادة من خدمات الدعم من أجل العلاج والتعافي وتفاقم أوجه عدم المساواة، مما أدى إلى نشوء أنماط جديدة من تعاطي المخدرات غير المشروع وزراعة المخدرات وإنتاجها وصنعها والاتجار بها بصورة غير مشروعة، والتي ربما تكون قد أسفرت أيضا عن أساليب جديدة لصنع بعض أنواع المخدرات وتوزيعها وتسويقها والاتجار بها، بما في ذلك تزايد بيع المخدرات من خلال كل من شبكة الإنترنت الخفية والشبكة السطحية،</p>
+      </container>
+      <container name="وإذ تلاحظ بقلق شديد" eId="container_38">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ بقلق شديد</span> ازدياد حذق الجماعات الإجرامية المنظمة العاملة عبر الحدود الوطنية الضالعة في صنع وتوزيع المنشطات اﻷمفيتامينية في جميع أنحاء العالم، وانتشار السلائف الكيميائية المستخدمة في صنع المخدرات والمؤثرات العقلية وتسريبها على نحو غير مشروع، وإذ يساورها بالغ القلق لأن المؤثرات النفسانية الجديدة لا تزال تشكل تحديا، بما في ذلك ازدياد تعاطي بعض المخدرات وانتشار مواد جديدة في جميع أنحاء العالم، وهي مواد تشكل تهديدا محتملا للصحة العامة ولا تخضع لأحكام الاتفاقيات الدولية الثلاث لمراقبة المخدرات،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_39">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> أن التنمية البديلة هي بديل مهم ومشروع ومجد ومستدام للزراعة غير المشروعة لمحاصيل المخدرات، وتدبير فعال لمواجهة مشكلة المخدرات العالمية وسائر التحديات التي تطرحها الجرائم المرتبطة بالمخدرات، وإذ تؤكد من جديد أيضا التزامها بمعالجة المسائل الاجتماعية الاقتصادية المتصلة بالمخدرات والمتعلقة بزراعة المخدرات وصنعها وإنتاجها والاتجار بها بصورة غير مشروعة من خلال تنفيذ سياسات وبرامج طويلة الأمد وشاملة ومستدامة وإنمائية التوجه ومتوازنة لمراقبة المخدرات، تشمل برامج التنمية البديلة، وعند الاقتضاء، برامج التنمية البديلة الوقائية المندرجة ضمن إطار استراتيجيات مستدامة لمراقبة المحاصيل،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد أيضا" eId="container_40">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد أيضا</span> ضرورة تعبئة موارد كافية من أجل التصدي لمشكلة المخدرات العالمية ومواجهتها، وإذ تدعو إلى تعزيز تقديم المساعدة إلى البلدان النامية، بناء على طلبها، من أجل التنفيذ الفعال للإعلان السياسي وخطة العمل بشأن التعاون الدولي صوب استراتيجية متكاملة ومتوازنة لمواجهة مشكلة المخدرات العالمية والتوصيات العملية الواردة في الوثيقة الختامية لدورة الجمعية العامة الاستثنائية الثلاثين،</p>
+      </container>
+      <container name="وإذ تعرب عن القلق" eId="container_41">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعرب عن القلق</span> من أن جوانب مشكلة المخدرات العالمية المرتبطة بالإنتاج غير المشروع للمخدرات والزراعة غير المشروعة لمحاصيل المخدرات يمكن أن تلحق ضررا جسيما بالبيئة، يشمل الأمن الغذائي، وإزالة الغابات، وتحات التربة وتدهورها، وفقد الأنواع المتوطنة، وتلوث التربة والمياه الجوفية والممرات المائية، وانبعاث غازات الدفيئة،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_42">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى التزام الدول الأعضاء في الإعلان الوزاري لعام 2019 بأن تستعرض في عام 2029 في لجنة المخدرات التقدم المحرز في تنفيذ جميع الالتزامات الدولية المتعلقة بسياسات المخدرات، مع إجراء استعراض لمنتصف المدة في اللجنة في عام 2024،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <content eId="para_43__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">تكرر تأكيد التزامها</span> بتعزيز صحة ورفاه وازدهار جميع الأفراد والأُسر والمجتمعات المحلية والمجتمع برمته، وبتيسير اتباع أساليب حياة صحية من خلال مبادرات فعالة وشاملة ومستندة إلى أدلة علمية لخفض الطلب على المخدِّرات تُتَّخذ على جميع المستويات وتشمل، وفقاً للتشريعات الوطنية والاتفاقيات الدولية الثلاث لمراقبة المخدِّرات، تدابير للوقاية والتدخل المبكِّر والعلاج والرعاية والمعافاة وإعادة التأهيل وإعادة الإدماج في المجتمع، وكذلك مبادرات وتدابير ترمي إلى تقليل ما يترتب على تعاطي المخدِّرات من إضرار بالصحة العامة ومن عواقب اجتماعية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">تؤكد من جديد التزامها</span> باحترام وحماية وتعزيز جميع حقوق الإنسان والحريات الأساسية والكرامة المتأصلة للأفراد كافة وسيادة القانون لدى وضع وتنفيذ سياسات المخدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <content eId="para_45__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">تؤكد من جديد</span> تصميم الدول الأعضاء على التصدي لمشكلة المخدرات العالمية، وتسلم أيضا في الوقت نفسه بضرورة معالجة الأسباب والعواقب الرئيسية لمشكلة المخدرات العالمية، بما فيها الأسباب والعواقب الرئيسية في ميادين الصحة والشؤون الاجتماعية وحقوق الإنسان والاقتصاد والقضاء والأمن العام وإنفاذ القانون، وفقا لمبدأ المسؤولية العامة والمشتركة، وتؤكد من جديد كذلك تصميم الدول الأعضاء على التصدي لمشاكل الصحة العامة والسلامة والمشاكل الاجتماعية الناجمة عن تعاطي المخدرات، وتسلم بقيمة التدخلات السياساتية الشاملة والمتوازنة في مجالات منها تشجيع سبل العيش المستدامة والمجدية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <content eId="para_46__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">تهيب</span> بالدول الأعضاء إلى تعزيز التعاون الثنائي والإقليمي والدولي مع الدول الأشدّ تأثرا بزراعة المحاصيل غير المشروعة وإنتاج المخدرات والمؤثرات العقلية، بما فيها المخدرات الاصطناعية، وصنعها ونقلها والاتجار بها وتوزيعها وتعاطيها بصورة غير مشروعة وزيادة المساعدة التقنية المقدَّمة إليها في مجال صوغ وتنفيذ سياسات شاملة ومتكاملة، بوسائل منها تبادل المعلومات الاستخباراتية والتعاون عبر الحدود، وتدعيم البرامج الوطنية الهادفة إلى التثقيف والوقاية والتدخل المبكر والعلاج والرعاية وإعادة التأهيل وإعادة الإدماج في المجتمع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <content eId="para_47__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">ترحب</span> بالجهود المتواصلة التي تضطلع بها المنظمات الإقليمية ودون الإقليمية والمبادرات العابرة للحدود الإقليمية من أجل تعزيز التعاون على التصدي لمشكلة المخدرات العالمية ومواجهتها والسعي لتحقيق الفعالية والشمول في الاستراتيجيات والسياسات التي تضعها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <content eId="para_48__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">تهيب</span> بالدول الأعضاء إلى أن تتعاون على نحو فعال وتتخذ إجراءات عملية، بما في ذلك التعاون بين بلدان الشمال والجنوب وفيما بين بلدان الجنوب والتعاون الثلاثي، بالتعاون مع أوساط التنمية الدولية وسائر الجهات الرئيسية ذات المصلحة، من أجل التصدي لمشكلة المخدرات العالمية ومواجهتها وفق مبدأ المسؤولية العامة المشتركة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <content eId="para_49__content">
+          <p xml:space="preserve">	7 –	<span class="bold italic">تهيب أيضا</span> بالدول الأعضاء إلى توطيد التعاون الإقليمي ودون الإقليمي والدولي في المسائل الجنائية، حسب الاقتضاء، بما فيه التعاون القضائي في جملة مجالات منها تسليم المطلوبين وتبادل المساعدة القانونية ونقل الإجراءات، بما يتوافق مع أحكام الاتفاقيات الدولية الثلاث لمراقبة المخدرات وسائر الصكوك القانونية الدولية والتشريعات الوطنية، والسعي الجاهد إلى توفير موارد مناسبة للسلطات الوطنية المختصة، بوسائل منها تقديم مساعدة تقنية محددة الهدف إلى البلدان التي تطلبها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <content eId="para_50__content">
+          <p xml:space="preserve">	8 -	<span class="bold italic">تشجع</span> الدول الأعضاء على الترويج للوقاية من الاضطرابات الناشئة عن تعاطي المخدرات ولعلاجها، باستخدام الممارسات العلمية القائمة على الأدلة، وتحيط علما بالطبعة المستوفاة الثانية من منشوري المعايير الدولية للوقاية من تعاطي المخدرات والمعايير الدولية للعلاج من الاضطرابات المرتبطة بتعاطي المخدرات اللذين وضعهما مكتب الأمم المتحدة المعني بالمخدرات والجريمة بالتعاون مع منظمة الصحة العالمية، وهي المعايير التي تجسد احترام حقوق الإنسان والكرامة الإنسانية، بما في ذلك الحق في التمتع بأعلى ما يمكن بلوغه من معايير الصحة البدنية والعقلية والرفاه، بما في ذلك خدمات الصحة العقلية والدعم النفسي الاجتماعي، مع الترويج للمواقف المناهضة للوصم في وضع وتنفيذ السياسات العلمية القائمة على الأدلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <content eId="para_51__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">تسلم</span> بأن الارتهان للمخدرات اضطراب صحي معقد متعدد العوامل، يتسم بطابع مزمن وانتكاسي وله أسباب وعواقب اجتماعية، ويمكن الوقاية منه وعلاجه بوسائل منها العلاج الفعال من المخدِّرات المستند إلى أدلة علمية، وبرامج الرعاية وإعادة التأهيل، بما في ذلك البرامج المنفذة في إطار المجتمعات المحلية، وتسلم أيضا بالحاجة إلى تدعيم القدرات في مجال تقديم الرعاية اللاحقة للأفراد المصابين باضطرابات ناشئة عن تعاطي مواد الإدمان وإعادة تأهيلهم ومعافاتهم وإعادة إدماجهم في المجتمع، بما في ذلك خدمات الصحة العقلية والدعم النفسي الاجتماعي، بوسائل تشمل، حسب الاقتضاء، المساعدة على إعادة الاندماج فعليا في سوق العمل وخدمات دعم أخرى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <content eId="para_52__content">
+          <p xml:space="preserve">	10 -	<span class="bold italic">تشجع</span> الدول الأعضاء على وضع آليات ضمان الجودة للوقاية من تعاطي المخدرات وعلاجه، بما يشمل الاعتلالات المصاحبة، والتعافي المستدام منه وما يتصل بذلك من خدمات الدعم التي تحد من الآثار الصحية والاجتماعية الوخيمة لتعاطي المخدرات بغية ضمان التحسن المستمر من خلال جملة أمور منها الإشراف الفعال من جانب السلطات المحلية المختصة على مرافق العلاج من تعاطي المخدرات وإعادة التأهيل، لأغراض منها منع أي أعمال يمكن أن تنطوي على معاملة أو عقوبة قاسية أو لاإنسانية أو مهينة، وفقا للتشريع الوطني والقانون الدولي المنطبق؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <content eId="para_53__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">تشجع أيضا</span> الدول الأعضاء على الترويج لتضمين السياسات الوطنية المتعلقة بالمخدِّرات، بما يتوافق مع التشريعات الوطنية وحسب الاقتضاء، عناصرَ تتعلق بالوقاية والعلاج من تناول جرعات زائدة من المخدِّرات، وخصوصاً الجرعات الزائدة من شبائه الأفيون، بما في ذلك تناول مواد مناهضة لتأثير مستقبِلات شبائه الأفيون، مثل النالوكسون، من أجل الحد من الوفيات المرتبطة بالمخدِّرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <content eId="para_54__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">تحث</span> الدول الأعضاء على زيادة توافر التدابير والأدوات الوقائية التي تستند إلى أدلة علمية، لا سيما برامج المهارات الحياتية التي برهنت على فعاليتها، وتستهدف الفئات العمرية ذات الصلة والفئات المعرضة للخطر في بيئات متعددة، بما فيها المؤسسات التعليمية في القطاعين العام والخاص معا، وتحسين نوعية تلك التدابير والأدوات وتوسيع نطاقها لتصل إلى فئات شتى، منها الشباب داخل المدارس وخارجها، بسبل منها تزويد الأطفال والشباب بمعلومات عن تعاطي المخدرات وآثاره الضارة وعواقبه وتوفير برامج الوقاية من تعاطي المخدِّرات وتنظيم حملات للتوعية العامة، تشمل استخدام الإنترنت ووسائل التواصل الاجتماعي وسائر منصات الاتصال الحاسوبي المباشر، ووضع وتنفيذ مناهج وقائية وبرامج للتدخل المبكر لاستخدامها في النظام التعليمي بجميع مستوياته، وكذلك في التدريب المهني، بما في ذلك في أماكن العمل، وتعزيز قدرة المعلمين وسائر الاختصاصيين المعنيين وقدرة الوالدين وأولياء الأمور على تقديم خدمات المشورة والوقاية والرعاية الصحية وتوفير الفرص لاختيار أنماط عيش صحية أو التوصية بها، وتشجيع البيئات الآمنة والخالية من المخدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <content eId="para_55__content">
+          <p xml:space="preserve">	13 -	<span class="bold italic">تدعو</span> الدول الأعضاء إلى النظر في تعزيز التعاون بين السلطات المعنية بالصحة العامة والتعليم وإنفاذ القانون لدى صوغ وتنفيذ مبادرات الوقاية من التعاطي للمخدرات القائمة على الأدلة؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="MercuryDocument">
+        <content eId="para_56__content">
+          <p xml:space="preserve">	14 -	<span class="bold italic">تسلّم </span>بأوجه التقدم الهامة المحرزة في علم الوقاية، بجعل الوقاية أحد المكونات الرئيسية لمبادرات خفض الطلب الشاملة والقائمة على الأدلة العلمية للتصدي للاستعمال غير الطبي للعقاقير الخاضعة للمراقبة، وتسلم أيضا بأن الاستراتيجيات والتدابير الفعالة للوقاية المبكرة التي تركز على معالجة جملة جوانب تشمل التجارب السلبية في مرحلة الطفولة، والعوامل الفردية والبيئية، بما في ذلك العوامل الاجتماعية وعوامل الخطر والحماية، تسهم إسهاما كبيرا في المشاركة الإيجابية للأطفال والشباب والبالغين مع أسرهم وفي الأوساط التعليمية وأماكن العمل والمجتمعات المحلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="MercuryDocument">
+        <content eId="para_57__content">
+          <p xml:space="preserve">	15 -	<span class="bold italic">تكرر تأكيد</span> التزام الدول الأعضاء القوي بتحسين فرص الحصول على المواد الخاضعة للمراقبة لتلبية الأغراض الطبية والعلمية من خلال التصدي على النحو المناسب للحواجز القائمة في هذا الصدد، مع العمل في الوقت نفسه على منع تسريب تلك المواد وتعاطيها والاتجار بها، وبالقيام، حسب الاقتضاء، بتعزيز الأداء السليم للنظم الوطنية لمراقبة المخدرات وآليات وبرامج التقييم المحلية، بغية تعزيز صحة البشرية ورفاهها بالتعاون مع الهيئة الدولية لمراقبة المخدرات ومكتب الأمم المتحدة المعني بالمخدرات والجريمة ومنظمة الصحة العالمية وسائر وكالات منظومة الأمم المتحدة ذات الصلة، من أجل استبانة وتحليل وإزالة العقبات التي تحول دون توافر المواد الخاضعة للمراقبة وإمكانية الحصول عليها للأغراض الطبية والعلمية، في إطار آليات المراقبة المناسبة، حسبما تقتضيه الاتفاقيات الدولية الثلاث لمراقبة المخدرات، والنظر، لهذا الغرض، في تقديم المساعدة التقنية والمالية إلى البلدان النامية بناء على طلبها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="MercuryDocument">
+        <content eId="para_58__content">
+          <p xml:space="preserve">	16 -	<span class="bold italic">تحث</span> الدول الأعضاء على الحد من العواقب الصحية والاجتماعية الوخيمة الناجمة عن مشكلة المخدرات العالمية من خلال اتباع نهج شامل، بسبل منها استخدام أدوات المساعدة التقنية الخاصة بمكتب الأمم المتحدة المعني بالمخدرات والجريمة، وضمان توافر العلاج القائم على الأدلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <content eId="para_59__content">
+          <p xml:space="preserve">	17 -	<span class="bold italic">تحث</span> الدول الأعضاء وسائر الجهات المانحة على أن تواصل توفير تمويل ثنائي وأشكال أخرى من التمويل لتدابير التصدي لمشكلة المخدرات على الصعيد العالمي، بما يشمل على وجه الخصوص التصدي لفيروس نقص المناعة البشرية/الإيدز، بما في ذلك التمويل المقدم لبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز، وعلى أن تسعى جاهدة إلى ضمان إسهام ذلك التمويل في التصدي لتزايد انتشار وباء فيروس نقص المناعة البشرية/الإيدز في أوساط متعاطي المخدِّرات بالحقن، وفيروس نقص المناعة البشرية/الإيدز في بيئات السجون، مستلهمة روح الالتزام المتعهد به في خطة التنمية المستدامة لعام 2030 بعدم ترك أحد خلف الركب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <content eId="para_60__content">
+          <p xml:space="preserve">	18 -	<span class="bold italic">تشجع</span> الدول الأعضاء على أن تنظر في اتخاذ تدابير بديلة غير احتجازية فيما يتعلق بالأشخاص المتهمين بارتكاب جرائم بسيطة وغير عنيفة ذات صلة بالمخدرات، وأن تعمل، بما يتسق مع الاتفاقيات الدولية الثلاث لمراقبة المخدرات وللقانون المحلي ووفقا للنظم الدستورية والقانونية والإدارية الوطنية، على النهوض بتدابير بديلة أو إضافية فيما يتعلق بالإدانة أو العقوبة في الحالات ذات الطابع المناسب، وأن تضمن اتساق جهود إنفاذ القانون في مجال مراقبة المخدرات مع التزامات الدول المتعلقة بحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <content eId="para_61__content">
+          <p xml:space="preserve">	19 -	<span class="bold italic">تهيب</span> بالدول الأعضاء إلى تعزيز وتنفيذ تدابير فعالة على صعيد العدالة الجنائية للتصدي للجرائم المتصلة بالمخدرات من أجل تقديم الجناة إلى العدالة تكفل الضمانات القانونية وضمانات مراعاة الأصول القانونية فيما يتعلق بالإجراءات القضائية الجنائية، بما في ذلك التدابير العملية لدعم حظر الاعتقال والاحتجاز التعسفيين والتعذيب وغيره من ضروب المعاملة أو العقوبة القاسية أو اللاإنسانية أو المهينة والقضاء على الإفلات من العقاب، وفقا لأحكام القانون الدولي المنطبقة ذات الصلة وفي ظل مراعاة معايير الأمم المتحدة وقواعدها المتعلقة بمنع الجريمة والعدالة الجنائية، وضمان الحصول في الوقت المناسب على المساعدة القانونية والحق في المحاكمة العادلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <content eId="para_62__content">
+          <p xml:space="preserve">	20 -	<span class="bold italic">تشجع</span> الدول الأعضاء على الترويج لسياسات وممارسات ومبادئ توجيهية وطنية بشأن العقوبات، قائمة على تناسب العقوبة في حالة الجرائم المتصلة بالمخدِّرات، تكون فيها شدة العقوبة متناسبة مع جسامة الجرم وتراعى فيها العوامل المخفِّفة للعقوبة والعوامل المشدِّدة لها، بما فيها الظروف المبيَّنة في المادة 3 من اتفاقية الأمم المتحدة لمكافحة الاتجار غير المشروع في المخدرات والمؤثرات العقلية لعام 1988 وسائر أحكام القانون الدولي المنطبقة ذات الصلة، بما يتوافق مع التشريعات الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="MercuryDocument">
+        <content eId="para_63__content">
+          <p xml:space="preserve">	21 -	<span class="bold italic">تحث </span>الدول الأعضاء على اتخاذ مزيد من الخطوات لمنع استعمال المخدرات الاصطناعية وتسريبها لأغراض غير طبية، بسبل منها اتخاذ تدابير ومبادرات تتصدى لمسألة توفير التدريب لأخصائيي الرعاية الصحية ذوي الصلة، والقيام، حسب الاقتضاء، بتثقيف الجمهور وإذكاء وعيه والتواصل مع القطاع الخاص بشأن جملة أمور منها المسائل المتصلة بالتسويق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <content eId="para_64__content">
+          <p xml:space="preserve">	22 -	<span class="bold italic">تكرر تأكيد التزامها</span> بصون سلامة الأفراد والمجتمعات المحلية والمجتمعات ككل وضمان أمنها من خلال تكثيف الجهود الرامية إلى منع ومكافحة زراعة المخدِّرات والمؤثرات العقلية وإنتاجها وصنعها والاتجار بها بصورة غير مشروعة، وكذلك منع ومكافحة الجرائم وأعمال العنف المرتبطة بالمخدِّرات، بوسائل منها تعزيز فعالية تدابير منع الجريمة وإنفاذ القانون الخاصة بالمخدِّرات، وكذلك من خلال التصدي لصلات جرائم المخدِّرات بأشكال الجريمة المنظمة الأخرى، بما فيها الاتجار بالأسلحة النارية وغسل الأموال والفساد وسائر الأنشطة الإجرامية، مع وضع أسبابها وعواقبها الاجتماعية والاقتصادية في الاعتبار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="MercuryDocument">
+        <content eId="para_65__content">
+          <p xml:space="preserve">	23 -	<span class="bold italic">تهيب </span>بالدول الأعضاء إلى أن تعزز القدرات الوطنية والإقليمية ودون الإقليمية والأقاليمية والدولية، وأن تستخدم ما هو قائم وذو صلة من الشبكات الإقليمية، وحسب الاقتضاء، من الشبكات دون الإقليمية والدولية، من أجل تبادل المعلومات التنفيذية للتصدي للتحديات الجسيمة التي تطرحها الصلات المتزايدة بين الاتجار بالمخدرات والفساد وسائر أشكال الجريمة المنظمة، بما فيها الاتجار بالأشخاص وبالأسلحة النارية والجريمة السيبرانية وغسل الأموال، وفي بعض الحالات، جرائم الإرهاب التي تشمل غسل الأموال المرتبط بتمويل الإرهاب، وذلك باتباع نهج متكامل متعدد التخصصات من خلال وسائل من بينها على سبيل المثال تشجيع ودعم جمع البيانات الموثوقة وإجراء البحوث، وحسب الاقتضاء، إتاحة المعلومات الاستخبارية والتحليلات، ضمانا للفعالية في تقرير السياسات وإجراء التدخلات، باستعمال جملة أدوات منها أدوات المساعدة التقنية الخاصة بمكتب الأمم المتحدة المعني بالمخدرات والجريمة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="MercuryDocument">
+        <content eId="para_66__content">
+          <p xml:space="preserve">	24 -	<span class="bold italic">تهيب أيضا</span> بالدول الأعضاء إلى أن تعتمد وتعزز استراتيجيات منسقة لإدارة الحدود، عند الحاجة، من أجل منع ورصد ومواجهة إنتاج المخدرات والمؤثرات العقلية وصنعها والاتجار بها بصورة غير مشروعة، بما في ذلك عندما ترتبط هذه الأعمال بأشكال أخرى من الجريمة المنظمة عبر الوطنية، مثل الاتجار بالأسلحة النارية، والتدفقات المالية غير المشروعة، وتهريب السلع والنقود بكميات كبيرة، وغسل الأموال، وتهيب أيضا بالدول الأعضاء إلى أن تقدم المساعدة التقنية، بناء على الطلب، ومن ذلك عند الاقتضاء، توفير المعدات والتكنولوجيا، إلى جانب ما يلزم من التدريب والدعم لغرض الصيانة، لزيادة قدرات الوكالات المعنية بالحدود وإنفاذ القانون، ولا سيما للبلدان النامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="MercuryDocument">
+        <content eId="para_67__content">
+          <p xml:space="preserve">	25 -	<span class="bold italic">تسلم</span> بأنَّ دول العبور لا تزال تواجه تحديات متعدِّدة الجوانب، وتؤكد من جديد استمرار الحاجة إلى التعاون والدعم، بوسائل منها تقديم المساعدة التقنية لأغراض منها تعزيز قدرات تلك الدول على التصدي لمشكلة المخدِّرات العالمية ومواجهتها بصورة فعالة، بما يتوافق مع أحكام اتفاقية عام 1988؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <content eId="para_68__content">
+          <p xml:space="preserve">	26 -	<span class="bold italic">تكرر تأكيد التزامها</span> بتدعيم المساعدة التقنية المتخصِّصة والهادفة والفعالة والمستدامة بحيث تشمل، عند الاقتضاء، تقديم مساعدة مالية كافية وتوفير خدمات التدريب وبناء القدرات والمعدات والدراية التكنولوجية للبلدان التي تطلبها، بما فيها بلدان العبور، من خلال مكتب الأمم المتحدة المعني بالمخدِّرات والجريمة وبالتعاون معه، وكذلك مع منظمة الصحة العالمية وسائر كيانات الأمم المتحدة والمنظمات الدولية والإقليمية ذات الصلة، ضمن إطار الولايات المسندة إليها، لكي يتسنى مساعدة الدول الأعضاء على التصدي بفعالية لمشكلة المخدِّرات العالمية من جوانبها المتعلقة بالصحة والشؤون الاجتماعية والاقتصادية وحقوق الإنسان والعدالة وإنفاذ القانون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <content eId="para_69__content">
+          <p xml:space="preserve">	27 -	<span class="bold italic">تهيب</span> بالدول الأعضاء إلى تعزيز الإجراءات الوطنية والدولية الرامية إلى مواجهة التحدي المستجد الذي تطرحه المؤثرات النفسانية الجديدة، بما في ذلك عواقبها الصحية السلبية، والخطر المتزايد المتمثل في المنشطات الأمفيتامينية، بما فيها الميثامفيتامين، وتشدد على أهمية تعزيز تبادل المعلومات وشبكات الإنذار المبكر واستحداث نماذج تشريعية ووقائية وعلاجية وطنية مناسبة ودعم استعراض وجدولة أكثر المواد انتشاراً وصموداً وضرراً بالاستناد إلى أدلة علمية، وتلاحظ أهمية منع تسريب وإساءة استعمال المستحضرات الصيدلانية المحتوية على مخدِّرات ومؤثرات عقلية وسلائف، مع ضمان توافرها للأغراض المشروعة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <content eId="para_70__content">
+          <p xml:space="preserve">	28 -	<span class="bold italic">تشجع</span> الدول الأعضاء على ضمان أن تكون التدابير المتخذة لمنع الزراعة غير المشروعة للنباتات المحتوية على المخدِّرات والمؤثرات العقلية ولإبادة تلك النباتات مراعية لحقوق الإنسان الأساسية وتأخذ في الاعتبار على النحو الواجب استخداماتها المشروعة التقليدية حيثما كانت هناك شواهد تاريخية على ذلك الاستخدام، وحماية البيئة، وفقا لأحكام الاتفاقيات الدولية الثلاث لمراقبة المخدِّرات، وتراعي أيضاً، حسب الاقتضاء وبما يتوافق مع القانون المحلي، أحكام إعلان الأمم المتحدة بشأن حقوق الشعوب الأصلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <content eId="para_71__content">
+          <p xml:space="preserve">	29 -	<span class="bold italic">تشجع أيضا</span> الدول الأعضاء على تحسين تقييم أثر استراتيجيات خفض الطلب والعرض، بما في ذلك أثر برامج التنمية البديلة وبرامج التنمية البديلة الوقائية، حسب الاقتضاء، بغية زيادة فعالية تلك البرامج، بوسائل منها استخدام مؤشرات التنمية البشرية ذات الصلة والمعايير المتعلقة بالاستدامة البيئية وغيرها من المقاييس بما يتماشى مع أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="MercuryDocument">
+        <content eId="para_72__content">
+          <p xml:space="preserve">	30 –	<span class="bold italic">تشجع كذلك</span> الدول الأعضاء على أن تدرس وتعالج، في إطار جهود التنمية البديلة، الأثر الضار على البيئة للزراعة غير المشروعة للمحاصيل المستخدمة في إنتاج المخدرات، التي تؤدي إلى إزالة الغابات وتلوث التربة والمياه بشكل غير قانوني وتخلف آثارا سلبية على سلامة الأغذية، وعلى أن تغتنم الفرص التي تتيحها التنمية البديلة فيما يتعلق بحفظ البيئة واستخدامها المستدام وحماية التنوع البيولوجي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="MercuryDocument">
+        <content eId="para_73__content">
+          <p xml:space="preserve">	31 -	<span class="bold italic">تسلم</span> بأن الضرورة تقتضي تعزيز استراتيجيات مستدامة لمراقبة المحاصيل، يمكن أن تشمل في جملة أمور تدابير التنمية البديلة وإبادة المحاصيل وإنفاذ القانون، وتشجع في هذا الصدد الدول الأعضاء على النظر في بلورة تدخلات إنمائية التوجه تستهدف التصدي للزراعة غير المشروعة لمحاصيل المخدرات ولغيرها من الأنشطة المتصلة بالمخدرات غير المشروعة، مع ضمان انتفاع الرجل والمرأة بها على قدم المساواة، بسبل منها توفير فرص العمل وتحسين البنى التحتية والخدمات العامة الأساسية، وحسب الاقتضاء، تمكين المزارعين والمجتمعات المحلية من الحصول على الأراضي وامتلاكها قانونيا؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="MercuryDocument">
+        <content eId="para_74__content">
+          <p xml:space="preserve">	32 -	<span class="bold italic">تكرر تأكيد التزامها</span> بتوطيد التعاون دون الإقليمي والإقليمي والدولي، وفقا لمبدأ المسؤولية العامة والمشتركة، من أجل دعم برامج التنمية البديلة الشاملة والمستدامة، بما فيها التنمية البديلة الوقائية عند الاقتضاء، في تعاون وثيق مع جميع أصحاب المصلحة ذوي الصلة على كل من المستوى المحلي والوطني والدولي، وبتطوير الممارسات الفضلى وتبادلها بغية تنفيذ مبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة<sup>(</sup><authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/68/196">68/196</a>، المرفق.</p></authorialNote><sup>)</sup>، مع مراعاة جميع الدروس المستفادة والممارسات الفضلى التي استخلصتها بصفة خاصة البلدان ذات التجربة الوافرة في مجال التنمية البديلة، وتشير في هذا الصدد إلى قرارها <a href="https://undocs.org/ar/A/RES/72/197">72/197</a> المؤرخ 19 كانون الأول/ديسمبر 2017 وإلى قرار لجنة المخدرات 65/1 المؤرخ 18 آذار/مارس 2022<sup>(</sup><authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2022، الملحق رقم 8</span> (<a href="https://undocs.org/ar/E/2022/28">E/2022/28</a>)، الفصل الأول، الفرع باء.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <content eId="para_75__content">
+          <p xml:space="preserve">	33 -	<span class="bold italic">تحث</span> المؤسسات المالية الدولية ذات الصلة وكيانات الأمم المتحدة والمنظمات غير الحكومية والقطاع الخاص، حسب الاقتضاء، على النظر في زيادة ما تقدِّمه من دعم، بطرائق منها التمويل الطويل الأمد والمرن، لتنفيذ برامج شاملة ومتوازنة وذات توجه إنمائي في مجال مراقبة المخدرات وإيجاد بدائل اقتصادية مجدية للارتقاء بالنمو الاقتصادي الشامل وتوفير الدعم للمبادرات التي تسهم في القضاء على الفقر، وفي جملتها برامج التنمية البديلة، بما فيها برامج التنمية البديلة الوقائية حسب الاقتضاء، بالاستناد إلى الاحتياجات والأولويات الوطنية المحدَّدة لصالح المناطق والفئات السكانية المتأثرة بالزراعة غير المشروعة لمحاصيل المخدِّرات أو المعرَّضة لخطرها، وتشجع الدول الأعضاء على وضع تدابير لتحقيق التنمية الريفية، وتحسين البنى التحتية وتمتيع الجميع بالخدمات والحماية الاجتماعية، والتصدي لما يترتب على زراعة المحاصيل غير المشروعة وصنع المخدِّرات والمؤثرات العقلية وإنتاجها بصورة غير مشروعة من عواقب ضارة بالبيئة، مع إشراك المجتمعات المحلية في ذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="MercuryDocument">
+        <content eId="para_76__content">
+          <p xml:space="preserve">	34 -	<span class="bold italic">تهيب</span> بالدول الأعضاء إلى أن تكفل مشاركة المجتمعات المحلية، بما فيها المزارعون والنساء والأقليات والشعوب الأصلية، في تصميم وتنفيذ برامج التنمية البديلة، وأن تؤمن سبل العيش البديلة، علما أنه يفضل تأمين هذه السبل قبل قطع سبل العيش القائمة المستمدة من زراعة المحاصيل غير المشروعة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <content eId="para_77__content">
+          <p xml:space="preserve">	35 –	<span class="bold italic">تهيب أيضا</span> بالدول الأعضاء إلى إدماج المنظور الجنساني في جميع مراحل وضع وتنفيذ ورصد وتقييم السياسات والبرامج المتعلقة بالمخدرات، وضمان المشاركة الكاملة والمتساوية والمجدية والفعالة للمرأة في كل ذلك، بما في ذلك خدمات الوقاية من تعاطي المخدرات وعلاجه والتعافي المستدام منه وإعادة الإدماج وما يتصل بذلك من دعم، واستحداث وتعميم تدابير مراعية للاعتبارات الجنسانية وملائمة للسن تأخذ بعين الاعتبار ما للنساء والفتيات من احتياجات خاصة وما يواجهنه من ظروف خاصة فيما يتعلق بمشكلة المخدِّرات العالمية، والقيام، كدول أطراف في اتفاقية القضاء على جميع أشكال التمييز ضد المرأة<sup>(</sup><authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1249, No. 20378.</p></authorialNote><sup>)</sup>، بتنفيذ أحكام تلك الاتفاقية، مع مراعاة أهمية التدخلات المحددة الهدف القائمة على جمع البيانات وتحليلها، بما في ذلك البيانات المتعلقة بالسن ونوع الجنس، في تلبية الاحتياجات الخاصة بالمجموعات السكانية والمجتمعات المحلية المتأثرة بالمخدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <content eId="para_78__content">
+          <p xml:space="preserve">	36 -	<span class="bold italic">تطلب</span> إلى مكتب الأمم المتحدة المعني بالمخدرات والجريمة أن يواصل تقديم الدعم إلى الدول الأعضاء، بناء على طلبها، في مجال إدماج المنظور الجنساني في سياساتها وبرامجها المتعلقة بمشكلة المخدرات العالمية، وتدعو هيئة الأمم المتحدة للمساواة بين الجنسين وتمكين المرأة (هيئة الأمم المتحدة للمرأة) وسائر هيئات الأمم المتحدة ذات الصلة، كل منها في إطار ولايتها، إلى التعاون مع المكتب في هذا الشأن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <content eId="para_79__content">
+          <p xml:space="preserve">	37 -	<span class="bold italic">تشجع</span> على مراعاة الاحتياجات الخاصة للسجينات من مرتكبات جرائم المخدِّرات وما يمكن أن يكون لديهنَّ من أوجه ضعف متعدِّدة، بما يتوافق مع قواعد الأمم المتحدة لمعاملة السجينات والتدابير غير الاحتجازية للمجرمات (قواعد بانكوك)؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <content eId="para_80__content">
+          <p xml:space="preserve">	38 -	<span class="bold italic">تهيب </span>بالدول الأعضاء إلى أن تكيف السياسات التي تتبعها فيما يتعلق بالمخدرات وأن تنظر، عند وضع سياسات شاملة للتصدي لمشكلة المخدرات العالمية ومواجهتها، في التدابير والبرامج والإجراءات التي تستجيب للاحتياجات المحددة لأفراد المجتمع الذين يعانون من حالات الضعف؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <content eId="para_81__content">
+          <p xml:space="preserve">	39 -	<span class="bold italic">تشير</span> إلى الإعلان السياسي بشأن فيروس نقص المناعة البشرية والإيدز: إنهاء أوجه عدم المساواة وسلك المسار الصحيح للقضاء على الإيدز بحلول عام 2030، الذي اعتمدته الجمعية العامة في 8 حزيران/يونيه 2021<sup>(</sup><authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/75/284">75/284</a>، المرفق.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="MercuryDocument">
+        <content eId="para_82__content">
+          <p xml:space="preserve">	40 -	<span class="bold italic">تدعو </span>السلطات الوطنية ذات الصلة إلى النظر، بما يتوافق مع قانونها المحلي والاتفاقيات الدولية الثلاث لمراقبة المخدِّرات، بما في ذلك في إطار التدابير والبرامج الوطنية التي تستهدف الوقاية والعلاج والرعاية والمعافاة وإعادة التأهيل وإعادة الإدماج المجتمعي والاجتماعي، وفي سياق الجهود الشاملة والمتوازنة المبذولة من أجل خفض الطلب على المخدِّرات، في اتخاذ تدابير فعالة قائمة على الأدلة ترمي إلى التقليل مما يترتب على تعاطي المخدِّرات من إضرار بالصحة ومن عواقب اجتماعية سلبية، وتشمل برامج العلاج المناسبة باستخدام الأدوية، وبرامج توفير معدات الحقن، وكذلك العلاج المضاد للفيروسات العكوسة وتدخلات أخرى ذات صلة للوقاية من العدوى بفيروس نقص المناعة البشرية وبالتهاب الكبد الفيروسي وغيرهما من الأمراض المنقولة بواسطة الدم والمرتبطة بتعاطي المخدِّرات، والنظر في كفالة الوصول إلى تلك التدخلات، بما في ذلك في إطار خدمات العلاج والتوعية وفي السجون وسائر بيئات الاحتجاز، والترويج في هذا الصدد، حسب الاقتضاء، لاستخدام الدليل الفني الموجه إلى البلدان لتحديد أهداف لوقاية جميع متعاطي المخدرات بالحقن من فيروس نقص المناعة البشرية وتوفير العلاج والرعاية لهم، الصادر عن منظمة الصحة العالمية ومكتب الأمم المتحدة المعني بالمخدرات والجريمة وبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/متلازمة نقص المناعة المكتسب (الإيدز)؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="MercuryDocument">
+        <content eId="para_83__content">
+          <p xml:space="preserve">	41 -	<span class="bold italic">تشجع</span> الدول الأعضاء على تحديد فرص إجراء بحوث تعاونية والاستمرار في تبادل أحدث الأبحاث العلمية واستغلال تلك الفرص، مع مراعاة إسهامات الأوساط العلمية الوطنية والإقليمية والدولية، بما في ذلك الأوساط الأكاديمية، بشأن أكثر الاستراتيجيات فعالية في الحد من الطلب والعرض وتحسين أفضل الممارسات بشأن مبادرات الحد من الطلب على المخدرات، وفقاً للاتفاقيات الدولية الثلاث لمراقبة المخدرات والالتزامات المتعلقة بسياسات المخدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="MercuryDocument">
+        <content eId="para_84__content">
+          <p xml:space="preserve">	42 -	<span class="bold italic">تدعو</span> الدول الأعضاء إلى تشجيع وتحسين الجمع المنهجي للمعلومات والأدلة، وكذلك تبادل البيانات الموثوقة والقابلة للمقارنة، على الصعيدين الوطني والدولي، عن تعاطي المخدِّرات وانتشارها الوبائي، بما فيها البيانات العلمية المتعلقة بأي مخاطر أو أضرار على الصحة والعواقب الاجتماعية الناشئة عن تعاطي المخدرات، بما في ذلك تعاطيها في شكل مبخر، وبالعوامل الاجتماعية والاقتصادية وغيرها من عوامل الخطورة، فضلا عن الصلات القائمة بين سياسات المخدرات وحقوق الإنسان، والعمل من خلال لجنة المخدِّرات وجمعية الصحة العالمية على الترويج لاستخدام المعايير المعترف بها دوليا، حسب الاقتضاء، مثل المعايير الدولية للوقاية من تعاطي المخدِّرات، ولتبادل الممارسات الفضلى، وصوغ استراتيجيات وبرامج فعالة للوقاية من تعاطي المخدِّرات، بالتعاون مع مكتب الأمم المتحدة المعني بالمخدِّرات والجريمة ومنظمة الصحة العالمية وسائر كيانات الأمم المتحدة ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <content eId="para_85__content">
+          <p xml:space="preserve">	43 -	<span class="bold italic">تدعو أيضا</span> الدول الأعضاء إلى تزويد مكتب الأمم المتحدة المعني بالمخدرات والجريمة بالمعلومات عن أفضل الممارسات والبرامج المنفَّذة في الآونة الأخيرة، بما يتفق مع الاتفاقيات الدولية الثلاث لمراقبة المخدرات، وذلك من أجل تقييم التطورات المستجدة مؤخرا والتحديات الحالية والمقبلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="MercuryDocument">
+        <content eId="para_86__content">
+          <p xml:space="preserve">	44 -	<span class="bold italic">تؤكد</span> ضرورة بناء القدرات الإحصائية الوطنية من أجل دعم الدول الأعضاء في تحسين نوعية الإحصاءات المتعلقة بالمخدرات وزيادة توافرها والاستجابة على نحو فعال لطلبات جمع البيانات الواردة من مكتب الأمم المتحدة المعني بالمخدرات والجريمة، وتدعو المنظمات الدولية والإقليمية إلى تقديم الدعم إلى الدول الأعضاء في هذا الصدد، بناء على طلبها، وتدعو الدول الأعضاء إلى موافاة المكتب بانتظام بالبيانات والمعلومات المتعلقة بجميع جوانب مشكلة المخدرات العالمية من خلال الاستبيانات الخاصة بالتقارير السنوية، وتدعو لجنة المخدرات، بوصفها الهيئة المركزية في منظومة الأمم المتحدة لتقرير السياسات بشأن المسائل المتصلة بالمخدرات، إلى تعزيز قدرات المكتب على جمع بيانات دقيقة وموثوقة وموضوعية وقابلة للمقارنة وتحليلها واستخدامها ونشرها وإدراج هذه المعلومات في <span class="italic">تقرير المخدرات العالمي</span>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="MercuryDocument">
+        <content eId="para_87__content">
+          <p xml:space="preserve">	45 -	<span class="bold italic">تدعو</span> الدول الأعضاء إلى النظر في الحاجة إلى مراجعة مجموعة مقاييس وأدوات السياسات الوطنية المتعلقة بالمخدرات من أجل جمع وتحليل بيانات دقيقة وموثوقة ومصنفة وشاملة وقابلة للمقارنة سعيا إلى قياس فعالية البرامج في معالجة جميع الجوانب ذات الصلة لمشكلة المخدرات العالمية، بما في ذلك، حسب الاقتضاء، من حيث صلتها بخطة التنمية المستدامة لعام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <content eId="para_88__content">
+          <p xml:space="preserve">	46 -	<span class="bold italic">تشجع</span> الدول الأعضاء على النهوض بجمع البيانات وإجراء البحوث وتبادل المعلومات، وكذلك تبادل الممارسات الفضلى بشأن منع ومكافحة الجرائم المتصلة بالمخدِّرات وبشأن تدابير وممارسات خفض عرض المخدِّرات، من أجل تعزيز فعالية تدابير العدالة الجنائية، ضمن إطار القانون المنطبق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <content eId="para_89__content">
+          <p xml:space="preserve">	47 -	<span class="bold italic">تطلب</span> إلى مكتب الأمم المتحدة المعني بالمخدرات والجريمة أن يواصل تقديم المساعدة إلى الدول الأعضاء، بناء على طلبها، فيما يتعلق بجمع البيانات وإجراء البحوث، وحسب الاقتضاء، إتاحة المعلومات الاستخبارية والتحليلات للكشف عن مدى الصلات القائمة بين الاتجار غير المشروع بالمخدرات والاتجار بالأسلحة النارية، وأن يواصل بحوثه الجارية بالفعل بشأن هذه الصلات، رهنا بتوافر موارد خارجة عن الميزانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <content eId="para_90__content">
+          <p xml:space="preserve">	48 -	<span class="bold italic">تهيب</span> بالدول الأعضاء إلى تكثيف جهودها الرامية إلى منع ومكافحة زراعة المخدرات والمؤثرات العقلية وإنتاجها وصنعها والاتجار بها بصورة غير مشروعة، ومنع ومكافحة الجرائم وأعمال العنف المتصلة بالمخدرات، بوسائل منها تعزيز فعالية تدابير منع الجريمة وإنفاذ القانون الخاصة بالمخدرات بما يتسق مع التشريعات الوطنية والقانون الدولي، بما في ذلك الالتزامات المنطبقة في مجال حقوق الإنسان، وكذلك من خلال التصدي للصلات القائمة بأشكال الجريمة المنظمة الأخرى، بما فيها الاتجار بالأسلحة النارية وغسل الأموال والفساد وسائر الأنشطة الإجرامية، مع وضع أسبابها وعواقبها الاجتماعية والاقتصادية في الاعتبار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <content eId="para_91__content">
+          <p xml:space="preserve">	49 -	<span class="bold italic">تؤكد من جديد</span> أهمية اتباع نهج متكامل في سياسات المخدرات، بما في ذلك عن طريق تعزيز الشراكات بين قطاعات الصحة العامة والتنمية وحقوق الإنسان والعدالة وإنفاذ القوانين، إلى جانب القطاع الخاص، ولا سيما الصناعات الكيميائية والصيدلانية، ومن خلال تسهيل التعاون والاتصال فيما بين الوكالات، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="MercuryDocument">
+        <content eId="para_92__content">
+          <p xml:space="preserve">	50 -	<span class="bold italic">تسلّم</span> بأن المجتمع المدني والأوساط العلمية والأكاديمية والقطاع الخاص والمجتمعات المتضررة يمكن أن تؤدي دورا هاما في التصدي لمشكلة المخدرات العالمية ومواجهتها عن طريق تحليل قضايا المخدرات، وفي تقديم الخدمات، وفي تقييم الأثر المترتب على حقوق الإنسان من جراء سياسات المخدرات، وتشجع، حسب الاقتضاء، مشاركة المجتمع المدني والمجتمعات المتضررة في تصميم وتنفيذ وتقديم الأدلة العلمية المفيدة لدعم تقييم السياسات والبرامج المتعلقة بمراقبة المخدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="MercuryDocument">
+        <content eId="para_93__content">
+          <p xml:space="preserve">	51 -	<span class="bold italic">تؤكد من جديد</span> أهمية مكتب الأمم المتحدة المعني بالمخدرات والجريمة ومكاتبه الميدانية في بناء القدرات محليا في مجال مكافحة الجريمة المنظمة عبر الوطنية والاتجار بالمخدرات، وتشجع المكتب على الحفاظ على مستوى دعم فعال للجهود الوطنية والإقليمية المبذولة في هذا الصدد، وتطلب إلى جميع الدول الأعضاء أن تقدم أوفى دعم مالي وسياسي ممكن إلى المكتب بتوسيع قاعدة مانحيه، حسب الاقتضاء، وزيادة التبرعات المقدمة له، وبخاصة المساهمات المخصصة للأغراض العامة، لتمكينه من أن يواصل، في إطار ولاياته، الاضطلاع بأنشطته التنفيذية وأنشطته في مجال التعاون التقني وأن يوسع نطاقها ويحسنها ويعززها، وتطلب إلى المكتب أن يواصل، حسب الاقتضاء، تعاونه مع المنظمات الحكومية الدولية والمنظمات الدولية والمنظمات الإقليمية ذات الصلة المشاركة في التصدي لمشكلة المخدرات العالمية ومواجهتها، وذلك من أجل تبادل الممارسات الفضلى والمعايير العلمية وتحقيق الاستفادة القصوى من الميزة النسبية الفريدة لهذه المنظمات، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <content eId="para_94__content">
+          <p xml:space="preserve">	52 -	<span class="bold italic">تحيط علما</span> ببياني رئيسة الهيئة الدولية لمراقبة المخدرات الصادرين في 21 و 22 أيلول/ سبتمبر 2022؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="MercuryDocument">
+        <content eId="para_95__content">
+          <p xml:space="preserve">	53 -	<span class="bold italic">تطلب </span>إلى مكتب الأمم المتحدة المعني بالمخدِّرات والجريمة والهيئة الدولية لمراقبة المخدِّرات أن يواصلا توطيد التعاون مع منظمة الصحة العالمية وسائر كيانات الأمم المتحدة المختصة، ضمن إطار ولاية كل منها وكجزء من نهج شامل ومتكامل ومتوازن لتدعيم تدابير الرعاية الصحية والاجتماعية، في سبيل التصدي لمشكلة المخدِّرات العالمية، بوسائل منها الوقاية الفعالة والتدخل المبكر والعلاج والرعاية والمعافاة وإعادة التأهيل وإعادة الإدماج في المجتمع، بالتعاون مع المجتمع المدني والأوساط العلمية، حسبما يكون مناسباً، وأن يبلغ لجنة المخدِّرات على النحو المناسب بما يستجد في هذا الشأن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <content eId="para_96__content">
+          <p xml:space="preserve">	54 -	<span class="bold italic">تطلب </span>إلى مكتب الأمم المتحدة المعني بالمخدرات والجريمة أن يواصل، بالتعاون الوثيق مع الدول الأعضاء والكيانات المعنية التابعة للأمم المتحدة والمنظمات الحكومية الدولية والمنظمات الإقليمية والأوساط العلمية والمجتمع المدني، تقديم الدعم إلى الدول الأعضاء، بناء على طلبها، من أجل تعزيز قدرتها على تطوير آليات الإبلاغ الخاصة بها، بسبل منها المساعدة التقنية واستبانة الثغرات في الإحصاءات الراهنة المتعلقة بالمخدرات واستطلاع إمكانيات تعزيز الأدوات القائمة لجمع البيانات وتحليلها على الصعيد الوطني؛ وأن يقدم المساعدة التقنية إلى الحكومات من أجل تيسير تنفيذها لالتزاماتها بموجب الاتفاقيات وتمكينها من الوفاء التام بها ويقوم بمتابعة وافية للقرارات اللاحقة الصادرة عن لجنة المخدرات والمجلس الاقتصادي والاجتماعي والجمعية العامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <content eId="para_97__content">
+          <p xml:space="preserve">	55 -	<span class="bold italic">تشجع </span>جميع كيانات الأمم المتحدة ذات الصلة على القيام، بالتعاون الوثيق مع مكتب الأمم المتحدة المعني بالمخدرات والجريمة، بدعم الدول الأعضاء في وضع وتنفيذ تدابير لمواجهة مشكلة المخدرات العالمية تكون متوازنة وشاملة ومتكاملة ومتعددة التخصصات وقائمة على الأدلة وذات توجه إنمائي ومستدامة، في ظل احترام حقوق الإنسان، ضمن إطار الاتفاقيات الدولية الثلاث لمراقبة المخدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <content eId="para_98__content">
+          <p xml:space="preserve">	56 -	<span class="bold italic">ترحب</span> بمتابعة تنفيذ جميع الالتزامات بالتصدِّي لمشكلة المخدِّرات العالمية ومواجهتها التي قطعت منذ عام 2009، بما في ذلك التوصيات الواردة في الوثيقة الختامية للدورة الاستثنائية الثلاثين للجمعية العامة، عن طريق العملية التي تتخلل دورات لجنة المخدرات، وتشجع اللجنة على مواصلة العمل على تنفيذ وتبادل أفضل الممارسات العلمية والقائمة على الأدلة في مجال التصدِّي لمشكلة المخدِّرات العالمية ومواجهتها، ومواصلة دعم الدول الأعضاء في القيام بذلك، وتدعو اللجنة إلى مواصلة النظر في الكيفية التي يمكن بها لهيئاتها الفرعية أن تسهم بشكل أفضل في تنفيذ أمور منها الوثيقة الختامية وجميع الالتزامات ذات الصلة عن طريق ضمان إطلاع اللجنة على الشواغل والتطورات والممارسات الفضلى الإقليمية والمحلية التي يعرضها جميع أصحاب المصلحة، بما في ذلك إسهامات الأوساط العلمية والأكاديمية والمجتمع المدني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <content eId="para_99__content">
+          <p xml:space="preserve">	57 -	<span class="bold italic">تهيب</span> بجميع الدول الأعضاء إلى أن تشارك بفعالية في مناقشات لجنة المخدرات المتعلقة بالأعمال التحضيرية لاستعراض منتصف المدة للتقدم المحرز في تنفيذ جميع الالتزامات الدولية المتعلقة بسياسات المخدرات لعام 2024 التي ينبغي أن تشمل إسهامات من الجمعية العامة عن متابعة الإعلان الوزاري لعام 2019 بشأن تعزيز إجراءاتنا على الصعيد الوطني والإقليمي والدولي ابتغاء التعجيل بتنفيذ التزاماتنا المشتركة بالتصدِّي لمشكلة المخدِّرات العالمية ومواجهتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="MercuryDocument">
+        <content eId="para_100__content">
+          <p xml:space="preserve">	58 -	<span class="bold italic">تحيط علما</span> بتقرير الأمين العام<sup>(</sup><authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/77/137">A/77/137</a>.</p></authorialNote><sup>)</sup>، وتطلب إليه أن يقدم إلى الجمعية العامة في دورتها التاسعة والسبعين تقريرا عن تنفيذ هذا القرار، يشمل جزءا يركز على التعاون الدولي على التصدي لمشكلة المخدرات العالمية ومواجهتها.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54">الجلسة العامة 54</inline>
+        <eol />
+        <docDate date="2022-12-15" refersTo="#adoptionDate">15 كانون الأول/ديسمبر 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
