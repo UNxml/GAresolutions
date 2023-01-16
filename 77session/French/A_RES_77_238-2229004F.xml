@@ -1,0 +1,852 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/"></FRBRuri>
+          <FRBRdate date="2022-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/fra@/"></FRBRuri>
+          <FRBRdate date="2023-01-10" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2022-12-15/77-238/fra@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-16" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="11" href="http://metadata.un.org/sdg/11" showAs="sdg_11" dictionary="SDGO"></keyword>
+        <keyword value="cities" href="http://metadata.un.org/thesaurus/1000995" showAs="cities" dictionary="UNBIS"></keyword>
+        <keyword value="human_settlements" href="http://metadata.un.org/thesaurus/1002986" showAs="human_settlements" dictionary="UNBIS"></keyword>
+        <keyword value="urban_area" href="http://eurovoc.europa.eu/4809" showAs="urban_area" dictionary="EuroVoc"></keyword>
+        <keyword value="urban_area" href="http://metadata.un.org/thesaurus/1006809" showAs="urban_area" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Office on Drugs and Crime" showAs="UN Office on Drugs and Crime" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Commission on Narcotic Drugs" showAs="UN. Commission on Narcotic Drugs" dictionary="DHLAUTH"></keyword>
+        <keyword value="WHO" showAs="WHO" dictionary="DHLAUTH"></keyword>
+        <keyword value="DRUG CONTROL" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NARCOTIC DRUGS" showAs="NARCOTIC DRUGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG POLICY" showAs="DRUG POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG TRAFFIC" showAs="DRUG TRAFFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="111" showAs="International drug control." shortForm="NARCOTIC DRUGS" dictionary="A/77/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-11-09" outcome="draftResolution" as="A/C.3/77/L.13/Rev.1" by="Ecuador, Honduras and Mexico" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Argentina, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Dominican Republic, El Salvador, Equatorial Guinea, Estonia, France, Germany, Greece, Guatemala, Hungary, Ireland, Israel, Italy, Latvia, Lithuania, Luxembourg, Malta, Monaco, Myanmar, Netherlands, Norway, Paraguay, Poland, Portugal, Republic of Korea, Romania, Serbia, Slovakia, Slovenia, Spain, Thailand, Timor-Leste and United States" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/77/466" by="" refersTo="12" />
+        <step date="2022-12-15" outcome="adopted" as="A/77/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="124" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AFGHANISTAN</organization>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">ANDORRA</organization>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ANTIGUA AND BARBUDA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BAHAMAS</organization>
+                <organization refersTo="memberState">BARBADOS</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BELIZE</organization>
+                <organization refersTo="memberState">BHUTAN</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">BURKINA FASO</organization>
+                <organization refersTo="memberState">CABO VERDE</organization>
+                <organization refersTo="memberState">CAMBODIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">CONGO</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CYPRUS</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DEMOCRATIC REPUBLIC OF THE CONGO</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">EQUATORIAL GUINEA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">ESWATINI</organization>
+                <organization refersTo="memberState">FIJI</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GAMBIA</organization>
+                <organization refersTo="memberState">GEORGIA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">GRENADA</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">GUYANA</organization>
+                <organization refersTo="memberState">HAITI</organization>
+                <organization refersTo="memberState">HONDURAS</organization>
+                <organization refersTo="memberState">HUNGARY</organization>
+                <organization refersTo="memberState">ICELAND</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">KIRIBATI</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">LESOTHO</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">MALDIVES</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState">MONACO</organization>
+                <organization refersTo="memberState">MONGOLIA</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">MYANMAR</organization>
+                <organization refersTo="memberState">NEPAL</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PALAU</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">POLAND</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">SAINT LUCIA</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SAMOA</organization>
+                <organization refersTo="memberState">SAN MARINO</organization>
+                <organization refersTo="memberState">SERBIA</organization>
+                <organization refersTo="memberState">SIERRA LEONE</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SURINAME</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TIMOR-LESTE</organization>
+                <organization refersTo="memberState">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState">TUVALU</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">ZAMBIA</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="9" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">TURKIYE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="45" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">AZERBAIJAN</organization>
+                <organization refersTo="memberState">BAHRAIN</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">CUBA</organization>
+                <organization refersTo="memberState">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">DJIBOUTI</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ERITREA</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAQ</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">KUWAIT</organization>
+                <organization refersTo="memberState">KYRGYZSTAN</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITANIA</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">SAINT KITTS AND NEVIS</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SRI LANKA</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">TAJIKISTAN</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UGANDA</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UZBEKISTAN</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+                <organization refersTo="memberState">YEMEN</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Troisième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-29004 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/77/238</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-01-10" class="rightSmall" refersTo="#dateOfIssuance">10 janvier 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="77" eId="coverPage_1__session_1">Soixante-dix-septième session</session>
+      </p>
+      <p>
+        <inline title="111" name="agenda item">Point 111 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Contrôle international des drogues</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 15 décembre 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sur la base du rapport de la Troisième Commission (<inline name="originating document">A/77/466, par. 12</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>77/238.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Aborder et combattre le problème mondial de la drogue dans le cadre d’une stratégie globale, intégrée et équilibrée</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Soulignant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> que la Convention unique sur les stupéfiants de 1961 telle que modifiée par le Protocole de 1972<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 976, n<sup>o</sup> 14152.</p></authorialNote>, la Convention sur les substances psychotropes de 1971<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Ibid., vol. 1019, n<sup>o</sup> 14956.</p></authorialNote>, la Convention des Nations Unies contre le trafic illicite de stupéfiants et de substances psychotropes de 1988<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Ibid., vol. 1582, n<sup>o</sup> 27627.</p></authorialNote> et d’autres instruments internationaux pertinents constituent le fondement du régime international de contrôle des drogues,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> l’intégralité du document final de la trentième session extraordinaire de l’Assemblée générale, intitulé « Notre engagement commun à aborder et combattre efficacement le problème mondial de la drogue »<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/S-30/1">S-30/1</a>, annexe.</p></authorialNote>, et déclarant de nouveau que les recommandations pratiques qui y figurent sont intégrées, indissociables, multidisciplinaires et synergiques et qu’elles visent à aborder et à combattre le problème mondial de la drogue dans le cadre d’une stratégie globale, intégrée et équilibrée,</p>
+      </container>
+      <container name="Saluant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> la Déclaration ministérielle de 2019 sur le renforcement des actions que nous menons aux niveaux national, régional et international pour accélérer la mise en œuvre de nos engagements communs à aborder et combattre le problème mondial de la drogue<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2019, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 8</span> (<a href="https://undocs.org/fr/E/2019/28">E/2019/28</a>), chap. I, sect. B.</p></authorialNote>, adoptée à l’issue du débat ministériel de la soixante-deuxième session de la Commission des stupéfiants, qui avait été convoqué afin de faire le bilan de l’application des engagements pris ces dix dernières années pour aborder et combattre conjointement le problème mondial de la drogue,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> la Déclaration politique et le Plan d’action de 2009 sur la coopération internationale en vue d’une stratégie intégrée et équilibrée de lutte contre le problème mondial de la drogue<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., <span class="italic">2009, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 8</span> (<a href="https://undocs.org/fr/E/2009/28">E/2009/28</a>), chap. I, sect. C.</p></authorialNote> et la Déclaration ministérielle conjointe issue de l’examen de haut niveau auquel la Commission des stupéfiants a procédé en 2014 sur l’application par les États Membres de la Déclaration politique et du Plan d’action<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid., <span class="italic">2014, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 8</span> (<a href="https://undocs.org/fr/E/2009/28">E/2009/28</a>), chap. I, sect. C.</p></authorialNote>, et rappelant les résolutions qu’elle a adoptées à sa vingtième session extraordinaire<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Résolutions <a href="https://undocs.org/fr/A/RES/S-20/1">S-20/1</a>, <a href="https://undocs.org/fr/A/RES/S-20/2">S-20/2</a>, <a href="https://undocs.org/fr/A/RES/S-20/3">S-20/3</a> et <a href="https://undocs.org/fr/A/RES/S-20/4">S-20/4</a> A à E.</p></authorialNote>,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également</span> la Déclaration universelle des droits de l’homme<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/217(III)">217 A (III)</a>.</p></authorialNote>, le Pacte international relatif aux droits économiques, sociaux et culturels<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Voir résolution <a href="https://undocs.org/fr/A/RES/2200(XXI)">2200 A (XXI)</a>, annexe.</p></authorialNote>, le Pacte international relatif aux droits civils et politiques<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Ibid.</p></authorialNote> et la Déclaration et le Programme d’action de Vienne<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/CONF.157/24(PartI)">A/CONF.157/24 (Part I)</a>, chap. III.</p></authorialNote> ainsi que les autres instruments pertinents relatifs aux droits humains,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> toutes les résolutions pertinentes de l’Organisation des Nations Unies, y compris toutes les résolutions et décisions adoptées par la Commission des stupéfiants,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> sa résolution <a href="https://undocs.org/fr/A/RES/76/188">76/188</a> du 16 décembre 2021 et toutes ses résolutions antérieures sur la coopération internationale pour aborder et combattre le problème mondial de la drogue,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également</span> son engagement indéfectible de veiller à ce que tous les aspects de la réduction de la demande et des mesures connexes, de la réduction de l’offre et des mesures connexes et de la coopération internationale soient abordés en totale conformité avec les buts et principes énoncés dans la Charte des Nations Unies, du droit international et de la Déclaration universelle des droits de l’homme, dans le plein respect de la souveraineté et de l’intégrité territoriale des États, du principe de non-ingérence dans leurs affaires intérieures, de tous les droits de la personne, des libertés fondamentales, de la dignité inhérente à tous les individus et des principes de l’égalité de droits et du respect mutuel entre États,</p>
+      </container>
+      <container name="Réaffirmant en outre" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant en outre</span> le Programme de développement durable à l’horizon 2030<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote> et notant que les actions menées pour atteindre les objectifs de développement durable et pour s’attaquer véritablement au problème mondial de la drogue sont complémentaires et se renforcent mutuellement,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> le rôle primordial que joue la Commission des stupéfiants, organe directeur des Nations Unies responsable au premier chef des questions de contrôle des drogues, ainsi que ses attributions conventionnelles, qui consistent à examiner toutes les questions ayant trait aux buts et dispositions des conventions des Nations Unies relatives au contrôle des drogues et à faire des recommandations à ce sujet, réaffirmant également son soutien et son appréciation pour les efforts faits par les entités des Nations Unies, en particulier par l’Office des Nations Unies contre la drogue et le crime, organisme chef de file, afin d’aborder et de combattre le problème mondial de la drogue, réaffirmant également les attributions conventionnelles de l’Organe international de contrôle des stupéfiants et de l’Organisation mondiale de la Santé, et consciente du rôle et de la contribution du Programme des Nations Unies pour le développement, du Haut-Commissariat des Nations Unies aux droits de l’homme, du Programme commun des Nations Unies sur le VIH/sida et de l’Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU‑Femmes), entre autres entités, dans le cadre de leur mandat respectif,</p>
+      </container>
+      <container name="Rappelant" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> la résolution <a href="https://undocs.org/fr/A/HRC/RES/37/42">37/42</a> du Conseil des droits de l’homme en date du 23 mars 2018, intitulée « Contribution à la mise en œuvre de l’engagement commun à aborder et combattre efficacement le problème mondial de la drogue en tenant compte des droits de l’homme »<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-treizième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/73/53">A/73/53</a>), chap. IV, sect. A.</p></authorialNote>, et prenant note des efforts visant à remédier au problème de la détention arbitraire résultant de l’application des politiques de lutte contre la drogue,</p>
+      </container>
+      <container name="Rappelant également" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> la résolution 65/2 sur le renforcement de la coopération internationale pour lutter contre les liens entre le trafic de drogues et le trafic d’armes à feu<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2022, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 8</span> (<a href="https://undocs.org/fr/E/2022/28">E/2022/28</a>), chap. I, sect. B.</p></authorialNote>, adoptée le 18 mars 2022 par la Commission des stupéfiants,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Rappelant en outre</span> la résolution 65/4 sur la promotion d’une prévention précoce complète et fondée sur des données scientifiques<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Ibid.</p></authorialNote>, adoptée le 18 mars 2022 par la Commission des stupéfiants,</p>
+      </container>
+      <container name="Prenant note" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> de l’édition 2022 du Rapport mondial sur les drogues, qui reflète les tendances actuelles des marchés mondiaux de la drogue,</p>
+      </container>
+      <container name="Considérant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> que les trois conventions internationales relatives au contrôle des drogues concernent la santé et le bien-être de l’humanité et que les droits humains sont un élément essentiel du cadre juridique international de la conception et de l’application des politiques en matière de drogues, et ayant à l’esprit les efforts déployés pour faire face aux conséquences que le problème mondial de la drogue a sur les droits humains,</p>
+      </container>
+      <container name="Notant avec satisfaction" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Notant avec satisfaction</span> les contributions apportées par les entités des Nations Unies, des institutions financières internationales et des organisations régionales et internationales compétentes, dans le cadre de leur mandat, aux travaux de la Commission des stupéfiants et aux efforts déployés par les États Membres pour aborder et combattre le problème mondial de la drogue, à leur demande, afin de renforcer la coopération internationale et interinstitutions, et les encourageant à mettre les informations pertinentes à la disposition de la Commission des stupéfiants afin de faciliter ses travaux et de renforcer la cohérence du système des Nations Unies à tous les niveaux en ce qui concerne le problème mondial de la drogue,</p>
+      </container>
+      <container name="Rappelant" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> les règles et normes des Nations Unies en matière de prévention du crime et de justice pénale, notamment les Règles des Nations Unies concernant le traitement des détenues et l’imposition de mesures non privatives de liberté aux délinquantes (Règles de Bangkok)<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/65/229">65/229</a>, annexe.</p></authorialNote>, les Règles minima des Nations Unies pour l’élaboration de mesures non privatives de liberté (Règles de Tokyo)<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/45/110">45/110</a>, annexe.</p></authorialNote> et l’Ensemble de règles minima des Nations Unies pour le traitement des détenus (Règles Nelson Mandela)<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/175">70/175</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Rappelant" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> qu’il est nécessaire d’élaborer, d’adopter et d’appliquer, compte dûment tenu des systèmes constitutionnels, juridiques et administratifs nationaux, des mesures substitutives ou supplémentaires à la condamnation ou à l’infliction d’une peine dans les cas qui s’y prêtent, conformément aux trois conventions internationales relatives au contrôle des drogues et en prenant en considération, lorsqu’il y a lieu, les règles et normes des Nations Unies en matière de prévention du crime et de justice pénale telles que les Règles de Tokyo,</p>
+      </container>
+      <container name="Condamnant" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Condamnant</span> toute pratique discriminatoire ou violente utilisée par des responsables de l’application des lois à l’égard de personnes vulnérables ou marginalisées, y compris le racisme systémique des systèmes de répression et de justice pénale, soulignant qu’il importe de veiller à ce que ces actes ne restent pas impunis et, à cet égard, prenant note de la demande faite par le Conseil des droits de l’homme au Groupe de travail sur la détention arbitraire, dans sa résolution <a href="https://undocs.org/fr/A/hrc/RES/42/22">42/22</a> du 26 septembre 2019<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-quatorzième session, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/74/53/Add.1">A/74/53/Add.1</a>), chap. III.</p></authorialNote>, tendant à ce que celui‑ci élabore, dans le cadre de son mandat, une analyse sur la détention arbitraire résultant de l’application des politiques de lutte contre la drogue, qui a été publiée le 18 mai 2021,</p>
+      </container>
+      <container name="Consciente" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> qu’il importe de prendre en considération comme il se doit les différences entre les genres et les âges dans les politiques et programmes en matière de drogue, ainsi que la participation pleine, égale, véritable et effective des femmes et des jeunes à l’élaboration et à l’application de ces politiques et programmes,</p>
+      </container>
+      <container name="Consciente également" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Consciente également</span> qu’il est nécessaire d’intensifier les efforts de prévention de la toxicomanie chez les enfants et les jeunes, y compris en milieu éducatif, notamment en favorisant l’échange d’expériences et de bonnes pratiques ainsi que l’assistance technique, et rappelant la résolution <a href="https://undocs.org/fr/A/RES/61/2">61/2</a> sur le renforcement des efforts de prévention de l’abus de drogues en milieu éducatif adoptée par la Commission des stupéfiants le 16 mars 2018<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2018, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 8</span> (<a href="https://undocs.org/fr/E/2018/28">E/2018/28</a>), chap. I, sect. B.</p></authorialNote>,</p>
+      </container>
+      <container name="Se déclarant profondément préoccupée" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Se déclarant profondément préoccupée</span> par le lourd tribut payé par la société et par les individus et leur famille du fait du problème mondial de la drogue, et rendant un hommage particulier à ceux qui ont sacrifié leur vie, notamment aux agents des services de détection et de répression et des services judiciaires, ainsi qu’au personnel soignant, aux membres de la société civile et aux volontaires qui s’emploient à combattre ce phénomène et à y remédier,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que les peuples autochtones ont le droit d’utiliser leur pharmacopée traditionnelle et de conserver leurs pratiques médicales, notamment de préserver leurs plantes médicinales, animaux et minéraux d’intérêt vital, et qu’ils ont également le droit d’accéder, sans aucune discrimination, à tous les services sociaux et sanitaires et de participer aux processus décisionnels, conformément à la Déclaration des Nations Unies sur les droits des peuples autochtones<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/61/295">61/295</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Saluant" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> les efforts constants visant à rendre plus cohérente l’action menée par le système des Nations Unies à tous les niveaux, et réaffirmant qu’il faut poursuivre et renforcer la coopération entre l’Office des Nations Unies contre la drogue et le crime et les autres entités des Nations Unies, comme l’Organisation mondiale de la Santé ou l’Organe international de contrôle des stupéfiants, dans le cadre de leur mandat, dans les efforts qu’ils déploient pour aider les États Membres à appliquer les traités internationaux relatifs au contrôle des drogues en respectant leurs obligations en matière de droits humains et pour promouvoir la protection et le respect de ces droits, des libertés fondamentales et de la dignité de tous les individus dans le cadre des programmes, stratégies et politiques ayant trait à la drogue,</p>
+      </container>
+      <container name="Saluant également" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Saluant également</span> les résultats déjà obtenus dans le cadre des initiatives prises aux niveaux bilatéral, régional et international, estimant que d’autres progrès peuvent être accomplis grâce à des efforts soutenus et collectifs appuyés par une coopération internationale visant à réduire la demande et l’offre de drogues illicites, constatant que le problème mondial de la drogue constitue toujours un défi pour la santé, y compris mentale, la sécurité et le bien-être de toute l’humanité, et se déclarant résolue à intensifier les efforts nationaux et internationaux et à renforcer encore la coopération internationale pour relever ce défi,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> le rôle crucial que jouent les États Membres s’agissant d’adopter une démarche efficace et globale pour aborder et combattre le problème mondial de la drogue,</p>
+      </container>
+      <container name="Sachant" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> que de nouveaux problèmes se font jour et que d’autres perdurent ou évoluent, et qu’ils devraient être traités en conformité avec les trois conventions internationales relatives au contrôle des drogues, qui ménagent aux États parties une marge de manœuvre suffisante pour concevoir et appliquer en matière de drogues des politiques nationales répondant à leurs priorités et besoins, conformément au principe de la responsabilité commune et partagée et au droit international applicable,</p>
+      </container>
+      <container name="Estimant" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Estimant</span> que le problème mondial de la drogue demeure une responsabilité commune et partagée qui doit être assumée dans un cadre multilatéral grâce à une coopération internationale efficace et accrue et qui exige une démarche intégrée, multidisciplinaire, synergique, équilibrée, globale et fondée sur des données scientifiques,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> qu’il est nécessaire de mettre en place une coopération et une coordination étroites entre les autorités nationales à tous les niveaux pour s’attaquer aux principales causes et conséquences du problème mondial de la drogue, y compris aux niveaux de la santé, de l’éducation, de la société, des droits humains, de l’économie, de la justice, de la sécurité publique et de la répression, conformément au principe de la responsabilité commune et partagée, et appréciant l’intérêt que présentent les mesures de politique générale globales et équilibrées, notamment celles qui visent à promouvoir des moyens de subsistance durables et viables,</p>
+      </container>
+      <container name="Sachant" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> que, pour aborder et combattre efficacement le problème mondial de la drogue dans le cadre d’une démarche globale, intégrée et équilibrée, il convient d’accorder toute l’attention voulue aux individus, aux familles, aux communautés et à la société dans son ensemble, afin de promouvoir et de protéger la santé, la sécurité et le bien-être de toute l’humanité,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que la réduction de la toxicomanie passe par des mesures de réduction de la demande, qui doivent se traduire par des initiatives d’envergure durables tenant compte de l’âge et du genre et s’inscrivant dans le cadre d’une démarche globale de santé publique portant sur la prévention, l’éducation, la détection et l’intervention rapides, le traitement, la prise en charge et les services d’accompagnement connexes, le soutien à la désintoxication, à la réadaptation et à la réinsertion sociale des toxicomanes, dans le strict respect des trois conventions internationales relatives au contrôle des drogues,</p>
+      </container>
+      <container name="Profondément préoccupée" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	Profondément préoccupée</span> par le fait que les trafiquants de drogue s’équipent lourdement en armes à feu de contrebande, exposant les populations et le personnel des services de détection et de répression à une violence et à des dangers importants,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Accueillant avec satisfaction</span> les progrès réalisés pour renforcer et élargir la coopération actuelle concernant les aspects du problème mondial de la drogue liés à la santé publique, y compris les progrès dans la lutte contre les effets négatifs de ce problème sur la santé publique et la société, et réaffirmant la nécessité de prendre en considération les aspects du problème mondial de la drogue liés à la santé publique et à la justice pénale, conformément au document final de sa trentième session extraordinaire, notamment en intensifiant les efforts destinés à aider les États Membres qui en font la demande à aborder et combattre le problème mondial de la drogue dans le cadre d’une stratégie globale, intégrée et équilibrée,</p>
+      </container>
+      <container name="Consciente" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> qu’il importe d’encourager les personnes atteintes de troubles liés à l’usage de drogues à participer volontairement aux programmes de traitement après avoir donné, dans la mesure où cela est compatible avec la législation nationale, leur consentement éclairé, et de concevoir et mettre en place des programmes et campagnes de sensibilisation reposant sur des données scientifiques faisant intervenir les populations concernées, y compris les personnes en état durable de guérison, selon qu’il conviendra, pour promouvoir des modes de vie sains et atténuer les conséquences nocives de l’abus des drogues pour la santé et la société, prévenir la marginalisation sociale et promouvoir des attitudes non stigmatisantes, ainsi que de mener des activités de sensibilisation efficaces visant à susciter et maintenir l’intérêt des personnes qui sont en traitement, sont prises en charge ou suivent des programmes de rétablissement de longue durée et de prendre des mesures pour faciliter l’accès à ces programmes et aux services d’accompagnement connexes, y compris le traitement des comorbidités, et pour augmenter les capacités,</p>
+      </container>
+      <container name="Considérant" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> que l’innovation technologique rapide a permis de relever certains des défis posés par la pandémie de maladie à coronavirus (COVID‑19), notamment grâce aux consultations à distance pour les services de traitement de la toxicomanie, à la télémédecine et à une plus grande flexibilité dans la fourniture et la livraison de médicaments, tout en sachant également qu’il est nécessaire de tenir compte des changements intervenus dans les itinéraires et les méthodes du trafic de drogues, notamment l’augmentation du trafic maritime et des ventes en ligne à la fois par l’Internet clandestin et le Web surfacique,</p>
+      </container>
+      <container name="Considérant" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Considérant </span>les répercussions que la pandémie de COVID‑19 a eues sur tous les aspects du problème mondial de la drogue, notamment des effets sociaux tels que l’augmentation du chômage, l’affaiblissement des réseaux de solidarité, l’absence d’accès au traitement et aux services d’appui pour la guérison et le creusement des inégalités, entraînant le développement de nouveaux modes de consommation, de culture, de production et de fabrication illicites et de trafic des drogues, dont pourraient avoir résulté de nouvelles méthodes de fabrication, de distribution, de commercialisation et de trafic de certains types de drogues, notamment l’augmentation des ventes en ligne à la fois par l’Internet clandestin et le Web surfacique,</p>
+      </container>
+      <container name="Constatant avec une vive inquiétude" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Constatant avec une vive inquiétude</span> que les groupes criminels transnationaux font preuve d’une ingéniosité de plus en plus grande pour fabriquer illicitement des stimulants de type amphétamine et les distribuer partout dans le monde, et que les précurseurs chimiques entrant dans la fabrication illicite de stupéfiants et de substances psychotropes prolifèrent et font l’objet de détournements, et profondément préoccupée par le problème que continuent de poser les nouvelles substances psychoactives, notamment la progression de la consommation de certaines drogues et la prolifération, partout dans le monde, de substances nouvelles qui constituent une menace potentielle pour la santé publique et qui ne sont pas contrôlées par les trois conventions internationales relatives au contrôle des drogues,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que le développement alternatif est un moyen important, légal, viable et durable de mettre fin aux cultures illicites de plantes servant à fabriquer des drogues et une mesure efficace pour lutter contre le problème mondial de la drogue et d’autres menaces criminelles liées à la drogue, et réaffirmant l’engagement pris de s’attaquer aux problèmes socioéconomiques liés à la culture illicite de plantes dont on tire des drogues ainsi qu’à la fabrication et à la production illicites et au trafic de drogues en mettant en œuvre des politiques et programmes antidrogues de longue haleine qui soient globaux, axés sur le développement durable et équilibrés, notamment des programmes de développement alternatif, y compris préventif s’il y a lieu, s’inscrivant dans le cadre de stratégies pérennes de lutte contre les cultures illicites,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également</span> qu’il faut mobiliser les ressources voulues pour aborder et combattre le problème mondial de la drogue, et souhaitant qu’une assistance accrue soit apportée aux pays en développement qui en font la demande pour appliquer effectivement la Déclaration politique et le Plan d’action sur la coopération internationale en vue d’une stratégie intégrée et équilibrée de lutte contre le problème mondial de la drogue ainsi que les recommandations pratiques figurant dans le document final de sa trentième session extraordinaire,</p>
+      </container>
+      <container name="Préoccupée" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Préoccupée</span> par le fait que certains aspects du problème mondial de la drogue liés à la production illicite de drogues et à la culture illicite de plantes servant à fabriquer des drogues peuvent avoir des effets néfastes sur l’environnement, en provoquant notamment l’insécurité alimentaire, la déforestation, l’érosion et la dégradation des sols, la disparition d’espèces endémiques, la pollution des sols, des eaux souterraines et des cours d’eau et l’émission de gaz à effet de serre,</p>
+      </container>
+      <container name="Rappelant" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> l’engagement pris par les États Membres dans la déclaration ministérielle de 2019 d’examiner à la session de la Commission des stupéfiants en 2029 les progrès réalisés dans le respect de tous les engagements internationaux en matière de politique de lutte contre la drogue, et de procéder à un examen à mi‑parcours à la session de la Commission en 2024,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">S’engage de nouveau</span> à promouvoir la santé physique et morale et le bien-être des individus, des familles, des communautés et de la société dans son ensemble, et à favoriser des modes de vie sains en mettant en œuvre, à tous les niveaux, des initiatives de réduction de la demande efficaces, globales et fondées sur des données scientifiques qui prévoient, conformément à la législation nationale et aux trois conventions internationales relatives au contrôle des drogues, des mesures de prévention, d’intervention précoce, de traitement, de prise en charge, de rétablissement, de réadaptation et de réinsertion sociale, ainsi que des initiatives et mesures visant à réduire au minimum les conséquences néfastes de l’abus de drogues sur la santé publique et la société ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> son engagement de respecter, protéger et promouvoir tous les droits humains, toutes les libertés fondamentales et la dignité inhérente à tous les individus ainsi que l’état de droit lors de l’élaboration et de la mise en œuvre de politiques en matière de drogues ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme également</span> la détermination des États Membres à s’attaquer au problème mondial de la drogue, tout en sachant qu’il est nécessaire de s’attaquer aux principales causes et conséquences du problème mondial de la drogue, y compris en ce qui concerne la santé, la société, les droits humains, l’économie, la justice, la sécurité publique et la répression, conformément au principe de la responsabilité commune et partagée, réaffirme en outre la volonté des États Membres de s’attaquer aux problèmes de santé publique, de sécurité et de société qui résultent de cet abus, et apprécie l’intérêt que présentent les mesures de politique générale globales et équilibrées, notamment celles qui visent à promouvoir des moyens de subsistance durables et viables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de promouvoir la coopération bilatérale, régionale et internationale avec les États les plus directement concernés par la culture illicite de plantes servant à fabriquer des drogues et par la production, la fabrication, le transit, le trafic et la distribution illicites et l’abus de stupéfiants et de substances psychotropes, y compris de drogues de synthèse, ainsi que la prestation d’une assistance technique à ces États, aux fins de l’élaboration et de l’application de politiques globales et intégrées, notamment par l’échange de renseignements et la coopération transfrontière, et du renforcement des programmes nationaux d’éducation, de prévention, d’intervention rapide, de traitement, de prise en charge, de réadaptation et de réinsertion sociale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de l’action menée par les organisations régionales et sous-régionales et dans le cadre des initiatives transrégionales en vue de renforcer la coopération aux fins de la mobilisation et de la lutte contre le problème mondial de la drogue, et d’assurer l’efficacité et l’exhaustivité des stratégies et des politiques engagées ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de coopérer efficacement et de prendre des mesures concrètes, notamment dans le cadre de la coopération Nord-Sud et Sud-Sud et de la coopération triangulaire, en collaboration avec la communauté internationale du développement et d’autres intervenants clefs, afin d’aborder et de combattre le problème mondial de la drogue selon le principe de la responsabilité commune et partagée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Demande également</span> aux États Membres de renforcer la coopération régionale, sous-régionale et internationale en matière pénale, selon qu’il conviendra, notamment la coopération judiciaire, dans les domaines, entre autres, de l’extradition, de l’entraide judiciaire et du transfert des poursuites, conformément aux conventions internationales relatives au contrôle des drogues, aux autres instruments juridiques internationaux et à la législation nationale, et de veiller, y compris par la fourniture d’une assistance technique ciblée aux pays qui le demandent, à ce que les autorités nationales compétentes disposent des ressources nécessaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à promouvoir la prévention et le traitement des troubles liés à l’usage de drogues en s’appuyant sur des pratiques reposant sur des faits scientifiques, et prend note de la parution de la deuxième édition actualisée des Normes internationales en matière de prévention de l’usage de drogues et des Normes internationales en matière de traitement des troubles liés à l’usage de drogues, élaborées par l’Office des Nations Unies contre la drogue et le crime en collaboration avec l’Organisation mondiale de la Santé, qui mettent en avant le respect de la dignité et des droits humains, y compris le droit de jouir du meilleur état de santé physique et mentale et de bien-être possible, en prévoyant des services de santé mentale et de soutien psychosocial, et en prônant des attitudes non stigmatisantes dans l’élaboration et l’application des politiques reposant sur des faits scientifiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Comprend</span> que la pharmacodépendance est un trouble de la santé multifactoriel complexe de nature chronique et récidivante qui a des causes et des conséquences sociales et que l’on peut prévenir et soigner grâce, entre autres, à des programmes de traitement, de prise en charge et de réadaptation fondés sur des données scientifiques, y compris des programmes de proximité, et considère qu’il faut renforcer les capacités en matière de postcure, de réadaptation, de rétablissement et de réinsertion sociale des personnes atteintes de troubles liés à l’usage de substances, notamment les services de santé mentale et de soutien psychosocial, selon qu’il conviendra, en aidant ces personnes à bien se réinsérer sur le marché du travail et en leur offrant d’autres services d’accompagnement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à mettre en place des mécanismes d’assurance qualité pour les services de prévention de la toxicomanie, de traitement, y compris des comorbidités, de prise en charge, de rétablissement durable et les services d’accompagnement connexes visant à réduire les effets négatifs de l’abus de drogues sur la santé et la société, en vue d’assurer des progrès constants, notamment en incitant les autorités nationales compétentes à superviser efficacement les structures de traitement et de réadaptation, afin, notamment, de prévenir tout éventuel châtiment ou traitement cruel, inhumain ou dégradant, conformément à la législation nationale et au droit international applicable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">Encourage également</span> les États Membres à promouvoir l’intégration, dans les politiques nationales en matière de drogues, conformément à la législation nationale et selon qu’il convient, d’éléments de prévention et de traitement des surdoses, en particulier des surdoses d’opioïdes, notamment par le recours à des antagonistes des récepteurs opioïdes tels que la naloxone, pour réduire la mortalité liée aux drogues ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres à accroître l’offre, la couverture et la qualité des mesures et dispositifs de prévention fondés sur des données scientifiques, notamment des programmes d’autonomie fonctionnelle éprouvés, qui visent les groupes d’âge et de personnes à risque concernés dans divers milieux, y compris les établissements d’enseignement, dans les secteurs public et privé, de manière à toucher entre autres les jeunes – scolarisés ou non –, notamment en donnant aux enfants et aux jeunes des informations sur l’abus de drogues, ses effets nocifs et ses conséquences et en menant des campagnes de prévention contre l’abus de drogues et de sensibilisation du public, notamment sur Internet, dans les médias sociaux et sur d’autres plateformes en ligne, à concevoir et appliquer des programmes scolaires de prévention et des mécanismes d’intervention rapide à tous les niveaux du système éducatif, ainsi que dans l’enseignement professionnel, y compris sur le lieu de travail, et à renforcer les capacités du corps enseignant et des autres professions concernées ainsi que des parents et des représentants légaux, à prévoir des services de conseil, de prévention et de soins ou à recommander ces services, à donner la possibilité de choisir un mode de vie sain et à promouvoir des environnements sûrs et exempts de drogues ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à envisager de renforcer la coopération entre les services chargés de la santé publique, de l’éducation et de la répression lors de la mise au point et de l’application d’initiatives de prévention de l’usage de drogues fondées sur des données scientifiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> des progrès importants accomplis dans la science de la prévention, qui établit cette dernière comme l’une des principales composantes des initiatives de réduction de la demande globales et fondées sur des données scientifiques visant à lutter contre l’usage non médical de drogues placées sous contrôle, et sait que des stratégies et mesures de prévention précoces efficaces axées sur la prise en compte, entre autres, des difficultés vécues pendant l’enfance et des facteurs individuels et environnementaux, y compris les facteurs sociaux, de risque et de protection, contribuent beaucoup à l’implication positive des enfants, des jeunes et des adultes au sein de leur famille et dans les structures éducatives, sur leur lieu de travail et dans leur communauté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> l’engagement ferme des États Membres d’améliorer l’accès à des fins médicales et scientifiques aux substances placées sous contrôle en prenant les dispositions voulues pour remédier aux obstacles qui s’y opposent, tout en prévenant le détournement, l’abus et le trafic de ces substances, et de renforcer, le cas échéant, le bon fonctionnement des systèmes nationaux de contrôle et des mécanismes et programmes internes d’évaluation, en vue de promouvoir la santé et le bien-être de l’humanité, en coopération avec l’Organe international de contrôle des stupéfiants, l’Office des Nations Unies contre la drogue et le crime, l’Organisation mondiale de la Santé et les autres organismes compétents des Nations Unies, afin de détecter, d’analyser et de supprimer les obstacles à la disponibilité et à l’accessibilité des substances placées sous contrôle qui sont destinées à des fins médicales et scientifiques, dans le respect des dispositifs de contrôle prévus par les trois conventions internationales relatives au contrôle des drogues et, à cet effet, d’envisager d’apporter aux pays en développement qui le demandent une assistance technique et financière ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres à atténuer les conséquences néfastes de l’abus des drogues pour la santé et la société en adoptant une stratégie globale, notamment en utilisant les outils d’assistance technique de l’Office des Nations Unies contre la drogue et le crime, et en veillant à ce que des traitements reposant sur des preuves scientifiques soient disponibles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> les États Membres et les autres donateurs de continuer à fournir des financements bilatéraux et autres dans le cadre de la lutte contre le problème mondial de la drogue, en particulier dans le cadre de la lutte contre le VIH/sida, notamment au Programme commun des Nations Unies sur le VIH/sida, et de faire en sorte que ces fonds contribuent à enrayer l’épidémie de VIH/sida qui se propage parmi les usagers de drogues injectables ainsi qu’en milieu carcéral, dans l’esprit de l’engagement énoncé dans le Programme de développement durable à l’horizon 2030 de ne laisser personne de côté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à envisager des mesures de substitution à l’emprisonnement pour les personnes poursuivies pour des infractions mineures et non violentes liées à la drogue afin de promouvoir, conformément aux trois conventions internationales relatives au contrôle des drogues et au droit interne et dans le respect des systèmes constitutionnels, juridiques et administratifs nationaux, des mesures substitutives ou supplémentaires à la condamnation ou à l’infliction d’une peine dans les cas qui s’y prêtent, et à veiller à ce que les mesures prises pour faire respecter les lois antidrogues soient conformes à leurs obligations en matière de droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de promouvoir et mettre en œuvre, face aux infractions liées aux drogues, des mesures de justice pénale efficaces qui permettent de traduire en justice les auteurs de tels actes et qui soient conformes aux garanties d’une procédure pénale régulière prévues par la loi, y compris des mesures pratiques visant à faire respecter l’interdiction de l’arrestation et de la détention arbitraires ainsi que de la torture et autres peines ou traitements cruels, inhumains ou dégradants et à mettre fin à l’impunité, conformément au droit international applicable dans ce domaine et compte tenu des Règles et normes des Nations Unies en matière de prévention du crime et de justice pénale, et à garantir l’accès à une aide juridictionnelle en temps voulu et le droit à un procès équitable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à promouvoir, concernant les infractions liées aux drogues, la mise en place de politiques, pratiques et directives nationales prévoyant l’imposition de peines proportionnées à la gravité des infractions et la prise en compte des facteurs tant atténuants qu’aggravants, notamment les circonstances énumérées à l’article 3 de la Convention des Nations Unies contre le trafic illicite de stupéfiants et de substances psychotropes de 1988 et dans les autres instruments juridiques internationaux applicables en la matière, dans le respect de la législation nationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres à prendre des mesures supplémentaires pour prévenir l’usage et le détournement à des fins non médicales de drogues synthétiques, y compris par la mise en place de mesures et initiatives consacrées à la formation des professionnels de la santé et, au besoin, par l’éducation et la sensibilisation de la population, ainsi que par une action menée auprès du secteur privé sur des questions relatives, entres autres choses, aux activités commerciales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">S’engage de nouveau</span> à assurer la protection et la sécurité des personnes, des sociétés et des collectivités et, à cet effet, à redoubler d’efforts pour prévenir et combattre la culture illicite de plantes servant à fabriquer des drogues, la production et la fabrication illicites de stupéfiants et de substances psychotropes et leur trafic, ainsi que la criminalité et la violence liées aux drogues par, entre autres, une action de prévention et de répression plus efficace dans ce domaine, ainsi qu’à s’attaquer aux liens existant entre les activités ayant trait aux drogues et d’autres formes de criminalité organisée, dont le trafic d’armes à feu, le blanchiment d’argent et la corruption, compte tenu de leurs causes et conséquences sociales et économiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_296" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_296__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres d’améliorer les capacités aux niveaux national, régional, sous-régional, interrégional et international et d’exploiter les réseaux régionaux et, selon qu’il conviendra, sous-régionaux et internationaux existants et pertinents aux fins de l’échange d’informations opérationnelles en vue de s’attaquer aux graves problèmes que posent les liens grandissants entre le trafic de drogues, la corruption et d’autres formes de criminalité organisée, dont la traite des personnes, le trafic d’armes à feu, la cybercriminalité et le blanchiment de capitaux ainsi que, dans certains cas, le terrorisme, y compris le blanchiment d’argent en rapport avec son financement, en suivant une démarche pluridisciplinaire et intégrée, qui consiste notamment à favoriser et à soutenir la collecte de données fiables, la recherche et, le cas échéant, la mise en commun de renseignements et d’analyses pour concevoir des politiques et interventions efficaces, en exploitant notamment les outils d’assistance technique offerts par l’Office des Nations Unies contre la drogue et le crime ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="italic">Demande également</span> aux États Membres d’adopter et de renforcer des stratégies coordonnées de gestion des frontières, si nécessaire, pour prévenir, surveiller et combattre la production, la fabrication et le trafic illicites de stupéfiants et de substances psychotropes, y compris lorsqu’ils sont associés à d’autres formes de criminalité transnationale organisée, telles que le trafic d’armes à feu, les flux financiers illicites, la contrebande de marchandises et de grande quantités d’espèces et le blanchiment d’argent, et demande en outre aux États Membres de fournir une assistance technique, sur demande, en particulier aux pays en développement y compris, selon qu’il conviendra, sous forme de matériel et de technologies, mais aussi de formation et d’aide à la maintenance, pour accroître la capacité des services frontaliers et des services de répression ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_343" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_343__content">
+          <p xml:space="preserve">	<span class="italic">Sait</span> que les États de transit continuent de faire face à des défis multiformes et réaffirme qu’il demeure nécessaire de coopérer avec eux et de les soutenir, notamment de leur apporter une assistance technique visant, entre autres, à renforcer les moyens dont ils disposent pour aborder et combattre efficacement le problème mondial de la drogue, conformément à la Convention de 1988 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_368" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_368__content">
+          <p xml:space="preserve">	<span class="italic">S’engage de nouveau</span> à renforcer l’offre d’une assistance technique spécialisée ciblée, efficace et durable, y compris, lorsqu’il y a lieu, celle d’une aide financière appropriée, de formations, d’activités de renforcement des capacités, de matériel et de savoir-faire technologique aux pays qui le demandent, notamment ceux de transit, par l’intermédiaire de l’Office des Nations Unies contre la drogue et le crime, de l’Organisation mondiale de la Santé et d’autres entités des Nations Unies et d’organisations internationales et régionales compétentes, agissant dans le cadre de leur mandat, et en coopération avec ces organisations, afin d’aider les États Membres à aborder comme il se doit les aspects du problème mondial de la drogue ayant trait à la santé, à la société et l’économie, aux droits humains, à la justice et à la répression ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres d’intensifier l’action menée aux niveaux national et international face au problème de l’apparition de nouvelles substances psychoactives, y compris aux effets nocifs qu’elles ont pour la santé, et à la menace évolutive que représentent les stimulants de type amphétamine, dont la méthamphétamine, souligne qu’il importe d’améliorer l’échange d’informations et les réseaux d’alerte rapide, de concevoir à l’échelle nationale des modèles adaptés en matière de législation, de prévention et de traitement et d’appuyer l’examen sur la base de données scientifiques et le placement sous contrôle des plus courantes, des plus persistantes et des plus nocives de ces substances, et note qu’il importe de prévenir le détournement et l’usage impropre de produits pharmaceutiques contenant des stupéfiants, des substances psychotropes et des précurseurs tout en assurant la disponibilité de ceux destinés à des fins légitimes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à veiller à ce que les mesures prises pour prévenir la culture illicite de plantes contenant des stupéfiants et des substances psychotropes et les éradiquer respectent les droits humains fondamentaux, tiennent dûment compte des utilisations licites traditionnelles, lorsqu’il en existe des preuves historiques, ainsi que de la protection de l’environnement, conformément aux trois conventions internationales relatives au contrôle des drogues, et à prendre en considération, lorsqu’il y a lieu et conformément au droit interne, la Déclaration des Nations Unies sur les droits des peuples autochtones ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_449" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_449__content">
+          <p xml:space="preserve">	<span class="italic">Encourage également</span> les États Membres à mieux évaluer les effets des stratégies de réduction de la demande et de l’offre, comme les programmes de développement alternatif et préventifs, le cas échéant, de manière à en renforcer l’efficacité, notamment en recourant aux indicateurs de développement humain pertinents, à des critères relatifs à la viabilité écologique et à d’autres outils de mesure allant dans le sens des objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">Encourage en outre</span> les États Membres à examiner et à traiter, dans le cadre des efforts de développement alternatif, les effets néfastes sur l’environnement de la culture illicite de plantes utilisées pour la production de stupéfiants, qui entraînent la déforestation illégale, la pollution des sols et de l’eau et des conséquences négatives pour la sécurité alimentaire, et à saisir les possibilités offertes par le développement alternatif en ce qui concerne la conservation et l’utilisation durable de l’environnement et la protection de la biodiversité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_508" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_508__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> qu’il faut renforcer les stratégies pérennes de contrôle des cultures qui peuvent inclure, entre autres, des mesures de développement alternatif, d’éradication et de répression et, à cet égard, encourage les États Membres à envisager de prendre des mesures axées sur le développement pour lutter contre la culture illicite de plantes servant à fabriquer des drogues et d’autres activités liées aux drogues, en veillant à ce que les hommes et les femmes en bénéficient de manière égale, notamment pour ce qui est des possibilités d’emploi, des infrastructures et des services publics de base améliorés et, selon qu’il conviendra, de l’octroi d’un accès à la terre et de titres fonciers aux cultivateurs et populations locales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_539" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_539__content">
+          <p xml:space="preserve">	<span class="italic">S’engage de nouveau</span> à resserrer la coopération sous-régionale, régionale et internationale, conformément au principe de responsabilité commune et partagée, pour appuyer des programmes pérennes et complets de développement alternatif, y compris préventif, le cas échéant, en étroite collaboration avec toutes les parties prenantes aux niveaux local, national et international, et à développer et à partager les meilleures pratiques d’application des Principes directeurs des Nations Unies sur le développement alternatif<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/68/196">68/196</a>, annexe.</p></authorialNote>, compte tenu de tous les enseignements tirés de l’expérience et des bonnes pratiques appliquées en particulier par les pays qui possèdent de vastes compétences en matière de développement alternatif, et, à cet égard, rappelle sa résolution <a href="https://undocs.org/fr/A/RES/72/197">72/197</a> du 19 décembre 2017 ainsi que la résolution 65/1 de la Commission des stupéfiants en date du 18 mars 2022<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2022, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 8</span> (<a href="https://undocs.org/fr/E/2022/28">E/2022/28</a>), chap. I, sect. B.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_571" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_571__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> les institutions financières internationales, les entités des Nations Unies, les organisations non gouvernementales et le secteur privé, selon qu’il convient, d’envisager de soutenir davantage, y compris par un financement souple et à long terme, la mise en place de programmes de lutte contre la drogue globaux, équilibrés et axés sur le développement et de solutions économiques de remplacement viables à l’appui d’une croissance économique inclusive et d’initiatives de lutte contre la pauvreté, notamment de programmes de développement alternatif, y compris préventif, le cas échéant, qui se fondent sur les besoins recensés et les priorités nationales, dans les zones et au sein des populations touchées par les cultures illicites ou risquant de l’être, et encourage les États Membres à élaborer des mesures en faveur du développement rural, qui améliorent les infrastructures et l’inclusion et la protection sociales et s’attaquent aux conséquences que les cultures illicites et la fabrication et la production illicites de stupéfiants et de substances psychotropes ont sur l’environnement, avec l’intervention et la participation des populations locales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_604" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_604__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de veiller à ce que les populations locales, notamment les agriculteurs, les femmes, les minorités et les peuples autochtones participent à la conception et à la mise en place des mesures concernant le développement alternatif, et de garantir d’autres moyens de subsistance, de préférence avant de supprimer ceux tirés de la culture de plantes illicites ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_638" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_638__content">
+          <p xml:space="preserve">	<span class="italic">Demande également</span> aux États Membres de prendre systématiquement en compte les questions de genre et de veiller à ce que les femmes participent pleinement, effectivement, véritablement et en toute égalité à toutes les étapes de la conception, de la mise en œuvre, du suivi et de l’évaluation des politiques et programmes en matière de drogues, tels que la prévention, le traitement, le rétablissement durable, la réinsertion et les services d’accompagnement connexes, de mettre au point et de promouvoir des mesures différenciées selon le genre et l’âge qui tiennent compte des situations et besoins particuliers des femmes et des filles pour aborder le problème mondial de la drogue et, en tant qu’États parties, d’appliquer la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1249, n<sup>o</sup> 20378.</p></authorialNote>, sachant qu’il importe de prendre des mesures ciblées et fondées sur la collecte et l’analyse de données, y compris ventilées par sexe et par âge, pour satisfaire les besoins particuliers des populations et des groupes touchées par la drogue ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_673" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_673__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> l’Office des Nations Unies contre la drogue et le crime de continuer d’aider les États Membres qui en font la demande à prendre systématiquement en compte les questions de genre dans leurs politiques et programmes relatifs au problème mondial de la drogue, et invite l’Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU-Femmes) et les autres entités compétentes des Nations Unies à coopérer avec l’Office à cet égard, dans le cadre de leur mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_709" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_709__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> la prise en compte des besoins particuliers des femmes détenues qui ont commis des infractions liées aux drogues et celle des multiples risques auxquels elles peuvent être exposées, conformément aux Règles des Nations Unies concernant le traitement des détenues et l’imposition de mesures non privatives de liberté aux délinquantes (Règles de Bangkok) ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_746" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_746__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres d’adapter leurs politiques antidrogues et, lorsqu’ils élaborent leurs politiques globales visant à aborder et combattre le problème mondial de la drogue, de réfléchir à des mesures, programmes et initiatives visant à répondre aux besoins particuliers des membres de la société en situation de vulnérabilité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> la Déclaration politique sur le VIH et le sida : mettre fin aux inégalités et agir pour vaincre le sida d’ici à 2030, qu’elle a adoptée le 8 juin 2021<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/75/284">75/284</a>, annexe.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_823" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_823__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les autorités nationales compétentes à envisager, conformément au droit interne et aux trois conventions internationales relatives au contrôle des drogues, d’intégrer aux mesures et programmes nationaux de prévention, de traitement, de prise en charge, de rétablissement, de réadaptation et de réinsertion sociale impliquant la communauté, dans le cadre des efforts globaux et équilibrés de réduction de la demande de drogues, des mesures efficaces et fondées sur des données scientifiques visant à réduire au maximum les conséquences néfastes de l’abus de drogues sur la santé publique et la société, y compris des traitements médicamenteux adaptés, des programmes concernant le matériel d’injection, ainsi que des traitements antirétroviraux et d’autres interventions pertinentes visant à prévenir la transmission du VIH, de l’hépatite virale et d’autres maladies à diffusion hématogène associées à l’usage de drogues, et de permettre l’accès à de telles interventions, y compris dans les centres de traitement et de conseil, dans les prisons et autres structures surveillées, et de promouvoir à cet égard l’utilisation, selon qu’il convient, du guide technique destiné aux pays pour la définition des objectifs nationaux en matière de VIH/sida pour l’accès universel à la prévention, au traitement et aux soins à donner aux usagers de drogues injectables, publié par l’Organisation mondiale de la Santé, l’Office des Nations Unies contre la drogue et le crime et le Programme commun des Nations Unies sur le VIH/sida ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_863" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_863__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à repérer et à saisir les occasions de mener des activités de recherche participative, à continuellement mettre en commun les résultats de la recherche scientifique les plus récents, compte tenu des contributions apportées par la communauté scientifique, y compris les milieux universitaires, aux niveaux national, régional et international, sur les stratégies de réduction de l’offre et de la demande les plus efficaces, et à améliorer les pratiques exemplaires en ce qui concerne les interventions visant à réduire la demande de drogues, conformément aux trois conventions internationales relatives au contrôle des drogues et aux engagements stratégiques qu’ils ont pris en matière de drogues ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_904" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_904__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à promouvoir et à améliorer la collecte systématique d’informations et d’éléments probants ainsi que l’échange, aux niveaux national et international, de données fiables et comparables sur l’usage de drogues et son épidémiologie, notamment de données scientifiques sur tout problème ou risque pour la santé ou conséquences pour la société causés par la consommation de drogues, y compris par vaporisation, et sur les facteurs de risque à caractère social, économique et autre, ainsi que les liens entre les politiques de lutte contre les drogues et les droits humains, à promouvoir, selon qu’il conviendra, par l’intermédiaire de la Commission des stupéfiants et de l’Assemblée mondiale de la Santé, l’application des normes internationalement reconnues, telles que les Normes internationales en matière de prévention de l’usage de drogues, et l’échange des meilleures pratiques, et à formuler des stratégies et programmes efficaces de prévention de l’usage de drogues en coopération avec l’Office des Nations Unies contre la drogue et le crime, l’Organisation mondiale de la Santé et d’autres entités compétentes des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_946" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_946__content">
+          <p xml:space="preserve">	<span class="italic">Invite également</span> les États Membres à fournir à l’Office des Nations Unies contre la drogue et le crime des informations sur les programmes et pratiques exemplaires récemment appliqués, conformément aux trois conventions internationales relatives au contrôle des drogues, afin d’évaluer les tendances récentes et les défis actuels et futurs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_989" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_989__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il convient de renforcer les capacités statistiques nationales afin d’aider les États Membres à améliorer la qualité et la disponibilité des statistiques sur les drogues et de répondre efficacement aux demandes de l’Office des Nations Unies contre la drogue et le crime en matière de collecte de données, invite à cet égard les organisations internationales et régionales à offrir leur concours aux États Membres, quand ils en font la demande, invite les États Membres à communiquer régulièrement à l’Office des données et renseignements sur tous les aspects du problème mondial de la drogue au moyen des questionnaires destinés aux rapports annuels, et invite la Commission des stupéfiants, principal organe de décision du système des Nations Unies pour les questions relatives aux drogues, à renforcer la capacité qu’a l’Office de recueillir des données exactes, fiables, objectives et comparables, de les analyser, de les utiliser, de les diffuser et de les faire figurer dans le Rapport mondial sur les drogues ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1033" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1033__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à se demander s’il y a lieu d’examiner la gamme d’indicateurs et d’outils de politique nationale en matière de drogues qui permettent de recueillir et d’analyser des données exactes, fiables, désagrégées, détaillées et comparables afin de mesurer l’efficacité des programmes censés prendre en compte tous les aspects pertinents du problème mondial de la drogue, notamment en relation avec le Programme 2030, selon qu’il conviendra ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1078" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1078__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à promouvoir la collecte de données, la recherche et l’échange d’informations ainsi que la mise en commun des meilleures pratiques en matière de prévention et de répression de la criminalité liée aux drogues et de réduction de l’offre de drogues, en vue d’améliorer l’efficacité de la justice pénale, dans le respect du droit applicable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1124" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1124__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> l’Office des Nations Unies contre la drogue et le crime de continuer à fournir une assistance aux États Membres qui en font la demande, en matière de collecte de données fiables, de recherche et, le cas échéant, de mise en commun de renseignements et d’analyses, afin d’exposer l’étendue des liens entre le trafic de drogues illicites et le trafic d’armes à feu, et de poursuivre les recherches qu’il mène déjà sur ces liens, sous réserve de la disponibilité de ressources extrabudgétaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1171" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1171__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de redoubler d’efforts pour prévenir et combattre la culture illicite de plantes servant à fabriquer des drogues, la production et la fabrication illicites de stupéfiants et de substances psychotropes et leur trafic, ainsi que la criminalité et la violence liées aux drogues par, entre autres, une action de prévention et de répression plus efficace dans ce domaine, dans le respect de la législation interne et du droit international, notamment des obligations applicables en matière de droits humains, ainsi qu’à s’attaquer aux liens existant entre les activités ayant trait aux drogues et d’autres formes de criminalité organisée, dont le trafic d’armes à feu, le blanchiment d’argent et la corruption, compte tenu de leurs causes et conséquences sociales et économiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1219" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1219__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’il importe de suivre une approche intégrée des politiques en matière de drogue, notamment en renforçant les partenariats entre les secteurs publics chargés de la santé, du développement, des droits humains, de la justice et de la répression, et le secteur privé, notamment dans les industries chimiques et pharmaceutiques, et en favorisant la coopération et la communication interinstitutions, selon qu’il convient ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1268" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1268__content">
+          <p xml:space="preserve">	<span class="italic">Constate</span> que les organisations de la société civile, la communauté scientifique, les milieux universitaires, le secteur privé et les groupes concernés peuvent jouer un rôle important dans la mobilisation et la lutte contre le problème mondial de la drogue par l’analyse des problèmes liés à la drogue, la fourniture de services et l’évaluation des effets des politiques antidrogues sur les droits humains, et encourage, s’il y a lieu, la participation de la société civile et des groupes touchées à la conception, à l’application des politiques et programmes de lutte contre la drogue, ainsi qu’à la mise à disposition de données scientifiques pertinentes à l’appui de leur évaluation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1318" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1318__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que l’Office des Nations Unies contre la drogue et le crime et ses bureaux extérieurs jouent un rôle important dans le renforcement des capacités locales de lutte contre la criminalité transnationale organisée et le trafic de drogues, encourage l’Office à continuer de fournir un appui suffisant aux efforts menés aux niveaux national et régional, prie tous les États Membres de fournir à l’Office tout l’appui financier et politique possible, en l’aidant à élargir, selon qu’il conviendra, sa base de donateurs et en augmentant leurs contributions volontaires, en particulier les contributions non réservées, afin de lui permettre de poursuivre, d’étendre, d’améliorer et de renforcer, dans le cadre de ses mandats, ses activités opérationnelles et sa coopération technique, et prie l’Office de poursuivre sa collaboration avec les organisations intergouvernementales, internationales et régionales qui s’emploient à aborder et à combattre le problème mondial de la drogue, selon qu’il convient, pour mettre en commun les pratiques optimales et les normes scientifiques et exploiter au mieux les atouts qui leur sont propres ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1369" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1369__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> des déclarations de la Présidente de l’Organe international de contrôle des stupéfiants des 21 et 22 septembre 2022 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1421" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1421__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> l’Office des Nations Unies contre la drogue et le crime et l’Organe international de contrôle des stupéfiants de continuer de resserrer leur coopération avec l’Organisation mondiale de la Santé et les autres entités compétentes des Nations Unies, agissant dans le cadre de leur mandat, de manière à suivre une démarche globale, intégrée et équilibrée visant à renforcer les mesures prises en matière de santé et de protection sociale dans la lutte contre le problème mondial de la drogue, y compris au moyen d’actions efficaces de prévention, d’intervention rapide, de traitement, de prise en charge, de rétablissement, de réadaptation et de réinsertion sociale, en coopération, selon qu’il conviendra, avec la société civile et la communauté scientifique, et de tenir la Commission des stupéfiants dûment informée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1474" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1474__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>l’Office des Nations Unies contre la drogue et le crime, agissant en étroite coopération avec les États Membres, les entités des Nations Unies et les organisations intergouvernementales et régionales compétentes ainsi que la communauté scientifique et la société civile, de continuer d’aider les États Membres qui en font la demande à renforcer leurs capacités d’élaborer des mécanismes de communication de l’information, notamment par l’assistance technique, en repérant les lacunes dans les statistiques disponibles sur les drogues et en étudiant les moyens de perfectionner les outils de collecte et d’analyse de données existant à l’échelle nationale, et de fournir une assistance technique aux États pour qu’ils appliquent les conventions et s’acquittent pleinement des obligations qui leur incombent à cet égard et donnent la suite voulue aux résolutions adoptées ultérieurement par la Commission des stupéfiants, par le Conseil économique et social et par elle-même ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1528" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1528__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> toutes les entités compétentes des Nations Unies, agissant en étroite coopération avec l’Office des Nations Unies contre la drogue et le crime, à aider les États Membres à élaborer et appliquer des solutions au problème mondial de la drogue qui soient équilibrées, globales, intégrées, multidisciplinaires, durables, fondées sur des données probantes et axées sur le développement, tout en respectant les droits humains, dans le cadre des trois conventions internationales relatives au contrôle des drogues ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1583" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1583__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> que la suite donnée à tous les engagements pris depuis 2009 pour aborder et combattre le problème mondial de la drogue, notamment aux recommandations formulées dans le document final de sa trentième session extraordinaire, ait été examinée dans le cadre du processus intersessions de la Commission des stupéfiants, encourage celle-ci à poursuivre ses travaux sur l’application et la diffusion de pratiques optimales reposant sur des faits scientifiques pour ce qui est d’aborder et de combattre le problème mondial de la drogue et à appuyer les États Membres à cet égard, et l’invite à continuer d’examiner la manière dont ses organes subsidiaires peuvent contribuer davantage à l’application, entre autres, du document final et au respect de tous les engagements pertinents, en veillant à être tenue informée de tous les motifs de préoccupation, faits nouveaux et meilleures pratiques relevés aux niveaux régional et national par toutes les parties prenantes, y compris des contributions de la communauté scientifique, des milieux universitaires et de la société civile ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1639" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1639__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à tous les États Membres de participer activement aux débats de la Commission des stupéfiants concernant les préparatifs de l’examen à mi‑parcours de 2024 portant sur les progrès dans le respect de l’ensemble des engagements internationaux pris en matière de politique de lutte contre la drogue, qui devrait comprendre ses propres contributions sur la suite donnée à la Déclaration ministérielle de 2019 sur le renforcement des actions que nous menons aux niveaux national, régional et international, pour accélérer la mise en œuvre de nos engagements communs à aborder et combattre le problème mondial de la drogue ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1696" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1696__content">
+          <p xml:space="preserve">	<span class="italic">Prend acte </span>du rapport du Secrétaire général<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/77/137">A/77/137</a>.</p></authorialNote>, et prie ce dernier de lui présenter, à sa soixante-dix-neuvième session, un rapport sur l’application de la présente résolution comprenant un volet sur la coopération internationale mise en place pour aborder et combattre le problème mondial de la drogue.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="54e">54e séance plénière</inline>
+        <eol />
+        <docDate date="2022-12-15" refersTo="#adoptionDate">15 décembre 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
