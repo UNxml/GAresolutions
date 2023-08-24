@@ -1,0 +1,507 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-15/75-135/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-15/75-135/"></FRBRuri>
+          <FRBRdate date="2020-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-15/75-135/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-15/75-135/eng@/"></FRBRuri>
+          <FRBRdate date="2020-12-22" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-15/75-135/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-15/75-135/eng@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-05" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="draftResolution" as="A/C.6/75/L.12" by="introduced in the Committee by the representative of Colombia on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/426" by="" refersTo="7" />
+        <step date="2020-12-15" outcome="adopted" as="A/75/PV.45" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Sixth Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17197 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/135</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-22" class="rightSmall" refersTo="#dateOfIssuance">22 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Seventy-fifth session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Agenda item 80</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Report of the International Law Commission on the work of its seventy-second session</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 15 December 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[on the report of the Sixth Committee (<inline name="originating document">A/75/426, para. 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/135.</docNumber>
+        <docTitle refersTo="#resolutionTitle">Report of the International Law Commission on the work of its seventy-second session</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">Recalling</span> its decision 74/545 of 2 April 2020, in which it decided to postpone the first part of the seventy-second session of the International Law Commission, and to extend by one week the second part of the session so that it would be held from 29 June to 7 August 2020,</p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">Recalling also</span> its decision 74/559 of 23 June 2020, in which it decided that the seventy-second session of the International Law Commission would be postponed to a later date, </p>
+      </container>
+      <container name="Recalling further" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">Recalling further</span> its decision 74/566 of 12 August 2020, in which it decided that the seventy-second session of the International Law Commission should be postponed and should be held at the United Nations Office at Geneva in 2021, and that the seventy-third session of the Commission should be held at the United Nations Office at Geneva in 2022,</p>
+      </container>
+      <container name="Emphasizing" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">Emphasizing</span> the importance of furthering the progressive development and codification of international law as a means of implementing the purposes and principles set forth in the Charter of the United Nations and in the Declaration on Principles of International Law concerning Friendly Relations and Cooperation among States in accordance with the Charter of the United Nations,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/2625(XXV)">2625 (XXV)</a>, annex.</p></authorialNote></p>
+      </container>
+      <container name="Recognizing" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing</span> the desirability of referring legal and drafting questions to the Sixth Committee, including topics that might be submitted to the International Law Commission for closer examination, and of enabling the Sixth Committee and the Commission to enhance further their contribution to the progressive development and codification of international law,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">Recalling</span> the need to keep under review those topics of international law which, given their new or renewed interest for the international community, may be suitable for the progressive development and codification of international law and therefore may be included in the future programme of work of the International Law Commission,</p>
+      </container>
+      <container name="Recalling also" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">Recalling also</span> the role of Member States in submitting proposals for new topics for the consideration of the International Law Commission, and noting in this regard the recommendation of the Commission that such proposals be accompanied by a statement of reasons,</p>
+      </container>
+      <container name="Reaffirming" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">Reaffirming</span> the importance for the successful work of the International Law Commission of the information provided by Member States concerning their views and practice,</p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">Recognizing</span> the importance of the work of the special rapporteurs of the International Law Commission,</p>
+      </container>
+      <container name="Welcoming" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">Welcoming</span> the holding of the International Law Seminar, and noting with appreciation the voluntary contributions made to the United Nations trust fund for the International Law Seminar,</p>
+      </container>
+      <container name="Acknowledging" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">Acknowledging</span> the importance of facilitating the timely publication of the <span class="italic">Yearbook of the International Law Commission</span> and of eliminating the backlog,</p>
+      </container>
+      <container name="Stressing" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">Stressing</span> the usefulness of focusing and structuring the debate on the report of the International Law Commission in the Sixth Committee in such a manner that conditions are provided for concentrated attention to each of the main topics dealt with in the report and for discussions on specific topics,</p>
+      </container>
+      <container name="Wishing" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">Wishing</span> to enhance further, in the context of the revitalization of the debate on the report of the International Law Commission, the interaction between the Sixth Committee as a body of governmental representatives and the Commission as a body of independent legal experts, with a view to improving the dialogue between the two bodies,</p>
+      </container>
+      <container name="Welcoming" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">Welcoming</span> initiatives to hold interactive debates, panel discussions and question time in the Sixth Committee, as envisaged in General Assembly resolution <a href="https://undocs.org/en/A/RES/58/316">58/316</a> of 1 July 2004 on further measures for the revitalization of the work of the Assembly,</p>
+      </container>
+      <container name="Noting" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">Noting</span> the oral reports at the informal briefing on 5 November 2020 by the Chair-designate for the seventy-second session of the International Law Commission and by the Secretariat on the activities of the Commission,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	See <a href="https://undocs.org/en/A/C.6/75/SR.13">A/C.6/75/SR.13</a>.</p></authorialNote></p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <span class="italic">Affirms</span> its decisions 74/545, 74/559 and 74/566;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note once again</span> of the report of the International Law Commission on the work of its seventy-first session;<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	See<span class="italic"> Official Records of the General Assembly, Seventy-fourth Session, Supplement No. 10</span> (<a href="https://undocs.org/en/A/74/10">A/74/10</a>).</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">
+            <span class="italic">Reiterates its appreciation</span> to the International Law Commission for the work accomplished at its seventy-first session;<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	Ibid.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">
+            <span class="italic">Recommends</span> that the International Law Commission continue its work on the topics in its current programme of work, taking into account the comments and observations of Governments, whether submitted in writing or expressed orally in debates in the Sixth Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">
+            <span class="italic">Draws the attention </span>of Governments to the importance for the International Law Commission of having their views, which remain welcome until 31 December 2020, on the various aspects of the topics on the agenda of the Commission, in particular on all the specific issues identified in chapter III of its report,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Ibid.</p></authorialNote> regarding:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <content eId="para_22__content">
+          <p xml:space="preserve">	(a)	Immunity of State officials from foreign criminal jurisdiction;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <content eId="para_23__content">
+          <p xml:space="preserve">	(b)	Succession of States in respect of State responsibility;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <content eId="para_24__content">
+          <p xml:space="preserve">	(c)	General principles of law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <content eId="para_25__content">
+          <p xml:space="preserve">	(d)	Sea-level rise in relation to international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>	6.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">
+            <span class="italic">Also draws the attention</span> of Governments to the importance for the International Law Commission of having their comments and observations on the draft conclusions on peremptory norms of general international law (<span class="italic">jus cogens</span>) and the draft principles on protection of the environment in relation to armed conflicts adopted on first reading by the Commission at its seventy-first session,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Ibid., paras. 56 and 70.</p></authorialNote> and takes note of the extension of the deadline to 30 June 2021 for Governments, international organizations and others, as applicable, to submit comments and observations to the Secretary-General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>	7.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note</span> of the decision of the International Law Commission to include the topic “Sea-level rise in relation to international law” in its programme of work,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Ibid., para. 285.</p></authorialNote> and encourages the Commission to continue the examination of the topics that are in its long-term programme of work;<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	The following topics are currently in the long-term programme of work of the International Law Commission: “Ownership and protection of wrecks beyond the limits of national maritime jurisdiction”, “Jurisdictional immunity of international organizations”, “Protection of personal data in transborder flow of information”, “Extraterritorial jurisdiction”, “The fair and equitable treatment standard in international investment law”, “Settlement of international disputes to which international organizations are parties”, “Evidence before international courts and tribunals”, “Universal criminal jurisdiction”, “Reparation to individuals for gross violations of international human rights law and serious violations of international humanitarian law” and “Prevention and repression of piracy and armed robbery at sea”.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>	8.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourages</span> the International Law Commission to take particular account of the capacity and views of Member States, as well as of the workload of the Commission, when including topics in its current programme of work;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>	9.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note</span> of paragraphs 289 to 291 of the report of the International Law Commission<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve"><span class="italic">Official Records of the General Assembly, Seventy-fourth Session, Supplement No. 10</span> (<a href="https://undocs.org/en/A/74/10">A/74/10</a>).</p></authorialNote> and notes, in particular, the inclusion of the topics “Reparation to individuals for gross violations of international human rights law and serious violations of international humanitarian law” and “Prevention and repression of piracy and armed robbery at sea” in the long-term programme of work of the Commission,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Ibid., para. 290.</p></authorialNote> and in this regard calls upon the Commission to take into consideration the comments, concerns and observations expressed by Governments during the debate in the Sixth Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>	10.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">
+            <span class="italic">Also takes note</span> of paragraph 302 of the report of the International Law Commission,<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve"><span class="italic">Official Records of the General Assembly, Seventy-fourth Session, Supplement No. 10</span> (<a href="https://undocs.org/en/A/74/10">A/74/10</a>).</p></authorialNote> and requests the Secretary-General to continue his efforts to identify concrete options for support for the work of special rapporteurs, additional to those provided under General Assembly resolution <a href="https://undocs.org/en/A/RES/56/272">56/272</a> of 27 March 2002;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>	11.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <span class="italic">Reiterates its appreciation </span>of the efforts of the International Law Commission to improve its methods of work,<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	 	Ibid., <span class="italic">Sixty-sixth Session, Supplement No. 10</span> (<a href="https://undocs.org/en/A/66/10">A/66/10</a>), paras. 370–388.</p></authorialNote> and encourages the Commission to continue this practice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>	12.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">
+            <span class="italic">Invites</span> the International Law Commission to continue to take measures to enhance its efficiency and productivity and to consider making proposals to Member States to that end;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>	13.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <span class="italic">Recalls</span> the importance of an in-depth analysis of State practice and the consideration of the diversity of legal systems of Member States to the work of the International Law Commission; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>	14.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note</span> of paragraph 306 of the report of the International Law Commission,<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-fourth Session, Supplement No. 10 </span>(<a href="https://undocs.org/en/A/74/10">A/74/10</a>).</p></authorialNote> recalls the paramount importance of multilingualism as set forth in General Assembly resolutions <a href="https://undocs.org/en/A/RES/69/324">69/324</a> of 11 September 2015 and <a href="https://undocs.org/en/A/RES/71/328">71/328</a> of 11 September 2017 on multilingualism, underlines the importance of having the documents of the Commission published in due time in the six official languages of the United Nations while ensuring their accuracy in all official languages, and to this end requests special rapporteurs to submit their reports within the time limits specified by the Secretariat, and the Secretariat to give due consideration to the quality of the translation of the documents of the Commission in the six official languages;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>	15.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourages</span> the International Law Commission to continue to take cost-saving measures at its future sessions, without prejudice to the efficiency and effectiveness of its work;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>	16.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">
+            <span class="italic">Recalls</span> that the seat of the International Law Commission is at the United Nations Office at Geneva;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>	17.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note</span> of the letter dated 10 September 2020 from the Chair of the International Law Commission at its seventy-first session and the Chair-designate for the seventy-second session of the Commission, and decides that the next session of the Commission shall be held at the United Nations Office at Geneva from 26 April to 4 June and from 5 July to 6 August 2021;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>	18.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">
+            <span class="italic">Stresses</span> the desirability of further enhancing the dialogue between the International Law Commission, in particular the special rapporteurs, and the Sixth Committee, and in this context encourages, inter alia, the continued practice of informal consultations in the form of discussions between the members of the Sixth Committee and the members of the Commission throughout the year;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>	19.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourages</span> delegations, during the debate on the report of the International Law Commission, to continue to adhere as far as possible to the structured work programme agreed to by the Sixth Committee and to consider presenting concise and focused statements;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>	20.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourages</span> Member States to consider being represented at the level of legal adviser during the first week in which the report of the International Law Commission is discussed in the Sixth Committee (International Law Week) to enable high-level discussions on issues of international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>	21.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">
+            <span class="italic">Underlines</span> in this regard the necessity to allow sufficient time for the consideration of the report of the International Law Commission in the Sixth Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>	22.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">Requests</span> the International Law Commission to continue to pay special attention to indicating in its annual report, for each topic, any specific issues on which expressions of views by Governments, either in the Sixth Committee or in written form, would be of particular interest in providing effective guidance for the Commission in its further work;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>	23.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note</span> of paragraphs 314 to 319 of the report of the International Law Commission<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	 	Ibid.</p></authorialNote> with regard to cooperation and interaction with other bodies, and encourages the Commission to continue the implementation of articles 16 (e), 25 and 26 of its statute in order to further strengthen cooperation between the Commission and other bodies concerned with international law, having in mind the usefulness of such cooperation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>	24.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">
+            <span class="italic">Notes</span> that consulting with national organizations and individual experts concerned with international law may assist Governments in considering whether to make comments and observations on drafts submitted by the International Law Commission and in formulating their comments and observations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>	25.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">
+            <span class="italic">Reaffirms</span> its previous decisions concerning the indispensable role of the Codification Division of the Office of Legal Affairs of the Secretariat in providing assistance to the International Law Commission, including in the preparation of memorandums and studies on topics on the agenda of the Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>	26.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">
+            <span class="italic">Also reaffirms</span> its previous decisions concerning the documentation and summary records of the International Law Commission;<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	 	See resolutions <a href="https://undocs.org/en/A/RES/32/151">32/151</a>, para. 10, and <a href="https://undocs.org/en/A/RES/37/111">37/111</a>, para. 5, and all subsequent resolutions on the annual reports of the International Law Commission to the General Assembly; see also <span class="italic">Yearbook of the International Law Commission 1982</span>, vol. II (Part Two), paras. 267–269 and 271, as well as all subsequent annual reports of the International Law Commission.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>	27.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">
+            <span class="italic">Stresses</span> the need to expedite the preparation of the summary records of the International Law Commission, and welcomes the continuation of the measures taken to streamline the processing of summary records during the sixty-fifth session of the Commission,<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve"><span class="italic">Official Records of the General Assembly, Sixty-eighth Session, Supplement No. 10</span> (<a href="https://undocs.org/en/A/68/10">A/68/10</a>), para. 183.</p></authorialNote> which have led to a more rational use of resources, and expresses its satisfaction that the summary records of the Commission, constituting <span class="italic">travaux préparatoires</span> in the progressive development and codification of international law, will not be subject to arbitrary length restrictions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>	28.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">
+            <span class="italic">Welcomes</span> the institutionalization of the practice of the Secretariat to include on the website of the International Law Commission the provisional summary records in English and French relating to the work of the Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>	29.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">
+            <span class="italic">Also welcomes</span> the efforts of the Secretariat in seeking to ensure the timely and efficient processing of the documents of the International Law Commission and the institutionalization of the experimental measures taken during the sixty-eighth session of the Commission to streamline the editing of those documents;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>	30.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note</span> of paragraph 303 of the report of the International Law Commission,<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	 	Ibid.,<span class="italic"> Seventy-fourth Session, Supplement No. 10 </span>(<a href="https://undocs.org/en/A/74/10">A/74/10</a>).</p></authorialNote> and underlines the importance of the publications of the Codification Division to the work of the Commission, welcomes in particular the issuance of the ninth edition of <span class="italic">The Work of the International Law Commission</span> also in Chinese, French, Russian and Spanish, and reiterates its request that the Secretary-General continue to publish <span class="italic">The Work of the International Law Commission</span> in all six official languages at the beginning of each quinquennium, the <span class="italic">Reports of International Arbitral Awards </span>in English or French and the <span class="italic">Summaries of the Judgments, Advisory Opinions and Orders of the International Court of Justice</span> in all six official languages every five years;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>	31.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">
+            <span class="italic">Also takes note</span> of paragraph 308 of the report of the International Law Commission,<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	 	Ibid.</p></authorialNote> stresses the unique value of the <span class="italic">Yearbook of the International Law Commission</span>, and requests the Secretary-General to ensure its timely publication in all official languages; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>	32.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">
+            <span class="italic">Expresses its appreciation</span> to Governments that have made voluntary contributions to the trust fund on the backlog relating to the <span class="italic">Yearbook of the International Law Commission</span>, and encourages further contributions to the trust fund;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>	33.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note</span> of paragraph 309 of the report of the International Law Commission,<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	 	Ibid.</p></authorialNote> expresses its satisfaction with the remarkable progress achieved in the past few years in reducing the backlog of the <span class="italic">Yearbook of the International Law Commission</span> in all six languages, welcomes the efforts made by the Division of Conference Management of the United Nations Office at Geneva, especially its Editing Section, in effectively implementing relevant resolutions of the General Assembly calling for the reduction of the backlog, encourages that Division to provide continuous necessary support to the Editing Section in advancing the <span class="italic">Yearbook of the International Law Commission</span>, and requests that updates on progress made in this respect be provided to the Commission on a regular basis;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>	34.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">
+            <span class="italic">Welcomes</span> the continuous efforts of the Codification Division to maintain and improve the website relating to the work of the International Law Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>	35.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">
+            <span class="italic">Expresses the hope</span> that the International Law Seminar will continue to be held in connection with the sessions of the International Law Commission and that an increasing number of participants representing the principal legal systems of the world, including in particular those from developing countries, will be given the opportunity to attend the Seminar, as well as delegates to the Sixth Committee, and appeals to States to continue to make urgently needed voluntary contributions to the United Nations trust fund for the International Law Seminar;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>	36.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">
+            <span class="italic">Requests</span> the Secretary-General to provide the International Law Seminar with adequate services, including interpretation, as required, and encourages him to continue to consider ways to improve the structure and content of the Seminar;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>	37.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">
+            <span class="italic">Underlines</span> the importance of the records and topical summary of the debate in the Sixth Committee for the deliberations of the International Law Commission, and in this regard requests the Secretary-General to forward to the Commission, for its attention, the records of the debate on the report of the Commission, together with such written statements as delegations may circulate in conjunction with their oral statements, and to prepare and distribute a topical summary of the debate, following established practice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>	38.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">
+            <span class="italic">Requests</span> the Secretariat to circulate to States, as soon as possible after the conclusion of the session of the International Law Commission, chapter II of its report containing a summary of the work of that session, chapter III containing the specific issues on which the views of Governments would be of particular interest to the Commission and the draft articles adopted on either first or second reading by the Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>	39.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">
+            <span class="italic">Also requests</span> the Secretariat to make the complete report of the International Law Commission available as soon as possible after the conclusion of the session of the Commission for the consideration of Member States with due anticipation and no later than the prescribed time limit for reports in the General Assembly;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>	40.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">
+            <span class="italic">Encourages</span> the International Law Commission to continue to consider ways in which specific issues on which the views of Governments would be of particular interest to the Commission could be framed so as to help Governments to have a better appreciation of the issues on which responses are required;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>	41.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">
+            <span class="italic">Recommends</span> that the debate on the report of the International Law Commission at the seventy-sixth session of the General Assembly commence on 25 October 2021.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="45th">45th plenary meeting</inline>
+        <eol />
+        <docDate date="2020-12-15" refersTo="#adoptionDate">15 December 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

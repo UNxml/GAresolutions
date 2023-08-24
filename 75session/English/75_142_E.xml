@@ -1,0 +1,195 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-15/75-142/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-15/75-142/"></FRBRuri>
+          <FRBRdate date="2020-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-15/75-142/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-15/75-142/eng@/"></FRBRuri>
+          <FRBRdate date="2020-12-22" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2020-12-15/75-142/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2020-12-15/75-142/eng@.xml"></FRBRuri>
+          <FRBRdate date="2021-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="public_institutions" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institutions" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-11-11" outcome="draftResolution" as="A/C.6/75/L.13" by="introduced in the Committee by the representative of Ghana on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="A/75/433" by="" refersTo="9" />
+        <step date="2020-12-15" outcome="adopted" as="A/75/PV.45" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Sixth Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-17229 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/75/142</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-22" class="rightSmall" refersTo="#dateOfIssuance">22 December 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="75" eId="coverPage_1__session_1">Seventy-fifth session</session>
+      </p>
+      <p>
+        <inline name="agenda item">Agenda item 87</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">The scope and application of the principle of universal jurisdiction</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 15 December 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[on the report of the Sixth Committee (<inline name="originating document">A/75/433, para. 9</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>75/142.</docNumber>
+        <docTitle refersTo="#resolutionTitle">The scope and application of the principle of universal jurisdiction</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Reaffirming its commitment" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">Reaffirming its commitment</span> to the purposes and principles of the Charter of the United Nations, to international law and to an international order based on the rule of law, which is essential for peaceful coexistence and cooperation among States,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">Recalling</span> its resolutions <a href="https://undocs.org/en/A/RES/64/117">64/117</a> of 16 December 2009, <a href="https://undocs.org/en/A/RES/65/33">65/33</a> of 6 December 2010, <a href="https://undocs.org/en/A/RES/66/103">66/103</a> of 9 December 2011, <a href="https://undocs.org/en/A/RES/67/98">67/98</a> of 14 December 2012, <a href="https://undocs.org/en/A/RES/68/117">68/117</a> of 16 December 2013, <a href="https://undocs.org/en/A/RES/69/124">69/124</a> of 10 December 2014, <a href="https://undocs.org/en/A/RES/70/119">70/119</a> of 14 December 2015, <a href="https://undocs.org/en/A/RES/71/149">71/149</a> of 13 December 2016, <a href="https://undocs.org/en/A/RES/72/120">72/120</a> of 7 December 2017, <a href="https://undocs.org/en/A/RES/73/208">73/208</a> of 20 December 2018 and <a href="https://undocs.org/en/A/RES/74/192">74/192</a> of 18 December 2019,</p>
+      </container>
+      <container name="Taking into account" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">Taking into account</span> the comments and observations of Governments and observers and the discussions held in the Sixth Committee at the sixty-fourth to seventy-fifth sessions of the General Assembly on the scope and application of universal jurisdiction,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	See <a href="https://undocs.org/en/A/C.6/64/SR.12">A/C.6/64/SR.12</a>, <a href="https://undocs.org/en/A/C.6/64/SR.13">A/C.6/64/SR.13</a>, <a href="https://undocs.org/en/A/C.6/64/SR.25">A/C.6/64/SR.25</a>, <a href="https://undocs.org/en/A/C.6/64/SR.1-28/Corrigendum">A/C.6/64/SR.1–28/Corrigendum</a>, <a href="https://undocs.org/en/A/C.6/65/SR.10">A/C.6/65/SR.10</a>, <a href="https://undocs.org/en/A/C.6/65/SR.11">A/C.6/65/SR.11</a>, <a href="https://undocs.org/en/A/C.6/65/SR.12">A/C.6/65/SR.12</a>, <a href="https://undocs.org/en/A/C.6/65/SR.27">A/C.6/65/SR.27</a>, <a href="https://undocs.org/en/A/C.6/65/SR.28">A/C.6/65/SR.28</a>, <a href="https://undocs.org/en/A/C.6/66/SR.12">A/C.6/66/SR.12</a>, <a href="https://undocs.org/en/A/C.6/66/SR.13">A/C.6/66/SR.13</a>, <a href="https://undocs.org/en/A/C.6/66/SR.17">A/C.6/66/SR.17</a>, <a href="https://undocs.org/en/A/C.6/66/SR.29">A/C.6/66/SR.29</a>, <a href="https://undocs.org/en/A/C.6/67/SR.12">A/C.6/67/SR.12</a>, <a href="https://undocs.org/en/A/C.6/67/SR.13">A/C.6/67/SR.13</a>, <a href="https://undocs.org/en/A/C.6/67/SR.24">A/C.6/67/SR.24</a>, <a href="https://undocs.org/en/A/C.6/67/SR.25">A/C.6/67/SR.25</a>, <a href="https://undocs.org/en/A/C.6/68/SR.12">A/C.6/68/SR.12</a>, <a href="https://undocs.org/en/A/C.6/68/SR.13">A/C.6/68/SR.13</a>, <a href="https://undocs.org/en/A/C.6/68/SR.14">A/C.6/68/SR.14</a>, <a href="https://undocs.org/en/A/C.6/68/SR.23">A/C.6/68/SR.23</a>, <a href="https://undocs.org/en/A/C.6/69/SR.11">A/C.6/69/SR.11</a>, <a href="https://undocs.org/en/A/C.6/69/SR.12">A/C.6/69/SR.12</a>, <a href="https://undocs.org/en/A/C.6/69/SR.28">A/C.6/69/SR.28</a>, <a href="https://undocs.org/en/A/C.6/70/SR.12">A/C.6/70/SR.12</a>, <a href="https://undocs.org/en/A/C.6/70/SR.13">A/C.6/70/SR.13</a>, <a href="https://undocs.org/en/A/C.6/70/SR.27">A/C.6/70/SR.27</a>, <a href="https://undocs.org/en/A/C.6/71/SR.13">A/C.6/71/SR.13</a>, <a href="https://undocs.org/en/A/C.6/71/SR.14">A/C.6/71/SR.14</a>, <a href="https://undocs.org/en/A/C.6/71/SR.15">A/C.6/71/SR.15</a>, <a href="https://undocs.org/en/A/C.6/71/SR.31">A/C.6/71/SR.31</a>, <a href="https://undocs.org/en/A/C.6/72/SR.13">A/C.6/72/SR.13</a>, <a href="https://undocs.org/en/A/C.6/72/SR.14">A/C.6/72/SR.14</a>, <a href="https://undocs.org/en/A/C.6/72/SR.28">A/C.6/72/SR.28</a>, <a href="https://undocs.org/en/A/C.6/73/SR.10">A/C.6/73/SR.10</a>, <a href="https://undocs.org/en/A/C.6/73/SR.11">A/C.6/73/SR.11</a>, <a href="https://undocs.org/en/A/C.6/73/SR.12">A/C.6/73/SR.12</a>, <a href="https://undocs.org/en/A/C.6/73/SR.33">A/C.6/73/SR.33</a>, <a href="https://undocs.org/en/A/C.6/74/SR.14">A/C.6/74/SR.14</a>, <a href="https://undocs.org/en/A/C.6/74/SR.15">A/C.6/74/SR.15</a>, <a href="https://undocs.org/en/A/C.6/74/SR.16">A/C.6/74/SR.16</a>, <a href="https://undocs.org/en/A/C.6/74/SR.17">A/C.6/74/SR.17</a>, <a href="https://undocs.org/en/A/C.6/75/SR.11">A/C.6/75/SR.11</a> and <a href="https://undocs.org/en/A/C.6/75/SR.12">A/C.6/75/SR.12</a>.</p></authorialNote></p>
+      </container>
+      <container name="Noting" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">Noting</span> the constructive dialogue in the Sixth Committee, including in the context of its working group, recognizing the diversity of views expressed by States, including concerns expressed in relation to the abuse or misuse of the principle of universal jurisdiction, and acknowledging, in order to make progress, the need for continuing discussions on the scope and application of the principle of universal jurisdiction in the Sixth Committee,</p>
+      </container>
+      <container name="Reiterating its commitment" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">Reiterating its commitment</span> to fighting impunity, and noting the views expressed by States that the legitimacy and credibility of the use of universal jurisdiction are best ensured by its responsible and judicious application consistent with international law,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>	1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">
+            <span class="italic">Takes note with appreciation</span> of the report of the Secretary-General prepared on the basis of comments and observations of Governments and relevant observers;<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"><a href="https://undocs.org/en/A/75/151">A/75/151</a>; see also <a href="https://undocs.org/en/A/65/181">A/65/181</a>, <a href="https://undocs.org/en/A/66/93">A/66/93</a>, <a href="https://undocs.org/en/A/66/93/Add.1">A/66/93/Add.1</a>, <a href="https://undocs.org/en/A/67/116">A/67/116</a>, <a href="https://undocs.org/en/A/68/113">A/68/113</a>, <a href="https://undocs.org/en/A/69/174">A/69/174</a>, <a href="https://undocs.org/en/A/70/125">A/70/125</a>, <a href="https://undocs.org/en/A/71/111">A/71/111</a>, <a href="https://undocs.org/en/A/72/112">A/72/112</a>, <a href="https://undocs.org/en/A/73/123">A/73/123</a>, <a href="https://undocs.org/en/A/73/123/Add.1">A/73/123/Add.1</a> and <a href="https://undocs.org/en/A/74/144">A/74/144</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>	2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">
+            <span class="italic">Decides</span> that the Sixth Committee shall continue its consideration of the scope and application of universal jurisdiction, without prejudice to the consideration of this topic and related issues in other forums of the United Nations, and for this purpose decides to establish, at its seventy-seventh session, a working group of the Sixth Committee to continue to undertake a thorough discussion of the scope and application of universal jurisdiction;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>	3.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">
+            <span class="italic">Invites</span> Member States and relevant observers to the General Assembly, as appropriate, to submit, before 30 April 2021, information and observations on the scope and application of universal jurisdiction, including, where appropriate, information on the relevant applicable international treaties and on their national legal rules and judicial practice, and requests the Secretary-General to prepare and submit to the Assembly at its seventy-sixth session a report based on such information and observations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>	4.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">
+            <span class="italic">Decides</span> that the working group shall be open to all Member States and that relevant observers to the General Assembly will be invited to participate in the work of the working group;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>	5.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">
+            <span class="italic">Also decides</span> to include in the provisional agenda of its seventy-sixth session the item entitled “The scope and application of the principle of universal jurisdiction”.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="45th">45th plenary meeting</inline>
+        <eol />
+        <docDate date="2020-12-15" refersTo="#adoptionDate">15 December 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
