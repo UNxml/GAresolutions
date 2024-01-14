@@ -1,0 +1,638 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-189/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-189/"></FRBRuri>
+          <FRBRdate date="2023-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-189/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-189/eng@/"></FRBRuri>
+          <FRBRdate date="2023-12-22" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-189/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-189/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-01-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Permanent Forum on Indigenous Issues" showAs="UN. Permanent Forum on Indigenous Issues" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Voluntary Fund for Indigenous Peoples" showAs="UN Voluntary Fund for Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Declaration on the Rights of Indigenous Peoples (2007)" showAs="UN Declaration on the Rights of Indigenous Peoples (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade of Indigenous Languages (2022–2032)" showAs="International Decade of Indigenous Languages (2022–2032)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDIGENOUS PEOPLES" href="http://metadata.un.org/thesaurus/1003106" showAs="INDIGENOUS PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS ADVANCEMENT" href="http://metadata.un.org/thesaurus/1002977" showAs="HUMAN RIGHTS ADVANCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGES" href="http://metadata.un.org/thesaurus/1003621" showAs="LANGUAGES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL DECADES" href="http://metadata.un.org/thesaurus/1003299" showAs="INTERNATIONAL DECADES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" href="http://metadata.un.org/thesaurus/2000002" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="68a" showAs="Rights of indigenous peoples." shortForm="INDIGENOUS PEOPLES" dictionary="A/78/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-10-30" outcome="draftResolution" as="A/C.3/78/L.20/Rev.1" by="Argentina, Armenia, Australia, Belize, Bolivia (Plurinational State of), Brazil, Canada, Chile, Colombia, Costa Rica, Denmark, Dominican Republic, Ecuador, Finland, Guatemala, Guyana, Honduras, Iceland, Mexico, New Zealand, Nicaragua, North Macedonia, Norway, Palau, Paraguay, Spain, Sweden, United States of America and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Austria, Bosnia and Herzegovina, Burundi, Central African Republic, Cuba, Cyprus, Dominica, El Salvador, Estonia, Greece, Ireland, Latvia, Luxembourg, Malta, Panama, Peru, Slovenia, South Africa, Trinidad and Tobago and Ukraine" />
+        <step date="2023-11-21" outcome="recommendedForAdoption" as="A/78/477" by="" refersTo="11" />
+        <step date="2023-12-19" outcome="adopted" as="A/78/PV.50" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Third Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-26047 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/78/189</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-12-22" class="rightSmall" refersTo="#dateOfIssuance">22 December 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="78" eId="coverPage_1__session_1">Seventy-eighth session</session>
+      </p>
+      <p>
+        <inline title="68 (a)" name="agenda item">Agenda item 68 (a)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Rights of Indigenous Peoples: rights of Indigenous Peoples</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 19 December 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[on the report of the Third Committee (<inline name="originating document">A/78/477, para. 11</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>78/189.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Rights of Indigenous Peoples</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> all relevant resolutions of the General Assembly, the Human Rights Council and the Economic and Social Council relating to the rights of Indigenous Peoples, reaffirming its resolutions <a href="https://undocs.org/en/A/RES/65/198">65/198</a> of 21 December 2010, <a href="https://undocs.org/en/A/RES/66/142">66/142</a> of 19 December 2011, <a href="https://undocs.org/en/A/RES/67/153">67/153</a> of 20 December 2012, <a href="https://undocs.org/en/A/RES/68/149">68/149</a> of 18 December 2013, <a href="https://undocs.org/en/A/RES/69/2">69/2</a> of 22 September 2014, <a href="https://undocs.org/en/A/RES/69/159">69/159</a> of 18 December 2014, <a href="https://undocs.org/en/A/RES/70/232">70/232</a> of 23 December 2015, <a href="https://undocs.org/en/A/RES/71/178">71/178</a> of 19 December 2016, <a href="https://undocs.org/en/A/RES/71/321">71/321</a> of 8 September 2017, <a href="https://undocs.org/en/A/RES/72/155">72/155</a> of 19 December 2017, <a href="https://undocs.org/en/A/RES/72/247">72/247</a> of 24 December 2017, <a href="https://undocs.org/en/A/RES/73/156">73/156</a> of 17 December 2018, <a href="https://undocs.org/en/A/RES/74/135">74/135</a> of 18 December 2019, <a href="https://undocs.org/en/A/RES/75/168">75/168</a> of 16 December 2020, <a href="https://undocs.org/en/A/RES/76/148">76/148</a> of 16 December 2021, and <a href="https://undocs.org/en/A/RES/77/203">77/203</a> of 15 of December of 2022, and recalling Human Rights Council resolutions <a href="https://undocs.org/en/A/HRC/RES/27/13">27/13</a> of 25 September 2014,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	See <span class="italic">Official Records of the General Assembly, Sixty-ninth Session, Supplement No. 53A</span> and corrigenda (<a href="https://undocs.org/en/A/69/53/Add.1">A/69/53/Add.1</a>, <a href="https://undocs.org/en/A/69/53/Add.1/Corr.1">A/69/53/Add.1/Corr.1</a> and <a href="https://undocs.org/en/A/69/53/Add.1/Corr.2">A/69/53/Add.1/Corr.2</a>), chap. IV, sect. A.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/30/4">30/4</a> of 1 October 2015,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventieth Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/70/53/Add.1">A/70/53/Add.1</a>), chap. III.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/33/12">33/12</a> and <a href="https://undocs.org/en/A/HRC/RES/33/13">33/13</a> of 29 September 2016,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-first Session, Supplement No. 53A</span> and corrigendum (<a href="https://undocs.org/en/A/71/53/Add.1">A/71/53/Add.1</a> and <a href="https://undocs.org/en/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>), chap. II.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/36/14">36/14</a> of 28 September 2017,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-second Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/72/53/Add.1">A/72/53/Add.1</a>), chap. III.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/39/13">39/13</a> of 28 September 2018,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-third Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/73/53/Add.1">A/73/53/Add.1</a>), chap. II.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/42/19">42/19</a> of 26 September 2019,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-fourth Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/74/53/Add.1">A/74/53/Add.1</a>), chap. III.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/45/12">45/12</a> of 6 October 2020,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-fifth Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/75/53/Add.1">A/75/53/Add.1</a>), chap. III.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/48/11">48/11</a> of 8 October 2021,<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-sixth Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/76/53/Add.1">A/76/53/Add.1</a>), chap. IV, sect. A.</p></authorialNote> <a href="https://undocs.org/en/A/HRC/RES/51/18">51/18</a> of 6 October 2022,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	Ibid., <span class="italic">Seventy-seventh Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/77/53/Add.1">A/77/53/Add.1</a>), chap. III, sect. A.</p></authorialNote> and <a href="https://undocs.org/en/A/HRC/RES/54/12">54/12</a> of 11 October 2023, </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the United Nations Declaration on the Rights of Indigenous Peoples,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/61/295">61/295</a>, annex.</p></authorialNote> which addresses the individual and collective rights of Indigenous Peoples and has positively influenced the drafting of several constitutions and statutes at the national and local levels and contributed to the progressive development of international and national legal frameworks and policies, </p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the outcome document of the high-level plenary meeting of the General Assembly known as the World Conference on Indigenous Peoples, held in New York on 22 and 23 September 2014,<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/69/2">69/2</a>.</p></authorialNote> in which Heads of State and Government, ministers and representatives of Member States reiterated the important and continuing role of the United Nations in promoting and protecting the rights of Indigenous Peoples, recalling also the inclusive preparatory process for the high-level plenary meeting, including the comprehensive engagement of the representatives of Indigenous Peoples, and welcoming and reaffirming the commitments, measures and efforts undertaken by States, the United Nations system, Indigenous Peoples and other actors in its implementation, </p>
+      </container>
+      <container name="Encouraging" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> the active engagement of Indigenous Peoples in the implementation of the outcome document of the high-level plenary meeting of the General Assembly known as the World Conference on Indigenous Peoples, including at the regional and global levels, and inviting the General Assembly to consider holding a follow-up World Conference on Indigenous Peoples to enable follow-up on the implementation of the outcome document,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the 2030 Agenda for Sustainable Development,<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and stressing the need to ensure that no one is left behind and to endeavour to reach the furthest behind first, in particular Indigenous Peoples, who should participate in, contribute to and benefit without discrimination from the implementation of the 2030 Agenda, and encouraging Member States to give due consideration to all the rights of Indigenous Peoples while implementing the 2030 Agenda, </p>
+      </container>
+      <container name="Stressing" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of promoting and pursuing the objectives of the United Nations Declaration on the Rights of Indigenous Peoples also through international cooperation to support national and regional efforts and instruments to achieve the ends of the Declaration, including the right to maintain and strengthen the distinct political, legal, economic, social and cultural institutions of Indigenous Peoples and the right to participate fully, if they so choose, in the political, economic, social and cultural life of the State, </p>
+      </container>
+      <container name="Reiterating" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> that the coronavirus disease (COVID‑19) pandemic is one of the greatest global challenges, and noting with deep concern its impact on individuals and groups of society, in particular Indigenous Peoples, on loss of life, health, mental health and well-being, and the enjoyment of human rights, and across all spheres of society, including on livelihoods, food security and nutrition, and education, the exacerbation of poverty and hunger, and disruption to economies, trade, societies and environments, and that these effects disproportionately impact poor, vulnerable and marginalized segments of the population, as well as women and girls, </p>
+      </container>
+      <container name="Expressing deep concern" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> about the rise in discrimination, hate speech, stigmatization, racism, racial discrimination, xenophobia and related intolerance, including against Indigenous Peoples exacerbated by the COVID‑19 pandemic, and stressing the need to counter them, in a manner consistent with international human rights law, as part of the responses to COVID‑19 and other health emergencies, </p>
+      </container>
+      <container name="Condemning" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> the cases of threats, harassment, reprisals and murder of Indigenous Peoples, in particular women and girls, and persons with disabilities, often with impunity, as well as land invasions, arbitrary forced evictions and other abusive practices, </p>
+      </container>
+      <container name="Condemning" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> the increase of cases of intimidation, harassment and reprisals against Indigenous human rights defenders and Indigenous leaders, including Indigenous women, as well as Indigenous Peoples’ representatives attending United Nations meetings and United Nations mandate holders working on the rights of Indigenous Peoples, and expressing its concern at the practice of some countries, including those hosting meetings on Indigenous issues, of intentionally or in a discriminatory manner delaying or denying entry visas to United Nations mandate holders or Indigenous Peoples’ representatives, or applying additional travel restrictions to them that interfere, inter alia, with their ability to participate in or return from such meetings,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Bearing in mind</span> the policy instruments in the Global Compact for Safe, Orderly and Regular Migration<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/73/195">73/195</a>, annex.</p></authorialNote> for Member States to draw on, including to respond to the needs of migrants who face situations of vulnerability, including Indigenous Peoples,</p>
+      </container>
+      <container name="Noting" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the importance to Indigenous women and girls of the United Nations Declaration on the Rights of Indigenous Peoples, and the Indigenous and Tribal Peoples Convention, 1989 (No. 169), of the International Labour Organization,<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1650, No. 28383.</p></authorialNote> </p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Taking note with appreciation</span> of the agreed conclusions of the sixty-third session of the Commission on the Status of Women,<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	 	See <span class="italic">Official Records of the Economic and Social Council, 2019, Supplement No. 7</span> (<a href="https://undocs.org/en/E/2019/27">E/2019/27</a>), chap. I, sect. A.</p></authorialNote> in which Governments at all levels and as appropriate, with the relevant entities of the United Nations system and international and regional organizations, within their respective mandates and bearing in mind national priorities, were urged to promote and protect the rights of Indigenous women and girls, including those living in rural and remote areas, by addressing the multiple and intersecting forms of discrimination and barriers they face, including violence, ensuring access to quality and inclusive education, health care, public services, economic resources, including land and natural resources, and women’s access to decent work, and promoting their meaningful participation in the economy and in decision-making processes at all levels and in all areas, while respecting and protecting their traditional and ancestral knowledge, recognizing that Indigenous women and girls, including those living in rural and remote areas, regardless of age, often face violence and higher rates of poverty, limited access to health-care services, information and communications technologies, infrastructure, financial services, education and employment, while recognizing also their cultural, social, economic, political and environmental contributions, including to climate change mitigation and adaptation, </p>
+      </container>
+      <container name="Recognizing" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that violence against Indigenous women and girls, online and offline, has a negative impact on their enjoyment of human rights and fundamental freedoms and constitutes a major impediment to Indigenous women’s full, equal, meaningful and effective participation in society, the economy and political decision-making, and in this regard recalling Human Rights Council resolution <a href="https://undocs.org/en/A/HRC/RES/32/19">32/19</a> of 1 July 2016, entitled “Accelerating efforts to eliminate violence against women: preventing and responding to violence against women and girls, including Indigenous women and girls”,<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	 	See <span class="italic">Official Records of the General Assembly, Seventy-first Session, Supplement No. 53</span> (<a href="https://undocs.org/en/A/71/53">A/71/53</a>), chap. V, sect. A.</p></authorialNote> which brings closer attention to this issue, and recognizing also the negative effects of multiple and intersecting forms of discrimination, </p>
+      </container>
+      <container name="Taking note" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of general recommendation No. 39 (2022) on the rights of Indigenous women and girls<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	 	<a href="https://undocs.org/en/CEDAW/C/GC/39">CEDAW/C/GC/39</a>.</p></authorialNote> of the Committee on the Elimination of Discrimination against Women, and noting further that it provides recommendations to States parties on legislative, policy and other relevant measures to ensure the implementation of the Convention on the Elimination of All Forms of Discriminations Against Women,<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1249, No. 20378.</p></authorialNote> </p>
+      </container>
+      <container name="Stressing" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of the empowerment and capacity-building of Indigenous women and youth, including their full, meaningful, equal and effective participation in decision-making processes in matters that affect them directly, including policies, programmes and resources, where relevant, that target the well-being of Indigenous women, children and youth, in particular in the areas of quality health services, inclusive quality education, productive employment and decent work, the transmission of traditional, scientific and technical knowledge, languages, spiritual and religious traditions and practices, and the importance of taking measures to promote awareness and understanding of their rights, </p>
+      </container>
+      <container name="Recognizing" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of the International Year of Indigenous Languages and the International Decade of Indigenous Languages to draw attention to the critical loss of Indigenous languages and the urgent need to preserve, revitalize and promote Indigenous languages, including sign languages, and to take further urgent steps to that end at the national and international levels, taking into consideration challenges related to high linguistic diversity, including the promotion, translation and interpretation of international instruments to Indigenous languages,</p>
+      </container>
+      <container name="Stressing" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Stressing</span> the importance of the preservation, revitalization and promotion of Indigenous languages for the empowerment of Indigenous language users, speakers and signers, and the preservation of Indigenous Peoples’ cultures, traditions and knowledge, and recognizing the potential of the positive contribution of digital technologies in this regard, </p>
+      </container>
+      <container name="Recognizing" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the important contribution of Indigenous Peoples in addressing a range of issues on the international agenda, </p>
+      </container>
+      <container name="Recognizing also" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> the importance to Indigenous Peoples of revitalizing, using, developing and transmitting to future generations their histories, languages, oral traditions, cultures, knowledge, philosophies, writing systems and literature, </p>
+      </container>
+      <container name="Taking note" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of World Health Assembly resolution 76.16 of 30 May 2023 entitled “The health of Indigenous Peoples”, in which the World Health Assembly recalls relevant principles in the United Nations Declaration on the Rights of Indigenous Peoples, reaffirms that Indigenous Peoples have the right to their traditional medicines and to maintain their health practices, including the conservation of their vital medicinal plants, and also reaffirms that Indigenous individuals have the right to access, without any discrimination, all social and health services, </p>
+      </container>
+      <container name="Deeply concerned" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Deeply concerned</span> that, in many cases, suicide rates in Indigenous Peoples’ communities, in particular among Indigenous youth and children, are significantly higher than in the general population, and recognizing the need to support a holistic approach to social and emotional well-being through connection to land, culture, spirituality and ancestry, in addition to access to mental health services and psychosocial support,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Bearing in mind</span> the importance of promoting respect for the rights of Indigenous children, in particular eliminating the worst forms of child labour, in accordance with international law, including relevant human rights law and international labour law obligations, </p>
+      </container>
+      <container name="Recognizing" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of access to justice in the promotion and protection of the rights of Indigenous Peoples and individuals and the need to examine and take steps to remove obstacles to justice for Indigenous Peoples, especially for Indigenous women, children, youth, older persons and persons with disabilities, </p>
+      </container>
+      <container name="Reiterating" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the responsibility of transnational corporations and other business enterprises to respect all human rights, while recognizing the specific challenges that may be faced by Indigenous Peoples, and all applicable laws and international principles and to operate transparently and in a socially and environmentally responsible manner, and emphasizing the need to refrain from negatively affecting the well-being of Indigenous Peoples and to take further action towards corporate responsibility and accountability, including the prevention, mitigation and remediation of human rights abuses, in line with the Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework,<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/17/31">A/HRC/17/31</a>, annex.</p></authorialNote> </p>
+      </container>
+      <container name="Taking note" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the work carried out by the Special Rapporteur on the rights of Indigenous Peoples, including on the protection of Indigenous human rights defenders, welcoming his report entitled “Tourism and the rights of Indigenous Peoples”,<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/78/162">A/78/162</a>.</p></authorialNote> and calling upon all States to consider the recommendations contained in the report, </p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Taking note with appreciation</span> of the decision of the Human Rights Council, in its resolution <a href="https://undocs.org/en/A/HRC/RES/54/12">54/12</a>,<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">	 	See <span class="italic">Official Records of the General Assembly, Seventy-eighth Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/78/53/Add.1">A/78/53/Add.1</a>), chap. III, sect. A.</p></authorialNote> that the theme of the annual half-day panel discussion on the rights of Indigenous Peoples to be held during the fifty-seventh session of the Human Rights Council will be on laws, policies, judicial decisions and other measures that States have taken, consistent with article 38 of the United Nations Declaration on the Rights of Indigenous Peoples, to achieve the ends of the Declaration, and looking forward to the summary report thereon to be prepared by the Office of the United Nations High Commissioner for Human Rights, </p>
+      </container>
+      <container name="Noting" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the discussions to enhance the participation of Indigenous Peoples in the work of the Human Rights Council, including the discussions and recommendations of the four-day expert workshop, held from 21 to 24 November 2022, convened to discuss recommendations on possible ways to ensure the enhanced participation of Indigenous Peoples in the work of the Council, and taking note of the summary report thereon prepared by the Office of the High Commissioner,<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/53/44">A/HRC/53/44</a>.</p></authorialNote> </p>
+      </container>
+      <container name="Taking note" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the summary report prepared by the Office of the United Nations High Commissioner for Human Rights on the half-day panel discussion, held on 28 September 2022 on the impact of social and economic recovery plans in the context of the coronavirus disease (COVID‑19) pandemic on Indigenous Peoples, with special focus on food security,<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/53/43">A/HRC/53/43</a>.</p></authorialNote> </p>
+      </container>
+      <container name="Recognizing" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of free, prior and informed consent, as outlined in the United Nations Declaration on the Rights of Indigenous Peoples,</p>
+      </container>
+      <container name="Recognizing and reaffirming" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Recognizing and reaffirming</span> that Indigenous individuals are entitled without discrimination to all human rights recognized in international law, and that Indigenous Peoples possess collective rights as set out in the United Nations Declaration on the Rights of Indigenous Peoples, which are indispensable for their existence, well-being and integral development as peoples, </p>
+      </container>
+      <container name="Recognizing" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the value and the diversity of the cultures and the form of social organization of Indigenous Peoples and their holistic traditional knowledge of their lands, natural resources and environment, and stressing that Indigenous Peoples, including those who are in voluntary isolation or initial contact, have the right to self-determination, and can choose to live in accordance with their traditions,</p>
+      </container>
+      <container name="Noting" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the General Assembly, in the outcome document of the high-level plenary meeting of the Assembly known as the World Conference on Indigenous Peoples, affirmed and recognized the importance of Indigenous Peoples’ religious and cultural sites and of providing access to and repatriation of their ceremonial objects and human remains, as contemplated in the United Nations Declaration on the Rights of Indigenous Peoples, </p>
+      </container>
+      <container name="Commending" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Commending</span> Member States, cultural, religious and educational institutions, museums, Indigenous Peoples and civil society for their efforts to combat the illicit trade in Indigenous Peoples’ cultural property, and welcoming all initiatives, whether by States, institutions or private persons, for the voluntary return of Indigenous Peoples’ cultural property that has been illicitly appropriated, </p>
+      </container>
+      <container name="Recognizing" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that agricultural practices and forestry that include Indigenous traditional knowledge and innovations can contribute to overcoming the combined challenges of climate change, food insecurity, biodiversity conservation and combating desertification and land degradation, </p>
+      </container>
+      <container name="Recognizing also" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> the importance of facilitating Indigenous Peoples’ livelihoods, which may be achieved by, inter alia, the recognition of their traditions, land tenure systems, adequate public policies and economic empowerment, </p>
+      </container>
+      <container name="Recognizing further" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Recognizing further</span> that the economic empowerment, inclusion and development of all Indigenous Peoples, especially Indigenous women, including through the establishment of Indigenous-owned businesses, can enable them to improve their social, cultural, civil and political engagement, achieve greater economic independence and build more sustainable and resilient communities, and noting the contribution of Indigenous Peoples to the broader economy, </p>
+      </container>
+      <container name="Concerned" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Concerned</span> about the extreme disadvantages that Indigenous Peoples have typically faced across a range of social and economic indicators and about the impediments to their full enjoyment of their rights, in particular for all women, young women and girls, </p>
+      </container>
+      <container name="Stressing" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need to pay particular attention to the rights and special needs of Indigenous women, children, youth, older persons and persons with disabilities, as set out in the United Nations Declaration on the Rights of Indigenous Peoples, including in the process of protecting and promoting their equal access to justice, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Notes with appreciation</span> the work of the Expert Mechanism on the Rights of Indigenous Peoples, the Permanent Forum on Indigenous Issues and the Special Rapporteur on the rights of Indigenous Peoples, takes note of the reports of the Special Rapporteur,<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/54/31/Add.1">A/HRC/54/31/Add.1</a> and <a href="https://undocs.org/en/A/HRC/54/31/Add.2">A/HRC/54/31/Add.2</a>.</p></authorialNote> and encourages all Governments to respond favourably to the requests of the Special Rapporteur for visits; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the United Nations High Commissioner for Human Rights on the rights of Indigenous Peoples,<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/54/39">A/HRC/54/39</a>.</p></authorialNote> the report of the Special Rapporteur on the rights of Indigenous Peoples entitled “Green financing – a just transition to protect the rights of Indigenous Peoples”<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/54/31">A/HRC/54/31</a>.</p></authorialNote> and the reports of the Expert Mechanism on the Rights of Indigenous Peoples entitled “Impact of militarization on the rights of Indigenous Peoples”<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/54/52">A/HRC/54/52</a>.</p></authorialNote> and “Efforts to implement the United Nations Declaration on the Rights of Indigenous Peoples: establishing effective monitoring mechanisms at the national and regional levels for implementation of the Declaration”;<authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/HRC/EMRIP/2023/3">A/HRC/EMRIP/2023/3</a>.</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Governments and the United Nations system, in consultation and cooperation with Indigenous Peoples through their representatives and institutions, to continue to implement appropriate measures at the national level, including legislative measures, to achieve the ends of the United Nations Declaration on the Rights of Indigenous Peoples and to promote awareness of it among all sectors of society, including members of legislatures, the judiciary and the civil service, as well as among Indigenous Peoples, and invites international and regional organizations, within their respective mandates, national human rights institutions, where they exist, civil society, including non‑governmental organizations, and other relevant actors to contribute to those efforts; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> the importance of implementing the outcome document of the high-level plenary meeting of the General Assembly known as the World Conference on Indigenous Peoples, and reiterates the commitment of Member States to cooperating with Indigenous Peoples, through their own representative institutions, to develop and implement national action plans, strategies or other measures, where relevant, to achieve the ends of the United Nations Declaration on the Rights of Indigenous Peoples, and acknowledges the positive development that several States have developed, or are in the process of developing, national action plans and domestic legislation for their implementation with the coordination of Indigenous Peoples; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the leadership of the Secretary-General and of the Under-Secretary-General for Economic and Social Affairs, as the responsible senior official of the United Nations system, in overseeing the implementation of and in following up on the system-wide action plan to ensure a coherent approach to achieving the ends of the United Nations Declaration on the Rights of Indigenous Peoples, raising awareness of the rights of Indigenous Peoples and increasing the coherence of the activities of the system in this regard, and encourages the funds, programmes and specialized agencies of the United Nations system, resident coordinators and United Nations country teams to implement this plan in full alignment with national development needs and priorities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, resident coordinators and United Nations country teams, within their mandates and in coordination with the Governments concerned, to involve Indigenous Peoples regarding issues affecting them in the preparation of the United Nations Sustainable Development Cooperation Frameworks and country programme action plans; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Reminds</span> Member States to work towards achieving the ends of the United Nations Declaration on the Rights of Indigenous Peoples; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> those States that have not yet ratified or acceded to the Indigenous and Tribal Peoples Convention, 1989 (No. 169), of the International Labour Organization to consider doing so; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to implement World Health Assembly resolution 76.16 of 30 May 2023 entitled “The health of Indigenous Peoples”, and invites the Director-General of the World Health Organization to take into account the present resolution while developing a global plan of action for the health of Indigenous Peoples within the framework of resolution 76.16 and his mandate for the consideration of the seventy-ninth World Health Assembly;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the need for Member States to ensure protection for Indigenous Peoples affected by the COVID‑19 pandemic and protection from future health emergencies, and prevent all forms of discrimination, especially in the context of timely, universal, inclusive, equitable and non‑discriminatory access to safe, quality, effective and affordable health care and services and medical supplies and equipment, including diagnostics, therapeutics, medicine and vaccines, and through the dissemination of accurate, clear and evidence- and science-based information, including in Indigenous languages as appropriate, and to leave no one behind, with an endeavour to reach the furthest behind first, founded on the dignity of the human person and reflecting the principles of equality and non‑discrimination, and calls upon Member States to put in place an inclusive response to and recovery from the COVID‑19 pandemic and engage with Indigenous Peoples and other relevant stakeholders to fully empower all in improving and protecting their own health; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that Indigenous Peoples have the right to their traditional medicines and to maintain their health practices,<authorialNote marker="29" placement="bottom" eId="authorialNote_29"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/61/295">61/295</a>, annex, art. 24, para. 1.</p></authorialNote> including, inter alia, the conservation of their vital medicinal plants, as part of the response to the COVID‑19 pandemic and its consequences, and also reaffirms that Indigenous individuals have the right to access, without any discrimination, to all social and health services; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the report of the Secretary-General on the status of the United Nations Voluntary Fund for Indigenous Peoples,<authorialNote marker="30" placement="bottom" eId="authorialNote_30"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/77/179">A/77/179</a>.</p></authorialNote> encourages Governments and intergovernmental and non‑governmental organizations to continue to contribute to the trust fund on Indigenous issues and the United Nations Voluntary Fund for Indigenous Peoples and invites Indigenous organizations and private institutions and individuals to do likewise, and notes the importance of accessibility, accountability, transparency and balanced geographical distribution in the management of those funds; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">Also recalls</span> the expansion of the mandate of the United Nations Voluntary Fund for Indigenous Peoples so that it can assist representatives of Indigenous Peoples’ organizations and communities in participating, whether in person or alternatively by electronic means, in other mechanisms and negotiations such as the Forum on Business and Human Rights and in the Conference of the Parties to the United Nations Framework Convention on Climate Change, including in its preparatory sessions and in the meetings of the Local Communities and Indigenous Peoples Platform Facilitative Working Group organized by the secretariat of the Convention, in accordance with their respective rules and regulations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the ongoing work and potential of the Local Communities and Indigenous Peoples Platform of the United Nations Framework Convention on Climate Change, emphasizes the important role of Indigenous Peoples in achieving the targets and goals set out in the United Nations Framework Convention on Climate Change,<authorialNote marker="31" placement="bottom" eId="authorialNote_31"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1771, No. 30822.</p></authorialNote> the Paris Agreement<authorialNote marker="32" placement="bottom" eId="authorialNote_32"><p xml:space="preserve">	 	See <a href="https://undocs.org/en/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decision 1/CP.21, annex.</p></authorialNote> and the 2030 Agenda for Sustainable Development, and recognizes that Indigenous Peoples are among the first to face the direct consequences of climate change owing to their dependence upon and close relationship with the environment and its resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the disproportionate impact of climate change on Indigenous Peoples due to their direct reliance on ecosystems, including for meeting their basic needs and engaging in traditional and other economic activities, and further emphasizes that climate change poses a threat to the survival, dignity and well-being of Indigenous Peoples, and exacerbates the existing inequities and challenges they face;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_161__content">
+          <p xml:space="preserve">	<span class="italic">Also stresses</span> the urgent need to enhance adaptive capacity, strengthen resilience and reduce vulnerability of Indigenous Peoples to climate change and extreme weather events, and to support the leadership, knowledge, technologies, practices and efforts of Indigenous Peoples to address and respond to climate change, and encourages Member States to take measures that will ensure the full and effective participation of Indigenous Peoples in decision-making processes relating to climate change on issues affecting them, including Indigenous women, youth, older persons and persons with disabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Further stresses</span> the importance of enhancing the participation of Indigenous Peoples in processes and negotiations on issues that affect them, including, but not limited to, the United Nations Framework Convention on Climate Change and the Paris Agreement,<authorialNote marker="33" placement="bottom" eId="authorialNote_33"><p xml:space="preserve">	 	Adopted under the UNFCCC in <a href="https://undocs.org/en/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decision 1/CP.21. </p></authorialNote> and the Kunming-Montreal Biodiversity Framework<authorialNote marker="34" placement="bottom" eId="authorialNote_34"><p xml:space="preserve">	 	Adopted at the fifteenth meeting of the Conference of the Parties to the Convention on Biological Diversity (Part II), Montreal, Canada, 7–19 December 2022.</p></authorialNote> under the United Nations Convention on Biological Diversity;<authorialNote marker="35" placement="bottom" eId="authorialNote_35"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1760, No. 30619.</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_194" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States and the private sector to ensure more sustainable, environmentally friendly and responsible corporate behaviour that addresses the adverse environmental impact of certain business activities, such as illegal logging and mining, uncontrolled agribusiness expansions, unsustainable large-scale infrastructure development projects and extractive industries on the lands and territories traditionally inhabited by Indigenous Peoples and on the well-being of Indigenous Peoples;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to continue to observe the International Day of Indigenous Peoples every year on 9 August, and requests the Secretary-General to support the observance of the Day from within existing resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_231" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_231__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States and all organizations and bodies of the United Nations system and other international and regional organizations, the private sector and academia, as well as civil society, including non‑governmental organizations, to observe the International Day of Indigenous Peoples in an appropriate manner, including through educational and public awareness-raising activities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_251" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_251__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to give due consideration to all the rights of Indigenous Peoples in fulfilling the commitments undertaken in the 2030 Agenda and in the elaboration of national action plans and programmes as well as international and regional programmes, applying the pledge to leave no one behind and to endeavour to reach the furthest behind first; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States to continue to consider including in their voluntary national reviews for the high-level political forum on sustainable development and their national and global reports information related to Indigenous Peoples on the progress made and challenges in the implementation of the 2030 Agenda, bearing in mind paragraphs 78 and 79 of the 2030 Agenda, and also encourages States to compile disaggregated data to measure progress and to ensure that no one is left behind; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_294" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_294__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> States, according to their relevant national context and characteristics, to collect and disseminate data disaggregated by ethnicity, income, gender, age, race, migratory status, disability, geographic location or other factors, as appropriate, in order to monitor and improve the impact of development policies, strategies and programmes aimed at improving the well-being of Indigenous Peoples and individuals, to combat and eliminate violence and multiple and intersecting forms of discrimination against them and to support work towards the achievement of the Sustainable Development Goals and the 2030 Agenda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_317" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_317__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to foster an enabling online environment that is safe and conducive to engagement by all Indigenous Peoples, and to take all necessary and appropriate measures to address disinformation and advocacy of hatred constituting incitement to discrimination, hostility or violence towards Indigenous Peoples; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_341" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_341__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Secretary-General to include information pertinent to Indigenous Peoples in the forthcoming annual reports on progress towards the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_366" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_366__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to strengthen the commitment of States and the entities of the United Nations system to mainstream the promotion and protection of the rights of Indigenous Peoples into development policies and programmes at the national, regional and international levels, and encourages them to give due consideration to the rights of Indigenous Peoples in achieving the goals of the 2030 Agenda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_392" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_392__content">
+          <p xml:space="preserve">	<span class="italic">Also stresses</span> the need for Indigenous Peoples of all regions to contribute to the high-level political forum on sustainable development, and encourages States to engage with Indigenous Peoples at the local, national and regional levels in relation to the Sustainable Development Goals and to promote Indigenous Peoples’ leadership in their achievement; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_419" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_419__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Expert Mechanism on the Rights of Indigenous Peoples, the Permanent Forum on Indigenous Issues and the Special Rapporteur on the rights of Indigenous Peoples to give due consideration, within their mandates, to the rights of Indigenous Peoples as related to the implementation of the 2030 Agenda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_447" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_447__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Permanent Forum on Indigenous Issues to continue to provide inputs on Indigenous issues to the high-level political forum on sustainable development for consideration in its thematic reviews; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_476" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_476__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the need to intensify efforts, in cooperation with Indigenous Peoples, to prevent and eliminate all forms of violence, harassment and discrimination, both online and offline, against Indigenous women, children, youth, older persons and persons with disabilities and to support measures that will ensure their empowerment and full, meaningful and effective participation in decision-making processes at all levels and in all areas and eliminate structural and legal barriers to their full, equal and effective participation in political, economic, social and cultural life;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_506" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_506__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> States to take necessary measures where appropriate to ensure the rights, protection and safety of Indigenous Peoples, including Indigenous leaders and Indigenous human rights defenders, and to promote a safe and enabling environment in which human rights violations, killings, reprisals and abuses against or related to them are prevented and investigated, the perpetrators are held accountable and access to justice and remedy are ensured; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_537" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_537__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the importance of effective accountability with regard to violence against Indigenous women and girls, including all forms of sexual and gender-based violence, domestic violence, abuse, exploitation and sexual harassment, as well as with regard to taking adequate measures to prevent and eliminate such violence; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_569" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_569__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States to consider including in their reports related to Indigenous Peoples and women information on the progress made and challenges in the implementation of Commission on the Status of Women resolutions 49/7 of 11 March 2005, entitled “Indigenous women: beyond the ten-year review of the Beijing Declaration and Platform for Action”,<authorialNote marker="36" placement="bottom" eId="authorialNote_36"><p xml:space="preserve">	 	See <span class="italic">Official Records of the Economic and Social Council, 2005, Supplement No. 7</span> and corrigendum (<a href="https://undocs.org/en/E/2005/27">E/2005/27</a> and <a href="https://undocs.org/en/E/2005/27/Corr.1(Supp)">E/2005/27/Corr.1</a>), chap. I, sect. D.</p></authorialNote> and 56/4 of 9 March 2012, entitled “Indigenous women: key actors in poverty and hunger eradication”,<authorialNote marker="37" placement="bottom" eId="authorialNote_37"><p xml:space="preserve">	 	Ibid., <span class="italic">2012, Supplement No. 7</span> and corrigendum (<a href="https://undocs.org/en/E/2012/27">E/2012/27</a> and <a href="https://undocs.org/en/E/2012/27/Corr.1">E/2012/27/Corr.1</a>), chap. I, sect. D.</p></authorialNote> as well as to consider general recommendation No. 39 (2022) on the rights of Indigenous women and girls of the Committee on the Elimination of Discrimination against Women;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_602" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_602__content">
+          <p xml:space="preserve">	<span class="italic">Takes note </span>of the work of the Commission on the Status of Women on gender equality and the empowerment of all women and girls, including Indigenous women and girls, and suggests that the Commission consider in a future session the issue of gender equality and the empowerment of Indigenous women and girls as a priority theme;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_636" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_636__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the proclamation of the period 2022–2032 as the International Decade of Indigenous Languages, to draw attention to the critical loss of Indigenous languages and the urgent need to preserve, revitalize and promote Indigenous languages and to take urgent steps at the national, regional and international levels, and renew its support to the United Nations Educational, Scientific and Cultural Organization to serve as the lead agency for the International Decade through the global action plan, in collaboration with the Department of Economic and Social Affairs of the Secretariat, and other relevant agencies, within existing resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_671" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_671__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the adoption by Member States of national action plans with an intergenerational approach to preserve, revitalize and promote Indigenous languages, including sign languages, and engage with public and private actors to enhance the use of digital technologies involving and empowering Indigenous Peoples, while respecting their cultures, traditions and autonomy;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_707" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_707__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the importance of Indigenous languages as a driver for the achievement of the Sustainable Development Goals, and calls upon Member States to integrate the preservation, promotion and revitalization of Indigenous languages in the wider efforts to implement the 2030 Agenda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_744" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_744__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the importance of creating international, regional and national initiatives to promote the use of Indigenous languages, such as the Ibero‑American Institute of Indigenous Languages, and in this regard encourages Member States to explore the creation of such initiatives; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_782" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_782__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to consider establishing national mechanisms with adequate funding for the successful implementation of the International Decade of Indigenous Languages, in partnership with Indigenous Peoples, and to support Indigenous Peoples, as custodians of their own languages, to initiate and develop appropriate measures for the implementation of the International Decade, with the aim to preserve, revitalize and promote Indigenous languages; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_821" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_821__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the United Nations pursues multilingualism as a means of promoting, protecting and preserving diversity of languages and cultures globally, reaffirms that linguistic diversity is an important element of cultural diversity, and encourages Member States to adopt public policies with an intercultural approach in their design and implementation, aiming to preserve, revitalize and promote Indigenous languages, the possibility of including educational programmes that reinforce the use of Indigenous languages among children and youth by using an intergenerational approach with the participation of Indigenous elders, as well as the promotion and use of Indigenous languages at the international level; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_861" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_861__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the right of Indigenous Peoples to establish their own media in their own languages and to have access to all forms of non‑Indigenous media without discrimination, and calls upon States to promote and examine national policies, practices and funding programmes on Indigenous media, including on capacity-building and content production in Indigenous languages by Indigenous content producers and media professionals, especially Indigenous women, and to foster international cooperation, knowledge-sharing and cooperation among Indigenous media and other partners, including mainstream media and Governments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_902" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_902__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Governments to redouble efforts to eliminate child labour, both in legislation and in practice, in the context of respect for the human rights of Indigenous children, including through international cooperation, as appropriate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_944" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_944__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Governments to promote actions to end hunger and malnutrition in all its forms and achieve food security and improved nutrition for Indigenous children, especially for those living in rural and remote areas, by providing them with adequate access to food, water and sanitation, education, including intercultural and multilingual education, and universal and equitable access to quality health services, and to implement actions for poverty eradication and build sustainable food systems; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_987" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_987__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Governments to ensure that Indigenous Peoples shall not be forcibly removed from their lands or territories and that no relocation shall take place without the free, prior and informed consent of the Indigenous Peoples concerned, after agreement on just and fair compensation and, where possible, with the option of return, and to take effective measures to ensure that all Indigenous Peoples, regardless of their tenure status, have access to essential services, including access to safe and affordable water, sanitation, energy and health services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1031" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1031__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> transnational corporations and other business enterprises to respect human rights, including the rights of Indigenous children, and to eliminate forced labour and child labour from their operations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1076" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1076__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern</span> over the misappropriation and misuse of Indigenous Peoples’ cultural heritage, reaffirms that Indigenous Peoples have the right to maintain, control, protect and develop their cultural heritage, traditional knowledge and traditional cultural expressions, and that they also have the right to maintain, control, protect and develop their intellectual property over such cultural heritage, traditional knowledge and traditional cultural expressions, and recalls that States, in conjunction with Indigenous Peoples, shall take effective measures to recognize and protect the exercise of these rights, in accordance with the United Nations Declaration on the Rights of Indigenous Peoples, and as acknowledged in national law; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1122" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1122__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> the need to ensure equal protection of the law and equality before the courts for Indigenous women and girls at all levels and, to that end, the importance of providing systematic gender-sensitivity training, as appropriate, for police and security forces, prosecutors, judges and lawyers, integrating gender considerations into security sector reform initiatives, developing protocols and guidelines and enhancing or putting in place appropriate accountability measures for adjudicators; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1169" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1169__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States and entities of the United Nations system to strengthen international cooperation, including to address the disadvantages faced by Indigenous Peoples, and to increase technical cooperation and financial assistance in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1217" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1217__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the World Health Organization, the United Nations Children’s Fund and other relevant United Nations agencies, funds and programmes, in accordance with their mandates, to carry out research and evidence-gathering on the prevalence and root causes of suicide among Indigenous youth and children and good practices on its prevention and to consider developing, as appropriate, strategies or policies, consistent with national priorities, in cooperation with Member States, to tackle it, including through consultation with Indigenous Peoples, in particular Indigenous youth organizations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1266" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1266__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the report of the Secretary-General on enhancing the participation of Indigenous Peoples’ representatives and institutions in meetings of relevant United Nations bodies on issues affecting them,<authorialNote marker="38" placement="bottom" eId="authorialNote_38"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/75/255">A/75/255</a>.</p></authorialNote> and recalls with appreciation the work led by the Presidents of the General Assembly at its seventieth to seventy-fifth sessions in conducting consultations with Member States, Indigenous Peoples’ representatives and institutions from all regions of the world and existing mechanisms of the United Nations on possible measures to enable the participation of Indigenous Peoples’ representatives and institutions in meetings of relevant United Nations bodies on issues affecting them, which led to the adoption of Assembly resolution <a href="https://undocs.org/en/A/RES/71/321">71/321</a>, taking into account the achievements in that regard of other bodies and organizations throughout the United Nations system, to be preceded by consultations with Indigenous Peoples’ representatives and institutions from all regions of the world as an input to the intergovernmental process; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1316" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1316__content">
+          <p xml:space="preserve">	<span class="italic">Takes note with appreciation</span> of the summary reports of the three informal interactive hearings on possible further measures necessary to enhance the participation of Indigenous Peoples’ representatives and institutions in relevant United Nations meetings on issues affecting them, held at United Nations Headquarters on 17 April 2018, 25 April 2019 and 20 April 2023, recalls General Assembly resolution <a href="https://undocs.org/en/A/RES/70/232">70/232</a>, whereby the Assembly requested the President of the General Assembly to conduct timely, inclusive, representative and transparent consultations with Member States, Indigenous Peoples’ representatives and institutions from all regions of the world, and existing relevant mechanisms of the United Nations, on the possible measures necessary, including procedural and institutional steps and accreditation criteria, to enable the participation of Indigenous Peoples’ representatives and institutions in meetings of relevant United Nations bodies on issues affecting them, and also recalls Assembly resolutions <a href="https://undocs.org/en/A/RES/71/321">71/321</a> and <a href="https://undocs.org/en/A/RES/77/203">77/203</a>, whereby the Assembly decided to continue the consideration of possible further measures necessary to enhance the participation of Indigenous Peoples’ representatives and institutions in relevant United Nations meetings on issues affecting them at the seventy-eighth session, as originally requested in resolution <a href="https://undocs.org/en/A/RES/71/321">71/321</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1367" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1367__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the President of the General Assembly to convene, within existing resources, a high-level event to commemorate the tenth anniversary of the adoption of the outcome document of the high-level plenary meeting of the General Assembly known as the World Conference on Indigenous Peoples in order to raise awareness of the importance of pursuing its objectives; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1419" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1419__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations system to strengthen cooperation with the Fund for the Development of the Indigenous Peoples of Latin America and the Caribbean, considering its fundamental role in the Latin American and Caribbean region in processes of dialogue and consultation between States and Indigenous Peoples; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1472" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1472__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to continue its consideration of the question at its seventy-ninth session, under the item entitled “Rights of Indigenous Peoples”, and to maintain in the provisional agenda the sub-item entitled “Follow-up to the outcome document of the high-level plenary meeting of the General Assembly known as the World Conference on Indigenous Peoples”.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50th" refersTo="#adoptionMeeting">50th plenary meeting</location>
+          <eol />
+          <docDate date="2023-12-19" refersTo="#adoptionDate">19 December 2023</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
