@@ -1,0 +1,812 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-217/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-217/"></FRBRuri>
+          <FRBRdate date="2023-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-217/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-217/fra@/"></FRBRuri>
+          <FRBRdate date="2023-12-22" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-217/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-217/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-01-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (1990)" showAs="International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (1990)" dictionary="DHLAUTH"></keyword>
+        <keyword value="MIGRANTS" href="http://metadata.un.org/thesaurus/1004110" showAs="MIGRANTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS ADVANCEMENT" href="http://metadata.un.org/thesaurus/1002977" showAs="HUMAN RIGHTS ADVANCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MIGRANT WORKERS" href="http://metadata.un.org/thesaurus/1004108" showAs="MIGRANT WORKERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MIGRATION POLICY" href="http://metadata.un.org/thesaurus/1004113" showAs="MIGRATION POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAFFICKING IN PERSONS" href="http://metadata.un.org/thesaurus/1006622" showAs="TRAFFICKING IN PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="71b" showAs="Human rights questions, including alternative approaches for improving the effective enjoyment of human rights and fundamental freedoms." shortForm="HUMAN RIGHTS ADVANCEMENT" dictionary="A/78/251"></keyword>
+        <keyword refersTo="agenda" value="71b[10]" showAs="MIGRANTS--PROTECTION" shortForm="MIGRANTS--PROTECTION" dictionary="A/78/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-11-09" outcome="draftResolution" as="A/C.3/78/L.52/Rev.1" by="Argentina, Armenia, Colombia, Ecuador, Haiti, Honduras, Kyrgyzstan, Mexico, North Macedonia, Portugal, Uruguay and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Bangladesh, Belarus, Bolivia (Plurinational State of), Brazil, Burundi, Cabo Verde, Canada, Costa Rica, Côte d'Ivoire, Cyprus, Egypt, El Salvador, Germany, Guatemala, Ireland, Luxembourg, Malawi, Morocco, Paraguay, Peru, Philippines, Spain, Tajikistan and Türkiye" />
+        <step date="2023-12-04" outcome="recommendedForAdoption" as="A/78/481/Add.2" by="" refersTo="139" />
+        <step date="2023-12-19" outcome="adopted" as="A/78/PV.50" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Troisième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-25999 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/78/217</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-12-22" class="rightSmall" refersTo="#dateOfIssuance">22 décembre 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="78" eId="coverPage_1__session_1">Soixante-dix-huitième session</session>
+      </p>
+      <p>
+        <inline title="71 b)" name="agenda item">Point 71 b) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 19 décembre 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sur la base du rapport de la Troisième Commission (<inline name="originating document">A/78/481/Add.2, par. 139</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>78/217.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Protection des migrants</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> toutes ses résolutions antérieures sur la protection des migrants, la plus récente étant la résolution <a href="https://undocs.org/fr/A/RES/76/172">76/172</a> du 16 décembre 2021, et rappelant également les résolutions du Conseil des droits de l’homme <a href="https://undocs.org/fr/A/HRC/RES/35/17">35/17</a> du 22 juin 2017<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-douzième session, Supplément n</span><sup>o</sup><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/72/53">A/72/53</a>), chap. V, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/36/5">36/5</a> du 28 septembre 2017<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Ibid., <span class="italic">Supplément n</span><sup>o</sup><span class="italic"> 53A</span> (<a href="https://undocs.org/fr/A/74/53/Add.1">A/74/53/Add.1</a>), chap. III.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/41/7">41/7</a> du 11 juillet 2019<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Ibid., <span class="italic">soixante-quatorzième session, Supplément n</span><sup>o</sup><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/74/53">A/74/53</a>), chap. V, sect. A.</p></authorialNote>, <a href="https://undocs.org/fr/A/HRC/RES/47/12">47/12</a> du 12 juillet 2021<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Ibid., <span class="italic">soixante-seizième session, Supplément n</span><sup>o</sup><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/76/53">A/76/53</a>), chap. VII, sect. A.</p></authorialNote> et <a href="https://undocs.org/fr/A/HRC/RES/53/24">53/24</a> du 13 juillet 2023<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid., <span class="italic">soixante-dix-huitième session, Supplément n</span><sup>o</sup><span class="italic"> 53</span> (<a href="https://undocs.org/fr/A/78/53">A/78/53</a>), chap. VII, sect. A.</p></authorialNote>,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> la Déclaration universelle des droits de l’homme<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/217(III)">217 A (III)</a>.</p></authorialNote>, qui proclame que tous les êtres humains naissent libres et égaux en dignité et en droits et que chacun peut se prévaloir de tous les droits et de toutes les libertés qu’elle consacre, sans distinction aucune, notamment de race,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant </span>que toute personne a le droit de circuler librement et de choisir sa résidence à l’intérieur des frontières d’un État, ainsi que de quitter tout pays, y compris le sien, et de revenir dans son pays,</p>
+      </container>
+      <container name="Soulignant de nouveau" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant de nouveau</span> que chacun a droit à la reconnaissance en tout lieu de sa personnalité juridique,</p>
+      </container>
+      <container name="Considérant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant </span>que la migration a toujours fait et continuera de faire partie de l’histoire humaine, réaffirmant que tous les migrants, quel que soit leur statut migratoire, sont titulaires de droits humains, soulignant la nécessité de protéger leur sécurité et leur dignité et de respecter, de protéger et de garantir leurs droits humains et leurs libertés fondamentales, sans discrimination aucune, tout en favorisant la sécurité, le bien-être et la prospérité de toutes les communautés,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> tous les instruments internationaux pertinents, en particulier le Pacte international relatif aux droits civils et politiques<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Voir résolution <a href="https://undocs.org/fr/A/RES/2200(XXI)">2200 A (XXI)</a>, annexe.</p></authorialNote> et le Pacte international relatif aux droits économiques, sociaux et culturels<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Ibid.</p></authorialNote>, la Convention contre la torture et autres peines ou traitements cruels, inhumains ou dégradants<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1465, n<sup>o</sup> 24841.</p></authorialNote>, la Convention internationale pour la protection de toutes les personnes contre les disparitions forcées<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Ibid., vol. 2716, n<sup>o</sup> 48088.</p></authorialNote>, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Ibid., vol. 1249, n<sup>o</sup> 20378.</p></authorialNote>, la Convention relative aux droits de l’enfant<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Ibid., vol. 1577, n<sup>o</sup> 27531.</p></authorialNote>, la Convention internationale sur l’élimination de toutes les formes de discrimination raciale<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Ibid., vol. 660, n<sup>o</sup> 9464.</p></authorialNote>, la Convention relative aux droits des personnes handicapées<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Ibid., vol. 2515, n<sup>o</sup> 44910.</p></authorialNote>, la Convention de Vienne sur les relations consulaires<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Ibid., vol. 596, n<sup>o</sup> 8638.</p></authorialNote>, la Convention internationale sur la protection des droits de tous les travailleurs migrants et des membres de leur famille<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Ibid., vol. 2220, n<sup>o</sup> 39481.</p></authorialNote> et la Convention des Nations Unies contre la criminalité transnationale organisée et les Protocoles additionnels s’y rapportant<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Ibid., vol. 2225, 2237, 2241 et 2326, n<sup>o</sup> 39574.</p></authorialNote>, en particulier le Protocole contre le trafic illicite de migrants par terre, air et mer<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Ibid., vol. 2241, n<sup>o</sup> 39574.</p></authorialNote> et le Protocole visant à prévenir, réprimer et punir la traite des personnes, en particulier des femmes et des enfants<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		Ibid., vol. 2237, n<sup>o</sup> 39574.</p></authorialNote>, ainsi que les contributions importantes, à cet égard, du Comité pour la protection des droits de tous les travailleurs migrants et des membres de leur famille,</p>
+      </container>
+      <container name="Rappelant également" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> la teneur du Pacte mondial pour des migrations sûres, ordonnées et régulières, qui a été adopté à la Conférence intergouvernementale chargée d’adopter le Pacte mondial pour des migrations sûres, ordonnées et régulières, tenue à Marrakech (Maroc) les 10 et 11 décembre 2018, et qu’elle a fait sien dans sa résolution <a href="https://undocs.org/fr/A/RES/73/195">73/195</a> du 19 décembre 2018,</p>
+      </container>
+      <container name="Rappelant" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> que le Pacte mondial repose sur l’ensemble de principes transversaux et interdépendants suivants : priorité à la dimension humaine, coopération internationale, souveraineté nationale, primauté du droit et garanties d’une procédure régulière, développement durable, droits humains, prise en compte des questions de genre, adaptation aux besoins de l’enfant, approche mobilisant l’ensemble des pouvoirs publics et approche mobilisant l’ensemble de la société,</p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> la Déclaration du Forum d’examen des migrations internationales sur les progrès réalisés, qu’elle a approuvée dans sa résolution <a href="https://undocs.org/fr/A/RES/76/266">76/266</a> du 7 juin 2022,</p>
+      </container>
+      <container name="Reconnaissant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reconnaissant</span> le droit souverain des États de définir leurs politiques migratoires nationales et leur droit de gérer les migrations relevant de leur compétence, dans le respect du droit international, en particulier des obligations qui leur incombent en vertu du droit international des droits humains et du droit international des réfugiés,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> le Programme de développement durable à l’horizon 2030<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote>, et rappelant les objectifs de développement durable n<sup>os</sup> 8 et 10, notamment les cibles consistant à défendre les droits des travailleurs et à promouvoir la sécurité sur le lieu de travail pour tous les travailleurs, y compris les migrants, en particulier les femmes et ceux qui ont un emploi précaire, et à faciliter la migration et la mobilité de façon ordonnée, sûre, régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées et bien gérées, comme indiqué dans la Déclaration de New York pour les réfugiés et les migrants<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/71/1">71/1</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Se réjouissant" eId="container_13">
+          <p xml:space="preserve">
+            <span class="italic">	Se réjouissant </span>à la perspective de la tenue, en 2024, des examens régionaux concernant la mise en œuvre du Pacte mondial pour des migrations sûres, ordonnées et régulières,</p>
+      </container>
+      <container name="Rappelant" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> l’importance du programme pour un travail décent de l’Organisation internationale du Travail, notamment pour les travailleurs migrants, des 10 conventions fondamentales de ladite organisation ainsi que du Pacte mondial pour l’emploi, adopté par la Conférence internationale du Travail à sa quatre-vingt-dix-huitième session,</p>
+      </container>
+      <container name="Saluant" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> le travail accompli par les pays champions du Pacte mondial et le Groupe des Amis des migrations, y compris leur initiative de partager les idées, les enseignements tirés et les pratiques prometteuses à l’appui de la mise en œuvre du Pacte mondial,</p>
+      </container>
+      <container name="Se réjouissant" eId="container_16">
+          <p xml:space="preserve">	<span class="italic">Se réjouissant</span> à la perspective de la quatorzième réunion au sommet du Forum mondial sur la migration et le développement, qui se tiendra à Genève du 23 au 25 janvier 2024 sous la présidence de la France, sur le thème général « Des préoccupations environnementales aux aspects culturels de la migration : adopter une approche inclusive pour relever les défis et accroître les opportunités de la mobilité humaine »,</p>
+      </container>
+      <container name="Rappelant" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> les dispositions concernant les migrants qui figurent dans les textes issus des grandes conférences et réunions au sommet des Nations Unies, y compris le Document final de la Conférence sur la crise financière et économique mondiale et son incidence sur le développement<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/63/303">63/303</a>, annexe.</p></authorialNote>, le Programme de développement durable à l’horizon 2030 et le Nouveau Programme pour les villes<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/71/256">71/256</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Rappelant également" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> les résolutions 2006/2 et 2009/1 de la Commission de la population et du développement, en date des 10 mai 2006<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2006, Supplément n</span><sup>o</sup><span class="italic"> 5 </span>(<a href="https://undocs.org/fr/E/2006/25">E/2006/25</a>), chap. I, sect. B.</p></authorialNote> et 3 avril 2009<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		Ibid., <span class="italic">2009</span>, <span class="italic">Supplément n</span><sup>o</sup><span class="italic"> 5 </span>(<a href="https://undocs.org/fr/E/2009/25">E/2009/25</a>), chap. I, sect. B.</p></authorialNote>, ainsi que sa résolution 2013/1 du 26 avril 2013 relative aux aspects démographiques de l’évolution des migrations<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		Ibid., <span class="italic">2013</span>, <span class="italic">Supplément n</span><sup>o</sup><span class="italic"> 5 </span>(<a href="https://undocs.org/fr/E/2013/25">E/2013/25</a>), chap. I, sect. B.</p></authorialNote>,</p>
+      </container>
+      <container name="Prenant note" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> des avis consultatifs OC‑16/99 du 1<sup>er</sup> octobre 1999 relatif au droit à l’information sur l’assistance consulaire dans le cadre des garanties du droit à une procédure régulière, OC‑18/03 du 17 septembre 2003 sur le statut juridique et les droits des migrants sans papiers, et OC‑21/14 du 19 août 2014 sur les droits et les garanties des enfants dans le contexte de la migration et ceux des enfants ayant besoin d’une protection internationale, qu’a rendus la Cour interaméricaine des droits de l’homme,</p>
+      </container>
+      <container name="Prenant note également" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Prenant note également</span> des arrêts rendus par la Cour internationale de Justice le 31 mars 2004 en l’affaire <span class="italic">Avena et autres ressortissants mexicains</span><authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		<span class="italic">Documents officiels de l’Assemblée générale, cinquante-neuvième session, Supplément n</span><sup>o</sup><span class="italic"> 4 </span>(<a href="https://undocs.org/fr/A/59/4">A/59/4</a>), chap. V, sect. A.23.</p></authorialNote> et le 19 janvier 2009 concernant la demande en interprétation de l’arrêt rendu en l’affaire <span class="italic">Avena</span><authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">		Ibid., <span class="italic">soixante-quatrième session, Supplément n</span><sup>o</sup><span class="italic"> 4 </span>(<a href="https://undocs.org/fr/A/64/4">A/64/4</a>), chap. V, sect. B.12.</p></authorialNote>, respectivement, et rappelant les obligations des États qui sont réaffirmées dans ces deux décisions,</p>
+      </container>
+      <container name="Sachant" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Sachant</span> le rôle positif que jouent des millions de personnes migrantes, dont des travailleuses migrantes, et leurs contributions à l’action menée face à la pandémie de maladie à coronavirus (COVID‑19) et au relèvement, notamment en tant que travailleurs essentiels, et demeurant profondément préoccupée par le fait que la pandémie a eu des effets graves et disproportionnés sur les migrants, tels qu’une exposition accrue à la COVID‑19, la discrimination, la violence, les pertes d’emploi, le vol de salaire, la séparation prolongée des familles et l’accès limité ou inexistant aux services de santé et autres services de base, y compris aux vaccins, à la protection sociale, à l’éducation et aux services à l’enfance, ainsi qu’à la santé mentale, et par le fait qu’ils sont contraints à des retours ayant lieu dans des conditions dangereuses et indignes,</p>
+      </container>
+      <container name="Consciente" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> du rôle positif des migrants et des contributions qu’ils apportent à une croissance inclusive et au développement durable dans les pays d’origine, de transit et de destination, notamment en enrichissant les sociétés par leurs capacités humaines, socioéconomiques et culturelles,</p>
+      </container>
+      <container name="Soulignant" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> l’importance du rôle que le Conseil des droits de l’homme joue dans la promotion du respect des droits humains et des libertés fondamentales de tous, y compris les migrants,</p>
+      </container>
+      <container name="Consciente" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente </span>que les femmes représentent près de la moitié de tous les migrants internationaux et, à cet égard, que la contribution positive des travailleuses migrantes est susceptible de favoriser une croissance inclusive et le développement durable dans les pays d’origine, de transit et de destination, mettant l’accent sur la valeur et la dignité de leur travail dans tous les secteurs, y compris dans celui des soins à la personne et du travail domestique, et appuyant les efforts faits pour améliorer l’image que le public a des migrants et des migrations,</p>
+      </container>
+      <container name="Inquiète" eId="container_25">
+          <p xml:space="preserve">	<span class="italic">Inquiète</span> que la violence de genre, en particulier contre les migrantes, trouve son origine dans les inégalités historiques et structurelles des rapports de force entre femmes et hommes, qui renforcent encore les stéréotypes de genre et les obstacles empêchant toutes les femmes et les filles migrantes d’exercer pleinement leurs droits humains,</p>
+      </container>
+      <container name="Consciente" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> des contributions apportées sur les plans économique et culturel par les migrants à leurs communautés d’origine et de destination, ainsi que de la nécessité de trouver les moyens de tirer le meilleur parti des avantages que présentent les migrations pour le développement et de faire face aux difficultés qu’elles posent aux pays d’origine, de transit et de destination, de promouvoir un traitement digne et humain des migrants en leur offrant les moyens de protection requis et un accès aux services de base, et de renforcer les mécanismes de la coopération internationale,</p>
+      </container>
+      <container name="Considérant" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant </span>que les migrations peuvent renforcer les liens sociaux, culturels et économiques entre les nations et qu’elles peuvent être facilitées par des accords conclus dans le cadre de processus d’intégration régionale visant à renforcer les échanges en matière d’éducation, la mobilité de la main-d’œuvre et la portabilité des droits de sécurité sociale applicables et des avantages acquis par les travailleurs migrants,</p>
+      </container>
+      <container name="Soulignant" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> le caractère multidimensionnel des migrations internationales, l’importance, à ce sujet, de la coopération et du dialogue aux niveaux international, régional et bilatéral, selon le cas, ainsi que la nécessité de protéger les droits humains de tous les migrants, en particulier à l’heure où, du fait de la mondialisation de l’économie, les flux migratoires à l’intérieur des régions et d’une région à l’autre se multiplient et se produisent sur fond de préoccupations persistantes en matière de sécurité,</p>
+      </container>
+      <container name="Consciente" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente </span>que les déplacements massifs de migrants ont des ramifications politiques, économiques, sociales, humanitaires et des ramifications en matière de développement et de droits humains, qui requièrent des approches et des solutions mondiales et qu’aucun État ne peut gérer à lui seul,</p>
+      </container>
+      <container name="Profondément préoccupée" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Profondément préoccupée</span> par le nombre considérable et croissant de migrants, en particulier de femmes et d’enfants, dont certains non accompagnés ou séparés de leurs parents, qui se retrouvent en situation de vulnérabilité lorsqu’ils franchissent ou en tentent de franchir les frontières internationales, et considérant que les États sont tenus de respecter les droits humains de ces migrants conformément à leurs obligations internationales applicables en matière de droits humains, et réaffirmant les engagements pris d’agir pour éviter que des migrants perdent la vie et de faire respecter l’interdiction des expulsions collectives, ainsi que la nécessité de prévenir les violations des droits humains dans tous les contextes de migration,</p>
+      </container>
+      <container name="Reconnaissant" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Reconnaissant</span> qu’il faut redoubler d’efforts pour améliorer et diversifier les possibilités de migrations sûres, ordonnées et régulières, compte tenu notamment des réalités de la démographie et du marché du travail,</p>
+      </container>
+      <container name="Consciente" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> qu’il est nécessaire de veiller à ce que les migrants renvoyés soient accueillis et réadmis comme il se doit, conformément aux obligations des États de ne pas priver arbitrairement leurs ressortissants du droit d’entrer dans leur propre pays et de réadmettre leurs propres ressortissants,</p>
+      </container>
+      <container name="Sachant" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> qu’il importe de coordonner les actions internationales visant à apporter une protection, une assistance et un soutien adéquats aux migrants en situation de vulnérabilité et, s’il y a lieu, à faciliter leur retour volontaire, en toute sécurité et dans la dignité dans leur pays d’origine ou les procédures permettant de déterminer si une protection internationale est nécessaire, tout en respectant le principe de non-refoulement,</p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Ayant à l’esprit</span> l’obligation que le droit international impose aux États, le cas échéant, d’agir avec la diligence voulue pour prévenir les crimes visant les migrants, d’enquêter sur ces crimes et d’en punir les auteurs, et considérant que tout manquement à cette obligation constitue une violation des droits humains et des libertés fondamentales des victimes, en compromet l’exercice ou le rend impossible,</p>
+      </container>
+      <container name="Préoccupée" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Préoccupée </span>par le fait qu’il reste difficile pour les migrants de recevoir de l’aide humanitaire et d’y accéder, tout comme d’accéder aux opérations de recherche et de sauvetage et aux soins médicaux, ce qui crée des situations de vulnérabilité et les exacerbe,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> qu’elle est résolue à préserver la vie de tous les migrants et à prendre des mesures pour prévenir les pertes en vies humaines et, dans ce contexte, demeurant profondément préoccupée par le fait que des milliers de migrants, dont des femmes et des enfants, continuent de mourir ou de disparaître chaque année en empruntant des itinéraires périlleux sur terre et en mer,</p>
+      </container>
+      <container name="Soulignant" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> qu’il importe que, à tous les niveaux de l’État, toutes les réglementations et lois relatives aux migrations irrégulières soient conformes aux obligations que le droit international, notamment le droit international des droits humains, impose aux États,</p>
+      </container>
+      <container name="Constatant avec inquiétude" eId="container_38">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant avec inquiétude</span> et condamnant l’augmentation du nombre d’actes, de manifestations et d’expressions de racisme, de discrimination raciale, de xénophobie visant les migrants et les diasporas, et de l’intolérance et de l’hostilité qui y sont associées, ainsi que les stéréotypes qui leur sont souvent appliqués, notamment en raison de leur religion ou de leur croyance, sachant que tout cela nuit à la réalisation des droits humains dans le monde, </p>
+      </container>
+      <container name="Soulignant" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Soulignant </span>que les États sont tenus de protéger les droits humains des migrants, quel que soit leur statut migratoire, notamment lorsqu’ils appliquent leurs politiques relatives aux migrations et à la sécurité des frontières, et exprimant sa préoccupation à l’égard des mesures qui, tout en s’inscrivant dans le cadre de politiques visant à réduire les migrations irrégulières, traitent celles‑ci comme des infractions d’ordre pénal plutôt qu’administratif, ce qui a pour effet de dénier aux migrants la pleine jouissance de leurs droits humains et libertés fondamentales, et rappelant à cet égard que les peines et le traitement réservés aux migrants en situation irrégulière devraient être à la mesure de l’infraction commise,</p>
+      </container>
+      <container name="Consciente" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> que, du fait que les criminels profitent des flux migratoires et tentent de contourner les politiques d’immigration restrictives et les contrôles aux frontières, les migrants sont plus exposés notamment à un risque d’enlèvement ou d’extorsion, au travail forcé, à l’exploitation sexuelle, aux agressions physiques, à la servitude pour dettes et au délaissement,</p>
+      </container>
+      <container name="Consciente également" eId="container_41">
+        <p xml:space="preserve">
+          <span class="italic">	Consciente également</span> que le recours à des politiques de gouvernance des frontières qui ne respectent pas les droits humains et sont contraires aux obligations que le droit international met à la charge d’un État et qui ne permettent pas de lutter contre l’impunité généralisée de ceux qui violent les droits humains des migrants contribue à limiter les possibilités de migrations sûres, ordonnées et régulières et peut contribuer à la mort ou à la disparition de migrants, en particulier ceux qui se trouvent dans des situations vulnérables,</p>
+      </container>
+      <container name="Considérant" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> le capital humain, culturel, social et économique qu’apportent les diasporas, ainsi que leur engagement et leurs transferts de fonds en faveur des stratégies nationales de développement et les programmes visant à améliorer l’inclusion financière et l’alphabétisation des travailleurs migrants et de leurs familles,</p>
+      </container>
+      <container name="Reconnaissant" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Reconnaissant </span>que les envois de fonds constituent une source de capitaux privés, complètent l’épargne intérieure et contribuent à améliorer le bien-être des bénéficiaires, et gardant à l’esprit qu’ils ne sauraient être considérés comme un substitut aux investissements étrangers directs, à l’aide publique au développement, à l’allégement de la dette ou aux autres sources publiques de financement du développement,</p>
+      </container>
+      <container name="Considérant" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> les contributions bénéfiques qu’apportent les jeunes migrants à leurs pays d’origine et de destination et, à cet égard, encourageant les États à tenir compte de la situation et des besoins particuliers de ces jeunes,</p>
+      </container>
+      <container name="Inquiète" eId="container_45">
+          <p xml:space="preserve">
+            <span class="italic">	Inquiète</span> du fait qu’un nombre croissant d’enfants migrants, notamment ceux qui ne sont pas accompagnés ou qui sont séparés de leurs parents ou des personnes chargées à titre principal de prendre soin d’eux, sont particulièrement vulnérables tout au long de leur parcours migratoire et réaffirmant l’engagement qui a été pris de protéger les droits de l’enfant et de faire respecter le principe de l’intérêt supérieur de l’enfant,</p>
+      </container>
+      <container name="Considérant" eId="container_46">
+        <p xml:space="preserve">	<span class="italic">Considérant </span>les obligations que le droit international des droits humains met à la charge des pays d’origine, de transit et de destination, ainsi que la nécessité pour ceux-ci d’adopter une approche globale et intégrée en matière de politiques migratoires afin de faciliter la migration et la mobilité de façon sûre, ordonnée, régulière et responsable, conformément aux obligations qui leur incombent en vertu du droit international des droits humains et, le cas échéant, dans le respect des engagements contractés au titre du Pacte mondial pour des migrations sûres, ordonnées et régulières,</p>
+      </container>
+      <container name="Insistant" eId="container_47">
+        <p xml:space="preserve">	<span class="italic">Insistant</span> sur le fait que les États doivent, en coopération avec la société civile, notamment les organisations non gouvernementales, les organisations de travailleurs et le secteur privé, entre autres parties intéressées, mener des campagnes d’information pour préciser les possibilités, les restrictions, les lois, les risques et les droits en cas de migration, de manière à permettre à chacun de prendre des décisions éclairées et à empêcher quiconque d’avoir recours à des moyens irréguliers ou dangereux pour franchir les frontières internationales,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États de promouvoir et de protéger efficacement les droits humains et les libertés fondamentales de tous les migrants, quel que soit leur statut migratoire, en particulier des femmes et des enfants, et de traiter la question des migrations internationales par la voie de la coopération et du dialogue au plan international, régional ou bilatéral et d’une manière globale et équilibrée, en tenant compte du rôle et des responsabilités des pays d’origine, de transit et de destination dans la promotion et la protection des droits humains de tous les migrants et en veillant à ce que leur législation et leurs politiques et pratiques en matière de migration respectent les obligations que leur fait le droit international des droits humains, de sorte à éviter les démarches qui pourraient rendre les migrants encore plus vulnérables ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">S’inquiète</span> des incidences que les crises financières et économiques ainsi que les catastrophes naturelles et les effets des phénomènes liés au climat ont sur les migrations internationales et les migrants et, à ce propos, prie instamment les gouvernements de combattre la manière discriminatoire dont sont traités les migrants, en particulier les travailleurs migrants et leur famille, et de faciliter les recrutements équitables et éthiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres d’élaborer des stratégies cohérentes pour relever les défis posés par les mouvements migratoires dans le contexte de catastrophes naturelles soudaines ou larvées, notamment en prenant en considération les recommandations pertinentes issues des processus consultatifs menés par les États, tels que l’Agenda pour la protection des personnes déplacées au‑delà des frontières dans le cadre de catastrophes et de changements climatiques, et la Plateforme sur les déplacements liés aux catastrophes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>4.</num>
+        <list eId="para_54_list">
+          <intro eId="para_54_list_intro">
+            <p xml:space="preserve">	<span class="italic">Réaffirme</span> les droits énoncés dans la Déclaration universelle des droits de l’homme et les obligations que les Pactes internationaux relatifs aux droits de l’homme imposent aux États, et, à cet égard :</p>
+          </intro>
+          <point eId="para_54_list_point_a">
+            <num>a)</num>
+            <content eId="para_54_list_point_a_content">
+              <p xml:space="preserve"> Condamne énergiquement les actes, manifestations ou expressions de racisme, de discrimination raciale, de xénophobie et d’intolérance qui y est associée dont les migrants sont victimes, ainsi que les stéréotypes qui leur sont souvent appliqués, notamment en raison de leur religion ou de leur croyance, et exhorte les États à appliquer et, si nécessaire, à renforcer les lois en vigueur lorsque se produisent des actes, des manifestations ou des expressions de haine, de xénophobie ou d’intolérance dirigés contre des migrants, pour mettre fin à l’impunité dont jouissent les auteurs de ces actes, et à proposer, le cas échéant, des voies efficaces de recours aux victimes ;</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_b">
+            <num>b)</num>
+            <content eId="para_54_list_point_b_content">
+              <p xml:space="preserve"> Encourage les États à mettre en place ou, le cas échéant, à renforcer les mécanismes qui offrent aux migrants la possibilité de signaler des violations éventuelles commises par les autorités compétentes ou leurs employeurs, sans crainte de représailles, et qui permettent que leur cause soit entendue équitablement ;</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_c">
+            <num>c)</num>
+            <content eId="para_54_list_point_c_content">
+              <p xml:space="preserve"> S’inquiète que certains États adoptent une législation qui débouche sur des mesures et des pratiques susceptibles de restreindre les droits humains et les libertés fondamentales des migrants, et réaffirme que, lorsqu’ils exercent leur droit souverain d’adopter et d’appliquer des mesures en matière de migration et de sécurité aux frontières, les États ont le devoir d’honorer les obligations que leur impose le droit international, notamment le droit international des droits humains, pour faire en sorte que les droits humains des migrants soient pleinement respectés ;</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_d">
+            <num>d)</num>
+            <content eId="para_54_list_point_d_content">
+              <p xml:space="preserve"> Demande aux États de veiller à ce que leur législation et leurs politiques, en particulier dans les domaines de la lutte contre le terrorisme et la criminalité transnationale organisée, comme la traite d’êtres humains et le trafic de migrants, respectent pleinement les droits humains de ces derniers ;</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_e">
+            <num>e)</num>
+            <content eId="para_54_list_point_e_content">
+              <p xml:space="preserve"> Demande aux États qui ne l’ont pas encore fait d’envisager de signer et de ratifier, à titre prioritaire, la Convention internationale sur la protection des droits de tous les travailleurs migrants et des membres de leur famille ou d’y adhérer, et prie le Secrétaire général de continuer de s’employer à promouvoir et à mieux faire connaître la Convention ;</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_f">
+            <num>f)</num>
+            <content eId="para_54_list_point_f_content">
+              <p xml:space="preserve"> Prend note des rapports du Comité pour la protection des droits de tous les travailleurs migrants et des membres de leur famille sur les travaux de ses trente-troisième et trente-quatrième sessions<authorialNote marker="29" placement="bottom" eId="authorialNote_29"><p xml:space="preserve">		Ibid., <span class="italic">soixante-dix-septième session</span>, <span class="italic">Supplément n</span><sup>o</sup><span class="italic"> 48</span> (<a href="https://undocs.org/fr/A/77/48">A/77/48</a>).</p></authorialNote> et de ses trente-cinquième et trente-sixième sessions<authorialNote marker="30" placement="bottom" eId="authorialNote_30"><p xml:space="preserve">		Ibid., <span class="italic">soixante-dix-huitième session</span>, <span class="italic">Supplément n</span><sup>o</sup><span class="italic"> 48</span> (<a href="https://undocs.org/fr/A/78/48">A/78/48</a>).</p></authorialNote> ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_58_list">
+          <intro eId="para_58_list_intro">
+            <p xml:space="preserve">	<span class="italic">Réaffirme </span>que les États sont tenus de promouvoir et de protéger efficacement les droits humains et les libertés fondamentales de tous les migrants, notamment des femmes et des enfants, quel que soit leur statut migratoire, conformément à la Déclaration universelle des droits de l’homme et aux instruments internationaux auxquels ils sont parties, et par conséquent :</p>
+          </intro>
+          <point eId="para_58_list_point_a">
+            <num>a)</num>
+            <content eId="para_58_list_point_a_content">
+              <p xml:space="preserve"> Demande à tous les États de respecter les droits humains et la dignité intrinsèque des migrants et de mettre fin aux arrestations et aux détentions arbitraires et, ayant à l’esprit la Déclaration de New York pour les réfugiés et les migrants, de réexaminer les politiques qui empêchent les migrants d’exercer pleinement leurs droits humains et libertés fondamentales, de recourir à des solutions autres que la détention pendant la procédure de vérification du statut migratoire et de prendre en considération les mesures qui ont été mises en œuvre avec succès par certains États ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_b">
+            <num>b)</num>
+            <content eId="para_58_list_point_b_content">
+              <p xml:space="preserve"> Encourage les États, s’ils ne l’ont pas déjà fait, à instituer les systèmes et les procédures voulus pour veiller à ce que l’intérêt supérieur de l’enfant soit la principale considération dans toutes les actions ou décisions concernant les enfants migrants, quel que soit leur statut migratoire, et à s’employer à mettre fin à la détention des enfants migrants ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_c">
+            <num>c)</num>
+            <content eId="para_58_list_point_c_content">
+              <p xml:space="preserve"> Encourage également les États à coopérer et à prendre des mesures pleinement conformes aux obligations que leur impose le droit international des droits humains, pour prévenir, combattre et juguler le trafic de migrants, notamment en renforçant les lois, les politiques, le partage de l’information et les tâches opérationnelles conjointes, ainsi qu’en mettant en place les moyens voulus et en améliorant les possibilités de migrer dans des conditions de sécurité, de dignité et de bonne gestion, et en renforçant les mesures législatives aux fins de pénaliser le trafic de migrants, en particulier des femmes et des enfants ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_d">
+            <num>d)</num>
+            <content eId="para_58_list_point_d_content">
+              <p xml:space="preserve"> Demande instamment à tous les États de prendre des mesures efficaces pour prévenir et sanctionner toute forme de privation illégale de liberté infligée à des migrants par des particuliers ou des groupes de personnes ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_e">
+            <num>e)</num>
+            <content eId="para_58_list_point_e_content">
+              <p xml:space="preserve"> Prie les États d’adopter des mesures concrètes pour empêcher que les droits humains des migrants en transit ne soient violés, notamment dans les ports et les aéroports, aux frontières et aux points de contrôle des migrations, et de former périodiquement les agents de l’État qui travaillent sur ces sites ou dans les zones frontalières pour qu’ils traitent les migrants avec respect et conformément aux obligations qui leur incombent en vertu du droit international des droits humains ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_f">
+            <num>f)</num>
+            <content eId="para_58_list_point_f_content">
+              <p xml:space="preserve"> Engage les États à élaborer, à mettre en œuvre et à développer des programmes de formation pour les fonctionnaires de police, les agents des services d’immigration et de police des frontières, les agents diplomatiques et consulaires, le personnel judiciaire, les procureurs, le personnel médical du secteur public et d’autres prestataires de services en vue de les sensibiliser à la question de la violence exercée contre les migrants et de leur faire acquérir les compétences qui leur permettront d’intervenir de manière appropriée et professionnelle en tenant compte des questions de genre, y compris dans les lieux de détention ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_g">
+            <num>g)</num>
+            <content eId="para_58_list_point_g_content">
+              <p xml:space="preserve"> Souligne le droit des migrants de retourner dans le pays dont ils ont la nationalité et rappelle que les États sont tenus de veiller au bon accueil de leurs ressortissants qui rentrent au pays ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_h">
+            <num>h)</num>
+            <content eId="para_58_list_point_h_content">
+              <p xml:space="preserve"> Demande aux États d’examiner et d’appliquer, le cas échéant, des mécanismes leur permettant d’administrer de façon sûre et méthodique les retours de migrants, en accordant une attention particulière aux droits humains des migrants, conformément aux obligations que leur impose le droit international ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_i">
+            <num>i)</num>
+            <content eId="para_58_list_point_i_content">
+              <p xml:space="preserve"> Demande également aux États de poursuivre, en vertu de la législation applicable, les auteurs de violations des droits humains des migrants et de leur famille, telles que les détentions arbitraires, les actes de torture et les atteintes au droit à la vie, en particulier les exécutions extrajudiciaires, commises pendant le transit entre le pays d’origine et le pays de destination, et inversement, y compris au passage des frontières ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_j">
+            <num>j)</num>
+            <content eId="para_58_list_point_j_content">
+              <p xml:space="preserve"> Constate que les migrants en situation de transit sont particulièrement vulnérables, notamment lorsqu’ils traversent des frontières nationales, et qu’il est nécessaire de veiller à ce que leurs droits humains soient pleinement respectés également dans ces circonstances ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_k">
+            <num>k)</num>
+            <content eId="para_58_list_point_k_content">
+              <p xml:space="preserve"> Réaffirme qu’il importe de veiller à promouvoir et à faire respecter les droits humains dans l’action coordonnée que mène la communauté internationale pour aider et soutenir les migrants livrés à eux-mêmes ou se trouvant en situation de vulnérabilité ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_l">
+            <num>l)</num>
+            <content eId="para_58_list_point_l_content">
+              <p xml:space="preserve"> Réaffirme avec force que les États parties à la Convention de Vienne sur les relations consulaires ont le devoir d’en faire respecter et observer pleinement les dispositions, en particulier celles selon lesquelles tous les ressortissants étrangers, quel que soit leur statut migratoire, ont le droit de communiquer avec un agent consulaire de l’État d’envoi s’ils sont arrêtés, incarcérés, placés en garde à vue ou en détention provisoire, et l’État d’accueil est tenu d’informer sans délai le ressortissant étranger des droits que lui confère la Convention ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_m">
+            <num>m)</num>
+            <content eId="para_58_list_point_m_content">
+              <p xml:space="preserve"> Prie tous les États de faire respecter effectivement, conformément à leur législation nationale et aux instruments juridiques internationaux applicables auxquels ils sont parties, le droit du travail, y compris en en réprimant les violations, en ce qui concerne les relations professionnelles et les conditions de travail des travailleurs migrants, en particulier leur rémunération et les conditions d’hygiène et de sécurité sur le lieu de travail, ainsi que le droit à la liberté d’association ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_n">
+            <num>n)</num>
+            <content eId="para_58_list_point_n_content">
+              <p xml:space="preserve"> Invite les États Membres à envisager de ratifier les conventions pertinentes de l’Organisation internationale du Travail, notamment la Convention de 2011 concernant le travail décent pour les travailleuses et travailleurs domestiques (Convention n<sup>o</sup> 189)<authorialNote marker="31" placement="bottom" eId="authorialNote_31"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 2955, n<sup>o</sup> 51379.</p></authorialNote>, ainsi que la Convention de 1957 sur l’abolition du travail forcé (n<sup>o</sup> 105)<authorialNote marker="32" placement="bottom" eId="authorialNote_32"><p xml:space="preserve">		Ibid., vol. 320, n<sup>o</sup> 4648.</p></authorialNote> ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_o">
+            <num>o)</num>
+            <content eId="para_58_list_point_o_content">
+              <p xml:space="preserve"> Engage les États Membres à prendre des mesures pour continuer de rendre les envois de fonds plus rapides, plus sûrs et moins coûteux, avec pour objectif à l’horizon 2030 que le coût moyen d’une prestation s’établisse à moins de 3 pour cent de la somme concernée, en continuant d’établir des cadres de politique générale et de réglementation qui favorisent la concurrence, l’adoption de règles et l’innovation sur le marché des envois de fonds et en élaborant des programmes et des instruments qui favorisent l’inclusion financière des migrants et de leur famille tout en tenant compte des questions de genre ;</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_p">
+            <num>p)</num>
+            <content eId="para_58_list_point_p_content">
+              <p xml:space="preserve"> Rappelle que la Déclaration universelle des droits de l’homme dispose que toute personne a droit à un recours effectif devant les juridictions nationales compétentes contre les actes violant les droits fondamentaux qui lui sont reconnus ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>6.</num>
+        <list eId="para_63_list">
+          <intro eId="para_63_list_intro">
+            <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe de protéger les personnes en situation de vulnérabilité et, à cet égard :</p>
+          </intro>
+          <point eId="para_63_list_point_a">
+            <num>a)</num>
+            <content eId="para_63_list_point_a_content">
+              <p xml:space="preserve"> Exprime sa préoccupation face à l’intensification des activités et des profits des organisations criminelles transnationales, nationales et autres qui tirent profit des crimes contre les migrants, en particulier les femmes et les enfants, sans se soucier des conditions dangereuses et inhumaines auxquelles ces personnes sont soumises, en violation flagrante de la législation nationale et du droit international et en contravention avec les normes internationales ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_b">
+            <num>b)</num>
+            <content eId="para_63_list_point_b_content">
+              <p xml:space="preserve"> Demande aux États Membres de coopérer au niveau international pour sauver des vies et prévenir les risques de décès et de blessure des migrants en organisant des opérations de recherche et de sauvetage individuelles ou conjointes, ainsi que la collecte et l’échange normalisés d’informations pertinentes, et d’identifier les migrants décédés ou disparus et de faciliter les échanges avec leur famille ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_c">
+            <num>c)</num>
+            <content eId="para_63_list_point_c_content">
+              <p xml:space="preserve"> Exhorte les États à adopter des mesures pour prévenir les décès, les disparitions, la torture, les violences sexuelles et fondées sur le genre et toutes les autres formes de violence, dont la violence fondée sur la religion ou les croyances et la violence fondée sur la race, l’usage excessif de la force contre les migrants et les refoulements, et à veiller à ce que toutes les violations des droits humains et toutes les atteintes à ces droits donnent lieu à des enquêtes indépendantes et transparentes et à ce que les auteurs soient amenés à répondre de leurs actes ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_d">
+            <num>d)</num>
+            <content eId="para_63_list_point_d_content">
+              <p xml:space="preserve"> Encourage les États Membres à investir dans des solutions inédites qui facilitent la reconnaissance mutuelle des aptitudes, qualifications et compétences des travailleurs migrants à tous les niveaux de compétence, ainsi qu’à garantir que la migration de main-d’œuvre conduit à des emplois décents ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_e">
+            <num>e)</num>
+            <content eId="para_63_list_point_e_content">
+              <p xml:space="preserve"> Exprime sa préoccupation face au degré élevé d’impunité dont jouissent les trafiquants et leurs complices ainsi que d’autres membres d’organisations criminelles et, dans ce contexte, au déni de droits et de justice opposé aux migrants victimes de mauvais traitements ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_f">
+            <num>f)</num>
+            <content eId="para_63_list_point_f_content">
+              <p xml:space="preserve"> Exhorte les États Membres à faire preuve d’une plus grande solidarité, en particulier dans les situations d’urgence, à renforcer la coopération internationale afin d’améliorer la protection, le bien-être, le retour en toute sécurité et la réintégration effective sur les marchés de l’emploi des travailleurs migrants, et à veiller à ce que personne ne soit laissé de côté ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_g">
+            <num>g)</num>
+            <content eId="para_63_list_point_g_content">
+              <p xml:space="preserve"> Accueille avec satisfaction les programmes d’immigration, adoptés par certains pays, qui permettent aux migrants de s’intégrer pleinement dans leur pays de destination, facilitent le regroupement familial et favorisent un climat d’harmonie, de tolérance et de respect, et encourage les États à envisager la possibilité d’adopter des programmes de ce type ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_h">
+            <num>h)</num>
+            <content eId="para_63_list_point_h_content">
+              <p xml:space="preserve"> Demande aux États qui ne l’ont pas encore fait de protéger les droits humains des travailleuses migrantes, de favoriser la mise en place de conditions de travail équitables et de faire en sorte que toutes les femmes, y compris les employées de maison et les auxiliaires de vie, bénéficient d’une protection juridique contre la violence et l’exploitation ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_i">
+            <num>i)</num>
+            <content eId="para_63_list_point_i_content">
+              <p xml:space="preserve"> Encourage les États à mettre en œuvre, à l’intention des travailleuses migrantes, des politiques et programmes tenant compte des questions de genre, à offrir des voies de migration sûres et régulières faisant la place voulue aux compétences et au niveau d’études des travailleuses migrantes et, s’il y a lieu, à faciliter l’accès de ces femmes à des emplois productifs et à un travail décent ainsi que leur insertion dans la population active, y compris dans les domaines de l’éducation et de la science et de la technologie ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_j">
+            <num>j)</num>
+            <content eId="para_63_list_point_j_content">
+              <p xml:space="preserve"> Encourage tous les États à se doter de politiques et de programmes en matière de migrations internationales qui tiennent compte des questions de genre, afin de pouvoir mieux protéger les femmes et les filles contre les dangers et les violations des droits humains et les atteintes à ces droits auxquels elles sont exposées lorsqu’elles migrent ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_k">
+            <num>k)</num>
+            <content eId="para_63_list_point_k_content">
+              <p xml:space="preserve"> Demande aux États de protéger les droits humains des enfants migrants, compte tenu de leur vulnérabilité, en particulier ceux qui ne sont pas accompagnés, en veillant à ce que l’intérêt supérieur de ces enfants soit une considération primordiale dans leur législation, leurs politiques et leurs pratiques, notamment en ce qui concerne l’intégration, le rapatriement et le regroupement familial ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_l">
+            <num>l)</num>
+            <content eId="para_63_list_point_l_content">
+              <p xml:space="preserve"> Encourage tous les États à prévenir et éliminer, à tous les niveaux, toute politique ou loi discriminatoire empêchant les enfants migrants d’avoir accès à l’éducation, et à veiller, tout en tenant compte en priorité de l’intérêt supérieur de l’enfant, à la bonne intégration des enfants migrants dans le système éducatif et à la suppression des obstacles à leur instruction dans les pays d’accueil et les pays d’origine ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_m">
+            <num>m)</num>
+            <content eId="para_63_list_point_m_content">
+              <p xml:space="preserve"> Rappelle à tous les États que toute personne, y compris les migrants, devrait tout au long de sa vie avoir accès à une formation qui l’aide à acquérir les connaissances et les compétences nécessaires pour mettre à profit les possibilités qui s’offrent à elle et participer pleinement à la vie de la société ;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_n">
+            <num>n)</num>
+            <content eId="para_63_list_point_n_content">
+              <p xml:space="preserve"> Demande instamment aux États de veiller à ce que les modalités de rapatriement permettent de repérer les personnes en situation de vulnérabilité, en particulier les enfants non accompagnés et les personnes handicapées, et de leur offrir une protection spéciale, et de tenir compte, conformément à leurs obligations et engagements internationaux, du principe de l’intérêt supérieur de l’enfant dans l’élaboration et l’application de leur législation et de leurs politiques et dans l’établissement de modalités claires pour l’accueil et la prise en charge et le regroupement familial ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États à prendre en compte, lors de la conception et de la mise en œuvre de leurs politiques migratoires, les conclusions et recommandations figurant dans l’étude du Haut-Commissariat des Nations Unies aux droits de l’homme sur les difficultés et les meilleures pratiques rencontrées dans l’application du cadre international pour la protection des droits de l’enfant dans le contexte des migrations<authorialNote marker="33" placement="bottom" eId="authorialNote_33"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/15/29">A/HRC/15/29</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>les États parties à la Convention des Nations Unies contre la criminalité transnationale organisée et aux Protocoles additionnels s’y rapportant, en particulier au Protocole contre le trafic illicite de migrants par terre, air et mer et au Protocole visant à prévenir, réprimer et punir la traite des personnes, en particulier des femmes et des enfants, à appliquer intégralement ces instruments, et demande aux États qui ne l’ont pas encore fait d’envisager de les ratifier ou d’y adhérer à titre prioritaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">Engage </span>les États à protéger les migrants afin qu’ils ne soient pas victimes de la criminalité organisée nationale et transnationale, y compris d’enlèvements, de traite des personnes et, dans certains cas, de trafic de migrants, notamment en appliquant des programmes et des politiques qui empêchent les persécutions et apportent des garanties et une protection effectives aux migrants et leur donnent accès, au besoin, à une assistance médicale, psychosociale et juridique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres qui ne l’ont pas encore fait à promulguer une législation nationale et à prendre d’autres mesures efficaces pour lutter contre la traite d’êtres humains et le trafic de migrants, considérant que ces crimes peuvent mettre en danger la vie des migrants ou les exposer à des préjudices, à la servitude, à l’exploitation, à la servitude pour dettes, à l’esclavage, à l’exploitation sexuelle ou au travail forcé, et encourage aussi les États Membres à renforcer la coopération internationale pour prévenir la traite des personnes et le trafic de migrants, enquêter à leur sujet et lutter contre ces fléaux, et pour repérer et empêcher les flux financiers liés à ces activités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à élargir la coopération et les partenariats internationaux pour mettre en œuvre la vision exposée dans le Pacte mondial pour des migrations sûres, ordonnées et régulières<authorialNote marker="34" placement="bottom" eId="authorialNote_34"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/73/195">73/195</a>, annexe.</p></authorialNote>, y compris par une assistance financière et technique aux pays en développement, notamment aux pays d’Afrique, aux pays les moins avancés, aux pays en développement sans littoral, aux petits États insulaires en développement et aux pays à revenu intermédiaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve">	<span class="italic">Invite également </span>les États Membres à accélérer les efforts, à tous les niveaux, pour tenir compte des considérations de santé publique dans les politiques de migration et pour incorporer les besoins des migrants en matière de santé dans les services, politiques et plans de santé nationaux et locaux, selon des modalités transparentes, équitables, non discriminatoires, axées sur l’être humain, tenant compte des questions de genre, des enfants et des situations de handicap et ne laissant personne de côté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les gouvernements à promouvoir le recours à des tests volontaires et confidentiels de dépistage du VIH et de grossesse afin d’éviter que des obstacles indus n’apparaissent avant et durant le cycle migratoire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à tous les États de promouvoir et de protéger le droit de toutes les personnes, y compris les migrants, sans discrimination d’aucune sorte, de jouir du meilleur état de santé physique et mentale possible, et les engage à promouvoir un accès équitable aux services de santé, à la prévention des maladies et aux soins pour les migrants, notamment en matière de santé mentale et de soutien psychosocial ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="SingleTxt">
+        <num>15.</num>
+        <list eId="para_153_list">
+          <intro eId="para_153_list_intro">
+            <p xml:space="preserve">	<span class="italic">Souligne</span> l’importance de la coopération internationale, régionale et bilatérale dans l’action menée pour protéger les droits humains des migrants, notamment par l’effet du Pacte mondial pour des migrations sûres, ordonnées et régulières, et, en conséquence :</p>
+          </intro>
+          <point eId="para_153_list_point_a">
+            <num>a)</num>
+            <content eId="para_153_list_point_a_content">
+              <p xml:space="preserve"> Prie tous les États, les organisations internationales et les parties intéressées de prendre en considération le caractère mondial du phénomène migratoire dans leurs politiques et initiatives concernant les migrations et d’envisager sérieusement d’engager une coopération internationale, régionale et bilatérale dans ce domaine, notamment en instaurant un dialogue sur les migrations auquel participeraient les pays d’origine, de transit et de destination, ainsi que la société civile, y compris les migrants, afin d’aborder sous tous leurs aspects des questions telles que les causes et les conséquences de ce phénomène ainsi que le problème des migrations clandestines ou irrégulières, en accordant la priorité à la protection des droits humains des migrants ;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_b">
+            <num>b)</num>
+            <content eId="para_153_list_point_b_content">
+              <p xml:space="preserve"> Engage les États à promouvoir la pleine application du Programme de développement durable à l’horizon 2030, notamment de sa cible 10.7, à savoir faciliter la migration et la mobilité de façon ordonnée, sûre, régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées et bien gérées ;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_c">
+            <num>c)</num>
+            <content eId="para_153_list_point_c_content">
+              <p xml:space="preserve"> Engage également les États à prendre les mesures nécessaires pour assurer la cohérence des politiques migratoires aux niveaux local, national, régional et international, notamment en se dotant de politiques et de systèmes transfrontières coordonnés de protection de l’enfance qui soient pleinement compatibles avec le droit international des droits humains ;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_d">
+            <num>d)</num>
+            <content eId="para_153_list_point_d_content">
+              <p xml:space="preserve"> Engage en outre les États à coopérer efficacement pour assurer la protection des témoins dans les affaires de trafic de migrants et celle des victimes dans les affaires de traite d’êtres humains, quel que soit leur statut migratoire ;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_e">
+            <num>e)</num>
+            <content eId="para_153_list_point_e_content">
+              <p xml:space="preserve"> Invite les organismes des Nations Unies et les autres organisations internationales et institutions multilatérales compétentes à renforcer leur coopération aux fins de l’élaboration de méthodes de collecte et de traitement des données statistiques portant sur les migrations internationales et la situation des migrants dans les pays d’origine, de transit et de destination et à aider les États Membres à se doter des moyens requis à cet égard ;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_f">
+            <num>f)</num>
+            <content eId="para_153_list_point_f_content">
+              <p xml:space="preserve"> Engage les gouvernements, le cas échéant, à renforcer l’analyse conjointe et l’échange d’informations afin de mieux visualiser, comprendre, prévoir et gérer les mouvements migratoires, comme ceux qui peuvent être causés par des catastrophes naturelles soudaines ou larvées, les effets néfastes des changements climatiques et de la dégradation de l’environnement ainsi que d’autres situations précaires, tout en veillant au respect, à la protection et à la réalisation des droits humains de tous les migrants ;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_g">
+            <num>g)</num>
+            <content eId="para_153_list_point_g_content">
+              <p xml:space="preserve"> Exhorte tous les États à combattre toutes les formes de discrimination, telles que les expressions, les manifestations et les actes de racisme, de discrimination raciale, de violence et de xénophobie visant tous les migrants et l’intolérance qui y est associée, conformément aux obligations en la matière que leur impose le droit international des droits humains, tout en tenant compte de la nécessité d’encourager un débat public ouvert, fondé sur l’analyse des faits et associant l’ensemble de la société, le but étant que la question des migrants et des migrations soit abordée de façon plus réaliste, humaine et constructive, et de protéger la liberté d’expression dans le respect du droit international, sachant qu’un débat ouvert et libre contribue à une compréhension globale des migrations sous tous leurs aspects ;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_h">
+            <num>h)</num>
+            <content eId="para_153_list_point_h_content">
+              <p xml:space="preserve"> Engage les États à faire figurer, le cas échéant, dans les rapports qu’ils soumettent au Groupe de travail sur l’Examen périodique universel du Conseil des droits de l’homme et aux organes conventionnels, des informations sur le respect de leurs obligations internationales concernant les droits humains des migrants ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_168" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_168__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> l’intérêt qu’elle porte aux questions de migration, de développement et de droits humains traitées dans le Programme de développement durable à l’horizon 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à envisager, selon qu’il convient, d’installer le long de certaines routes migratoires des points d’information pouvant orienter les migrants vers des services d’appui et de conseil adaptés aux enfants et tenant compte des questions de genre, donnant la possibilité de communiquer avec des représentants consulaires du pays d’origine et mettant à disposition des renseignements utiles, notamment sur les droits de la personne et les libertés fondamentales, la protection et l’assistance souhaitables, les options et filières de migration régulière et les possibilités de retour, en toute sécurité et dans la dignité, dans une langue comprise par la personne concernée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_201" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_201__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États à lever, selon qu’il conviendra, les obstacles pratiques que les migrants peuvent rencontrer dans les pays de destination, notamment ceux liés à la langue, et à leur fournir des informations adéquates sur leurs droits, y compris leur droit à l’assistance consulaire, avant qu’ils ne quittent leur pays d’origine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_219" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_219__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux États Membres d’élaborer au niveau national des politiques et des lois en matière de migration qui tiennent compte des questions de genre et qui soient adaptées aux enfants, conformément aux obligations en la matière découlant du droit international, afin de défendre les droits humains de toutes les femmes et de tous les enfants migrants, quel que soit leur statut migratoire, et souligne qu’il importe d’assurer la participation pleine, égale et effective des femmes à la formulation et à la mise en œuvre des politiques migratoires, tout en reconnaissant leur indépendance, leur pouvoir d’action et leur rôle mobilisateur ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_238__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les États Membres à donner aux migrants nouvellement arrivés des informations ciblées, accessibles et exhaustives, qui tiennent compte des questions de genre et qui soient adaptées aux enfants, et des conseils juridiques sur leurs droits et obligations, notamment sur le respect des lois nationales et locales, l’obtention de permis de travail et de séjour, la modification de leur statut, l’enregistrement auprès des autorités, l’accès à la justice pour déposer plainte en cas de violation de leurs droits, ainsi qu’un accès aux services de base ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_258" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_258__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les gouvernements à veiller à ce que le retour des migrants que la loi n’autorise pas à demeurer sur le territoire d’un autre État se fasse en toute sécurité et dignité, après une évaluation individuelle, et à ce que ce retour soit organisé par les autorités compétentes des pays d’origine et de destination agissant en toute diligence et coopération, après épuisement de toutes les voies de recours applicables, dans le respect de la légalité et des autres obligations découlant du droit international des droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_279" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_279__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États de veiller à ce que, aux frontières internationales, les migrants potentiellement en situation de vulnérabilité aient accès à une assistance et à des secours, quel que soit leur statut migratoire, et de créer des conditions sûres permettant aux acteurs humanitaires concernés d’intervenir sans entrave et en toute sécurité, notamment en faisant en sorte que les dispositions législatives et administratives adoptées au niveau national et leur application facilitent le travail de tous les acteurs qui fournissent une aide humanitaire aux migrants en transit et défendent les droits humains de ceux-ci, en empêchant notamment que les activités des acteurs humanitaires soient incriminées ou stigmatisées et qu’elles soient entravées par des obstacles ou restrictions qui sont contraires au droit international des droits humains ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_301" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_301__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États à renforcer la coopération, l’échange d’informations et la coordination à tous les niveaux, y compris entre les pays d’origine, les pays de transit et les pays de destination, ainsi qu’avec les organisations humanitaires internationales, les organisations de la société civile et les migrants et leur famille, afin d’empêcher que les migrants en transit ne subissent des violations des droits humains et des atteintes à ces droits et d’enquêter sur les faits de cette nature, de retrouver et d’identifier les migrants portés disparus et de faire en sorte que les victimes obtiennent justice ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>les engagements pris dans la Déclaration de New York pour les réfugiés et les migrants et exhorte les États Membres et les organismes des Nations Unies à œuvrer de concert pour assurer le suivi et la mise en œuvre de la Déclaration, conformément à leurs systèmes juridiques internes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_348" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_348__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États, les organisations internationales intéressées, la société civile, y compris les organisations non gouvernementales, et le secteur privé à poursuivre et à approfondir leur dialogue dans le cadre des réunions internationales pertinentes, dans l’optique de renforcer et d’ouvrir plus largement les politiques publiques visant à promouvoir et à faire respecter les droits humains, y compris ceux des migrants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_373" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_373__content">
+          <p xml:space="preserve">	<span class="italic">Est consciente</span> de l’importance de la contribution du Haut-Commissaire des Nations Unies aux droits de l’homme, du Président du Comité pour la protection des droits de tous les travailleurs migrants et des membres de leur famille et du Rapporteur spécial du Conseil des droits de l’homme sur les droits humains des migrants, ainsi que d’autres acteurs clefs, au débat sur les migrations internationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_399" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_399__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des travaux que le Réseau des Nations Unies sur les migrations mène actuellement en ce qui concerne les migrants disparus et l’aide humanitaire, conformément à la Déclaration du Forum d’examen des migrations internationales sur les progrès réalisés<authorialNote marker="35" placement="bottom" eId="authorialNote_35"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/76/266">76/266</a>, annexe.</p></authorialNote>, notamment l’échange de bonnes pratiques, y compris dans le cadre de la coopération internationale, pour aider les familles et les populations frontalières concernées à empêcher le décès ou la disparition de migrants et à y faire face le cas échéant, y compris dans le contexte de l’aide humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_426" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_426__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> le Président du Comité pour la protection des droits de tous les travailleurs migrants et des membres de leur famille à lui présenter oralement un rapport sur les travaux du Comité et à s’exprimer dans le cadre d’un dialogue interactif à ses soixante-dix-neuvième et quatre-vingtième sessions, afin d’améliorer la communication entre les deux organes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_454" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_454__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> le Rapporteur spécial sur les droits humains des migrants à lui présenter son rapport et à s’exprimer dans le cadre d’un dialogue interactif à ses soixante-dix-neuvième et quatre-vingtième sessions, au titre de la question intitulée « Promotion et protection des droits humains » ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_483" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_483__content">
+          <p xml:space="preserve">	<span class="italic">Prend acte</span> du rapport du Secrétaire général sur les droits humains des migrants<authorialNote marker="36" placement="bottom" eId="authorialNote_36"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/A/78/203">A/78/203</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_513" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_513__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> des rapports du Rapporteur spécial sur les droits humains des migrants qui lui ont été présentés à ses soixante-dix-septième et soixante-dix-huitième sessions<authorialNote marker="37" placement="bottom" eId="authorialNote_37"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/77/189">A/77/189</a> et <a href="https://undocs.org/fr/A/78/180">A/78/180</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_544" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_544__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de lui présenter à sa quatre-vingtième session, ainsi qu’au Conseil des droits de l’homme à sa soixante et unième session, un rapport complet intitulé « Droits humains des migrants », traitant de tous les aspects de l’application de la présente résolution ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_576" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_576__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de rester saisie de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50e" refersTo="#adoptionMeeting">50e séance plénière</location>
+          <eol />
+          <docDate date="2023-12-19" refersTo="#adoptionDate">19 décembre 2023</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
