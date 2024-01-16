@@ -1,0 +1,688 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-177/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-177/"></FRBRuri>
+          <FRBRdate date="2023-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-177/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-177/eng@/"></FRBRuri>
+          <FRBRdate date="2023-12-22" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2023-12-19/78-177/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2023-12-19/78-177/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-01-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Open-ended Working Group on Ageing" showAs="UN. Open-ended Working Group on Ageing" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Human Rights Council. Independent Expert on the Enjoyment of All Human Rights by Older Persons" showAs="UN. Human Rights Council. Independent Expert on the Enjoyment of All Human Rights by Older Persons" dictionary="DHLAUTH"></keyword>
+        <keyword value="Madrid International Plan of Action on Ageing (2002)" showAs="Madrid International Plan of Action on Ageing (2002)" dictionary="DHLAUTH"></keyword>
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CARE OF AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000827" showAs="CARE OF AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="24b" showAs="Social development, including questions relating to the world social situation and to youth, ageing, disabled persons and the family." shortForm="SOCIAL CONDITIONS" dictionary="A/78/251"></keyword>
+        <keyword refersTo="agenda" value="24b[1]" showAs="AGEING PERSONS" shortForm="AGEING PERSONS" dictionary="A/78/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-11-01" outcome="draftResolution" as="A/C.3/78/L.16/Rev.1" by="Armenia, Canada, Cuba (on behalf of the States Members of the United Nations that are members of the Group of 77 and China), Germany, Malta, Mexico, Slovenia, Türkiye, United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Andorra, Austria, Croatia, Ireland, Israel, Italy, Norway, Portugal, Republic of Korea, Serbia and United States" />
+        <step date="2023-11-29" outcome="recommendedForAdoption" as="A/78/472" by="" refersTo="57" />
+        <step date="2023-12-19" outcome="adopted" as="A/78/PV.50" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Third Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-25980 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/78/177</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-12-22" class="rightSmall" refersTo="#dateOfIssuance">22 December 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="78" eId="coverPage_1__session_1">Seventy-eighth session</session>
+      </p>
+      <p>
+        <inline title="24 (b)" name="agenda item">Agenda item 24 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Social development: social development, including questions relating to the world social situation and to youth, ageing, persons with disabilities and the family</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 19 December 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[on the report of the Third Committee (<inline name="originating document">A/78/472, para. 57</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>78/177.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Follow-up to the Second World Assembly on Ageing</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution <a href="https://undocs.org/en/A/RES/57/167">57/167</a> of 18 December 2002, in which it endorsed the Political Declaration and the Madrid International Plan of Action on Ageing, 2002,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<span class="italic">Report of the Second World Assembly on Ageing, Madrid, 8–12 April 2002</span> (United Nations publication, Sales No. E.02.IV.4), chap. I, resolution 1, annexes I and II.</p></authorialNote> its resolution <a href="https://undocs.org/en/A/RES/58/134">58/134</a> of 22 December 2003, in which it took note, inter alia, of the road map for the implementation of the Madrid Plan of Action, and its resolutions <a href="https://undocs.org/en/A/RES/60/135">60/135</a> of 16 December 2005, <a href="https://undocs.org/en/A/RES/61/142">61/142</a> of 19 December 2006, <a href="https://undocs.org/en/A/RES/62/130">62/130</a> of 18 December 2007, <a href="https://undocs.org/en/A/RES/63/151">63/151</a> of 18 December 2008, <a href="https://undocs.org/en/A/RES/64/132">64/132</a> of 18 December 2009, <a href="https://undocs.org/en/A/RES/65/182">65/182</a> of 21 December 2010, <a href="https://undocs.org/en/A/RES/66/127">66/127</a> of 19 December 2011, <a href="https://undocs.org/en/A/RES/67/139">67/139</a> and <a href="https://undocs.org/en/A/RES/67/143">67/143</a> of 20 December 2012, <a href="https://undocs.org/en/A/RES/68/134">68/134</a> of 18 December 2013, <a href="https://undocs.org/en/A/RES/69/146">69/146</a> of 18 December 2014, <a href="https://undocs.org/en/A/RES/70/164">70/164</a> of 17 December 2015, <a href="https://undocs.org/en/A/RES/71/164">71/164</a> of 19 December 2016, <a href="https://undocs.org/en/A/RES/72/144">72/144</a> of 19 December 2017, <a href="https://undocs.org/en/A/RES/73/143">73/143</a> of 17 December 2018, <a href="https://undocs.org/en/A/RES/74/125">74/125</a> of 18 December 2019, <a href="https://undocs.org/en/A/RES/75/152">75/152</a> of 16 December 2020, <a href="https://undocs.org/en/A/RES/76/138">76/138</a> of 16 December 2021 and <a href="https://undocs.org/en/A/RES/77/190">77/190</a> of 15 December 2022, </p>
+      </container>
+      <container name="Recognizing" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that there has been steady participation of Member States in the fourth review and appraisal cycle of implementation of the Madrid Plan of Action, although, in some parts of the world, awareness of the Madrid Plan of Action remains limited or non‑existent, which limits the scope of implementation efforts, </p>
+      </container>
+      <container name="Taking note" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the report of the Secretary-General,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/78/134">A/78/134</a>.</p></authorialNote></p>
+      </container>
+      <container name="Noting" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the voluntary national reviews submitted by Member States to the high-level political forum on sustainable development in the period 2016–2022 showed varying levels of awareness of and response to population ageing in the different world regions, </p>
+      </container>
+      <container name="Taking note" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of other initiatives that the Secretary-General, United Nations agencies and United Nations entities have undertaken in order to achieve full and sustainable recovery from the coronavirus disease (COVID‑19) as a vital step towards achieving the pledge to leave no one behind, in particular those regarding the impact of COVID‑19 on older persons, and noting in this regard the importance of promoting equal access of older persons to social services, health-care services, information and communications technologies, including new technologies, assistive technologies, full and productive employment and decent work, encouraging their effective and meaningful participation, protecting their human rights, combating ageism and all forms of violence against them, as well as obtaining data disaggregated by income, sex, age, race, ethnicity, migratory status, disability, geographical location and other characteristics relevant in national contexts, </p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the 2030 Agenda for Sustainable Development,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and stressing the need to ensure that issues of relevance to older persons are taken into account in its implementation in order to ensure that no one is left behind, including older persons,</p>
+      </container>
+      <container name="Recalling also" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> the Universal Declaration of Human Rights,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/217(III)">217 A (III)</a>.</p></authorialNote> the International Covenant on Civil and Political Rights,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	See resolution <a href="https://undocs.org/en/A/RES/2200(XXI)">2200 A (XXI)</a>, annex.</p></authorialNote> the International Covenant on Economic, Social and Cultural Rights,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Ibid.</p></authorialNote> the Convention on the Elimination of All Forms of Discrimination against Women,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1249, No. 20378.</p></authorialNote> the Convention on the Rights of Persons with Disabilities<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Ibid., vol. 2515, No. 44910.</p></authorialNote> and the International Convention on the Elimination of All Forms of Racial Discrimination,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	Ibid., vol. 660, No. 9464.</p></authorialNote></p>
+      </container>
+      <container name="Noting" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the International Convention on the Protection of the Rights of All Migrant Workers and Members of their Families<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Ibid., vol. 2220, No. 39481.</p></authorialNote> and the United Nations Declaration on the Rights of Indigenous Peoples,<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/61/295">61/295</a>, annex.</p></authorialNote></p>
+      </container>
+      <container name="Noting also" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Noting also</span> the regional developments on the protection and promotion of the human rights of older persons, including the Inter-American Convention on Protecting the Human Rights of Older Persons and the Protocol to the African Charter on Human and Peoples’ Rights on the Rights of Older Persons in Africa,</p>
+      </container>
+      <container name="Noting further" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Noting further</span> that, between 2022 and 2030, the number of persons aged 60 years or over is projected to grow by 31 per cent, from 1.1 billion to 1.4 billion, globally outnumbering youth and doubling the number of children under age 5,<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	 	United Nations, Department of Economic and Social Affairs, Population Division, <span class="italic">World Population Prospects: 2022 Revision</span>.</p></authorialNote> and that this increase will be the greatest and the most rapid in the developing world, and recognizing that greater attention needs to be paid to the specific challenges affecting older persons, including in the field of human rights, </p>
+      </container>
+      <container name="Recalling" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> World Health Assembly resolutions on ageing, specifically resolution 58.16 of 25 May 2005 on strengthening active and healthy ageing,<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	 	See World Health Organization, document WHA58/2005/REC/1.</p></authorialNote> which stressed the important role of public health policies and programmes in enabling the rapidly growing number of older persons to remain in good health and maintain their many vital contributions to the well-being of their families, communities and societies, resolution 65.3 of 25 May 2012 on strengthening non‑communicable disease policies to promote active ageing,<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	 	See World Health Organization, document WHA65/2012/REC/1.</p></authorialNote> which recognized that population ageing is among the major factors contributing to the rising incidence and prevalence of non‑communicable diseases and noted the importance of lifelong health-promotion and disease-prevention activities, and resolution 69.3 of 29 May 2016, entitled “Global strategy and action plan on ageing and 2016–2020: towards a world in which everyone can live a long and healthy life”,<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	 	See World Health Organization, document WHA69/2016/REC/1.</p></authorialNote></p>
+      </container>
+      <container name="Recalling also" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> the proclamation of the United Nations Decade of Healthy Ageing (2021–2030) in its resolution <a href="https://undocs.org/en/A/RES/75/131">75/131</a> of 14 December 2020, </p>
+      </container>
+      <container name="Recalling further" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> the World Summit on the Information Society and its outcomes,<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	 	See <a href="https://undocs.org/en/A/C.2/59/3">A/C.2/59/3</a> and <a href="https://undocs.org/en/A/60/687">A/60/687</a>.</p></authorialNote> including its special track on information and communications technologies and older persons, as well as other relevant intergovernmentally agreed outcomes, </p>
+      </container>
+      <container name="Recognizing" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the COVID‑19 pandemic has had a disproportionately heavy impact on older persons, in particular older women, and that responses to the COVID‑19 pandemic need to respect their dignity, promote and protect their human rights and take into account all forms of violence, discrimination, stigmatization, exclusion, inequalities as well as neglect, social isolation and loneliness,</p>
+      </container>
+      <container name="Recognizing also" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> that COVID‑19 has disproportionately affected older persons living in long-term care facilities, including those in the context of informal long-term care provision, and stressing the importance of testing for COVID‑19, providing personal protective equipment in long-term care facilities, securing emergency funding for such facilities, applying telemedicine and telehealth methods for mitigation purposes, and achieving universal health coverage, ensuring fair and equitable access to COVID‑19 vaccines, diagnostics and therapeutics,</p>
+      </container>
+      <container name="Acknowledging" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> that many developing countries and countries with economies in transition are confronting a double burden of fighting communicable diseases, such as HIV/AIDS, tuberculosis and malaria, in parallel with the increasing threat of non‑communicable diseases, and expressing concern about the impact on older persons,</p>
+      </container>
+      <container name="Concerned" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Concerned</span> that many health systems are not sufficiently prepared to respond to the needs of the rapidly ageing population, including the need for preventive, curative, palliative and specialized care,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Deeply concerned</span> that the situation of older persons in many parts of the world has been negatively affected by the world financial and economic crisis, and noting with concern the high incidence of poverty among them, particularly older single women,</p>
+      </container>
+      <container name="Recognizing" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the essential contribution that older persons can continue to make to the functioning of societies and towards the implementation of the 2030 Agenda, and recognizing also the importance of the full and effective enjoyment of their human rights,</p>
+      </container>
+      <container name="Concerned" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Concerned</span> about the multiple and intersecting forms of discrimination that may create additional vulnerabilities for older persons and affect their enjoyment of human rights and fundamental freedoms, and recognizing that, in particular, older women often face multiple forms of discrimination resulting from gender inequality and are at greater risk of physical and psychological abuse and violence,</p>
+      </container>
+      <container name="Acknowledging" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the accelerated global trend of ageing of the population, which will require more care work and support, and stressing the need to promote and strengthen the estimation of the caregiving contribution and other activities of older persons to the economy, including recognition of unpaid care for family members, in particular by older women, and to ensure that national statistics in this regard inform policymaking, </p>
+      </container>
+      <container name="Recognizing" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the prevalence of disabilities increases with age and that many older persons live with a disability,</p>
+      </container>
+      <container name="Recognizing also" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> that ageism is a widely prevalent and prejudicial attitude that may rest on the assumption that neglect of, and discrimination against, older persons is acceptable, and that ageism is the common source of, the justification for and the driving force behind age discrimination,</p>
+      </container>
+      <container name="Recognizing further" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Recognizing further</span> that the social exclusion of older persons is a complex process involving the lack or denial of resources, rights, goods and services as people age, and the inability of older persons to participate in societal relationships and activities, including cultural activities, available to the majority of people across the varied and multiple domains of society, and that it affects both the quality of life of older persons and the equity and cohesion of an ageing society as a whole, with considerable implications for the enjoyment by older persons of their human rights,</p>
+      </container>
+      <container name="Acknowledging" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the importance of exploring ways to increase the visibility of and attention to the specific challenges faced by older persons in the global development policy framework, including identifying possible gaps and how best to address them,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Deeply concerned</span> by the increasing number and scale of humanitarian emergencies and their impact on older persons, particularly older women, reiterating the importance of giving due consideration to their specific needs, as well as their capacity to respond, and to the contributions of older persons to the planning and implementation of humanitarian assistance and efforts in disaster risk reduction, and noting with concern that the multiple forms of discrimination experienced by older women can be exacerbated during humanitarian emergencies and aggravate their potential vulnerabilities,</p>
+      </container>
+      <container name="Recognizing" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the successful conclusion of the fourth review and appraisal of the Madrid Plan of Action, noting the results achieved at the international, regional and national levels, and acknowledging in that regard the recommendations of the Commission for Social Development at its sixty-first session, as endorsed by the Economic and Social Council in its resolution <a href="https://undocs.org/en/E/RES/2023/15">2023/15</a> of 7 June 2023, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the Political Declaration and the Madrid International Plan of Action on Ageing, 2002;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States and the international community to cooperate, support and participate in the global efforts towards an age-inclusive implementation of the 2030 Agenda for Sustainable Development and to mobilize all necessary resources and support in that regard, according to national plans and strategies, including through an integrated and multifaceted approach to improving the well-being of older persons, and in this regard encourages Member States to seize this opportunity to take into account issues of relevance to older persons in their efforts to promote the attainment of the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to address the situation of older persons in their voluntary national reviews presented at the high-level political forum on sustainable development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to accelerate their efforts to mainstream the linkages between population ageing and sustainable development into national policies and programmes across all levels of government, where appropriate, and to link ageing to frameworks for social and economic development and human rights; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the major challenges faced by older persons undermine their social, economic and cultural participation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the need to take effective measures against ageism and to view older persons as active contributors to society and not as passive receivers of care and assistance and an impending burden on welfare systems and economies, while promoting and protecting their human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to intensify efforts towards identifying ageing as an opportunity, and recognizes that older persons make substantial contributions to sustainable development efforts, including through their active participation in society; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the challenges related to the enjoyment of all human rights that older persons face in different areas and that those challenges require in-depth analysis and action to address protection gaps, and calls upon all States to promote and ensure the full realization of all human rights and fundamental freedoms for older persons, including by progressively taking measures to combat age discrimination, neglect, abuse and violence, as well as social isolation and loneliness, to provide social protection, access to food and housing, health-care services, employment, information and communications technologies, including new technologies, assistive technologies, legal capacity and access to justice and to address issues related to social integration and gender inequality through mainstreaming the rights of older persons into sustainable development strategies, urban policies and poverty reduction strategies, bearing in mind the crucial importance of intergenerational solidarity for social development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Takes note with appreciation</span> of the work of the Independent Expert on the enjoyment of all human rights by older persons and the renewal of the mandate at the fifty-first session of the Human Rights Council,<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	 	See <span class="italic">Official Records of the General Assembly, Seventy-seventh Session, Supplement No. 53A</span>, (<a href="https://undocs.org/en/A/77/53/Add.1">A/77/53/Add.1</a>), chap. III, sect. A, resolution <a href="https://undocs.org/en/A/HRC/RES/51/4">51/4</a>.</p></authorialNote> and stresses the importance of close coordination between the work of the Independent Expert and the Open-ended Working Group on Ageing established by the General Assembly in paragraph 28 of its resolution <a href="https://undocs.org/en/A/RES/65/182">65/182</a>, while avoiding unnecessary duplication of their respective mandates and those of other special procedures and subsidiary organs of the Council, and relevant United Nations bodies and treaty bodies; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Independent Expert issued in accordance with Human Rights Council resolution <a href="https://undocs.org/en/A/HRC/RES/51/4">51/4</a>,<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	 	See <a href="https://undocs.org/en/A/78/226">A/78/226</a>.</p></authorialNote> and encourages Member States to be mindful of the recommendations contained therein; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that the report of the Independent Expert examines the rights of older persons in the context of climate change-induced disasters, and encourages Member States to be mindful of the recommendations contained therein;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to continue to share their national experiences in developing and implementing policies and programmes aimed at strengthening the promotion and protection of the human rights of older persons, including within the framework of the Open-ended Working Group on Ageing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Governments to actively address, through national, regional and international efforts, issues that affect older persons and to ensure that the social integration of older persons and the promotion and protection of their rights form an integral part of development policies at all levels;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to create an enabling environment for the equal, full, effective and meaningful participation of older persons in political, social, economic and cultural life, while taking into account the diversity of situation of older persons and responding to population ageing as well as to multiple forms of discrimination resulting from ageism and other inequality throughout the life course;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to adopt and implement non‑discriminatory policies, legislation and regulations, to systematically review and amend these, where appropriate, if they discriminate against older persons, especially on the basis of age, and to take appropriate measures to prevent discrimination against older persons in, inter alia, employment, social protection and the provision of social, health-care and long-term care services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to promote, in accordance with their national priorities, equitable and affordable access to sustainable basic physical and social infrastructure for all, without discrimination, including affordable serviced land, housing, modern and renewable energy, safe drinking water and sanitation, safe, nutritious and adequate food, waste disposal, sustainable mobility, health-care services and family planning, education, culture and information and communications technologies, and to ensure that these services are responsive to the rights and needs of older persons, while recognizing that planning for and providing opportunities for making cities inclusive of older persons’ economic and social participation is an important dimension of the construction of sustainable cities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_165__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the risk of poverty increases with old age in several ways, and that the pandemic has had a negative impact on the financial security of older persons, including older widows, and in this regard calls upon Member States to enable people to reach old age in better economic conditions by, inter alia, addressing barriers in labour markets and inadequate social protection systems and combating elder abuse and neglect as well as the adverse impact of all forms of discrimination and inequalities experienced by older persons, especially older women; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to take into account the multidimensional nature of the vulnerability of older persons to poverty and economic insecurity, including through the promotion of good health, care and well-being, in their implementation of the Sustainable Development Goals at the national level;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Governments to pay greater attention to building capacity to eradicate poverty among older persons, in particular older women and older persons with disabilities, by mainstreaming ageing issues into poverty eradication measures, women’s empowerment strategies and national development plans, and to include both ageing-specific policies and ageing-mainstreaming efforts in their national strategies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_219" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_219__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to consider expanding, in accordance with domestic legislation and policies, the reach of sustainable pension schemes, including but not limited to strategies such as social pensions, and increasing their benefits, with a view to ensuring income security in old age;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to develop and implement long-term care strategies, as well as to conduct research on good practices of care strategies, recognizing and supporting both paid and unpaid care work for the benefit of older persons, and to further promote long-term care as a positive social and economic investment and a source of employment expansion; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_260" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_260__content">
+          <p xml:space="preserve">	<span class="italic">Further encourages</span> Member States to promote terms and conditions of care work guided by International Labour Organization standards for all care workers, including but not limited to migrants, and to adopt measures to tackle the gender and age stereotypes for care work;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_282" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_282__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to strengthen their efforts to develop national capacities to address their national implementation priorities identified during the review and appraisal of the Madrid Plan of Action by considering and devising strategies that take into account the entirety of the human life course and foster intergenerational solidarity, the strengthening of institutional mechanisms, research, data collection and analysis and the training of necessary personnel in the field of ageing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_305" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_305__content">
+          <p xml:space="preserve">	<span class="italic">Recommends</span> that Member States increase efforts to raise awareness of the Madrid Plan of Action and identify key priority areas for its implementation, including empowering older persons and promoting their rights, bearing in mind the crucial importance of intergenerational family interdependence, solidarity and reciprocity for social development, raising awareness of ageing issues and building national capacities, as well as promoting and supporting initiatives to advance a positive public image of older persons and their multiple contributions to their families, communities and societies and working with the regional commissions, as needed, and enlisting the help of the Department of Global Communications of the Secretariat in seeking increased attention for ageing issues;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_329" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_329__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Governments that have not done so to designate focal points for handling the follow-up of national plans of action on ageing, and also encourages Governments to strengthen existing networks of national focal points on ageing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_354" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_354__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Governments to conduct their ageing-related policies through inclusive and participatory consultations with relevant stakeholders and social development partners, in the interest of developing effective policies that create national policy ownership and consensus-building; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_380" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_380__content">
+          <p xml:space="preserve">	<span class="italic">Recommends</span> that Governments be inclusive in involving older persons and their organizations in the formulation, implementation and monitoring of policies and programmes that affect them, including through simple consultative mechanisms to co-research or co-design such policies and programmes with or by older persons and to take due account of involving those who experience multiple and intersecting forms of discrimination and are particularly vulnerable to high incidences of poverty and social exclusion;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_407" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_407__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> Member States to involve older persons, where appropriate, in relevant international discussions, such as in the General Assembly and other processes held under the auspices of the United Nations, by considering incorporating them in their national delegations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_435" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_435__content">
+          <p xml:space="preserve">	<span class="italic">Recommends</span> that Member States enhance their capacity to more effectively collect age-disaggregated data, statistics and qualitative information, disaggregated also, when necessary, by other relevant factors, including sex and disability, in order to improve assessment of the situation of older persons, recognizes that the data revolution presents new opportunities and challenges for the use of new data to help with the measurement of progress in the implementation of the 2030 Agenda, in particular its aspects of relevance to older persons, and to ensure that no one is left behind, and in this regard recalls the establishment by the Statistical Commission of the Titchfield Group on Ageing-Related Statistics and Age-Disaggregated Data and the consideration of its work; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_464" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_464__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to enhance the capacity of national statistical offices to identify and address existing deficits in data on ageing, to contribute to the effective follow-up on the implementation of international agreed commitments, including in the 2030 Agenda for Sustainable Development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_494" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_494__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States parties to existing international human rights instruments, where appropriate, to address the situation of older persons more explicitly in their reports, and encourages treaty body monitoring mechanisms and special procedure mandate holders to pay due regard to the situation of older persons in their dialogue with Member States, particularly in their concluding observations and reports, respectively;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_525" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_525__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the importance of strengthening intergenerational partnerships and solidarity, and in this regard calls upon Member States to promote opportunities for voluntary, constructive and regular interaction between young people and older generations in the family, the workplace and society at large;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_557" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_557__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to adopt social policies that promote the development of community services for older persons, taking into account the psychological and physical aspects of ageing and the special needs of older women and older persons with disabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_590" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_590__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to ensure that older persons have access to information about their rights so as to enable them to participate fully and justly in their societies and to claim full enjoyment of all human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_624" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_624__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to develop their national capacity for monitoring and enforcing the rights of older persons, in consultation with all sectors of society, including organizations of older persons, through, inter alia, national institutions for the promotion and protection of human rights, where applicable;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_659" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_659__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> Member States to strengthen and incorporate a gender and disability perspective into all policy actions on ageing, as well as to address and eliminate discrimination on the basis of age, sex or disability, and recommends that Member States engage with all sectors of society, in particular with relevant organizations with an interest in the matter, including organizations of older persons, women and persons with disabilities, in changing negative stereotypes about older persons, in particular older women and older persons with disabilities, and promote positive narratives of all older persons;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_695" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_695__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> that universal health coverage implies that all people, including older persons, have access, without discrimination, to every country’s determined sets of needed promotive, preventive, curative and rehabilitative basic health services and essential, safe, affordable, effective and quality medicines, while ensuring that the use of such services does not expose older persons to financial hardship, with a special emphasis on the poor, vulnerable and marginalized;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_732" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_732__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the urgent need to ensure the right of everyone to the enjoyment of the highest attainable standard of physical and mental health and to facilitate the development of robust health systems and universal health coverage, encompassing universal, timely, affordable and equitable access to all essential health technologies, diagnostics, therapeutics, medicines, safe, quality and effective vaccines, especially in response to the COVID‑19 pandemic and other health emergencies, in order to ensure full access to COVID‑19 immunization for all, in particular older persons, including those who are in vulnerable situations, especially older women;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_770" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_770__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to develop, implement and evaluate policies and programmes that promote healthy and active ageing and the highest attainable standard of health and well-being for older persons and to develop health care for older persons as part of primary care in the existing health systems;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_809" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_809__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the importance of training, education, lifelong learning and capacity-building of the health workforce, including paid care workers and unpaid caregivers, for home-based care;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_849" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_849__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to close all digital divides, including, inter alia, both between and within countries, the rural-urban digital divide, the gender digital divide, and between youth and older persons, which can be experienced by older persons by providing universal and affordable access to and use of information and communications technologies, including new technologies and the meaningful use of digitally enabled services, in line with the 2030 Agenda for Sustainable Development, to people throughout their life course without discrimination based on age or other forms of discrimination, and welcomes efforts by the United Nations to assist Member States, upon their request, in achieving this;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_890" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_890__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to promote digital literacy with a special focus on enhancing digital skills and competencies of older persons without discrimination of any kind, including socioeconomic status, education level, race and/or ethnicity, gender and disability as well as language barriers, by taking into account national and regional contexts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_932" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_932__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to ensure that the principle of non‑discrimination on the basis of age is incorporated and upheld in health and other policies and programmes and that the implementation of such policies and programmes is regularly monitored;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_975" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_975__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to strengthen intersectoral policy frameworks and institutional mechanisms, as appropriate, for the integrated management of the prevention and control of non‑communicable diseases, including health promotion, health-care services and social welfare services, in order to address the needs of older persons;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1019" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1019__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to provide services and support to older persons, including grandparents, who have assumed responsibility for children who were abandoned or whose parents are deceased, have migrated, have been displaced, including in the context of humanitarian emergencies, or are otherwise unable to care for their dependants;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1064" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1064__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to address the issue of the well-being of and adequate health-care services for older persons, as well as any cases of neglect, abuse and violence against older persons, in particular older women, by designing and implementing more effective prevention strategies and stronger laws and by developing coherent and comprehensive policy frameworks to address these problems and their underlying factors;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1110" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1110__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to increase the resilience of older persons and ensure that they are able to achieve and maintain financial security during emergencies, through, inter alia, addressing the digital gap that currently affects many older persons and protecting them from violence and abuse in digital contexts; strengthening legal and social protection and adopting adequate employment measures; providing better care and support services, promoting long-term care and support at home, in the community and in institutional settings, with a view to ensuring their empowerment, as well as their autonomy and independence; adopting a people-centred, gender-sensitive comprehensive and integrated approach, with full respect for human rights, to health care to improve the well-being of older persons, including mental health care, non‑communicable disease management and adult immunization efforts; and developing national vaccination plans that give priority to older persons and are guided by principles of equality and social justice; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1157" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1157__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to take concrete measures, in accordance with national circumstances and, as appropriate, international humanitarian law, to further protect and assist older persons in emergency situations, and invites all States to promote a culture of protection, taking into account the particular needs of older persons, in accordance with the Madrid Plan of Action and the Sendai Framework for Disaster Risk Reduction 2015–2030<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/69/283">69/283</a>, annex II.</p></authorialNote> by, inter alia, including older persons in disaster risk reduction and national and local emergency planning and response frameworks, collecting and using data disaggregated by age, sex and disability for policy design and implementation, as well as carrying out risk and vulnerabilities analyses of older women in humanitarian emergencies with a view to minimizing the risk to older women of all forms of violence in such emergencies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1205" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1205__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to integrate lessons learned from the pandemic with regard to older persons in order to combat ageism, protect the human rights of older persons and strengthen existing policies and laws to address all forms of discrimination in all areas of their life, as well as to take concrete measures that integrate age- and gender-responsive preparedness plans into relevant policy areas at the national and international levels and ensure that older persons and their representatives are consulted in planning and decision-making processes that affect them, on an equal basis with others, in order to address their specific needs;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1254" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1254__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> national and local governments to improve access to affordable housing, particularly for older persons, through integrated housing policies and social protection measures, and to provide a range of support services that promote their dignity, autonomy and independence, including by addressing legal and policy barriers to equal and non‑discriminatory access to adequate housing for them;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1304" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1304__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to ensure access to justice for older persons, whose right to adequate housing may have been violated due to discrimination based on age; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1355" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1355__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to adopt measures to tackle homelessness and to protect older persons from arbitrary forced eviction, as well as to take all appropriate measures to ensure that adequate alternative housing or relocation is available, especially in situations of emergencies, such as during the COVID‑19 pandemic; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1407" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1407__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> that, in complementing national development efforts, enhanced international cooperation, in particular North-South cooperation, which is complemented by South-South and triangular regional and international cooperation, is essential to support developing countries in implementing the Madrid Plan of Action, while recognizing the importance of such assistance as well as the provision of financial assistance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1460" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1460__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to establish or to strengthen strategic approaches and policy options in relation to the physical and mental health of older persons in the light of new and emerging disease patterns, notably non‑communicable diseases, as well as in relation to increased life expectancy, with particular attention to promoting good health and addressing health needs across a care continuum, including prevention, detection and diagnosis, management and rehabilitation, treatment and palliative care, with the aim of achieving comprehensive health-care coverage for older persons;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1514" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1514__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the international community, including international and bilateral donors, to enhance international cooperation to support national efforts to eradicate poverty, in keeping with internationally agreed goals, in order to achieve sustainable and adequate social and economic support for older persons, while bearing in mind that countries have the primary responsibility for their own economic and social development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1569" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1569__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> the international community to support national efforts to forge stronger partnerships with civil society, including organizations of older persons, academia, research foundations, faith-based organizations, community-based organizations, including caregivers, and the private sector, in an effort to help to build capacity on ageing issues;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1625" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1625__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the international community and the relevant agencies of the United Nations system, within their respective mandates, to support national efforts to provide funding for research and data-collection initiatives on ageing, as appropriate, in order to better understand the challenges and opportunities presented by population ageing and to provide policymakers with more accurate and more specific information with regard to a gender perspective on ageing, as well as to include indicators that provide an evidence base for the equitable delivery and effective monitoring of the implementation of the Sustainable Development Goals, the New Urban Agenda<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/71/256">71/256</a>, annex.</p></authorialNote> and national policymaking, as well as to gain a better understanding of how to promote ageing in a way that is not adversely affected by rapid urbanization and gentrification;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1682" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1682__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the important role of various international and regional organizations that deal with training, capacity-building, policy design and monitoring at the national and regional levels in promoting and facilitating the implementation of the Madrid Plan of Action, and acknowledges the work that is undertaken in various parts of the world, through the regional commissions and regional initiatives, as well as the work of institutes such as the International Institute on Ageing in Malta and the European Centre for Social Welfare Policy and Research in Vienna;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1740" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1740__content">
+          <p xml:space="preserve">	<span class="italic">Takes note with appreciation</span> of the work of the Inter-Agency Group on Ageing, a network of United Nations entities that exchange information and integrate ageing into their work programmes on the implementation of the 2030 Agenda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1799" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1799__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the focal point on ageing of the United Nations system, the Programme on Ageing of the Department of Economic and Social Affairs of the Secretariat, to continue to enhance its collaboration with the focal points of the regional commissions, funds and programmes, and recommends that Member States reaffirm the roles of focal points within the United Nations system, increase technical cooperation efforts, consider expanding the role of the regional commissions on ageing issues and continue to provide resources for those efforts, facilitate the coordination of national and international non‑governmental organizations on ageing and enhance cooperation with all relevant stakeholders, to promote ageing issues and develop partnerships in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1859" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1859__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the need for additional capacity-building at the national level in order to promote and facilitate further implementation of the Madrid Plan of Action, as well as the results of its review and appraisal cycle, and in this regard encourages Governments to support the United Nations trust fund for ageing so as to enable the Department of Economic and Social Affairs to provide expanded assistance to countries, upon their request;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1920" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1920__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations system to strengthen its capacity to support, in an efficient and coordinated manner, national implementation of the Madrid Plan of Action, where appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1982" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1982__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> relevant entities of the United Nations system, including the United Nations Entity for Gender Equality and the Empowerment of Women (UN‑Women), to ensure that the situation of older women is mainstreamed and incorporated across their work and to support, in accordance with their respective mandates, the implementation of the 2030 Agenda, in particular its aspects of relevance to older persons, including gender equality and the empowerment of all women and girls through, inter alia, the elimination of all forms of discrimination and violence against women;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2045" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2045__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> relevant entities of the United Nations system, including UN‑Women, the United Nations Development Programme, the United Nations Population Fund, the International Labour Organization, the United Nations Human Settlements Programme (UN-Habitat), the Food and Agriculture Organization of the United Nations, the World Food Programme, the International Fund for Agricultural Development, the Office of the United Nations High Commissioner for Refugees and the World Health Organization, among others, as well as the International Organization for Migration, to include in reports to their respective governing bodies relevant information on efforts made by Member States and the international community on issues of relevance to older persons, including their social inclusion;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2109" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2109__content">
+          <p xml:space="preserve">	<span class="italic">Notes with appreciation</span> the work of the Open-ended Working Group on Ageing,<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">	 	See <a href="https://undocs.org/en/A/AC.278/2016/2">A/AC.278/2016/2</a>, <a href="https://undocs.org/en/A/AC.278/2017/2">A/AC.278/2017/2</a>, <a href="https://undocs.org/en/A/AC.278/2018/2">A/AC.278/2018/2</a>, <a href="https://undocs.org/en/A/AC.278/2019/2">A/AC.278/2019/2</a>, <a href="https://undocs.org/en/A/AC.278/2021/2">A/AC.278/2021/2</a>, <a href="https://undocs.org/en/A/AC.278/2022/2">A/AC.278/2022/2</a> and <a href="https://undocs.org/en/A/AC.278/2023/2">A/AC.278/2023/2</a>.</p></authorialNote> and recognizes the positive contributions of Member States, as well as relevant bodies and organizations of the United Nations system, including relevant human rights mandate holders and treaty bodies and the regional commissions, as well as national human rights institutions, intergovernmental and relevant non‑governmental organizations with an interest in the matter and invited panellists, during the first 13 working sessions of the Working Group, and invites Member States, as well as relevant bodies and organizations of the United Nations system and other relevant stakeholders, to continue to make contributions to the work entrusted to the Working Group, as appropriate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2174" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2174__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to continue to contribute to the work of the Open-ended Working Group on Ageing, in particular by presenting measures to enhance the promotion and protection of the human rights and dignity of older persons, such as best practices, lessons learned and possible content for a multilateral legal instrument, as appropriate, in order to enable it to fulfil its existing mandate of strengthening the protection of the human rights of older persons by considering the existing international framework of the human rights of older persons and identifying possible gaps and how best to address them, including by considering, as appropriate, the feasibility of further instruments and measures, and by considering adopting at each session intergovernmentally negotiated recommendations to be presented for consideration by the General Assembly;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2240" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2240__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to provide all necessary support to the Open-ended Working Group on Ageing for the organization of its fourteenth session, of four days, in March 2024, with the provision of conference services, including interpretation services, and to include the annual sessions of the Working Group in the Organization’s calendar of conferences and meetings;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2307" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2307__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Independent Expert to address and engage in an interactive dialogue with the General Assembly at its seventy-ninth session under the agenda item entitled “Social development”; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2375" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2375__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit to the General Assembly at its seventy-ninth session a report on the implementation of the present resolution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="50th" refersTo="#adoptionMeeting">50th plenary meeting</location>
+          <eol />
+          <docDate date="2023-12-19" refersTo="#adoptionDate">19 December 2023</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
