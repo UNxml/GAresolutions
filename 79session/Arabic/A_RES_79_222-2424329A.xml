@@ -1,0 +1,599 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-222/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-222/"></FRBRuri>
+          <FRBRdate date="2024-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-222/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-222/ara@/"></FRBRuri>
+          <FRBRdate date="2024-12-23" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-222/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-222/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-01-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNIDO" showAs="UNIDO" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDUSTRIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1003133" showAs="INDUSTRIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC GROWTH" href="http://metadata.un.org/thesaurus/1001854" showAs="ECONOMIC GROWTH" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" href="http://metadata.un.org/thesaurus/1000797" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="22b" showAs="Industrial development cooperation." shortForm="INDUSTRIAL DEVELOPMENT" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-11-19" outcome="draftResolution" as="A/C.2/79/L.28/Rev.1" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Austria, Germany and Portugal" />
+        <step date="2024-12-11" outcome="recommendedForAdoption" as="A/79/441/Add.2" by="" refersTo="7" />
+        <step date="2024-12-19" outcome="adopted" as="A/79/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="secondCommittee" href="#secondCommittee" showAs="اللجنة الثانية"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-24329 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/222</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-12-23" class="rightSmall" refersTo="#dateOfIssuance">23 December 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">الدورة التاسعة والسبعون</session>
+      </p>
+      <p>
+        <inline title="22 (ب)" name="agenda item">البند 22 (ب) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">القضاء على الفقر وقضايا إنمائية أخرى: التعاون في ميدان التنمية الصناعية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذته الجمعية العامة في 19 كانون الأول/ديسمبر 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#secondCommittee">[بناء على تقرير اللجنة الثانية (<inline name="originating document">A/79/441/Add.2، الفقرة 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/222</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	التعاون في ميدان التنمية الصناعية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن الجمعية العامة،</span>
+        </p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تشير</span> إلى قراراتها <a href="https://undocs.org/ar/A/RES/49/108">49/108</a> المؤرخ 19 كانون الأول/ديسمبر 1994 و <a href="https://undocs.org/ar/A/RES/51/170">51/170</a> المؤرخ 16 كانون الأول/ديسمبر 1996 و <a href="https://undocs.org/ar/A/RES/53/177">53/177</a> المؤرخ 15 كانون الأول/ديسمبر 1998 و <a href="https://undocs.org/ar/A/RES/55/187">55/187</a> المؤرخ 20 كانون الأول/ديسمبر 2000 و <a href="https://undocs.org/ar/A/RES/57/243">57/243</a> المؤرخ 20 كانون الأول/ديسمبر 2002 و <a href="https://undocs.org/ar/A/RES/59/249">59/249</a> المؤرخ 22 كانون الأول/ديسمبر 2004 و <a href="https://undocs.org/ar/A/RES/61/215">61/215</a> المؤرخ 20 كانون الأول/ديسمبر 2006 و <a href="https://undocs.org/ar/A/RES/63/231">63/231</a> المؤرخ 19 كانون الأول/ديسمبر 2008 و <a href="https://undocs.org/ar/A/RES/65/175">65/175</a> المؤرخ 20 كانون الأول/ديسمبر 2010 و <a href="https://undocs.org/ar/A/RES/67/225">67/225</a> المؤرخ 21 كانون الأول/ديسمبر 2012 و <a href="https://undocs.org/ar/A/RES/69/235">69/235</a> المؤرخ 19 كانون الأول/ديسمبر 2014 و <a href="https://undocs.org/ar/A/RES/71/242">71/242</a> المؤرخ 21 كانون الأول/ديسمبر 2016 و <a href="https://undocs.org/ar/A/RES/73/247">73/247</a> المؤرخ 20 كانون الأول/ديسمبر 2018 و <a href="https://undocs.org/ar/A/RES/75/231">75/231</a> المؤرخ 21 كانون الأول/ديسمبر 2020 و <a href="https://undocs.org/ar/A/RES/77/180">77/180</a> المؤرخ 14 كانون الأول/ديسمبر 2022،</p>
+      </container>
+      <container name="وإذ تشير أيضا" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا</span> إلى نتائج جميع المؤتمرات الرئيسية ومؤتمرات القمة التي تعقدها الأمم المتحدة في ‏الميادين الاقتصادية والاجتماعية والبيئية والميادين المتصلة بها،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> قرارها <a href="https://undocs.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015، المعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، والذي اعتمدت فيه مجموعة شاملة وعميقة الأثر من أهداف وغايات التنمية المستدامة العالمية والمفضية إلى التحول والمتمحورة حول الإنسان، والتزامَها بالعمل دون كلل من أجل تنفيذ خطة التنمية المستدامة كاملة بحلول عام 2030، وإدراكَها أن القضاء على الفقر بجميع صوره وأبعاده، بما في ذلك الفقر المدقع، هو أكبر تحد يواجهه العالم وشرط لا غنى عنه لتحقيق التنمية المستدامة، والتزامَها بتحقيق التنمية المستدامة بأبعادها الثلاثة - الاقتصادي والاجتماعي والبيئي - على نحو متوازن ومتكامل، وبالاستناد إلى الإنجازات التي تحققت في إطار الأهداف الإنمائية للألفية والسعي إلى استكمال ما لم يُنفّذ من تلك الأهداف،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد أيضا" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد أيضا</span> قرارها <a href="https://undocs.org/ar/A/RES/69/313">69/313</a> المؤرخ 27 تموز/يوليه 2015 بشأن خطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية، التي تشكل جزءا لا يتجزأ من خطة التنمية المستدامة لعام 2030، وتدعمُها وتكملُها وتساعد على توضيح سياق غاياتها المتصلة بوسائل التنفيذ من خلال سياسات وإجراءات عملية وتعيد تأكيد الالتزام السياسي القوي بالتصدي لتحدي التمويل وتهيئة بيئة مواتية على جميع المستويات لتحقيق التنمية المستدامة، بروحٍ من الشراكة والتضامن على الصعيد العالمي،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى أن خطة عمل أديس أبابا أقرت، في جملة أمور، بالأهمية الحاسمة للتنمية الصناعية للبلدان النامية باعتبارها مصدرا بالغ الأهمية للنمو الاقتصادي والتنويع الاقتصادي وتحقيق القيمة المضافة،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالإعلان السياسي الذي اعتمده المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة الذي عقد تحت رعاية الجمعية العامة (مؤتمر القمة المعني بأهداف التنمية المستدامة) في نيويورك يومي 18 و 19 أيلول/سبتمبر 2023<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/78/1">78/1</a>، المرفق.</p></authorialNote><sup>)</sup>، وتحث على اتخاذ إجراءات في الوقت المناسب لضمان تنفيذه بالكامل،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بانعقاد مؤتمر القمة المعني بالمستقبل في 22 و 23 أيلول/سبتمبر 2024 في مقر الأمم المتحدة بنيويورك الذي اعتُمد فيه القرار 1/79 المعنون ”ميثاق المستقبل“ ومرفقاه،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى ضرورة تمتين منظومة الأمم المتحدة الإنمائية وإقامة تعاون فعال بين الأمم المتحدة والمؤسسات المالية الدولية للتوصل إلى التنفيذ الكامل لخطة التنمية المستدامة لعام 2030 وأهداف التنمية المستدامة الواردة فيها،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد </span>قرارها <a href="https://undocs.org/ar/A/RES/71/243">71/243</a> المؤرخ 21 كانون الأول/ديسمبر 2016 وقرارها <a href="https://undocs.org/ar/A/RES/75/233">75/233</a> المؤرخ 21 كانون الأول/ديسمبر 2020 بشأن الاستعراض الشامل الذي يجري كل أربع سنوات لسياسة الأنشطة التنفيذية التي تضطلع بها منظومة الأمم المتحدة من أجل التنمية ومبادئه التوجيهية ومبادئه العامة، وقرارها <a href="https://undocs.org/ar/A/RES/72/279">72/279</a> المؤرخ 31 أيار/مايو 2018، وإذ ترحب بالجهود المتواصلة التي يبذلها الأمين العام لتكييف الأنشطة التنفيذية التي تضطلع بها الأمم المتحدة من أجل التنمية بحيث تكون أقدر على دعم البلدان في جهودها الرامية إلى تنفيذ خطة عام 2030،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد أيضا" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد أيضا</span> اتفاق باريس<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	اعتمد بموجب اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ في الوثيقة <a href="https://undocs.org/ar/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>، المقرر 1/م أ-21.</p></authorialNote><sup>)</sup>، وإذ تشجع جميع الأطراف في الاتفاق على تنفيذه بشكل كامل وتشجع الأطراف في اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series,</span> vol. 1771, No. 30822.</p></authorialNote><sup>)</sup> التي لم تودع بعدُ صك التصديق عليها أو قبولها أو الموافقة عليها أو الانضمام إليها، حسب الاقتضاء، على أن تفعل ذلك في أقرب وقت ممكن،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد كذلك" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد كذلك</span> الخطة الحضرية الجديدة التي اعتُمدت في مؤتمر الأمم المتحدة المعني بالإسكان والتنمية الحضرية المستدامة (الموئل الثالث)، الذي عُقد في كيتو في تشرين الأول/أكتوبر 2016<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/71/256">71/256</a>، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما</span> بالوثائق الختامية التي تمخضت عنها الدورة الرابعة عشرة لمؤتمر الأمم المتحدة للتجارة والتنمية التي عُقدت في نيروبي في عام 2016<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/TD/519">TD/519</a> و <a href="https://undocs.org/ar/TD/519/Add.1">TD/519/Add.1</a> و <a href="https://undocs.org/ar/TD/519/Add.2">TD/519/Add.2</a> و <a href="https://undocs.org/ar/TD/519/Add.2/Corr.1">TD/519/Add.2/Corr.1</a>.</p></authorialNote><sup>)</sup> والدورة الخامسة عشرة المنعقدة ببريدجتاون في تشرين الأول/أكتوبر 2021<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/TD/541">TD/541</a> و <a href="https://undocs.org/ar/TD/541/Add.1">TD/541/Add.1</a> و <a href="https://undocs.org/ar/TD/541/Add.2">TD/541/Add.2</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى قرارها <a href="https://undocs.org/ar/A/RES/70/293">70/293</a> المؤرخ 25 تموز/يوليه 2016 بشأن العقد الثالث للتنمية الصناعية لأفريقيا (2016-2025)، الذي أكدت فيه الحاجة إلى أن تتخذ القارة الأفريقية إجراءات عاجلة للنهوض بالتصنيع الشامل للجميع والمستدام باعتباره عنصرا رئيسيا في تعزيز التنويع الاقتصادي وتحقيق القيمة المضافة، وإقامة بنى تحتية قادرة على الصمود ومستدامة، وإيجاد فرص العمل، وتشجيع الابتكار، وبالتالي الحد من الفقر والإسهام في تنفيذ خطة عام 2030 وأهداف التنمية المستدامة الواردة فيها وخطة الاتحاد الأفريقي لعام 2063،</p>
+      </container>
+      <container name="وإذ تشير أيضا" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير أيضا</span> إلى قرارها <a href="https://undocs.org/ar/A/RES/72/233">72/233</a> المؤرخ 20 كانون الأول/ديسمبر 2017 الذي أعلنت فيه عن عقد الأمم المتحدة الثالث للقضاء على الفقر (2018-2027)، وشددت على الدور الأساسي للتنمية الصناعية المستدامة والشاملة للجميع في إطار استراتيجية شاملة لإحداث تحول اقتصادي هيكلي في مجال القضاء على الفقر،</p>
+      </container>
+      <container name="وإذ تشير كذلك" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير كذلك</span> إلى الدورة الثامنة عشرة للمؤتمر العام لمنظمة الأمم المتحدة للتنمية الصناعية، التي عقدت في أبو ظبي في تشرين الثاني/نوفمبر 2019، وإلى إعلان أبو ظبي<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/GC.18/INF/4">GC.18/INF/4</a>، القرار م ع-18/ق-1.</p></authorialNote><sup>)</sup>، وإلى الدورة الخامسة عشرة للمؤتمر العام لمنظمة الأمم المتحدة للتنمية الصناعية، التي عُقدت في ليما في كانون الأول/ديسمبر 2013، وإلى إعلان ليما: نحو تنمية صناعية مستدامة شاملة للجميع<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/GC.15/INF/4">GC.15/INF/4</a>، القرار م ع-15/ق-1.</p></authorialNote><sup>)</sup>، الذي أعاد فيه المؤتمر العام التأكيد بشكل خاص على الولاية الفريدة المنوطة بالمنظمة وحدد فيه الأسس لأعمالها المقبلة من أجل دعم الدول الأعضاء في تحقيق تنمية صناعية مستدامة شاملة للجميع،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> الجهود الجاري بذلها لتنفيذ برنامج عمل الدوحة لصالح أقل البلدان نموا الذي اعتمد في آذار/مارس 2022 في مؤتمر الأمم المتحدة الخامس المعني بأقل البلدان نموا<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/76/258">76/258</a>، المرفق.</p></authorialNote><sup>)</sup>، وخطة عمل أنتيغوا وبربودا للدول الجزرية الصغيرة النامية: إعلان مجدد لتحقيق الازدهار القادر على الصمود التي اعتمدت في أيار/مايو 2024 في المؤتمر الدولي الرابع المعني بالدول الجزرية الصغيرة النامية<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/78/317">78/317</a>، المرفق.</p></authorialNote><sup>)</sup>، وبرنامج العمل الجديد لصالح البلدان النامية غير الساحلية، وإذ تسلم بأن البلدان المتوسطة الدخل ما زالت تواجه تحديات كبيرة في سبيل تحقيق التنمية المستدامة وبالحاجة إلى أمور منها تحسين التنسيق وزيادة جودة الدعم الذي تقدمه منظومة الأمم المتحدة الإنمائية وتركيزه،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تحيط علما</span> بالإطار الاستراتيجي للشراكة مع البلدان المتوسطة الدخل<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/GC.18/3">GC.18/3</a>، المقرر م ت ص-47/م-7.</p></authorialNote><sup>)</sup>، الذي اعتمده المؤتمر العام لمنظمة الأمم المتحدة للتنمية الصناعية في قراره م ع-18/ق-9 المؤرخ 7 تشرين الثاني/نوفمبر 2019<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/GC.18/INF/4">GC.18/INF/4</a>.</p></authorialNote><sup>)</sup>، والمعنون ”التنمية الصناعية الشاملة للجميع والمستدامة في البلدان المتوسطة الدخل“، </p>
+      </container>
+      <container name="وإذ تحيط علما أيضا" eId="container_19">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تحيط علما أيضا </span>باستراتيجية منظمة الأمم المتحدة للتنمية الصناعية للدول الجزرية الصغيرة النامية للفترة 2019-2025، التي أقر بها المؤتمر العام للمنظمة في قراره م ع-18/ق-3 المؤرخ 7 تشرين الثاني/نوفمبر 2019<sup>(</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تحيط علما كذلك" eId="container_20">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تحيط علما كذلك </span>باستراتيجية منظمة الأمم المتحدة للتنمية الصناعية لحالات ما بعد النزاع/الأزمات<sup>(</sup><authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/IDB.48/16/Rev.1">IDB.48/16/Rev.1</a>.</p></authorialNote><sup>)</sup>، التي أحاط مجلس التنمية الصناعية التابع للمنظمة علما بها في مقرره م ت ص-48/م-8 المؤرخ 25 تشرين الثاني/نوفمبر 2020<sup>(</sup><authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/GC.19/2">GC.19/2</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تحيط علما" eId="container_21">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تحيط علما </span>باستراتيجية منظمة الأمم المتحدة للتنمية الصناعية لأفريقيا، التي أقر المؤتمر العام للمنظمة بها في قراره م ع-20/ق-1 المؤرخ 1 كانون الأول/ديسمبر 2023<sup>(</sup><authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/GC.20/INF.4">GC.20/INF.4</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تحيط علما أيضا" eId="container_22">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تحيط علما أيضا</span> بالاستراتيجية التنفيذية لمنظمة الأمم المتحدة للتنمية الصناعية لأقل البلدان نموا للفترة 2022-2031، التي رحب المؤتمر العام للمنظمة بها في قراره م ع-20/ق-3 المؤرخ 1 كانون الأول/ديسمبر 2023<sup>(</sup><authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> أن التنمية الصناعية المستدامة الشاملة للجميع يمكن أن تساهم بشكل فعال في تنفيذ خطة عام 2030، وأن تجمع على نحو متوازن بين الأبعاد الثلاثة للتنمية المستدامة،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_24">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ تسلم</span> بأن الشراكات بين أصحاب المصلحة المتعددين والموارد والمعارف والقدرات الإبداعية الموجودة لدى القطاع الخاص والمجتمع المدني والأوساط العلمية والأكاديمية والمؤسسات الخيرية والبرلمانات والسلطات المحلية والمتطوعين وأصحاب المصلحة الآخرين سيكون لها دور مهم من أجل حشد المعارف والخبرات والتكنولوجيا والموارد المالية وتبادلها بشروط متفق عليها، وتكميل الجهود الحكومية،</p>
+      </container>
+      <container name="وإذ تلاحظ بقلق بالغ" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ بقلق بالغ </span>الوقع السلبي الحاد لجائحة مرض فيروس كورونا (كوفيد-19) على صحة الإنسان وسلامته ورفاهيته وما تعرضت له المجتمعات والاقتصادات من اختلالات شديدة، وما ألحقته الجائحة من دمار بحياة الناس وسبل عيشهم، وأن أشد الفئات فقرا وضعفا هي الأكثر تضررا من آثارها، وإذ تؤكد من جديد الطموح للعودة إلى المسار الصحيح لتحقيق أهداف التنمية المستدامة عن طريق وضع وتنفيذ استراتيجيات للتعافي تتسم بالاستدامة والشمول من أجل التعجيل بالتقدم صوب تنفيذ خطة التنمية المستدامة لعام 2030 تنفيذا كاملا والمساعدة على الحد من مخاطر الصدمات والأزمات والجوائح في المستقبل وبناء القدرة على الصمود في وجهها، بسبل من بينها تعزيز النظم الصحية وتوفير التغطية الصحية الشاملة، وإذ تسلم بأن حصول الجميع على نحو منصف وفي الوقت المناسب على اللقاحات ووسائل العلاج والتشخيص المتعلقة بكوفيد-19 التي تكون مأمونة وجيدة وفعالة وميسورة التكلفة هو جزء صميم من التدابير العالمية المتخَذة على أساس الوحدة والتضامن والتعاون المتعدد الأطراف المتجدد والمبدأ القاضي بألا يترك أحد خلف الركب،</p>
+      </container>
+      <container name="وإذ يساورها بالغ القلق" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساورها بالغ القلق</span> من أن الاختلالات الخطيرة التي تلحقها جائحة كوفيد-19 بالمجتمعات، والاقتصادات، والعمالة، بما في ذلك عمل المرء لحسابه الخاص ومباشرة الأعمال الحرة، والتجارة العالمية، وسلاسل الإمداد والسفر، وبالنظم الزراعية والصناعية والتجارية، تؤثر تأثيرا مدمرا في التنمية المستدامة والاحتياجات الإنسانية، بما في ذلك في استئصال الفقر بجميع أشكاله ومظاهره، وسبل العيش، والقضاء على الجوع، والأمن الغذائي والتغذية، والتعليم، وإدارة النفايات بطرق سليمة بيئيا والحصول على خدمات الرعاية الصحية، ولا سيما بالنسبة للفقراء والأشخاص الذين يعيشون في أوضاع هشة، وبخاصة في البلدان النامية، بما في ذلك البلدان التي تمر بحالات خاصة وأشد البلدان تضررا من الجائحة، وتزيد من صعوبة إمكانية تحقيق أهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ تنوه" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تنوه</span> بالتقارير التي تعدها منظمة الأمم المتحدة للتنمية الصناعية بشأن التنمية الصناعية، التي تبحث فيها المنظمة العصر الجديد من السياسات الصناعية<sup>(</sup><authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	()	United Nations Industrial Development Organization<span class="italic">, Industrial Development Report 2024: Turning Challenges into Sustainable Solutions – The New Era of Industrial Policy</span> (Vienna, 2024)..</p></authorialNote><sup>)</sup>، ومستقبل التصنيع في العالم بعد انجلاء الجائحة<sup>(</sup><authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	()	United Nations Industrial Development Organization, <span class="italic">Industrial Development Report 2022: The Future of Industrialization in a Post-Pandemic World</span> (Vienna, 2021)..</p></authorialNote><sup>)</sup>، والتصنيع في العصر الرقمي<sup>(</sup><authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">	()	منظمة الأمم المتحدة للتنمية الصناعية، <span class="italic">تقرير التنمية الصناعية لعام 2020: التصنيع في العصر الرقمي</span> (فيينا، 2019).</p></authorialNote><sup>)</sup>، ومواضيع أخرى من أجل تحسين إسهام الصناعة في الأنماط المستدامة من الإنتاج والاستهلاك، وفي الإدماج الاجتماعي والمساواة بين الجنسين، والعمل اللائق، ونمو الإنتاجية، والتكنولوجيا والابتكار، والكفاءة في استخدام الموارد، بما في ذلك الكفاءة في استخدام الطاقة، على سبيل المثال لا الحصر،</p>
+      </container>
+      <container name="وإذ تكرر تأكيد" eId="container_28">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تكرر تأكيد</span> حق كل بلد في تحديد استراتيجياته الإنمائية، وفقا لأولوياته الوطنية وبما يتماشى مع الأهداف الإنمائية المتفق عليها دوليا، بما فيها أهداف التنمية المستدامة، وأن كل بلد يتحمل المسؤولية الرئيسية عن ذلك، وإذ تشير إلى ما وقع من انسحابات من عضوية منظمة الأمم المتحدة للتنمية الصناعية، وأهمية أن تفي الدول الأعضاء التي عليها مبالغ متأخرة بالتزاماتها، والأثر المحتمل أن يلحقه ذلك بقدرة المنظمة على إنجاز أنشطتها، وإذ تدعو في هذا الصدد جميع الدول إلى أن توائم الدعم الذي تقدمه والجهود الإنمائية التي تبذلها بحيث تتوجه نحو التنفيذ الكامل لخطة عام 2030،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بأهمية أن تبقى منظمة الأمم المتحدة للتنمية الصناعية على اتصال بجميع الدول الأعضاء في الأمم المتحدة وأن تشجعها على النظر في الانضمام إلى المنظمة، انطلاقا من روح إقامة شراكة عالمية متجددة الحيوية من أجل التنمية المستدامة وبهدف تعزيز وسائل تنفيذ الهدف 9 من أهداف التنمية المستدامة وغيره من الأهداف والغايات المترابطة ذات الصلة من خطة عام 2030،</p>
+      </container>
+      <container name="وإذ تسلم أيضا" eId="container_30">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم أيضا</span> بأهمية منظمة الأمم المتحدة للتنمية الصناعية في معالجة الأسباب الجذرية للفقر بتقديم الحلول لتحقيق أهداف من بينها إيجاد فرص العمل وتحقيق التنافسية الاقتصادية والقدرة الإنتاجية، من خلال تعزيز ما تبذله من جهود في تشجيع التنمية المستدامة الشاملة للجميع،</p>
+      </container>
+      <container name="وإذ تلاحظ بقلق" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ بقلق</span> أن الأزمات العالمية أدت إلى تباطؤ نمو الصناعات التحويلية في أقل البلدان نموا كافة، مما أعاق التقدم المحرز نحو تحقيق غايات أهداف التنمية المستدامة، وأن أثر هذه الأزمات على أسواق العمل كان أيضا أشد في البلدان النامية المتوسطة الدخل، حيث أثرت الأزمات في قدرتها على الاستفادة من المشاركة في سلاسل القيمة الإنتاجية كمصدر للعمالة والنمو،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_32">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على الدور الحيوي للتنمية الصناعية المستدامة الشاملة للجميع كجزء من استراتيجيةٍ شاملة لإحداث تحول اقتصادي هيكلي في مجالي القضاء على الفقر بجميع أشكاله وأبعاده، بما في ذلك الفقر المدقع، ودعم النمو الاقتصادي المطرد، وما يستتبعه ذلك من مساهمة لها في تحقيق التنمية المستدامة في البلدان النامية، بما فيها أشد البلدان ضعفا، ولا سيما البلدان الأفريقية وأقل البلدان نموا والبلدان النامية غير الساحلية والدول الجزرية الصغيرة النامية، وإذ تعترف في الوقت ذاته بالتحديات الكبيرة التي تواجهها البلدان المتوسطة الدخل وتشدد كذلك على أن البلدان التي تشهد حالات نزاع تحتاج أيضا إلى اهتمام خاص،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_33">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بتنوع السبل المؤدية إلى تحقيق تنمية صناعية مستدامة شاملة للجميع، وتسلّم، في هذا الصدد، بأن كل بلد مسؤول في المقام الأول عن تحقيق تنميته، وله الحق في تحديد مساراته الإنمائية والاستراتيجيات المناسبة له، وفقا للقواعد والالتزامات الدولية ذات الصلة، مع مراعاة الاختلافات في القدرات والاحتياجات والمستويات الإنمائية الوطنية، وفي إطار الاحترام الواجب للسياسات والأولويات الوطنية،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_34">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى أن أهداف التنمية المستدامة وغاياتها متكاملة وغير قابلة للتجزئة وتحقق التوازن بين الأبعاد الثلاثة للتنمية المستدامة، وإذ تسلم بالضرورة القصوى لإقامة بُنى تحتية قادرة على الصمود وتتسم بالجودة والاستدامة وتحفيز التصنيع المستدام الشامل للجميع وتشجيع الابتكار وتحقيق الغايات المترابطة لأهداف التنمية المستدامة الأخرى،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_35">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد</span> أهمية التعاون الصناعي الدولي في تشجيع التصنيع المستدام الشامل للجميع، وفي إيجاد فرص العمل اللائق، بما يشمل الشباب، وتحقيق النمو الاقتصادي الشامل للجميع، ومكافحة التلوث، وإقامة شبكات المعرفة، وتحقيق الكفاءة في استخدام الموارد، وإتاحة الاستفادة من أشكال الطاقة الحديثة المستدامة التي يمكن التعويل عليها وتكون أسعارها في المتناول، وتحقيق المساواة بين الجنسين وتمكين جميع النساء، وإتاحة الفرص لجميع أفراد المجتمع للمشاركة في الأنشطة الاقتصادية والتصدي للتحديات والقضايا الرئيسية، مثل الفقر وتغير المناخ والتحولات الديمغرافية وتزايد أوجه عدم المساواة،</p>
+      </container>
+      <container name="وإذ تؤكد أيضا" eId="container_36">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد أيضا</span> أن من العوامل القوية التي تحفز النمو الاقتصادي والتنمية المستدامة استحداث وتطوير ونشر مبتكرات وتكنولوجيات جديدة وما يرتبط بها من دراية فنية، بما في ذلك نقل التكنولوجيا وفق شروط متفق عليها،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_37">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على أهمية تسخير العلم والتكنولوجيا والابتكار ومباشرة الأعمال الحرة لبناء وصون بنى تحتية صناعية قادرة على الصمود وتحقيق تنمية صناعية مستدامة شاملة للجميع،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_38">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى إنشاء آلية تيسير التكنولوجيا بموجب قرارها <a href="https://undocs.org/ar/A/RES/69/313">69/313</a> وبإدخال الآلية طور التشغيل بموجب قرارها <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>، وإذ تتطلع إلى مزيد من التعاون بين الدول الأعضاء والمجتمع المدني والقطاع الخاص والأوساط العلمية وكيانات منظومة الأمم المتحدة والجهات الأخرى صاحبة المصلحة من أجل تعزيز التنمية الصناعية المستدامة الشاملة للجميع،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_39">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم</span> بالفوائد التي يمكن أن تعود على البلدان من تحويل اقتصاداتها لتعزيز أنماط الاستهلاك والإنتاج المستدامة، وذلك بالعمل مع الشركاء لإدماج أو تنفيذ مفاهيم من قبيل الاقتصاد الدائري والصناعة 4,0 لتعزيز استدامة الأنشطة الصناعية ونظم التصنيع، وفقا للخطط والأولويات الوطنية،</p>
+      </container>
+      <container name="وإذ تسلم أيضا" eId="container_40">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تسلم أيضا</span> بالدور الذي تقوم به دوائر الأعمال التجارية، بما في ذلك القطاع الخاص، في تعزيز العملية الحيوية لتنمية القطاع الصناعي، وإذ تشدد على أهمية المنافع التي يحققها الاستثمار المباشر الأجنبي في تلك العملية، وإذ تسلم كذلك في هذا الصدد بأن توافر بيئة مواتية على الصعيد الوطني أمرٌ حيوي لحشد الموارد الوطنية وزيادة الإنتاجية وحفز الاستثمار الطويل الأجل والجيد وتشجيع القطاع الخاص والاستفادة على نحو فعال من الاستثمار والمساعدة الدوليين وبأن الجهود الرامية إلى إيجاد تلك البيئة ينبغي أن تحظى بدعم المجتمع الدولي،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_41">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على الدور الهام الذي تضطلع به المؤسسات البالغة الصغر والصغيرة والمتوسطة في التنمية الصناعية، وكذلك الشراكات بين القطاعين العام والخاص ومباشرة الأعمال الحرة والابتكار، في مواجهة تحديات التنمية المستدامة، وإذ تؤكد في هذا الصدد مسؤولية الجهات الفاعلة في القطاع الخاص عن استحداث ممارسات ونماذج جديدة للأعمال التجارية باعتماد حلول سوقية مبتكرة لحل المشاكل الاجتماعية والبيئية تكون شاملة للجميع، ومراعية للبيئة، وتحترم حقوق الإنسان، وتتيح فرصا متساوية لجميع النساء والشباب والأشخاص ذوي الإعاقة وكبار السن، وتسخر التكنولوجيات الرائدة التي تتسم بها الثورة الصناعية الجديدة وتتيح فرصا للمجتمع، لكنها تثير أيضا شواغل، مثل مستقبل العمل وتفاقم أوجه عدم المساواة داخل البلدان وفيما بينها، وبالتالي تخلق حاجة إلى التنسيق الدولي وتبادل المعارف والدعم المحدد الأهداف،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_42">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد</span> أن ضمان التنمية الصناعية المستدامة الشاملة للجميع يتطلب الأخذ بسياسات صناعية وبأطر مؤسسية متسقة يدعمها على النحو الواجب الاستثمار اللازم في الهياكل الأساسية الصناعية والتكنولوجيا النظيفة والإجراءات المتعلقة بتغير المناخ والابتكار والتكنولوجيات البيئية وتنمية المهارات،</p>
+      </container>
+      <container name="وإذ تكرر تأكيد" eId="container_43">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تكرر تأكيد</span> التعهد بألا يترك أحد خلف الركب، وإذ تؤكد من جديد التسليم بأن كرامة الإنسان أمر أساسي، والأمل في أن ترى الأهداف والغايات وقد تحققت لجميع الأمم والشعوب ولجميع شرائح المجتمع، وإذ تعيد الالتزام بالسعي إلى الوصول أولا إلى من هم أشد تخلفا عن الركب،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold italic">تحيط علما مع التقدير</span> بتقرير المدير العام لمنظمة الأمم المتحدة للتنمية الصناعية<sup>(</sup><authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/79/158">A/79/158</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ مع التقدير</span> اعتماد إعلان ليما: نحو تنمية صناعية مستدامة شاملة للجميع، في 2 كانون الأول/ديسمبر 2013، واعتماد إعلان أبو ظبي في 5 تشرين الثاني/نوفمبر 2019، وتتطلع إلى نتائج الدورة الحادية والعشرين للمؤتمر العام لمنظمة الأمم المتحدة للتنمية الصناعية المقرر عقدها في المملكة العربية السعودية في تشرين الثاني/نوفمبر 2025؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد من جديد</span> الطابع الشامل غير القابل للتجزئة لأهداف وغايات التنمية المستدامة الواردة في خطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>، وتسلم في الوقت نفسه بأن تحقيق التصنيع المستدام الشامل للجميع جزء لا يتجزأ من الجهود الرامية إلى تحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold italic">تعترف</span> بالولاية الفريدة من نوعها المنوطة بمنظمة الأمم المتحدة للتنمية الصناعية داخل منظومة الأمم المتحدة والمتمثلة في تشجيع التنمية الصناعية المستدامة الشاملة للجميع، وبالمساهمة المهمة التي يُتوقع أن تقدمها المنظمة، في إطار الشراكة مع غيرها من الكيانات والجهات صاحبة المصلحة من القطاعين العام والخاص، بما في ذلك مؤسسات وصناديق التمويل الإنمائي الجديدة المتعددة الأطراف، لتعزيز الشراكات والشبكات القائمة على المستويات العالمي والإقليمي ودون الإقليمي، بما في ذلك التعاون فيما بين بلدان الجنوب والتعاون الثلاثي، حسب الاقتضاء، ووفقا لولاية كل منها، في دعم تحقيق خطة عام 2030، بما في ذلك جميع الأهداف والغايات ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold italic">تعترف أيضا</span> بإسهام منظومة الأمم المتحدة والمؤسسات المالية الدولية والمؤسسات التجارية والاقتصادية الدولية وسائر الكيانات المعنية في تقديم الدعم اللازم للنهوض بالتنمية الصناعية المستدامة الشاملة للجميع، كل وفق ولايته، فـي سبيل زيــادة فعاليتها وتعزيــز التعاون مــع المنظمات غير الحكومية والقطاعين العام والخاص على دعم وتعزيز الجهود المبذولة نحو تحقيق التنمية الصناعية المستدامة الشاملة للجميع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="bold italic">تعترف كذلك</span> بأن التنمية الصناعية المستدامة الشاملة للجميع يمكن أن تؤدي دورا بالغ الأثر في تحقيق الأهداف الإنمائية الرئيسية الأخرى، بما في ذلك أهداف وغايات التنمية المستدامة، حيث تستطيع البلدان أن تحقق تنمية اقتصادية واجتماعية تتوافر لها الاستمرارية الذاتية في إطار مستدام من الناحية البيئية باتباع سياسات وممارسات شاملة للجميع ومستدامة في مجال التنمية الصناعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="MercuryDocument">
+        <num>7 -</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> منظمة الأمم المتحدة للتنمية الصناعية على أن تواصل، في حدود ولايتها المتعلقة بالتنمية الصناعية الشاملة للجميع والمستدامة، تعزيز الازدهار المشترك المتأتي من الصناعة والقدرة التنافسية الاقتصادية والنشاط الصناعي المستدام بيئيا، وذلك من خلال المهام الأساسية الأربع التي تضطلع بها، والتي تضم التعاون التقني؛ وإسداء المشورة في مجال السياسات وإجراء البحوث وتوفير الإحصاءات؛ ومهام وضع القواعد والأنشطة المتعلقة بالمعايير وبالجودة؛ وبناء الشراكات من أجل نقل المعارف وإقامة الشبكات والتعاون الصناعي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="MercuryDocument">
+        <num>8 -</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> أهمية التعاون في مجال التنمية الصناعية وتعترف باستجابة منظمة الأمم المتحدة للتنمية الصناعية في التصدي للتأثير المباشر لجائحة كوفيد-19، من خلال توفير السلع الأساسية، وتيسير الحصول على الإمدادات الحيوية، بما في ذلك لفائدة المؤسسات البالغة الصغر والصغيرة والمتوسطة، وفي دعم الابتكار والتحول الرقمي لتسخير كامل الإمكانيات التي تتيحها التكنولوجيات الجديدة، وتنويع الإنتاج، وبناء القدرة على التصنيع، وتكييف البنى التحتية، في ظل التحول صوب الأخذ بأنماط الاستهلاك والإنتاج المستدامة وفقا لخطة عام 2030 وإعادة البناء بشكل أفضل وتحقيق انتعاش يكون مرنا ومستداما وشاملا للجميع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <num>9 -</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="bold italic">تكرر تأكيد</span> السياسات والإجراءات والأهداف المبينة في خطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية<sup>(</sup><authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">	()	القرار <a href="https://undocs.org/ar/A/RES/69/313">69/313</a>، المرفق.</p></authorialNote><sup>)</sup> من أجل الاستثمار في النهوض بالتنمية الصناعية المستدامة الشاملة للجميع بغية التصدي بصورة فعالة للتحديات الرئيسية، من قبيل النمو وفرص العمل، والموارد والكفاءة في استخدام الطاقة، والتلوث وتغير المناخ، وتقاسم المعارف، والابتكار، والإدماج الاجتماعي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <num>10 -</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="bold italic">تعترف</span> بأن تعبئة الموارد الوطنية والدولية وتهيئة بيئة مواتية على الصعيدين الوطني والدولي محركان رئيسيان للتنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <num>11 -</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدد</span> على الفوائد التي يمكن أن تعود على البلدان النامية من تكثيف جهودها لتمويل تنميتها عن طريق تحسين تعبئة الموارد المحلية وتعزيز التمويل، انطلاقا من قطاع صناعي قوي وحيوي، بهدف إحداث أثر طويل الأجل من خلال اشتراك الجهات المحلية والوطنية والإقليمية في تحمل المسؤولية عن ذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="MercuryDocument">
+        <num>12 -</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> أن كل بلد لا بد أن يتحمل المسؤولية الرئيسية عن تنميته الصناعية وأن المسؤولية والقيادة الوطنيتين أمران لا غنى عنهما في عملية التنمية وأن السياسات والموارد والاستراتيجيات الإنمائية الوطنية لها دور لا يمكن توفيتُه حقَه من التأكيد، وتؤكد أيضا أن من الأهمية بمكان المحافظة على القدرة على تصميم السياسات الصناعية وتنفيذها بشكل فعال بما يتماشى مع الالتزامات الدولية، والقيام، من خلال ذلك، بمراعاة الاستراتيجيات والسياسات الإقليمية المتفق عليها، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="MercuryDocument">
+        <num>13 -</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء وجميع الجهات صاحبة المصلحة المعنية على تعزيز الجهود الهادفة إلى تشجيع الاقتصاد الإبداعي، وتطوير القطاعات الثقافية والإبداعية التي تدعم تسريع وتيرة التنمية الاجتماعية - الاقتصادية وتعزز الشمول والتنويع الاقتصادي والابتكار من أجل تحقيق التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="MercuryDocument">
+        <num>14 -</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى بدء عمل المنتدى العالمي للبنى التحتية في عام 2016، بقيادة المصارف الإنمائية المتعددة الأطراف، وتشير أيضا إلى المنتديين اللذين عقدا في بالي، إندونيسيا، في 13 تشرين الأول/ أكتوبر 2018، وفي لندن في الفترة من 6 إلى 8 تشرين الأول/أكتوبر 2020، وتتطلع إلى قيام تعاون في هذا الصدد لتمتين الصلات بين تطوير البنى التحتية والتصنيع المستدام الشامل للجميع والابتكار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="MercuryDocument">
+        <num>15 -</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير مع التقدير</span> إلى مبادرة مجموعة العشرين المتعلقة بدعم التصنيع في أفريقيا وأقل البلدان نموا، التي أطلقها زعماء مجموعة العشرين خلال مؤتمر القمة الذي عقدته في هانغجو، الصين، في أيلول/سبتمبر 2016<sup>(</sup><authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/A/71/380">A/71/380</a>، المرفق.</p></authorialNote><sup>)</sup>، والتي تهدف إلى تعزيز إمكانات تحقيق النمو والتنمية الشاملين للجميع لأفريقيا وأقل البلدان نموا من خلال الخيارات الطوعية في مجال السياسات، وتتطلع إلى تنفيذها وتحث في الوقت نفسه مجموعة العشرين على مواصلة التعاون مع الدول الأعضاء الأخرى في الأمم المتحدة في أعمالها وكفالة أن تكون أي مبادرات تتخذها مجموعة العشرين مكملة لمنظومة الأمم المتحدة ومعززة لها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="MercuryDocument">
+        <num>16 -</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد من جديد</span> أن المرأة تؤدي دورا حاسما في التنمية وتساهم في التحول الهيكلي، وهي مساهمة رئيسية في الاقتصاد وفي مكافحة الفقر وأوجه عدم المساواة، وأن مشاركة المرأة الكاملة والفعالة على قدم المساواة مع الرجل على جميع المستويات وخلال عملية صنع القرار بأكملها وفي الاقتصاد أمر حيوي لتحقيق التنمية المستدامة وتعزيز النمو الاقتصادي والإنتاجية بشكل كبير، وأن تحقيق المساواة بين الجنسين وتمكين جميع النساء والفتيات على جميع المستويات، سوف يسهم إسهاما حاسما في إحراز تقدم نحو تحقيق جميع أهداف التنمية المستدامة، بما فيها تحقيق التنمية الصناعية المستدامة الشاملة للجميع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="MercuryDocument">
+        <num>17 -</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم</span> بأهمية مواصلة تعزيز التعاون من أجل خلق أوجه تآزر بين أهداف التنمية المستدامة التي لها صلة بالتنمية الصناعية المستدامة الشاملة للجميع والهدف 5 من أهداف التنمية المستدامة، وتعميم مراعاة المنظور الجنساني في التعاون وتنظيم المشاريع في مجال التنمية الصناعية، وتعزيز تمكين جميع النساء والفتيات، بوسائل منها تبادل الممارسات الفضلى، وتعميم مراعاة المنظور الجنساني في تخطيط الميزانية، والاستثمار المراعي للمنظور الجنساني، وبرامج التدريب التعليمي وبناء القدرات المكرسة، وزيادة حصول المرأة على العمل اللائق وفرص المشاركة اللائقة في السوق، وتعزيز الحماية القانونية في مكان العمل لدعم تبوء المرأة أدوارا قيادية في مجال الاقتصاد وتوجيهها في ذلك، وإتاحة الحصول على التمويل، وتقديم المساعدة التقنية للمرأة في جميع سلاسل القيمة، ولا سيما في البلدان النامية، وتدويل المؤسسات الصغيرة والمتوسطة التي تملكها وتقودها النساء، والنهوض بالمهارات الرقمية للمرأة لزيادة مساهمتها في التنمية الصناعية المستدامة الشاملة للجميع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="MercuryDocument">
+        <num>18 -</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	 <span class="bold italic">تؤكد</span> ما للتصنيع المستدام الشامل للجميع وتوفير التدريب التقني والمهني من أهمية في إيجاد فرص العمل وسبل العيش اللائقة للشباب، لا سيما في البلدان النامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="MercuryDocument">
+        <num>19 -</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدد</span> على أن الجهود الوطنية ينبغي أن تلقى الدعم من الشركاء في التنمية، حسب الاقتضاء، ويلزم أن تستكمل بنظام تجاري متعدد الأطراف يستند إلى قواعد وييسر التجارة ويتيح الفرص للبلدان النامية التي تستهدف توسيع قاعدة صادراتها التنافسية بتعزيز قدراتها وتيسير التحول الهيكلي لاقتصاداتها وتنويعها، وتعزيز مشاركة وإدماج المؤسسات من البلدان النامية، بما فيها المؤسسات الصناعية البالغة الصغر والصغيرة، في سلاسل القيمة والأسواق العالمية، مما يمكن أن يساعد على تعزيز النمو الاقتصادي والتنمية، مع مراعاة الدعم المقدم للتنمية الصناعية وسلاسل القيمة على الصعيدين المحلي والإقليمي، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="MercuryDocument">
+        <num>20 -</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="bold italic">تشدد أيضا</span> على ضرورة أن يساهم المجتمع الدولي والقطاع الخاص، حسب الاقتضاء، في إيجاد بيئة مواتية للتنمية الصناعية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="MercuryDocument">
+        <num>21 -</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> ضرورة دعم جهود التنمية الوطنية بتهيئة بيئة اقتصادية دولية مواتية، بوسائل منها إنشاء نظام للتجارة العالمية ونظم نقدية ومالية تتسم بالتجانس ويدعم بعضها بعضا، وتعزيز تدبير شؤون الاقتصاد وتحسينه على الصعيد العالمي، وتؤكد الأهمية البالغة التي تكتسيها العمليات الرامية إلى تطوير المعارف والتكنولوجيات الملائمة وتيسير توفيرها على الصعيد العالمي بشروط متفق عليها، إضافة إلى بناء القدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="MercuryDocument">
+        <num>22 -</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="bold italic">تعترف</span> بأهمية دور القطاع الخاص ودور الشراكات بين القطاعين العام والخاص في التصدي لتحديات التنمية المستدامة، وتؤكد في هذا الصدد أهمية تعزيز الشراكات والشبكات القائمة وإقامة شراكات وشبكات جديدة على الصعد العالمي والإقليمي ودون الإقليمي، بما في ذلك عن طريق التعاون فيما بين بلدان الجنوب والتعاون الثلاثي، وأهمية المشاركة الكاملة من جانب جميع أصحاب المصلحة المعنيين من أجل تحقيق تنمية صناعية مستدامة شاملة للجميع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="MercuryDocument">
+        <num>23 -</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> أن وجود قطاع يتسم بالدينامية للصناعة والصناعات التحويلية من العوامل الكثيرة التي يمكن أن تؤدي إلى تقليص التفاوت في الدخول وإلى استحداث شبكات حماية اجتماعية، وكذلك إلى تقليص التفاوت داخل البلدان وفيما بينها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_320" class="MercuryDocument">
+        <num>24 -</num>
+        <content eId="para_320__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> منظمة الأمم المتحدة للتنمية الصناعية على مواصلة تنظيم حوارات عالمية وتعزيز الشراكات بين أصحاب المصلحة المتعددين كي تنشط المنظمة في القيام بدورها المهم في الجهود الرامية إلى تحقيق تنمية صناعية مستدامة شاملة للجميع وتعزيز الصلات بين إنشاء البنى التحتية والابتكار من أجل تحقيق خطة التنمية المستدامة لعام 2023 وأهداف التنمية المستدامة الواردة فيها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_344" class="MercuryDocument">
+        <num>25 -</num>
+        <content eId="para_344__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ</span> استمرار تعاون منظمة الأمم المتحدة للتنمية الصناعية مع كيانات منظومة الأمم المتحدة، بما فيها الوكالات المتخصصة والصناديق والبرامج؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_369" class="MercuryDocument">
+        <num>26 -</num>
+        <content eId="para_369__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد</span> العمل المتواصل الذي تقوم به منظمة الأمم المتحدة للتنمية الصناعية باعتبارها محفلا عالميا لنشر المعارف وتقديم المشورة بشأن السياسات والاستراتيجيات الصناعية وتجارب التصنيع الناجحة وأفضل الممارسات في هذا المجال، وكذلك بشأن الاتجاهات والتحديات المستقبلية، كما يدل على ذلك منتدى السياسات الصناعية المتعدد الأطراف ومؤتمرات القمة المعنية بالصناعات التحويلية والتصنيع ومنتديات فيينا الدولية للطاقة والمناخ ومؤتمرات الصناعة الخضراء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_395" class="MercuryDocument">
+        <num>27 -</num>
+        <content eId="para_395__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بانعقاد منتدى السياسات الصناعية المتعدد الأطراف لعام 2024 المنظم من طرف المملكة العربية السعودية بالتعاون مع منظمة الأمم المتحدة للتنمية الصناعية، والمقرر عقده في الرياض في 23 و 24 تشرين الأول/أكتوبر 2024؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_422" class="MercuryDocument">
+        <num>28 -</num>
+        <content eId="para_422__content">
+          <p xml:space="preserve">	<span class="bold italic">تنوه</span> بالدور الرئيسي الذي تضطلع به منظمة الأمم المتحدة للتنمية الصناعية في تعزيز الابتكار الصناعي وتعميم استخدام العلم والتكنولوجيا في نظم الإنتاج الوطني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="MercuryDocument">
+        <num>29 -</num>
+        <content eId="para_450__content">
+          <p xml:space="preserve">	<span class="bold italic">تكرر تأكيد</span> ما لتعزيز التعاون الدولي من أهمية في سد جميع الفجوات الرقمية وتعزيز شمل الاقتصاد الرقمي للجميع وزيادة استفادة الجميع منه، مشيرة إلى الروابط الوثيقة بين التحول الرقمي والتنمية الصناعية والنمو الاقتصادي، ودور منظمة الأمم المتحدة للتنمية الصناعية في تقديم المساعدة التقنية إلى البلدان النامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_479" class="MercuryDocument">
+        <num>30 -</num>
+        <content eId="para_479__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> التعاون الإقليمي ودون الإقليمي والأقاليمي بوصفه آلية للتعاون الصناعي الدولي تهدف إلى تشجيع الاستثمارات ونقل التكنولوجيا وفق شروط متفق عليها من أجل نشر السياسات والممارسات الشاملة للجميع والمنصفة وتعزيز فرص العمل العالي الجودة واللائق، بما في ذلك لصالح الشباب والنساء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_509" class="MercuryDocument">
+        <num>31 -</num>
+        <content eId="para_509__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بقيام منظمة الأمم المتحدة للتنمية الصناعية بمواءمة إطارها البرنامجي المتوسط الأجل مع دورة الاستعراض الشامل للسياسات الذي يجرى كل أربع سنوات، ولا سيما على النحو المبين في القرار <a href="https://undocs.org/ar/A/RES/72/279">72/279</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_540" class="MercuryDocument">
+        <num>32 -</num>
+        <content eId="para_540__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ مع التقدير</span> الدعم الذي تقدمه منظمة الأمم المتحدة للتنمية الصناعية، في إطار ولايتها، إلى الدول الأعضاء فيها، ولا سيما أقل البلدان نموا، في سياق ما تبذله هذه الدول من جهود للقضاء على الجوع وتعزيز سلاسل الإمداد المستدامة وتسريع العمل المناخي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_572" class="MercuryDocument">
+        <num>33 -</num>
+        <content eId="para_572__content">
+          <p xml:space="preserve">	<span class="bold italic">تشير</span> إلى برامج الشراكة القطرية لمنظمة الأمم المتحدة للتنمية الصناعية باعتبارها نموذجا واعدا لتعزيز التنمية الصناعية المستدامة الشاملة للجميع لصالح دولها الأعضاء، وتتطلع إلى مواصلة توسيع نطاقها لزيادة نطاق تغطيتها الجغرافية مع إيلاء الاعتبار الواجب للاحتياجات الخاصة بمختلف البلدان على النحو المنصوص عليه في إعلان ليما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_605" class="MercuryDocument">
+        <num>34 -</num>
+        <content eId="para_605__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> منظمة الأمم المتحدة للتنمية الصناعية على مواصلة مساعدة البلدان النامية، بما فيها البلدان الأفريقية وأقل البلدان نموا والبلدان النامية غير الساحلية والدول الجزرية الصغيرة النامية والبلدان التي تمر بحالات نزاع وحالات ما بعد انتهاء النزاع، فضلا عن البلدان المتوسطة الدخل التي تواجه تحديات خاصة، على المشاركة في الأنشطة المنتجة، بطرق منها تنمية الصناعات الزراعية المستدامة والأعمال التجارية الزراعية المستدامة التي تُحسن الأمن الغذائي وتقضي على الجوع وتوجِد فرص عمل وتتسم بجدواها الاقتصادية، وتشجع في هذا الصدد الجهات المانحة الجديدة على دعم العمل الفريد من نوعه الذي تقوم به المنظمة في هذه المناطق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_639" class="MercuryDocument">
+        <num>35 -</num>
+        <content eId="para_639__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع </span>على دعم الإنتاج الصناعي المستدام والتجارة على أساس مبادئ التنمية المحلية، والمحتوى المحلي، والتنمية الاقتصادية، ورفاه العمال وصحتهم وسلامتهم، والوفاء بالمعايير الدولية للمنتجات والعمليات، وكذلك المهارات المهنية والتدريب على تنظيم المشاريع، وخصوصا من أجل إدماج النساء والشباب في المسار الإنمائي والاستجابة لمتطلبات المهارات المحلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_674" class="MercuryDocument">
+        <num>36 -</num>
+        <content eId="para_674__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> منظمة الأمم المتحدة للتنمية الصناعية على دعم البلدان النامية، بناء على طلبها، وبما يتماشى مع أولوياتها الإنمائية، للارتقاء بمستوى التنمية الصناعية المستدامة الشاملة للجميع، عن طريق مساعدتها في بناء قدرات إنتاجية وتجارية مستدامة، بطرق منها دعم السياسات المتبعة في سياق إيجاد فرص العمل والقضاء على الفقر بجميع أشكاله وأبعاده، بما في ذلك الفقر المدقع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_710" class="MercuryDocument">
+        <num>37 -</num>
+        <content eId="para_710__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع أيضا</span> منظمة الأمم المتحدة للتنمية الصناعية على دعم البلدان النامية، بناء على طلبها، وبما يتماشى مع أولوياتها الإنمائية، في بناء قدرات مؤسسية لتعزيز الإنتاج السليم بيئيا والمستدام، بسبل منها برامج الإنتاج الأنظف والمتسم بكفاءة استخدام الموارد وإدارة المياه المستعملة في الصناعة، والكفاءة في استعمال الطاقة في الصناعة، والاعتماد في أغراض الإنتاج على استعمال أشكال الطاقة الحديثة المستدامة التي يمكن التعويل عليها وتكون أسعارها في المتناول، وبخاصة في المناطق الريفية، ومن خلال التعاون المستمر مع منظمات الأمم المتحدة والمنظمات الأخرى لدعم تنفيذ الاتفاقات البيئية المتعددة الأطراف وتعزيز الأهداف العالمية المتعلقة بحصول الجميع بأسعار في المتناول على أشكال الطاقة الحديثة المستدامة التي يمكن التعويل عليها، بما فيها ما يتعلق بنشر التكنولوجيات النظيفة، بما في ذلك الطاقة المتجددة والكفاءة في استعمال الطاقة في الصناعة، وتعزيز التكنولوجيات، بما في ذلك الهيدروجين الأخضر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_747" class="MercuryDocument">
+        <num>38 -</num>
+        <content eId="para_747__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع </span>على تعزيز التعاون بين بلدان الجنوب والتعاون الثلاثي ونقل التكنولوجيا ونشرها واستخدامها وفق شروط متفق عليها في سياق بناء المشاركة في التجارة الدولية عن طريق تنمية المؤسسات المتناهية الصغر والصغيرة والمتوسطة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_785" class="MercuryDocument">
+        <num>39 -</num>
+        <content eId="para_785__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم</span> بأن الثغرات في مجال السلامة الصناعية يمكن أن تسبب أضرارا جسيمة للناس والاقتصادات والبيئة، وتشجع على وضع المعايير وإنفاذها، ووضع استراتيجيات وقائية حكومية ومؤسسية، وتوفير التدريب والتوعية والتعليم والمساعدة التقنية للتصدي للمخاطر الصناعية وتجنب الحوادث المهنية والأمراض المتصلة بالعمل، مع ضمان إنتاجية وكفاءة عاليتين للمؤسسات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_824" class="MercuryDocument">
+        <num>40 -</num>
+        <content eId="para_824__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> منظمة الأمم المتحدة للتنمية الصناعية على أن تقوم، في حدود ولايتها ومواردها، ووفقا للقرار م ع-18/ق-7 المؤرخ 7 تشرين الثاني/نوفمبر 2019، الذي اعتمده المؤتمر العام في دورته الثامنة عشرة<sup>(</sup><authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/GC.18/INF/4">GC.18/INF/4</a>.</p></authorialNote><sup>)</sup>، بالمضي قدما في الاجتماعات والمشاورات التقنية المعقودة لصالح الخبراء من الدول الأعضاء بشأن الاقتصاد الدائري والتعجيل بعقدها، بغية تيسير تبادل الآراء بشأن أفضل الممارسات والابتكارات الناشئة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_864" class="MercuryDocument">
+        <num>41 -</num>
+        <content eId="para_864__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع أيضا</span> منظمة الأمم المتحدة للتنمية الصناعية على أن تواصل تعزيز دورها في مساعدة البلدان النامية على توليد المعارف ونشرها بطرق منها استخدام شبكتها العالمية من مكاتب تعزيز الاستثمارات والتكنولوجيا ومراكز الإنتاج الأنظف والمتسم بكفاءة استخدام الموارد ومراكز التعاون الصناعي فيما بين بلدان الجنوب، ومراكز التكنولوجيا الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_905" class="MercuryDocument">
+        <num>42 -</num>
+        <content eId="para_905__content">
+          <p xml:space="preserve">	<span class="bold italic">تكرر تأكيد</span> أهمية الترويج لإنشاء المؤسسات المتناهية الصغر والصغيرة والمتوسطة وتنميتها كاستراتيجية لتحقيق التنمية الصناعية، والدينامية الاقتصادية، والقضاء على الفقر والجوع، وإيجاد فرص العمل، بوسائل منها حشد الموارد واتخاذ التدابير اللازمة لتشجيع التنمية المستدامة الشاملة للجميع، وتشير في هذا الصدد إلى توصية منظمة العمل الدولية رقم 189 بشأن إيجاد فرص عمل في المنشآت الصغيرة والمتوسطة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_947" class="MercuryDocument">
+        <num>43 -</num>
+        <content eId="para_947__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم</span> بأهمية تقارير الشركات عن مدى توافر مقومات الاستدامة في أنشطتها، وتشجع الشركات، حسب الاقتضاء، ولا سيما الشركات المسجلة في البورصات والشركات الكبيرة، على النظر في دمج المعلومات المتعلقة بالاستدامة في دورة الإبلاغ لديها، وتشجع الأوساط الصناعية والحكومات المهتمة والأطراف صاحبة المصلحة ذات الصلة على أن تضع، بدعم من منظومة الأمم المتحدة حسب الاقتضاء، نماذج لأفضل الممارسات وتيسر العمل من أجل دمج التقارير المتعلقة بتوافر مقومات الاستدامة في أنشطتها، آخذة في اعتبارها الخبرات المكتسبة من الأطر القائمة بالفعل مع إيلاء الاهتمام بشكل خاص لاحتياجات البلدان النامية، بما في ذلك احتياجاتها في مجال بناء القدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_990" class="MercuryDocument">
+        <num>44 -</num>
+        <content eId="para_990__content">
+          <p xml:space="preserve">	<span class="bold italic">تسلم أيضا</span> بأهمية توسيع حيز السياسات الصناعية المتاح للبلدان النامية من أجل تحقيق الانتعاش المستدام الشامل للجميع ومن أجل مواصلة التقدم صوب تحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1034" class="MercuryDocument">
+        <num>45 -</num>
+        <content eId="para_1034__content">
+          <p xml:space="preserve">	<span class="bold italic">ترحب</span> بالدعم الذي تواصل منظمة الأمم المتحدة للتنمية الصناعية تقديمه للشراكة الجديدة من أجل تنمية أفريقيا<sup>(</sup><authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/57/304">A/57/304</a>، المرفق.</p></authorialNote><sup>)</sup>، وبالأخص البرنامج الأفريقي المشترك للمجمعات الزراعية المنفَّذ في إطار البرنامج الشامل للتنمية الزراعية في أفريقيا، وخطة العمل من أجل تسريع التنمية الصناعية في أفريقيا، وعمليات تحديد سلاسل القيمة الإقليمية والقارية لأغراض تنفيذ اتفاق التجارة الحرة القارية الأفريقية، والخطة الأفريقية لصنع المستحضرات الصيدلانية، وغيرها من برامج الاتحاد الأفريقي بهدف مواصلة تعزيز عملية التصنيع في أفريقيا، وتشجع المنظمة على التعجيل بتنفيذ عقد التنمية الصناعية الثالث لأفريقيا (2016-2025) بالاشتراك مع مفوضية الاتحاد الأفريقي ووكالة الاتحاد الأفريقي للتنمية والشراكة الجديدة من أجل تنمية أفريقيا واللجنة الاقتصادية لأفريقيا من خلال إقامة الشراكات مع القطاعين الخاص والعام والجهات المانحة والأمم المتحدة والوكالات المتخصصة الدولية، وتدعو إلى بدء عقد رابع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1079" class="MercuryDocument">
+        <num>46 -</num>
+        <content eId="para_1079__content">
+          <p xml:space="preserve">	<span class="bold italic">تلاحظ مع التقدير</span> الجهود التي يبذلها البنك الدولي ومصارف التنمية الإقليمية لدعم التنمية الصناعية عن طريق برامج التمويل، وتشجع منظمة الأمم المتحدة للتنمية الصناعية على العمل بشكل وثيق مع مصارف التنمية الإقليمية بشأن تنفيذ استراتيجياتها الإقليمية، بما في ذلك مع مصرف التنمية الأفريقي بشأن تنفيذ استراتيجية التصنيع لأفريقيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1125" class="MercuryDocument">
+        <num>47 -</num>
+        <content eId="para_1125__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد </span>أهمية الأنشطة التي تضطلع بها منظمة الأمم المتحدة للتنمية الصناعية، في إطار ولايتها، لتدعم أيضا الجهود التي تبذلها البلدان المتوسطة الدخل في سبيل تحقيق تحول صناعي قوي، بما في ذلك من خلال نشر تكنولوجيات جديدة، وتطبيق أنماط مستدامة تعزز تنمية المهارات، بما في ذلك في استخدام الاقتصاد الرقمي لصالح المؤسسات المتناهية الصغر والصغيرة والمتوسطة للقضاء على الفقر بجميع أشكاله وأبعاده، بما يشمل الفقر المدقع، والحد من أوجه عدم المساواة، وتحقيق التنمية المستدامة باستخدام أمور من جملتها الإطار الاستراتيجي لمنظمة الأمم المتحدة للتنمية الصناعية للشراكة مع البلدان المتوسطة الدخل، وتؤكد أيضا ضرورة زيادة حصول البلدان النامية على وسائل التنفيذ، بما في ذلك بناء القدرات ونقل التكنولوجيا وفق شروط متفق عليها والدعم المالي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1172" class="MercuryDocument">
+        <num>48 -</num>
+        <content eId="para_1172__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> منظمة الأمم المتحدة للتنمية الصناعية على أن تواصل دعمها، في إطار ولايتها، للاستعراض الدوري للهدف 9 من أهداف التنمية المستدامة، المتعلق بإقامة بُنى تحتية قادرة على الصمود وتحفيز التصنيع المستدام الشامل للجميع وتشجيع الابتكار، خلال المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة الذي يعقد تحت رعاية كل من المجلس الاقتصادي والاجتماعي والجمعية العامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1220" class="MercuryDocument">
+        <num>49 -</num>
+        <content eId="para_1220__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع أيضا</span> منظمة الأمم المتحدة للتنمية الصناعية على مواصلة الإسهام في المؤتمرات الرئيسية ومؤتمرات القمة التي تعقدها الأمم المتحدة في الميادين الاقتصادية والاجتماعية والبيئية والميادين المتصلة بها من خلال الحلول التكنولوجية التي توفرها التنمية الصناعية الشاملة للجميع والمستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1269" class="MercuryDocument">
+        <num>50 -</num>
+        <content eId="para_1269__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى منظمة الأمم المتحدة للتنمية الصناعية أن تقدم، في إطار ولايتها، الإسهامات والدعم في تنفيذ برنامج عمل الدوحة لصالح أقل البلدان نموا، وخطة عمل أنتيغوا وبربودا للدول الجزرية الصغيرة النامية: إعلان مجدد لتحقيق الازدهار القادر على الصمود، وبرنامج العمل الجديد لصالح البلدان النامية غير الساحلية، ولا سيما الأهداف والأولويات المتعلقة بالتصنيع وبناء اقتصادات قادرة على الصمود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1319" class="MercuryDocument">
+        <num>51 -</num>
+        <content eId="para_1319__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> منظمة الأمم المتحدة للتنمية الصناعية على أن تُسهم بنشاط، في إطار ولايتها، في المناقشات التي ستجري في المؤتمر الدولي الرابع لتمويل التنمية المقرر عقده في إسبانيا في الفترة من 30 حزيران/يونيه إلى 3 تموز/يوليه 2025، بما يتماشى مع خطة عمل أديس أبابا التي أقرّت، في جملة أمور، بالأهمية الحاسمة للتنمية الصناعية للبلدان النامية باعتبارها مصدرا بالغ الأهمية للنمو الاقتصادي والتنويع الاقتصادي وتحقيق القيمة المضافة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1370" class="MercuryDocument">
+        <num>52 -</num>
+        <content eId="para_1370__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع أيضا</span> منظمة الأمم المتحدة للتنمية الصناعية على أن تُسهم، في إطار ولايتها، في مؤتمر القمة العالمي الثاني للتنمية الاجتماعية المقرر عقده في قطر في الفترة من 4 إلى 6 تشرين الثاني/ نوفمبر 2025 نظرا للروابط القوية بين التصنيع المستدام الشامل للجميع والركائز الثلاث للتنمية الاجتماعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1422" class="MercuryDocument">
+        <num>53 -</num>
+        <content eId="para_1422__content">
+          <p xml:space="preserve">	<span class="bold italic">تؤكد مجددا</span> الالتزام الوارد في صميم خطة عام 2030 بعدم ترك أحد خلف الركب والتعهد باتخاذ مزيد من الخطوات الملموسة لدعم الأشخاص الذين يعيشون أوضاعا هشة وأشد البلدان ضعفا والوصول أولا إلى من هم أشد تخلفا عن الركب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1475" class="MercuryDocument">
+        <num>54 -</num>
+        <content eId="para_1475__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الأمين العام أن يقدم إلى الجمعية العامة في دورتها الحادية والثمانين تقريرا عن تنفيذ هذا القرار، وتقرر أن تدرج في جدول الأعمال المؤقت لدورتها الحادية والثمانين البند الفرعي المعنون ”التعاون في ميدان التنمية الصناعية“ في إطار البند المعنون ”القضاء على الفقر وقضايا إنمائية أخرى“.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54" refersTo="#adoptionMeeting">الجلسة العامة 54</location>
+          <eol />
+          <docDate date="2024-12-19" refersTo="#adoptionDate">19 كانون الأول/ديسمبر 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
