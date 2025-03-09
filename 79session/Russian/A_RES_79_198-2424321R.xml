@@ -1,0 +1,582 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-198/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-198/"></FRBRuri>
+          <FRBRdate date="2024-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-198/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-198/rus@/"></FRBRuri>
+          <FRBRdate date="2024-12-23" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-198/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-198/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-01-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"/>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"/>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"/>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"/>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"/>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"/>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"/>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"/>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"/>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"/>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"/>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"/>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"/>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Sustainable Development Goals" showAs="Sustainable Development Goals" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INVESTMENT PROMOTION" href="http://metadata.un.org/thesaurus/1003383" showAs="INVESTMENT PROMOTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT ASSISTANCE" href="http://metadata.un.org/thesaurus/1001619" showAs="DEVELOPMENT ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FOREIGN DIRECT INVESTMENT" href="http://metadata.un.org/thesaurus/1002457" showAs="FOREIGN DIRECT INVESTMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PRIVATE SECTOR" href="http://metadata.un.org/thesaurus/1005126" showAs="PRIVATE SECTOR" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" href="http://metadata.un.org/thesaurus/2000002" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="16e" showAs="Promoting investments for sustainable development." shortForm="INVESTMENT PROMOTION" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-11-19" outcome="draftResolution" as="A/C.2/79/L.7/Rev.1" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Austria, Belgium, Bosnia and Herzegovina, Croatia, Cyprus, Denmark, Estonia, Germany, Greece, Hungary, Ireland, Latvia, Luxembourg, Malta, Montenegro, Netherlands (Kingdom of the), Portugal, Spain and Sweden" />
+        <step date="2024-12-04" outcome="recommendedForAdoption" as="A/79/435/Add.5" by="" refersTo="7" />
+        <step date="2024-12-19" outcome="adopted" as="A/79/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="secondCommittee" href="#secondCommittee" showAs="Второй комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-24321 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/198</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-12-23" class="rightSmall" refersTo="#dateOfIssuance">23 December 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">Семьдесят девятая сессия</session>
+      </p>
+      <p>
+        <inline title="16 e)" name="agenda item">Пункт 16 e) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Вопросы макроэкономической политики: содействие инвестициям в интересах устойчивого развития</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 19 декабря 2024 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#secondCommittee">[по докладу Второго комитета (<inline name="originating document">A/79/435/Add.5, пункт 7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/198.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Содействие инвестициям в интересах устойчивого развития</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="подтверждая" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> свою резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года» от 25 сентября 2015 года, в которой она утвердила всеобъемлющий, рассчитанный на перспективу и предусматривающий учет интересов людей набор универсальных и ориентированных на преобразования целей и задач в области устойчивого развития, свое обязательство прилагать неустанные усилия для полного осуществления Повестки дня к 2030 году, признание ею того, что ликвидация нищеты во всех ее формах и проявлениях, включая крайнюю нищету, является важнейшей глобальной задачей и одним из необходимых условий устойчивого развития, и свою приверженность сбалансированному и комплексному обеспечению устойчивого развития во всех его трех — экономическом, социальном и экологическом — компонентах, а также закреплению результатов, достигнутых в реализации целей в области развития, сформулированных в Декларации тысячелетия, и завершению всего, что не удалось сделать за время, отведенное для их достижения,</p>
+      </container>
+      <container name="подтверждая также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">подтверждая также</span> свою резолюцию <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> от 27 июля 2015 года, касающуюся Аддис-Абебской программы действий третьей Международной конференции по финансированию развития, которая является неотъемлемой частью Повестки дня в области устойчивого развития на период до 2030 года, подкрепляет и дополняет ее, способствует переводу предусмотренных в ней задач в отношении средств осуществления в плоскость конкретных стратегий и мер и в которой вновь подтверждается твердая политическая приверженность решению задачи финансирования устойчивого развития и создания благоприятных условий для него на всех уровнях в духе глобального партнерства и солидарности,</p>
+      </container>
+      <container name="с большой обеспокоенностью отмечая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">с большой обеспокоенностью отмечая</span>, что пандемия коронавирусного заболевания (COVID‑19) оказывает серьезное негативное воздействие на состояние здоровья, безопасность и благосостояние людей, а также серьезно нарушает жизнь общества и функционирование экономики и имеет катастрофические последствия для жизни людей и их возможностей в плане получения средств к существованию и что в наибольшей степени от пандемии страдают беднейшие и наиболее уязвимые слои населения, подтверждая стремление вернуться на путь, ведущий к достижению целей в области устойчивого развития, посредством разработки и реализации стратегий устойчивого и всеохватного восстановления для ускоренного осуществления Повестки дня в области устойчивого развития на период до 2030 года в полном объеме и содействия снижению риска будущих потрясений, кризисов и пандемий и повышения устойчивости к ним, в том числе за счет укрепления систем здравоохранения и обеспечения всеобщего охвата услугами здравоохранения, и учитывая, что одним из важнейших элементов принятия всеми странами мира ответных мер на основе единства, солидарности, активизации многостороннего сотрудничества и принципа «ни о ком не забыть» является предоставление всем справедливого и своевременного доступа к безопасным, качественным, эффективным и недорогим средствам диагностики и лечения COVID‑19 и вакцинам от него,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свои резолюции <a href="https://undocs.org/ru/A/RES/74/199">74/199</a> от 19 декабря 2019 года, <a href="https://undocs.org/ru/A/RES/75/207">75/207</a> от 21 декабря 2020 года, <a href="https://undocs.org/ru/A/RES/76/197">76/197</a> от 17 декабря 2021 года, <a href="https://undocs.org/ru/A/RES/77/155">77/155</a> от 14 декабря 2022 года и <a href="https://undocs.org/ru/A/RES/78/141">78/141</a> от 19 декабря 2023 года,</p>
+      </container>
+      <container name="подчеркивая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что международное финансирование проектов приобретает все большее значение для инвестиций в достижение целей в области устойчивого развития и борьбу с изменением климата и что высокие показатели увеличения объема международного финансирования проектов можно объяснить благоприятными условиями финансирования, стимулированием развития инфраструктуры и значительной заинтересованностью инвесторов на финансовых рынках в осуществлении проектов, требующих участия нескольких финансирующих сторон, признавая, что международное финансирование проектов может позволять правительствам привлекать в дополнение к государственным инвестициям частные финансовые средства, и отмечая, что развивающиеся страны находятся в этой связи в неблагоприятном положении и особенно важное значение приобретают усилия по более активной мобилизации частных финансовых средств в развивающихся странах,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> по поводу содержащихся в документе Конференции Организации Объединенных Наций по торговле и развитию под названием <span class="italic">World Investment Report 2024</span> («Доклад о мировых инвестициях, 2024 год») выводов о том, что международные инвестиции в сектора, имеющие отношение к целям в области устойчивого развития в развивающихся странах, сократились в 2023 году из‑за уменьшения объема международного финансирования крупных проектов в инфраструктурных секторах, что количество проектов в агропродовольственных системах и в сферах водоснабжения и санитарии было меньше, чем в 2015 году, когда были приняты цели в области устойчивого развития, и что инвестиции в достижение целей в области устойчивого развития распределяются неравномерно,</p>
+      </container>
+      <container name="отмечая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> содержащиеся в шестом оценочном докладе Межправительственной группы экспертов по изменению климата выводы о том, что, хотя со времени выхода пятого оценочного доклада в глобальных отслеживаемых финансовых потоках, направляемых на осуществление климатических программ, наблюдалась тенденция к росту, текущие глобальные финансовые потоки, направляемые на цели адаптации к изменению климата, в том числе из государственных и частных источников, недостаточны для реализации вариантов адаптации, особенно в развивающихся странах, и сдерживают ее, и что лишь небольшая часть глобальных отслеживаемых финансовых потоков, предназначенных для климатических программ, направляется на адаптацию, тогда как основная часть таких потоков направляется на меры по смягчению последствий изменения климата,</p>
+      </container>
+      <container name="подчеркивая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что в 2021 году основная часть средств, которые выделяются на борьбу с изменением климата и о которых собирается информация, инвестировались в проекты по использованию возобновляемых источников энергии и повышению энергоэффективности, что международные частные инвестиции в секторы, затрагиваемые изменением климата, направлялись почти исключительно на смягчение последствий изменения климата и только 5 процентов средств направлялись на осуществление проектов по адаптации к изменению климата и что более 60 процентов средств инвестировались в развитых странах, где 85 процентов проектов финансируются исключительно частным образом, тогда как почти половина проектов в развивающихся странах требует участия государственного сектора в той или иной форме, отмечая при этом, что инвестиции в адаптацию к изменению климата освещаются в недостаточной степени,</p>
+      </container>
+      <container name="с обеспокоенностью отмечая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечая</span>, что в деле достижения большинства целей в области устойчивого развития наблюдается либо слишком медленный прогресс, либо откат назад по сравнению с базовыми показателями 2015 года и что в условиях нынешних многочисленных кризисов многолетние достижения в области устойчивого развития сходят на нет, поскольку миллионы людей, особенно в развивающихся странах, оказались в нищете, проблемы голода и недостаточности питания получают все более широкое распространение и растут гуманитарные потребности,</p>
+      </container>
+      <container name="обращая особое внимание" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">обращая особое внимание</span> на то, что финансовая и инвестиционная поддержка не только необходима для смягчения последствий изменения климата и адаптации к ним, но и не менее важна для достижения других целей в области устойчивого развития,</p>
+      </container>
+      <container name="обращая особое внимание" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">обращая особое внимание</span> на то, что второй по величине инвестиционный разрыв с точки зрения финансирования достижения целей в области устойчивого развития наблюдается в сферах водоснабжения и санитарии и что для достижения прогресса в реализации целей и задач, связанных с водными ресурсами, необходимо удовлетворить растущую потребность в устойчивых и инновационных инвестициях в водоснабжение и санитарию,</p>
+      </container>
+      <container name="отмечая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что необходимо безотлагательно добиться ликвидации голода, покончить со всеми формами недоедания, ликвидировать крайнюю нищету и обеспечить быстрый, инклюзивный и устойчивый рост доходов в развивающихся странах путем проведения правильной политики и расширения масштабов инвестиций, исследований и обмена технологиями на взаимно согласованных условиях с учетом того, что конечной задачей является достижение всех целей в области устойчивого развития,</p>
+      </container>
+      <container name="с обеспокоенностью отмечая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечая</span>, что в 2024 году глобальные условия для международных инвестиций остаются сложными и что ухудшение перспектив роста, тенденции к фрагментации экономики, геополитическая напряженность и напряженность в торговых отношениях и конфликты, проводимая отраслевая политика и диверсификация цепочек поставок обусловливают изменения в системе прямых иностранных инвестиций, побуждающие некоторые многонациональные предприятия с осторожностью подходить к расширению деятельности за рубежом,</p>
+      </container>
+      <container name="отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что кризисы высвечивают настоятельную необходимость сделать долгосрочное и основанное на учете рисков мышление и соображения устойчивости неотъемлемыми элементами корпоративной практики и инвестиционной деятельности, и подчеркивая, что для реагирования на кризис, вызванный COVID‑19, и преодоления его последствий все заинтересованные стороны должны действовать сообща, в то же время признавая, что, хотя глобальная борьба с пандемией и изменением климата привела к ускорению темпов финансирования и инвестирования в устойчивое развитие, а стоимость инвестиционных продуктов, связанных с устойчивым развитием, на мировых рынках капитала увеличилась и, согласно данным Конференции Организации Объединенных Наций по торговле и развитию, в 2023 году составила 7 трлн долл. США, подавляющее большинство этих средств было инвестировано в развитых странах, в связи с чем развивающиеся страны испытывают значительную нехватку инвестиционных возможностей, и что крайне важно увеличить объем инвестиций в устойчивое развитие во всех странах, особенно в развивающихся странах, включая страны, находящиеся в особой ситуации,</p>
+      </container>
+      <container name="особо отмечая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span>, что залогом успеха в деле достижения целей в области устойчивого развития и ликвидации нищеты во всех ее формах и проявлениях является создание благоприятных условий на всех уровнях, чему может способствовать реформирование международной финансовой архитектуры, для привлечения и расширения инвестиций в деятельность, способствующую достижению этих целей,</p>
+      </container>
+      <container name="считая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">считая</span>, что активизация глобального партнерства будет способствовать интенсивному глобальному взаимодействию в поддержку реализации всех целей и связанных с ними задач за счет объединения усилий правительств, гражданского общества, частного сектора, академических кругов, системы Организации Объединенных Наций и других субъектов и мобилизации всех имеющихся ресурсов,</p>
+      </container>
+      <container name="напоминая" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о том, что в Повестке дня на период до 2030 года признается, что обеспечение устойчивого развития будет зависеть от активного вовлечения в этот процесс государственного и частного секторов и других соответствующих международных организаций, включая международные финансовые учреждения и многосторонние банки развития,</p>
+      </container>
+      <container name="отмечая" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> проведение восьмого Всемирного инвестиционного форума Конференции Организации Объединенных Наций по торговле и развитию в Абу‑Даби с 16 по 20 октября 2023 года, а также восьмой ярмарки инвестиций в поддержку целей в области устойчивого развития в Нью‑Йорке с 18 по 29 апреля 2023 года,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> проведение 22 и 23 сентября 2024 года в Центральных учреждениях Организации Объединенных Наций в Нью‑Йорке Саммита будущего, на котором были приняты резолюция <a href="https://undocs.org/ru/A/RES/79/1">79/1</a> от 22 сентября 2024 года под названием «Пакт во имя будущего» и приложения к ней,</p>
+      </container>
+      <container name="с интересом ожидая" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">с интересом ожидая</span> проведения с 30 июня по 3 июля 2025 года в Севилье, Испания, четвертой Международной конференции по финансированию развития,</p>
+      </container>
+      <container name="отмечая также" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span> работу, которую Организация Объединенных Наций ведет в области инвестиций в интересах устойчивого развития, и принимая к сведению подготовленные Конференцией Организации Объединенных Наций по торговле и развитию документы под названием <span class="italic">World Investment Report 2024</span> («Доклад о мировых инвестициях, 2024 год») и <span class="italic">SDG Investment Trends Monitor </span>(«Обзор инвестиционных тенденций в контексте ЦУР»), документ под названием <span class="italic">Financing for Sustainable Development Report 2024</span> («Доклад о финансировании устойчивого развития, 2024 год»), документ под названием <span class="italic">Sustainable Development Goals Report 2024</span> («Доклад о достижении целей в области устойчивого развития, 2024 год») и итоговый документ форума Экономического и Социального Совета по последующим мерам в области финансирования развития 2024 года<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ru/E/FFDF/2024/3">E/FFDF/2024/3</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="отмечая далее" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">отмечая далее</span> все инициативы на глобальном, региональном и местном уровнях, которые направлены на активизацию усилий по мобилизации государственных и частных финансовых средств для инвестирования в интересах реализации всех трех компонентов Повестки дня на период до 2030 года и на углубление международного сотрудничества,</p>
+      </container>
+      <container name="отмечая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> потенциал социально значимого инвестирования для финансирования устойчивого развития в поддержку реализации национальных стратегий и планов и решения первоочередных задач и удовлетворения потребностей в области развития в связи с достижением целей в области устойчивого развития,</p>
+      </container>
+      <container name="учитывая" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что для достижения целей в области устойчивого развития потребуется переориентация инвестиций на более долгосрочную перспективу, включая финансирование на ранних стадиях, рекомендуя в этой связи инвесторам принимать меры, с тем чтобы стимулировать увеличение объема долгосрочных инвестиций и финансирования на ранних стадиях, и учитывая, что международное публичное и частное финансирование в целях развития в сочетании с другими новаторскими механизмами финансирования, включая смешанное финансирование, может играть важную роль в наращивании наших коллективных усилий по удовлетворению потребностей в финансовых средствах для достижения целей в области устойчивого развития,</p>
+      </container>
+      <container name="настоятельно призывая" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">настоятельно призывая</span> безотлагательно предпринять шаги для решения проблем, касающихся приемлемого уровня задолженности, путем усиления мер по предотвращению долгового кризиса, в том числе с помощью управления долгом и обеспечения прозрачности, поиска решений, которые позволят странам, сталкивающимся с серьезными бюджетными ограничениями и значительной задолженностью, инвестировать в достижение целей в области устойчивого развития,</p>
+      </container>
+      <container name="учитывая также" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">учитывая также</span>, что предпринимательство может способствовать осуществлению Повестки дня на период до 2030 года, обращая особое внимание на важность ускорения перехода к рациональным моделям потребления и производства и подчеркивая необходимость содействовать созданию возможностей и механизмов устойчивого и новаторского финансирования для привлечения нового капитала на цели устойчивого инвестирования и шире применять устойчивые модели хозяйственной деятельности, уделяя особое внимание микро-, малым и средним предприятиям, а также, сообразно обстоятельствам, проблематике социальной экономики и экономики солидарности,</p>
+      </container>
+      <container name="особо отмечая" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span>, что национальные усилия в области развития должны подкрепляться благоприятными условиями в мировой экономике, включая согласованные и взаимодополняющие мировые торговую, валютно-кредитную и финансовую системы, а также укреплением и совершенствованием механизмов глобального экономического регулирования, и подчеркивая в этой связи, что на вероятности увеличения глобальных потоков прямых иностранных инвестиций дополнительно сказывается целый ряд факторов риска,</p>
+      </container>
+      <container name="особо отмечая также" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">особо отмечая также</span>, что без частных и государственных инвестиций, в том числе долгосрочных иностранных инвестиций, возможности для мобилизации которых появляются при наличии благоприятных условий на всех уровнях, достичь целей в области устойчивого развития будет невозможно,</p>
+      </container>
+      <container name="учитывая" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> важность принципов корпоративной устойчивости, включая представление, сообразно обстоятельствам, отчетов о последствиях деятельности корпораций для окружающей среды, социальной сферы и сферы государственного управления, с тем чтобы содействовать обеспечению прозрачности и подотчетности и не допускать использования практики, которая идет вразрез с усилиями по достижению целей в области устойчивого развития,</p>
+      </container>
+      <container name="подтверждая" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> обязательство значительно увеличить объем инвестиций для устранения гендерного разрыва и усиления поддержки учреждений, занимающихся вопросами гендерного равенства и расширения прав и возможностей всех женщин и девочек на глобальном, региональном и национальном уровнях,</p>
+      </container>
+      <container name="с обеспокоенностью отмечая" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечая</span> сохраняющуюся нехватку средств для финансирования инвестиций, которые имеют решающее значение для достижения целей в области устойчивого развития, и учитывая, что для удовлетворения значительных потребностей в инвестициях, которые необходимы для восполнения пробелов в связи с достижением целей в области устойчивого развития, в том числе в плане создания качественной, надежной, устойчивой и стойкой инфраструктуры для поддержания экономического развития и благополучия людей с акцентом на недорогом и справедливом доступе для всех, на национальном и международном уровнях потребуются дополнительные государственные и частные инвестиции и финансирование,</p>
+      </container>
+      <container name="считая" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">считая</span>, что международное публичное финансирование, включая официальную помощь в целях развития, имеет большое значение для усилий развивающихся стран по достижению целей в области устойчивого развития, в том числе благодаря тому, что оно служит катализатором процесса мобилизации дополнительных ресурсов из других государственных и частных источников, поскольку может способствовать повышению эффективности сбора налогов и помогать созданию более благоприятных внутренних условий и формированию сферы основных государственных услуг,</p>
+      </container>
+      <container name="особо отмечая" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span>, что призыв обеспечить участие частного сектора в финансировании деятельности по достижению целей в области устойчивого развития не подменяет государственное финансирование, а является его важным дополнением,</p>
+      </container>
+      <container name="подчеркивая" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что, для того чтобы государственное и частное финансирование способствовало достижению целей в области устойчивого развития, оно должно иметь устойчивый характер и должно осуществляться на приемлемых условиях,</p>
+      </container>
+      <container name="особо отмечая" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> необходимость дальнейшего наращивания инвестиций в деятельность по борьбе с изменением климата, в том числе посредством приведения финансовых потоков в соответствие с траекторией в направлении развития, характеризующегося низким уровнем выбросов парниковых газов и устойчивостью к изменению климата, как это предусмотрено Парижским соглашением<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, решение 1/CP.21, приложение.</p></authorialNote>, и подтверждая необходимость ускорить передачу экологически чистых и низкоэмиссионных технологий и внедрение этих технологий на взаимно согласованных условиях, в том числе на льготных и преференциальных условиях,</p>
+      </container>
+      <container name="отмечая" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что в 2023 году общий объем прямых иностранных инвестиций в мировом масштабе уменьшился на 2 процента — до 1,3 трлн долл. США — и что, хотя объем прямых иностранных инвестиций в развитые страны увеличился на 9 процентов, объем прямых иностранных инвестиций в развивающиеся страны уменьшился на 7 процентов, в том числе объем прямых иностранных инвестиций в страны Африки уменьшился на 3,3 процента — с 54,4 млрд долл. США в 2022 году до 52,6 млрд долл. США в 2023 году, что составляет 4 процента от общемирового объема прямых иностранных инвестиций, — а также что, несмотря на некоторое увеличение объема прямых иностранных инвестиций в экономику наименее развитых стран, развивающихся стран, не имеющих выхода к морю, и малых островных развивающихся государств, прямые иностранные инвестиции по‑прежнему осуществляются лишь в нескольких из таких стран, имеющих структурно слабую и уязвимую экономику,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> сообщения Конференции Организации Объединенных Наций по торговле и развитию об инвестициях в малые островные развивающиеся государства, наименее развитые страны и развивающиеся страны, не имеющие выхода к морю, позволяющие выявлять инвестиционные тенденции в странах, находящихся в особой ситуации, и указывающие на необходимость увеличения объема прямых иностранных инвестиций в экономику этих стран,</p>
+      </container>
+      <container name="подчеркивая" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что для содействия инвестициям, обеспечения поступательного экономического роста, ликвидации нищеты и создания рабочих мест, которое должно сопровождаться организацией профессионально-технической подготовки в развивающихся странах, необходимо обеспечить прозрачность и общедоступность международных финансовой, валютно-кредитной и торговой систем, наличие надежных институтов на всех уровнях и разработку и осуществление соответствующих стратегий, в том числе положений о регулировании рынка капитала, направленных на формирование стимулов по всей инвестиционной цепочке, увязанной с долгосрочными показателями эффективности и устойчивости и способствующей уменьшению нестабильности, и в этой связи подчеркивая необходимость продолжать оказывать международную поддержку и содействовать конкуренции на рынке инвестиций на всех уровнях, с тем чтобы развивающиеся страны могли достичь целей в области устойчивого развития,</p>
+      </container>
+      <container name="учитывая" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что социально, экономически и экологически ответственные, подотчетные и устойчивые деловые операции, инвестиции, предприимчивость и новаторство частного сектора на национальном и международном уровнях, включая равный доступ для всех женщин и молодых людей, являются весомыми факторами повышения производительности, всеохватного экономического роста и создания рабочих мест, с тем чтобы ни один человек не был обойден вниманием,</p>
+      </container>
+      <container name="отмечая" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> ту роль, которую Стамбульский международный центр по вопросам вовлечения частного сектора в процесс развития Программы развития Организации Объединенных Наций играет в обеспечении взаимодействия с частным сектором в интересах достижения целей в области устойчивого развития и в содействии формированию всеохватных рынков и устойчивому развитию предпринимательской деятельности,</p>
+      </container>
+      <container name="отмечая также" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span> завершение работы в рамках тринадцатой Конференции министров Всемирной торговой организации над Соглашением о содействии инвестициям в целях развития и учитывая, что одной из основных целей Соглашения является создание благоприятных условий для движения финансовых средств по линии прямых иностранных инвестиций между сторонами, особенно в развивающиеся и наименее развитые страны, в целях содействия достижению устойчивого развития на основе улучшения прозрачности мер, упорядочения административных процедур, принятия прочих мер по упрощению процедур инвестирования и содействия международному сотрудничеству, а также оказания технической помощи и помощи в наращивании потенциала, что необходимо для осуществления Соглашения,</p>
+      </container>
+      <container name="учитывая" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что инвестиции в технические отрасли и цифровую экономику важны для содействия развитию связей и цифрового партнерства, что разработка и передача технологий на взаимно согласованных условиях являются мощным двигателем устойчивого развития и что в целях содействия разработке и передаче технологий на взаимно согласованных условиях необходимо, сообразно обстоятельствам, способствовать укреплению связей между многонациональными компаниями и государственным и частным секторами стран,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span>, что содействие инвестициям в развитие производств по переработке природных ресурсов и производственную диверсификацию обеспечивает более инклюзивное и устойчивое развитие, и в этой связи рекомендует активизировать национальные усилия и укреплять международное сотрудничество в областях, обеспечивающих поддержку стратегий и программ, направленных на увеличение объемов государственных и частных, внутренних и международных инвестиций в структурные преобразования экономики развивающихся стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> содействовать созданию возможностей и механизмов устойчивого и новаторского финансирования для привлечения нового капитала на цели устойчивого инвестирования и шире применять устойчивые модели хозяйственной деятельности, уделяя особое внимание микро-, малым и средним предприятиям;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> поощрять инвестиции в развивающиеся страны в интересах обеспечения обучения на протяжении всей жизни, профессионально-технического обучения и обучения навыкам и цифровой грамотности, расширять доступ с помощью цифровых технологий и внедрять программы финансовой грамотности, которые позволяют людям и предприятиям принимать взвешенные решения, тем самым способствуя достижению финансовой инклюзии, предпринимательству и достойному трудоустройству;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечает</span>, что, несмотря на улучшение инвестиционного климата в некоторых наименее развитых странах и малых островных развивающихся государствах, прямые иностранные инвестиции, которые могли бы способствовать диверсификации экономики этих стран, по‑прежнему часто обходят их стороной;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечает также</span> ограничения, с которыми сталкиваются при попытке получить доступ к капиталу и надлежащим вспомогательным услугам микро-, малые и средние предприятия, особенно предприятия, возглавляемые женщинами, молодыми предпринимателями и лицами с инвалидностью, и признает, что финансовые рынки и организации по поддержке предпринимательской деятельности могут быть мощными инструментами устойчивого и инклюзивного экономического роста и сокращения масштабов нищеты, в том числе в том случае, когда они поддерживают предприятия, которые оказывают положительное воздействие на устойчивое развитие, и когда во всех сегментах экономики доступ к кредитам открыт для всех;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание</span>, что прямые иностранные инвестиции могут оказывать позитивное сопутствующее воздействие, например в плане ноу-хау и технологий, в том числе путем содействия налаживанию связей с отечественными поставщиками, а также за счет создания возможностей для интеграции местных предприятий, в частности микро-, малых и средних предприятий из развивающихся стран, в региональные и глобальные производственно-сбытовые цепочки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span>, что прямые иностранные инвестиции могут по-разному влиять на достижение целей в области устойчивого развития, обращает особое внимание на необходимость теснее увязывать прямые иностранные инвестиции с национальной политикой и стратегиями в области устойчивого развития и Повесткой дня в области устойчивого развития на период до 2030 года<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a>.</p></authorialNote> и предлагает государствам, подготавливающим комплексные национальные схемы финансирования, включать в них планы по мобилизации частных финансовых средств и использованию таких средств с учетом национальных программ развития и реализовывать такие планы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">считает</span>, что для более тесной увязки стимулов для частного сектора с целями в области устойчивого развития необходимо разрабатывать и укреплять соответствующую политику, и признает, что таксономии устойчивого финансирования могут служить полезным инструментом для улучшения транспарентности и могут таким образом побуждать частный сектор к применению устойчивых методов хозяйствования и инвестированию в них и способствовать долгосрочным качественным инвестициям;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> предпринимать на национальном и международном уровнях усилия по учету соображений устойчивости в финансовой системе и тем самым по дальнейшей переориентации потоков капитала на инвестиции, являющиеся устойчивыми с экономической, социальной и экологической точек зрения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> финансовым учреждениям и банкам развития в соответствующих случаях поощрять и поддерживать развивающиеся страны в выпуске облигаций для финансирования деятельности по достижению целей в области устойчивого развития, в частности облигаций, поступления от продажи которых имеют целевое назначение и направляются на решение социальных проблем, повышение устойчивости и достижение смежных целей, а также «зеленых» облигаций, в качестве дополнительных механизмов финансирования деятельности по достижению устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> увеличивать потоки прямых иностранных инвестиций, особенно в развивающиеся страны, которые пострадали от пандемии COVID‑19 и нынешних многочисленных кризисов, чтобы устранить дефицит инвестиций в достижение целей в области устойчивого развития в развивающихся странах в размере 4 трлн долл. США, признавая, что прямые иностранные инвестиции имеют ключевое значение для экономического роста и развития и могут способствовать уменьшению неравенства и помочь странам, зависящим от сырьевых товаров, осуществить переход к обрабатывающей промышленности и другим видам деятельности с более высокой добавленной стоимостью;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span>, чтобы финансовые субъекты на всех уровнях работали над формированием инклюзивной, представительной и ответственной финансовой практики, включая соответствующую практику, связанную с обеспечением транспарентности, раскрытием информации и соблюдением стандартов, и рекомендует далее всем субъектам прилагать усилия по сокращению существующей и предотвращению дальнейшей фрагментации стандартов в области представления отчетности и раскрытия информации, сообразно обстоятельствам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> успехи, достигнутые многими странами в деле создания более благоприятных условий для хозяйственной и инвестиционной деятельности частного сектора, но при этом отмечает, что еще многое можно сделать в плане создания конкурентной деловой и инвестиционной среды, в том числе за счет активизации усилий по борьбе с коррупцией, повышения транспарентности рынков, улучшения доступа к рыночной информации и облегчения процесса создания таких предприятий, которые имели бы широкие возможности для привлечения частных инвестиций и участия частного сектора в деятельности, способствующей устойчивому развитию;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span>, что более широкое обеспечение гендерного равенства при распределении экономических ресурсов может дать женщинам средства для получения дохода и окажет позитивный мультипликативный эффект в плане достижения инклюзивного, справедливого и устойчивого экономического роста, и в этой связи подтверждает необходимость осуществлять адресные меры и инвестиции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> важность результативного, ответственного и основанного на консультациях взаимодействия частного сектора с национальными, международными и межправительственными организациями, государствами-членами и другими соответствующими заинтересованными сторонами, сообразно обстоятельствам, в их усилиях по достижению целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание</span> важность объединения долей международных учреждений, многосторонних банков развития и государств в государственно-частных партнерствах для снижения стоимости капитала, а также необходимость изменения приоритетов многосторонних банков развития при предоставлении займов для повышения эффективности использования их средств в интересах привлечения большего объема частных инвестиций в развивающиеся страны для достижения целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> важность применения рациональной корпоративной практики, включая, сообразно обстоятельствам, комплексный учет экологических, социальных и управленческих факторов в корпоративной отчетности, с самостоятельным принятием решений странами относительно надлежащего баланса добровольных и обязательных правил, и рекомендует предпринимателям руководствоваться принципами ответственного предпринимательства и инвестирования;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание</span> важность корпоративной отчетности по вопросам устойчивого развития, рекомендует компаниям, особенно зарегистрированным на бирже и крупным компаниям, обеспечивать включение информации по вопросам устойчивого развития и должной осмотрительности в свою регулярную отчетность, рекомендует промышленным кругам, заинтересованным правительствам и соответствующим заинтересованным сторонам, чтобы они, действуя в надлежащих случаях при поддержке со стороны Организации Объединенных Наций, усовершенствовали существующие и разработали новые модели передовой практики и содействовали реализации мер по включению в отчетность информации по вопросам устойчивого развития, принимая во внимание опыт работы уже существующих сетей и уделяя особое внимание потребностям развивающихся стран, в частности в сфере наращивания потенциала, и с удовлетворением отмечает в этой связи взаимодействие Глобального договора Организации Объединенных Наций с Глобальной инициативой по отчетности и Всемирным советом деловых кругов по вопросам устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> проблемы, с которыми сталкиваются развивающиеся страны, внедряющие новые международные стандарты отчетности по вопросам устойчивости, принятие которых приводит к увеличению потребностей в наращивании потенциала, особенно в случае микро-, малых и средних предприятий, и одобряет в этой связи работу Межправительственной рабочей группы экспертов по международным стандартам учета и отчетности по продвижению отчетности по вопросам устойчивости в развивающихся странах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены принимать меры для ослабления напряженности и смягчения других факторов риска, а также для создания условий, которые способствуют увеличению объема долгосрочных и устойчивых инвестиций и характеризуются, в частности, открытой, прозрачной и недискриминационной инвестиционной политикой;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечает</span> рост числа обитателей трущоб и неблагоприятные последствия для их здоровья, безопасности и возможностей получения средств к существованию и в этой связи рекомендует осуществлять адресные инвестиции на всех уровнях с целью обеспечить предоставление доступного и надлежащего жилья, а также добиться поступательного направления инвестиций на выполнение задач, связанных с целями в области устойчивого развития, в этих секторах к 2030 году;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span>, что частный сектор может способствовать реализации Повестки дня на период до 2030 года по целому ряду направлений, в том числе путем творческого и новаторского решения непростых задач в области устойчивого развития, увязки моделей хозяйствования с целями в области устойчивого развития и поддержки усилий государственного сектора в таких областях, как снижение риска бедствий, борьба с изменением климата и развитие соответствующих навыков, в соответствии с национальными планами и стратегиями, и в этой связи рекомендует продолжать формирование политики и наращивание потенциала в части минимизации рисков инвестиций во всех странах для мобилизации финансовых ресурсов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span>, что инвесторы все чаще учитывают проблематику устойчивого развития при принятии инвестиционных решений, но при этом также отмечает, что необходима дальнейшая работа по анализу, мониторингу и оценке вклада инвесторов в достижение целей в области устойчивого развития и в интересах максимизации позитивного воздействия инвесторов на процессы развития, и в этой связи принимает к сведению работу Конференции Организации Объединенных Наций по торговле и развитию, осуществляемую с опорой на ресурсы Центра глобального устойчивого финансирования и касающуюся мониторинга намерений крупнейших мировых институциональных инвесторов в отношении устойчивой финансовой и инвестиционной поддержки деятельности в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_320" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_320__content">
+          <p xml:space="preserve">	<span class="italic">констатирует</span>, что снижение риска бедствий согласно положениям Сендайской рамочной программы по снижению риска бедствий на 2015–2030 годы<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/283">69/283</a>, приложение II.</p></authorialNote> и политической декларации совещания высокого уровня по среднесрочному обзору хода ее осуществления<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/77/289">77/289</a>, приложение.</p></authorialNote> является эффективным с точки зрения затрат способом предотвращать убытки в будущем, рекомендует государствам-членам разработать стандарты, законодательство и правила, сообразно обстоятельствам, для осуществления государственных и частных инвестиций с учетом информации о риске бедствий, включая раскрытие информации о рисках, связанных с инвестициями и сделками, и обеспечивать, чтобы при разработке портфеля проектов и определении проектов, перспективных с точки зрения финансирования, принимались, в частности, меры по оценке, предотвращению и смягчению риска многофакторных и других бедствий, в том числе создающих угрозу для инфраструктуры и сектора недвижимости, и в этой связи призывает государства-члены регулярно проводить стресс-тестирование систем инфраструктуры;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_344" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_344__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> предпринимать усилия по обеспечению согласования инфраструктурных планов со стратегиями снижения риска бедствий, в том числе с привлечением страховых компаний, поощряя при этом проведение многовекторных оценок риска бедствий в качестве необходимого условия инфраструктурных и жилищных капиталовложений и капиталовложений в коммерческую недвижимость во всех секторах и стресс-тестирования систем критической инфраструктуры, с тем чтобы сохранить достижения в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_369" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_369__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам содействовать достижению целей в области устойчивого развития во всех его трех компонентах новаторским, комплексным, прозрачным, открытым и справедливым образом, для чего необходимы достаточные, устойчивые и предсказуемые инвестиции по линии как государственного, так и частного сектора;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_395" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_395__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> всем соответствующим заинтересованным сторонам изучить возможность учета факторов устойчивости при оценке уровня кредитоспособности и укрепить кредитный рынок, с тем чтобы содействовать развитию микро-, малых и средних предприятий, особенно предприятий, принадлежащих женщинам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_422" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_422__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> рост востребованности устойчивых инвестиций и финансирования, в том числе инвестиций в облигации, связанные с целями в области устойчивого развития, и предлагает частным компаниям, включая институциональных инвесторов, брать на вооружение устойчивые методы хозяйствования, которые могут принести выгоду в долгосрочной перспективе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_450__content">
+          <p xml:space="preserve">	<span class="italic">с глубокой обеспокоенностью констатирует</span> катастрофические экономические последствия пандемии COVID‑19, которые подрывают способность стран добиваться реализации целей и задач, сформулированных в Повестке дня на период до 2030 года и Парижском соглашении, и угрожают свести на нет те успехи, которые были достигнуты в последнее время в стимулировании инвестиций, связанных с достижением целей в области устойчивого развития, отмечает роль партнерств с участием многих заинтересованных сторон, в том числе государственного и частного секторов, в содействии стратегическим инвестициям, связанным с достижением целей в области устойчивого развития, особенно в областях, где такие инвестиции могли бы в большей степени способствовать борьбе с пандемией COVID‑19 и ее социально-экономическими последствиями, в том числе с помощью инновационного финансирования, в частности систем здравоохранения, включая всеобщий охват услугами здравоохранения; обеспечению продовольственной безопасности, включая производство сельскохозяйственной продукции и продуктов питания и соответствующие производственно-сбытовые цепочки; обеспечению цифровой связанности; созданию рабочих мест; развитию устойчивой и качественной инфраструктуры и росту производительности; а также в обеспечении экологически ответственного подхода к восстановлению после COVID‑19 и восполнении вызванного пандемией сокращения объема инвестиций, призывает все заинтересованные стороны сотрудничать для повышения устойчивости и экологичности глобальных производственно-сбытовых цепочек и укрепления международной инвестиционной деятельности, в том числе путем увязки инвестиций с Повесткой дня на период до 2030 года, и рекомендует развивать сотрудничество для облегчения трансграничных личных поездок по чрезвычайно важным причинам без ущерба для усилий по предотвращению распространения вируса;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_479" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_479__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость оценки государственных и частных инициатив для анализа воздействия инвестиций на достижение целей в области устойчивого развития, определения их сходных черт и различий и выявления возможных недостатков;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_509" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_509__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> в этой связи просьбу, содержащуюся в итоговом документе форума Экономического и Социального Совета по последующим мерам в области финансирования развития 2019 года, о том, чтобы Межучрежденческая целевая группа по финансированию развития продолжала анализировать воздействие и показатели для измерения вклада инвестиций и инструментов частного сектора в достижение целей в области устойчивого развития в общемировом масштабе<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/E/FFDF/2019/3">E/FFDF/2019/3</a>.</p></authorialNote>, и рекомендует в соответствующих случаях и с учетом национальных условий и приоритетов оказывать государствам-членам международную поддержку в добровольной разработке практических средств измерения вклада частного сектора в достижение целей в области устойчивого развития на национальном уровне и сбора оперативных и достоверных данных о таком вкладе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_540" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_540__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span>, что международное публичное финансирование играет важную роль, дополняя усилия стран по мобилизации государственных ресурсов на национальном уровне, и что официальная помощь в целях развития, будучи одним из ключевых источников средств для финансирования развития, помогает развивающимся странам задействовать достаточные государственные ресурсы для направления в секторы, прогресс в которых мог бы ускорить осуществление далеко идущих преобразований, предусмотренных Повесткой дня на период до 2030 года, и в этой связи отмечает необходимость активизировать усилия по выполнению соответствующих обязательств, направляя предоставляемые на наиболее льготных условиях ресурсы в первую очередь тем, кто больше всего нуждается в помощи и в наименьшей степени способен мобилизовать другие ресурсы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_572" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_572__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> потенциал смешанного финансирования, в том числе связанные с ним возможности в плане мобилизации, максимального использования или ускорения поступления дополнительных финансовых средств, и подчеркивает, что проекты должны увязываться с национальными приоритетами, иметь долгосрочную отдачу в плане развития и отвечать публичным интересам, в том числе интересам тех, кто находится в уязвимом положении, учитывая при этом, что для наиболее эффективного обеспечения финансами деятельности по достижению различных целей в области устойчивого развития могут использоваться разные виды финансирования;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_605" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_605__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам поощрять взаимодействие между акционерами и потребителями, что может побуждать компании к тому, чтобы учитывать экологические предпочтения потребителей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_639" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_639__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> партнеров по процессу развития поддерживать усилия по укреплению нормативной базы, с тем чтобы стимулировать направление финансовых средств в производительные инвестиции, включая расширение возможностей по использованию уже имеющихся, дополнительных и устойчивых источников финансирования, включая льготное финансирование, особенно в наименее развитых странах, развивающихся странах, не имеющих выхода к морю, малых островных развивающихся государствах и африканских странах, принимая при этом во внимание особые проблемы, с которыми сталкиваются страны со средним уровнем дохода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_674" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_674__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> стратегические предложения, выдвинутые Конференцией Организации Объединенных Наций по торговле и развитию в документе под названием <span class="italic">World Investment Report 2022: International Tax Reforms and Sustainable Investment</span> («Доклад о мировых инвестициях, 2022 год: международные налоговые реформы и устойчивые инвестиции»), в частности предложение о том, чтобы международное сообщество оказывало поддержку развивающимся странам, особенно странам Африки и наименее развитым странам, в том числе путем расширения масштабов технической помощи для использования преимуществ международных налоговых реформ, и призывает Конференцию Организации Объединенных Наций по торговле и развитию работать в сотрудничестве с многочисленными заинтересованными сторонами, чтобы помочь развивающимся странам выполнить эти рекомендации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_710" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_710__content">
+          <p xml:space="preserve">	<span class="italic">отмечает также</span> документ Конференции Организации Объединенных Наций по торговле и развитию под названием <span class="italic">World Investment Report 2023: Investing in Sustainable Energy for All</span> («Доклад о мировых инвестициях, 2023 год: инвестиции в устойчивую энергетику для всех») и предлагает рассмотреть содержащиеся в нем предложения должным образом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_747" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_747__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> стратегические предложения, выдвинутые Конференцией Организации Объединенных Наций по торговле и развитию в документе под названием <span class="italic">World Investment Report 2024: Investment Facilitation and Digital Government</span> («Доклад о мировых инвестициях, 2024 год: содействие инвестициям и цифровое правительство»), в частности предложение о том, что международному сообществу следует поддерживать развивающиеся страны, особенно страны Африки и наименее развитые страны, в том числе посредством упрощения деловой практики и внедрения механизмов цифрового правительства, а также поощрения институциональных инвестиций для содействия в обеспечении долгосрочного экономического роста, и призывает Конференцию Организации Объединенных Наций по торговле и развитию работать в сотрудничестве с многочисленными заинтересованными сторонами, чтобы помочь развивающимся странам выполнить эти рекомендации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_785" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_785__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span>, что содействие разработке более широких приложений для цифрового правительства, оказание технической помощи предпринимателям и поощрение инвестиций, в том числе инвестиций в инициативы по наращиванию потенциала на основе международных инструментов инвестиционной политики, могут помочь устранить некоторые пробелы в инвестиционном финансировании достижения целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_824" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_824__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам, партнерам по развитию и частному сектору инвестировать средства в технологическое развитие, формировать более устойчивые производственно-сбытовые цепочки, повышать производственный потенциал и уровень диверсификации экономики в развивающихся странах, распространять и передавать технологии и ноу-хау на взаимно согласованных условиях и улучшать внутренний инвестиционный климат, чтобы содействовать массовому производству, особенно безопасных, качественных, эффективных и недорогих вакцин, терапевтических препаратов и медицинского оборудования, способствовать созданию рабочих мест, надлежащей подготовке и наращиванию потенциала и повышению уровня благосостояния, увеличивать объем инвестиций в качественную, надежную, устойчивую и стойкую инфраструктуру, в том числе путем полного задействования системы развития Организации Объединенных Наций, Всемирного банка и других многосторонних учреждений при восполнении нехватки потенциала и финансовых средств, формировании портфеля перспективных с точки зрения финансирования проектов по созданию качественной, надежной, устойчивой и стойкой инфраструктуры и рассмотрении возможности применения платформенного подхода к инновациям для координации, расширения и направления государственных и частных финансовых ресурсов и технической помощи, увеличивать объем всех компонентов международного публичного финансирования, включая каталитическое использование официальной помощи в целях развития, финансирования со стороны национального и международного частного сектора, мобилизации внутренних ресурсов и торговли и сократить среднюю величину операционных расходов, связанных с переводом мигрантами денежных средств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_864" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_864__content">
+          <p xml:space="preserve">	<span class="italic">обращает особое внимание</span> на необходимость оказания технической помощи и поддержки в наращивании потенциала для содействия инвестициям и разработки портфеля проектов и перспективных с точки зрения финансирования проектов, особенно для развивающихся стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_905" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_905__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> систему Организации Объединенных Наций и все соответствующие заинтересованные стороны содействовать укреплению потенциала развивающихся стран в их усилиях по восполнению нехватки инвестиций в интересах достижения целей в области устойчивого развития, особенно на уровне страновых программ, в плане использования государственных средств для привлечения частных инвестиций для финансирования проектов в интересах устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_947" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_947__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость того, чтобы торговые и инвестиционные соглашения содержали необходимые оговорки, не допускающие ограничений в отношении национальных стратегий и мер регулирования, ориентированных на интересы общества, особо отмечает важность оказания развивающимся странам помощи в наращивании потенциала, чтобы они могли пользоваться возможностями, открывающимися благодаря международным торговым и инвестиционным соглашениям, и рекомендует Конференции Организации Объединенных Наций по торговле и развитию продолжать осуществлять и укреплять ее программу, направленную на наращивание потенциала, проведение исследований и анализа в области политики, формирование регионального и многостороннего консенсуса и консультационное взаимодействие с государствами по проблематике инвестиционных соглашений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_990" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_990__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря о том, чтобы он, действуя в сотрудничестве с секретариатом Конференции Организации Объединенных Наций по торговле и развитию, информировал Генеральную Ассамблею на ее восьмидесятой сессии об осуществлении настоящей резолюции на основе текущих исследований в специальном разделе издания «Доклад о мировых инвестициях», уделив особое внимание путям стимулирования инвестиций в интересах устойчивого развития и предложив конкретные рекомендации, в том числе в отношении стратегических секторов, инвестиции в которых могли бы способствовать осуществлению Повестки дня на период до 2030 года, и с интересом ожидает дальнейшего рассмотрения этих вопросов в будущих докладах Межучрежденческой целевой группы по финансированию развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1034" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1034__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> включить в предварительную повестку дня своей восьмидесятой сессии в рамках пункта, озаглавленного «Вопросы макроэкономической политики», подпункт, озаглавленный «Содействие инвестициям в интересах устойчивого развития».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54-е" refersTo="#adoptionMeeting">54‑е пленарное заседание</location>
+          <eol />
+          <docDate date="2024-12-19" refersTo="#adoptionDate">19 декабря 2024 года</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
