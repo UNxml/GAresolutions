@@ -1,0 +1,650 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-218/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-218/"></FRBRuri>
+          <FRBRdate date="2024-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-218/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-218/fra@/"></FRBRuri>
+          <FRBRdate date="2024-12-23" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-19/79-218/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-19/79-218/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-01-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"/>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"/>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"/>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"/>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"/>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"/>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"/>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"/>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"/>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"/>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"/>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"/>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"/>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office of the High Representative for the Least Developed Countries, Landlocked Developing Countries and Small Island Developing States" showAs="UN. Office of the High Representative for the Least Developed Countries, Landlocked Developing Countries and Small Island Developing States" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Technology Bank for the Least Developed Countries" showAs="UN. Technology Bank for the Least Developed Countries" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. High-Level Midterm Review on the Doha Programme of Action (2026 : Doha)" showAs="UN. High-Level Midterm Review on the Doha Programme of Action (2026 : Doha)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Doha Programme of Action for Least Developed Countries (2022)" showAs="Doha Programme of Action for Least Developed Countries (2022)" dictionary="DHLAUTH"></keyword>
+        <keyword value="LEAST DEVELOPED COUNTRIES" href="http://metadata.un.org/thesaurus/1003661" showAs="LEAST DEVELOPED COUNTRIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT ASSISTANCE" href="http://metadata.un.org/thesaurus/1001619" showAs="DEVELOPMENT ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC COOPERATION AMONG DEVELOPING COUNTRIES" href="http://metadata.un.org/thesaurus/1001844" showAs="ECONOMIC COOPERATION AMONG DEVELOPING COUNTRIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT FINANCE" href="http://metadata.un.org/thesaurus/021000" showAs="DEVELOPMENT FINANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GRADUATION" href="http://metadata.un.org/thesaurus/1002735" showAs="GRADUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EARLY WARNING SYSTEMS" href="http://metadata.un.org/thesaurus/1001807" showAs="EARLY WARNING SYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="21a" showAs="Follow-up to the 5th United Nations Conference on the Least Developed Countries." shortForm="LEAST DEVELOPED COUNTRIES--CONFERENCES" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-11-19" outcome="draftResolution" as="A/C.2/79/L.37/Rev.1" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Austria, Belgium, Bulgaria, Croatia, Denmark, Finland, Germany, Hungary, Ireland, Kazakhstan, Latvia, Lithuania, Luxembourg, Malta, Montenegro, Netherlands (Kingdom of the), Poland, Portugal, Spain, Sweden, Türkiye and Tuvalu" />
+        <step date="2024-12-10" outcome="recommendedForAdoption" as="A/79/440/Add.1" by="" refersTo="8" />
+        <step date="2024-12-19" outcome="adopted" as="A/79/PV.54" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="secondCommittee" href="#secondCommittee" showAs="Deuxième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-24335 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/218</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-12-23" class="rightSmall" refersTo="#dateOfIssuance">23 décembre 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">Soixante-dix-neuvième session</session>
+      </p>
+      <p>
+        <inline title="21 a)" name="agenda item">Point 21 a) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Groupes de pays en situation particulière : suivi de la cinquième Conférence des Nations Unies sur les pays les moins avancés</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 19 décembre 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#secondCommittee">[sur la base du rapport de la Deuxième Commission (<inline name="originating document">A/79/440/Add.1, par. 8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/218.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Suivi de la cinquième Conférence des Nations Unies sur les pays les moins avancés</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>le Programme d’action de Doha en faveur des pays les moins avancés<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/76/258">76/258</a>, annexe.</p></authorialNote> et la Déclaration politique de Doha, adoptée lors de la deuxième partie de la cinquième Conférence des Nations Unies sur les pays les moins avancés tenue à Doha du 5 au 9 mars 2023<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<span class="italic">Rapport de la cinquième Conférence des Nations Unies sur les pays les moins avancés, New York, 17 mars 2022, et Doha, 5-9 mars 2023</span> (<a href="https://undocs.org/fr/A/CONF.219/2023/3">A/CONF.219/2023/3</a>), chap. I, résolution 2.</p></authorialNote>, dans laquelle les chefs d’État et de gouvernement et les représentants des États se sont fermement engagés à mettre en œuvre, tout au long de la décennie à venir, le Programme d’action de Doha, y compris ses six domaines d’action prioritaires,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant </span>que le Programme d’action de Doha présente une nouvelle génération d’engagements renforcés et renouvelés pris par les pays les moins avancés et leurs partenaires de développement à l’aune d’un certain nombre d’objectifs primordiaux – relèvement rapide, durable et inclusif après la pandémie de maladie à coronavirus (COVID‑19), renforcement de la résilience contre les chocs futurs, élimination de l’extrême pauvreté, renforcement des marchés du travail grâce à la promotion de la transition de l’emploi informel à l’emploi formel, octroi d’une assistance rendant possible la sortie de la catégorie des pays les moins avancés, facilitation de l’accès à des modalités de financement viables et innovantes, lutte contre les inégalités, à l’intérieur des pays et d’un pays à l’autre, exploitation des atouts de la science, de la technologie et de l’innovation, promotion systématique de l’entrepreneuriat fondé sur les technologies de pointe, matérialisation de la transformation structurelle et accomplissement des objectifs de développement durable, un nouveau souffle devant être donné à un partenariat mondial axé sur le développement durable grâce à l’octroi d’un appui plus intense et diversifié aux pays les moins avancés pour qu’ils soient en mesure de forger des coalitions multipartites aussi étoffées que possible,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_4">
+        <blockList>
+          <listIntroduction>	<span class="italic">Réaffirmant également</span> que le Programme d’action de Doha repose sur six domaines d’action prioritaires et sur les engagements et les cibles qui y sont fixés :</listIntroduction>
+          <item>
+            <num>a)</num>
+            <p xml:space="preserve"> Investir dans les populations des pays les moins avancés : éradiquer la pauvreté et renforcer les capacités pour ne laisser personne de côté,</p>
+          </item>
+          <item>
+            <num>b)</num>
+            <p xml:space="preserve"> Exploiter les moyens offerts par la science, la technologie et l’innovation pour lutter contre les vulnérabilités multidimensionnelles et atteindre les objectifs de développement durable,</p>
+          </item>
+          <item>
+            <num>c)</num>
+            <p xml:space="preserve"> Appuyer la transformation structurelle, moteur de la prospérité,</p>
+          </item>
+          <item>
+            <num>d)</num>
+            <p xml:space="preserve"> Développer les échanges commerciaux internationaux des pays les moins avancés et renforcer l’intégration régionale,</p>
+          </item>
+          <item>
+            <num>e)</num>
+            <p xml:space="preserve"> Parer aux changements climatiques et à la dégradation de l’environnement, faciliter le relèvement après la pandémie de COVID‑19 et renforcer la résilience contre les chocs futurs pour promouvoir un développement durable éclairé par l’analyse des risques,</p>
+          </item>
+          <item>
+            <num>f)</num>
+            <p xml:space="preserve"> Mobiliser la solidarité internationale, des partenariats mondiaux redynamisés et des outils et instruments innovants, sur la voie d’un reclassement durable,</p>
+          </item>
+        </blockList>
+      </container>
+      <container name="Affirmant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Affirmant </span>les buts et principes énoncés dans la Charte des Nations Unies, notamment le plein respect du droit international, la Déclaration universelle des droits de l’homme<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/217(III)">217 A (III)</a>.</p></authorialNote> et les instruments internationaux relatifs aux droits humains, et soulignant l’importance que revêtent pour tout un chacun les libertés fondamentales,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant </span>le Programme de développement durable à l’horizon 2030<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote>, le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a>, annexe.</p></authorialNote>, l’Accord de Paris<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Adopté en vertu de la Convention-cadre des Nations Unies sur les changements climatiques ; voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21.</p></authorialNote>, le Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030)<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/283">69/283</a>, annexe II.</p></authorialNote> et le Nouveau Programme pour les villes adopté à Quito par la Conférence des Nations Unies sur le logement et le développement urbain durable (Habitat III)<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/71/256">71/256</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Soulignant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> les effets de synergie existant entre l’application du Programme 2030, celle du Programme d’action d’Addis-Abeba et celle de l’Accord de Paris, et notant avec inquiétude les conclusions formulées dans le rapport spécial du Groupe d’experts intergouvernemental sur l’évolution du climat concernant les conséquences d’un réchauffement planétaire de 1,5 degré Celsius par rapport aux niveaux préindustriels et les trajectoires d’émissions mondiales de gaz à effet de serre y associées, dans le contexte du renforcement de l’action mondiale contre la menace posée par les changements climatiques, du développement durable et de la lutte contre la pauvreté, et se félicitant de la tenue à Bakou, du 11 au 22 novembre 2024, de la vingt-neuvième session de la Conférence des Parties à la Convention-cadre des Nations Unies sur les changements climatiques,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Notant avec une vive préoccupation</span> que la pandémie de maladie à coronavirus (COVID‑19) a de graves répercussions sur la santé, la sécurité et le bien-être, qu’elle entraîne de grands bouleversements pour les sociétés et les économies, qu’elle a des conséquences désastreuses pour la vie et les moyens d’existence des populations et que ce sont les pauvres et les plus vulnérables qui sont les plus touchés, réaffirmant son ambition, à savoir qu’il faut redresser la barre pour atteindre les objectifs de développement durable en adoptant des stratégies de relèvement durables et inclusives qui permettent d’avancer plus rapidement dans la mise en œuvre intégrale du Programme de développement durable à l’horizon 2030, de réduire le risque de nouveaux chocs, crises et pandémies et de renforcer la résilience, notamment en améliorant les systèmes de santé et en mettant en place une couverture sanitaire universelle, et considérant que l’accès équitable, rapide et universel à des vaccins et des traitements contre la COVID‑19 et à des tests de diagnostic sûrs, de qualité, efficaces et d’un coût abordable est un élément essentiel d’une riposte mondiale fondée sur l’unité, la solidarité, le renouvellement de la coopération multilatérale et l’application du principe consistant à ne laisser personne de côté,</p>
+      </container>
+      <container name="Consciente" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Consciente </span>que la pandémie de COVID‑19 et ses conséquences, les effets néfastes des changements climatiques, la perte de biodiversité, la désertification, la pollution et les autres aspects de la dégradation de l’environnement, qui suscitent des tensions géopolitiques et des conflits ayant de vastes répercussions sur la population, la planète, la prospérité et la paix, nuisent à la sécurité alimentaire et à la sécurité énergétique, aggravent l’extrême pauvreté et les inégalités et portent préjudice au commerce mondial et à la stabilité des marchés, ce qui compromet la viabilité même de la réalisation des objectifs de développement durable d’ici à 2030,</p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>sa résolution <a href="https://undocs.org/fr/A/RES/78/233">78/233</a> du 22 décembre 2023,</p>
+      </container>
+      <container name="Se félicitant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> du document final issu de la quatrième Conférence internationale sur les petits États insulaires en développement, qui s’est tenue à Saint John’s du 27 au 30 mai 2024, intitulé « Le Programme d’Antigua-et-Barbuda pour les petits États insulaires en développement : une déclaration renouvelée en faveur d’une prospérité résiliente »<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/78/317">78/317</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Se félicitant également" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Se félicitant également</span> de la tenue du Sommet de l’avenir, les 22 et 23 septembre 2024, au Siège de l’Organisation des Nations Unies à New York, au cours duquel la résolution <a href="https://undocs.org/fr/A/RES/79/1">79/1</a> intitulée « Le Pacte pour l’avenir » et les annexes s’y rapportant ont été adoptées,</p>
+      </container>
+      <container name="Attendant avec intérêt" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Attendant avec intérêt</span> la tenue de la troisième Conférence des Nations Unies sur les pays en développement sans littoral et l’adoption du nouveau Programme d’action de Gaborone en faveur des pays en développement sans littoral pour la décennie 2024-2034,</p>
+      </container>
+      <container name="Attendant également avec intérêt" eId="container_14">
+          <p xml:space="preserve">	<span class="italic">Attendant également avec intérêt</span> le deuxième Sommet mondial pour le développement social, qui se tiendra au Qatar du 4 au 6 novembre 2025,</p>
+      </container>
+      <container name="Rappelant" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>la résolution <a href="https://undocs.org/fr/E/RES/2024/18">2024/18</a> du Conseil économique et social, en date du 23 juillet 2024, sur le Programme d’action de Doha en faveur des pays les moins avancés pour la décennie 2022-2031,</p>
+      </container>
+      <container name="Rappelant également" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Rappelant également </span>ses résolutions <a href="https://undocs.org/fr/A/RES/59/209">59/209</a> du 20 décembre 2004 et <a href="https://undocs.org/fr/A/RES/67/221">67/221</a> du 21 décembre 2012 relatives à une stratégie de transition sans heurt pour les pays retirés de la liste des pays les moins avancés,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Rappelant en outre</span> ses résolutions <a href="https://undocs.org/fr/A/RES/74/270">74/270</a> du 2 avril 2020, <a href="https://undocs.org/fr/A/RES/74/274">74/274</a> du 20 avril 2020 et <a href="https://undocs.org/fr/A/RES/76/175">76/175</a> du 16 décembre 2021, intitulées respectivement « Solidarité mondiale dans la lutte contre la maladie à coronavirus 2019 (COVID‑19) », « Coopération internationale visant à assurer l’accès mondial aux médicaments, aux vaccins et au matériel médical pour faire face à la COVID‑19 » et « Garantir à tous les pays un accès équitable, rapide et universel, à un coût abordable, aux vaccins mis au point pour lutter contre la pandémie de COVID‑19 »,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant </span>sa résolution <a href="https://undocs.org/fr/A/RES/75/233">75/233</a> du 21 décembre 2020 sur l’examen quadriennal complet des activités opérationnelles de développement du système des Nations Unies ainsi que sa résolution <a href="https://undocs.org/fr/A/RES/72/279">72/279</a> du 31 mai 2018 sur le repositionnement du système des Nations Unies pour le développement dans le cadre de l’examen quadriennal complet des activités opérationnelles de développement du système des Nations Unies, et soulignant qu’il importe que ces résolutions soient appliquées pleinement et rapidement,</p>
+      </container>
+      <container name="Consciente" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Consciente </span>des difficultés particulières que tous les pays en développement, notamment les pays les moins avancés, doivent surmonter pour parvenir au développement durable,</p>
+      </container>
+      <container name="Prenant note" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> du <span class="italic">Rapport 2024 sur les pays les moins avancés</span> de la CNUCED,</p>
+      </container>
+      <container name="Consciente" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Consciente </span>des effets positifs des fonds envoyés par les travailleurs migrants vers les pays les moins développés et de la contribution qu’ils représentent, constatant avec satisfaction que les envois de fonds vers les pays les moins avancés continuent de croître et qu’ils y représentaient 5 pour cent du produit intérieur brut en 2023, notant que les coûts de transaction des envois de fonds demeurent bien supérieurs au niveau de 3 pour cent fixé dans la cible 10.c du Programme 2030 et dans le Programme d’action d’Addis-Abeba, la moyenne mondiale de ces coûts s’élevant à 6,3 pour cent, et soulignant que le fait de rendre les envois de fonds plus rapides, plus sûrs et moins coûteux et de ramener au-dessous de 3 pour cent les commissions prélevées, notamment en adoptant des solutions numériques, en favorisant l’inclusion numérique et financière et en accélérant l’accès des migrants à des comptes de transaction, aura des retombées positives pour les millions de personnes qui en sont fortement tributaires,</p>
+      </container>
+      <container name="Constatant" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Constatant </span>l’importance du rôle que joue la Banque de technologies pour les pays les moins avancés, qui aide ces pays à évaluer leurs lacunes technologiques et leurs besoins en matière de renforcement des capacités et à recenser les principaux domaines dans lesquels un appui peut être apporté, favorise le travail en réseau parmi les chercheurs, les instituts de recherche et les centres d’excellence, aide les pays à accéder à des technologies essentielles et à les utiliser selon des modalités arrêtées d’un commun accord, conjugue les initiatives bilatérales et l’appui d’institutions multilatérales et du secteur privé et met en œuvre des projets dans lesquels la science, la technologie et l’innovation sont utilisées pour contribuer au développement économique des pays les moins avancés, et rappelant avec satisfaction les contributions du Bangladesh, de la Guinée, de l’Inde, de l’Italie, de la Norvège et de la Türkiye et celles annoncées par le Soudan,</p>
+      </container>
+      <container name="Se félicitant" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de la treizième Conférence ministérielle de l’Organisation mondiale du commerce, tenue à Abou Dhabi (Émirats arabes unis) du 26 février au 2 mars 2024, et de la déclaration ministérielle qui y a été adoptée, et rappelant la quinzième session de la Conférence des Nations Unies sur le commerce et le développement, tenue à la Barbade du 3 au 7 octobre 2021, lors de laquelle le Pacte de Bridgetown a été adopté<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<a href="https://undocs.org/fr/TD/541/Add.2">TD/541/Add.2</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Attendant avec intérêt" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Attendant avec intérêt</span> l’édition 2025 de la Conférence des Nations Unies visant à appuyer la réalisation de l’objectif de développement durable n<sup>o</sup> 14 : conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable, qui sera organisée conjointement par le Costa Rica et la France et se tiendra à Nice (France) du 9 au 13 juin 2025,</p>
+      </container>
+      <container name="Attendant également avec intérêt" eId="container_25">
+          <p xml:space="preserve">	<span class="italic">Attendant également avec intérêt</span> la Conférence des Nations Unies sur l’eau de 2026, qui sera organisée conjointement par les Émirats arabes unis et le Sénégal et se tiendra aux Émirats arabes unis du 2 au 4 décembre 2026,</p>
+      </container>
+      <container name="Prenant note" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> de la Déclaration ministérielle des pays les moins avancés adoptée en 2024,</p>
+      </container>
+      <container name="Se félicitant" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de la tenue de la réunion de haut niveau sur l’élévation du niveau de la mer, convoquée par sa présidence, et de la réunion de haut niveau sur la résistance aux agents antimicrobiens, le 26 septembre 2024, ainsi que de l’adoption de la déclaration politique sur la résistance aux agents antimicrobiens<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/79/2">79/2</a>, annexe.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> des rapports du Secrétaire général sur le suivi de la cinquième Conférence des Nations Unies sur les pays les moins avancés<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/75">A/79/75-E/2024/8</a>.</p></authorialNote>, sur les dispositifs d’alerte rapide multirisques<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/288">A/79/288</a>.</p></authorialNote>, sur un centre d’appui aux investissements internationaux en faveur des pays les moins avancés<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/505">A/79/505</a>.</p></authorialNote>, sur l’application, l’efficacité et la valeur ajoutée de mesures visant à favoriser une transition sans heurt et d’un accompagnement lors de la sortie de la catégorie des pays les moins avancés<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/504">A/79/504</a>.</p></authorialNote>, sur l’insécurité alimentaire dans les pays les moins avancés (modalités, mandat et structures de gouvernance et d’appui du Mécanisme de constitution de stocks alimentaires pour les pays les moins avancés)<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/540">A/79/540</a>.</p></authorialNote> et sur les travaux de la Banque de technologies pour les pays les moins avancés<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/239">A/79/239</a>.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux pays les moins avancés, agissant avec l’appui de leurs partenaires de développement, de s’employer à mettre en œuvre le Programme d’action de Doha en faveur des pays les moins avancés, notamment en se dotant d’une stratégie ambitieuse de mise en œuvre, en intégrant les dispositions du Programme d’action dans leurs politiques nationales et leurs schémas de développement et en procédant à des examens réguliers avec la pleine participation de toutes les principales parties prenantes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Demande également</span> aux pays les moins avancés, agissant en coopération avec leurs partenaires de développement, d’élargir les mécanismes d’examen et de diffusion de rapports qui existent au niveau des pays, notamment ceux qui concernent la réalisation des objectifs de développement durable et l’application des documents de stratégie pour la réduction de la pauvreté, les contributions déterminées au niveau national, les plans-cadres de coopération des Nations Unies pour le développement durable et les mécanismes consultatifs existants, pour couvrir l’examen du Programme d’action de Doha et les étendre à tous les pays les moins avancés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux partenaires de développement et à tous les autres acteurs concernés de mettre en œuvre le Programme d’action de Doha en l’intégrant dans leurs politiques, activités et programmes de coopération nationaux, selon qu’il conviendra, de manière à assurer aux pays les moins avancés le soutien renforcé, prévisible et ciblé prévu dans le Programme d’action et à honorer leurs engagements, et d’envisager des mesures appropriées pour remédier aux lacunes ou défaillances éventuelles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>le système des Nations Unies, y compris les organes directeurs des fonds et programmes des Nations Unies et des autres organisations multilatérales, dont le Groupe de la Banque mondiale, le Fonds monétaire international et les autres institutions financières internationales, ainsi que l’Organisation mondiale du commerce, à contribuer à la mise en œuvre du Programme d’action de Doha et à intégrer ce dernier dans leurs programmes de travail, selon qu’il conviendra et conformément à leurs mandats pertinents, et invite ces organisations à participer pleinement aux examens du Programme d’action aux niveaux national, sous-régional, régional et mondial ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Salue </span>l’action du Groupe consultatif interorganisations pour les pays les moins avancés, dirigé par le Bureau de la Haute-Représentante pour les pays les moins avancés, les pays en développement sans littoral et les petits États insulaires en développement, note les mesures prises par le Conseil des chefs de secrétariat des organismes des Nations Unies pour la coordination et par le Comité de haut niveau sur les programmes à l’appui de la coordination et du suivi de l’application du Programme d’action de Doha dans le système des Nations Unies, et invite de nouveau le Secrétaire général, en sa qualité de Président du Conseil des chefs de secrétariat, à inscrire la mise en œuvre du Programme d’action à l’ordre du jour du Conseil ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle </span>le ferme engagement qu’ont pris les chefs d’État et de gouvernement et les représentants des États de faire des progrès pour obtenir les résultats concrets énoncés dans le Programme d’action de Doha en ce qui concerne la faisabilité, l’efficacité potentielle et les modalités administratives d’un système de constitution de stocks ou de modalités de substitution, comme les transferts en espèces, en tenant compte de leurs incidences économiques éventuelles et des risques y associés, la création d’une université en ligne ou de plateformes équivalentes, la création d’un centre d’appui aux investissements internationaux, la création d’un mécanisme de soutien au reclassement durable et la mise en place de mesures d’atténuation des crises liées à des risques multiples et de mesures de renforcement de la résilience pour les pays les moins avancés, prie le Secrétaire général d’expliciter davantage ces résultats concrets et demande aux partenaires de développement et aux autres parties prenantes d’appuyer pleinement ces initiatives ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>d’inclure le Programme d’action de Doha dans ses activités d’examen de l’application et du suivi des textes issus des grandes conférences et réunions au sommet organisées par les Nations Unies, qui comprennent l’examen du Programme de développement durable à l’horizon 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Note avec préoccupation</span> les estimations selon lesquelles, d’ici à 2030, la majorité des pauvres dans le monde vivront dans les pays les moins avancés, ce qui indique que la mise en œuvre du Programme 2030 a pris du retard, souligne que les pays les moins avancés ont besoin d’un soutien international renforcé pour atteindre les objectifs de développement durable et qu’il faut faire en sorte de ne laisser personne de côté, et sait combien il est important de renforcer la bonne gouvernance à tous les niveaux, en rendant plus solides les processus démocratiques, les institutions et l’état de droit, en améliorant l’efficacité, la cohérence, la transparence et la participation, en concrétisant l’égalité des genres et l’avancement de toutes les femmes et de toutes les filles, en réduisant les inégalités, en œuvrant à la protection et à la promotion des droits humains, en réduisant la corruption et en renforçant la capacité des gouvernements des pays les moins avancés de jouer un rôle efficace dans le développement économique et social national ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Exprime sa profonde inquiétude</span> face aux effets dévastateurs de la pandémie de COVID‑19 sur les pays les moins avancés, prend note de la déclaration du Groupe des pays les moins avancés sur la COVID‑19 en date du 28 avril 2020<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Voir <a href="https://undocs.org/fr/A/74/843">A/74/843</a>, annexe.</p></authorialNote> et s’engage à en appuyer la mise en œuvre, selon des modalités appropriées, et invite les partenaires de développement, les organisations internationales et les autres parties prenantes à aider les pays les moins avancés à se relever et à continuer de mettre en œuvre le Programme de développement durable à l’horizon 2030, soulignant en outre la nécessité de développer la collaboration et les partenariats à tous les niveaux en vue d’accélérer la mise en œuvre du Programme 2030, y compris la réalisation des cibles spécifiques aux pays les moins avancés, ainsi que du Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement, qui fait partie intégrante du Programme 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Constate avec préoccupation</span> que le monde se trouve dans un contexte très difficile, caractérisé par la divergence persistante des perspectives de développement durable au niveau mondial, souligne qu’à mi‑parcours du calendrier de mise en œuvre des objectifs de développement durable, la tâche s’annonce ardue, dans la mesure où seulement environ 12 pour cent des objectifs sont en passe d’être atteints, tandis que pour les autres, soit les progrès sont trop lents, soit la situation a régressé par rapport au niveau de référence de 2015, et que, au rythme actuel, 575 millions de personnes vivront encore dans l’extrême pauvreté en 2030, et s’inquiète du fait que l’accentuation des pressions sur les secteurs de l’alimentation, de l’énergie et des finances, l’inflation élevée, la hausse des taux d’intérêt mondiaux, le resserrement des conditions financières, la lourde charge d’endettement, les perturbations des chaînes d’approvisionnement et les tensions et conflits géopolitiques ainsi que les effets négatifs des changements climatiques, de la perte de biodiversité et des fractures numériques ont exacerbé les difficultés rencontrées par de nombreux pays, qui ont déjà du mal à se relever de la pandémie de COVID‑19 et à lutter contre l’aggravation de la faim et de toutes les formes de malnutrition, de pauvreté et d’inégalité, et qu’il ressort de l’analyse des dernières données que les pays les moins avancés ne sont en voie d’atteindre ni les objectifs du Programme d’action de Doha ni les objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Accueille avec satisfaction</span> la déclaration politique adoptée par le forum politique de haut niveau pour le développement durable organisé sous ses auspices (Sommet sur les objectifs de développement durable), qui s’est tenu à New York les 18 et 19 septembre 2023<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/78/1">78/1</a>, annexe.</p></authorialNote>, et demande instamment que des mesures soient prises rapidement pour en garantir la pleine application ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Salue </span>les efforts entrepris par le Secrétaire général pour combler le déficit de financement des objectifs de développement durable au moyen d’un plan de relance des objectifs de développement durable, et réitère sa volonté de promouvoir, en temps voulu, dans le cadre de débats à l’Organisation des Nations Unies ainsi que dans d’autres instances et institutions, la proposition du Secrétaire général de s’attaquer au coût élevé de la dette et aux risques grandissants de surendettement, de renforcer le soutien aux pays en développement, d’augmenter massivement les financements du développement à long terme et d’un coût abordable et d’octroyer plus largement des financements pour imprévus aux pays qui en ont besoin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">Attend avec intérêt</span> la quatrième Conférence internationale sur le financement du développement, qui se tiendra en Espagne du 30 juin au 3 juillet 2025, et demande qu’un appui soit apporté aux pays les moins avancés pour leur permettre d’y participer pleinement et pour répondre à leurs problèmes et besoins particuliers, de manière à ne laisser personne de côté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>que les pays les moins avancés, qui constituent le groupe des pays les plus vulnérables, ont besoin d’un appui international renforcé afin de surmonter les difficultés structurelles, ainsi que les effets dévastateurs causés récemment par la pandémie de COVID‑19, les conflits et les changements climatiques, la détérioration de la situation sur le plan de la sécurité alimentaire, l’accès insuffisant au financement et à l’énergie et l’aggravation de la pauvreté, qui les freinent dans la mise en œuvre du Programme 2030, et engage à cet égard la communauté internationale à apporter à titre prioritaire un concours accru à ces pays – toutes les sources devant être mobilisées – afin de faciliter un relèvement et une reconstruction durables et de leur permettre d’adopter une démarche concertée et cohérente dans la mise en œuvre et le suivi du Programme d’action de Doha, du Programme 2030 et du Programme d’action d’Addis-Abeba ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Considère </span>que de nombreux pays en développement, notamment les pays les moins avancés, supportent des coûts d’emprunt nettement plus élevés pour financer le relèvement après la pandémie de COVID‑19, ce qui aggrave la fracture financière et risque de compromettre la réalisation des objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">Considère également</span> qu’il faudra mobiliser des ressources publiques et privées intérieures, notamment au niveau infranational, et les compléter au besoin par une aide internationale et des investissements étrangers directs, pour parvenir au développement durable et atteindre les objectifs de développement durable, et que, dans le Programme 2030 et le Programme d’action d’Addis-Abeba, la mobilisation des ressources intérieures selon le principe de l’appropriation nationale revêt un aspect essentiel ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de la volonté des partenaires de développement de veiller au respect des engagements d’aide publique au développement qu’ils ont pris envers les pays les moins avancés, de faire en sorte que l’aide corresponde aux priorités nationales de ces pays et de veiller à ce qu’elle soit davantage en accord avec les systèmes et procédures internes de ces derniers, se félicite que l’Union européenne ait décidé de réaffirmer l’engagement collectif qui avait été pris d’atteindre l’objectif consistant à consacrer 0,7 pour cent du revenu national brut à l’aide publique au développement dans les délais prescrits par le Programme 2030 et d’atteindre, dans les mêmes délais, l’objectif consistant à consacrer 0,20 pour cent du revenu national brut à l’aide publique au développement destinée aux pays les moins avancés, engage les bailleurs d’aide publique au développement à envisager de se donner pour objectif de consacrer au moins 0,20 pour cent de leur revenu national brut à l’aide publique au développement destinée aux pays les moins avancés, juge encourageant le fait que certains consacrent au moins 50 pour cent de leur aide publique au développement à ces pays, et demande aux partenaires de développement de continuer de fournir une aide au développement aux pays les moins avancés, alors que ceux-ci s’efforcent de surmonter les crises en cours ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> que le cap des 100 milliards de dollars des États-Unis de droits de tirage spéciaux ait été dépassé, se réjouit de l’ambition mondiale de distribuer volontairement 100 milliards de dollars de droits de tirage spéciaux aux pays en développement et aux pays les moins avancés, invite les États Membres affichant une position des paiements extérieurs forte à envisager de transférer volontairement, en temps voulu, des droits de tirage spéciaux aux pays qui en ont besoin, en particulier les pays les moins avancés, notamment par l’intermédiaire du Fonds fiduciaire pour la réduction de la pauvreté et pour la croissance du Fonds monétaire international, se félicite de la mise en place du Fonds fiduciaire pour la résilience et la durabilité du Fonds monétaire international, un nouveau mécanisme permettant aux pays de transférer volontairement des droits de tirage spéciaux pour octroyer des financements à long terme d’un coût abordable aux pays les moins avancés et à d’autres pays vulnérables, compte dûment tenu des cadres juridiques nationaux, salue l’étude en cours de solutions viables qui permettraient d’assurer le transfert volontaire de droits de tirage spéciaux par les banques multilatérales de développement, demande que des droits de tirage spéciaux soient volontairement réaffectés de toute urgence aux pays qui en ont le plus besoin, notamment par l’intermédiaire des banques multilatérales de développement, dans le respect des cadres juridiques applicables, de sorte que le caractère d’actif de réserve des droits de tirage spéciaux soit préservé et qu’une réflexion soit menée sur les moyens de faire bénéficier les pays qui en ont le plus besoin des futures allocations de droits de tirage spéciaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	<span class="italic">Note </span>que les perspectives macroéconomiques mondiales restent très incertaines et sont particulièrement sombres pour de nombreux pays en développement, notamment un grand nombre de pays parmi les moins avancés, qui font face à un service de la dette de plus en plus lourd et à de strictes contraintes budgétaires, et que, si rien n’est fait, la fracture financière se traduira par une fracture pérenne en matière de développement durable, et demande que les mécanismes internationaux relatifs à la dette soient améliorés pour permettre la révision de la dette, la suspension des paiements et la restructuration de la dette, selon qu’il conviendra, en élargissant l’admissibilité pour faire bénéficier de cet appui les pays vulnérables qui en ont besoin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_238__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux créanciers publics de mettre à la disposition des pays les moins avancés un financement durable à long terme sous la forme de subventions et de financement concessionnel et de proposer davantage de prêts à taux fixe et faible, soulignant que cela fait partie d’un ensemble de méthodes de financement comprenant également les dons ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>l’urgence qu’il y a à rehausser les ambitions climatiques dans la mise en œuvre de la Convention-cadre des Nations Unies sur les changements climatiques et de l’Accord de Paris pour ce qui est de l’atténuation des changements climatiques, de l’adaptation et de la fourniture des moyens de mise en œuvre, en particulier l’aide financière aux pays en développement, demande instamment que soient appliquées les décisions adoptées à la vingt-septième session de la Conférence des Parties à la Convention-cadre, qui s’est tenue à Charm el‑Cheikh (Égypte), rappelle sa volonté de prendre des mesures concrètes, d’ici à la vingt-huitième session, en vue de la mise en œuvre effective des nouveaux mécanismes de financement destinés à compenser les pertes et préjudices subis, dont le fonds pour les pertes et les préjudices, s’engage à poursuivre ses travaux afin d’accélérer la lutte contre les changements climatiques et, à cet égard, prend note du premier bilan mondial de l’Accord de Paris, qui a été fait à la vingt-huitième session de la Conférence des Parties, tenue à Doubaï (Émirats arabes unis) ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_281" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_281__content">
+          <p xml:space="preserve">	<span class="italic">Note avec préoccupation</span> que l’offre actuelle de financement de l’action climatique aux fins de l’adaptation demeure insuffisante pour faire face à l’aggravation des effets des changements climatiques dans les pays en développement parties et estime qu’il est important que ce financement soit adéquat et prévisible, se félicite que les parties<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		À la Convention-cadre des Nations Unies sur les changements climatiques et à l’Accord de Paris.</p></authorialNote> aient exhorté les pays développés parmi elles à accroître sans délai et substantiellement les sommes qu’ils consacrent à l’action climatique, au transfert de technologie et au renforcement des capacités aux fins de l’adaptation pour qu’il soit possible de répondre aux besoins des pays en développement parties dans le cadre d’un effort de portée mondiale, s’agissant notamment de l’établissement et de la mise en œuvre de plans nationaux d’adaptation et de l’élaboration et de la diffusion de communications relatives à cet enjeu, est consciente que nombre de pays parmi les moins avancés ont de la difficulté à obtenir un accès direct à des financements publics internationaux en raison d’un manque de moyens techniques, est favorable à la fourniture d’une assistance aux pays les moins avancés pour les aider à mettre au point des projets pouvant être financés et à instaurer les conditions propices nécessaires, et encourage toute action susceptible d’améliorer l’accès de ces pays à des moyens financiers ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">	<span class="italic">Note également avec préoccupation</span> que 486 millions de personnes dans les pays les moins avancés n’avaient pas accès à l’électricité en 2022, soit près des deux tiers de la population mondiale vivant sans accès à l’électricité, demande que la communauté internationale agisse d’urgence pour remédier aux inégalités d’accès à l’énergie durable auxquelles font face les pays les moins avancés, et préconise le doublement du montant des financements publics internationaux et la mobilisation de ressources auprès de toutes les sources possibles pour répondre aux besoins pressants d’investissements dans la production et la transmission d’électricité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_328" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_328__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> la nécessité d’étoffer le dispositif d’alerte rapide multirisque et l’ensemble des mesures d’atténuation des crises liées à de multiples risques et de renforcement de la résilience qui existent déjà, y compris les stratégies globales de financement de la lutte contre les catastrophes, au bénéfice des pays les moins avancés, dans le droit fil du Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030), instrument clef pour ce qui est de renforcer la résilience contre divers chocs et en atténuer les répercussions, et l’engagement de faire le meilleur usage des initiatives existantes, d’apporter un soutien au renforcement des capacités de planification et de mise en œuvre des mesures d’adaptation et une assistance technique visant à mettre en place des systèmes nationaux opérationnels d’information sur les risques afin de faciliter l’élaboration des politiques, y compris dans le secteur des assurances, et prend note du rapport du Secrétaire général sur les dispositifs d’alerte rapide multirisques dans les pays les moins avancés ainsi que du rapport technique détaillé intitulé « Status of multi-hazard early warning systems in the least developed countries », établi par le Bureau de la Haute-Représentante en coopération avec le Bureau des Nations Unies pour la prévention des catastrophes et l’Organisation météorologique mondiale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_353" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_353__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des progrès accomplis dans le cadre de l’initiative « Alertes précoces pour tous » du Secrétaire général et invite à élargir cette initiative à tous les pays les moins avancés, qui connaissent les besoins les plus pressants et sont les plus en retard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_379" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_379__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les États Membres, le système des Nations Unies dans son ensemble, les organisations de la société civile et les partenaires de développement des secteurs public et privé à examiner les recommandations figurant dans le rapport paru sous la cote <a href="https://undocs.org/fr/A/79/288">A/79/288</a>, dont l’objectif est d’accélérer la mise en œuvre de mesures visant à combler les lacunes et à mettre en place des dispositifs d’alerte rapide multirisques de bout en bout qui soient dirigés par les pays et axés sur l’être humain dans les pays les moins avancés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_406" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_406__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général de lui présenter, à sa quatre-vingt-unième session, dans le cadre des obligations en vigueur en matière de communication de l’information et dans la limite des ressources disponibles, un rapport technique détaillé sur l’état des dispositifs d’alerte rapide multirisques dans les pays les moins avancés en vue d’évaluer les progrès accomplis ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_434" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_434__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite </span>de l’adoption de la résolution <a href="https://undocs.org/fr/A/RES/78/322">78/322</a> du 13 août 2024 sur l’indice de vulnérabilité multidimensionnelle, demande que les pays les moins avancés soient pris en compte dans la composition du groupe consultatif d’experts indépendants, selon qu’il conviendra, et considère qu’il est possible d’améliorer encore l’indice, notamment en envisageant d’ajouter de nouveaux indicateurs dans les prochaines versions de l’indice, ainsi que d’affiner ou d’approuver d’autres indicateurs, afin de rendre véritablement compte des facteurs de vulnérabilité de tous les pays en développement, y compris des pays les moins avancés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_463" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_463__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux pays en développement de s’employer, dans un esprit de solidarité et dans la mesure de leurs capacités, à soutenir l’application du Programme d’action de Doha dans des domaines de coopération définis d’un commun accord, au titre de la coopération Sud-Sud et de la coopération triangulaire, qui complètent, sans toutefois la remplacer, la coopération Nord-Sud ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_493" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_493__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il importe de promouvoir un environnement économique favorable à la croissance et au développement, l’absence de corruption et un cadre réglementaire transparent et fondé sur des règles établies, avec à la clef la simplification des réglementations et procédures commerciales, la réduction et la rationalisation des formalités administratives, la création de mécanismes d’appui nationaux efficaces pour les microentreprises et les petites et moyennes entreprises, l’amélioration des chaînes d’approvisionnement, la facilitation de l’accès aux marchés, le renforcement de la coopération, la constitution des capacités nécessaires à la mise en œuvre de politiques efficaces en matière de concurrence, et l’adoption de cadres réglementaires ouverts, transparents et clairs pour les entreprises et les investissements, les droits de propriété et les droits fonciers étant protégés selon qu’il convient, eu égard à la situation propre à chaque pays et aux cadres juridiques internationaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_524" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_524__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte </span>les pays les moins avancés et leurs partenaires de développement à mettre à profit les initiatives et programmes existants et à se référer par exemple aux décisions ministérielles de l’Organisation mondiale du commerce sur l’accès aux marchés en franchise de droits et sans contingent et sur les règles d’origine préférentielles pour les pays les moins avancés, ainsi que sur l’initiative Aide pour le commerce, se dit de nouveau résolue à accroître l’aide pour le commerce, en particulier pour les pays les moins avancés, en s’efforçant d’allouer à ceux-ci une proportion croissante des ressources de l’aide pour le commerce, conformément aux principes de l’efficacité de la coopération pour le développement, considère comme bienvenu tout effort supplémentaire tendant à renforcer la coopération entre pays en développement à cette fin et engage les pays les moins avancés à mettre le commerce au centre de leurs plans nationaux de développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_556" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_556__content">
+          <p xml:space="preserve">	<span class="italic">Constate </span>que les pays les moins avancés font face à d’importants déficits d’infrastructures, notamment dans les domaines des transports, de l’énergie, de l’eau, de l’assainissement et de l’informatique et des communications, et réaffirme qu’il faut favoriser la qualité, la fiabilité, la pérennité et la solidité des infrastructures et en améliorer la connectivité par des mesures concrètes et un financement prévisible, ce qui permettra d’exploiter au mieux les synergies dans le cadre de la planification et du développement des infrastructures ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_589" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_589__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de la tenue sous ses auspices, les 18 et 19 mai 2023, de la réunion de haut niveau sur l’examen à mi‑parcours du Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030), qui a permis d’évaluer les progrès réalisés dans l’intégration de la réduction des risques de catastrophe aux politiques, programmes et investissements à tous les niveaux, de recenser les bonnes pratiques, les lacunes et les défis et d’accélérer la cadence pour réaliser le Cadre de Sendai et ses sept objectifs mondiaux d’ici à 2030, et affirme sa volonté de redoubler d’efforts en vue de mettre en œuvre intégralement et selon les délais prescrits le Cadre de Sendai, y compris ses principes directeurs et ses quatre actions prioritaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_623" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_623__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que les pays les moins avancés sont particulièrement vulnérables face aux effets néfastes des changements climatiques, à la dégradation de l’environnement et aux autres catastrophes et sont touchés de manière disproportionnée par ces phénomènes, et estime qu’il importe au plus haut point de développer la résilience de ces pays en accroissant le renforcement des capacités et le financement de l’adaptation aux changements climatiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_658" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_658__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle </span>le Cadre de Sendai pour la réduction des risques de catastrophes (2015-2030) et réaffirme que les pays en développement exposés aux catastrophes doivent faire l’objet d’une attention particulière en raison de leur grande vulnérabilité et de leur exposition aux effets néfastes des changements climatiques, estime que l’élaboration et la mise en œuvre de plans, de politiques, de programmes ainsi que la réalisation d’investissements tenant compte des risques sont essentielles pour parvenir au développement durable et atteindre les objectifs de développement durable, est consciente que la pandémie de COVID‑19 a accru la vulnérabilité face à des risques croissants et plus étendus, note avec une vive inquiétude les sérieuses mises en garde figurant dans le récent rapport du Groupe d’experts intergouvernemental sur l’évolution du climat et note que le Cadre de Sendai fournit des orientations pertinentes pour parvenir à un relèvement durable après la pandémie de COVID‑19 et pour répertorier les facteurs sous-jacents des risques de catastrophe et s’y attaquer de manière systématique, prend note des composantes santé du Cadre de Sendai et souligne la nécessité de disposer de systèmes de santé résilients ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_694" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_694__content">
+          <p xml:space="preserve">	<span class="italic">Est consciente</span> qu’il faut remédier à l’insécurité alimentaire et à la malnutrition graves dans les pays les moins avancés, invite les États Membres et les autres parties concernées à assurer le bon fonctionnement des chaînes d’approvisionnement alimentaire et agricole, invite les institutions financières internationales à trouver des solutions urgentes, abordables et opportunes pour aider les pays en développement, en particulier ceux qui sont très endettés, à faire face à la crise de la sécurité alimentaire et à atteindre l’objectif de développement durable n<sup>o</sup> 2, notamment en leur permettant, selon qu’il conviendra, de bénéficier d’un allègement de leur dette et d’obtenir des financements à des conditions favorables, et attend avec intérêt le Sommet Nutrition pour la croissance qui sera organisé à l’instigation du Gouvernement français en 2025 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_731" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_731__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> du rapport du Secrétaire général sur l’insécurité alimentaire dans les pays les moins avancés, traitant des modalités, du mandat et des structures de gouvernance et d’appui du Mécanisme de constitution de stocks alimentaires pour les pays les moins avancés, et des recommandations qui y sont formulées, où sont définis les modalités, le mandat et les structures de gouvernance et d’appui afférents à un système de constitution de stocks alimentaires adapté aux pays les moins avancés, et demande que les entités compétentes des Nations Unies, notamment les organismes sis à Rome, les États Membres, les organisations régionales et internationales et les autres parties prenantes soient consultés en ce qui concerne les préparatifs de l’étude de faisabilité relative aux différentes options possibles pour la mise en place du Mécanisme de constitution de stocks alimentaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_769" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_769__content">
+          <p xml:space="preserve">	<span class="italic">Est consciente</span> que des efforts particuliers doivent être faits pour que tous les jeunes, notamment les filles, aient un égal accès aux possibilités d’apprentissage tout au long de la vie et puissent accéder sur un pied d’égalité à une éducation inclusive et de qualité à tous les niveaux – préscolaire, primaire, secondaire et supérieur – et à la formation technique et professionnelle et, à cet égard, note avec préoccupation qu’aucun progrès n’a été fait pour ce qui est de réduire les écarts entre filles et garçons dans les domaines de l’accès à l’enseignement secondaire, du maintien dans le système scolaire et de l’achèvement des études secondaires, s’agissant en particulier des filles, convient qu’il faut continuer d’attribuer des places et d’octroyer des bourses à des étudiants et à des stagiaires originaires des pays les moins avancés, en particulier dans les domaines de la science, de la technologie, de la gestion d’entreprise et de l’économie, et d’encourager, le cas échéant, les établissements d’enseignement supérieur à le faire, ainsi que de renforcer le soutien aux institutions œuvrant à l’égalité des genres et à l’avancement des femmes et des filles aux niveaux mondial, régional et national, et constate que les pays les moins avancés sont ceux qui ont le plus à gagner du développement durable et de l’utilisation de tous les talents et les compétences que possède leur population, notamment les femmes et les filles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_808" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_808__content">
+          <p xml:space="preserve">	<span class="italic">Attend avec intérêt</span> que s’achèvent les études de faisabilité prescrites par le Programme d’action de Doha afin de déterminer s’il serait possible d’établir une université en ligne ou d’autres plateformes équivalentes pour promouvoir dans les pays les moins avancés et les pays récemment sortis de cette catégorie l’enseignement en ligne de deuxième et de troisième cycle en sciences, technologie, ingénierie et mathématiques, avec pour objectifs, entre autres, de fournir un appui stratégique à la promotion de l’enseignement à distance et de l’enseignement ouvert à tous et toutes, axés sur les études de deuxième et de troisième cycle en sciences, technologie, ingénierie et mathématiques, en garantissant la représentation équilibrée des femmes et des hommes à tous les niveaux, ainsi que l’accès des plus pauvres et des personnes en situation de vulnérabilité, de créer un réseau virtuel d’institutions éducatives dans les pays les moins avancés et ailleurs, de prêter assistance à l’élaboration des cours et des programmes, et de développer à l’échelle voulue et de manière viable le système éducatif, en tenant compte de toutes les initiatives préalablement mises au point par les partenaires compétents, dans un souci d’exhaustivité, et, à cet égard, attend avec intérêt le rapport que le Secrétaire général lui soumettra pour examen à sa quatre-vingtième session, dans lequel il présentera, entre autres, un état des lieux des initiatives existantes, les nouvelles modalités qu’il est possible d’envisager, les besoins en matière de ressources, des états d’agrément et les sources de financement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_848" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_848__content">
+          <p xml:space="preserve">	<span class="italic">Considère </span>qu’il faut aider les pays les moins avancés à constituer des capacités et à élaborer un cadre pour accélérer la conception, la mise en service et l’utilisation durable de technologies émergentes au service des objectifs de développement durable, y compris par le renforcement de l’habileté et des compétences numériques, dans le cadre des efforts déployés pour combler les fossés numériques et les lacunes en matière de connaissances, condition préalable à la participation inclusive à l’économie numérique, et apporter aux pays les moins avancés le soutien financier et technique nécessaire pour créer des instituts scientifiques nationaux et régionaux ou renforcer ceux qui existent déjà afin d’accroître leur capacité de recherche-développement dans les domaines de la science, des technologies et de l’innovation et de promouvoir l’adaptation et l’application des technologies modernes aux usages nationaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_889" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_889__content">
+          <p xml:space="preserve">	<span class="italic">Convient</span> que la Banque de technologies pour les pays les moins avancés doit servir d’interlocutrice principale pour faire en sorte que ces pays renforcent leurs capacités scientifiques, technologiques et d’innovation en vue de la constitution de capacités de production durable et de la promotion de la transformation structurelle de l’économie, soutient l’action menée par la Banque aux fins du renforcement des capacités scientifiques, technologiques et d’innovation des pays les moins avancés dans l’optique de la transformation structurelle et du développement de la capacité de production, invite les États Membres, ainsi que les organisations internationales, les fondations et le secteur privé, à fournir à titre volontaire des ressources financières et en nature à la Banque pour qu’elle puisse renforcer ses moyens et son efficacité et s’acquitter de son mandat, décide de renforcer la collaboration entre les États, le secteur privé et le monde universitaire pour faire progresser la recherche-développement dans le domaine de la science, des technologies et de l’innovation, édifier des économies numériques inclusives et combler le fossé numérique, notamment en facilitant les transferts de technologie selon des modalités arrêtées d’un commun accord, encourage les pays les moins avancés à collaborer avec les partenaires de développement par l’intermédiaire de la Banque de technologies, notamment en s’appuyant sur les évaluations des besoins technologiques, décide également d’inclure le sujet « Rapport sur les travaux de la Banque de technologies pour les pays les moins avancés » dans la question subsidiaire intitulée « Suivi de la cinquième Conférence des Nations Unies sur les pays les moins avancés » à sa quatre-vingtième session, et prie le Secrétaire général de lui soumettre un rapport pour examen ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_931" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_931__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> sa volonté de mettre à exécution la décision, exprimée dans le Programme d’action d’Addis-Abeba, d’adopter et de mettre en œuvre des dispositifs visant à encourager l’investissement en faveur des pays les moins avancés, réaffirme également la décision<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a>, annexe, par. 46.</p></authorialNote> d’offrir une aide financière et technique à la préparation des projets et à la négociation des contrats, un soutien consultatif au règlement des différends liés aux investissements, l’accès à l’information sur les mécanismes d’investissement, qui créera des environnements plus favorables, et l’assurance et les garanties contre les risques telles que celles offertes par l’Agence multilatérale de garantie des investissements, souligne l’importance que revêtent les investissements étrangers directs, qui représentent une source essentielle de développement économique et de financement extérieur et jouent un rôle complémentaire et catalyseur par rapport à la mobilisation de ressources intérieures et d’investissements nationaux et au financement du développement, note avec préoccupation que les investissements étrangers directs dans les pays les moins avancés demeurent inférieurs à 2,5 pour cent des investissements étrangers directs consentis à l’échelle mondiale, alors que ces pays abritent près de 15 pour cent de la population mondiale, prend note du rapport du Secrétaire général sur un centre d’appui aux investissements internationaux en faveur des pays les moins avancés, demande instamment que des progrès soient faits dans la création de ce centre, comme requis au paragraphe 261 du Programme d’action de Doha, et attend avec intérêt le rapport sur le centre d’appui aux investissements internationaux que le Secrétaire général lui soumettra pour examen à sa quatre-vingtième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_974" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_974__content">
+          <p xml:space="preserve">	<span class="italic">Considère </span>que le fait d’améliorer la participation et de donner à la société civile, aux jeunes et aux femmes des moyens d’agir et de renforcer l’action collective contribuera à l’élimination de la pauvreté et au développement durable, réaffirme que l’égalité des genres, l’avancement des femmes et des filles et le plein exercice des droits humains par tous sont des facteurs essentiels d’une croissance économique et d’un développement durables, partagés et équitables, et réaffirme la nécessité d’intégrer le souci de l’égalité des genres, notamment au moyen de mesures et d’investissements ciblés, dans l’élaboration et la mise en œuvre de toutes les politiques financières, économiques, environnementales et sociales des pays les moins avancés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1018" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1018__content">
+          <p xml:space="preserve">	<span class="italic">Félicite</span> les pays ayant rempli les conditions requises pour quitter la catégorie des pays les moins avancés, constate avec satisfaction que 5 pays ont été reclassés depuis 2011, qu’un le sera en décembre 2024, que 4 le seront d’ici à 2027 et que 10 ont rempli les conditions de reclassement au moins une fois, invite ces pays à se préparer à leur reclassement en formulant une stratégie de transition sans heurt, et prie les organismes compétents des Nations Unies de s’employer, sous l’égide du Bureau de la Haute-Représentante, à leur apporter à cet effet le soutien nécessaire, de manière coordonnée, par la mise en service complète du Mécanisme de soutien au reclassement durable, tout en invitant les États Membres à soutenir cette initiative par des contributions volontaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1063" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1063__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme qu’elle est convaincue</span> qu’aucun pays admis au retrait de la catégorie des pays les moins avancés ne devrait voir son processus de développement s’interrompre ou s’inverser, se félicite que le processus de reclassement des pays les moins avancés mené par l’Organisation des Nations Unies contribue à ce qu’aucun pays sorti de la catégorie ne voie les mesures de traitement spécial et différencié et les mesures d’exonération dont il bénéficie se réduire de manière brutale, invite les partenaires de développement et les partenaires commerciaux à envisager d’accorder aux pays reclassés les préférences commerciales qui leur étaient consenties du fait de leur appartenance à la catégorie des pays les moins avancés ou de les faire évoluer de manière progressive afin d’éviter toute réduction brutale, note que le Groupe des pays les moins avancés a présenté à l’Organisation mondiale du commerce diverses propositions concernant, entre autres choses, les difficultés liées au commerce et à la transition sans heurt que connaissent les pays en voie de reclassement et entend examiner plus avant ces questions, et demande aux partenaires de développement de continuer d’apporter aux pays retirés de la liste des pays les moins avancés un appui financier et technologique spécial lié aux changements climatiques, si nécessaire, afin de soutenir les mesures prises pour atteindre les objectifs de l’Accord de Paris et aussi longtemps que ces pays seront vulnérables, en fonction de leurs besoins en matière de développement durable et des autres situations et nouvelles difficultés qu’ils pourraient connaître ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1109" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1109__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il importe d’intégrer le soutien apporté aux pays en voie de reclassement et aux pays reclassés dans les programmes de travail pertinents des entités du système des Nations Unies pour le développement, compte tenu du nombre croissant de pays en voie de reclassement et du besoin qu’ils ont de continuer de bénéficier de l’aide du système des Nations Unies pour le développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1156" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1156__content">
+          <p xml:space="preserve">	<span class="italic">Considère </span>que la période préparatoire précédant la sortie de la catégorie des pays les moins avancés est cruciale en ce qu’elle permet aux pays concernés d’élaborer leur stratégie nationale pour une transition sans heurt, et invite les partenaires de développement bilatéraux, régionaux et multilatéraux à apporter leur concours à la conception, à l’établissement et à l’application de ces stratégies, y compris en prolongeant les mesures internationales de soutien aux pays les moins avancés et les mesures d’incitation appropriées, conformément au Programme d’action de Doha ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1204" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1204__content">
+          <p xml:space="preserve">	<span class="italic">S’engage de nouveau</span> à prendre des mesures pour renforcer les systèmes de données internationaux, nationaux et locaux en vue de recueillir des données de qualité, actualisées, pertinentes, ventilées et fiables sur les progrès accomplis dans la réalisation des objectifs de développement durable, et à intensifier les efforts visant à renforcer les capacités en matière de données et de statistiques dans les pays en développement, en particulier les pays les moins avancés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1253" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1253__content">
+          <p xml:space="preserve">	<span class="italic">Constate </span>que les activités relatives aux pays les moins avancés menées au Secrétariat doivent être mieux coordonnées et regroupées de façon à permettre un suivi efficace de la mise en œuvre du Programme d’action de Doha conduit par le Bureau de la Haute-Représentante et à apporter un soutien coordonné à la réalisation de l’objectif consistant notamment à permettre à 15 autres pays parmi les moins avancés de satisfaire aux critères de reclassement d’ici à 2031 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1303" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1303__content">
+          <p xml:space="preserve">	<span class="italic">Constate également</span> que, au fil des ans, l’étendue et la complexité des responsabilités du Bureau de la Haute-Représentante ont considérablement augmenté et qu’il doit, en plus des responsabilités qui lui incombent au titre de son mandat initial, entreprendre des travaux de recherche et d’analyse, suivre l’évolution des politiques sectorielles au niveau des processus intergouvernementaux, assurer le suivi des mesures prises au niveau national, renforcer le réseau des coordonnateurs nationaux des pays les moins avancés, élaborer des directives opérationnelles concernant l’appui des entités des Nations Unies aux pays en situation de conflit ou sortant d’un conflit, et soutenir les pays en voie de reclassement et les pays ayant obtenu leur reclassement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1354" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1354__content">
+          <p xml:space="preserve">	<span class="italic">Recommande </span>aux entités du système des Nations Unies pour le développement d’élaborer des lignes directrices internes sur la façon dont les priorités dont elles font état en faveur des pays les moins avancés pourraient se traduire dans leurs allocations budgétaires et leurs projets de développement de capacités, invite le Groupe de la Banque mondiale, le Fonds monétaire international et les autres institutions internationales de financement et de développement à offrir aux pays les moins avancés des programmes d’aide qui leur soient adaptés, invite par ailleurs les organisations internationales à réfléchir à la manière dont le Programme d’action de Doha pourrait influer sur leurs travaux, et prie le système des Nations Unies pour le développement d’utiliser plus largement encore la catégorie des pays les moins avancés dans l’élaboration des programmes et des budgets ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1406" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1406__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États, les organisations intergouvernementales et non gouvernementales, les grands groupes et les autres donateurs à verser sans tarder des contributions au fonds d’affectation spéciale pour le financement des activités du Bureau de la Haute-Représentante en vue de faciliter la mise en œuvre et le suivi du Programme d’action de Doha et la participation des représentants des pays les moins avancés au forum politique de haut niveau pour le développement durable organisé sous les auspices du Conseil économique et social ainsi qu’à d’autres réunions portant sur la question et, à ce propos, remercie les pays qui ont versé des contributions volontaires au fonds d’affectation spéciale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1459" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1459__content">
+          <p xml:space="preserve">	<span class="italic">Exprime sa profonde gratitude</span> au Gouvernement et au peuple qatariens, qui ont accueilli la deuxième partie de la cinquième Conférence des Nations Unies sur les pays les moins avancés et fourni tout l’appui nécessaire à la Conférence et aux travaux de suivi y afférents ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1513" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1513__content">
+          <p xml:space="preserve">	<span class="italic">Remercie</span> tous les partenaires de développement du soutien qu’ils apportent aux pays les moins avancés et de leur appui sans relâche à la mise en œuvre du Programme d’action de Doha en faveur des pays les moins avancés et à la réalisation des objectifs qui y sont associés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1568" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1568__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle </span>le paragraphe 309 du Programme d’action de Doha, dans lequel l’Assemblée générale a été invitée à envisager de conduire un vaste examen à mi‑parcours de haut niveau de la mise en œuvre du Programme d’action en 2026, remercie le Gouvernement qatarien d’avoir généreusement proposé d’accueillir la conférence d’examen approfondi à mi‑parcours de haut niveau, et décide de préciser les modalités de la conférence d’examen approfondi à sa quatre-vingtième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1624" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1624__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général de prendre les mesures nécessaires, avec l’aide des organismes et organes concernés des Nations Unies, y compris le Département de la communication globale du Secrétariat, en collaboration avec le Bureau de la Haute-Représentante, pour intensifier leurs activités d’information et autres initiatives appropriées visant à mieux faire connaître les textes issus de la Conférence, notamment en appelant l’attention sur son programme d’action, ses objectifs, les principaux résultats escomptés et son importance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1681" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1681__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général de lui présenter, à sa quatre-vingtième session, un rapport sur l’application de la présente résolution et du Programme d’action de Doha et décide d’inscrire à l’ordre du jour provisoire de sa quatre-vingtième session, au titre de la question intitulée « Groupes de pays en situation particulière », la question subsidiaire intitulée « Suivi de la cinquième Conférence des Nations Unies sur les pays les moins avancés » ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1739" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1739__content">
+          <p xml:space="preserve">	<span class="italic">Prie en outre</span> le Secrétaire général de lui présenter, à sa quatre-vingt-deuxième session, dans la limite des ressources disponibles, un rapport d’étape sur l’application, l’efficacité et la valeur ajoutée des mesures visant à favoriser une transition sans heurt dans les pays récemment retirés de la liste des pays les moins avancés et dans ceux en passe de l’être, y compris sur les nouvelles mesures destinées à aider les pays reclassés à poursuivre leur trajectoire de développement et sur les initiatives prises par le système des Nations Unies pour accompagner les pays concernés pendant leur transition, au titre de la question subsidiaire intitulée « Suivi de la cinquième Conférence des Nations Unies sur les pays les moins avancés » de la question intitulée « Groupes de pays en situation particulière ».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="54e" refersTo="#adoptionMeeting">54e séance plénière</location>
+          <eol />
+          <docDate date="2024-12-19" refersTo="#adoptionDate">19 décembre 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
