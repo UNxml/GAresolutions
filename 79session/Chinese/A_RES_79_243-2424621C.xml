@@ -1,0 +1,3684 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/"></FRBRuri>
+          <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@/"></FRBRuri>
+          <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-01-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Ad Hoc Committee to Elaborate a Comprehensive International Convention on Countering the Use of Information and Communications Technologies for Criminal Purposes" showAs="UN. Ad Hoc Committee to Elaborate a Comprehensive International Convention on Countering the Use of Information and Communications Technologies for Criminal Purposes" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Convention against Cybercrime (2024)" showAs="UN Convention against Cybercrime (2024)" dictionary="DHLAUTH"></keyword>
+        <keyword value="CYBERCRIME" showAs="CYBERCRIME" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATIES" href="http://metadata.un.org/thesaurus/1006683" showAs="TREATIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="108" showAs="Countering the use of information and communications technologies for criminal purposes." shortForm="CYBERCRIME" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-11-27" outcome="recommendedForAdoption" as="A/79/460" by="" refersTo="15" />
+        <step date="2024-12-24" outcome="adopted" as="A/79/PV.55 (Resumption 1)" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="第三委员会"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <notes source="#DGACM">
+        <note eId="note_1">
+          <p>*	由于技术原因于2025年1月22日重发。</p>
+        </note>
+      </notes>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/243</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-12-31" class="rightSmall" refersTo="#dateOfIssuance">31 December 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">第七十九届会议</session>
+      </p>
+      <p>
+        <inline title="108" name="agenda item">议程项目108</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">打击为犯罪目的使用信息和通信技术行为</inline>
+      </p>
+      <p>
+        <docTitle>2024年12月24日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[根据第三委员会的报告 (<inline name="originating document">A/79/460，第15段</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/243.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国打击网络犯罪以及为打击使用信息通信技术系统实施的某些犯罪并共享严重犯罪电子证据而加强国际合作公约</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其2019年12月27日第<a href="https://undocs.org/en/A/RES/74/247">74/247</a>号决议，其中大会设立了一个代表所有区域的不限成员名额特设政府间专家委员会，以拟订一项关于打击为犯罪目的使用信息通信技术行为的全面国际公约，同时充分考虑到关于打击为犯罪目的使用信息通信技术行为的现有国际文书以及国家、区域和国际各级的现有努力，特别是全面研究网络犯罪问题不限成员名额政府间专家组的工作和成果， </p>
+      </container>
+      <container name="又回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>其2021年5月26日第<a href="https://undocs.org/en/A/RES/75/282">75/282</a>号决议，其中大会决定，拟订一项关于打击为犯罪目的使用信息通信技术行为的全面国际公约特设委员会将自2022年1月起在纽约和维也纳开展工作，以期向大会第七十八届会议提交一份公约草案，</p>
+      </container>
+      <container name="坚信" eId="container_4">
+          <p xml:space="preserve">	<span class="bold">坚信</span>鉴于网络犯罪对经济和社会造成负面影响，而且能够破坏可持续发展和法治，迫切需要为预防和打击这些犯罪而加强国际合作，</p>
+      </container>
+      <container name="又坚信" eId="container_5">
+        <p xml:space="preserve">				<span class="bold">又坚信</span>《联合国打击网络犯罪以及为打击使用信息通信技术系统实施的某些犯罪并共享严重犯罪电子证据而加强国际合作公约》将成为一个有效的工具和必要的法律框架，用于开展国际合作，预防和打击网络犯罪，并确保及时合法地收集和共享关于可能使用信息通信技术系统实施的、涉及面广泛的犯罪的电子证据；此类犯罪包括洗钱、腐败、恐怖主义行为、贩运人口、偷运移民、非法制造和贩运枪支及其零部件和弹药，以及贩毒和非法贩运文化财产，</p>
+      </container>
+      <container name="表示赞赏" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">表示赞赏</span>越南政府主动提出主办《公约》签署仪式，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>拟订一项关于打击为犯罪目的使用信息通信技术行为的全面国际公约特设委员会总结会议续会的报告，其中特设委员会向大会提交了“联合国打击网络犯罪以及为打击使用信息通信技术系统实施的某些犯罪并共享严重犯罪电子证据而加强国际合作公约草案”的最后案文，供其审议和采取行动，并对特设委员会的工作表示称赞； </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="bold">通过</span>本决议所附《联合国打击网络犯罪以及为打击使用信息通信技术系统实施的某些犯罪并共享严重犯罪电子证据而加强国际合作公约》，并于2025年在河内及随后在纽约联合国总部开放《公约》供各国签署，直至2026年12月31日；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>所有国家和有权限的区域经济一体化组织尽快签署和批准这一《公约》，以确保《公约》得以迅速生效； </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>在拟依照《公约》设立的公约缔约国会议另外作出决定之前，《公约》第五十六条中提到的账户将由联合国毒品和犯罪问题办公室负责运作，并鼓励各会员国开始向该账户提供充足的自愿捐款，以便向发展中国家和经济转型期国家提供其为批准和实施《公约》而开展的筹备工作可能需要的技术援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold">又决定</span>特设委员会应比照依循大会第<a href="https://undocs.org/en/A/RES/74/247">74/247</a>号决议和第<a href="https://undocs.org/en/A/RES/75/282">75/282</a>号决议继续开展工作，以期谈判拟订一项《公约》补充议定书草案，特别用以酌情处理其他刑事犯罪问题，并应为此目的分别在维也纳和纽约举行一届会议，每届会议为期十天：第一届会议应在大会通过《公约》两年后举行，第二届会议应在其后下一个日历年内举行，以便根据《公约》第五十七条第五款第㈦项、第六十一条和第六十二条的规定，将委员会会议取得的结果提交公约缔约国会议审议并采取进一步行动； </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">还决定</span>特设委员会将在《公约》获得通过一年后，比照依循大会第<a href="https://undocs.org/en/A/RES/74/247">74/247</a>号和第<a href="https://undocs.org/en/A/RES/75/282">75/282</a>号决议，酌情在维也纳举行一次会期不超过五天的会议，以期完成源自《公约》谈判工作的各项任务，从而着手拟订《公约》第五十七条所述公约缔约国会议议事规则以及其他相关规则的案文草案，供提交缔约国会议第一届会议审议； </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国向联合国毒品和犯罪问题办公室提供自愿捐款，以确保提供资助，使发展中国家、特别是那些在维也纳未设常驻使团的发展中国家的代表得以参与特设委员会的工作，包括支付他们的差旅和住宿费用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">请</span>公约缔约国会议随时关注和了解网络犯罪领域的技术发展情况，并就此方面的适当行动提出建议，并推动各国的网络犯罪问题联络点举行区域和国际会议，相互交流经验、挑战和最佳实践，同时确保与其他主管政府间机构开展的相关工作取得协同增效； </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长根据《公约》第五十八条，指定联合国毒品和犯罪问题办公室担任公约缔约国会议秘书处并受公约缔约国会议指导；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">
+            <span class="bold">	又请</span>秘书长向联合国毒品和犯罪问题办公室提供必要资源，使其能够有效促进《公约》得以迅速生效和履行公约缔约国会议秘书处的各项职能，并请秘书长支持特设委员会根据上文第5和第6段开展的工作； </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="bold">还请</span>秘书长编写一份介绍为促进《公约》迅捷生效而开展的活动的报告，供提交大会第八十届会议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>，为提高对网络犯罪的认识并宣传《公约》在打击和预防网络犯罪方面所发挥的作用，应将12月24日指定为国际打击网络犯罪日。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第55次" refersTo="#adoptionMeeting">第55次全体会议(续会)</location>
+          <eol />
+          <docDate date="2024-12-24" refersTo="#adoptionDate">2024年12月24日</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/"></FRBRuri>
+                <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@/"></FRBRuri>
+                <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="zho"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-243/zho@.xml"></FRBRuri>
+                <FRBRdate date="2025-01-24" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_75" class="MercuryDocument">
+              <content eId="para_75__content">
+                <p xml:space="preserve">		附件</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="MercuryDocument">
+              <content eId="para_76__content">
+                <p xml:space="preserve">		联合国打击网络犯罪以及为打击使用信息通信技术系统实施的某些犯罪并共享严重犯罪电子证据而加强国际合作公约</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="MercuryDocument">
+              <content eId="para_77__content">
+                <p xml:space="preserve">		序言</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="MercuryDocument">
+              <content eId="para_78__content">
+                <p xml:space="preserve">	<span class="bold">本公约各缔约国</span>，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="MercuryDocument">
+              <content eId="para_79__content">
+                <p xml:space="preserve">	<span class="bold">铭记</span>《联合国宪章》的宗旨和原则，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="MercuryDocument">
+              <content eId="para_80__content">
+                <p xml:space="preserve">	<span class="bold">注意到</span>信息通信技术一方面具有促进社会发展的巨大潜力，另一方面也为犯罪分子创造了新的机会，从而可能导致犯罪率上升，犯罪活动多样化，而且还可能对国家、企业以及个人和整个社会的福祉造成不利影响，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="MercuryDocument">
+              <content eId="para_81__content">
+                <p xml:space="preserve">	<span class="bold">关切</span>信息通信技术系统的使用可对刑事犯罪的规模、速度和范围产生巨大影响，其中包括那些与恐怖主义和跨国有组织犯罪有关联的犯罪行为，诸如贩运人口、偷运移民、非法制造和贩运枪支及其零部件和弹药、贩毒和贩运文化财产等，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="MercuryDocument">
+              <content eId="para_82__content">
+                <p xml:space="preserve">	<span class="bold">深信</span>需要优先奉行一项旨在保护社会免遭网络犯罪之害的全球性刑事司法政策，特别是需要为此制定适当的法律，确立通用罪名和程序权力，并促进开展国际合作，以期在国家、区域和国际各级更有效地预防和打击此类犯罪活动，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="MercuryDocument">
+              <content eId="para_83__content">
+                <p xml:space="preserve">	<span class="bold">决心</span>对发生在任何地方的网络犯罪进行起诉，使犯罪者无处躲藏，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="MercuryDocument">
+              <content eId="para_84__content">
+                <p xml:space="preserve">	<span class="bold">强调</span>需要加强各国之间的协调与合作，特别是根据请求向各国特别是发展中国家提供技术援助和能力建设，包括根据彼此商定的条款转让技术，以改进国家立法和框架，并提高国家机关应对一切形式网络犯罪的能力，包括改进对此类犯罪行为的预防、监测、侦查和起诉，并在此方面着重强调联合国所发挥的作用，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="MercuryDocument">
+              <content eId="para_85__content">
+                <p xml:space="preserve">	<span class="bold">认识到</span>网络犯罪的受害者人数日益增多，需要为这些受害者伸张正义，而且有必要在为预防和打击本公约所涵盖的犯罪行为而采取的措施中满足那些弱势群体的需要，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="MercuryDocument">
+              <content eId="para_86__content">
+                <p xml:space="preserve">	<span class="bold">决心</span>更有效地预防、监测和制止通过网络犯罪获得的财产的国际转移，并在追回和返还根据本公约确立的犯罪所得方面加强国际合作，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="MercuryDocument">
+              <content eId="para_87__content">
+                <p xml:space="preserve">	<span class="bold">铭记</span>预防和打击网络犯罪是所有国家的责任，各国在这一领域的努力要取得成效，就必须在相关国际和区域组织以及非政府组织、民间社会组织、学术机构和私营部门实体的支持和参与下开展相互合作，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="MercuryDocument">
+              <content eId="para_88__content">
+                <p xml:space="preserve">	<span class="bold">认识</span>到根据本国法律在预防和打击本公约所涵盖罪行的一切相关努力中使性别考量成为主流事项的重要性，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="MercuryDocument">
+              <content eId="para_89__content">
+                <p xml:space="preserve">	<span class="bold">铭记</span>需要实现各项执法目标，并确保尊重各项适用国际文书和区域文书所载明的人权和基本自由，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="MercuryDocument">
+              <content eId="para_90__content">
+                <p xml:space="preserve">	<span class="bold">承认</span>保护个人隐私不受任意或非法干涉的权利，以及保护个人数据的重要性，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="MercuryDocument">
+              <content eId="para_91__content">
+                <p xml:space="preserve">	<span class="bold">赞扬</span>联合国毒品和犯罪问题办公室以及其他国际组织和区域组织在预防和打击网络犯罪方面所开展的工作，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="MercuryDocument">
+              <content eId="para_92__content">
+                <p xml:space="preserve">	<span class="bold">回顾</span>联合国大会2019年12月27日第<a href="https://undocs.org/zh/A/RES/74/247">74/247</a>号决议和2021年5月26日第<a href="https://undocs.org/zh/A/RES/75/282">75/282</a>号决议， </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="MercuryDocument">
+              <content eId="para_93__content">
+                <p xml:space="preserve">	<span class="bold">考虑到</span>关于刑事事项合作的各项现有国际和区域公约和条约以及联合国会员国之间订立的类似条约，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="MercuryDocument">
+              <content eId="para_94__content">
+                <p xml:space="preserve">	<span class="bold">兹协议</span>如下：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="MercuryDocument">
+              <content eId="para_95__content">
+                <p xml:space="preserve">		第一章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="MercuryDocument">
+              <content eId="para_96__content">
+                <p xml:space="preserve">		总则</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="MercuryDocument">
+              <content eId="para_97__content">
+                <p xml:space="preserve">第一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="MercuryDocument">
+              <content eId="para_98__content">
+                <p xml:space="preserve">宗旨声明</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="MercuryDocument">
+              <content eId="para_99__content">
+                <p xml:space="preserve">	本公约的宗旨是：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="MercuryDocument">
+              <content eId="para_100__content">
+                <p xml:space="preserve">	㈠	促进和加强各项措施，以更高效和更有效地预防和打击网络犯罪；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="MercuryDocument">
+              <content eId="para_101__content">
+                <p xml:space="preserve">	㈡	促进、便利和加强在预防和打击网络犯罪方面开展的国际合作；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="MercuryDocument">
+              <content eId="para_102__content">
+                <p xml:space="preserve">	㈢	促进、便利和支持技术援助和能力建设，以预防和打击网络犯罪，特别是使发展中国家从中受益。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="MercuryDocument">
+              <content eId="para_103__content">
+                <p xml:space="preserve">		第二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="MercuryDocument">
+              <content eId="para_104__content">
+                <p xml:space="preserve">		术语的使用</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="MercuryDocument">
+              <content eId="para_105__content">
+                <p xml:space="preserve">	为本公约之目的：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="MercuryDocument">
+              <content eId="para_106__content">
+                <p xml:space="preserve">	㈠	“信息通信技术系统”系指任何设备或任何一组相互连接或相关的设备，其中一个或多个设备按照某一程序收集、存储并自动处理电子数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="MercuryDocument">
+              <content eId="para_107__content">
+                <p xml:space="preserve">	㈡	“电子数据”系指任何以适合在信息通信技术系统内处理的形式表现的事实、信息或概念，包括适合使信息通信技术系统得以执行某一功能的程序；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="MercuryDocument">
+              <content eId="para_108__content">
+                <p xml:space="preserve">	㈢	“流量数据”系指与使用信息通信技术系统进行的通信有关的任何电子数据，由构成通信链一部分的信息通信技术系统生成，显示通信的起点、终点、路径、时间、日期、数据量大小、持续时间或基础服务类型；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="MercuryDocument">
+              <content eId="para_109__content">
+                <p xml:space="preserve">	㈣	“内容数据”系指与使用信息通信技术系统传输的数据的实质内容有关，且不属于订阅用户信息或流量数据的任何电子数据，包括但不限于图像、文本消息、语音消息、录音和录像；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="MercuryDocument">
+              <content eId="para_110__content">
+                <p xml:space="preserve">	㈤	“服务提供者”系指以下任何公共或私营实体：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_111__content">
+                <p xml:space="preserve">	能让使用其服务的用户使用信息通信技术系统进行通信；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_112__content">
+                <p xml:space="preserve">	为此类通信服务或此类服务的用户处理或存储电子数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="MercuryDocument">
+              <content eId="para_113__content">
+                <p xml:space="preserve">	㈥	“订阅用户信息”系指服务提供者持有的与其服务订阅用户有关的任何信息，但不包括流量数据或内容数据，通过订阅用户信息可以确定： </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_114__content">
+                <p xml:space="preserve">	所使用的通信服务种类、与之相关的技术条款以及服务期限；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_115__content">
+                <p xml:space="preserve">	根据服务协议或安排提供的订阅用户身份、邮政地址或地理地址、电话或其他接入号码、账单信息或付款信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_116__content">
+                <p xml:space="preserve">	根据服务协议或安排提供的关于通信设备安装地点的任何其他信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="MercuryDocument">
+              <content eId="para_117__content">
+                <p xml:space="preserve">	㈦	“个人数据”系指与已识别或可识别身份的自然人有关的任何信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="MercuryDocument">
+              <content eId="para_118__content">
+                <p xml:space="preserve">	㈧	“严重犯罪”系指构成犯罪且最高可处以至少四年有期徒刑或更重惩处的行为；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="MercuryDocument">
+              <content eId="para_119__content">
+                <p xml:space="preserve">	㈨	“财产”系指各种资产，不论是物质的或非物质的、动产或不动产、有形的或无形的，包括虚拟资产，以及证明对这些资产拥有所有权或权益的法律文件或文书；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="MercuryDocument">
+              <content eId="para_120__content">
+                <p xml:space="preserve">	㈩	“犯罪所得”系指通过实施犯罪而直接或间接产生或获得的任何财产；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="MercuryDocument">
+              <content eId="para_121__content">
+                <p xml:space="preserve">	(十一)  “冻结”或“扣押”系指根据法院或其他主管机关签发的命令暂时禁止财产转移、转换、处置或移动，或对财产实行暂时性扣留或控制；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="MercuryDocument">
+              <content eId="para_122__content">
+                <p xml:space="preserve">	(十二)  “没收”，在适用情况下亦包括充公，系指根据法院或其他主管机关的命令对财产实行永久剥夺；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="MercuryDocument">
+              <content eId="para_123__content">
+                <p xml:space="preserve">		(十三)  “上游犯罪”系指由其所产生的收益可能成为本公约第十七条所界定的犯罪对象的任何犯罪；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="MercuryDocument">
+              <content eId="para_124__content">
+                <p xml:space="preserve">	(十四)  “区域经济一体化组织”系指由某一区域的一些主权国家组成的组织，其成员国已将处理本公约涵盖范围内事务的权限转交该组织，而且该组织已按照其内部程序获得签署、批准、接受、核准或加入本公约的正式授权；本公约中“缔约国”的指称在此类组织的权限范围内适用于这些组织；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="MercuryDocument">
+              <content eId="para_125__content">
+                <p xml:space="preserve">	(十五)  “紧急情况”系指任何自然人的生命或安全面临重大和紧迫风险的情况。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="MercuryDocument">
+              <content eId="para_126__content">
+                <p xml:space="preserve">		第三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="MercuryDocument">
+              <content eId="para_127__content">
+                <p xml:space="preserve">		适用范围</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="MercuryDocument">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	本公约除其中另有规定者外，应适用于：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="MercuryDocument">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	㈠	预防、侦查和起诉根据本公约确立的刑事犯罪，包括冻结、扣押、没收和返还此类犯罪的所得； </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="MercuryDocument">
+              <content eId="para_130__content">
+                <p xml:space="preserve">	㈡	根据本公约第二十三条和第三十五条，为进行刑事侦查或诉讼的目的，收集、获取、保全和共享电子证据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="MercuryDocument">
+              <content eId="para_131__content">
+                <p xml:space="preserve">		第四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="MercuryDocument">
+              <content eId="para_132__content">
+                <p xml:space="preserve">		根据联合国其他公约和议定书确立的犯罪</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="MercuryDocument">
+              <content eId="para_133__content">
+                <p xml:space="preserve">一、	在履行其作为缔约国的其他适用的联合国公约和议定书时，缔约国应当确保根据此类公约和议定书确立的刑事犯罪，在使用信息通信技术系统实施时，亦视作本国法律规定的刑事犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="MercuryDocument">
+              <content eId="para_134__content">
+                <p xml:space="preserve">二、	本条中的任何内容均不得解释为根据本公约确立刑事犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="MercuryDocument">
+              <content eId="para_135__content">
+                <p xml:space="preserve">		第五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="MercuryDocument">
+              <content eId="para_136__content">
+                <p xml:space="preserve">		保护主权</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="MercuryDocument">
+              <content eId="para_137__content">
+                <p xml:space="preserve">一、	在履行其根据本公约所承担的义务时，缔约国应恪守各国主权平等和领土完整原则和不干涉他国内政原则。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="MercuryDocument">
+              <content eId="para_138__content">
+                <p xml:space="preserve">二、	本公约的任何规定均未授权一缔约国在另一国领土内行使管辖权和履行该另一国本国法律规定的专属于该国机关的职能。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="MercuryDocument">
+              <content eId="para_139__content">
+                <p xml:space="preserve">		第六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="MercuryDocument">
+              <content eId="para_140__content">
+                <p xml:space="preserve">		尊重人权</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="MercuryDocument">
+              <content eId="para_141__content">
+                <p xml:space="preserve">一、在履行其根据本公约承担的义务时，缔约国应当确保符合其所承担的国际人权法义务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="MercuryDocument">
+              <content eId="para_142__content">
+                <p xml:space="preserve">二、根据可适用的国际人权法且依循与此类人权法相一致的方式，本公约的任何规定均不得解释为允许压制人权或基本自由，包括与言论自由、良心自由、意见自由、宗教或信仰自由、和平集会和结社自由相关的权利。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="MercuryDocument">
+              <content eId="para_143__content">
+                <p xml:space="preserve">		第二章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="MercuryDocument">
+              <content eId="para_144__content">
+                <p xml:space="preserve">		刑事定罪</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="MercuryDocument">
+              <content eId="para_145__content">
+                <p xml:space="preserve">		第七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="MercuryDocument">
+              <content eId="para_146__content">
+                <p xml:space="preserve">		非法访问</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="MercuryDocument">
+              <content eId="para_147__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意访问信息通信技术系统的全部或任何部分的行为规定为刑事犯罪行为。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="MercuryDocument">
+              <content eId="para_148__content">
+                <p xml:space="preserve">二、缔约国可规定此类犯罪须是以违反安全措施方式实施的，其意图是获取电子数据或有其他不诚实意图或犯罪意图，或者涉及与另一信息通信技术系统相连的信息通信技术系统。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="MercuryDocument">
+              <content eId="para_149__content">
+                <p xml:space="preserve">		第八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="MercuryDocument">
+              <content eId="para_150__content">
+                <p xml:space="preserve">		非法拦截</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="MercuryDocument">
+              <content eId="para_151__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意实施的以下行为规定为刑事犯罪行为：以技术手段拦截进出信息通信技术系统的或在此类系统内部的电子数据非公开传输，包括拦截携带此类电子数据的信息通信技术系统发出的电磁辐射。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="MercuryDocument">
+              <content eId="para_152__content">
+                <p xml:space="preserve">二、缔约国可规定此种犯罪须是带有不诚实意图或犯罪意图实施的，或者涉及与另一信息通信技术系统相连的信息通信技术系统。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="MercuryDocument">
+              <content eId="para_153__content">
+                <p xml:space="preserve">		第九条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="MercuryDocument">
+              <content eId="para_154__content">
+                <p xml:space="preserve">		干扰电子数据</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="MercuryDocument">
+              <content eId="para_155__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意破坏、删除、劣化、更改或抑制电子数据的行为规定为刑事犯罪行为。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="MercuryDocument">
+              <content eId="para_156__content">
+                <p xml:space="preserve">二、缔约国可规定本条第一款所述行为须是造成了严重损害的行为。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="MercuryDocument">
+              <content eId="para_157__content">
+                <p xml:space="preserve">		第十条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="MercuryDocument">
+              <content eId="para_158__content">
+                <p xml:space="preserve">		干扰信息通信技术系统</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="MercuryDocument">
+              <content eId="para_159__content">
+                <p xml:space="preserve">	各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意通过输入、传输、破坏、删除、劣化、更改或抑制电子数据而严重妨碍信息通信技术系统运行的行为规定为刑事犯罪行为。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="MercuryDocument">
+              <content eId="para_160__content">
+                <p xml:space="preserve">		第十一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="MercuryDocument">
+              <content eId="para_161__content">
+                <p xml:space="preserve">		滥用设备</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="MercuryDocument">
+              <content eId="para_162__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意实施的以下行为规定为刑事犯罪行为：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="MercuryDocument">
+              <content eId="para_163__content">
+                <p xml:space="preserve">	㈠	获取、制作、销售、采购以供使用、进口、分销或以其他方式提供：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_164__content">
+                <p xml:space="preserve">	主要为实施根据本公约第七条至第十条确立的任何犯罪行为而设计或改装的设备（包括程序）；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	可用以访问信息通信技术系统的全部或任何部分的密码、访问凭证、电子签名或类似数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="MercuryDocument">
+              <content eId="para_166__content">
+                <p xml:space="preserve">意图将该设备（包括程序）或密码、访问凭证、电子签名或类似数据用于实施根据本公约第七条至第十条确立的任何犯罪行为；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="MercuryDocument">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	㈡	持有本条第一款第㈠项第1或第2目所述物项，意图将其用于实施根据本公约第七条至第十条确立的任何犯罪行为。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="MercuryDocument">
+              <content eId="para_168__content">
+                <p xml:space="preserve">二、如果本条第一款所述的获取、制作、销售、采购以供使用、进口、分销或以其他方式提供或持有等行为并非为了实施根据本公约第七条至第十条确立的犯罪行为，而是为了诸如经授权测试或保护信息通信技术系统等目的，则本条不得解释为对其追究刑事责任。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="MercuryDocument">
+              <content eId="para_169__content">
+                <p xml:space="preserve">三、各缔约国均可保留不适用本条第一款的权利，但这一保留不得涉及销售、分销或以其他方式提供本条第一款第㈠项第2目所述物项。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="MercuryDocument">
+              <content eId="para_170__content">
+                <p xml:space="preserve">		第十二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="MercuryDocument">
+              <content eId="para_171__content">
+                <p xml:space="preserve">		与信息通信技术系统有关的伪造</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="MercuryDocument">
+              <content eId="para_172__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意实施的以下行为规定为刑事犯罪行为：输入、更改、删除或抑制电子数据，造成不真实的数据，意图使其在合法用途中被当作真实数据来考虑或作为行动依据，而不论该数据是否可直接读取和理解。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="MercuryDocument">
+              <content eId="para_173__content">
+                <p xml:space="preserve">二、缔约国可规定须存在欺诈意图或类似不诚实意图或犯罪意图才能对之追究刑事责任。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="MercuryDocument">
+              <content eId="para_174__content">
+                <p xml:space="preserve">		第十三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="MercuryDocument">
+              <content eId="para_175__content">
+                <p xml:space="preserve">		与信息通信技术系统有关的盗窃或欺诈</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="MercuryDocument">
+              <content eId="para_176__content">
+                <p xml:space="preserve">	各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意使用以下手段造成他人财产损失的行为规定为刑事犯罪行为：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="MercuryDocument">
+              <content eId="para_177__content">
+                <p xml:space="preserve">	㈠	以任何方式输入、更改、删除或抑制电子数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="MercuryDocument">
+              <content eId="para_178__content">
+                <p xml:space="preserve">	㈡	对信息通信技术系统运行的任何干扰；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="MercuryDocument">
+              <content eId="para_179__content">
+                <p xml:space="preserve">	㈢	通过信息通信技术系统做出任何与真实情况不符的欺骗行为，致使某人做出其原本不会做的或未做出其原本会做的任何事情；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="MercuryDocument">
+              <content eId="para_180__content">
+                <p xml:space="preserve">存有欺诈或不诚实意图，意欲为自己或他人谋取其本无权获取的金钱或其他财产收益。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="MercuryDocument">
+              <content eId="para_181__content">
+                <p xml:space="preserve">		第十四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="MercuryDocument">
+              <content eId="para_182__content">
+                <p xml:space="preserve">		涉及网上儿童性虐待或儿童性剥削材料的犯罪</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="MercuryDocument">
+              <content eId="para_183__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意实施的以下行为规定为刑事犯罪行为：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="MercuryDocument">
+              <content eId="para_184__content">
+                <p xml:space="preserve">	㈠	通过信息通信技术系统制作、主动提供、出售、分销、传送、广播、展示、发布或以其他方式提供儿童性虐待或儿童性剥削材料；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="MercuryDocument">
+              <content eId="para_185__content">
+                <p xml:space="preserve">	㈡	通过信息通信技术系统索取、获取或访问儿童性虐待或儿童性剥削材料；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="MercuryDocument">
+              <content eId="para_186__content">
+                <p xml:space="preserve">	㈢	持有或控制存储在信息通信技术系统或其他存储介质中的儿童性虐待或儿童性剥削材料；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="MercuryDocument">
+              <content eId="para_187__content">
+                <p xml:space="preserve">	㈣	资助根据本款第㈠至第㈢项确立的犯罪行为的，缔约国可将之单独规定为一类犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="MercuryDocument">
+              <content eId="para_188__content">
+                <p xml:space="preserve">二、就本条而言，“儿童性虐待或儿童性剥削材料”一语应当包括视觉材料，亦可包括书面内容或音频内容，其中描绘、描述或呈现任何未满十八岁的人：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="MercuryDocument">
+              <content eId="para_189__content">
+                <p xml:space="preserve">	㈠	从事真实或模拟的性活动；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="MercuryDocument">
+              <content eId="para_190__content">
+                <p xml:space="preserve">	㈡	所处现场有正在从事任何性活动的人；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="MercuryDocument">
+              <content eId="para_191__content">
+                <p xml:space="preserve">	㈢	主要为性目的展示性器官；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="MercuryDocument">
+              <content eId="para_192__content">
+                <p xml:space="preserve">	㈣	遭受酷刑或残忍、不人道或有辱人格的待遇或惩罚，且此类材料具有性的性质。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="MercuryDocument">
+              <content eId="para_193__content">
+                <p xml:space="preserve">三、缔约国可要求本条第二款所指材料仅限于以下材料：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="MercuryDocument">
+              <content eId="para_194__content">
+                <p xml:space="preserve">	㈠	描绘、描述或呈现某一现实中存在的人；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="MercuryDocument">
+              <content eId="para_195__content">
+                <p xml:space="preserve">	㈡	以视觉方式描绘儿童性虐待或儿童性剥削。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="MercuryDocument">
+              <content eId="para_196__content">
+                <p xml:space="preserve">四、缔约国可根据本国法律并依照适用的国际义务采取措施，排除对下列行为的刑事定罪：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="MercuryDocument">
+              <content eId="para_197__content">
+                <p xml:space="preserve">	㈠	儿童为自制那些描绘他们的材料而实施的行为；或 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="MercuryDocument">
+              <content eId="para_198__content">
+                <p xml:space="preserve">	㈡	在所涉人员同意的情况下制作、传播或持有本条第二款第㈠项至第㈡项所述材料的行为，前提是所描绘的行为根据本国法律系属合法行为，且此类材料完全仅供所涉人员私下和同意的情况下使用。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="MercuryDocument">
+              <content eId="para_199__content">
+                <p xml:space="preserve">五、本公约的任何规定均不得影响更有利于实现儿童权利的任何国际义务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="MercuryDocument">
+              <content eId="para_200__content">
+                <p xml:space="preserve">		第十五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="MercuryDocument">
+              <content eId="para_201__content">
+                <p xml:space="preserve">		为对儿童实施性犯罪而进行教唆或诱骗</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_202" class="MercuryDocument">
+              <content eId="para_202__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将故意实施的以下行为规定为刑事犯罪行为：为实施本国法律所界定的对儿童的性犯罪，包括为实施根据本公约第十四条确立的任何犯罪，通过信息通信技术系统进行通信联络、教唆、诱骗或做出任何安排。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_203" class="MercuryDocument">
+              <content eId="para_203__content">
+                <p xml:space="preserve">二、缔约国可规定须有在本条第一款所述行为基础上的更进一步行动。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_204" class="MercuryDocument">
+              <content eId="para_204__content">
+                <p xml:space="preserve">三、	缔约国可考虑将本条第一款规定的刑事定罪范围扩大到包括被认为是儿童的人。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_205" class="MercuryDocument">
+              <content eId="para_205__content">
+                <p xml:space="preserve">四、缔约国可采取措施，排除对由儿童实施的本条第一款所述行为进行刑事定罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_206" class="MercuryDocument">
+              <content eId="para_206__content">
+                <p xml:space="preserve">		第十六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_207" class="MercuryDocument">
+              <content eId="para_207__content">
+                <p xml:space="preserve">		未经同意传播私密图像</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_208" class="MercuryDocument">
+              <content eId="para_208__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，在本国法律中将没有相关权限而故意实施的以下行为规定为刑事犯罪行为：使用信息通信技术系统出售、分销、传送、发布或以其他方式提供某人的私密图像，而未经图像中所描绘的人同意。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_209" class="MercuryDocument">
+              <content eId="para_209__content">
+                <p xml:space="preserve">二、就本条第一款而言，“私密图像”系指以包括照片或录像在内的任何方式对一个年满十八岁的人进行的具有性性质的视觉记录，其中该人的性器官暴露在外，或该人正在进行性活动，这些行为在进行记录时皆属个人隐私，而且在犯罪实施时被描绘者(一人或多人)对其隐私受保护仍保持合理期望。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_210" class="MercuryDocument">
+              <content eId="para_210__content">
+                <p xml:space="preserve">三、缔约国可酌情将私密图像的定义扩至所描绘的对象包含根据本国法律已达到性活动法定年龄但未满十八岁者，且图像中未描绘对儿童的虐待或剥削。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_211" class="MercuryDocument">
+              <content eId="para_211__content">
+                <p xml:space="preserve">四、就本条而言，私密图像中描绘的未满十八岁者不具备同意传播构成本公约第十四条所述儿童性虐待或儿童性剥削材料的私密图像的能力。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_212" class="MercuryDocument">
+              <content eId="para_212__content">
+                <p xml:space="preserve">五、缔约国可规定须有造成伤害的意图才能追究刑事责任。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_213" class="MercuryDocument">
+              <content eId="para_213__content">
+                <p xml:space="preserve">六、缔约国可根据本国法律并依照适用的国际义务，就与本条有关的事项采取其他措施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_214" class="MercuryDocument">
+              <content eId="para_214__content">
+                <p xml:space="preserve">		第十七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_215" class="MercuryDocument">
+              <content eId="para_215__content">
+                <p xml:space="preserve">		对犯罪所得的洗钱行为</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_216" class="MercuryDocument">
+              <content eId="para_216__content">
+                <p xml:space="preserve">一、	各缔约国均应根据本国法律的基本原则采取必要的立法措施和其他措施，将故意实施的以下行为规定为刑事犯罪行为：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_217" class="MercuryDocument">
+              <content eId="para_217__content">
+                <p xml:space="preserve">㈠ 1.	明知财产为犯罪所得，为隐瞒或掩饰此类财产的非法来源，或为协助参与实施上游犯罪的任何人逃避其行为的法律后果而转换或转移该财产；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_218" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_218__content">
+                <p xml:space="preserve">	明知财产为犯罪所得而隐瞒或掩饰此类财产的真实性质、来源、所在地、处置、转移、所有权或与此类财产有关的权利；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_219" class="MercuryDocument">
+              <content eId="para_219__content">
+                <p xml:space="preserve">㈡	在符合本国法律制度基本概念的情况下：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_220" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_220__content">
+                <p xml:space="preserve">	在得到财产时，明知其为犯罪所得而仍获取、占有或使用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_221" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_221__content">
+                <p xml:space="preserve">	参与、协同或共谋实施，实施未遂，以及协助、教唆、便利和参谋实施根据本条确立的任何犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_222" class="MercuryDocument">
+              <content eId="para_222__content">
+                <p xml:space="preserve">二、为施行或适用本条第一款：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_223" class="MercuryDocument">
+              <content eId="para_223__content">
+                <p xml:space="preserve">	㈠	各缔约国均应将根据本公约第七至第十六条确立的相关犯罪列为上游犯罪；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_224" class="MercuryDocument">
+              <content eId="para_224__content">
+                <p xml:space="preserve">	㈡	缔约国立法中如果列出具体上游犯罪清单，则至少应当在此类清单中列入根据本公约第七至第十六条确立的各种犯罪；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_225" class="MercuryDocument">
+              <content eId="para_225__content">
+                <p xml:space="preserve">	㈢	就本款第㈡项而言，上游犯罪应当包括在有关缔约国法域之内和之外实施的犯罪。然而，如果犯罪是在一缔约国法域之外实施的，则只有当有关行为根据其发生地所在国的本国法律构成刑事犯罪，且根据施行或适用本条的缔约国的本国法律该行为若发生在该国亦构成刑事犯罪时，才构成上游犯罪；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_226" class="MercuryDocument">
+              <content eId="para_226__content">
+                <p xml:space="preserve">	㈣	各缔约国均应向联合国秘书长提供本国施行本条的法律副本以及随后对此类法律所作的任何修正的副本或相关说明；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_227" class="MercuryDocument">
+              <content eId="para_227__content">
+                <p xml:space="preserve">	㈤	如果缔约国本国法律的基本原则有此要求，则可规定本条第一款所列犯罪不适用于实施上游犯罪的人； </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_228" class="MercuryDocument">
+              <content eId="para_228__content">
+                <p xml:space="preserve">	㈥	本条第一款所规定的作为犯罪要件的明知、故意或目的可根据客观实际情况予以推定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_229" class="MercuryDocument">
+              <content eId="para_229__content">
+                <p xml:space="preserve">		第十八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_230" class="MercuryDocument">
+              <content eId="para_230__content">
+                <p xml:space="preserve">		法人责任</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_231" class="MercuryDocument">
+              <content eId="para_231__content">
+                <p xml:space="preserve">一、	各缔约国均应采取符合本国法律原则的必要措施，确定法人参与根据本公约确立的犯罪所应承担的责任。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_232" class="MercuryDocument">
+              <content eId="para_232__content">
+                <p xml:space="preserve">二、	在不违反缔约国法律原则的情况下，法人责任可包括刑事责任、民事责任或行政责任。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_233" class="MercuryDocument">
+              <content eId="para_233__content">
+                <p xml:space="preserve">三、法人责任不得影响实施此类犯罪的自然人的刑事责任。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_234" class="MercuryDocument">
+              <content eId="para_234__content">
+                <p xml:space="preserve">四、	各缔约国均应特别确保依照本条被追究责任的法人受到有效、适度和劝诫性的刑事或非刑事制裁，包括经济制裁。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_235" class="MercuryDocument">
+              <content eId="para_235__content">
+                <p xml:space="preserve">		第十九条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_236" class="MercuryDocument">
+              <content eId="para_236__content">
+                <p xml:space="preserve">		参与和未遂</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_237" class="MercuryDocument">
+              <content eId="para_237__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，根据本国法律将故意实施的以下行为规定为刑事犯罪行为：以共犯、从犯或教唆犯等任何身份参与根据本公约确立的犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_238" class="MercuryDocument">
+              <content eId="para_238__content">
+                <p xml:space="preserve">二、各缔约国均可采取必要的立法措施和其他措施，根据本国法律将故意实施根据本公约确立的犯罪的任何未遂行为规定为刑事犯罪行为。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_239" class="MercuryDocument">
+              <content eId="para_239__content">
+                <p xml:space="preserve">三、各缔约国均可采取必要的立法措施和其他措施，根据本国法律将故意为实施根据本公约确立的犯罪做准备的行为规定为刑事犯罪行为。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_240" class="MercuryDocument">
+              <content eId="para_240__content">
+                <p xml:space="preserve">		第二十条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_241" class="MercuryDocument">
+              <content eId="para_241__content">
+                <p xml:space="preserve">		追诉时效</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_242" class="MercuryDocument">
+              <content eId="para_242__content">
+                <p xml:space="preserve">	各缔约国均应考虑到犯罪的严重性，酌情在本国法律中规定一个较长的追诉时效期，以便在此期限内针对根据本公约确立的任何犯罪启动诉讼程序，并针对被指控犯罪者逃避司法处置的情况规定更长的追诉时效期或作出中止追诉时效的规定。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_243" class="MercuryDocument">
+              <content eId="para_243__content">
+                <p xml:space="preserve">		第二十一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_244" class="MercuryDocument">
+              <content eId="para_244__content">
+                <p xml:space="preserve">		起诉、审判和制裁</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_245" class="MercuryDocument">
+              <content eId="para_245__content">
+                <p xml:space="preserve">一、各缔约国均应使根据本公约确立的犯罪受到与其严重性相当的有效、适度而具有劝诫性的制裁。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_246" class="MercuryDocument">
+              <content eId="para_246__content">
+                <p xml:space="preserve">二、各缔约国均可根据本国法律采取必要的立法措施和其他措施，针对根据本公约确立的犯罪确定加重情节，包括影响关键信息基础设施的情节。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_247" class="MercuryDocument">
+              <content eId="para_247__content">
+                <p xml:space="preserve">三、各缔约国均应努力确保，为根据本公约确立的犯罪起诉某人时依据本国法律行使的任何法律裁量权，都是为了确保针对此类犯罪的执法措施取得最大成效，并适当考虑到震慑此类犯罪的必要性。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_248" class="MercuryDocument">
+              <content eId="para_248__content">
+                <p xml:space="preserve">四、各缔约国均应确保因根据本公约确立的犯罪而被起诉的任何人都享有既符合本国法律又与适用于本国的国际义务相一致的一切权利和保障，包括得到公平审判的权利和辩护权。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_249" class="MercuryDocument">
+              <content eId="para_249__content">
+                <p xml:space="preserve">五、就根据本公约确立的犯罪而言，各缔约国均应根据本国法律并在适当尊重被告的辩护权的情况下采取适当措施，力求确保针对审前释放裁决或上诉期间释放裁决规定的条件考虑到需要确保被告在后续的刑事诉讼中出庭。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_250" class="MercuryDocument">
+              <content eId="para_250__content">
+                <p xml:space="preserve">六、各缔约国在考虑被判定犯有有关罪行的人员提前释放或假释的可能性时，均应考虑到此类犯罪的严重性。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_251" class="MercuryDocument">
+              <content eId="para_251__content">
+                <p xml:space="preserve">七、缔约国应当确保根据本国法律采取适当的措施，依照《儿童权利公约》 及其各项适用的《议定书》以及其他适用的国际或区域文书所规定的义务，保护被控犯有根据本公约确立的罪行的儿童。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_252" class="MercuryDocument">
+              <content eId="para_252__content">
+                <p xml:space="preserve">八、本公约的任何规定均不得影响下述原则，即根据本公约确立的犯罪和可适用的法律辩护理由或决定行为合法性的其他法律原则，只应由缔约国本国的法律加以阐明，而且应当依照缔约国的本国法律对此类犯罪进行起诉和惩处。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_253" class="MercuryDocument">
+              <content eId="para_253__content">
+                <p xml:space="preserve">		第三章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_254" class="MercuryDocument">
+              <content eId="para_254__content">
+                <p xml:space="preserve">		管辖权</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_255" class="MercuryDocument">
+              <content eId="para_255__content">
+                <p xml:space="preserve">		第二十二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_256" class="MercuryDocument">
+              <content eId="para_256__content">
+                <p xml:space="preserve">		管辖权</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_257" class="MercuryDocument">
+              <content eId="para_257__content">
+                <p xml:space="preserve">一、各缔约国均应在下列情况下采取必要措施，对根据本公约确立的犯罪确立管辖权：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_258" class="MercuryDocument">
+              <content eId="para_258__content">
+                <p xml:space="preserve">	㈠	犯罪发生在该缔约国领土内；或者</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_259" class="MercuryDocument">
+              <content eId="para_259__content">
+                <p xml:space="preserve">	㈡	犯罪发生在犯罪时悬挂该缔约国国旗的船只上或已根据该缔约国法律注册的航空器内。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_260" class="MercuryDocument">
+              <content eId="para_260__content">
+                <p xml:space="preserve">二、在不违反本公约第五条规定的情况下，缔约国还可在下列情况下对任何此类犯罪确立其管辖权： </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_261" class="MercuryDocument">
+              <content eId="para_261__content">
+                <p xml:space="preserve">	㈠	犯罪系针对该缔约国的国民；或者</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_262" class="MercuryDocument">
+              <content eId="para_262__content">
+                <p xml:space="preserve">	㈡	犯罪系由该缔约国国民或在该缔约国领土内有惯常居所的无国籍人实施；或者</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_263" class="MercuryDocument">
+              <content eId="para_263__content">
+                <p xml:space="preserve">	㈢	犯罪系发生在该缔约国领土以外，且属于根据本公约第十七条第一款第㈡项第2目所确立的犯罪之一，其目的是在该缔约国领土内实施根据本公约第十七条第一款第㈠项第1目或第2目或第㈡项第1目确立的犯罪；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_264" class="MercuryDocument">
+              <content eId="para_264__content">
+                <p xml:space="preserve">	㈣	犯罪系针对该缔约国。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_265" class="MercuryDocument">
+              <content eId="para_265__content">
+                <p xml:space="preserve">三、为本公约第三十七条第十一款之目的，各缔约国均应采取必要措施，在被指控犯罪人位于其领土内且仅因该人系本国国民而不予引渡时，对根据本公约确立的犯罪确立本国的管辖权。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_266" class="MercuryDocument">
+              <content eId="para_266__content">
+                <p xml:space="preserve">四、各缔约国还可采取必要措施，在被指控犯罪人位于本国领土内，且不引渡该人时，对根据本公约确立的犯罪确立本国的管辖权。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_267" class="MercuryDocument">
+              <content eId="para_267__content">
+                <p xml:space="preserve">五、如果根据本条第一款或第二款行使管辖权的缔约国被告知或通过其他途径获悉任何其他缔约国正在对同一行为进行侦查、起诉或者司法程序，则这些缔约国的主管机关应当酌情相互磋商，以便协调行动。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_268" class="MercuryDocument">
+              <content eId="para_268__content">
+                <p xml:space="preserve">六、在不影响一般国际法规范的情况下，本公约不排除缔约国行使其根据本国法律确立的任何刑事管辖权。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_269" class="MercuryDocument">
+              <content eId="para_269__content">
+                <p xml:space="preserve">		第四章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_270" class="MercuryDocument">
+              <content eId="para_270__content">
+                <p xml:space="preserve">		程序措施和执法</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_271" class="MercuryDocument">
+              <content eId="para_271__content">
+                <p xml:space="preserve">		第二十三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_272" class="MercuryDocument">
+              <content eId="para_272__content">
+                <p xml:space="preserve">		程序措施的范围</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_273" class="MercuryDocument">
+              <content eId="para_273__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，确立本章所规定的权力和程序，以便进行具体的刑事侦查或诉讼。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_274" class="MercuryDocument">
+              <content eId="para_274__content">
+                <p xml:space="preserve">二、	除本公约另有规定者外，各缔约国均应将本条第一款所述权力和程序适用于：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_275" class="MercuryDocument">
+              <content eId="para_275__content">
+                <p xml:space="preserve">	㈠	根据本公约确立的刑事犯罪；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_276" class="MercuryDocument">
+              <content eId="para_276__content">
+                <p xml:space="preserve">	㈡	使用信息通信技术系统实施的其他刑事犯罪；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_277" class="MercuryDocument">
+              <content eId="para_277__content">
+                <p xml:space="preserve">	㈢	收集任何刑事犯罪的电子证据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_278" class="MercuryDocument">
+              <content eId="para_278__content">
+                <p xml:space="preserve">三、	㈠	各缔约国均可保留将本公约第二十九条所述措施仅适用于保留声明中具体指明的犯罪或犯罪类别的权利，条件是这些犯罪或犯罪类别的涵盖范围不得小于缔约国适用本公约第三十条所述措施的犯罪的涵盖范围。各缔约国均应考虑限制此类保留的涵盖范围，以便使第二十九条所述各项措施能够得到最广泛的适用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_279" class="MercuryDocument">
+              <content eId="para_279__content">
+                <p xml:space="preserve">	㈡	若缔约国因本公约通过时有效的本国法律所限，不能对服务提供者的信息通信技术系统内传输的通信适用本公约第二十九条和第三十条所述措施，而该系统：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_280" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_280__content">
+                <p xml:space="preserve">	正在为一个封闭用户群的利益运行；而且</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_281" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_281__content">
+                <p xml:space="preserve">	不使用公共通信网络，也不与另一公共或私人的信息通信技术系统连接；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_282" class="MercuryDocument">
+              <content eId="para_282__content">
+                <p xml:space="preserve">则该缔约国可保留不对此类通信适用上述措施的权利。各缔约国均应考虑限制此类保留的涵盖范围，以使本公约第二十九条和第三十条所述各项措施能够得到最广泛的适用。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_283" class="MercuryDocument">
+              <content eId="para_283__content">
+                <p xml:space="preserve">		第二十四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_284" class="MercuryDocument">
+              <content eId="para_284__content">
+                <p xml:space="preserve">		条件和保障措施</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_285" class="MercuryDocument">
+              <content eId="para_285__content">
+                <p xml:space="preserve">一、各缔约国均应确保本章所规定的权力和程序的确立、实施和适用符合本国法律所规定的条件和保障措施；这些条件和保障措施应当按照本国在国际人权法下承担的义务保护人权，并应纳入比例原则。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_286" class="MercuryDocument">
+              <content eId="para_286__content">
+                <p xml:space="preserve">二、此类条件和保障措施应根据和遵循各缔约国本国法律，视相关程序或权力的性质而定，包括司法审查或其他独立审查、获得有效救济的权利、适用理由以及对此类权力或程序的范围和期限的限制等。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_287" class="MercuryDocument">
+              <content eId="para_287__content">
+                <p xml:space="preserve">三、在符合公共利益，特别是在符合正当司法的范围内，各缔约国均应考虑本章所规定的权力和程序对第三方权利、责任以及合法利益的影响。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_288" class="MercuryDocument">
+              <content eId="para_288__content">
+                <p xml:space="preserve">四、根据本条确立的条件和保障措施应在缔约国国内适用于本章规定的权力和程序，既包括在国内进行刑事侦查和诉讼的权力和程序，也包括作为被请求缔约国提供国际合作的权力和程序。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_289" class="MercuryDocument">
+              <content eId="para_289__content">
+                <p xml:space="preserve">五、本条第二款中提及的司法审查或其他独立审查是指国内一级的此类审查。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_290" class="MercuryDocument">
+              <content eId="para_290__content">
+                <p xml:space="preserve">		第二十五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_291" class="MercuryDocument">
+              <content eId="para_291__content">
+                <p xml:space="preserve">		快速保全存储的电子数据</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_292" class="MercuryDocument">
+              <content eId="para_292__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，使其主管机关得以下令或以类似方式责令快速保全使用信息通信技术系统存储的特定电子数据，包括流量数据、内容数据和订阅用户信息，特别是在有理由认为该电子数据极易丢失或被修改的情况下。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_293" class="MercuryDocument">
+              <content eId="para_293__content">
+                <p xml:space="preserve">二、	缔约国为执行本条第一款而下令某人保全其拥有或控制的所存储的特定电子数据时，应当为此采取必要的立法措施和其他措施，责成该人在最长不超过九十天的必要时限内，保全所涉电子数据并维护其完整性，以便主管机关得以寻求披露这些数据。缔约国可规定此种命令嗣后可予延期。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_294" class="MercuryDocument">
+              <content eId="para_294__content">
+                <p xml:space="preserve">三、各缔约国均应采取必要的立法措施和其他措施，责成保管人或其他负责保全电子数据的人员在本国法律规定的期限内对进行此类程序一事保守秘密。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_295" class="MercuryDocument">
+              <content eId="para_295__content">
+                <p xml:space="preserve">		第二十六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_296" class="MercuryDocument">
+              <content eId="para_296__content">
+                <p xml:space="preserve">		快速保全和部分披露流量数据</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_297" class="MercuryDocument">
+              <content eId="para_297__content">
+                <p xml:space="preserve">	各缔约国均应针对根据本公约第二十五条的规定应予保全的流量数据采取必要的立法措施和其他措施，以便：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_298" class="MercuryDocument">
+              <content eId="para_298__content">
+                <p xml:space="preserve">	㈠	确保无论是一个还是多个服务提供者参与了通信的传输，均能快速保全流量数据；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_299" class="MercuryDocument">
+              <content eId="para_299__content">
+                <p xml:space="preserve">	㈡	确保向所涉缔约国的主管机关或该机关所指定人员快速披露足够数量的流量数据，以使该缔约国得以识别服务提供者，并识别所涉通信或所指信息的传输路径。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_300" class="MercuryDocument">
+              <content eId="para_300__content">
+                <p xml:space="preserve">		第二十七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_301" class="MercuryDocument">
+              <content eId="para_301__content">
+                <p xml:space="preserve">		提交令</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_302" class="MercuryDocument">
+              <content eId="para_302__content">
+                <p xml:space="preserve">	各缔约国均应采取必要的立法措施和其他措施，授权本国主管机关下令：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_303" class="MercuryDocument">
+              <content eId="para_303__content">
+                <p xml:space="preserve">	㈠	位于本国领土内的某人提交其所拥有或控制的存储在信息通信技术系统或电子数据存储介质中的特定电子数据；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_304" class="MercuryDocument">
+              <content eId="para_304__content">
+                <p xml:space="preserve">	㈡	在本国领土内提供服务的服务提供者提交其所拥有或控制的与此类服务有关的订阅用户信息。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_305" class="MercuryDocument">
+              <content eId="para_305__content">
+                <p xml:space="preserve">		第二十八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_306" class="MercuryDocument">
+              <content eId="para_306__content">
+                <p xml:space="preserve">		搜查和扣押存储的电子数据</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_307" class="MercuryDocument">
+              <content eId="para_307__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，授权本国主管机关搜查或以类似方式访问位于本国领土内的：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_308" class="MercuryDocument">
+              <content eId="para_308__content">
+                <p xml:space="preserve">	㈠	信息通信技术系统、其一部分和存储在其中的电子数据；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_309" class="MercuryDocument">
+              <content eId="para_309__content">
+                <p xml:space="preserve">	㈡	可能存储所要查找的电子数据的存储介质。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_310" class="MercuryDocument">
+              <content eId="para_310__content">
+                <p xml:space="preserve">二、各缔约国均应采取必要的立法措施和其他措施，以便确保，若其主管机关根据本条第一款第㈠项的规定搜查或以类似方式访问某一信息通信技术系统或其一部分时，有理由认为所查找的电子数据存储在位于本国领土内的另一信息通信技术系统或其一部分中，而且该等数据可从初始系统合法访问或可供初始系统合法取用，则应使此类主管机关得以快速进行搜查，以访问该另一信息通信技术系统。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_311" class="MercuryDocument">
+              <content eId="para_311__content">
+                <p xml:space="preserve">三、各缔约国均应采取必要的立法措施和其他措施，授权其主管机关扣押或以类似方式获取根据本条第一款或第二款访问的位于本国领土内的电子数据。这些措施应当包括以下权力：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_312" class="MercuryDocument">
+              <content eId="para_312__content">
+                <p xml:space="preserve">	㈠	扣押或以类似方式获取信息通信技术系统、其一部分或电子数据存储介质；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_313" class="MercuryDocument">
+              <content eId="para_313__content">
+                <p xml:space="preserve">	㈡	制作和保留电子数据的电子形式副本；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_314" class="MercuryDocument">
+              <content eId="para_314__content">
+                <p xml:space="preserve">	㈢	维护所存储的相关电子数据的完整性；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_315" class="MercuryDocument">
+              <content eId="para_315__content">
+                <p xml:space="preserve">	㈣	移除所访问的信息通信技术系统中的这些电子数据或使之无法访问。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_316" class="MercuryDocument">
+              <content eId="para_316__content">
+                <p xml:space="preserve">四、各缔约国均应采取必要的立法措施和其他措施，授权其主管机关下令任何了解相关信息通信技术系统、信息和电信网络或其组成部分的运行、或了解为保护其中的电子数据而适用的措施的人员在合理情况下提供必要信息，以便能够采取本条第一款至第三款所述措施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_317" class="MercuryDocument">
+              <content eId="para_317__content">
+                <p xml:space="preserve">		第二十九条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_318" class="MercuryDocument">
+              <content eId="para_318__content">
+                <p xml:space="preserve">		实时收集流量数据</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_319" class="MercuryDocument">
+              <content eId="para_319__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，授权其主管机关采取下列行动：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_320" class="MercuryDocument">
+              <content eId="para_320__content">
+                <p xml:space="preserve">	㈠	在本国领土内应用技术手段实时收集或记录；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_321" class="MercuryDocument">
+              <content eId="para_321__content">
+                <p xml:space="preserve">	㈡	强令服务提供者在其现有的技术能力范围内：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_322" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_322__content">
+                <p xml:space="preserve">	在本国领土内应用技术手段实时收集或记录；或者</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_323" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_323__content">
+                <p xml:space="preserve">	配合并协助主管机关实时收集或记录；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_324" class="MercuryDocument">
+              <content eId="para_324__content">
+                <p xml:space="preserve">与其领土内使用信息通信技术系统传输的特定通信有关的流量数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_325" class="MercuryDocument">
+              <content eId="para_325__content">
+                <p xml:space="preserve">二、缔约国因其本国法律制度原则而无法采取本条第一款第㈠项所述措施的，可采取其他必要的立法措施和其他措施，确保在其领土内应用技术手段实时收集或记录与在其领土内传输的特定通信有关的流量数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_326" class="MercuryDocument">
+              <content eId="para_326__content">
+                <p xml:space="preserve">三、各缔约国均应采取必要的立法措施和其他措施，责成服务提供者对本条规定的任何权力的行使情况以及与之相关的任何信息保守秘密。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_327" class="MercuryDocument">
+              <content eId="para_327__content">
+                <p xml:space="preserve">		第三十条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_328" class="MercuryDocument">
+              <content eId="para_328__content">
+                <p xml:space="preserve">		拦截内容数据</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_329" class="MercuryDocument">
+              <content eId="para_329__content">
+                <p xml:space="preserve">一、各缔约国均应采取必要的立法措施和其他措施，针对拟由本国法律确定的一系列严重刑事犯罪，授权其主管机关采取下列行动：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_330" class="MercuryDocument">
+              <content eId="para_330__content">
+                <p xml:space="preserve">	㈠	在本国领土内应用技术手段实时收集或记录；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_331" class="MercuryDocument">
+              <content eId="para_331__content">
+                <p xml:space="preserve">	㈡	强令服务提供者在其现有的技术能力范围内：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_332" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_332__content">
+                <p xml:space="preserve">	在本国领土内应用技术手段实时收集或记录；或者</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_333" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_333__content">
+                <p xml:space="preserve">	配合并协助主管机关实时收集或记录；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_334" class="MercuryDocument">
+              <content eId="para_334__content">
+                <p xml:space="preserve">在其领土内使用信息通信技术系统传输的特定通信的内容数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_335" class="MercuryDocument">
+              <content eId="para_335__content">
+                <p xml:space="preserve">二、	缔约国因其本国法律制度原则而无法采取本条第一款第㈠项所述措施的，可采取必要的立法措施和其他措施，确保在其领土内应用技术手段实时收集或记录其领土内特定通信的内容数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_336" class="MercuryDocument">
+              <content eId="para_336__content">
+                <p xml:space="preserve">三、各缔约国均应采取必要的立法措施和其他措施，责成服务提供者对本条规定的任何权力的行使情况以及与之相关的任何信息保守秘密。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_337" class="MercuryDocument">
+              <content eId="para_337__content">
+                <p xml:space="preserve">		第三十一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_338" class="MercuryDocument">
+              <content eId="para_338__content">
+                <p xml:space="preserve">		冻结、扣押和没收犯罪所得</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_339" class="MercuryDocument">
+              <content eId="para_339__content">
+                <p xml:space="preserve">一、各缔约国均应在本国法律制度的范围内尽最大可能采取必要措施，以便得以没收：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_340" class="MercuryDocument">
+              <content eId="para_340__content">
+                <p xml:space="preserve">	㈠	根据本公约确立的犯罪所产生的犯罪所得或者价值与此类所得相当的财产；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_341" class="MercuryDocument">
+              <content eId="para_341__content">
+                <p xml:space="preserve">	㈡	在根据本公约确立的犯罪中使用或预备使用的财产、设备或者其他工具。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_342" class="MercuryDocument">
+              <content eId="para_342__content">
+                <p xml:space="preserve">二、各缔约国均应采取必要措施，促成识别、追查、冻结或扣押本条第一款所述任何物项，以便最终予以没收。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_343" class="MercuryDocument">
+              <content eId="para_343__content">
+                <p xml:space="preserve">三、各缔约国均应根据本国法律采取必要的立法措施和其他措施，规范主管机关对本条第一款和第二款涵盖的已冻结、扣押或没收的财产的管理。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_344" class="MercuryDocument">
+              <content eId="para_344__content">
+                <p xml:space="preserve">四、如果犯罪所得已部分或全部转变或转化为其他财产，则应当以此类财产代替犯罪所得，适用本条所述措施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_345" class="MercuryDocument">
+              <content eId="para_345__content">
+                <p xml:space="preserve">五、如果犯罪所得已与从合法来源获得的财产相混合，则应当在不影响与冻结或扣押有关的任何权力的情况下没收该等财产，没收价值不超过混合于其中的犯罪所得的估定价值。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_346" class="MercuryDocument">
+              <content eId="para_346__content">
+                <p xml:space="preserve">六、对于犯罪所得产生的、犯罪所得转变或者转化而成的财产产生的或者已经混合了犯罪所得的财产产生的收入或者其他收益，亦应适用本条所述措施，处置方式和程度与处置犯罪所得相同。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_347" class="MercuryDocument">
+              <content eId="para_347__content">
+                <p xml:space="preserve">七、为本公约本条和第五十条之目的，各缔约国均应授权其法院或其他主管机关下令提供或扣押银行记录、财务记录或商业记录。缔约国不得以银行保密为由拒绝按照本款规定采取行动。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_348" class="MercuryDocument">
+              <content eId="para_348__content">
+                <p xml:space="preserve">八、各缔约国均可考虑能否要求由犯罪人证明涉嫌犯罪所得或应予没收的其他财产具有合法来源，但此类要求应当符合本国法律原则以及司法程序和其他程序的性质。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_349" class="MercuryDocument">
+              <content eId="para_349__content">
+                <p xml:space="preserve">九、不得对本条的规定作损害善意第三方权利的解释。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_350" class="MercuryDocument">
+              <content eId="para_350__content">
+                <p xml:space="preserve">十、本条的任何规定均不得影响以下原则：即本条所述各项措施应当依照缔约国的本国法律规定予以界定和实施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_351" class="MercuryDocument">
+              <content eId="para_351__content">
+                <p xml:space="preserve">		第三十二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_352" class="MercuryDocument">
+              <content eId="para_352__content">
+                <p xml:space="preserve">		建立犯罪记录</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_353" class="MercuryDocument">
+              <content eId="para_353__content">
+                <p xml:space="preserve">	各缔约国均可采取必要的立法措施或其他措施，按其认为适宜的条件并为其认为适宜的目的，考虑别国此前对被指控犯罪人作出的任何有罪判决，以便在涉及根据本公约确立的犯罪的刑事诉讼中利用此类信息。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_354" class="MercuryDocument">
+              <content eId="para_354__content">
+                <p xml:space="preserve">		第三十三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_355" class="MercuryDocument">
+              <content eId="para_355__content">
+                <p xml:space="preserve">		保护证人</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_356" class="MercuryDocument">
+              <content eId="para_356__content">
+                <p xml:space="preserve">一、各缔约国均应根据本国法律并在力所能及的范围内采取适当措施，有效保护那些针对根据本公约确立的犯罪提供证言或本着善意和基于合理理由提供信息或以其他方式与侦查机关或司法机关配合的证人，并酌情有效保护其亲属和其他与其关系密切的人，以使他们免遭可能的报复或恐吓。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_357" class="MercuryDocument">
+              <content eId="para_357__content">
+                <p xml:space="preserve">二、在无损于被告人包括其正当程序权在内的权利的情况下，本条第一款所述措施可特别包括：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_358" class="MercuryDocument">
+              <content eId="para_358__content">
+                <p xml:space="preserve">	㈠	制定向此类人员提供人身保护的程序，例如在必要和可行时将其转移，并在适当情况下允许不披露或限制披露有关其身份和行踪的资料；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_359" class="MercuryDocument">
+              <content eId="para_359__content">
+                <p xml:space="preserve">	㈡	制定允许证人以确保其安全的方式作证的取证规则，例如允许借助于视频链接等通信技术或其他适当手段提供证言。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_360" class="MercuryDocument">
+              <content eId="para_360__content">
+                <p xml:space="preserve">三、缔约国应当考虑与其他国家订立有关转移本条第一款所述人员的协议或安排。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_361" class="MercuryDocument">
+              <content eId="para_361__content">
+                <p xml:space="preserve">四、本条的规定亦应适用于作为证人的受害人。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_362" class="MercuryDocument">
+              <content eId="para_362__content">
+                <p xml:space="preserve">		第三十四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_363" class="MercuryDocument">
+              <content eId="para_363__content">
+                <p xml:space="preserve">		帮助和保护受害人</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_364" class="MercuryDocument">
+              <content eId="para_364__content">
+                <p xml:space="preserve">一、各缔约国均应在其力所能及的范围内采取适当措施，向根据本公约确立的犯罪的受害人提供帮助和保护，尤其是在其受到报复威胁或恐吓的情况下。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_365" class="MercuryDocument">
+              <content eId="para_365__content">
+                <p xml:space="preserve">二、	各缔约国均应在符合本国法律的情况下制定适当的程序，使根据本公约确立的犯罪的受害人有机会获得赔偿和补偿。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_366" class="MercuryDocument">
+              <content eId="para_366__content">
+                <p xml:space="preserve">三、各缔约国均应在符合本国法律的情况下，在对犯罪人提起的刑事诉讼的适当阶段，以不损害犯罪人的辩护权的方式使受害人的意见和关切得到表达和考虑。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_367" class="MercuryDocument">
+              <content eId="para_367__content">
+                <p xml:space="preserve">四、对于根据本公约第十四条至第十六条确立的犯罪，各缔约国均应在符合本国法律的情况下采取措施，与相关国际组织、非政府组织和其他民间社会团体合作，向此类犯罪的受害人提供帮助，包括使其身心得到康复。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_368" class="MercuryDocument">
+              <content eId="para_368__content">
+                <p xml:space="preserve">五、	各缔约国在适用本条第二款至第四款的规定时，均应考虑到受害人的年龄、性别以及特殊情况和需要，包括儿童的特殊情况和需要。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_369" class="MercuryDocument">
+              <content eId="para_369__content">
+                <p xml:space="preserve">六、	各缔约国均应在本国法律框架允许的限度内采取有效步骤，确保遵从关于移除本公约第十四条和第十六条中所指内容或使之无法访问的请求。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_370" class="MercuryDocument">
+              <content eId="para_370__content">
+                <p xml:space="preserve">		第五章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_371" class="MercuryDocument">
+              <content eId="para_371__content">
+                <p xml:space="preserve">		国际合作</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_372" class="MercuryDocument">
+              <content eId="para_372__content">
+                <p xml:space="preserve">		第三十五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_373" class="MercuryDocument">
+              <content eId="para_373__content">
+                <p xml:space="preserve">		国际合作的一般原则</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_374" class="MercuryDocument">
+              <content eId="para_374__content">
+                <p xml:space="preserve">一、	缔约国应当依照本公约的规定以及关于刑事事项国际合作的其他适用国际文书以及本国法律，为下列目的开展合作：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_375" class="MercuryDocument">
+              <content eId="para_375__content">
+                <p xml:space="preserve">	㈠	对根据本公约确立的刑事犯罪进行的侦查、起诉和与之相关的司法程序，包括对此类犯罪所得的冻结、扣押、没收和返还；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_376" class="MercuryDocument">
+              <content eId="para_376__content">
+                <p xml:space="preserve">	㈡	收集、获取、保全和共享根据本公约确立的刑事犯罪的电子证据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_377" class="MercuryDocument">
+              <content eId="para_377__content">
+                <p xml:space="preserve">	㈢	收集、获取、保全和共享任何严重犯罪的电子证据，包括根据本公约通过时有效的其他适用的联合国公约和议定书所确立的严重犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_378" class="MercuryDocument">
+              <content eId="para_378__content">
+                <p xml:space="preserve">二、	按本条第一款第㈡项和第㈢项的规定收集、获取、保全和共享犯罪电子证据的，应当适用本公约第四十条有关款项以及第四十一至第四十六条。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_379" class="MercuryDocument">
+              <content eId="para_379__content">
+                <p xml:space="preserve">三、	在国际合作事项上，凡将双重犯罪视作一项条件的，如果在协助请求中所指的犯罪行为在请求缔约国和被请求缔约国的法律中均属刑事犯罪，则此项条件即应视作已得到满足，而不论这两个缔约国各自的法律是否均将此种犯罪列入相同的犯罪类别或者是否使用相同的术语指称此种犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_380" class="MercuryDocument">
+              <content eId="para_380__content">
+                <p xml:space="preserve">		第三十六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_381" class="MercuryDocument">
+              <content eId="para_381__content">
+                <p xml:space="preserve">		保护个人数据</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_382" class="MercuryDocument">
+              <content eId="para_382__content">
+                <p xml:space="preserve">一、㈠	缔约国在根据本公约转移个人数据时，应当遵守本国法律以及适用的国际法所规定的任何转移方义务。缔约国依照关于保护个人数据的有关法律不能提供个人数据的，不应要求该缔约国按照本公约转移个人数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_383" class="MercuryDocument">
+              <content eId="para_383__content">
+                <p xml:space="preserve">	㈡	个人数据转移不符合本条第一款第㈠项的，缔约国可根据适用法律寻求施加适当条件以实现合规性，以便对索取个人数据的请求作出回应； </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_384" class="MercuryDocument">
+              <content eId="para_384__content">
+                <p xml:space="preserve">	㈢	鼓励缔约国订立双边或多边安排，以期便利个人数据的转移。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_385" class="MercuryDocument">
+              <content eId="para_385__content">
+                <p xml:space="preserve">二、	对于根据本公约转移的个人数据，缔约国应当确保所收到的个人数据在缔约国各自的法律框架内得到有效而适当的保障。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_386" class="MercuryDocument">
+              <content eId="para_386__content">
+                <p xml:space="preserve">三、	为能将根据本公约获得的个人数据转移到第三国或某一国际组织，缔约国应当将其意图通知原转移缔约国并请求其为此授权。缔约国只有在原转移缔约国予以授权的情况下才可转移此类个人数据，原转移缔约国可要求以书面形式提供此种授权。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_387" class="MercuryDocument">
+              <content eId="para_387__content">
+                <p xml:space="preserve">		第三十七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_388" class="MercuryDocument">
+              <content eId="para_388__content">
+                <p xml:space="preserve">		引渡</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_389" class="MercuryDocument">
+              <content eId="para_389__content">
+                <p xml:space="preserve">一、本条应当适用于根据本公约确立的刑事犯罪，条件是被请求引渡人位于被请求缔约国领土内，且寻求引渡所涉犯罪根据请求缔约国和被请求缔约国的本国法律均为可惩处的犯罪。如果请求引渡的目的是执行对可引渡犯罪判处的最终监禁或其他形式的拘禁，则被请求缔约国可依据本国法律准予引渡。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_390" class="MercuryDocument">
+              <content eId="para_390__content">
+                <p xml:space="preserve">二、虽有本条第一款的规定，缔约国在本国法律允许的情况下，可准予引渡犯有根据本公约确立的任何刑事犯罪、但依照本国法律不予惩处的人员。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_391" class="MercuryDocument">
+              <content eId="para_391__content">
+                <p xml:space="preserve">三、如果引渡请求包括几项独立的刑事犯罪，其中至少有一项犯罪可以依照本条规定予以引渡，而其中几项犯罪由于监禁期的原因不可引渡、但却与根据本公约确立的犯罪有关，则被请求缔约国也可对这些犯罪适用本条的规定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_392" class="MercuryDocument">
+              <content eId="para_392__content">
+                <p xml:space="preserve">四、本条适用的各项犯罪均应视作已列入缔约国之间现行任何引渡条约的可引渡犯罪。缔约国承诺将此类犯罪作为可引渡犯罪列入在它们之间将要缔结的每一项引渡条约。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_393" class="MercuryDocument">
+              <content eId="para_393__content">
+                <p xml:space="preserve">五、以订有条约为引渡条件的缔约国，如果接到未与之订有引渡条约的另一缔约国的引渡请求，则可将本公约视为对本条所适用的任何犯罪予以引渡的法律依据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_394" class="MercuryDocument">
+              <content eId="para_394__content">
+                <p xml:space="preserve">六、以订有条约为引渡条件的缔约国应当：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_395" class="MercuryDocument">
+              <content eId="para_395__content">
+                <p xml:space="preserve">	㈠	在交存本公约的批准书、接受书、核准书或加入书时通知联合国秘书长，说明其是否将以本公约为法律依据与本公约其他缔约国进行引渡合作；并且</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_396" class="MercuryDocument">
+              <content eId="para_396__content">
+                <p xml:space="preserve">	㈡	如其不以本公约作为引渡合作的法律依据，则在适当情况下寻求与本公约其他缔约国缔结引渡条约，以实施本条规定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_397" class="MercuryDocument">
+              <content eId="para_397__content">
+                <p xml:space="preserve">七、不以订有条约为引渡条件的缔约国应当承认本条所适用的犯罪为它们之间可以相互引渡的犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_398" class="MercuryDocument">
+              <content eId="para_398__content">
+                <p xml:space="preserve">八、引渡应当符合被请求缔约国的本国法律或适用的引渡条约所规定的条件，其中包括与引渡的最低刑罚要求有关的条件以及被请求缔约国可据以拒绝引渡的理由。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_399" class="MercuryDocument">
+              <content eId="para_399__content">
+                <p xml:space="preserve">九、对于本条所适用的任何犯罪，缔约国应当在符合本国法律的情况下，努力加快引渡程序并简化与之相关的证据要求。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_400" class="MercuryDocument">
+              <content eId="para_400__content">
+                <p xml:space="preserve">十、被请求缔约国在不违背本国法律和引渡条约规定的情况下，可以在认定情况必要而且紧迫时，根据请求缔约国的请求，包括通过国际刑事警察组织现有渠道转交的请求，拘留位于其领土内的被请求引渡人，或者采取其他适当措施，确保该人在进行引渡程序时在场。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_401" class="MercuryDocument">
+              <content eId="para_401__content">
+                <p xml:space="preserve">十一、如果被指控罪犯被发现位于某一缔约国领土内而该国仅以该人系本国国民为理由不就本条所适用的犯罪予以引渡，则该国有义务在寻求引渡的缔约国提出请求时将该案提交本国主管机关以便进行起诉，而不得有任何不当延误。这些机关作出决定和进行诉讼程序的方式应当与根据该缔约国本国法律对性质相当的其他任何犯罪采用的方式相同。有关缔约国应当相互合作，特别是在程序和证据方面相互合作，以确保这些起诉的效率。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_402" class="MercuryDocument">
+              <content eId="para_402__content">
+                <p xml:space="preserve">十二、如果缔约国本国法律允许引渡或移交本国国民的条件是，须将该人送还本国按照引渡或移交请求所涉审判或诉讼作出的判决服刑，且该缔约国和寻求引渡该人的缔约国均同意这一选择以及双方可能认为适宜的其他条件，则此种有条件的引渡或移交即足以解除该缔约国根据本条第十一款所承担的义务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_403" class="MercuryDocument">
+              <content eId="para_403__content">
+                <p xml:space="preserve">十三、如果为执行判决而提出的引渡请求因被请求引渡人员系被请求缔约国的国民而遭到拒绝，则被请求缔约国应当在本国法律允许且符合该法律的要求的情况下，根据请求缔约国的申请，考虑执行根据请求国本国法律判处的刑期或尚未服满的刑期。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_404" class="MercuryDocument">
+              <content eId="para_404__content">
+                <p xml:space="preserve">十四、在对任何人员就本条所适用的任何犯罪提起诉讼时，应当确保其在诉讼的所有阶段得到公平待遇，包括享有其所在缔约国本国法律所提供的一切权利和保障。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_405" class="MercuryDocument">
+              <content eId="para_405__content">
+                <p xml:space="preserve">十五、如果被请求缔约国有充分理由认为提出引渡请求是为了以某人的性别、种族、语言、宗教、国籍、族裔或政治观点为由对其进行起诉或惩处，或如果执行该请求将会使该人的地位因上述任一原因而受到损害，则本公约的任何规定均不得解释为强制规定了引渡义务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_406" class="MercuryDocument">
+              <content eId="para_406__content">
+                <p xml:space="preserve">十六、缔约国不得仅以犯罪亦被视为涉及财税事项为由而拒绝引渡请求。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_407" class="MercuryDocument">
+              <content eId="para_407__content">
+                <p xml:space="preserve">十七、被请求缔约国在拒绝引渡之前应当酌情与请求缔约国磋商，以使其有充分机会陈述自己的意见和提供与其指控有关的资料。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_408" class="MercuryDocument">
+              <content eId="para_408__content">
+                <p xml:space="preserve">十八、被请求缔约国应当将其关于引渡的决定通知请求缔约国。被请求缔约国应告知请求缔约国拒绝引渡的任何理由，除非被请求缔约国的本国法律或其国际法律义务不允许其作出此种告知。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_409" class="MercuryDocument">
+              <content eId="para_409__content">
+                <p xml:space="preserve">十九、各缔约国均应在签署本公约时或在交存其批准书、接受书、核准书或加入书时，告知联合国秘书长负责提出或接收引渡请求或临时逮捕请求的机关的名称和地址。秘书长应当建立并不断更新缔约国所指定的此类机关的登记册。各缔约国均应确保登记册上登记的详细信息始终正确无误。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_410" class="MercuryDocument">
+              <content eId="para_410__content">
+                <p xml:space="preserve">二十、缔约国应当力求缔结双边和多边协定或安排，以执行引渡或加强引渡的成效。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_411" class="MercuryDocument">
+              <content eId="para_411__content">
+                <p xml:space="preserve">		第三十八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_412" class="MercuryDocument">
+              <content eId="para_412__content">
+                <p xml:space="preserve">		被判刑人员的移管</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_413" class="MercuryDocument">
+              <content eId="para_413__content">
+                <p xml:space="preserve">	缔约国可考虑缔结双边或多边协定或安排，将因实施根据本公约确立的犯罪而被判处监禁或以其他形式被剥夺自由的人员移交其本国服满刑期，同时考虑到被判刑人员的权利。缔约国还可考虑与此类人员的意愿、改造和重返社会有关的问题。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_414" class="MercuryDocument">
+              <content eId="para_414__content">
+                <p xml:space="preserve">		第三十九条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_415" class="MercuryDocument">
+              <content eId="para_415__content">
+                <p xml:space="preserve">		刑事诉讼的移交</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_416" class="MercuryDocument">
+              <content eId="para_416__content">
+                <p xml:space="preserve">一、如果缔约国认为移交诉讼有利于正当司法，特别是在涉及数国管辖权时，为了进行集中起诉，应当考虑相互移交诉讼的可能性，以便对根据本公约确立的犯罪进行刑事诉讼。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_417" class="MercuryDocument">
+              <content eId="para_417__content">
+                <p xml:space="preserve">二、以订有条约为移交刑事诉讼条件的缔约国，如果收到未与之在此事项上订有条约的另一缔约国的移交请求，可以本公约为法律依据移交对本条所适用的任何犯罪的刑事诉讼。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_418" class="MercuryDocument">
+              <content eId="para_418__content">
+                <p xml:space="preserve">		第四十条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_419" class="MercuryDocument">
+              <content eId="para_419__content">
+                <p xml:space="preserve">		司法协助的一般原则和程序</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_420" class="MercuryDocument">
+              <content eId="para_420__content">
+                <p xml:space="preserve">一、缔约国应当在与根据本公约确立的犯罪有关的侦查、起诉和司法程序中，以及在收集根据本公约确立的犯罪和其他严重犯罪的电子证据方面，相互提供最广泛的司法协助。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_421" class="MercuryDocument">
+              <content eId="para_421__content">
+                <p xml:space="preserve">二、对于请求缔约国根据本公约第十八条可能追究法人责任的犯罪进行的侦查、起诉和司法程序，应当根据被请求缔约国的有关法律、条约、协定和安排，尽可能充分地提供司法协助。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_422" class="MercuryDocument">
+              <content eId="para_422__content">
+                <p xml:space="preserve">三、	可为下列任何目的请求根据本条提供司法协助：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_423" class="MercuryDocument">
+              <content eId="para_423__content">
+                <p xml:space="preserve">	㈠	向个人获取证据或陈词；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_424" class="MercuryDocument">
+              <content eId="para_424__content">
+                <p xml:space="preserve">	㈡	送达司法文书；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_425" class="MercuryDocument">
+              <content eId="para_425__content">
+                <p xml:space="preserve">	㈢	执行搜查和扣押，以及冻结；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_426" class="MercuryDocument">
+              <content eId="para_426__content">
+                <p xml:space="preserve">	㈣	根据本公约第四十四条搜查或以类似方式访问、扣押或以类似方式获取和披露使用信息通信技术系统存储的电子数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_427" class="MercuryDocument">
+              <content eId="para_427__content">
+                <p xml:space="preserve">	㈤	根据本公约第四十五条实时收集流量数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_428" class="MercuryDocument">
+              <content eId="para_428__content">
+                <p xml:space="preserve">	㈥	根据本公约第四十六条拦截内容数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_429" class="MercuryDocument">
+              <content eId="para_429__content">
+                <p xml:space="preserve">	㈦	检查物品和场所；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_430" class="MercuryDocument">
+              <content eId="para_430__content">
+                <p xml:space="preserve">	㈧	提供资料、证据以及专家鉴定意见；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_431" class="MercuryDocument">
+              <content eId="para_431__content">
+                <p xml:space="preserve">	㈨	提供有关文件和记录的原件或经核证的副本，其中包括政府、银行、财务、公司或业务的记录；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_432" class="MercuryDocument">
+              <content eId="para_432__content">
+                <p xml:space="preserve">	㈩	为取证目的而辨认或追查犯罪所得、财产、工具或其他物项；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_433" class="MercuryDocument">
+              <content eId="para_433__content">
+                <p xml:space="preserve">	(十一)  为有关人员自愿前往请求缔约国出庭提供方便；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_434" class="MercuryDocument">
+              <content eId="para_434__content">
+                <p xml:space="preserve">	(十二)  追回犯罪所得；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_435" class="MercuryDocument">
+              <content eId="para_435__content">
+                <p xml:space="preserve">	(十三)  不违反被请求缔约国本国法律的任何其他类型的协助。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_436" class="MercuryDocument">
+              <content eId="para_436__content">
+                <p xml:space="preserve">四、缔约国主管机关如认为与刑事事项有关的资料可能有助于另一缔约国主管机关进行或顺利完成调查和刑事诉讼程序，或可以促成该另一缔约国根据本公约提出请求，则可在不违反本国法律的情况下，无需事先请求而向该缔约国主管机关传送此类资料。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_437" class="MercuryDocument">
+              <content eId="para_437__content">
+                <p xml:space="preserve">五、根据本条第四款传送资料时，不应当影响提供资料的主管机关所属国的侦查和刑事诉讼程序。接收资料的主管机关应当遵守对该资料进行保密的要求，即便是暂时予以保密，或遵守对资料的使用的限制规定。但这不应妨碍接收方缔约国在其诉讼中披露可证明被控告人无罪的资料。在此种情况下，接收方缔约国应当在披露之前通知提供方缔约国，而且，如有要求，还应当就此与提供方缔约国进行协商。如果在特殊情况下无法事先通知，则接收方缔约国应当毫不迟延地将披露一事通报提供方缔约国。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_438" class="MercuryDocument">
+              <content eId="para_438__content">
+                <p xml:space="preserve">六、本条各项规定概不影响规范或将要规范整个或部分司法协助事宜的任何其他双边或多边条约所规定的义务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_439" class="MercuryDocument">
+              <content eId="para_439__content">
+                <p xml:space="preserve">七、如果有关缔约国无司法协助条约的约束，则本条第八款至第三十一款应当适用于根据本条提出的请求。如果有关缔约国有此类条约的约束，则适用条约的相应条款，除非这些缔约国同意代之以适用本条第八款至第三十一款。大力鼓励缔约国在这几款有助于开展合作时予以适用。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_440" class="MercuryDocument">
+              <content eId="para_440__content">
+                <p xml:space="preserve">八、缔约国可以不构成双重犯罪为由拒绝依照本条提供协助。但被请求缔约国可在其认为适当时在其斟酌决定的范围内提供协助，而不论所涉行为按被请求缔约国本国法律是否构成犯罪。如果请求所涉事项性质极为轻微或所寻求的合作或协助可以依照本公约其他条款获得，则被请求缔约国可拒绝提供协助。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_441" class="MercuryDocument">
+              <content eId="para_441__content">
+                <p xml:space="preserve">九、	在一缔约国领土内被羁押或服刑的人员，如果被要求前往另一缔约国进行辨认、作证或者提供其他协助，以便为与根据本公约确立的犯罪有关的侦查、起诉或者司法程序获取证据，则在满足下列条件的情况下，可予以移送：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_442" class="MercuryDocument">
+              <content eId="para_442__content">
+                <p xml:space="preserve">	㈠	该人在知情后自由表示同意；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_443" class="MercuryDocument">
+              <content eId="para_443__content">
+                <p xml:space="preserve">	㈡	双方缔约国主管机关均同意，但须符合这些缔约国认为适当的条件。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_444" class="MercuryDocument">
+              <content eId="para_444__content">
+                <p xml:space="preserve">十、就本条第九款而言：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_445" class="MercuryDocument">
+              <content eId="para_445__content">
+                <p xml:space="preserve">	㈠	该人被移送前往的缔约国应当有权力和义务羁押被移送人，除非移送缔约国另有要求或授权；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_446" class="MercuryDocument">
+              <content eId="para_446__content">
+                <p xml:space="preserve">	㈡	该人被移送前往的缔约国应当毫不迟延地履行义务，按照双方缔约国主管机关事先达成的协议或其他协议，将该人交还移送缔约国羁押；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_447" class="MercuryDocument">
+              <content eId="para_447__content">
+                <p xml:space="preserve">	㈢	该人被移送前往的缔约国不得要求移送缔约国为该人的交还而启动引渡程序；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_448" class="MercuryDocument">
+              <content eId="para_448__content">
+                <p xml:space="preserve">	㈣	被移送人在被移送前往的缔约国的羁押时间应当折抵其在移送国执行的刑期。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_449" class="MercuryDocument">
+              <content eId="para_449__content">
+                <p xml:space="preserve">十一、除非依照本条第九款和第十款移送某人的缔约国同意，否则无论该人国籍为何，均不得因其离开被请求缔约国之前的作为、不作为或被定罪而在请求缔约国领土内被起诉、羁押、处罚，或在其自由方面受到任何其他限制。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_450" class="MercuryDocument">
+              <content eId="para_450__content">
+                <p xml:space="preserve">十二、㈠	各缔约国均应指定一个或多个中央机关，由其负责且有权接收司法协助请求并执行请求或将请求转交主管机关执行。如果缔约国有实行单独司法协助制度的特区或者领土，则可为该特区或领土另外指定一个具有同样职能的中央机关；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_451" class="MercuryDocument">
+              <content eId="para_451__content">
+                <p xml:space="preserve">	㈡	中央机关应当确保所收到的请求得到迅速而妥善的执行或转交。中央机关在将请求转交某一主管机关执行时，应鼓励该主管机关迅速而妥善地执行请求；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_452" class="MercuryDocument">
+              <content eId="para_452__content">
+                <p xml:space="preserve">	㈢	各缔约国均应在交存本公约的批准书、接受书、核准书或加入书时将为此目的指定的中央机关通知联合国秘书长；秘书长应建立并不断更新缔约国所指定的中央机关登记册。各缔约国均应确保登记册上登记的详细信息始终正确无误；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_453" class="MercuryDocument">
+              <content eId="para_453__content">
+                <p xml:space="preserve">	㈣	司法协助请求以及与之相关的任何函件均应递交缔约国指定的中央机关。此项规定不得损害缔约国要求通过外交渠道以及在紧急和可能的情况下经有关缔约国同意通过国际刑事警察组织向其传送此种请求和函件的权利。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_454" class="MercuryDocument">
+              <content eId="para_454__content">
+                <p xml:space="preserve">十三、请求应当以被请求缔约国所能接受的语文以书面形式提出，或在可能情况下以能够生成书面记录的任何手段提出，但须能使该缔约国得以鉴定其真实性。各缔约国均应在交存本公约的批准书、接受书、核准书或者加入书时将其所能接受的一种或多种语文通知联合国秘书长。在紧急情况下，如经有关缔约国同意，请求可采用口头方式提出，但应立即加以书面确认。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_455" class="MercuryDocument">
+              <content eId="para_455__content">
+                <p xml:space="preserve">十四、鼓励缔约国中央机关在本国法律未予禁止的情况下，以电子形式传送和接收司法协助请求书、与之相关的函件以及证据，但条件是须允许被请求缔约国确定其真实性并确保通讯安全。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_456" class="MercuryDocument">
+              <content eId="para_456__content">
+                <p xml:space="preserve">十五、司法协助请求书中应当列明如下各项：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_457" class="MercuryDocument">
+              <content eId="para_457__content">
+                <p xml:space="preserve">	㈠	提出请求的机关；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_458" class="MercuryDocument">
+              <content eId="para_458__content">
+                <p xml:space="preserve">	㈡	请求所涉及的侦查、起诉或司法程序的事由和性质，以及负责进行该项侦查、起诉或司法程序的机关的名称和职能；	</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_459" class="MercuryDocument">
+              <content eId="para_459__content">
+                <p xml:space="preserve">	㈢	有关事实的概述，但为送达司法文书提出的请求除外；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_460" class="MercuryDocument">
+              <content eId="para_460__content">
+                <p xml:space="preserve">	㈣	说明所请求的协助以及请求缔约国希望得到遵循的特定程序细节；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_461" class="MercuryDocument">
+              <content eId="para_461__content">
+                <p xml:space="preserve">	㈤	在可能且适当的情况下，任何有关人员的身份、所在地和国籍，以及任何有关物项或账户的来源国、说明和所在地；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_462" class="MercuryDocument">
+              <content eId="para_462__content">
+                <p xml:space="preserve">	㈥	在适用情况下，请求提供证据、资料或其他协助的时间段；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_463" class="MercuryDocument">
+              <content eId="para_463__content">
+                <p xml:space="preserve">	㈦	请求提供证据、资料或其他协助的目的。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_464" class="MercuryDocument">
+              <content eId="para_464__content">
+                <p xml:space="preserve">十六、被请求缔约国可要求提供按照其本国法律执行该请求所必需的或有助于执行该请求的补充资料。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_465" class="MercuryDocument">
+              <content eId="para_465__content">
+                <p xml:space="preserve">十七、请求应根据被请求缔约国本国法律执行，在不违反被请求缔约国本国法律的情况下，如有可能，应当遵循请求书中所列明的程序执行。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_466" class="MercuryDocument">
+              <content eId="para_466__content">
+                <p xml:space="preserve">十八、当位于某一缔约国领土内的某人需作为证人、受害人或鉴定专家接受另一缔约国司法机关询问，且该人不可能或不宜亲身前往请求缔约国领土内时，被请求缔约国可根据该另一缔约国的请求，在可能且符合其本国法律的基本原则的情况下，允许以视频会议方式进行询问。缔约国可商定由请求缔约国司法机关进行询问，且询问时应有被请求缔约国司法机关在场。如果被请求缔约国无法获得举行视频会议所需的技术手段，则可共同商定由请求缔约国提供此种手段。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_467" class="MercuryDocument">
+              <content eId="para_467__content">
+                <p xml:space="preserve">十九、未经被请求缔约国事先同意，请求缔约国不得将被请求缔约国提供的资料或证据转交或用于请求书所述以外的侦查、起诉或司法程序。本款中的任何规定均不妨碍请求缔约国在其诉讼中披露可证明被告人无罪的资料或证据。就后一种情形而言，请求缔约国应当在予以披露之前通知被请求缔约国，并依请求与被请求缔约国磋商。如在特殊情况下无法事先通知，则请求缔约国应当毫不迟延地将披露一事通告被请求缔约国。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_468" class="MercuryDocument">
+              <content eId="para_468__content">
+                <p xml:space="preserve">二十、请求缔约国可要求被请求缔约国对其所提出的请求及其内容予以保密，但为执行请求所必需时除外。如果被请求缔约国不能遵守保密要求，则应当立即就此通知请求缔约国。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_469" class="MercuryDocument">
+              <content eId="para_469__content">
+                <p xml:space="preserve">二十一、在下列情形中可拒绝提供司法协助：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_470" class="MercuryDocument">
+              <content eId="para_470__content">
+                <p xml:space="preserve">	㈠	请求未按本条的规定提出；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_471" class="MercuryDocument">
+              <content eId="para_471__content">
+                <p xml:space="preserve">	㈡	被请求缔约国认为执行请求可能损害其主权、安全、公共秩序或其他基本利益；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_472" class="MercuryDocument">
+              <content eId="para_472__content">
+                <p xml:space="preserve">	㈢	假如被请求缔约国主管机关依其管辖权对任何类似犯罪进行侦查、起诉或司法程序，其本国法律将会禁止该主管机关对此类犯罪采取被请求的行动；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_473" class="MercuryDocument">
+              <content eId="para_473__content">
+                <p xml:space="preserve">	㈣	若同意此种请求，将会违反被请求缔约国关于司法协助的法律制度。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_474" class="MercuryDocument">
+              <content eId="para_474__content">
+                <p xml:space="preserve">二十二、如果被请求缔约国有充分理由认为提出请求是为了以某人的性别、种族、语言、宗教、国籍、族裔或政治观点为由对其进行起诉或惩处，或认为满足该请求将使该人的地位因上述任一原因而受到损害，则本公约的任何规定均不得解释为强制规定了提供司法协助的义务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_475" class="MercuryDocument">
+              <content eId="para_475__content">
+                <p xml:space="preserve">二十三、缔约国不得仅以犯罪亦被视为涉及财税事项为由而拒绝司法协助请求。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_476" class="MercuryDocument">
+              <content eId="para_476__content">
+                <p xml:space="preserve">二十四、缔约国不得以银行保密为由拒绝根据本条提供司法协助。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_477" class="MercuryDocument">
+              <content eId="para_477__content">
+                <p xml:space="preserve">二十五、拒绝司法协助时应当说明理由。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_478" class="MercuryDocument">
+              <content eId="para_478__content">
+                <p xml:space="preserve">二十六、被请求缔约国应当尽快执行司法协助请求，并应尽可能充分考虑到请求缔约国提出的、最好能在请求中说明了理由的任何最后期限。被请求缔约国应当依请求缔约国的合理要求就请求的当前状态及其处理请求的进展情况作出答复。请求缔约国应当在其不再需要被请求国提供所寻求的协助时迅速通知被请求缔约国。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_479" class="MercuryDocument">
+              <content eId="para_479__content">
+                <p xml:space="preserve">二十七、被请求缔约国可以司法协助会妨碍正在进行的侦查、起诉或司法程序为由而暂缓执行。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_480" class="MercuryDocument">
+              <content eId="para_480__content">
+                <p xml:space="preserve">二十八、在根据本条第二十一款拒绝某项请求或根据本条第二十七款暂缓执行请求事项之前，被请求缔约国应当与请求缔约国协商，考虑是否可在其认为必要的条款和条件下给予协助。请求缔约国如果接受附有条件限制的协助，则应遵守这些条件。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_481" class="MercuryDocument">
+              <content eId="para_481__content">
+                <p xml:space="preserve">二十九、在不影响适用本条第十一款的情况下，根据请求缔约国的请求而同意前往请求缔约国领土内就某项诉讼作证或为某项侦查、起诉或司法程序提供协助的证人、鉴定专家或其他人员，不得因其离开被请求缔约国之前的作为、不作为或定罪而在请求缔约国领土内被起诉、羁押、处罚，或在其自由方面受到任何其他限制。如该证人、鉴定专家或其他人员已得到司法机关不再需要其到场的正式通知，在自通知之日起连续十五天内或在所涉缔约国所商定的任何期限内，有机会离开但仍自愿留在请求缔约国领土内，或在离开该领土后又自愿返回，则此项安全通行权即不再有效。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_482" class="MercuryDocument">
+              <content eId="para_482__content">
+                <p xml:space="preserve">三十、除非所涉缔约国另有协议，执行请求的一般费用应当由被请求缔约国承担。如执行请求需要或将需要支付大笔或特殊性质的费用，则应由这些缔约国进行协商，以确定执行相关请求的条款和条件以及费用承担办法。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_483" class="MercuryDocument">
+              <content eId="para_483__content">
+                <p xml:space="preserve">三十一、被请求缔约国：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_484" class="MercuryDocument">
+              <content eId="para_484__content">
+                <p xml:space="preserve">	㈠	应当向请求缔约国提供其所拥有的、依其本国法律可向公众公开的政府记录、文件或资料的副本；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_485" class="MercuryDocument">
+              <content eId="para_485__content">
+                <p xml:space="preserve">	㈡	可自行斟酌决定全部或部分地或按其认为适当的条件向请求缔约国提供其所拥有的、依其本国法律不可向公众公开的任何政府记录、文件或资料的副本。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_486" class="MercuryDocument">
+              <content eId="para_486__content">
+                <p xml:space="preserve">三十二、缔约国应视需要考虑能否缔结有助于实现本条之目的、具体实施或旨在加强本条各项规定的双边或多边协定或安排。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_487" class="MercuryDocument">
+              <content eId="para_487__content">
+                <p xml:space="preserve">		第四十一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_488" class="MercuryDocument">
+              <content eId="para_488__content">
+                <p xml:space="preserve">		7天24小时全天候网络</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_489" class="MercuryDocument">
+              <content eId="para_489__content">
+                <p xml:space="preserve">一、各缔约国均应指定一个每周7天、每天24小时开放的联络点，以确保为就根据本公约确立的犯罪的具体刑事侦查、起诉或司法程序提供即时协助，或为本条第三款之目的以及就根据本公约确立的犯罪和其他严重犯罪即时协助收集、获取、保全电子证据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_490" class="MercuryDocument">
+              <content eId="para_490__content">
+                <p xml:space="preserve">二、应将此种联络点通知联合国秘书长，秘书长应保存一份为本条目的指定的联络点的最新登记册，并应每年向缔约国分发经过更新的联络点名册。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_491" class="MercuryDocument">
+              <content eId="para_491__content">
+                <p xml:space="preserve">三、	此种协助应当包括促进或在被请求缔约国的本国法律和惯例允许的情况下直接采取以下措施：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_492" class="MercuryDocument">
+              <content eId="para_492__content">
+                <p xml:space="preserve">	㈠	提供技术咨询；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_493" class="MercuryDocument">
+              <content eId="para_493__content">
+                <p xml:space="preserve">	㈡	依照本公约第四十二条和第四十三条保全所存储的电子数据，酌情包括被请求缔约国掌握的服务提供者所在地信息，以协助请求缔约国提出协助请求；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_494" class="MercuryDocument">
+              <content eId="para_494__content">
+                <p xml:space="preserve">	㈢	收集证据和提供法律信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_495" class="MercuryDocument">
+              <content eId="para_495__content">
+                <p xml:space="preserve">	㈣	确定嫌疑人所在地；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_496" class="MercuryDocument">
+              <content eId="para_496__content">
+                <p xml:space="preserve">	㈤	提供电子数据以防发生紧急情况。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_497" class="MercuryDocument">
+              <content eId="para_497__content">
+                <p xml:space="preserve">四、缔约国的联络点应当有能力与另一缔约国的联络点进行快捷通信联络。若缔约国所指定的联络点不隶属于该缔约国负责司法协助或引渡事宜的一个或多个机关，则该联络点应当确保能够快捷地与此类机关进行协调。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_498" class="MercuryDocument">
+              <content eId="para_498__content">
+                <p xml:space="preserve">五、各缔约国均应确保能够提供训练有素且装备齐全的人员，以确保7天24小时全天候网络的运作。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_499" class="MercuryDocument">
+              <content eId="para_499__content">
+                <p xml:space="preserve">六、缔约国亦可在本国法律的限度内酌情利用和加强现有经授权的联络点网络，包括国际刑事警察组织的用于开展警方之间快捷合作的7天24小时全天候计算机相关犯罪问题网络以及其他信息交流合作办法。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_500" class="MercuryDocument">
+              <content eId="para_500__content">
+                <p xml:space="preserve">		第四十二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_501" class="MercuryDocument">
+              <content eId="para_501__content">
+                <p xml:space="preserve">		快速保全存储的电子数据方面的国际合作</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_502" class="MercuryDocument">
+              <content eId="para_502__content">
+                <p xml:space="preserve">一、一缔约国有意提出司法协助请求以搜查或以类似方式访问、扣押或以类似方式获取或披露在另一缔约国领土内使用信息通信技术系统存储的电子数据的，可请该另一缔约国根据本公约第二十五条下令或以其他方式实现快速保全该电子数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_503" class="MercuryDocument">
+              <content eId="para_503__content">
+                <p xml:space="preserve">二、请求缔约国可利用本公约第四十一条规定的7天24小时全天候网络，查找使用信息通信技术系统存储的电子数据所在地信息，并酌情查找服务提供者所在地信息。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_504" class="MercuryDocument">
+              <content eId="para_504__content">
+                <p xml:space="preserve">三、根据本条第一款提出的保全请求应当具体说明：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_505" class="MercuryDocument">
+              <content eId="para_505__content">
+                <p xml:space="preserve">	㈠	寻求保全的机关；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_506" class="MercuryDocument">
+              <content eId="para_506__content">
+                <p xml:space="preserve">	㈡	作为刑事侦查、起诉或司法程序事由的犯罪以及对相关事实的简要概述；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_507" class="MercuryDocument">
+              <content eId="para_507__content">
+                <p xml:space="preserve">	㈢	拟予保全的已存储电子数据及其与犯罪之间的关系；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_508" class="MercuryDocument">
+              <content eId="para_508__content">
+                <p xml:space="preserve">	㈣	所掌握的用以识别存储的电子数据保管人身份或信息通信技术系统所在位置的任何信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_509" class="MercuryDocument">
+              <content eId="para_509__content">
+                <p xml:space="preserve">	㈤	进行保全的必要性；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_510" class="MercuryDocument">
+              <content eId="para_510__content">
+                <p xml:space="preserve">	㈥	请求缔约国有意提交司法协助请求，以搜查或以类似方式访问、扣押或以类似方式获取或者披露所存储的电子数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_511" class="MercuryDocument">
+              <content eId="para_511__content">
+                <p xml:space="preserve">	㈦	酌情说明需要对保全请求保密且不通知所涉用户。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_512" class="MercuryDocument">
+              <content eId="para_512__content">
+                <p xml:space="preserve">四、被请求缔约国收到另一缔约国的请求后，应当根据本国法律采取一切适当措施，快速保全所指定的电子数据。在回应请求时，被请求缔约国不得以构成双重犯罪作为提供此种保全的条件。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_513" class="MercuryDocument">
+              <content eId="para_513__content">
+                <p xml:space="preserve">五、缔约国要求以双重犯罪为条件才能回应关于搜查或以类似方式访问、扣押或以类似方式获取或披露所存储的电子数据的司法协助请求的，对于根据本公约所确立犯罪以外的犯罪，如果有理由认为披露时无法满足双重犯罪的条件，则可保留拒绝根据本条提出的保全请求的权利。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_514" class="MercuryDocument">
+              <content eId="para_514__content">
+                <p xml:space="preserve">六、此外，只能根据本公约第四十条第二十一款第㈡和第㈢项以及第二十二款所列述的理由拒绝保全请求。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_515" class="MercuryDocument">
+              <content eId="para_515__content">
+                <p xml:space="preserve">七、如果被请求缔约国认为实行保全将无法确保相关数据今后可用，或将威胁到请求缔约国侦查工作的保密性，或将以其他方式妨碍请求缔约国进行的侦查，则该缔约国应当立即将此情况通知请求缔约国，由请求缔约国随后决定是否仍然执行该请求。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_516" class="MercuryDocument">
+              <content eId="para_516__content">
+                <p xml:space="preserve">八、按本条第一款所述请求实行的任何保全应当维持一个不短于六十天的时期，以便使请求缔约国得以提出请求搜查或以类似方式访问、扣押或以类似方式获取或披露相关数据。被请求缔约国在收到此种请求后，应当在就该请求作出决定之前继续保全所涉数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_517" class="MercuryDocument">
+              <content eId="para_517__content">
+                <p xml:space="preserve">九、在本条第八款规定的保全期限届满之前，请求缔约国可请求延长保全期限。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_518" class="MercuryDocument">
+              <content eId="para_518__content">
+                <p xml:space="preserve">		第四十三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_519" class="MercuryDocument">
+              <content eId="para_519__content">
+                <p xml:space="preserve">		快速披露所保全的流量数据方面的国际合作</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_520" class="MercuryDocument">
+              <content eId="para_520__content">
+                <p xml:space="preserve">一、被请求缔约国在执行根据本公约第四十二条提出的保全某一特定通信相关流量数据的请求过程中，若发现另一缔约国的服务提供者参与了该通信的传输，则应迅速向请求缔约国披露足够的流量数据以识别该服务提供者和通信传输路径。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_521" class="MercuryDocument">
+              <content eId="para_521__content">
+                <p xml:space="preserve">二、只能根据本公约第四十条第二十一款第㈡项和第㈢项以及第二十二款所列述的理由拒绝按本条第一款的规定披露流量数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_522" class="MercuryDocument">
+              <content eId="para_522__content">
+                <p xml:space="preserve">		第四十四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_523" class="MercuryDocument">
+              <content eId="para_523__content">
+                <p xml:space="preserve">		访问存储的电子数据方面的司法协助</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_524" class="MercuryDocument">
+              <content eId="para_524__content">
+                <p xml:space="preserve">一、一缔约国可请求另一缔约国搜查或以类似方式访问、扣押或以类似方式获取并披露使用位于被请求缔约国领土内的信息通信技术系统存储的电子数据，包括根据本公约第四十二条保全的电子数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_525" class="MercuryDocument">
+              <content eId="para_525__content">
+                <p xml:space="preserve">二、被请求缔约国应当适用本公约第三十五条所述相关国际文书和法律，并根据本章其他相关规定，对此种请求作出回应。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_526" class="MercuryDocument">
+              <content eId="para_526__content">
+                <p xml:space="preserve">三、在下列情况下，应当迅速对请求作出回应：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_527" class="MercuryDocument">
+              <content eId="para_527__content">
+                <p xml:space="preserve">	㈠	有理由认为相关数据特别容易丢失或被修改；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_528" class="MercuryDocument">
+              <content eId="para_528__content">
+                <p xml:space="preserve">	㈡	本条第二款中提及的文书和法律对加快合作另有规定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_529" class="MercuryDocument">
+              <content eId="para_529__content">
+                <p xml:space="preserve">		第四十五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_530" class="MercuryDocument">
+              <content eId="para_530__content">
+                <p xml:space="preserve">		实时收集流量数据方面的司法协助</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_531" class="MercuryDocument">
+              <content eId="para_531__content">
+                <p xml:space="preserve">一、缔约国应当努力相互提供司法协助，实时收集与本国领土内使用信息通信技术系统传输的某些指定通信有关的流量数据。在不违反本条第二款规定的情况下，此种协助应受本国法律规定的条件和程序制约。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_532" class="MercuryDocument">
+              <content eId="para_532__content">
+                <p xml:space="preserve">二、	各缔约国均应努力至少针对在本国内类似案件中可实时收集流量数据的刑事犯罪提供此种协助。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_533" class="MercuryDocument">
+              <content eId="para_533__content">
+                <p xml:space="preserve">三、	根据本条第一款提出的请求应当具体说明：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_534" class="MercuryDocument">
+              <content eId="para_534__content">
+                <p xml:space="preserve">	㈠	提出请求的机关名称；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_535" class="MercuryDocument">
+              <content eId="para_535__content">
+                <p xml:space="preserve">	㈡	与请求有关的侦查、起诉或司法程序的主要事实和性质概述；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_536" class="MercuryDocument">
+              <content eId="para_536__content">
+                <p xml:space="preserve">	㈢	要求收集的流量数据所涉及的电子数据及其与相关犯罪行为之间的关系；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_537" class="MercuryDocument">
+              <content eId="para_537__content">
+                <p xml:space="preserve">	㈣	所掌握的用以识别数据所有人或用户身份或信息通信技术系统所在地的任何数据；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_538" class="MercuryDocument">
+              <content eId="para_538__content">
+                <p xml:space="preserve">	㈤	要求收集流量数据的理由；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_539" class="MercuryDocument">
+              <content eId="para_539__content">
+                <p xml:space="preserve">	㈥	拟收集流量数据的期间及相应的理由。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_540" class="MercuryDocument">
+              <content eId="para_540__content">
+                <p xml:space="preserve">		第四十六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_541" class="MercuryDocument">
+              <content eId="para_541__content">
+                <p xml:space="preserve">		拦截内容数据方面的司法协助</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_542" class="MercuryDocument">
+              <content eId="para_542__content">
+                <p xml:space="preserve">	缔约国应当在对其适用的条约或本国法律允许的范围内，彼此努力提供司法协助，以实时收集或记录使用信息通信技术系统传输的特定通信的内容数据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_543" class="MercuryDocument">
+              <content eId="para_543__content">
+                <p xml:space="preserve">		第四十七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_544" class="MercuryDocument">
+              <content eId="para_544__content">
+                <p xml:space="preserve">		执法合作</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_545" class="MercuryDocument">
+              <content eId="para_545__content">
+                <p xml:space="preserve">一、	缔约国应当在符合本国法律制度和行政管理制度的情况下相互密切合作，以期加强打击根据本公约确立的犯罪的执法行动成效。缔约国尤其应当采取有效措施，以便：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_546" class="MercuryDocument">
+              <content eId="para_546__content">
+                <p xml:space="preserve">	㈠	加强并于必要时建立其主管机关、机构和部门之间的联络渠道，同时考虑到国际刑事警察组织的渠道等现有渠道，以促进安全而迅速地交换有关根据本公约确立的犯罪的各方面信息，在有关缔约国认为适当时还可包括与其他犯罪活动的关联的信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_547" class="MercuryDocument">
+              <content eId="para_547__content">
+                <p xml:space="preserve">	㈡	同其他缔约国合作，就与根据本公约确立的犯罪有关的以下事项进行调查：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_548" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_548__content">
+                <p xml:space="preserve">	参与此类犯罪的嫌疑人的身份、行踪和活动，或其他有关人员的所在地；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_549" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_549__content">
+                <p xml:space="preserve">	源自此类犯罪的犯罪所得或财产的去向；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_550" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_550__content">
+                <p xml:space="preserve">	用于或企图用于实施此类犯罪的财产、设备或其他工具的去向；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_551" class="MercuryDocument">
+              <content eId="para_551__content">
+                <p xml:space="preserve">	㈢	酌情提供必要的物项或数据以供分析或侦查之用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_552" class="MercuryDocument">
+              <content eId="para_552__content">
+                <p xml:space="preserve">	㈣	酌情与其他缔约国交流关于为实施根据本公约确立的犯罪而采用的具体手段和方法的信息，包括利用虚假身份、经伪造、变造或者假冒的证件和其他掩饰的手段以及网络犯罪伎俩、技术和程序诸方面的信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_553" class="MercuryDocument">
+              <content eId="para_553__content">
+                <p xml:space="preserve">	㈤	便利在各缔约国主管机关、机构和部门之间开展有效协调，并促进交流人员和其他专家，包括在符合有关缔约国之间的双边协定或安排的情况下派驻联络官员；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_554" class="MercuryDocument">
+              <content eId="para_554__content">
+                <p xml:space="preserve">	㈥	为尽早查明根据本公约确立的犯罪而酌情交流信息和协调所采取的行政措施及其他措施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_555" class="MercuryDocument">
+              <content eId="para_555__content">
+                <p xml:space="preserve">二、为实施本公约，缔约国应当考虑订立其执法机构间直接合作的双边或多边协定或安排；已有此类协定或安排的，应当考虑加以修订。如果有关缔约国之间没有此类协定或安排，则可考虑以本公约为依据，针对根据本公约确立的犯罪开展执法合作。在适当情况下，缔约国应当充分利用各种协定或安排，包括利用国际组织或区域组织，以加强执法机构之间的合作。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_556" class="MercuryDocument">
+              <content eId="para_556__content">
+                <p xml:space="preserve">		第四十八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_557" class="MercuryDocument">
+              <content eId="para_557__content">
+                <p xml:space="preserve">		联合侦查</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_558" class="MercuryDocument">
+              <content eId="para_558__content">
+                <p xml:space="preserve">	缔约国应当考虑缔结双边或多边协定或安排，以便有关主管机关可据以就根据本公约确立的，且在一国或多国成为刑事侦查、起诉或司法程序对象的犯罪建立联合侦查机构。如无此类协定或安排，则可在个案基础上商定开展联合侦查。拟在一缔约国领土内开展此类侦查的，相关缔约国应当确保该缔约国的主权得到充分尊重。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_559" class="MercuryDocument">
+              <content eId="para_559__content">
+                <p xml:space="preserve">		第四十九条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_560" class="MercuryDocument">
+              <content eId="para_560__content">
+                <p xml:space="preserve">		通过没收事宜国际合作追回财产的机制</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_561" class="MercuryDocument">
+              <content eId="para_561__content">
+                <p xml:space="preserve">一、为根据本公约第五十条针对通过实施或参与实施根据本公约确立的犯罪而获得的财产提供司法协助，各缔约国均应根据本国法律： </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_562" class="MercuryDocument">
+              <content eId="para_562__content">
+                <p xml:space="preserve">	㈠	采取必要措施，准许本国主管机关执行另一缔约国法院签发的没收令；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_563" class="MercuryDocument">
+              <content eId="para_563__content">
+                <p xml:space="preserve">	㈡	采取必要措施，准许本国拥有管辖权的主管机关通过对洗钱罪或可能在其管辖范围内的其他犯罪作出判决，或者经由本国法律许可的其他程序，下令没收外国来源的此类财产；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_564" class="MercuryDocument">
+              <content eId="para_564__content">
+                <p xml:space="preserve">	㈢	考虑采取必要措施，允许在因为犯罪人死亡、潜逃或者缺席而无法对其进行起诉的情形或者其他适当情形下，不经过刑事定罪而没收此类财产。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_565" class="MercuryDocument">
+              <content eId="para_565__content">
+                <p xml:space="preserve">二、为针对依照本公约第五十条第二款提出的请求提供司法协助，各缔约国均应根据本国法律： </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_566" class="MercuryDocument">
+              <content eId="para_566__content">
+                <p xml:space="preserve">	㈠	采取必要措施，准许本国主管机关根据请求缔约国的法院或主管机关发出的冻结令或扣押令冻结或扣押财产，但条件是该冻结令或扣押令须提供合理的依据，使被请求缔约国相信有充足理由采取此种行动，并且相信有关财产最终将依照本条第一款第㈠项所述的没收令予以处理；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_567" class="MercuryDocument">
+              <content eId="para_567__content">
+                <p xml:space="preserve">	㈡	采取必要措施，准许本国主管机关根据请求冻结或扣押财产，但条件是该请求须提供合理的依据，使被请求缔约国相信有充足理由采取此种行动，并且相信有关财产最终将依照本条第一款第㈠项所述的没收令予以处理；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_568" class="MercuryDocument">
+              <content eId="para_568__content">
+                <p xml:space="preserve">	㈢	考虑采取额外措施，准许本国主管机关诸如根据外国实行的与财产的获取有关的逮捕或刑事指控等，对此类财产进行保全，以便予以没收。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_569" class="MercuryDocument">
+              <content eId="para_569__content">
+                <p xml:space="preserve">		第五十条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_570" class="MercuryDocument">
+              <content eId="para_570__content">
+                <p xml:space="preserve">		没收事宜的国际合作</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_571" class="MercuryDocument">
+              <content eId="para_571__content">
+                <p xml:space="preserve">一、	缔约国在收到对根据本公约确立的一项犯罪拥有管辖权的另一缔约国关于没收本公约第三十一条第一款所述位于其领土内的犯罪所得、财产、设备或其他工具的请求后，应当在本国法律制度的范围内尽最大可能： </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_572" class="MercuryDocument">
+              <content eId="para_572__content">
+                <p xml:space="preserve">	㈠	将该请求提交本国主管机关，以便获取没收令并在获取没收令后予以执行；或</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_573" class="MercuryDocument">
+              <content eId="para_573__content">
+                <p xml:space="preserve">	㈡	将请求缔约国的法院根据本公约第三十一条第一款签发的没收令提交本国主管机关，以便按请求的范围予以执行，只要该没收令涉及的犯罪所得、财产、设备或其他工具位于被请求缔约国领土内。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_574" class="MercuryDocument">
+              <content eId="para_574__content">
+                <p xml:space="preserve">二、	被请求缔约国应当按照对根据本公约确立的一项犯罪拥有管辖权的另一缔约国提出的请求采取措施，辨认、追查和冻结或扣押本公约第三十一条第一款所述的犯罪所得、财产、设备或其他工具，以便最终由请求缔约国下令或由被请求缔约国根据本条第一款依照请求下令予以没收。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_575" class="MercuryDocument">
+              <content eId="para_575__content">
+                <p xml:space="preserve">三、	本公约第四十条的规定经适当变通后可适用于本条。根据本条提出的请求除应包括本公约第四十条第十五款所规定的资料外，还应包括以下内容：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_576" class="MercuryDocument">
+              <content eId="para_576__content">
+                <p xml:space="preserve">	㈠	与本条第一款第㈠项有关的请求，应当包括对应予没收的财产的说明，尽可能包括财产的所在地，酌情包括对财产的估计价值，以及对请求缔约国所依据的事实的充分陈述，以便被请求缔约国得以根据本国法律申请没收令；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_577" class="MercuryDocument">
+              <content eId="para_577__content">
+                <p xml:space="preserve">	㈡	与本条第一款第㈡项有关的请求，应当包括请求缔约国签发的据以提出请求的、法律上可以采信的没收令副本、与请求所述没收令执行范围有关的事实和信息陈述、关于请求缔约国为向善意第三方提供充分通知并确保正当程序而采取的措施的具体陈述，以及关于该没收令已不可更改的声明；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_578" class="MercuryDocument">
+              <content eId="para_578__content">
+                <p xml:space="preserve">	㈢	与本条第二款有关的请求，应当包括对请求缔约国所依据的事实的陈述和对所请求采取的行动的说明；如有据以提出请求的、法律上可以采信的没收令副本，应当一并附上。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_579" class="MercuryDocument">
+              <content eId="para_579__content">
+                <p xml:space="preserve">四、被请求缔约国依照本条第一款和第二款作出的决定或采取的行动，应当符合且遵循本国法律及程序规则的规定，或符合且遵循可能在与请求缔约国有关的事项上对其具有约束力的任何双边或多边条约、协定或安排的规定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_580" class="MercuryDocument">
+              <content eId="para_580__content">
+                <p xml:space="preserve">五、各缔约国均应向联合国秘书长提供本国实施本条的法律法规的副本，以及此类法律法规随后的任何修订的副本或相关说明。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_581" class="MercuryDocument">
+              <content eId="para_581__content">
+                <p xml:space="preserve">六、缔约国选择以订有相关条约为条件采取本条第一款和第二款所述措施的，应当将本公约视为必要而充分的条约依据。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_582" class="MercuryDocument">
+              <content eId="para_582__content">
+                <p xml:space="preserve">七、如果被请求缔约国未收到充分和及时的证据，或者如果财产的价值极其轻微，也可拒绝给予本条所规定的合作，或者解除临时措施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_583" class="MercuryDocument">
+              <content eId="para_583__content">
+                <p xml:space="preserve">八、在解除依照本条采取的任何临时措施之前，如有可能，被请求缔约国应当给予请求缔约国机会说明继续保持该措施的理由。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_584" class="MercuryDocument">
+              <content eId="para_584__content">
+                <p xml:space="preserve">九、不得对本条规定作损害善意第三方权利的解释。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_585" class="MercuryDocument">
+              <content eId="para_585__content">
+                <p xml:space="preserve">十、缔约国应当考虑缔结双边或多边条约、协定或安排，以提高根据本条开展的国际合作的成效。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_586" class="MercuryDocument">
+              <content eId="para_586__content">
+                <p xml:space="preserve">		第五十一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_587" class="MercuryDocument">
+              <content eId="para_587__content">
+                <p xml:space="preserve">		特别合作</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_588" class="MercuryDocument">
+              <content eId="para_588__content">
+                <p xml:space="preserve">	在不违反本国法律的情况下，各缔约国均应努力采取措施，以便在认为披露根据本公约确立的犯罪所得的资料可有助于接收资料的缔约国启动或进行刑事侦查、起诉或者司法程序时，或在认为可能会使该缔约国根据本公约第五十条提出请求时，得以在不损害本国刑事侦查、起诉或者司法程序的情况下，无须事先请求而向该另一缔约国转发此类资料。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_589" class="MercuryDocument">
+              <content eId="para_589__content">
+                <p xml:space="preserve">		第五十二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_590" class="MercuryDocument">
+              <content eId="para_590__content">
+                <p xml:space="preserve">		没收的犯罪所得或财产的返还和处置</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_591" class="MercuryDocument">
+              <content eId="para_591__content">
+                <p xml:space="preserve">一、缔约国依照本公约第三十一条或第五十条没收的犯罪所得或财产，应当由该缔约国根据本国法律和行政程序予以处置。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_592" class="MercuryDocument">
+              <content eId="para_592__content">
+                <p xml:space="preserve">二、缔约国根据本公约第五十条的规定依另一缔约国的请求采取行动时，应当在本国法律许可的范围内，根据请求，优先考虑将所没收的犯罪所得或财产返还请求缔约国，以便其对犯罪受害人进行赔偿，或者将此类犯罪所得或财产归还原合法所有人。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_593" class="MercuryDocument">
+              <content eId="para_593__content">
+                <p xml:space="preserve">三、缔约国根据本公约第三十一条和第五十条的规定依另一缔约国的请求采取行动时，可在适当考虑到对受害人进行赔偿后，特别考虑就下述事项缔结协定或安排：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_594" class="MercuryDocument">
+              <content eId="para_594__content">
+                <p xml:space="preserve">	㈠	向根据本公约第五十六条第二款第㈢项指定的账户以及专门打击网络犯罪的政府间机构捐出与此类犯罪所得或财产等值的款项或变卖此类犯罪所得或财产而得到的资金或其中的一部分；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_595" class="MercuryDocument">
+              <content eId="para_595__content">
+                <p xml:space="preserve">	㈡	根据本国法律或行政程序，定期或逐案与其他缔约国分享此类犯罪所得或财产，或变卖此类犯罪所得或财产而获得的资金。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_596" class="MercuryDocument">
+              <content eId="para_596__content">
+                <p xml:space="preserve">四、	在适当的情况下，除非缔约国另有决定，被请求缔约国可在依据本条规定返还或者处置没收的财产前，扣除为此进行侦查、起诉或司法程序而发生的合理费用。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_597" class="MercuryDocument">
+              <content eId="para_597__content">
+                <p xml:space="preserve">		第六章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_598" class="MercuryDocument">
+              <content eId="para_598__content">
+                <p xml:space="preserve">		预防措施</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_599" class="MercuryDocument">
+              <content eId="para_599__content">
+                <p xml:space="preserve">		第五十三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_600" class="MercuryDocument">
+              <content eId="para_600__content">
+                <p xml:space="preserve">		预防措施</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_601" class="MercuryDocument">
+              <content eId="para_601__content">
+                <p xml:space="preserve">一、各缔约国均应根据本国法律制度的基本原则，努力制定和实施或维持有效而协调的政策和最佳实践，通过适当的立法措施、行政措施或其他措施，减少现有或未来的网络犯罪机会。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_602" class="MercuryDocument">
+              <content eId="para_602__content">
+                <p xml:space="preserve">二、各缔约国均应根据本国法律的基本原则，在力所能及的范围内采取适当措施，促进相关个人及非政府组织、民间社会组织、学术机构和私营部门实体等公共部门以外的实体以及一般公众在各个相关方面积极参与预防根据本公约确立的犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_603" class="MercuryDocument">
+              <content eId="para_603__content">
+                <p xml:space="preserve">三、预防措施可包括：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_604" class="MercuryDocument">
+              <content eId="para_604__content">
+                <p xml:space="preserve">	㈠	加强执法机构或检察官与相关个人以及非政府组织、民间社会组织、学术机构和私营部门实体等公共部门以外的实体之间的合作，以期在各个相关方面预防和打击根据本公约确立的犯罪；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_605" class="MercuryDocument">
+              <content eId="para_605__content">
+                <p xml:space="preserve">	㈡	通过促进公众参与预防和打击此类犯罪的公共宣传活动、公共教育、媒体与信息素养方案和课程，使公众深入了解根据本公约确立的犯罪所构成的威胁的存在、原因和严重性；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_606" class="MercuryDocument">
+              <content eId="para_606__content">
+                <p xml:space="preserve">	㈢	建设和努力提高本国刑事司法系统的能力，包括在刑事司法从业人员当中开展培训和培养其专门知识，以此作为针对根据本公约确立的犯罪的国家预防战略的一部分；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_607" class="MercuryDocument">
+              <content eId="para_607__content">
+                <p xml:space="preserve">	㈣	鼓励服务提供者在可行情况下根据本国条件并在本国法律允许的限度内采取有效措施，加强服务提供者的产品、服务和客户的安全；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_608" class="MercuryDocument">
+              <content eId="para_608__content">
+                <p xml:space="preserve">	㈤	承认安全研究人员在本国法律所允许的范围内和所规定的条件下，专门为加强和改善位于缔约国领土内的服务提供者的产品、服务和客户的安全而开展的合法活动所作的贡献；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_609" class="MercuryDocument">
+              <content eId="para_609__content">
+                <p xml:space="preserve">	㈥	制定、促进和推广各种方案和活动，以阻止有可能参与网络犯罪的人员沦为罪犯，并培养其合法技能；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_610" class="MercuryDocument">
+              <content eId="para_610__content">
+                <p xml:space="preserve">	㈦	努力促进被判犯有根据本公约确立的犯罪的人员重返社会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_611" class="MercuryDocument">
+              <content eId="para_611__content">
+                <p xml:space="preserve">	㈧	根据本国法律制定战略和政策，以预防和消除通过使用信息通信技术系统发生的性别暴力，并在制定预防措施时考虑到弱势群体的特殊境况和需求；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_612" class="MercuryDocument">
+              <content eId="para_612__content">
+                <p xml:space="preserve">	㈨	采取因地制宜的具体努力，保证儿童安全上网，包括为此开展关于网上儿童性虐待或儿童性剥削问题的教育、培训和公众宣传，以及修订旨在预防此类问题的本国法律框架和增进此方面的国际合作，并努力确保快速删除儿童性虐待和性剥削材料；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_613" class="MercuryDocument">
+              <content eId="para_613__content">
+                <p xml:space="preserve">	㈩	提高决策进程的透明度，促进公众对决策进程作出贡献，并确保公众有充分的机会获得信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_614" class="MercuryDocument">
+              <content eId="para_614__content">
+                <p xml:space="preserve">	(十一)  尊重、促进和保护在寻求、接收和传递有关网络犯罪的公共信息方面的自由；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_615" class="MercuryDocument">
+              <content eId="para_615__content">
+                <p xml:space="preserve">	(十二)  制定或加强对根据本公约确立的犯罪的受害人的援助方案；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_616" class="MercuryDocument">
+              <content eId="para_616__content">
+                <p xml:space="preserve">	(十三)  预防和查明与根据本公约确立的犯罪有关的犯罪所得和财产的转移。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_617" class="MercuryDocument">
+              <content eId="para_617__content">
+                <p xml:space="preserve">四、各缔约国均应采取适当措施，酌情确保公众了解和能够联系到负责预防和打击网络犯罪的一个或多个相关主管机关，以便举报，包括匿名举报，可视作根据本公约确立的刑事犯罪的任何事件。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_618" class="MercuryDocument">
+              <content eId="para_618__content">
+                <p xml:space="preserve">五、缔约国应当努力定期评价现行的相关国家法律框架和行政实践，以便找出差距和不足之处，并确保这些法规和实践在应对根据本公约确立的犯罪所构成的不断变化的威胁时具有现实意义。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_619" class="MercuryDocument">
+              <content eId="para_619__content">
+                <p xml:space="preserve">六、缔约国可相互协作并与有关国际和区域组织协作，推行和制定本条所列述的措施，包括参与旨在预防网络犯罪的国际项目。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_620" class="MercuryDocument">
+              <content eId="para_620__content">
+                <p xml:space="preserve">七、各缔约国均应将可协助其他缔约国制定和实施预防网络犯罪的具体措施的一个或多个机关的名称和地址告知联合国秘书长。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_621" class="MercuryDocument">
+              <content eId="para_621__content">
+                <p xml:space="preserve">		第七章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_622" class="MercuryDocument">
+              <content eId="para_622__content">
+                <p xml:space="preserve">		技术援助和信息交流</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_623" class="MercuryDocument">
+              <content eId="para_623__content">
+                <p xml:space="preserve">		第五十四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_624" class="MercuryDocument">
+              <content eId="para_624__content">
+                <p xml:space="preserve">		技术援助和能力建设</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_625" class="MercuryDocument">
+              <content eId="para_625__content">
+                <p xml:space="preserve">一、缔约国应当根据各自的能力，考虑相互提供最广泛的技术援助和能力建设，包括培训和其他形式的援助，相互交流相关经验和专门知识，以及按照彼此商定的条款转让技术，同时特别考虑到发展中缔约国的利益和需要，以促进预防、监测、侦查和起诉本公约所涵盖的犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_626" class="MercuryDocument">
+              <content eId="para_626__content">
+                <p xml:space="preserve">二、缔约国应当在必要时为本国负责预防、监测、侦查和起诉本公约所涵盖的犯罪的人员发起、制定、实施或改进具体的培训方案。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_627" class="MercuryDocument">
+              <content eId="para_627__content">
+                <p xml:space="preserve">三、本条第一款和第二款所述活动在本国法律准许的范围内可涉及以下方面：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_628" class="MercuryDocument">
+              <content eId="para_628__content">
+                <p xml:space="preserve">	㈠	用于预防、监测、侦查和起诉本公约所涵盖的犯罪的方法和技术；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_629" class="MercuryDocument">
+              <content eId="para_629__content">
+                <p xml:space="preserve">	㈡	在制定和规划预防和打击网络犯罪的战略性政策和法规方面开展能力建设；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_630" class="MercuryDocument">
+              <content eId="para_630__content">
+                <p xml:space="preserve">	㈢	在收集、保全和共享证据特别是电子证据方面开展能力建设，包括保管链维护和法证分析；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_631" class="MercuryDocument">
+              <content eId="para_631__content">
+                <p xml:space="preserve">	㈣	现代执法设备及其使用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_632" class="MercuryDocument">
+              <content eId="para_632__content">
+                <p xml:space="preserve">	㈤	培训主管机关如何撰写符合本公约要求的司法协助以及其他合作手段的请求书，特别是电子证据收集、保全和共享方面的请求；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_633" class="MercuryDocument">
+              <content eId="para_633__content">
+                <p xml:space="preserve">	㈥	预防、监测和监控由实施本公约所涵盖的犯罪产生的所得、相关财产、设备或其他工具的移动，以及转移、藏匿或掩饰此类所得、财产、设备或其他工具所使用的方法；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_634" class="MercuryDocument">
+              <content eId="para_634__content">
+                <p xml:space="preserve">	㈦	便利扣押、没收和返还本公约所涵盖的犯罪所得的适当且高效的法律机制和方法以及行政机制和方法；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_635" class="MercuryDocument">
+              <content eId="para_635__content">
+                <p xml:space="preserve">	㈧	保护与司法机关合作的受害人和证人的方法；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_636" class="MercuryDocument">
+              <content eId="para_636__content">
+                <p xml:space="preserve">	㈨	相关实体法和程序法、执法侦查权、国内和国际有关法规，以及语言等方面的培训。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_637" class="MercuryDocument">
+              <content eId="para_637__content">
+                <p xml:space="preserve">四、缔约国应当在不违反本国法律的情况下，努力利用其他缔约国和相关的国际和区域组织、非政府组织、民间社会组织、学术机构和私营部门实体的专长并与它们开展密切合作，以期加强本公约的有效实施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_638" class="MercuryDocument">
+              <content eId="para_638__content">
+                <p xml:space="preserve">五、缔约国应当相互协助，规划和实施旨在共享本条第三款所述领域专门知识的研究和培训方案，并应当为此目的酌情利用区域和国际会议及研讨会，促进合作，推动就共同关心的问题开展讨论。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_639" class="MercuryDocument">
+              <content eId="para_639__content">
+                <p xml:space="preserve">六、缔约国应当考虑根据请求相互协助，对在各自领土内实施的本公约所涵盖的犯罪的类型、原因和影响进行评价、考察和研究，以期在主管机关和相关非政府组织、民间社会组织、学术机构和私营部门实体的参与下，制定预防和打击网络犯罪的战略和行动计划。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_640" class="MercuryDocument">
+              <content eId="para_640__content">
+                <p xml:space="preserve">七、	缔约国应当促进有助于及时引渡和提供司法协助的培训和技术援助。此类培训和技术援助可包括语言培训、协助起草和处理司法协助请求书，以及在中央机关或负有相关责任的机构的人员之间的借调和交流。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_641" class="MercuryDocument">
+              <content eId="para_641__content">
+                <p xml:space="preserve">八、	缔约国应当视需要加强努力，最大限度提高国际和区域组织以及有关双边和多边协定或安排框架内的技术援助和能力建设成效。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_642" class="MercuryDocument">
+              <content eId="para_642__content">
+                <p xml:space="preserve">九、缔约国应当考虑建立自愿捐助机制，以通过技术援助方案和能力建设项目，为发展中国家实施本公约的努力提供资助。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_643" class="MercuryDocument">
+              <content eId="para_643__content">
+                <p xml:space="preserve">十、各缔约国均应努力向联合国毒品和犯罪问题办公室提供自愿捐助，以便经由该办公室推进各种方案和项目，从而通过技术援助和能力建设实施本公约。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_644" class="MercuryDocument">
+              <content eId="para_644__content">
+                <p xml:space="preserve">		第五十五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_645" class="MercuryDocument">
+              <content eId="para_645__content">
+                <p xml:space="preserve">		信息交流</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_646" class="MercuryDocument">
+              <content eId="para_646__content">
+                <p xml:space="preserve">一、各缔约国均应考虑酌情与有关专家协商，包括与非政府组织、民间社会组织、学术机构和私营部门实体的专家协商，分析本公约涵盖的犯罪在本国领土内的趋势以及实施此类犯罪的环境。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_647" class="MercuryDocument">
+              <content eId="para_647__content">
+                <p xml:space="preserve">二、各缔约国均应考虑开发并彼此共享以及通过国际和区域组织共享有关网络犯罪的统计数据、专业分析技能和信息，以期尽可能制定出预防和打击此类犯罪的共同定义、标准和方法以及最佳实践。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_648" class="MercuryDocument">
+              <content eId="para_648__content">
+                <p xml:space="preserve">三、各缔约国均应考虑监测其预防和打击本公约所涵盖的犯罪的政策和实际措施，并对其成效和效率进行评估。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_649" class="MercuryDocument">
+              <content eId="para_649__content">
+                <p xml:space="preserve">四、缔约国应当考虑相互交流与网络犯罪和收集电子证据有关的法律、政策或技术方面的发展变化情况。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_650" class="MercuryDocument">
+              <content eId="para_650__content">
+                <p xml:space="preserve">		第五十六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_651" class="MercuryDocument">
+              <content eId="para_651__content">
+                <p xml:space="preserve">		通过经济发展和技术援助实施本公约</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_652" class="MercuryDocument">
+              <content eId="para_652__content">
+                <p xml:space="preserve">一、缔约国应当通过国际合作采取有助于最大限度优化本公约实施工作的措施，同时亦应考虑到本公约涵盖的犯罪对社会总体，尤其是对可持续发展的消极影响。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_653" class="MercuryDocument">
+              <content eId="para_653__content">
+                <p xml:space="preserve">二、大力鼓励缔约国相互协调并与国际和区域组织协调，尽可能作出各种具体努力：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_654" class="MercuryDocument">
+              <content eId="para_654__content">
+                <p xml:space="preserve">	㈠	加强与其他缔约国特别是发展中国家在各层级的合作，以增强其预防和打击本公约所涵盖犯罪的能力；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_655" class="MercuryDocument">
+              <content eId="para_655__content">
+                <p xml:space="preserve">	㈡	加强资金和物质援助，以支持其他缔约国特别是发展中国家为有效预防和打击本公约所涵盖的犯罪而作出的努力，并帮助它们实施本公约；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_656" class="MercuryDocument">
+              <content eId="para_656__content">
+                <p xml:space="preserve">	㈢	向其他缔约国特别是发展中国家提供技术援助，以协助它们满足在实施本公约方面的需要。为此，缔约国应当努力向联合国筹资机制中为此目的专门设定的账户提供充分的经常性自愿捐款；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_657" class="MercuryDocument">
+              <content eId="para_657__content">
+                <p xml:space="preserve">	㈣	酌情鼓励非政府组织、民间社会组织、学术机构和私营部门实体以及金融机构，包括根据本条规定，促进缔约国作出各种努力，特别是向发展中国家提供更多的培训方案和现代设备，以协助它们实现本公约的各项目标；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_658" class="MercuryDocument">
+              <content eId="para_658__content">
+                <p xml:space="preserve">	㈤	针对所开展的活动交流最佳实践和信息，以期提高透明度，避免重复努力，并充分汲取任何经验教训。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_659" class="MercuryDocument">
+              <content eId="para_659__content">
+                <p xml:space="preserve">三、	缔约国还应考虑利用现有的次区域方案、区域方案和国际方案，包括会议和研讨会，促进合作和技术援助，并推动就共同关心的问题，包括发展中国家的特殊问题和需要，展开讨论。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_660" class="MercuryDocument">
+              <content eId="para_660__content">
+                <p xml:space="preserve">四、	缔约国应当尽可能确保资源和努力的分配和方向有助于统一标准、技能、能力、专门知识和技术能力，以期在缔约国之间确立共同的最低限度标准，从而铲除本公约涵盖的犯罪的藏身之所，并加强打击网络犯罪的力度。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_661" class="MercuryDocument">
+              <content eId="para_661__content">
+                <p xml:space="preserve">五、根据本条采取的措施应当尽量不影响现有的对外援助承诺或其他双边、区域或国际一级的财政合作安排。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_662" class="MercuryDocument">
+              <content eId="para_662__content">
+                <p xml:space="preserve">六、缔约国可缔结关于物资和后勤援助的双边、区域或多边协定或安排，同时考虑到为使本公约所规定的国际合作手段行之有效和为预防、监测、侦查和起诉本公约所涵盖的犯罪所需要的财政安排。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_663" class="MercuryDocument">
+              <content eId="para_663__content">
+                <p xml:space="preserve">		第八章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_664" class="MercuryDocument">
+              <content eId="para_664__content">
+                <p xml:space="preserve">		实施机制</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_665" class="MercuryDocument">
+              <content eId="para_665__content">
+                <p xml:space="preserve">		第五十七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_666" class="MercuryDocument">
+              <content eId="para_666__content">
+                <p xml:space="preserve">		公约缔约国会议</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_667" class="MercuryDocument">
+              <content eId="para_667__content">
+                <p xml:space="preserve">一、兹此设立公约缔约国会议，以期增强缔约国的能力和增进缔约国之间的合作，从而实现本公约规定的各项目标并促进和审议本公约的实施情况。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_668" class="MercuryDocument">
+              <content eId="para_668__content">
+                <p xml:space="preserve">二、联合国秘书长应当自本公约生效后一年之内召开缔约国会议。其后，缔约国会议常会应当按照缔约国会议所通过的议事规则召开。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_669" class="MercuryDocument">
+              <content eId="para_669__content">
+                <p xml:space="preserve">三、缔约国会议应当通过其议事规则和关于本条所列各项活动的规则，包括关于观察员的接纳和参与以及如何支付这些活动所涉费用的规则。这些规则和相关活动应当考虑到有效性、包容性、透明度、效率和国家自主权等原则。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_670" class="MercuryDocument">
+              <content eId="para_670__content">
+                <p xml:space="preserve">四、	缔约国会议在确定其常会时，应当按照本条第三款所述各项原则，考虑到在类似事项上的其他有关国际和区域组织和机制包括其附属条约机构举行会议的时间和地点。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_671" class="MercuryDocument">
+              <content eId="para_671__content">
+                <p xml:space="preserve">五、缔约国会议应当商定实现本条第一款所列目标的活动、程序和工作方法，其中包括：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_672" class="MercuryDocument">
+              <content eId="para_672__content">
+                <p xml:space="preserve">	㈠	促进本公约的有效应用和实施、发现其间存在的任何问题，以及促进缔约国根据本公约开展的活动，包括鼓励调集自愿捐款；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_673" class="MercuryDocument">
+              <content eId="para_673__content">
+                <p xml:space="preserve">	㈡	促进缔约国、相关国际和区域组织以及非政府组织、民间社会组织、学术机构和私营部门实体之间根据本国法律交流与根据本公约确立的犯罪有关的法律、政策和技术方面的发展情况以及电子证据收集方面的信息，并交流网络犯罪的模式和趋势以及预防和打击此类犯罪的成功实践方面的信息；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_674" class="MercuryDocument">
+              <content eId="para_674__content">
+                <p xml:space="preserve">	㈢	与相关国际和区域组织以及非政府组织、民间社会组织、学术机构和私营部门实体开展合作；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_675" class="MercuryDocument">
+              <content eId="para_675__content">
+                <p xml:space="preserve">	㈣	适当利用其他国际和区域组织和机制为预防和打击根据本公约确立的犯罪而提供的相关信息，以避免不必要的重复工作；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_676" class="MercuryDocument">
+              <content eId="para_676__content">
+                <p xml:space="preserve">	㈤	定期审议缔约国实施本公约的情况；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_677" class="MercuryDocument">
+              <content eId="para_677__content">
+                <p xml:space="preserve">	㈥	提出改进本公约及其实施工作的建议，并审议可能对本公约作出的补充或修正；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_678" class="MercuryDocument">
+              <content eId="para_678__content">
+                <p xml:space="preserve">	㈦	依据本公约第六十一条和第六十二条拟订和通过本公约的补充议定书；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_679" class="MercuryDocument">
+              <content eId="para_679__content">
+                <p xml:space="preserve">	㈧	注意到缔约国在实施本公约方面的技术援助和能力建设需要，并建议在此方面采取任何其认为必要的行动。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_680" class="MercuryDocument">
+              <content eId="para_680__content">
+                <p xml:space="preserve">六、各缔约国均应按照缔约国会议的要求，向缔约国会议提供信息，说明本国为实施本公约而采取的立法措施、行政措施和其他措施以及本国的方案、计划和实践。缔约国会议应当研究接收信息以及根据这些信息采取行动的最有效方式，这些信息包括从缔约国以及相关国际组织和区域组织收到的信息。根据缔约国会议决定的程序正式获得认可的相关非政府组织、民间社会组织、学术机构和私营部门实体的代表提出的意见亦可予以考虑。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_681" class="MercuryDocument">
+              <content eId="para_681__content">
+                <p xml:space="preserve">七、为了本条第五款之目的，缔约国会议可设立和管理其认为必要的审议机制。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_682" class="MercuryDocument">
+              <content eId="para_682__content">
+                <p xml:space="preserve">八、	根据本条第五款至第七款，缔约国会议应当在其认为必要时设立任何适当的机制或附属机构，以协助本公约的有效实施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_683" class="MercuryDocument">
+              <content eId="para_683__content">
+                <p xml:space="preserve">		第五十八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_684" class="MercuryDocument">
+              <content eId="para_684__content">
+                <p xml:space="preserve">		秘书处</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_685" class="MercuryDocument">
+              <content eId="para_685__content">
+                <p xml:space="preserve">一、应由联合国秘书长为公约缔约国会议提供必要的秘书处服务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_686" class="MercuryDocument">
+              <content eId="para_686__content">
+                <p xml:space="preserve">二、	秘书处应当：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_687" class="MercuryDocument">
+              <content eId="para_687__content">
+                <p xml:space="preserve">	㈠	协助缔约国会议开展本公约所列述的各项活动，并为缔约国会议举行的与本公约有关的届会做出相应的安排和提供必要的服务；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_688" class="MercuryDocument">
+              <content eId="para_688__content">
+                <p xml:space="preserve">	㈡	依请求协助缔约国按照本公约的设想向缔约国会议提交资料；以及</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_689" class="MercuryDocument">
+              <content eId="para_689__content">
+                <p xml:space="preserve">	㈢	确保与有关的国际和区域组织秘书处进行必要的协调。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_690" class="MercuryDocument">
+              <content eId="para_690__content">
+                <p xml:space="preserve">		第九章</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_691" class="MercuryDocument">
+              <content eId="para_691__content">
+                <p xml:space="preserve">		最后条款</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_692" class="MercuryDocument">
+              <content eId="para_692__content">
+                <p xml:space="preserve">		第五十九条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_693" class="MercuryDocument">
+              <content eId="para_693__content">
+                <p xml:space="preserve">		本公约的实施</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_694" class="MercuryDocument">
+              <content eId="para_694__content">
+                <p xml:space="preserve">一、各缔约国均应根据本国法律的基本原则采取必要措施，包括立法措施和行政措施，确保履行其根据本公约所承担的各项义务。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_695" class="MercuryDocument">
+              <content eId="para_695__content">
+                <p xml:space="preserve">二、为预防和打击根据本公约确立的犯罪，各缔约国均可采取比本公约的规定更为严格或更为严厉的措施。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_696" class="MercuryDocument">
+              <content eId="para_696__content">
+                <p xml:space="preserve">		第六十条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_697" class="MercuryDocument">
+              <content eId="para_697__content">
+                <p xml:space="preserve">		本公约的效力</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_698" class="MercuryDocument">
+              <content eId="para_698__content">
+                <p xml:space="preserve">一、如果两个或两个以上缔约国业已就本公约所涉事项缔结了协定或条约，或已以其他方式就这些事项建立了关系，或未来将这样做，则这些缔约国亦应有权适用此类协定或条约或相应地规范这些关系。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_699" class="MercuryDocument">
+              <content eId="para_699__content">
+                <p xml:space="preserve">二、本公约的任何规定均不得影响缔约国在国际法下的其他权利、限制、义务和责任。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_700" class="MercuryDocument">
+              <content eId="para_700__content">
+                <p xml:space="preserve">		第六十一条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_701" class="MercuryDocument">
+              <content eId="para_701__content">
+                <p xml:space="preserve">		同议定书的关系</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_702" class="MercuryDocument">
+              <content eId="para_702__content">
+                <p xml:space="preserve">一、本公约可由一项或多项议定书予以补充。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_703" class="MercuryDocument">
+              <content eId="para_703__content">
+                <p xml:space="preserve">二、只有成为本公约缔约方的国家或区域经济一体化组织方可成为议定书缔约方。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_704" class="MercuryDocument">
+              <content eId="para_704__content">
+                <p xml:space="preserve">三、本公约缔约国不受议定书约束，除非其已根据议定书的规定成为议定书的缔约国。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_705" class="MercuryDocument">
+              <content eId="para_705__content">
+                <p xml:space="preserve">四、本公约的任何议定书均应结合本公约解读，并考虑到这些议定书的宗旨。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_706" class="MercuryDocument">
+              <content eId="para_706__content">
+                <p xml:space="preserve">		第六十二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_707" class="MercuryDocument">
+              <content eId="para_707__content">
+                <p xml:space="preserve">		通过补充议定书</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_708" class="MercuryDocument">
+              <content eId="para_708__content">
+                <p xml:space="preserve">一、至少需要有六十个缔约国，才能在缔约国会议上审议通过任何补充议定书。缔约国会议应尽一切努力就任何补充议定书达成协商一致。如果已为达成协商一致竭尽一切努力而仍未达成一致意见，则作为最后手段，补充议定书须至少获得出席缔约国会议并参加表决的缔约国三分之二多数票方可通过。  </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_709" class="MercuryDocument">
+              <content eId="para_709__content">
+                <p xml:space="preserve">二、区域经济一体化组织在其职权范围内的事项中依本条行使表决权时，其票数应与其作为本公约缔约国的成员国数目相等。如果这些组织的成员国行使投票权，则这些组织便不得行使投票权；反之亦然。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_710" class="MercuryDocument">
+              <content eId="para_710__content">
+                <p xml:space="preserve">		第六十三条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_711" class="MercuryDocument">
+              <content eId="para_711__content">
+                <p xml:space="preserve">		争端的解决</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_712" class="MercuryDocument">
+              <content eId="para_712__content">
+                <p xml:space="preserve">一、缔约国应当努力通过谈判或自行选择的任何其他和平手段解决与本公约的解释或适用有关的争端。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_713" class="MercuryDocument">
+              <content eId="para_713__content">
+                <p xml:space="preserve">二、两个或两个以上缔约国对于本公约的解释或适用发生任何争端，且未能在合理时间内通过谈判或其他和平手段解决的，应当按其中一缔约国请求交付仲裁。如果自请求交付仲裁之日起六个月后所涉缔约国无法就仲裁安排达成协议，则其中任一缔约国可根据《国际法院规约》请求将争端提交国际法院。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_714" class="MercuryDocument">
+              <content eId="para_714__content">
+                <p xml:space="preserve">三、各缔约国在签署、批准、接受、核准或加入本公约时，均可声明不受本条第二款的约束。其他缔约国对于作出此种保留的任何缔约国，不受本条第二款的约束。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_715" class="MercuryDocument">
+              <content eId="para_715__content">
+                <p xml:space="preserve">四、凡根据本条第三款作出保留的缔约国，均可随时通知联合国秘书长撤销该项保留。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_716" class="MercuryDocument">
+              <content eId="para_716__content">
+                <p xml:space="preserve">		第六十四条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_717" class="MercuryDocument">
+              <content eId="para_717__content">
+                <p xml:space="preserve">		签署、批准、接受、核准和加入</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_718" class="MercuryDocument">
+              <content eId="para_718__content">
+                <p xml:space="preserve">一、本公约应于2025年在河内及随后在纽约联合国总部开放供各国签署，直至2026年12月31日。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_719" class="MercuryDocument">
+              <content eId="para_719__content">
+                <p xml:space="preserve">二、本公约还应开放供区域经济一体化组织签署，但条件是此类组织至少有一个成员国已按照本条第一款的规定签署了本公约。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_720" class="MercuryDocument">
+              <content eId="para_720__content">
+                <p xml:space="preserve">三、本公约须经批准、接受或核准。批准书、接受书或核准书应当交存联合国秘书长。如果某一区域经济一体化组织至少有一个成员国已交存批准书、接受书或核准书，则该组织亦可交存其批准书、接受书或核准书。该组织应当在其批准书、接受书或核准书中宣布其在本公约管辖事项方面的权限范围。该组织还应将其权限范围的任何有关变动情况通知保存人。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_721" class="MercuryDocument">
+              <content eId="para_721__content">
+                <p xml:space="preserve">四、任何国家或任何至少已有一个成员国加入本公约的区域经济一体化组织均可加入本公约。加入书应当交存联合国秘书长。区域经济一体化组织加入本公约时应当宣布其在本公约管辖事项方面的权限范围。该组织还应将其权限范围的任何有关变动情况通知保存人。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_722" class="MercuryDocument">
+              <content eId="para_722__content">
+                <p xml:space="preserve">		第六十五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_723" class="MercuryDocument">
+              <content eId="para_723__content">
+                <p xml:space="preserve">		生效</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_724" class="MercuryDocument">
+              <content eId="para_724__content">
+                <p xml:space="preserve">一、本公约应自第四十份批准书、接受书、核准书或加入书交存之日后第九十天起生效。为本款之目的，区域经济一体化组织交存的任何文书均不得在该组织成员国所交存文书以外另行计算。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_725" class="MercuryDocument">
+              <content eId="para_725__content">
+                <p xml:space="preserve">二、对于在第四十份批准书、接受书、核准书或加入书交存之后批准、接受、核准或加入本公约的国家或区域经济一体化组织，本公约应自该国或该组织交存有关文书之日后第三十天或于本公约根据本条第一款生效之日生效，以其中较晚者为准。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_726" class="MercuryDocument">
+              <content eId="para_726__content">
+                <p xml:space="preserve">		第六十六条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_727" class="MercuryDocument">
+              <content eId="para_727__content">
+                <p xml:space="preserve">		修正</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_728" class="MercuryDocument">
+              <content eId="para_728__content">
+                <p xml:space="preserve">一、缔约国可在本公约生效满五年后提出修正案并将修正案送交联合国秘书长。秘书长应当立即将所提修正案转发缔约国和公约缔约国会议，以便对提案进行审议并作出决定。缔约国会议应当尽一切努力就每项修正案达成协商一致。如果已为达成协商一致竭尽一切努力而仍未达成一致意见，则作为最后手段，修正案须获得出席缔约国会议并参加表决的缔约国的三分之二多数票方可通过。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_729" class="MercuryDocument">
+              <content eId="para_729__content">
+                <p xml:space="preserve">二、区域经济一体化组织对属于其权限范围内的事项依本条行使表决权时，其票数相当于其作为本公约缔约国的成员国数目。如果这些组织的成员国行使投票权，则这些组织便不得行使投票权，反之亦然。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_730" class="MercuryDocument">
+              <content eId="para_730__content">
+                <p xml:space="preserve">三、根据本条第一款通过的修正案，须经缔约国批准、接受或核准。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_731" class="MercuryDocument">
+              <content eId="para_731__content">
+                <p xml:space="preserve">四、	根据本条第一款通过的修正案，应自缔约国向联合国秘书长交存一份批准、接受或核准该修正案的文书之日起九十天后对该缔约国生效。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_732" class="MercuryDocument">
+              <content eId="para_732__content">
+                <p xml:space="preserve">五、修正案一经生效，即对已表示同意受其约束的缔约国具有约束力。其他缔约国则仍受本公约原条款以及此前已批准、接受或核准的任何修正案的约束。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_733" class="MercuryDocument">
+              <content eId="para_733__content">
+                <p xml:space="preserve">		第六十七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_734" class="MercuryDocument">
+              <content eId="para_734__content">
+                <p xml:space="preserve">		退约</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_735" class="MercuryDocument">
+              <content eId="para_735__content">
+                <p xml:space="preserve">一、缔约国可书面通知联合国秘书长退出本公约。退约应自秘书长收到退约通知之日起一年后生效。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_736" class="MercuryDocument">
+              <content eId="para_736__content">
+                <p xml:space="preserve">二、区域经济一体化组织在其所有成员国均已退出本公约时，即不再是本公约缔约方。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_737" class="MercuryDocument">
+              <content eId="para_737__content">
+                <p xml:space="preserve">三、根据本条第一款的规定退出本公约，即自然退出本公约的任何议定书。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_738" class="MercuryDocument">
+              <content eId="para_738__content">
+                <p xml:space="preserve">		第六十八条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_739" class="MercuryDocument">
+              <content eId="para_739__content">
+                <p xml:space="preserve">		保存人和语文</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_740" class="MercuryDocument">
+              <content eId="para_740__content">
+                <p xml:space="preserve">一、联合国秘书长为本公约的指定保存人。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_741" class="MercuryDocument">
+              <content eId="para_741__content">
+                <p xml:space="preserve">二、本公约原件应交存联合国秘书长，其阿拉伯文、中文、英文、法文、俄文和西班牙文文本同等作准。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_742" class="MercuryDocument">
+              <content eId="para_742__content">
+                <p xml:space="preserve">	兹由经各自政府正式授权的下列署名全权代表签署本公约，以昭信守。<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		请注意，拟订一项关于打击为犯罪目的使用信息通信技术行为的全面国际公约特设委员会已将关于本公约第二、第十七、第二十三和第三十五诸条的解释性说明作为附件列于2024年7月29日至8月9日在纽约举行的总结会议续会的报告之后。</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_743" class="MercuryDocument">
+              <content eId="para_743__content">
+                <p xml:space="preserve">		附件</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_744" class="MercuryDocument">
+              <content eId="para_744__content">
+                <p xml:space="preserve">		关于《联合国打击网络犯罪以及为打击使用信息通信技术系统实施的某些犯罪并共享严重犯罪电子证据而加强国际合作公约》中某些具体条款的解释性说明</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_745" class="MercuryDocument">
+              <content eId="para_745__content">
+                <p xml:space="preserve">		第二条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_746" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_746__content">
+                <p xml:space="preserve">	第二条第㈤项中的“服务提供者”一词的定义涵盖第2目中所述为第1目中所列服务的用户存储或以其他方式处理电子数据的实体。例如，按照这一定义，服务提供者包括那些提供托管和缓存服务的机构以及那些提供网络连接的机构。然而，那些仅仅使用网络托管公司服务来托管其网站者并不属于此项定义的范畴。 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_747" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_747__content">
+                <p xml:space="preserve">	缔约国没有义务在其本国法律中逐字照搬《公约》第二条所定义的术语，但这些法律须以符合《公约》原则和宗旨的方式涵盖这些概念，并为《公约》的实施提供同等框架。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_748" class="MercuryDocument">
+              <content eId="para_748__content">
+                <p xml:space="preserve">		第十七条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_749" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_749__content">
+                <p xml:space="preserve">	在《公约》框架内，只有当上游犯罪系根据《公约》第七条至第十六条所确立的犯罪时，犯罪才应视作第十七条所述犯罪。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_750" class="MercuryDocument">
+              <content eId="para_750__content">
+                <p xml:space="preserve">		第二十三条和第三十五条，关于“侦查”一词</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_751" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_751__content">
+                <p xml:space="preserve">	“刑事侦查”一词涵盖以下情形：根据事实情况有合理理由相信某一刑事犯罪（包括《公约》第十九条所述犯罪）已经实施完毕或正在实施当中，包括为制止或阻止实施相关犯罪而开展此类侦查活动的情形。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_752" class="MercuryDocument">
+              <content eId="para_752__content">
+                <p xml:space="preserve">		第三十五条</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_753" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_753__content">
+                <p xml:space="preserve">	在《公约》涵盖范围之外，缔约国可根据其国际义务，相互提供被请求缔约国的本国法律、可适用的司法协助条约或同等安排所允许的任何其他形式的国际合作。</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
