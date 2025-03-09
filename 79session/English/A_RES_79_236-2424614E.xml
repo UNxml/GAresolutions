@@ -1,0 +1,403 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-236/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-236/"></FRBRuri>
+          <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-236/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-236/eng@/"></FRBRuri>
+          <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-236/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-236/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-01-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. High-level Committee on South-South Cooperation" showAs="UN. High-level Committee on South-South Cooperation" dictionary="DHLAUTH"></keyword>
+        <keyword value="ECONOMIC COOPERATION AMONG DEVELOPING COUNTRIES" href="http://metadata.un.org/thesaurus/1001844" showAs="ECONOMIC COOPERATION AMONG DEVELOPING COUNTRIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH-SOUTH RELATIONS" href="http://metadata.un.org/thesaurus/1006059" showAs="SOUTH-SOUTH RELATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="23b" showAs="South-South cooperation for development." shortForm="ECONOMIC COOPERATION AMONG DEVELOPING COUNTRIES" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-11-19" outcome="draftResolution" as="A/C.2/79/L.15/Rev.1" by="Uganda (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Albania, Austria, Belgium, Croatia, Cyprus, Denmark, Finland, Germany, Greece, Hungary, Ireland, Latvia, Lithuania, Luxembourg, Malta, Montenegro, Netherlands (Kingdom of the), North Macedonia, Poland, Portugal, Spain and Sweden" />
+        <step date="2024-12-11" outcome="recommendedForAdoption" as="A/79/442/Add.2" by="" refersTo="9" />
+        <step date="2024-12-24" outcome="adopted" as="A/79/PV.55 (Resumption 1)" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="secondCommittee" href="#secondCommittee" showAs="Second Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-24614 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/236</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-12-31" class="rightSmall" refersTo="#dateOfIssuance">31 December 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">Seventy-ninth session</session>
+      </p>
+      <p>
+        <inline title="23 (b)" name="agenda item">Agenda item 23 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Operational activities for development: South-South cooperation for development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 24 December 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#secondCommittee">[on the report of the Second Committee (<inline name="originating document">A/79/442/Add.2, para. 9</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/236.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	South-South cooperation</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its resolution <a href="https://undocs.org/en/A/RES/73/291">73/291</a> of 15 April 2019, in which it endorsed the Buenos Aires outcome document of the second High-level United Nations Conference on South-South Cooperation, </p>
+      </container>
+      <container name="Reaffirming also" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> its resolution <a href="https://undocs.org/en/A/RES/64/222">64/222</a> of 21 December 2009, in which it endorsed the Nairobi outcome document of the High-level United Nations Conference on South-South Cooperation, </p>
+      </container>
+      <container name="Reaffirming further" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming further</span> its resolution <a href="https://undocs.org/en/A/RES/33/134">33/134</a> of 19 December 1978, in which it endorsed the Buenos Aires Plan of Action for Promoting and Implementing Technical Cooperation among Developing Countries,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<span class="italic">Report of the United Nations Conference on Technical Cooperation among Developing Countries, Buenos Aires, 30 August–12 September 1978</span> (United Nations publication, Sales No. E.78.II.A.11 and corrigendum), chap. I.</p></authorialNote> </p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions <a href="https://undocs.org/en/A/RES/57/270B">57/270</a> B of 23 June 2003, <a href="https://undocs.org/en/A/RES/60/212">60/212</a> of 22 December 2005, <a href="https://undocs.org/en/A/RES/62/209">62/209</a> of 19 December 2007, <a href="https://undocs.org/en/A/RES/63/233">63/233</a> of 19 December 2008, <a href="https://undocs.org/en/A/RES/64/1">64/1</a> of 6 October 2009, <a href="https://undocs.org/en/A/RES/66/219">66/219</a> of 22 December 2011, <a href="https://undocs.org/en/A/RES/67/227">67/227</a> of 21 December 2012, <a href="https://undocs.org/en/A/RES/68/230">68/230</a> of 20 December 2013, <a href="https://undocs.org/en/A/RES/69/239">69/239</a> of 19 December 2014, <a href="https://undocs.org/en/A/RES/70/222">70/222</a> of 22 December 2015, <a href="https://undocs.org/en/A/RES/71/244">71/244</a> of 21 December 2016, <a href="https://undocs.org/en/A/RES/72/237">72/237</a> of 20 December 2017, <a href="https://undocs.org/en/A/RES/73/249">73/249</a> of 20 December 2018, <a href="https://undocs.org/en/A/RES/74/239">74/239</a> of 19 December 2019, <a href="https://undocs.org/en/A/RES/75/234">75/234</a> of 21 December 2020, <a href="https://undocs.org/en/A/RES/76/221">76/221</a> of 17 December 2021, <a href="https://undocs.org/en/A/RES/77/185">77/185</a> of 14 December 2022 and <a href="https://undocs.org/en/A/RES/78/167">78/167</a> of 19 December 2023, </p>
+      </container>
+      <container name="Reaffirming" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which it adopted a comprehensive, far-reaching and people-centred set of universal and transformative Sustainable Development Goals and targets, its commitment to working tirelessly for the full implementation of the Agenda by 2030, its recognition that eradicating poverty in all its forms and dimensions, including extreme poverty, is the greatest global challenge and an indispensable requirement for sustainable development, its commitment to achieving sustainable development in its three dimensions – economic, social and environmental – in a balanced and integrated manner, and to building upon the achievements of the Millennium Development Goals and seeking to address their unfinished business, </p>
+      </container>
+      <container name="Reaffirming also" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> its resolution <a href="https://undocs.org/en/A/RES/69/313">69/313</a> of 27 July 2015 on the Addis Ababa Action Agenda of the Third International Conference on Financing for Development, which is an integral part of the 2030 Agenda for Sustainable Development, supports and complements it, helps to contextualize its means of implementation targets with concrete policies and actions and reaffirms the strong political commitment to address the challenge of financing and creating an enabling environment at all levels for sustainable development in the spirit of global partnership and solidarity, </p>
+      </container>
+      <container name="Reaffirming further" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reaffirming further</span> the Paris Agreement<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Adopted under the United Nations Framework Convention on Climate Change in <a href="https://undocs.org/en/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decision 1/CP.21, annex.</p></authorialNote> and its early entry into force, encouraging all its parties to fully implement the Agreement, and parties to the United Nations Framework Convention on Climate Change<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1771, No. 30822.</p></authorialNote> that have not yet done so to deposit their instruments of ratification, acceptance, approval or accession, where appropriate, as soon as possible, </p>
+      </container>
+      <container name="Welcoming" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the convening of the Summit of the Future on 22 to 23 September 2024 at the United Nations Headquarters in New York, at which resolution <a href="https://undocs.org/en/A/RES/79/1">79/1</a> entitled the “Pact for the Future” and its annexes were adopted,</p>
+      </container>
+      <container name="Reaffirming" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that South-South cooperation is an important element of international cooperation for development, and is not a substitute for, but rather a complement to, North-South cooperation, </p>
+      </container>
+      <container name="Noting with great concern" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Noting with great concern</span> the severe negative impact on human health, safety and well-being caused by the coronavirus disease (COVID‑19) pandemic, as well as the severe disruption to societies and economies and the devastating impact on lives and livelihoods, and that the poorest and most vulnerable are the hardest hit by the pandemic, reaffirming the ambition to get back on track to achieve the Sustainable Development Goals by designing and implementing sustainable and inclusive recovery strategies to accelerate progress towards the full implementation of the 2030 Agenda for Sustainable Development and to help to reduce the risk of and build resilience to future shocks, crises and pandemics, including by strengthening health systems and achieving universal health coverage, and recognizing that equitable and timely access for all to safe, quality, effective and affordable COVID‑19 vaccines, therapeutics and diagnostics are an essential part of a global response based on unity, solidarity, renewed multilateral cooperation and the principle of leaving no one behind, </p>
+      </container>
+      <container name="Encouraging" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> the continuation and advancement of South-South and triangular cooperation on efforts for recovery from the socioeconomic effects of the pandemic and other multiple crises in the pursuit of the 2030 Agenda and its Sustainable Development Goals, and calling for continued support from the relevant United Nations development system entities in that regard, particularly in the areas of poverty eradication and food security, as well as reducing inequalities, and promoting resilience, including through the establishment of vaccine production facilities in developing countries and strengthening of health systems and economic diversification in developing countries, </p>
+      </container>
+      <container name="Recognizing" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the special challenges facing all developing countries in pursuing sustainable development, in particular African countries, the least developed countries, landlocked developing countries and small island developing States, as well as the specific challenges facing middle-income countries and countries in conflict and post-conflict situations, </p>
+      </container>
+      <container name="Recognizing also" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> that climate change, the continuing impact of the COVID‑19 pandemic and ongoing geopolitical tensions and conflicts are creating additional challenges relating to the eradication of poverty, food security, energy security and the cost of living, and that developing countries are disproportionately affected by these challenges, </p>
+      </container>
+      <container name="Underlining" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the importance of South-South and triangular cooperation for the least developed countries, in particular with regard to technical assistance, and the sharing of best practices in terms of their sustainable development, especially in areas of productive capacity-building, infrastructure, energy, science and technology, trade, investment and transit transport cooperation, </p>
+      </container>
+      <container name="Stressing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the important role of South-South and triangular cooperation in addressing the development needs of middle-income countries, including through capacity-building and fostering peer-learning and sharing of best practices among middle-income countries across the regions, </p>
+      </container>
+      <container name="Reiterating" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the call for advancing the elaboration of a system-wide response plan aimed at better addressing the multidimensional nature of sustainable development and facilitating sustainable development cooperation and coordinated and inclusive support to middle-income countries based on their specific challenges and diverse needs, </p>
+      </container>
+      <container name="Reaffirming" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the importance of a renewed framework for international support to address the special needs of landlocked developing countries and to strengthen partnerships between the landlocked developing countries and transit countries and their development partners to ensure the implementation of the new Programme of Action for Landlocked Developing Countries for the Decade 2024–2034, </p>
+      </container>
+      <container name="Looking forward" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Looking forward</span> to the convening in 2025 of the Fourth International Conference on Financing for Development in Seville, Spain, </p>
+      </container>
+      <container name="Welcoming" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the convening of the fifteenth session of the United Nations Conference on Trade and Development, and taking note of the adoption of its outcome document, the Bridgetown Covenant,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	<a href="https://undocs.org/en/TD/541/Add.2">TD/541/Add.2</a>.</p></authorialNote> and looking forward to the continued work of the Conference on issues related to South-South cooperation, triangular cooperation and regional cooperation, including by promoting dialogue between economic integration structures with a view to enhancing mutual trade and exchanging best practices and experiences, towards the achievement of the Sustainable Development Goals, </p>
+      </container>
+      <container name="Welcoming also" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Welcoming also</span> the ongoing efforts to enhance South-South and triangular cooperation in the area of trade under the Global System of Trade Preferences among Developing Countries as a vehicle to support economic resilience and promote sustainable development, and looking forward to the continued work of the United Nations Conference on Trade and Development to support developing countries in deepening and enlarging South-South trade integration, regional, subregional and interregional economic integration and cooperation arrangements, </p>
+      </container>
+      <container name="Welcoming further" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Welcoming further</span> the development of an initial voluntary conceptual framework for the measurement of South-South cooperation, which marks a breakthrough in its measurement on the basis of country-led mechanisms and helps shed light on the importance of South-South cooperation towards achieving the 2030 Agenda, by adding for the first time country-owned data on South-South cooperation in assessing the contributions of such cooperation to sustainable development, </p>
+      </container>
+      <container name="Recalling" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> that triangular cooperation complements and adds value to South-South cooperation by enabling requesting developing countries to source and access more, and a broader range of, resources, expertise and capacities, that they identify as needed in order to achieve their national development goals and internationally agreed sustainable development goals, </p>
+      </container>
+      <container name="Taking note" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the establishment by the United Nations Office for South-South Cooperation of a triangular cooperation window under the United Nations Fund for South-South Cooperation, launched on 7 October 2024 in Lisbon, </p>
+      </container>
+      <container name="Reaffirming" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the mandate and the central role of the United Nations Office for South-South Cooperation as the focal point for promoting and facilitating South-South and triangular cooperation for development on a global and United Nations system-wide basis, and noting with appreciation the actions taken by the Office in strengthening the United Nations system-wide coordination on South-South and triangular cooperation, which has served as a channel to facilitate the mainstreaming of South-South and triangular cooperation into the corporate strategies and operational activities of United Nations entities, as well as noting the development of a handbook on integrating South-South and triangular cooperation in the voluntary national reviews in collaboration with the Co-Chairs of the Group of Friends of the Voluntary National Reviews, Morocco and the Philippines, </p>
+      </container>
+      <container name="Reiterating" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the pledge that no one will be left behind, reaffirming the recognition that the dignity of the human person is fundamental, and the wish to see the Goals and targets met for all nations and peoples and for all segments of society, and recommitting to endeavour to reach the furthest behind first, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the convening of the second High-level United Nations Conference on South-South Cooperation in Buenos Aires from 20 to 22 March 2019 and its outcome document,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/73/291">73/291</a>, annex.</p></authorialNote> and calls upon the international community to support the full implementation of the outcome document of the second High-level Conference; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Secretary-General on the state of South-South cooperation;<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/79/230">A/79/230</a>.</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms its support</span> for the High-level Committee on South-South Cooperation, recalls its decisions 21/1 and 21/2 adopted during its twenty-first session, held from 30 May to 2 June 2023, and looks forward to the convening of the twenty-second session of the Committee, to be held in 2025; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the continuation and advancement of South-South cooperation and triangular cooperation on efforts for COVID‑19 response and recovery from the socioeconomic effects of the pandemic and other multiple crises in the pursuit of the 2030 Agenda for Sustainable Development<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and its Sustainable Development Goals, and calls for continued support from the relevant United Nations development system entities in that regard, particularly in areas such as equitable and non‑discriminatory access to safe, quality, effective and affordable healthcare and services and medical supplies and equipment, including diagnostics, therapeutics, medicine and other health products, vaccines, as well as digitalization, the environment, climate change, social protection and the eradication of poverty, noting that the world needs a stronger, better coordinated, inclusive and more agile global health architecture for pandemic prevention, preparedness, response and recovery to stop the severe impact of future outbreaks; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the support of development partners for triangular cooperation towards the achievement of the Sustainable Development Goals in the global South, and urges developed countries to continue providing financial, scientific and technological assistance to developing countries, to close the digital divides and to better harness science, technology and innovation to accelerate the achievement of the Sustainable Development Goals by 2030; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States and United Nations entities to strengthen South-South and triangular cooperation on access to science, technology and innovation by creating synergies, developing expertise and boosting resources in different regions and institutions, and in this regard notes with appreciation the convening of the Summit on Science, Technology and Innovation by the Group of 77 and China, in Havana on 15 and 16 September 2023, as an effort to boost cooperation in this field to increase its benefit to all people; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, with the support of the United Nations development system, to facilitate the development and access to appropriate technologies, promote digital transitions and foster the exchange of innovative practices through South-South and triangular cooperation, with the aim of safeguarding the interests of present and future generations, and to integrate science, digital technologies, including emerging ones, and data governance into national and international development strategies; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States and all relevant stakeholders, as appropriate, to establish or strengthen coordinated mechanisms at the subnational, national, regional and global levels to leverage the expertise and other resources of multi‑stakeholder partnerships to support South-South cooperation and triangular cooperation initiatives towards the attainment of the 2030 Agenda, while acknowledging that governments have the principal role of coordinating and leading development efforts; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes </span>the convening of the ministerial meeting on South-South cooperation held in 2023 during the second part of the Fifth United Nations Conference on the Least Developed Countries, in Doha, on leveraging South-South and triangular cooperation for the attainment of the Sustainable Development Goals, and looks forward to the ministerial meeting on South-South cooperation to be held on the margins of the third United Nations Conference on the Landlocked Developing Countries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the various experiences and locally driven development approaches to achieve the Sustainable Development Goals, and reiterates the importance of learning and sharing good practices, including through South-South, North-South and triangular cooperation through platforms such as South-South Galaxy, the Global South-South Development Expo, regional sustainable development forums and other knowledge-sharing platforms supported by the different entities of the United Nations system; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the organization of the eleventh Global South-South Development Expo in Bangkok from 12 to 14 September 2022, and encourages Member States to host future Global South-South Development Expos, which can serve as important knowledge-sharing platforms; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Notes with appreciation</span> the convening of the Third South Summit, held in Kampala on 21 and 22 January 2024;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the adoption of the Antigua and Barbuda Agenda for Small Island Developing States: A Renewed Declaration for Resilient Prosperity<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Resolution <a href="https://undocs.org/en/A/RES/78/317">78/317</a>, annex.</p></authorialNote> at the Fourth International Conference on Small Island Developing States, held in Antigua and Barbuda from 27 to 30 May 2024, which commits to supporting small island developing States (SIDS), including by leveraging triangular and South-South cooperation, including SIDS-to-SIDS, to mobilize resources, as a complement to North-South cooperation, towards the realization of the Antigua and Barbuda Agenda for Small Island Developing States by 2034; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Looking forward </span>to the third United Nations Conference on Landlocked Developing Countries as an opportunity for the international community to scale its support to landlocked developing countries in their efforts to leverage South-South and triangular cooperation, to achieve sustainable development and to realize the full implementation of the new Programme of Action for Landlocked Developing Countries for the Decade 2024–2034;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the growing debt burden of developing countries, and also recognizes the role of the United Nations, within its mandates, to facilitate South-South exchanges of knowledge on debt to help countries of the South; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the need to enhance the provision and mobilization of adequate resources for enhancing South-South and triangular cooperation, and in this context invites all countries in a position to do so, in particular developed countries, to scale up the contributions, in support of such cooperation, to the United Nations Fund for South-South Cooperation and to the Pérez-Guerrero Trust Fund for South‑South Cooperation, in accordance with General Assembly resolution <a href="https://undocs.org/en/A/RES/57/263">57/263</a> of 20 December 2002, and to support other initiatives for all developing countries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">Highlights</span> that 20 December 2023 marked the fortieth anniversary of the Pérez-Guerrero Trust Fund for South-South Cooperation, and acknowledges the Trust Fund’s effectiveness in providing catalytic support to South-South cooperation, underscoring the enduring partnership between the Group of 77 and the United Nations Office for South-South Cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> United Nations entities to support developing countries in integrating development cooperation perspectives, including, in particular, South-South and triangular cooperation perspectives, into the preparation and presentation of the voluntary national review reports on sustainable development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that, within the context of the United Nations development system, the United Nations system-wide strategy on South-South and triangular cooperation has the potential to enhance the role and impact of South-South and triangular cooperation through galvanizing the expertise of United Nations organizations to support South-South and triangular cooperation, and in this regard calls upon the United Nations development system to continue mainstreaming South-South and triangular cooperation into the United Nations Sustainable Development Cooperation Frameworks, at the country level, as appropriate, as a means to accelerate the implementation of the 2030 Agenda and its Sustainable Development Goals, and also calls upon the United Nations Office for South-South Cooperation to work in collaboration with the United Nations system organizations and the regional commissions to mainstream South-South and triangular cooperation, including through regional collaborative frameworks for South-South and triangular cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">Notes with appreciation</span> the countries that have increased cooperation with the United Nations Office for South-South Cooperation, and calls upon the Office to further strengthen its support to South-South cooperation projects; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the United Nations development system entities to further integrate, as appropriate, South-South and triangular cooperation into their strategic frameworks and planning instruments, and urges them to allocate sufficient financial resources dedicated to supporting and facilitating South-South and triangular cooperation, and encourages the United Nations resident coordinators to continue to advance the integration of South-South and triangular cooperation into the work of United Nations country teams to achieve greater system-wide results and impacts for the implementation of the 2030 Agenda and the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_258" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_258__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> the United Nations development system to support Member States in enhancing the establishment and development of platforms for innovation and information-sharing in education and pedagogical methods, including, inter alia, in technical, vocational and tertiary education, and digital literacy, and leverage technological advancements through South-South and triangular cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_280" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_280__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to prioritize and scale up South-South and triangular cooperation initiatives targeting the 1.9 billion young people, predominantly in developing countries, to enhance their digital skills, employability and entrepreneurship, including by incentivizing the mobilization of financing from all sources, and with the support of the United Nations development system; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_303" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_303__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations Conference on Trade and Development to strengthen capacity-building and support to developing countries, provide technical guidance, data collection tools and reporting systems for applying the initial voluntary conceptual framework for the measurement of South-South cooperation based on country-led mechanisms, and establish a platform to enable country-led development of methodologies and sharing of experience; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">	<span class="italic">Recommends</span> that the United Nations development system support the efforts of the United Nations Conference on Trade and Development in raising awareness and developing the capacity of national statistical offices and cooperation agencies to use the initial voluntary conceptual framework for the measurement of South-South cooperation, and acknowledges the importance of exploring possible options for the measurement of triangular cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_352" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_352__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the contribution of and the need to scale up and strengthen South-South and triangular cooperation as a complementary means of implementation of the 2030 Agenda and its Sustainable Development Goals, including in achieving the overarching goal of the eradication of poverty in all its forms and dimensions, including extreme poverty, and the goals of, inter alia, ending hunger, reducing inequalities, within and among countries, as well as for the use, capacity-building and transfer of digital technologies, on mutually agreed terms, to accelerate the attainment of the Sustainable Development Goals and close the digital divides; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_378" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_378__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the contribution of South-South and triangular cooperation in promoting gender equality and the empowerment of women and girls in sustainable development, as well as in achieving the overarching goal of the eradication of poverty in all its forms and dimensions, including extreme poverty; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_405" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_405__content">
+          <p xml:space="preserve">	<span class="italic">Further recognizes</span> the role of South-South and triangular cooperation in enhancing connectivity and digital transformation within and among developing countries, and in this regard invites the United Nations Office for South-South Cooperation and the United Nations system, in line with their respective mandates, to support efforts to develop and implement policies to bridge the digital divides and fast-track digital transformation to improve the delivery of public services in the South; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_433" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_433__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the commitment at the very heart of the 2030 Agenda to leave no one behind and commit to taking more tangible steps to support people in vulnerable situations and the most vulnerable countries and to reach the furthest behind first; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_462" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_462__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit to the General Assembly at its eightieth session a comprehensive report on the state of South-South cooperation, including the implementation of the outcome document of the second High-level Conference; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_492" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_492__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to include in the provisional agenda of its eightieth session, under the item entitled “Operational activities for development”, the sub-item entitled “South-South cooperation for development”.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="55th" refersTo="#adoptionMeeting">55th (resumed) plenary meeting</location>
+          <eol />
+          <docDate date="2024-12-24" refersTo="#adoptionDate">24 December 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
