@@ -1,0 +1,1386 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <documentCollection name="publication">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259/"></FRBRuri>
+          <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259/ara@/"></FRBRuri>
+          <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-01-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+        <keyword value="PROGRAMME BUDGETING" href="http://metadata.un.org/thesaurus/1005166" showAs="PROGRAMME BUDGETING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="APPROPRIATIONS" href="http://metadata.un.org/thesaurus/1000347" showAs="APPROPRIATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESOURCES ALLOCATION" href="http://metadata.un.org/thesaurus/1005513" showAs="RESOURCES ALLOCATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INCOME SOURCES" href="http://metadata.un.org/thesaurus/1003088" showAs="INCOME SOURCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="139" showAs="Proposed programme budget for 2025." shortForm="UN--BUDGET (2025)" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-12-24" outcome="draftResolution" as="A/C.5/79/L.25" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-12-24" outcome="recommendedForAdoption" by="" refersTo="58" />
+        <step date="2024-12-24" outcome="adopted" as="A/79/PV.55 (Resumption 1)" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="اللجنة الخامسة"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-24702 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/259 A-C</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">الجمعية العامة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-12-31" class="rightSmall" refersTo="#dateOfIssuance">31 December 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">الدورة التاسعة والسبعون</session>
+      </p>
+      <p>
+        <inline title="139" name="agenda item">البند 139 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <docTitle></docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[بناء على تقرير اللجنة الخامسة (<inline name="originating document">A/79/652، الفقرة 58</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/259</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	الميزانية البرنامجية لعام 2025</span>
+        </docTitle>
+      </p>
+    </preface>
+    <collectionBody>
+      <component eId="comp_def_0">
+        <documentRef eId="compRef_0" href="comp_0" showAs="Resolution A"></documentRef>
+      </component>
+      <component eId="comp_def_1">
+        <documentRef eId="compRef_1" href="comp_1" showAs="Resolution B"></documentRef>
+      </component>
+      <component eId="comp_def_2">
+        <documentRef eId="compRef_2" href="comp_2" showAs="Resolution C"></documentRef>
+      </component>
+    </collectionBody>
+  </documentCollection>
+  <components>
+    <component eId="comp_0">
+      <statement name="resolution">
+        <meta>
+          <identification source="#DGACM">
+            <FRBRWork>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259A/!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259A/"></FRBRuri>
+              <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+              <FRBRauthor href="ga" as="author"></FRBRauthor>
+              <FRBRcountry value="un"></FRBRcountry>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259A/ara@!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259A/ara@/"></FRBRuri>
+              <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+              <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+              <FRBRlanguage language="ara"></FRBRlanguage>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259A/ara@/!main.xml"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259A/ara@.xml"></FRBRuri>
+              <FRBRdate date="2025-01-28" name="markup"></FRBRdate>
+              <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+            </FRBRManifestation>
+          </identification>
+          <classification source="DHLAUTH">
+            <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+            <keyword value="PROGRAMME BUDGETING" href="http://metadata.un.org/thesaurus/1005166" showAs="PROGRAMME BUDGETING" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="APPROPRIATIONS" href="http://metadata.un.org/thesaurus/1000347" showAs="APPROPRIATIONS" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="RESOURCES ALLOCATION" href="http://metadata.un.org/thesaurus/1005513" showAs="RESOURCES ALLOCATION" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="INCOME SOURCES" href="http://metadata.un.org/thesaurus/1003088" showAs="INCOME SOURCES" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword refersTo="agenda" value="139" showAs="Proposed programme budget for 2025." shortForm="UN--BUDGET (2025)" dictionary="A/79/251"></keyword>
+          </classification>
+          <workflow source="#un">
+            <step date="2024-12-24" outcome="draftResolution" as="A/C.5/79/L.25" by="submitted by the Chair of the Committee following informal consultations" />
+            <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+            <step date="2024-12-24" outcome="recommendedForAdoption" by="" refersTo="58" />
+            <step date="2024-12-24" outcome="adopted" as="A/79/PV.55 (Resumption 1)" by="" />
+          </workflow>
+          <analysis source="#un">
+            <parliamentary>
+              <voting>
+                <quorum value=""></quorum>
+              </voting>
+            </parliamentary>
+          </analysis>
+          <references source="#DGACM">
+            <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+            <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+            <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+            <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+            <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+            <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+            <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+            <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+            <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+            <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+            <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+            <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="اللجنة الخامسة"></TLCTerm>
+            <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+            <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+            <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+            <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+          </references>
+          <presentation source="#un">
+            <akn4un:footerFirstPage>
+              <akn4un:footerFirstPageLeft>
+                <akn4un:internalCode>
+                  <docketNumber refersTo="#publicationJobNumber">24-24702 (A)</docketNumber>
+                  <img alt="bar code" class="barCode" src=""></img>
+                </akn4un:internalCode>
+              </akn4un:footerFirstPageLeft>
+              <akn4un:footerFirstPageRight>
+                <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+                <img alt="embedded QR code" class="qrCode" src=""></img>
+              </akn4un:footerFirstPageRight>
+            </akn4un:footerFirstPage>
+          </presentation>
+        </meta>
+        <preface>
+          <p>
+            <docNumber>A</docNumber>
+            <docTitle refersTo="#resolutionTitle">
+              <span class="bold">		اعتمادات الميزانية لعام 2025</span>
+            </docTitle>
+          </p>
+        </preface>
+        <preamble>
+          <formula name="enactingFormula" eId="formula_1">
+            <p xml:space="preserve">
+              <span class="bold italic">إن الجمعية العامة</span>،</p>
+          </formula>
+        </preamble>
+        <mainBody>
+          <paragraph eId="para_2" class="SingleTxt">
+            <content eId="para_2__content">
+              <p xml:space="preserve">	<span class="bold italic">تقرر</span>، بالنسبة لعام 2025:</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_3" class="SingleTxt">
+            <num>1 -</num>
+            <content eId="para_3__content">
+              <p xml:space="preserve">	الموافقة بموجب هذا القرار على اعتمادات مجموعها 600 379 717 3 من دولارات الولايات المتحدة للأغراض التالية:</p>
+            </content>
+          </paragraph>
+          <container name="table" eId="container_4">
+            <table eId="container_4_table_1" akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Bottom&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Left&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideHorizontal&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideVertical&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0}}" akn4un:data-width-type="8582-dxa">
+              <tr>
+                <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" colspan="2" akn4un:data-width-type="6694-dxa">
+                  <p>
+                    <span class="italic">الباب</span>
+                  </p>
+                </th>
+                <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="italic">المبلغ (بدولارات الولايات المتحدة)</span>
+                  </p>
+                </th>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الأول<span class="italic"> - تقرير السياسات والتوجيه والتنسيق عموماً</span></p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>1 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>تقرير السياسات والتوجيه والتنسيق عموماً</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>000 203 98</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>2 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>شؤون الجمعية العامة والمجلس الاقتصادي والاجتماعي وإدارة المؤتمرات</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>700 800 400</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الأول</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">700 003 499</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الثاني - <span class="italic">الشؤون السياسية</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>3 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الشؤون السياسية</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>900 971 733</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>4 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>نزع السلاح</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>700 127 19</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>5 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>عمليات حفظ السلام</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>000 027 61</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>6 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>استخدام الفضاء الخارجي في الأغراض السلمية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>000 543 5</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الثاني</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">600 669 819</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الثالث - <span class="italic">العدل والقانون الدوليان</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>7 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>محكمة العدل الدولية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>600 661 34</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>8 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الشؤون القانونية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>500 082 70</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الثالث</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">100 744 104</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الرابع - <span class="italic">التعاون فيما بين بلدان الجنوب من أجل التنمية</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>9 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الشؤون الاقتصادية والاجتماعية</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>500 596 106</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>10 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>أقل البلدان نموا والبلدان النامية غير الساحلية والدول الجزرية الصغيرة النامية</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>800 184 11</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>11 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>دعم منظومة الأمم المتحدة لخطة الاتحاد الأفريقي لعام 2063: أفريقيا التي نصبو إليها</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>800 735 10</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>12 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التجارة والتنمية</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>000 995 89</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>13 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>مركز التجارة الدولية</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>800 376 23</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>14 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>البيئة</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>100 501 24</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>15 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>المستوطنات البشرية</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>000 055 15</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>16 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>المراقبة الدولية للمخدرات، ومنع الجريمة والإرهاب، والعدالة الجنائية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>000 765 27</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>17 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>هيئة الأمم المتحدة للمرأة</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>400 443 11</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الرابع</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">400 653 320</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الخامس - <span class="italic">التعاون الإقليمي لأغراض التنمية</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>18 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التنمية الاقتصادية والاجتماعية في أفريقيا</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>900 922 94</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>19 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التنمية الاقتصادية والاجتماعية في آسيا والمحيط الهادئ</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>400 498 58</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>20 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التنمية الاقتصادية في أوروبا</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>800 951 40</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>21 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التنمية الاقتصادية والاجتماعية في أمريكا اللاتينية ومنطقة البحر الكاريبي</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>700 821 62</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>22 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التنمية الاقتصادية والاجتماعية في غربي آسيا</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>200 152 51</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>23 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>البرنامج العادي للتعاون التقني</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>000 706 49</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الخامس</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">000 053 358</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء السادس - <span class="italic">حقوق الإنسان والشؤون الإنسانية</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>24 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>حقوق الإنسان</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>600 004 258</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>25 -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>توفير الحماية الدولية والحلول الدائمة والمساعدة للاجئين</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>900 466 50</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>26 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>اللاجئون الفلسطينيون</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>400 315 84</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>27 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>المساعدة الإنسانية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>500 278 20</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء السادس</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">400 065 413</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء السابع - <span class="italic">التواصل العالمي</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>28 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التواصل العالمي</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>300 446 123</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء السابع</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">300 446 123</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الثامن - <span class="italic">خدمات الدعم المشتركة</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>29 ألف -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>إدارة الاستراتيجيات والسياسات الإدارية ومسائل الامتثال</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>900 358 68</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>29 باء -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>إدارة الدعم العملياتي</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>900 043 101</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>29 جيم -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>مكتب تكنولوجيا المعلومات والاتصالات</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>600 389 55</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>29 دال -</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الإدارة، نيروبي</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>300 512 23</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>29 هاء -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الإدارة، جنيف</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>800 283 90</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>29 واو -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الإدارة، فيينا</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>600 314 22</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الثامن</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">100 903 360</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء التاسع <span class="italic">- الرقابة الداخلية</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>30 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الرقابة الداخلية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>800 342 26</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء التاسع</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">800 342 26</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء العاشر - <span class="italic">الأنشطة الإدارية المشتركة التمويل والمصروفات الخاصة</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>31 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الأنشطة الإدارية المشتركة التمويل</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>300 137 9</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>32 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>المصروفات الخاصة</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>700 258 97</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء العاشر</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">000 396 106</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الحادي عشر - <span class="italic">النفقات الرأسمالية</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>33 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>التشييد والتعديلات والتحسينات وأعمال الصيانة الرئيسية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>500 020 88</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الحادي عشر</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">500 020 88</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الثاني - <span class="italic">عشر السلامة والأمن</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>34 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>السلامة والأمن</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>400 739 150</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الثاني عشر</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">400 739 150</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الثالث عشر - <span class="italic">حساب التنمية</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>35 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>حساب التنمية</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>900 011 19</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الثالث عشر</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">900 011 19</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الجزء الرابع عشر - <span class="italic">الاقتطاعات الإلزامية من مرتبات الموظفين</span></p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa"></td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa">
+                  <p>36 -</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>الاقتطاعات الإلزامية من مرتبات الموظفين</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>400 330 327</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع الفرعي، الجزء الرابع عشر</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">400 330 327</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="754-dxa"></td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5940-dxa">
+                  <p>
+                    <span class="bold">المجموع</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1888-dxa">
+                  <p>
+                    <span class="bold">600 379 717 3</span>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </container>
+          <paragraph eId="para_5" class="SingleTxt">
+            <num>2 -</num>
+            <content eId="para_5__content">
+              <p xml:space="preserve">	الإذن للأمين العام بنقل اعتمادات بين أبواب الميزانية، بموافقة اللجنة الاستشارية لشؤون الإدارة والميزانية؛</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_6" class="SingleTxt">
+            <num>3 -</num>
+            <content eId="para_6__content">
+              <p xml:space="preserve">	رصد مبلغ، بالإضافة إلى الاعتمادات الموافق عليها بموجب الفقرة 1 أعلاه، قدره 000 75 دولار لعام 2025 من الإيرادات المتراكمة في صندوق الهبات المخصصة للمكتبة، وذلك لشراء الكتب والدوريات والخرائط ومعدات المكتبة ولتغطية أي مصروفات أخرى من هذا القبيل لمكتبة قصر الأمم في جنيف بما يتماشى مع أهداف الهبة وشروطها.</p>
+            </content>
+          </paragraph>
+        </mainBody>
+        <conclusions eId="conclusions">
+          <p>
+            <event refersTo="#adoption">
+              <location title="55" refersTo="#adoptionMeeting">الجلسة العامة 55 (المستأنفة)</location>
+              <eol />
+              <docDate date="2024-12-24" refersTo="#adoptionDate">24 كانون الأول/ديسمبر 2024</docDate>
+            </event>
+          </p>
+        </conclusions>
+      </statement>
+    </component>
+    <component eId="comp_1">
+      <statement name="resolution">
+        <meta>
+          <identification source="#DGACM">
+            <FRBRWork>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259B/!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259B/"></FRBRuri>
+              <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+              <FRBRauthor href="ga" as="author"></FRBRauthor>
+              <FRBRcountry value="un"></FRBRcountry>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259B/ara@!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259B/ara@/"></FRBRuri>
+              <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+              <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+              <FRBRlanguage language="ara"></FRBRlanguage>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259B/ara@/!main.xml"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259B/ara@.xml"></FRBRuri>
+              <FRBRdate date="2025-01-28" name="markup"></FRBRdate>
+              <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+            </FRBRManifestation>
+          </identification>
+          <classification source="DHLAUTH">
+            <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+            <keyword value="PROGRAMME BUDGETING" href="http://metadata.un.org/thesaurus/1005166" showAs="PROGRAMME BUDGETING" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="APPROPRIATIONS" href="http://metadata.un.org/thesaurus/1000347" showAs="APPROPRIATIONS" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="RESOURCES ALLOCATION" href="http://metadata.un.org/thesaurus/1005513" showAs="RESOURCES ALLOCATION" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="INCOME SOURCES" href="http://metadata.un.org/thesaurus/1003088" showAs="INCOME SOURCES" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword refersTo="agenda" value="139" showAs="Proposed programme budget for 2025." shortForm="UN--BUDGET (2025)" dictionary="A/79/251"></keyword>
+          </classification>
+          <workflow source="#un">
+            <step date="2024-12-24" outcome="draftResolution" as="A/C.5/79/L.25" by="submitted by the Chair of the Committee following informal consultations" />
+            <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+            <step date="2024-12-24" outcome="recommendedForAdoption" by="" refersTo="58" />
+            <step date="2024-12-24" outcome="adopted" as="A/79/PV.55 (Resumption 1)" by="" />
+          </workflow>
+          <analysis source="#un">
+            <parliamentary>
+              <voting>
+                <quorum value=""></quorum>
+              </voting>
+            </parliamentary>
+          </analysis>
+          <references source="#DGACM">
+            <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+            <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+            <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+            <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+            <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+            <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+            <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+            <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+            <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+            <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+            <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+            <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="اللجنة الخامسة"></TLCTerm>
+            <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+            <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+            <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+            <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+          </references>
+          <presentation source="#un">
+            <akn4un:footerFirstPage>
+              <akn4un:footerFirstPageLeft>
+                <akn4un:internalCode>
+                  <docketNumber refersTo="#publicationJobNumber">24-24702 (A)</docketNumber>
+                  <img alt="bar code" class="barCode" src=""></img>
+                </akn4un:internalCode>
+              </akn4un:footerFirstPageLeft>
+              <akn4un:footerFirstPageRight>
+                <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+                <img alt="embedded QR code" class="qrCode" src=""></img>
+              </akn4un:footerFirstPageRight>
+            </akn4un:footerFirstPage>
+          </presentation>
+        </meta>
+        <preface>
+          <p>
+            <docNumber>B</docNumber>
+            <docTitle refersTo="#resolutionTitle">
+              <span class="bold">		تقديرات إيرادات عام 2025</span>
+            </docTitle>
+          </p>
+        </preface>
+        <preamble>
+          <formula name="enactingFormula" eId="formula_1">
+            <p xml:space="preserve">
+              <span class="bold italic">إن الجمعية العامة</span>،</p>
+          </formula>
+        </preamble>
+        <mainBody>
+          <paragraph eId="para_2" class="SingleTxt">
+            <content eId="para_2__content">
+              <p xml:space="preserve">	<span class="bold italic">تقرر</span>، بالنسبة لعام 2025:</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_3" class="SingleTxt">
+            <num>1 -</num>
+            <content eId="para_3__content">
+              <p xml:space="preserve">	الموافقة على تقديرات الإيرادات البالغ مجموعها 100 273 364 دولار من دولارات الولايات المتحدة على النحو التالي:</p>
+            </content>
+          </paragraph>
+          <container name="table" eId="container_4">
+            <table eId="container_4_table_1" akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Bottom&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Left&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideHorizontal&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideVertical&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0}}" akn4un:data-width-type="7315-dxa">
+              <tr>
+                <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5422-dxa">
+                  <p>
+                    <span class="italic">باب الإيرادات</span>
+                  </p>
+                </th>
+                <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1893-dxa">
+                  <p>
+                    <span class="italic">المبلغ (بدولارات الولايات المتحدة)</span>
+                  </p>
+                </th>
+              </tr>
+              <tr>
+                <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5422-dxa"></th>
+                <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1893-dxa"></th>
+              </tr>
+              <tr>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="5422-dxa">
+                  <p>1 -	إيرادات متأتية من الاقتطاعات الإلزامية من مرتبات الموظفين</p>
+                </td>
+                <td akn4un:data-vertical-align="bottom" akn4un:data-width-type="1893-dxa">
+                  <p>000 472 329</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5422-dxa">
+                  <p>2 -	الإيرادات العامة</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1893-dxa">
+                  <p>300 090 34</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5422-dxa">
+                  <p>3 -	الخدمات المقدَّمة للجمهور</p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;nil&quot;,&quot;Size&quot;:null,&quot;Space&quot;:null},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1893-dxa">
+                  <p>800 710</p>
+                </td>
+              </tr>
+              <tr>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="5422-dxa">
+                  <p>
+                    <span class="bold">	المجموع</span>
+                  </p>
+                </td>
+                <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="1893-dxa">
+                  <p>
+                    <span class="bold">100 273 364</span>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </container>
+          <paragraph eId="para_5" class="SingleTxt">
+            <num>2 -</num>
+            <content eId="para_5__content">
+              <p xml:space="preserve">	أن تقيَّد الإيرادات المتأتية من الاقتطاعات الإلزامية من مرتبات الموظفين لحساب صندوق معادلة الضرائب وفقاً لأحكام قرار الجمعية العامة 973 (د-10) المؤرخ 15 كانون الأول/ ديسمبر 1955؛</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_6" class="SingleTxt">
+            <num>3 -</num>
+            <content eId="para_6__content">
+              <p xml:space="preserve">	أن تُخصم النفقات المباشرة لإدارة بريد الأمم المتحدة والخدمات المقدَّمة للزوار وبيع المنتجات الإحصائية وعمليات تشغيل المطاعم والخدمات المتصلة بها وعمليات تشغيل المرآب وخدمات التلفزيون وبيع المنشورات، التي لم ترصَد لها اعتمادات في الميزانية، من الإيرادات الآتية من تلك الأنشطة.</p>
+            </content>
+          </paragraph>
+        </mainBody>
+        <conclusions eId="conclusions">
+          <p>
+            <event refersTo="#adoption">
+              <location title="55" refersTo="#adoptionMeeting">الجلسة العامة 55 (المستأنفة)</location>
+              <eol />
+              <docDate date="2024-12-24" refersTo="#adoptionDate">24 كانون الأول/ديسمبر 2024</docDate>
+            </event>
+          </p>
+        </conclusions>
+      </statement>
+    </component>
+    <component eId="comp_2">
+      <statement name="resolution">
+        <meta>
+          <identification source="#DGACM">
+            <FRBRWork>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259C/!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259C/"></FRBRuri>
+              <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+              <FRBRauthor href="ga" as="author"></FRBRauthor>
+              <FRBRcountry value="un"></FRBRcountry>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259C/ara@!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259C/ara@/"></FRBRuri>
+              <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+              <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+              <FRBRlanguage language="ara"></FRBRlanguage>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-259C/ara@/!main.xml"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-259C/ara@.xml"></FRBRuri>
+              <FRBRdate date="2025-01-28" name="markup"></FRBRdate>
+              <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+            </FRBRManifestation>
+          </identification>
+          <classification source="DHLAUTH">
+            <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+            <keyword value="PROGRAMME BUDGETING" href="http://metadata.un.org/thesaurus/1005166" showAs="PROGRAMME BUDGETING" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="APPROPRIATIONS" href="http://metadata.un.org/thesaurus/1000347" showAs="APPROPRIATIONS" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="RESOURCES ALLOCATION" href="http://metadata.un.org/thesaurus/1005513" showAs="RESOURCES ALLOCATION" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword value="INCOME SOURCES" href="http://metadata.un.org/thesaurus/1003088" showAs="INCOME SOURCES" dictionary="UNBIS Thesaurus"></keyword>
+            <keyword refersTo="agenda" value="139" showAs="Proposed programme budget for 2025." shortForm="UN--BUDGET (2025)" dictionary="A/79/251"></keyword>
+          </classification>
+          <workflow source="#un">
+            <step date="2024-12-24" outcome="draftResolution" as="A/C.5/79/L.25" by="submitted by the Chair of the Committee following informal consultations" />
+            <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+            <step date="2024-12-24" outcome="recommendedForAdoption" by="" refersTo="58" />
+            <step date="2024-12-24" outcome="adopted" as="A/79/PV.55 (Resumption 1)" by="" />
+          </workflow>
+          <analysis source="#un">
+            <parliamentary>
+              <voting>
+                <quorum value=""></quorum>
+              </voting>
+            </parliamentary>
+          </analysis>
+          <references source="#DGACM">
+            <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+            <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+            <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+            <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+            <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+            <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+            <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+            <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+            <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+            <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+            <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+            <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="اللجنة الخامسة"></TLCTerm>
+            <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+            <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+            <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+            <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+          </references>
+          <presentation source="#un">
+            <akn4un:footerFirstPage>
+              <akn4un:footerFirstPageLeft>
+                <akn4un:internalCode>
+                  <docketNumber refersTo="#publicationJobNumber">24-24702 (A)</docketNumber>
+                  <img alt="bar code" class="barCode" src=""></img>
+                </akn4un:internalCode>
+              </akn4un:footerFirstPageLeft>
+              <akn4un:footerFirstPageRight>
+                <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+                <img alt="embedded QR code" class="qrCode" src=""></img>
+              </akn4un:footerFirstPageRight>
+            </akn4un:footerFirstPage>
+          </presentation>
+        </meta>
+        <preface>
+          <p>
+            <docNumber>C</docNumber>
+            <docTitle refersTo="#resolutionTitle">
+              <span class="bold">		تمويل اعتمادات عام 2025</span>
+            </docTitle>
+          </p>
+        </preface>
+        <preamble>
+          <formula name="enactingFormula" eId="formula_1">
+            <p xml:space="preserve">
+              <span class="bold italic">إن الجمعية العامة</span>
+              <span class="italic">،</span>
+            </p>
+          </formula>
+        </preamble>
+        <mainBody>
+          <paragraph eId="para_2" class="SingleTxt">
+            <content eId="para_2__content">
+              <p xml:space="preserve">	<span class="bold italic">تقرر</span>، بالنسبة لعام 2025:</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_3" class="SingleTxt">
+            <num>1 -</num>
+            <list eId="para_3_list">
+              <intro eId="para_3_list_intro">
+                <p xml:space="preserve">	تمويل اعتمادات الميزانية البالغ مجموعها 400 352 743 3 دولار من دولارات الولايات المتحدة والتي تتألف من مبلغ 600 379 717 3 دولار الذي وافقت عليه الجمعية العامة لعام 2025 في الفقرة 1 من القرار ألف أعلاه، ومبلغ الاعتمادات الإضافية لعام 2024 بقيمة 800 972 25 دولار الذي وافقت عليه الجمعية في قراريها <a href="https://undocs.org/ar/A/RES/78/273">78/273</a> و <a href="https://undocs.org/ar/A/RES/78/274">78/274</a> المؤرخين 24 نيسان/أبريل 2024 ومقررها 78/549 المؤرخ 24 نيسان/أبريل 2024، وفقاً للبندين 3-1 و 3-2 من النظام المالي والقواعد المالية للأمم المتحدة<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/ST/SGB/2013/4">ST/SGB/2013/4</a> و <a href="https://undocs.org/ar/ST/SGB/2013/4/Amend.1">ST/SGB/2013/4/Amend.1</a>.</p></authorialNote><sup>)</sup>، وذلك على النحو التالي:</p>
+              </intro>
+              <point eId="para_3_list_point_أ">
+                <num>(أ)</num>
+                <content eId="para_3_list_point_أ_content">
+                  <p xml:space="preserve">	مبلغ قدره 100 801 34 دولار، يمثل الإيرادات المقدرة غير الإيرادات المتأتية من الاقتطاعات الإلزامية من مرتبات الموظفين الموافق عليها لعام 2025 في القرار باء أعلاه؛</p>
+                </content>
+              </point>
+              <point eId="para_3_list_point_ب">
+                <num>(ب)</num>
+                <content eId="para_3_list_point_ب_content">
+                  <p xml:space="preserve">	مبلغ قدره 100 824 88 دولار، على النحو الوارد في تقرير الأداء المالي عن الميزانية البرنامجية لعام 2023<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/79/83">A/79/83</a>.</p></authorialNote><sup>)</sup>؛</p>
+                </content>
+              </point>
+              <point eId="para_3_list_point_ج">
+                <num>(ج)</num>
+                <content eId="para_3_list_point_ج_content">
+                  <p xml:space="preserve">	مبلغ قدره 000 200 5 دولار، يمثل الإيرادات المستحقة الإرجاع من استرداد التكاليف من بعثة الأمم المتحدة للدعم في ليبيا؛</p>
+                </content>
+              </point>
+              <point eId="para_3_list_point_د">
+                <num>(د)</num>
+                <content eId="para_3_list_point_د_content">
+                  <p xml:space="preserve">	مبلغ قدره 200 527 614 3 دولار، يمثل الأنصبة المقرر أن تقسم فيما بين الدول الأعضاء، وضمنه المبلغ 200 527 589 3 المقرر أن يقسم وفقاً لقرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/79/249">79/249</a> المؤرخ 24 كانون الأول/ديسمبر 2024 المتعلق بجدول الأنصبة المقررة لقسمة نفقات الأمم المتحدة. ويقسم المبلغ المتبقي البالغ 000 000 25 دولار وفقا لجدول الأنصبة المقررة لعمليات الأمم المتحدة لحفظ السلام لعام 2025، طبقا لما قررته الجمعية العامة في قرارها <a href="https://undocs.org/ar/A/RES/78/257">78/257</a> المؤرخ 22 كانون الأول/ديسمبر 2023 الذي قررت فيه أن تُطبَّق على نصف المنحة المقدمة إلى حساب بناء السلام معدلاتُ الأنصبة المقررة السارية على الميزانية العادية، بينما تُطبَّقُ على النصف الآخر معدلات الأنصبة المقررة السارية على تمويل عمليات الأمم المتحدة لحفظ السلام.</p>
+                </content>
+              </point>
+            </list>
+          </paragraph>
+          <paragraph eId="para_4" class="SingleTxt">
+            <num>2 -</num>
+            <list eId="para_4_list">
+              <intro eId="para_4_list_intro">
+                <p xml:space="preserve">	وبالإضافة إلى ذلك، يضاف مبلغ مجموعه 000 500 139 دولار يتعلق بما يلي:</p>
+              </intro>
+              <point eId="para_4_list_point_أ">
+                <num>(أ)</num>
+                <content eId="para_4_list_point_أ_content">
+                  <p xml:space="preserve">	سلطة التزام بمبلغ 000 500 86 دولار للبعثات السياسية الخاصة التي وافقت عليها الجمعية العامة في الجزء ثامنا من قرارها 79/258 المؤرخ 24 كانون الأول/ديسمبر 2024؛</p>
+                </content>
+              </point>
+              <point eId="para_4_list_point_ب">
+                <num>(ب)</num>
+                <content eId="para_4_list_point_ب_content">
+                  <p xml:space="preserve">	سلطة التزام بمبلغ 000 000 53 دولار لتوفير التمويل الكافي لنظام المنسقين المقيمين المعاد تنشيطه الذي وافقت عليه الجمعية العامة في الجزء ثامن عشر من قرارها 79/258؛</p>
+                </content>
+              </point>
+            </list>
+          </paragraph>
+          <paragraph eId="para_6" class="SingleTxt">
+            <num>3 -</num>
+            <content eId="para_6__content">
+              <p xml:space="preserve">	وبناء على ذلك، يبلغ مجموع الأنصبة المقررة 200 027 754 3 دولار؛</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_9" class="SingleTxt">
+            <num>4 -</num>
+            <content eId="para_9__content">
+              <p xml:space="preserve">	أن تخصَم من الأنصبة المقررة على الدول الأعضاء، وفقاً لأحكام قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/973(X)">973 (د-10)</a> المؤرخ 15 كانون الأول/ديسمبر 1955، حصة كل منها في صندوق معادلة الضرائب بمبلغ مجموعه 000 472 329 دولار فيما يتعلق باعتمادات عام 2025 ومبلغ مجموعه 000 300 1 دولار فيما يتعلق بالاعتمادات الإضافية لعام 2024.</p>
+            </content>
+          </paragraph>
+        </mainBody>
+        <conclusions eId="conclusions">
+          <p>
+            <event refersTo="#adoption">
+              <location title="55" refersTo="#adoptionMeeting">الجلسة العامة 55 (المستأنفة)</location>
+              <eol />
+              <docDate date="2024-12-24" refersTo="#adoptionDate">24 كانون الأول/ديسمبر 2024</docDate>
+            </event>
+          </p>
+        </conclusions>
+      </statement>
+    </component>
+  </components>
+</akomaNtoso>
