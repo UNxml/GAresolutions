@@ -1,0 +1,453 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <documentCollection name="publication">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252/"></FRBRuri>
+          <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252/fra@/"></FRBRuri>
+          <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-05-11" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN System" showAs="UN System" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Civil Service Commission" showAs="International Civil Service Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNATIONAL CIVIL SERVICE" href="http://metadata.un.org/thesaurus/1003284" showAs="INTERNATIONAL CIVIL SERVICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WORKING CONDITIONS" href="http://metadata.un.org/thesaurus/1007078" showAs="WORKING CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PERSONNEL MANAGEMENT" href="http://metadata.un.org/thesaurus/1004827" showAs="PERSONNEL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SALARIES AND ALLOWANCES" href="http://metadata.un.org/thesaurus/1005673" showAs="SALARIES AND ALLOWANCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="147" showAs="United Nations common system." shortForm="PERSONNEL QUESTIONS--UN SYSTEM" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-12-23" outcome="draftResolution" as="A/C.5/79/L.23" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-12-24" outcome="recommendedForAdoption" as="A/79/645" by="" refersTo="6" />
+        <step date="2024-12-24" outcome="adopted" as="A/79/PV.55 (Resumption 1)" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="Cinquième Commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-24692 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/252 A-B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-12-31" class="rightSmall" refersTo="#dateOfIssuance">31 décembre 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">Soixante-dix-neuvième session</session>
+      </p>
+      <p>
+        <inline title="147" name="agenda item">Point 147 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Régime commun des Nations Unies</inline>
+      </p>
+      <p>
+        <docTitle>Résolutions adoptées par l’Assemblée générale le 24 décembre 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[sur la base du rapport de la Cinquième Commission (<inline name="originating document">A/79/645, par. 6</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/252.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Régime commun des Nations Unies</span>
+        </docTitle>
+      </p>
+    </preface>
+    <collectionBody>
+      <component eId="comp_def_0">
+        <documentRef eId="compRef_0" href="comp_0" showAs="Resolution A"></documentRef>
+      </component>
+      <component eId="comp_def_1">
+        <documentRef eId="compRef_1" href="comp_1" showAs="Resolution B"></documentRef>
+      </component>
+    </collectionBody>
+  </documentCollection>
+  <components>
+    <component eId="comp_0">
+      <statement name="resolution">
+        <meta>
+          <identification source="#DGACM">
+            <FRBRWork>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252A/!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252A/"></FRBRuri>
+              <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+              <FRBRauthor href="ga" as="author"></FRBRauthor>
+              <FRBRcountry value="un"></FRBRcountry>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252A/fra@!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252A/fra@/"></FRBRuri>
+              <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+              <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+              <FRBRlanguage language="fra"></FRBRlanguage>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252A/fra@/!main.xml"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252A/fra@.xml"></FRBRuri>
+              <FRBRdate date="2025-05-11" name="markup"></FRBRdate>
+              <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <preface>
+          <p>
+            <docNumber>A</docNumber>
+          </p>
+        </preface>
+        <preamble>
+          <formula name="enactingFormula" eId="formula_1">
+            <p xml:space="preserve">
+              <span class="italic">L’Assemblée générale</span>,</p>
+          </formula>
+          <container name="Rappelant" eId="container_2">
+            <p xml:space="preserve">
+              <span class="italic">	Rappelant</span> ses résolutions <a href="https://undocs.org/fr/A/RES/44/198">44/198</a> du 21 décembre 1989, <a href="https://undocs.org/fr/A/RES/51/216">51/216</a> du 18 décembre 1996, <a href="https://undocs.org/fr/A/RES/52/216">52/216</a> du 22 décembre 1997, <a href="https://undocs.org/fr/A/RES/53/209">53/209</a> du 18 décembre 1998, <a href="https://undocs.org/fr/A/RES/54/238">54/238</a> du 23 décembre 1999, <a href="https://undocs.org/fr/A/RES/55/223">55/223</a> du 23 décembre 2000, <a href="https://undocs.org/fr/A/RES/56/244">56/244</a> du 24 décembre 2001, <a href="https://undocs.org/fr/A/RES/57/285">57/285</a> du 20 décembre 2002, <a href="https://undocs.org/fr/A/RES/58/251">58/251</a> du 23 décembre 2003, <a href="https://undocs.org/fr/A/RES/59/268">59/268</a> du 23 décembre 2004, <a href="https://undocs.org/fr/A/RES/60/248">60/248</a> du 23 décembre 2005, <a href="https://undocs.org/fr/A/RES/61/239">61/239</a> du 22 décembre 2006, <a href="https://undocs.org/fr/A/RES/62/227">62/227</a> du 22 décembre 2007, <a href="https://undocs.org/fr/A/RES/63/251">63/251</a> du 24 décembre 2008, <a href="https://undocs.org/fr/A/RES/64/231">64/231</a> du 22 décembre 2009, <a href="https://undocs.org/fr/A/RES/65/248">65/248</a> du 24 décembre 2010, <a href="https://undocs.org/fr/A/RES/66/235">66/235</a> A du 24 décembre 2011 et <a href="https://undocs.org/fr/A/RES/66/235b">66/235</a> B du 21 juin 2012, <a href="https://undocs.org/fr/A/RES/67/257">67/257</a> du 12 avril 2013, <a href="https://undocs.org/fr/A/RES/68/253">68/253</a> du 27 décembre 2013, <a href="https://undocs.org/fr/A/RES/69/251">69/251</a> du 29 décembre 2014, <a href="https://undocs.org/fr/A/RES/70/244">70/244</a> du 23 décembre 2015, <a href="https://undocs.org/fr/A/RES/71/264">71/264</a> du 23 décembre 2016, <a href="https://undocs.org/fr/A/RES/72/255">72/255</a> du 24 décembre 2017, <a href="https://undocs.org/fr/A/RES/73/273">73/273</a> du 22 décembre 2018, <a href="https://undocs.org/fr/A/RES/74/255a-b">74/255</a> A et B du 27 décembre 2019, <a href="https://undocs.org/fr/A/RES/75/245">75/245</a> A du 31 décembre 2020 et <a href="https://undocs.org/fr/A/RES/75/245b">75/245</a> B du 16 avril 2021, <a href="https://undocs.org/fr/A/RES/76/240">76/240</a> du 24 décembre 2021, <a href="https://documents.un.org/doc/undoc/gen/n23/006/33/pdf/n2300633.pdf">77/256</a> A et B et <a href="https://undocs.org/fr/A/RES/77/257">77/257</a> du 30 décembre 2022 et sa décision 67/551 du 24 décembre 2012,</p>
+          </container>
+          <container name="Ayant examiné" eId="container_3">
+            <p xml:space="preserve">
+              <span class="italic">	Ayant examiné</span> le rapport de la Commission de la fonction publique internationale pour 2024<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Documents officiels de l’Assemblée générale, soixante-dix-neuvième session, Supplément n</span><sup>o</sup><span class="italic"> 30</span> (<a href="https://undocs.org/fr/A/79/30">A/79/30</a>).</p></authorialNote>,</p>
+          </container>
+          <container name="Réaffirmant son attachement" eId="container_4">
+            <p xml:space="preserve">
+              <span class="italic">	Réaffirmant son attachement</span> à la notion d’un régime commun et unifié des Nations Unies qui serve de base à la réglementation et à la coordination des conditions d’emploi dans les organisations qui l’appliquent,</p>
+          </container>
+          <container name="Soulignant" eId="container_5">
+            <p xml:space="preserve">
+              <span class="italic">	Soulignant</span> qu’il importe de préserver un régime commun cohérent et unifié et insistant sur les avantages qui en découlent,</p>
+          </container>
+        </preamble>
+        <mainBody>
+          <paragraph eId="para_6" class="SingleTxt">
+            <num>1.</num>
+            <content eId="para_6__content">
+              <p xml:space="preserve">	<span class="italic">Prend note avec satisfaction</span> des travaux de la Commission de la fonction publique internationale ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_7" class="SingleTxt">
+            <num>2.</num>
+            <content eId="para_7__content">
+              <p xml:space="preserve">	<span class="italic">Prend note</span> du rapport de la Commission pour 2024 ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_9" class="SingleTxt">
+            <num>3.</num>
+            <content eId="para_9__content">
+              <p xml:space="preserve">	<span class="italic">Réaffirme</span> que c’est à elle qu’il appartient d’approuver les conditions d’emploi et les prestations de tous les fonctionnaires des organisations appliquant le régime commun des Nations Unies, compte tenu des articles 10 et 11 du Statut de la Commission<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/3357(XXIX)">3357 (XXIX)</a>, annexe, telle que modifiée dans la résolution <a href="https://undocs.org/fr/A/RES/77/256">77/256</a> A.</p></authorialNote> ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_12" class="SingleTxt">
+            <num>4.</num>
+            <content eId="para_12__content">
+              <p xml:space="preserve">	<span class="italic">Rappelle</span> les articles 10 et 11 du Statut de la Commission, réaffirme que celle-ci joue un rôle central dans la réglementation et la coordination des conditions d’emploi et des prestations offertes à tous les fonctionnaires des organisations appliquant le régime commun des Nations Unies et rappelle que les membres de la Commission doivent s’acquitter de leurs fonctions en toute indépendance et impartialité ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_16" class="SingleTxt">
+            <num>5.</num>
+            <content eId="para_16__content">
+              <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’en vertu de l’alinéa c) de l’article 11 de son statut, la Commission de la fonction publique internationale est habilitée à établir les coefficients d’ajustement pour les lieux d’affectation relevant du régime commun des Nations Unies ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_21" class="SingleTxt">
+            <num>6.</num>
+            <content eId="para_21__content">
+              <p xml:space="preserve">	<span class="italic">Note avec inquiétude</span> que certaines organisations n’ont pas encore accepté et appliqué les modifications qu’elle a décidé d’apporter au Statut de la Commission dans sa résolution <a href="https://undocs.org/fr/A/RES/77/256A-B">77/256</a> A, et charge la Commission de formuler des recommandations sur les mesures à prendre en ce qui concerne les organisations qui ne coopèrent pas pleinement avec la Commission ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_27" class="SingleTxt">
+            <num>7.</num>
+            <content eId="para_27__content">
+              <p xml:space="preserve">	<span class="italic">Rappelle</span> aux chefs de secrétariat et aux organes directeurs des organisations appliquant le régime commun des Nations Unies que le fait de ne pas respecter pleinement les décisions qu’elle a prises comme suite aux recommandations de la Commission peut avoir des conséquences sur les avantages découlant de la participation au régime commun, notamment sur l’affiliation des organisations à la Caisse commune des pensions du personnel des Nations Unies, comme l’indique l’alinéa b) de l’article 3 des Statuts de la Caisse ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_34" class="SingleTxt">
+            <num>8.</num>
+            <content eId="para_34__content">
+              <p xml:space="preserve">	<span class="italic">Se félicite</span> des décisions de la Commission, telles qu’elles figurent au paragraphe 167 de son rapport ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_42" class="SingleTxt">
+            <num>9.</num>
+            <content eId="para_42__content">
+              <p xml:space="preserve">	<span class="italic">Rappelle</span> sa résolution <a href="https://undocs.org/fr/A/RES/73/273">73/273</a>, est consciente que le multilinguisme renforce la diversité du personnel, se félicite de l’inscription du multilinguisme du personnel au programme de travail de la Commission et note que la question de l’incitation à l’étude des langues sera envisagée sous l’angle de la promotion du multilinguisme dans les organisations appliquant le régime commun à la faveur du prochain examen de l’ensemble des prestations offertes par ces organisations ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_51" class="SingleTxt">
+            <num>10.</num>
+            <content eId="para_51__content">
+              <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il importe que toutes les catégories de personnel dans tous les lieux d’affectation participent en grand nombre à l’Enquête mondiale auprès du personnel et engage la Commission à faciliter l’accès de tous les membres du personnel à l’Enquête afin d’obtenir un taux de réponse plus élevé et d’accroître la représentativité des réponses du personnel ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_61" class="SingleTxt">
+            <num>11.</num>
+            <content eId="para_61__content">
+              <p xml:space="preserve">	<span class="italic">Prie</span> la Commission de fournir dans son prochain rapport des informations sur les politiques d’aménagement des modalités de travail mises en œuvre par les organisations appliquant le régime commun ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_72" class="SingleTxt">
+            <num>12.</num>
+            <content eId="para_72__content">
+              <p xml:space="preserve">	<span class="italic">Se félicite</span> des efforts déployés par la Commission pour mener à bien l’examen de l’ensemble des prestations offertes par les organisations appliquant le régime commun, à savoir l’élaboration des grandes lignes, de la portée, de la structure, des paramètres et du calendrier et la création de groupes de travail aux fins de la facilitation du processus, et attend avec intérêt l’achèvement rapide de l’examen ainsi que la publication des résultats pour les examiner à sa quatre-vingt-unième session ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_84" class="SingleTxt">
+            <num>13.</num>
+            <content eId="para_84__content">
+              <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe qu’elle continue d’assurer un contrôle global de l’ensemble des prestations offertes par les organisations appliquant le régime commun et qu’elle en considère les différents éléments dans leur globalité ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_97" class="SingleTxt">
+            <num>14.</num>
+            <content eId="para_97__content">
+              <p xml:space="preserve">	<span class="italic">Rappelle</span> sa résolution <a href="https://undocs.org/fr/A/RES/70/244">70/244</a> et note l’importance, dans le cadre de l’examen, du principe de la maîtrise globale des coûts et de la viabilité ainsi que des critères convenus de compétitivité et de flexibilité de l’ensemble des prestations ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_111" class="SingleTxt">
+            <num>15.</num>
+            <content eId="para_111__content">
+              <p xml:space="preserve">	<span class="italic">Rappelle également</span> sa résolution <a href="https://undocs.org/fr/A/RES/70/244">70/244</a> et note l’importance, dans le cadre de l’examen, des objectifs généraux que sont l’exécution efficace des mandats, la flexibilité, l’attrait, la cohérence, la transparence, le rapport coût-efficacité, la stabilité et la prévisibilité ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_126" class="SingleTxt">
+            <num>16.</num>
+            <content eId="para_126__content">
+              <p xml:space="preserve">	<span class="italic">Prie</span> la Commission, en ce qui concerne l’examen, d’examiner l’ensemble des prestations et de lui présenter des propositions qui tiennent compte de tous les paramètres, objectifs, critères et principes généraux convenus, qu’elle a approuvés pour l’examen ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_142" class="SingleTxt">
+            <num>17.</num>
+            <content eId="para_142__content">
+              <p xml:space="preserve">	<span class="italic">Prie également</span> la Commission d’examiner, dans son prochain rapport, des possibilités d’incitations non financières ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_159" class="SingleTxt">
+            <num>18.</num>
+            <content eId="para_159__content">
+              <p xml:space="preserve">	<span class="italic">Invite</span> la Commission à continuer de suivre les tendances observées dans les organisations en ce qui concerne la répartition par âges des membres du personnel, et engage les organisations appliquant le régime commun à favoriser et à soutenir le rajeunissement des effectifs ;</p>
+            </content>
+          </paragraph>
+          <section eId="sec_I">
+            <num>I</num>
+          <heading>		Conditions d’emploi des administrateurs et fonctionnaires de rang supérieur</heading>
+            <title eId="sec_I__title_A">
+              <num>A.	</num>
+          <subheading>		Barème des traitements de base minima</subheading>
+          <crossHeading refersTo="#preamble" eId="preamble_163">
+            <span class="italic">	Rappelant</span> sa résolution <a href="https://undocs.org/fr/A/RES/44/198">44/198</a>, par laquelle elle a institué des traitements nets minima pour les administrateurs et fonctionnaires de rang supérieur, fixés par référence aux traitements de base nets correspondants des fonctionnaires occupant des emplois comparables dans la ville de base de la fonction publique de référence (l’Administration fédérale des États-Unis),</crossHeading>
+          <paragraph eId="para_164" class="SingleTxt">
+            <content eId="para_164__content">
+              <p xml:space="preserve">
+                <span class="italic">	Approuve</span>, avec effet au 1<sup>er</sup> janvier 2025, comme l’a recommandé la Commission au paragraphe 203 de son rapport, le barème unifié révisé des traitements de base minima des administrateurs et fonctionnaires de rang supérieur ainsi que les montants actualisés retenus aux fins du maintien de la rémunération, qui figurent à l’annexe XXVII dudit rapport ;</p>
+            </content>
+          </paragraph>
+            </title>
+            <title eId="sec_I__title_B">
+              <num>B.	</num>
+          <subheading>		Évolution de la marge entre la rémunération nette des fonctionnaires des Nations Unies et celle des fonctionnaires de l’Administration fédérale des États-Unis</subheading>
+          <crossHeading refersTo="#preamble" eId="preamble_166">
+            <span class="italic">	Rappelant</span> la section I.B de sa résolution <a href="https://undocs.org/fr/A/RES/51/216">51/216</a> et le mandat permanent qu’elle a donné à la Commission de maintenir à l’étude le rapport entre la rémunération nette des administrateurs et fonctionnaires de rang supérieur des Nations Unies en poste à New York et celle des fonctionnaires de la fonction publique de référence (l’Administration fédérale des États-Unis) occupant des emplois comparables à Washington (« la marge »),</crossHeading>
+          <paragraph eId="para_167" class="SingleTxt">
+            <num>1.</num>
+            <content eId="para_167__content">
+              <p xml:space="preserve">	<span class="italic">Réaffirme</span> que la fourchette de 10 à 20 pour cent fixée pour la marge entre la rémunération nette des administrateurs et fonctionnaires de rang supérieur des Nations Unies en poste à New York et celle des fonctionnaires de la fonction publique de référence occupant des emplois comparables doit être maintenue, étant entendu qu’il serait souhaitable que la marge reste proche, sur une certaine durée, de la valeur médiane, soit 15 pour cent ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_168" class="SingleTxt">
+            <num>2.</num>
+            <content eId="para_168__content">
+              <p xml:space="preserve">	<span class="italic">Note</span> que, pour la période du 1<sup>er</sup> janvier au 31 décembre 2024, la marge entre la rémunération nette des fonctionnaires des Nations Unies des classes P-1 à D‑2 en poste à New York et celle des fonctionnaires de l’Administration fédérale des États-Unis occupant des emplois comparables à Washington s’établit à 16,9 pour cent ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_170" class="SingleTxt">
+            <num>3.</num>
+            <content eId="para_170__content">
+              <p xml:space="preserve">	<span class="italic">Rappelle</span> qu’elle a décidé, dans sa résolution <a href="https://undocs.org/fr/A/RES/70/244">70/244</a>, que la Commission prendrait les mesures qui s’imposaient, en faisant jouer le système des ajustements, si la marge tombait en deçà du seuil de 13 pour cent ou dépassait le plafond de 17 pour cent ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_173" class="SingleTxt">
+            <num>4.</num>
+            <content eId="para_173__content">
+              <p xml:space="preserve">	<span class="italic">Note</span> que la Commission a décidé de continuer à suivre l’évolution de la marge et de prendre les mesures correctives nécessaires, en faisant jouer le système des ajustements, si la marge venait à tomber en deçà de 13 pour cent ou à dépasser 17 pour cent ;</p>
+            </content>
+          </paragraph>            
+            </title>
+            <title eId="sec_I__title_C">
+              <num>C.	</num>
+            <subheading>		Indemnités pour enfants à charge et pour personnes indirectement à charge</subheading> 
+          <paragraph eId="para_178" class="SingleTxt">
+            <content eId="para_178__content">
+              <p xml:space="preserve">
+                <span class="italic">	Décide</span> de maintenir les indemnités pour enfants à charge et pour personnes indirectement à charge à leur niveau actuel ;</p>
+            </content>
+          </paragraph>
+            </title>
+            <title eId="sec_I__title_D">
+              <num>D.	</num>
+          <subheading>		Indemnité pour frais d’études</subheading>
+          <paragraph eId="para_180" class="SingleTxt">
+            <content eId="para_180__content">
+              <p xml:space="preserve">
+                <span class="italic">	Décide</span> de maintenir l’indemnité pour frais d’études à son niveau actuel ;</p>
+            </content>
+          </paragraph>
+            </title>
+            <title eId="sec_I__title_E">
+              <num>E.	</num>
+          <subheading>		Versement d’un montant en lieu et place de l’indemnité d’installation dans les lieux d’affectation des catégories D et E qui ne sont pas classés famille non autorisée</subheading>
+          <paragraph eId="para_182" class="SingleTxt">
+            <content eId="para_182__content">
+              <p xml:space="preserve">
+                <span class="italic">	Approuve</span> la poursuite du programme expérimental de versement d’un montant en lieu et place de l’indemnité d’installation dans les lieux d’affectation des catégories D et E qui ne sont pas classés famille non autorisée jusqu’à ce que soit achevé l’examen de l’ensemble des prestations offertes par les organisations appliquant le régime commun, comme l’a recommandé la Commission au paragraphe 344 a) de son rapport, et demande que toute recommandation à ce sujet dans le cadre de l’examen soit étayée par des données sur les coûts.</p>
+            </content>
+          </paragraph>
+            </title>
+          </section>
+        </mainBody>
+        <conclusions eId="conclusions">
+          <p>
+            <event refersTo="#adoption">
+              <location title="55e" refersTo="#adoptionMeeting">55e séance plénière (reprise)</location>
+              <eol />
+              <docDate date="2024-12-24" refersTo="#adoptionDate">24 décembre 2024</docDate>
+            </event>
+          </p>
+        </conclusions>
+      </statement>
+    </component>
+    <component eId="comp_1">
+      <statement name="resolution">
+        <meta>
+          <identification source="#DGACM">
+            <FRBRWork>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252B/!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252B/"></FRBRuri>
+              <FRBRdate date="2024-12-24" name="adoption"></FRBRdate>
+              <FRBRauthor href="ga" as="author"></FRBRauthor>
+              <FRBRcountry value="un"></FRBRcountry>
+            </FRBRWork>
+            <FRBRExpression>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252B/fra@!main/"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252B/fra@/"></FRBRuri>
+              <FRBRdate date="2024-12-31" name="publication"></FRBRdate>
+              <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+              <FRBRlanguage language="fra"></FRBRlanguage>
+            </FRBRExpression>
+            <FRBRManifestation>
+              <FRBRthis value="/akn/un/statement/deliberation/unga/2024-12-24/79-252B/fra@/!main.xml"></FRBRthis>
+              <FRBRuri value="/akn/un/statement/deliberation/unga/2024-12-24/79-252B/fra@.xml"></FRBRuri>
+              <FRBRdate date="2025-05-11" name="markup"></FRBRdate>
+              <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+            </FRBRManifestation>
+          </identification>
+        </meta>
+        <preface>
+          <p>
+            <docNumber>B</docNumber>
+          </p>
+        </preface>
+        <preamble>
+          <formula name="enactingFormula" eId="formula_1">
+            <p xml:space="preserve">
+              <span class="italic">L’Assemblée générale</span>,</p>
+          </formula>
+          <container name="Ayant examiné" eId="container_2">
+            <p xml:space="preserve">
+              <span class="italic">	Ayant examiné</span> le rapport du Secrétaire général relatif aux données sur le coût de l’ensemble des prestations proposées par les organisations appliquant le régime commun<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/497">A/79/497</a>.</p></authorialNote> et le rapport correspondant du Comité consultatif pour les questions administratives et budgétaires<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/79/607">A/79/607</a>.</p></authorialNote>,</p>
+          </container>
+        </preamble>
+        <mainBody>
+          <paragraph eId="para_3" class="SingleTxt">
+            <num>1.</num>
+            <content eId="para_3__content">
+              <p xml:space="preserve">	<span class="italic">Prend acte</span> du rapport du Secrétaire général ;</p>
+            </content>
+          </paragraph>
+          <paragraph eId="para_4" class="SingleTxt">
+            <num>2.</num>
+            <content eId="para_4__content">
+              <p xml:space="preserve">	<span class="italic">Souscrit </span>aux conclusions et recommandations que le Comité consultatif pour les questions administratives et budgétaires a formulées dans son rapport.</p>
+            </content>
+          </paragraph>
+        </mainBody>
+        <conclusions eId="conclusions">
+          <p>
+            <event refersTo="#adoption">
+              <location title="55e" refersTo="#adoptionMeeting">55e séance plénière (reprise)</location>
+              <eol />
+              <docDate date="2024-12-24" refersTo="#adoptionDate">24 décembre 2024</docDate>
+            </event>
+          </p>
+        </conclusions>
+      </statement>
+    </component>
+  </components>
+</akomaNtoso>
