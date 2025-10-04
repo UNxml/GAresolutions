@@ -1,0 +1,295 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/"></FRBRuri>
+          <FRBRdate date="2025-08-26" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-27" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-09-22" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Independent International Scientific Panel on Artificial Intelligence" showAs="UN. Independent International Scientific Panel on Artificial Intelligence" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Dialogue on Artificial Intelligence Governance (Proposed)" showAs="UN Global Dialogue on Artificial Intelligence Governance (Proposed)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ARTIFICIAL INTELLIGENCE" href="http://metadata.un.org/thesaurus/1000401" showAs="ARTIFICIAL INTELLIGENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOVERNANCE" href="http://metadata.un.org/thesaurus/1002715" showAs="GOVERNANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SCIENTISTS" href="http://metadata.un.org/thesaurus/1005754" showAs="SCIENTISTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="123a" showAs="Strengthening of the United Nations System." shortForm="UN SYSTEM--STRENGTHENING" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-08-18" outcome="draftResolution" as="A/79/L.118" by="submitted by the President of the General Assembly" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-18" outcome="recommendedForAdoption" by="" />
+        <step date="2025-08-26" outcome="adopted" as="A/79/PV.89" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="未经发交主要委员会而通过"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13713 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/325</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-27" class="rightSmall" refersTo="#dateOfIssuance">27 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">第七十九届会议</session>
+      </p>
+      <p>
+        <inline title="123" name="agenda item">议程项目123</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">加强联合国系统</inline>
+      </p>
+      <p>
+        <docTitle>2025年8月26日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[未经发交主要委员会而通过 (<inline name="originating document">A/79/L.118</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/325.</docNumber>
+        <docTitle refersTo="#resolutionTitle">人工智能问题独立国际科学小组和人工智能治理问题全球对话的工作范围及组建和运作方式</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>题为“未来契约”的2024年9月22日第<a href="https://docs.un.org/zh/A/RES/79/1">79/1</a>号决议，包括所载题为《全球数字契约》<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		第<a href="https://docs.un.org/zh/A/RES/79/1">79/1</a>号决议，附件一。</p></authorialNote> 的附件，其中大会决定设立一个人工智能问题多学科独立国际科学小组，并发起一个人工智能治理问题全球对话，同时铭记该决议以及该小组和对话的活动仅限于非军事领域，不涉及用于军事目的的人工智能，</p>
+      </container>
+      <container name="又回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>其2023年7月25日第<a href="https://docs.un.org/zh/A/RES/77/320">77/320</a>号、2023年12月19日第<a href="https://docs.un.org/zh/A/RES/78/213">78/213</a>号、2024年3月21日第<a href="https://docs.un.org/zh/A/RES/78/265">78/265</a>号、2024年7月1日第<a href="https://docs.un.org/zh/A/RES/78/311">78/311</a>号和2024年12月19日第<a href="https://docs.un.org/zh/A/RES/79/194">79/194</a>号决议，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_4_list">
+          <intro eId="para_4_list_intro">
+            <p xml:space="preserve">	在联合国内<span class="bold">设立</span>具有均衡地域代表性的人工智能问题多学科独立国际科学小组，以促进对人工智能的科学理解。该小组由40名成员组成，成员以个人身份任职，任期三年：</p>
+          </intro>
+          <point eId="para_4_list_point_a">
+            <num>(a)</num>
+            <content eId="para_4_list_point_a_content">
+              <p xml:space="preserve">	发布基于证据的科学评估报告，综合并分析与人工智能机遇、风险及影响相关的现有研究成果，这相当于每年编制一份与政策相关但不具强制性的简要报告，必要时可包含专题简报，将遵循独立性、科学可信度与严谨性、跨学科性及包容性参与等原则；</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_b">
+            <num>(b)</num>
+            <content eId="para_4_list_point_b_content">
+              <p xml:space="preserve">	从成员中选举两名共同主席，其中一名来自发达国家，另一名来自发展中国家，并可选举最多三名副主席，同时考虑到地域和性别平衡；</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_c">
+            <num>(c)</num>
+            <content eId="para_4_list_point_c_content">
+              <p xml:space="preserve">	视需要设立工作队；小组也可与外部专家进行非正式磋商；</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_d">
+            <num>(d)</num>
+            <content eId="para_4_list_point_d_content">
+              <p xml:space="preserve">	每年就其工作最多提供两次最新情况报告，以便通过大会全体会议与小组共同主席的互动对话听取意见；</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_e">
+            <num>(e)</num>
+            <content eId="para_4_list_point_e_content">
+              <p xml:space="preserve">	在人工智能治理问题全球对话上提交年度报告；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_5" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="bold">要求</span>所有提名加入小组的候选人全面披露可能影响公正性或独立性的所有利益冲突，其中包括财务、职业和个人利益冲突，又要求将此类信息作为提名的一部分提交，若候选人获得任命，则需在任职期间持续披露，还要求候选人承诺实质性地参与科学小组活动，包括会议、起草和审查等，同时确保科学独立性和诚信；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长发起一次基于业已公布标准的公开招募，并根据候选人在人工智能及相关领域的卓越专业知识、跨学科视角以及地域和性别平衡，同时考虑到候选人要有来自不同技术发展水平国家(包括发展中国家)的广泛代表性，并适当考虑会员国的提名，以及不超过两名选定人员来自同一国籍或同一隶属关系，且没有联合国系统的雇员，推荐一份有40人的小组成员名单供大会在规定时限内任命；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>4.</num>
+        <list eId="para_10_list">
+          <intro eId="para_10_list_intro">
+            <p xml:space="preserve">	在联合国内<span class="bold">建立</span>有各国政府和所有相关利益攸关方参与的人工智能治理问题全球对话，作为讨论国际合作、分享最佳做法和经验教训的平台，并促进关于人工智能治理的公开、透明和包容各方的讨论，以期使人工智能能够促进落实可持续发展目标<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		见第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 和缩小各国之间和国家内部的数字鸿沟，包括在以下方面开展工作：</p>
+          </intro>
+          <point eId="para_10_list_point_a">
+            <num>(a)</num>
+            <content eId="para_10_list_point_a_content">
+              <p xml:space="preserve">	开发安全、可靠和值得信赖的人工智能系统；</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_b">
+            <num>(b)</num>
+            <content eId="para_10_list_point_b_content">
+              <p xml:space="preserve">	能力差距，以期借助现有的联合国和多利益攸关方机制，支持在发展中国家进行人工智能能力建设，从而弥合人工智能鸿沟，便利使用人工智能应用程序，并建立高性能计算方面的能力和相关技能；</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_c">
+            <num>(c)</num>
+            <content eId="para_10_list_point_c_content">
+              <p xml:space="preserve">	人工智能的社会、经济、伦理、文化、语言和技术影响； </p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_d">
+            <num>(d)</num>
+            <content eId="para_10_list_point_d_content">
+              <p xml:space="preserve">	人工智能治理方法的互操作性和兼容性；</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_e">
+            <num>(e)</num>
+            <content eId="para_10_list_point_e_content">
+              <p xml:space="preserve">	在人工智能领域尊重、保护和促进人权；</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_f">
+            <num>(f)</num>
+            <content eId="para_10_list_point_f_content">
+              <p xml:space="preserve">	以符合国际法的方式促进人工智能系统的透明度、问责制和强有力的人类监督；</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_g">
+            <num>(g)</num>
+            <content eId="para_10_list_point_g_content">
+              <p xml:space="preserve">	开发开放源码软件、开放数据和开放人工智能模型；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>每年在现有相关联合国会议间隙举行对话，为期不超过两天，轮流在日内瓦和纽约举行，并由含一个高级别政府部分在内的多利益相关方全体会议、对小组年度报告的介绍以及专题讨论组成；</p>
+        </content>
+      </paragraph>
+    <paragraph eId="para_15" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_15__content">
+        <p xml:space="preserve">	<span class="bold">又决定</span>在2025年大会第八十届会议高级别周间隙，组织一次高级别多利益相关方非正式会议，以发起对话，非正式会议由大会主席主持，还决定人工智能治理问题全球对话首次将于2026年在日内瓦举行的国际电信联盟人工智能向善峰会间隙举行，随后将于2027年在纽约举行的科学、技术、创新促进可持续发展目标多利益攸关方论坛的间隙举行；</p>
+      </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_16__content">
+        <p xml:space="preserve">	<span class="bold">请</span>大会主席为每一次对话任命两名共同主席，一名来自发展中国家，一名来自发达国家，共同主席将确定对话的主要议题，并起草每次年度对话的共同主席摘要；</p>
+      </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_17__content">
+        <p xml:space="preserve">	<span class="bold">决定</span>第二次对话的共同主席将举行政府间协商，以就国际人工智能治理的优先领域达成共识，同时考虑到以往对话的摘要和其他利益攸关方的来稿，以作为对《全球数字契约》高级别审查和进一步讨论的投入；</p>
+      </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_18__content">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>小组和对话的工作将有助于改进人工智能方面的能力建设努力和为之提供参考，并鼓励联合国系统各专门机构、基金、方案、其他实体、机构和办事处以及相关组织在各自任务和资源范围内，考虑到小组和对话在利用机会和应对加强人工智能能力建设国际合作中遇到的挑战方面的贡献，包括为此利用适当的机构间机制，进行研究、摸底和分析，报告这一领域的进展和挑战，并利用其资源和专门知识提供有针对性的援助；</p>
+     </content>
+      </paragraph>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在现有资源和任务范围内，利用联合国全系统的能力，包括人工智能问题机构间工作组的能力，协助秘书处向小组和对话提供适当的支助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>有能力这样做的国家以及私营部门、金融机构、基金会和其他捐助方支持小组和对话的有效运作，包括借助为充分透明而公开的自愿捐款，通过提供差旅支助，促进发展中国家的代表和利益攸关方的参与；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>是否延续小组和对话的工作范围事宜可由大会在其第八十二届会议期间对《全球数字契约》进行高级别审查时予以考虑并作出决定。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第89次" refersTo="#adoptionMeeting">第89次全体会议</location>
+          <eol />
+          <docDate date="2025-08-26" refersTo="#adoptionDate">2025年8月26日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
