@@ -1,0 +1,297 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/"></FRBRuri>
+          <FRBRdate date="2025-08-26" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/fra@/"></FRBRuri>
+          <FRBRdate date="2025-08-27" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-08-26/79-325/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-09-22" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Independent International Scientific Panel on Artificial Intelligence" showAs="UN. Independent International Scientific Panel on Artificial Intelligence" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Dialogue on Artificial Intelligence Governance (Proposed)" showAs="UN Global Dialogue on Artificial Intelligence Governance (Proposed)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ARTIFICIAL INTELLIGENCE" href="http://metadata.un.org/thesaurus/1000401" showAs="ARTIFICIAL INTELLIGENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOVERNANCE" href="http://metadata.un.org/thesaurus/1002715" showAs="GOVERNANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SCIENTISTS" href="http://metadata.un.org/thesaurus/1005754" showAs="SCIENTISTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="123a" showAs="Strengthening of the United Nations System." shortForm="UN SYSTEM--STRENGTHENING" dictionary="A/79/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-08-18" outcome="draftResolution" as="A/79/L.118" by="submitted by the President of the General Assembly" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-18" outcome="recommendedForAdoption" by="" />
+        <step date="2025-08-26" outcome="adopted" as="A/79/PV.89" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sans renvoi à une grande commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13713 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/79/325</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-27" class="rightSmall" refersTo="#dateOfIssuance">27 août 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="79" eId="coverPage_1__session_1">Soixante-dix-neuvième session</session>
+      </p>
+      <p>
+        <inline title="123" name="agenda item">Point 123 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Renforcement du système des Nations Unies</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 26 août 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sans renvoi à une grande commission (<inline name="originating document">A/79/L.118</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>79/325.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Mandat, modalités de mise en place et règles de fonctionnement du Groupe scientifique international indépendant de l’intelligence artificielle et du Dialogue mondial sur la gouvernance de l’intelligence artificielle</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>sa résolution <a href="https://docs.un.org/fr/A/RES/79/1">79/1</a> du 22 septembre 2024, intitulée « Le Pacte pour l’avenir », y compris l’annexe intitulée « Pacte numérique mondial »<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/79/1">79/1</a>, annexe I.</p></authorialNote>, dans laquelle elle a décidé de constituer un groupe scientifique international multidisciplinaire indépendant sur l’intelligence artificielle et d’engager un dialogue mondial sur la gouvernance de l’intelligence artificielle, et gardant à l’esprit que la présente résolution et les activités du Groupe et du Dialogue se limitent au domaine non militaire et ne concernent pas l’intelligence artificielle à vocation militaire,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> ses résolutions <a href="https://docs.un.org/fr/A/RES/77/320">77/320</a> du 25 juillet 2023, <a href="https://docs.un.org/fr/A/RES/78/213">78/213</a> du 19 décembre 2023, <a href="https://docs.un.org/fr/A/RES/78/265">78/265</a> du 21 mars 2024, <a href="https://docs.un.org/fr/A/RES/78/311">78/311</a> du 1<sup>er</sup> juillet 2024 et <a href="https://docs.un.org/fr/A/RES/79/194">79/194</a> du 19 décembre 2024,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_4_list">
+          <intro eId="para_4_list_intro">
+            <p xml:space="preserve">	<span class="italic">Constitue</span>, au sein de l’Organisation des Nations Unies, le Groupe scientifique international indépendant de l’intelligence artificielle, instance multidisciplinaire dans laquelle toutes les régions seront représentées de façon équilibrée, et qui sera chargée de promouvoir la compréhension scientifique, sera composée de 40 membres siégeant à titre personnel pour un mandat de trois ans et devra s’acquitter des responsabilités suivantes :</p>
+          </intro>
+          <point eId="para_4_list_point_a">
+            <num>a)</num>
+            <content eId="para_4_list_point_a_content">
+              <p xml:space="preserve"> Publier des évaluations scientifiques fondées sur des données probantes dans lesquelles seront synthétisées et analysées les études existantes sur les promesses, les risques et les répercussions de l’intelligence artificielle et, sur la base de ces travaux, établir chaque année un rapport de synthèse qui servira à éclairer la prise de décisions, sans toutefois être prescriptif, et qui comprendra au besoin des notes thématiques, dans le respect des principes d’indépendance, de crédibilité et de rigueur scientifiques, de pluridisciplinarité et de participation inclusive ;</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_b">
+            <num>b)</num>
+            <content eId="para_4_list_point_b_content">
+              <p xml:space="preserve"> Élire parmi ses membres deux coprésidents, l’un issu d’un pays développé et l’autre d’un pays en développement, et jusqu’à trois vice-présidents, en tenant compte des principes d’équilibre géographique et de représentation équilibrée des genres ;</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_c">
+            <num>c)</num>
+            <content eId="para_4_list_point_c_content">
+              <p xml:space="preserve"> Constituer des groupes de travail en fonction des besoins, étant entendu que le Groupe pourra aussi consulter des experts externes de manière informelle ;</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_d">
+            <num>d)</num>
+            <content eId="para_4_list_point_d_content">
+              <p xml:space="preserve"> Rendre compte de ses travaux jusqu’à deux fois par an et recueillir des avis à cet égard à l’occasion d’un dialogue interactif avec ses coprésidents, qui se tiendra dans le cadre d’une séance plénière de l’Assemblée générale ;</p>
+            </content>
+          </point>
+          <point eId="para_4_list_point_e">
+            <num>e)</num>
+            <content eId="para_4_list_point_e_content">
+              <p xml:space="preserve"> Présenter son rapport annuel lors du Dialogue mondial sur la gouvernance de l’intelligence artificielle ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_5" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> que les personnes candidates qui souhaitent intégrer le Groupe divulguent tout conflit d’intérêts, y compris tout intérêt financier, professionnel ou personnel susceptible de compromettre leur impartialité ou leur indépendance, ces informations devant figurer dans leur candidature et, en cas de nomination, être communiquées par la suite chaque fois que nécessaire, et s’engagent à participer activement aux activités du Groupe, notamment aux réunions et aux travaux de rédaction et de révision, dans le respect des principes d’indépendance et d’intégrité scientifiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de publier un appel à candidatures fondé sur des critères précis et de lui proposer en temps utile une liste de 40 personnes à nommer au sein du Groupe, en veillant à ce que celles‑ci possèdent des compétences exceptionnelles dans le domaine de l’intelligence artificielle ou dans des domaines apparentés et contribuent à l’adoption d’une approche interdisciplinaire, et en s’assurant que les principes d’équilibre géographique et de représentation équilibrée des genres sont respectés, que les candidatures proviennent de pays ayant différents niveaux de développement technologique, notamment de pays en développement, toute l’attention voulue devant être accordée aux candidatures présentées par les États Membres, et que le Groupe ne compte pas plus de deux personnes ayant la même nationalité ou rattachées à la même institution ni aucun membre du personnel d’entités des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>4.</num>
+        <list eId="para_10_list">
+          <intro eId="para_10_list_intro">
+            <p xml:space="preserve">	<span class="italic">Institue</span>, au sein de l’Organisation des Nations Unies, le Dialogue mondial sur la gouvernance de l’intelligence artificielle, auquel participeront les États et toutes les parties concernées et qui sera l’occasion d’examiner les questions relatives à la coopération internationale, de mettre en commun les meilleures pratiques et les enseignements tirés de l’expérience et de faciliter des discussions ouvertes, transparentes et inclusives sur la gouvernance de l’intelligence artificielle, le but étant de faire en sorte que cette technologie contribue à la réalisation des objectifs de développement durable<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Voir résolution <a href="https://docs.un.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote> et à la réduction des fractures numériques entre les pays et à l’intérieur des pays, ces discussions devant porter notamment sur les points suivants :</p>
+          </intro>
+          <point eId="para_10_list_point_a">
+            <num>a)</num>
+            <content eId="para_10_list_point_a_content">
+              <p xml:space="preserve"> La mise au point de systèmes d’intelligence artificielle sûrs, sécurisés et dignes de confiance ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_b">
+            <num>b)</num>
+            <content eId="para_10_list_point_b_content">
+              <p xml:space="preserve"> Les lacunes en matière de capacités, l’idée étant d’utiliser les mécanismes existants des Nations Unies et les mécanismes multipartites pour prêter appui au renforcement des capacités d’intelligence artificielle dans les pays en développement, afin de combler les fractures dans ce domaine, de faciliter l’accès aux applications de l’intelligence artificielle et de doter ces pays de capacités de calcul à haute performance et de compétences connexes ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_c">
+            <num>c)</num>
+            <content eId="para_10_list_point_c_content">
+              <p xml:space="preserve"> Les incidences que peut avoir l’intelligence artificielle sur les plans social, économique, culturel, linguistique et technique et sur le plan de la déontologie ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_d">
+            <num>d)</num>
+            <content eId="para_10_list_point_d_content">
+              <p xml:space="preserve"> L’interopérabilité et la compatibilité des approches en matière de gouvernance de l’intelligence artificielle ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_e">
+            <num>e)</num>
+            <content eId="para_10_list_point_e_content">
+              <p xml:space="preserve"> Le respect, la protection et la promotion des droits humains dans le domaine de l’intelligence artificielle ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_f">
+            <num>f)</num>
+            <content eId="para_10_list_point_f_content">
+              <p xml:space="preserve"> Le respect des principes de transparence et de responsabilité et le strict contrôle humain des systèmes d’intelligence artificielle, en conformité avec le droit international ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_g">
+            <num>g)</num>
+            <content eId="para_10_list_point_g_content">
+              <p xml:space="preserve"> La mise au point de logiciels libres, de données ouvertes et de modèles d’intelligence artificielle en open source ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que le Dialogue se déroulera chaque année sur deux jours au maximum, en marge des conférences et réunions de l’Organisation sur la question, tantôt à Genève, tantôt à New York, et qu’il consistera en une séance plénière multipartite durant laquelle se tiendra un débat intergouvernemental de haut niveau, ainsi qu’une présentation du rapport annuel du Groupe et des débats thématiques ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>d’organiser une réunion informelle multipartite de haut niveau afin de lancer le Dialogue en marge de la semaine de haut niveau de sa quatre-vingtième session, en 2025, sous la houlette de sa Présidente, et décide que, pour ses deux premières éditions, le Dialogue se déroulera en marge du Sommet mondial sur l’intelligence artificielle au service du bien social, qui sera organisé par l’Union internationale des télécommunications à Genève en 2026, et du forum de collaboration multipartite sur la science, la technologie et l’innovation au service de la réalisation des objectifs de développement durable, prévu à New York en 2027, de telle sorte qu’il ait lieu immédiatement avant ou après ces manifestations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>sa présidence à nommer, pour chaque édition du Dialogue, deux coprésidents, l’un issu d’un pays en développement et l’autre d’un pays développé, qui définiront les principaux thèmes de l’édition concernée et établiront un résumé à l’issue de celle-ci ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>que les coprésidents du deuxième Dialogue tiendront des consultations intergouvernementales afin de parvenir à une concordance de vues sur les domaines d’action prioritaires pour la mise en place d’une gouvernance internationale de l’intelligence artificielle, en tenant compte des résumés établis à l’issue des précédentes éditions du Dialogue et des contributions d’autres parties prenantes, ces travaux devant servir à éclairer l’examen de haut niveau du Pacte numérique mondial et d’autres débats ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que les travaux qui seront menés par le Groupe et les participants au Dialogue contribueront à orienter et à améliorer les activités de renforcement des capacités en matière d’intelligence artificielle, et encourage les institutions spécialisées, les fonds et programmes, les autres entités, organes et bureaux et les organismes apparentés du système des Nations Unies, agissant dans les limites de leur mandat et de leurs moyens respectifs, à tenir compte des contributions du Groupe et du Dialogue dans le cadre de l’action qu’ils mènent pour tirer parti des possibilités offertes par l’intensification de la coopération internationale en matière de renforcement des capacités dans le domaine de l’intelligence artificielle et relever les défis qu’elle pose, notamment au moyen de mécanismes interinstitutions appropriés, y compris en menant des travaux de recherche, de cartographie et d’analyse, en rendant compte des progrès accomplis et des difficultés rencontrées en la matière et en mettant à profit leurs ressources et leurs savoir-faire pour apporter une assistance sur mesure ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de veiller, dans la limite des ressources disponibles et des mandats existants, à ce que le Secrétariat apporte l’appui voulu au Groupe et au Dialogue, en tirant parti des capacités de l’ensemble du système des Nations Unies, y compris celles du Groupe de travail interinstitutions sur l’intelligence artificielle ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États ainsi que le secteur privé, les institutions financières, les fondations et les autres donateurs en mesure de le faire à contribuer au bon fonctionnement du Groupe et du Dialogue, notamment à faciliter la participation de représentants et de parties prenantes de pays en développement en versant des contributions volontaires qui serviront à financer les frais de voyage et qui seront rendues publiques dans un souci de transparence ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> qu’elle pourra examiner l’opportunité de proroger le mandat du Groupe et du Dialogue et se prononcer à ce sujet à l’occasion de l’examen de haut niveau du Pacte numérique mondial, qui aura lieu à sa quatre-vingt-deuxième session.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="89e" refersTo="#adoptionMeeting">89e séance plénière</location>
+          <eol />
+          <docDate date="2025-08-26" refersTo="#adoptionDate">26 août 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
