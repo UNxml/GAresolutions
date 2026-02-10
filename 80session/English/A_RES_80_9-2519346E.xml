@@ -1,0 +1,447 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/"></FRBRuri>
+          <FRBRdate date="2025-11-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@/"></FRBRuri>
+          <FRBRdate date="2025-11-25" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-12-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons (2025)" showAs="Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons (2025)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Plan of Action to Combat Trafficking in Persons (2010)" showAs="UN Global Plan of Action to Combat Trafficking in Persons (2010)" dictionary="DHLAUTH"></keyword>
+        <keyword value="TRAFFICKING IN PERSONS" href="http://metadata.un.org/thesaurus/1006622" showAs="TRAFFICKING IN PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" href="http://metadata.un.org/thesaurus/1003291" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DECLARATIONS (TEXT)" href="http://metadata.un.org/thesaurus/1001537" showAs="DECLARATIONS (TEXT)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="107" showAs="Crime prevention and criminal justice" shortForm="CRIME PREVENTION" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-23" outcome="draftResolution" as="A/80/L.8" by="submitted by the President of the General Assembly" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-10-23" outcome="recommendedForAdoption" by="" />
+        <step date="2025-11-24" outcome="adopted" as="A/80/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="Without reference to a main committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-19346 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-11-25" class="rightSmall" refersTo="#dateOfIssuance">25 November 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">Eightieth session</session>
+      </p>
+      <p>
+        <inline title="107" name="agenda item">Agenda item 107</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Crime prevention and criminal justice</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 24 November 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[without reference to a Main Committee (<inline name="originating document">A/80/L.8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">2025 Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>
+        </p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="MercuryDocument">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">Adopts</span> the 2025 Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons, annexed to the present resolution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48th" refersTo="#adoptionMeeting">48th plenary meeting</location>
+          <eol />
+          <docDate date="2025-11-24" refersTo="#adoptionDate">24 November 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/"></FRBRuri>
+                <FRBRdate date="2025-11-24" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@/"></FRBRuri>
+                <FRBRdate date="2025-11-25" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/eng@.xml"></FRBRuri>
+                <FRBRdate date="2025-12-24" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_4" class="MercuryDocument">
+              <content eId="para_4__content">
+                <p xml:space="preserve">
+                  <span class="bold">Annex</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_5" class="MercuryDocument">
+              <content eId="para_5__content">
+                <p xml:space="preserve">
+                  <span class="bold">2025 Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_6" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_6__content">
+                <p xml:space="preserve">	We, the States Members of the United Nations, welcome the fifteenth anniversary of the adoption of the United Nations Global Plan of Action to Combat Trafficking in Persons,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Resolution <a href="https://docs.un.org/en/A/RES/64/293">64/293</a>.</p></authorialNote> reaffirm our commitments made therein, as well as in the previously adopted Political Declarations of 2017<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Resolution <a href="https://docs.un.org/en/A/RES/72/1">72/1</a>.</p></authorialNote> and 2021,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Resolution <a href="https://docs.un.org/en/A/RES/76/7">76/7</a>, annex.</p></authorialNote> and evince our strong political will to take decisive concerted action to end this heinous crime, wherever it may occur.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_7" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_7__content">
+                <p xml:space="preserve">	We recall and reaffirm our commitments to the 2030 Agenda for Sustainable Development,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Resolution <a href="https://docs.un.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> recognizing its integrated and indivisible nature and acknowledging that the 2030 Agenda includes commitments that relate to combating all forms of trafficking in persons, recognize the importance of partnerships and international cooperation in this regard, and emphasize that the 2030 Agenda and the Global Plan of Action are mutually reinforcing. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_8__content">
+                <p xml:space="preserve">	We also welcome the actions and efforts related to ending trafficking in persons, especially of women and children, contained in resolution <a href="https://docs.un.org/en/A/RES/79/1">79/1</a> entitled “The Pact for the Future”. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_9__content">
+                <p xml:space="preserve">	We reaffirm the crucial importance of universal ratification of the United Nations Convention against Transnational Organized Crime<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 2225, No. 39574.</p></authorialNote> and the Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, supplementing the United Nations Convention against Transnational Organized Crime,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., vol. 2237, No. 39574. </p></authorialNote> taking into consideration the central role of those instruments in the fight against trafficking in persons, and urge Member States that have not yet done so to consider ratifying or acceding to the Convention and the Protocol as a matter of priority. We urge States Parties to those instruments to implement them effectively, including through the Mechanism for the Review of the Implementation of the United Nations Convention against Transnational Organized Crime and the Protocols thereto. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_10__content">
+                <p xml:space="preserve">	We also reaffirm the importance of universal ratification and implementation of other relevant international instruments that address trafficking in persons, including the Convention on the Rights of the Child<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid., vol. 1577, No. 27531. </p></authorialNote> and its optional protocols relevant to trafficking in persons.<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Ibid., vols. 2171 and 2173, No. 27531.</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="MercuryDocument">
+              <num>6.</num>
+              <content eId="para_11__content">
+                <p xml:space="preserve">	We recall the Global Compact for Safe, Orderly and Regular Migration,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Resolution <a href="https://docs.un.org/en/A/RES/73/195">73/195</a>, annex. </p></authorialNote> the Global Compact on Refugees,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<span class="italic">Official Records of the General Assembly, Seventy-third Session, Supplement No. 12</span> (<a href="https://docs.un.org/en/A/73/12(PartI)">A/73/12 (Part I)</a> and <a href="https://docs.un.org/en/A/73/12(PartII)">A/73/12 (Part II)</a>), part II. </p></authorialNote> and take note of Committee on the Elimination of Discrimination against Women general recommendation No. 38 (2020) on trafficking in women and girls in the context of global migration.<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://docs.un.org/en/CEDAW/C/GC/38">CEDAW/C/GC/38</a>.</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="MercuryDocument">
+              <num>7.</num>
+              <content eId="para_12__content">
+                <p xml:space="preserve">	We also reaffirm our recognition of the definition of trafficking in persons as set forth in the Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, as referenced in the Global Plan of Action and the subsequent Political Declarations.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="MercuryDocument">
+              <num>8.</num>
+              <content eId="para_13__content">
+                <p xml:space="preserve">	We reiterate our strong condemnation of trafficking in persons, which constitutes a serious crime and a grave offence to human dignity and physical integrity, a violation and abuse of human rights and fundamental freedoms and a challenge to sustainable development, and we note that respect for human rights is an important basis of comprehensive anti‑trafficking strategies. Combating trafficking in persons requires the implementation of a comprehensive approach that includes partnerships, international cooperation and measures to prevent trafficking, to identify and protect the victims, as well as a criminal justice response, including the investigation, prosecution and punishment of traffickers. In this regard, we encourage the development of policies, programmes and national strategies to prevent and combat trafficking in persons, we underline the importance of cooperation with civil society and we note the need to strengthen legal and institutional frameworks for more effective responses. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="MercuryDocument">
+              <num>9.</num>
+              <content eId="para_14__content">
+                <p xml:space="preserve">	We commit to fulfil our obligations and intensify our efforts to prevent, address and eliminate the demand that fosters trafficking in persons, especially of women and children, for all forms of exploitation, and in this regard to put in place or enhance preventive measures, including legislative and other measures to deter exploiters, and those who facilitate or profit from the exploitation of trafficking victims, and hold them accountable. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="MercuryDocument">
+              <num>10.</num>
+              <content eId="para_15__content">
+                <p xml:space="preserve">	We reaffirm our commitment to address the social, economic, cultural, political and other factors that make people vulnerable to trafficking in persons, such as poverty, underdevelopment, unemployment, inequality, humanitarian emergencies, armed conflicts and natural disasters, sexual violence, gender discrimination, racial discrimination, social and financial exclusion and marginalization, as well as negative social norms, and a culture of tolerance towards violence against women, youth and children. We reiterate our commitment to promote education and awareness-raising campaigns to prevent trafficking in persons, and we welcome the designation of 30 July as the World Day against Trafficking in Persons.<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		See resolution <a href="https://docs.un.org/en/A/RES/68/192">68/192</a>. </p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="MercuryDocument">
+              <num>11.</num>
+              <content eId="para_16__content">
+                <p xml:space="preserve">	We express our serious concern over the significant and enduring trafficking of women and children, recognize that trafficking in persons disproportionately affects them. We note with concern potential cases of trafficking in women for the exploitation of surrogacy. We express grave concern about the increase in child trafficking, primarily for forced labour, forced marriage, sexual exploitation, and involvement in criminal activities. We note the specific vulnerabilities of children, including children and youth with disabilities and unaccompanied children, to various forms of exploitation, including in the context of travel, tourism and sports, and the need to address them, as well as the cultural practices that justify or tolerate their demand. We call upon Member States to enact or update national laws and establish comprehensive policies, programmes and other measures, as appropriate, that provide for the protection of trafficked women and children from revictimization and appropriate assistance and protection in the best interests of the child. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="MercuryDocument">
+              <num>12.</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	We express solidarity with and compassion for victims and survivors, we call for full respect of their human rights and recognizing their role as agents of change in the global fight against trafficking in persons. We acknowledge the need to actively involve them, incorporating their perspective and experience in all efforts to prevent and combat trafficking in persons, including in designing, implementing, monitoring and evaluating such efforts. We will provide victim-centred and trauma-informed care, assistance and services for their recovery and rehabilitation, access to health, including sexual and reproductive health-care services and mental health and psychosocial support services, and seek to enhance the provision of safe shelter, legal aid, long-term support, reintegration and timely family reunification, including protection and assistance, working also with civil society and other relevant partners. We will ensure that victims are treated with respect and dignity and are not inappropriately penalized or adversely affected by any actions taken by government authorities and communities, including criminal, civil, administrative and immigration penalties, for acts that they commit as a direct consequence of their trafficking situation, through the implementation of both the principle of non‑prosecution and non‑punishment of victims of trafficking subject to national laws, rules and regulations. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="MercuryDocument">
+              <num>13.</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	We commit to undertake appropriate measures to facilitate access to justice and protections for victims of trafficking in persons that should not be conditional on their participation in criminal proceedings, taking into account national legislation, and we will seek to ensure that laws and policies are in place to alleviate reliance on victims’ testimonies. We also commit to take steps to ensure that effective remedies are available, including for damage suffered, as well as for victims who have been unjustly penalized for illegal acts committed in connection with their victimization. We further commit to enable a victim-centred, age- and gender-sensitive approach to care and assistance of victims that takes into consideration disability and trauma and that addresses the specific needs of women, youth and children. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="MercuryDocument">
+              <num>14.</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	We affirm our commitment to protect the privacy and identity and ensure the safety of victims of trafficking in persons before, during and after criminal proceedings, including when the victim’s testimony is necessary in legal proceedings, and to protect immediate family members and witnesses, as appropriate, from retaliation by traffickers, by ensuring their safety, in accordance with articles 24 and 25 of the United Nations Convention against Transnational Organized Crime, as applicable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="MercuryDocument">
+              <num>15.</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	We reaffirm our commitment to continue our efforts to criminalize trafficking in persons in all its forms, to hold traffickers accountable for their crimes through prosecutions, and to strengthen cooperation and coordination among Member States in countries of origin, transit and destination in order to disrupt and dismantle criminal networks involved in such crimes, inter alia through the enhancement of information-sharing, including through the secure communications channels of the International Criminal Police Organization (INTERPOL), where appropriate, as well as through mutual legal assistance and extradition, with full respect for domestic law, in combating crimes that might be connected with trafficking in persons, such as money-laundering, corruption, illicit financial flows, the smuggling of migrants, the trafficking in illicit drugs, illicit arms trafficking, cybercrime and all forms of organized crime and related illicit finance. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="MercuryDocument">
+              <num>16.</num>
+              <content eId="para_21__content">
+                <p xml:space="preserve">	We commit to enhancing the capacity of law enforcement and criminal justice systems, including the capacity of criminal justice practitioners, to identify, investigate and prosecute cases of trafficking in persons, including when connected to other trafficking-related crimes, and analyse financial flows to detect and dismantle those criminal networks and their financial structures, in collaboration with financial institutions. We also commit to developing and strengthening national referral mechanisms and to use available technology to increase victim referrals and services and to identify, seize and forfeit proceeds of crime of those criminal networks. We emphasize the importance of regular and specialized professional training for officials and practitioners who are involved in preventing, identifying and responding to trafficking in persons, as a key component of an effective and victim-centred approach.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="MercuryDocument">
+              <num>17.</num>
+              <content eId="para_22__content">
+                <p xml:space="preserve">	We also commit to investigate and prosecute trafficking in persons, and to take all appropriate measures to collect, preserve and store evidence of human trafficking, including when committed for the purpose of, particularly, sexual exploitation. We recognize that trafficking-related crimes often encompass other criminal acts and call for the adoption of prosecutorial policies that ensure accountability for the full range of harm suffered by victims.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23" class="MercuryDocument">
+              <num>18.</num>
+              <content eId="para_23__content">
+                <p xml:space="preserve">	We are seriously concerned that the scale of global resourcing to prevent and fight trafficking in persons does not match the scale of the challenge and in this regard: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="MercuryDocument">
+              <content eId="para_24__content">
+                <p xml:space="preserve">	(a)	We reaffirm our strong support for the United Nations voluntary trust fund for victims of trafficking in persons, especially women and children, established in accordance with the Global Plan of Action, and we invite all stakeholders to contribute to the trust fund, including through the announcement of pledges at the quadrennial high-level appraisals of the Global Plan of Action; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="MercuryDocument">
+              <content eId="para_25__content">
+                <p xml:space="preserve">	(b)	We evince our strong political will and commitment of financial resources to effectively address trafficking in persons in all circumstances, acknowledging the need to provide sufficient, reliable, sustainable and predictable resources for national trafficking in persons strategies, especially for developing countries that are particularly affected by mixed and large movements of refugees and migrants, including countries of origin, transit and destination; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="MercuryDocument">
+              <content eId="para_26__content">
+                <p xml:space="preserve">	(c)	We will endeavour to provide unearmarked extrabudgetary resources for the offices of the United Nations system which are mandated to combat trafficking in persons, consistent with their rules and procedures; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="MercuryDocument">
+              <content eId="para_27__content">
+                <p xml:space="preserve">	(d)	We stress the need to intensify international and regional cooperation, including capacity-building, exchange of best practices and know-how and technical assistance, especially for developing countries, aimed at strengthening their ability to prevent all forms of trafficking, address the special needs of victims, and to strengthen their criminal justice systems, noting the particular role of the United Nations Office on Drugs and Crime in this regard; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="MercuryDocument">
+              <content eId="para_28__content">
+                <p xml:space="preserve">	(e)	We encourage relevant entities and bodies of the United Nations system to provide assistance to Member States for training and capacity-building, upon request, including gender- and age-sensitive and victim-centred mental health and psychosocial support services, that take into consideration disability, for the recovery and reintegration of victims;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="MercuryDocument">
+              <content eId="para_29__content">
+                <p xml:space="preserve">	(f)	We reaffirm the significant role of enhanced international cooperation in preventing and combating trafficking in persons, including in the area of mutual legal assistance and extradition. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="MercuryDocument">
+              <num>19.</num>
+              <content eId="para_30__content">
+                <p xml:space="preserve">	We reiterate, in the strongest terms possible, the importance of strengthening collective action by Member States to end trafficking in persons, including through regional, subregional and cross-regional mechanisms, and through partnerships and initiatives with the United Nations system and other relevant stakeholders, including, inter alia, regional and international organizations, the private sector, the media, academia, parliamentarians and civil society, as well as national human rights institutions where they exist, in compliance with the Paris Principles.<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Resolution <a href="https://docs.un.org/en/A/RES/48/134">48/134</a>, annex. </p></authorialNote> We will promote multi-stakeholder partnerships and engage the private sector and civil society in developing and implementing relevant sustainable initiatives to prevent and combat trafficking in persons, recognizing the important role played by financial institutions. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="MercuryDocument">
+              <num>20.</num>
+              <content eId="para_31__content">
+                <p xml:space="preserve">	We underline the work of the Special Rapporteurs of the Human Rights Council on trafficking in persons, especially women and children, and on contemporary forms of slavery, the Special Representative of the Secretary-General on Violence against Children, and other relevant special rapporteurs and representatives, in combating trafficking in persons, and welcome their continued efforts to implement the Global Plan of Action and the present Political Declaration. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="MercuryDocument">
+              <num>21.</num>
+              <content eId="para_32__content">
+                <p xml:space="preserve">	We also stress the need to continue to enhance the overall organization and coherence in the global efforts of the United Nations system to respond to trafficking in persons, especially in ensuring support to Member States. In this regard, while recalling the mandate of the Inter-Agency Coordination Group against Trafficking in Persons, we urge the Secretary-General to continue efforts to strengthen coordination within the United Nations system and to inform Member States thereof through existing reporting channels. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="MercuryDocument">
+              <num>22.</num>
+              <content eId="para_33__content">
+                <p xml:space="preserve">	We recognize the important role played by the Inter-Agency Coordination Group against Trafficking in Persons in the United Nations system, with the United Nations Office on Drugs and Crime as its coordinator, and recognize with appreciation the ongoing efforts of its member entities in this regard. We invite the Coordination Group to continue to increase its activities related to the implementation of the Global Plan of Action and, to that end, to incorporate aspects of the 2030 Agenda for Sustainable Development relevant to preventing and combating trafficking in persons and to continue to advance the coordination of future activities and avoidance of duplication of efforts. We encourage the Coordination Group to continue to expand its membership to include international intergovernmental entities that have a role in addressing trafficking in persons in all regions. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="MercuryDocument">
+              <num>23.</num>
+              <content eId="para_34__content">
+                <p xml:space="preserve">	We reaffirm the central role of the work of the United Nations Office on Drugs and Crime in the global fight against trafficking in persons, particularly in providing technical assistance to Member States, upon their request, to implement the United Nations Convention against Transnational Organized Crime and the Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, by making use of existing capacity-building tools, lessons learned from Member States and expertise available in other international organizations. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="MercuryDocument">
+              <num>24.</num>
+              <content eId="para_35__content">
+                <p xml:space="preserve">	We reiterate the need for improved data collection and analysis of trafficking in persons, disaggregated by sex, age, disability and other relevant factors, including the form of exploitation, and using systematic and consistent criteria, to effectively counter trafficking in persons. We thus recognize the importance of improved data collection by national authorities and will enhance international cooperation to this end, including through capacity-building, financial support and technical assistance, consistent with our national legislation on data protection, if applicable, and our respective international obligations related to privacy. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="MercuryDocument">
+              <num>25.</num>
+              <content eId="para_36__content">
+                <p xml:space="preserve">	We acknowledge the importance of the biennial <span class="italic">Global Report on Trafficking in Persons</span>, prepared by the United Nations Office on Drugs and Crime pursuant to the Global Plan of Action, and request the Office to continue to collect information on patterns, forms and flows of trafficking in persons, at the national, regional and international levels, in a balanced, reliable and comprehensive manner, to be published in the <span class="italic">Global Report</span>, and in ongoing research to estimate the prevalence of trafficking in persons, in close cooperation and collaboration with Member States. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="MercuryDocument">
+              <num>26.</num>
+              <content eId="para_37__content">
+                <p xml:space="preserve">	We underline that the issue of trafficking in persons in situations of armed conflict, natural disasters and humanitarian emergencies requires further attention, while fully respecting the principles of humanitarian assistance. In this regard: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="MercuryDocument">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	(a)	We recognize that refugees and migrants in large movements face greater risk of trafficking in persons, thus we will work to prevent trafficking among those affected by displacement, and provide support with targeted measures to identify victims or those at risk of trafficking in places of first arrival as well as throughout their journey, through the development of age- and gender-responsive policies and programmes. We also commit to intensify our efforts to prevent irregular migration and create and strengthen pathways for safe, orderly and regular migration to reduce the exposure of people on the move to trafficking in persons, recalling our respective commitments to the Global Compact for Safe, Orderly and Regular Migration; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="MercuryDocument">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	(b)	We encourage the training of humanitarian and peacekeeping personnel to be deployed in humanitarian emergencies and peacekeeping operations on responding to trafficking in persons, child protection and sexual exploitation and abuse, and encourage relevant entities and bodies of the United Nations system to train their personnel, build their technical capacity to assess situations and respond to instances of trafficking in persons in these contexts. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="MercuryDocument">
+              <num>27.</num>
+              <content eId="para_40__content">
+                <p xml:space="preserve">	We express our deep concern about the increasing links between armed groups, including terrorist groups, and trafficking in persons, involving the coercion of victims, in particular of women and girls, into forced marriages, sexual slavery, forced pregnancy, forced labour, domestic servitude and sexual exploitation, and subjecting men and boys to forced labour or act as combatants. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="MercuryDocument">
+              <num>28.</num>
+              <content eId="para_41__content">
+                <p xml:space="preserve">	We note with concern the increasing misuse of information and communications technologies, in particular the Internet, to facilitate various aspects of trafficking in persons, including the recruitment of individuals through online advertisements for online fraud and scam operations, and with the use of generative artificial intelligence, thereby subjecting victims to forced criminality, debt bondage and a range of abusive practices, as well as various forms of exploitations, including online child sexual exploitation and sexual abuse, emphasizing the disproportionate risk faced by persons with disabilities and the need to strengthen digital literacy as a preventive measure. We also emphasize the importance of countering such misuse while respecting human rights and fundamental freedoms, in accordance with our obligations under international law. In this regard:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="MercuryDocument">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	(a)	We take note of the adoption of the United Nations Convention against Cybercrime; Strengthening International Cooperation for Combating Certain Crimes Committed by Means of Information and Communications Technology Systems and for the Sharing of Evidence in Electronic Form of Serious Crimes;<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Resolution <a href="https://docs.un.org/en/A/RES/79/243">79/243</a>, annex.</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="MercuryDocument">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	(b)	We call for the strengthening of law enforcement digital expertise and capacity to conduct proportionate, lawful, accountable and necessary investigations in cyberspace, including the dark web, and seize associated electronic evidence. We encourage the appropriate use by law enforcement of technology-based solutions that address the global scope of trafficking in persons; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="MercuryDocument">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	(c)	We express deep concern about the growing misuse of artificial intelligence or machine-learning technologies to generate, disseminate hate speech for the purpose of trafficking in persons, including on social media platforms, through, inter alia, the use of artificial content, including images, videos and other forms of media, while also recognizing the potential of such technologies to detect and mitigate harmful content when developed and deployed safely;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="MercuryDocument">
+              <content eId="para_45__content">
+                <p xml:space="preserve">	(d)	We further encourage the appropriate use of technology and innovative tools by practitioners and central authorities to increase international and, where relevant, cross-border cooperation in criminal matters, recognizing the need for the ethical use of technology consistent with human rights obligations;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="MercuryDocument">
+              <content eId="para_46__content">
+                <p xml:space="preserve">	(e)	We call for effective partnerships among the public sector, civil society, academia and the private sector, including technology companies, to enhance innovation, cooperation and the use of technology, including artificial intelligence, to combat trafficking in persons. We emphasize the particularly important role played by Internet service and access providers, and call upon them to fulfil their responsibilities and promptly detect, report and remove sexual exploitation and abuse materials related to trafficking in persons, while we commit to taking legislative and other measures to facilitate these actions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="MercuryDocument">
+              <num>29.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	We reaffirm that the crime of trafficking in persons for the purpose of organ removal constitutes a form of exploitation and an offence against the human dignity of the victims that needs a multidisciplinary approach, based on respect for all human rights. We condemn the involvement of criminal groups and unethical medical personnel in trafficking in persons for the purpose of organ removal, and we call for better coordination and collaboration between criminal justice actors and medical professionals. We commit to adopting ethical and transparent regulations governing organ donations, strengthening legislative frameworks, including the criminalization of these practices and provisions to ensure the accountability of the perpetrators, and to resourcing such efforts.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="MercuryDocument">
+              <num>30.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	We also reaffirm the importance of preventing and combating trafficking in persons in supply chains, including by deterring and penalizing fraudulent and abusive recruitment practices. We encourage Member States, multilateral organizations and the private sector to adopt ethical and transparent practices in their procurement and supply chains, and strongly urge them to regularly disclose and provide relevant information. We are mindful of the need to ensure that all actors in global supply chains, including intermediaries, who profit from the labour of trafficking victims are to be held accountable, including through sufficiently stringent sanctions and appropriate policy and legislation. In this regard, we recall the United Nations Guiding Principles on Business and Human Rights.<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework (<a href="https://docs.un.org/en/A/HRC/17/31">A/HRC/17/31</a>, annex).</p></authorialNote> We stress the need to establish firewalls between immigration checks and labour inspections, to implement labour standards and to improve government procurement practices to promote decent work. We emphasize the importance of awareness and education campaigns, in partnership with civil society and the media, to combat acceptance of forced labour. We also urge the Secretary-General to ensure that all United Nations procurement does not contain goods and services produced by victims of human trafficking. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="MercuryDocument">
+              <num>31.</num>
+              <content eId="para_49__content">
+                <p xml:space="preserve">	We acknowledge that the gaps between the Global Plan of Action and its implementation by Member States should be closed, and recognize that arrangements are needed to ensure the systematic follow-up to and review of all of the commitments we are making at the present high-level meeting, including in the quadrennial high-level meetings of the General Assembly to appraise progress achieved in the implementation of the Global Plan of Action. We will also promote the development of clearer analysis of successful counter-trafficking responses, and assessment and evaluation frameworks that include consideration of how laws, policies or practical measures affect victims of trafficking in persons.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
