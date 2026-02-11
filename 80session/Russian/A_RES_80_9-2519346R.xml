@@ -1,0 +1,438 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/"></FRBRuri>
+          <FRBRdate date="2025-11-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@/"></FRBRuri>
+          <FRBRdate date="2025-11-25" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-12-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons (2025)" showAs="Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons (2025)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Plan of Action to Combat Trafficking in Persons (2010)" showAs="UN Global Plan of Action to Combat Trafficking in Persons (2010)" dictionary="DHLAUTH"></keyword>
+        <keyword value="TRAFFICKING IN PERSONS" href="http://metadata.un.org/thesaurus/1006622" showAs="TRAFFICKING IN PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" href="http://metadata.un.org/thesaurus/1003291" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DECLARATIONS (TEXT)" href="http://metadata.un.org/thesaurus/1001537" showAs="DECLARATIONS (TEXT)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="107" showAs="Crime prevention and criminal justice" shortForm="CRIME PREVENTION" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-23" outcome="draftResolution" as="A/80/L.8" by="submitted by the President of the General Assembly" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-10-23" outcome="recommendedForAdoption" by="" />
+        <step date="2025-11-24" outcome="adopted" as="A/80/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="без передачи в главные комитеты"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-19346 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-11-25" class="rightSmall" refersTo="#dateOfIssuance">25 November 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">Восьмидесятая сессия</session>
+      </p>
+      <p>
+        <inline title="107" name="agenda item">Пункт 107 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Предупреждение преступности и уголовное правосудие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 24 ноября 2025 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[без передачи в главные комитеты (<inline name="originating document">A/80/L.8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Политическая декларация 2025 года об осуществлении Глобального плана действий Организации Объединенных Наций по борьбе с торговлей людьми</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">принимает</span> Политическую декларацию 2025 года об осуществлении Глобального плана действий Организации Объединенных Наций по борьбе с торговлей людьми, прилагаемую к настоящей резолюции. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48‑е" refersTo="#adoptionMeeting">48‑е пленарное заседание</location>
+          <eol />
+          <docDate date="2025-11-24" refersTo="#adoptionDate">24 ноября 2025 года</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/"></FRBRuri>
+                <FRBRdate date="2025-11-24" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@/"></FRBRuri>
+                <FRBRdate date="2025-11-25" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="rus"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/rus@.xml"></FRBRuri>
+                <FRBRdate date="2025-12-24" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_4" class="H23">
+              <subheading>Приложение</subheading>
+            </paragraph>
+            <paragraph eId="para_5" class="H23">
+              <subheading>Политическая декларация 2025 года об осуществлении Глобального плана действий Организации Объединенных Наций по борьбе с торговлей людьми</subheading>
+            </paragraph>
+            <paragraph eId="para_6" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_6__content">
+                <p xml:space="preserve">	Мы, государства — члены Организации Объединенных Наций, приветствуем пятнадцатую годовщину принятия Глобального плана действий Организации Объединенных Наций по борьбе с торговлей людьми<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/64/293">64/293</a>.</p></authorialNote>, подтверждаем наши обязательства, взятые в нем, а также в ранее принятых политических декларациях 2017<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/72/1">72/1</a>.</p></authorialNote> и 2021 годов<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/76/7">76/7</a>, приложение.</p></authorialNote>, и выказываем твердую политическую волю к решительным слаженным действиям с целью положить конец этому гнусному преступлению, где бы оно ни совершалось.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_7" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_7__content">
+                <p xml:space="preserve">	Констатируем и подтверждаем свою приверженность реализации Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/70/1">70/1</a>.</p></authorialNote>, признавая комплексный и неделимый характер этого документа и отмечая наличие в нем обязательств, касающихся борьбы со всеми формами торговли людьми, признаем важность партнерств и международного сотрудничества в этом деле и подчеркиваем, что Повестка дня на период до 2030 года и Глобальный план действий подкрепляют друг друга. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_8__content">
+                <p xml:space="preserve">	Приветствуем также направленные на прекращение торговли людьми, особенно женщинами и детьми, действия и усилия, о которых говорится в резолюции <a href="https://docs.un.org/ru/A/RES/79/1">79/1</a>, озаглавленной «Пакт во имя будущего». </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_9__content">
+                <p xml:space="preserve">	Подтверждаем принципиальную важность всеобщей ратификации Конвенции Организации Объединенных Наций против транснациональной организованной преступности<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 2225, No. 39574. </p></authorialNote> и дополняющего ее Протокола о предупреждении и пресечении торговли людьми, особенно женщинами и детьми, и наказании за нее<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., vol. 2237, No. 39574. </p></authorialNote> с учетом центральной роли этих документов в борьбе с торговлей людьми и настоятельно призываем государства-члены, которые еще не сделали этого, в приоритетном порядке рассмотреть вопрос о ратификации вышеназванных Конвенции и Протокола или присоединении к ним. Настоятельно призываем государства, которые являются участниками этих документов, к их эффективному выполнению, в том числе с помощью Механизма обзора хода осуществления Конвенции Организации Объединенных Наций против транснациональной организованной преступности и протоколов к ней. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_10__content">
+                <p xml:space="preserve">	Подтверждаем также важность всеобщей ратификации и осуществления других соответствующих международных документов, касающихся торговли людьми, включая Конвенцию о правах ребенка<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid., vol. 1577, No. 27531. </p></authorialNote> и факультативные протоколы к ней, касающиеся торговли людьми<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Ibid., vols. 2171 and 2173, No. 27531.</p></authorialNote>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_11__content">
+                <p xml:space="preserve">	Напоминаем о Глобальном договоре о безопасной, упорядоченной и легальной миграции<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/73/195">73/195</a>, приложение. </p></authorialNote> и Глобальном договоре о беженцах<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят третья сессия, Дополнение № 12</span> (<a href="https://docs.un.org/ru/A/73/12(PartI)">A/73/12 (Part I)</a> и <a href="https://docs.un.org/ru/A/73/12(PartII)">A/73/12 (Part II)</a>), часть II. </p></authorialNote> и принимаем к сведению Общую рекомендацию Комитета по ликвидации дискриминации в отношении женщин № 38 (2020) по вопросу о торговле женщинами и девочками в контексте глобальной миграции<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://docs.un.org/ru/CEDAW/C/GC/38">CEDAW/C/GC/38</a>.</p></authorialNote>. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_12__content">
+                <p xml:space="preserve">	Подтверждаем также свое признание определения торговли людьми, которое приводится в Протоколе о предупреждении и пресечении торговли людьми, особенно женщинами и детьми, и ссылка на которое содержится в Глобальном плане действий и последующих политических декларациях.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_13__content">
+                <p xml:space="preserve">	Вновь заявляем о своем решительном осуждении торговли людьми, которая представляет собой тяжкое преступление и грубое посягательство на достоинство и физическую неприкосновенность человека, нарушение и попрание прав человека и основных свобод и вызов устойчивому развитию, и отмечаем, что уважение прав человека является важной основой комплексных стратегий по борьбе с торговлей людьми. Борьба с торговлей людьми требует применения комплексного подхода, предполагающего наличие партнерств, международного сотрудничества и мер по предупреждению такой торговли в целях выявления и защиты жертв, а также мер уголовного правосудия, включая проведение расследований, судебное преследование и наказание торговцев людьми. В этой связи высказываемся за разработку политики, программ и национальных стратегий по предупреждению торговли людьми и борьбе с ней, подчеркиваем важность сотрудничества с гражданским обществом и отмечаем необходимость укрепления правовых и организационных структур для более эффективного реагирования. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_14__content">
+                <p xml:space="preserve">	Обязуемся выполнять свои обязательства и активизировать свои усилия по предотвращению, устранению и ликвидации спроса, который подпитывает торговлю людьми, особенно женщинами и девочками, осуществляемую в целях эксплуатации во всех ее формах, и в этой связи обязуемся принять или усилить превентивные меры, в том числе законодательного и иного характера, с тем чтобы удержать от совершения преступлений потенциальных эксплуататоров и тех, кто выступает в качестве их пособников или получает выгоду от такой эксплуатации, и чтобы обеспечить привлечение виновных к ответственности. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_15__content">
+                <p xml:space="preserve">	Подтверждаем свою приверженность устранению социальных, экономических, культурных, политических и других факторов, которые делают людей уязвимыми для торговли людьми, таких как бедность, низкий уровень развития, безработица, неравенство, чрезвычайные гуманитарные ситуации, вооруженные конфликты и стихийные бедствия, сексуальное насилие, гендерная дискриминация, расовая дискриминация, социальная и финансовая изоляция и маргинализация, а также негативные социальные нормы и культура терпимости к насилию в отношении женщин, молодежи и детей. Подтверждаем свое обязательство содействовать образовательным и информационно-просветительским кампаниям, направленным на предупреждение торговли людьми, и приветствуем провозглашение 30 июля Всемирным днем борьбы с торговлей людьми<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		См. резолюцию <a href="https://docs.un.org/ru/A/RES/68/192">68/192</a>. </p></authorialNote>. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_16__content">
+                <p xml:space="preserve">	Выражаем серьезную озабоченность распространенностью и сохранением явления торговли женщинами и детьми, признаем, что женщины и дети становятся жертвами торговли людьми чаще всех остальных. С обеспокоенностью отмечаем возможные случаи торговли женщинами в целях их эксплуатации в качестве суррогатных матерей. Выражаем серьезную обеспокоенность ростом торговли детьми, в первую очередь для целей принудительного труда, принудительного брака, сексуальной эксплуатации и вовлечения в преступную деятельность. Отмечаем особую уязвимость детей, включая детей и молодежь с инвалидностью и несопровождаемых детей, перед различными формами эксплуатации, в том числе в контексте путешествий, туризма и занятий спортом, и необходимость устранения такой уязвимости, а также борьбы с культурными традициями, которые оправдывают или допускают такой спрос. Призываем государства-члены принять или обновить национальные законы и ввести комплексные стратегии, программы и другие меры, в зависимости от обстоятельств, для защиты женщин и детей, ставших объектами торговли, от повторной виктимизации и для предоставления надлежащей помощи и защиты в соответствии с принципом наилучшего обеспечения интересов ребенка. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	Выражаем солидарность с жертвами и потерпевшими и сострадаем им, призываем всецело уважать их права человека и отмечаем их роль как проводников перемен в глобальной борьбе с торговлей людьми. Признаем необходимость активно привлекать их, учитывая их мнения и опыт, ко всем усилиям по предупреждению торговли людьми и борьбе с ней, в том числе к разработке, реализации, мониторингу и оценке таких усилий. Будем предоставлять уход, помощь и услуги на основе подхода, в котором центральное место занимают потребности жертв и последствия пережитой ими травмы, в целях восстановления здоровья и реабилитации пострадавших, обеспечения их доступа к услугам здравоохранения, включая услуги по охране сексуального и репродуктивного здоровья, а также услуги по охране психического здоровья и психосоциальной поддержке, и стремиться к активизации деятельности по предоставлению безопасного жилья, юридической помощи, долгосрочной поддержки, обеспечению реинтеграции и своевременного воссоединения семей, включая защиту и помощь, сотрудничая также с гражданским обществом и другими соответствующими партнерами. Будем обеспечивать уважительное и достойное отношение к жертвам, чтобы они не подвергались ненадлежащему наказанию или негативному воздействию в связи с любыми мерами государственных органов и сообществ, включая уголовные, гражданские, административные и иммиграционные наказания за действия, совершаемые ими как прямое следствие ситуации торговли людьми, в которой они оказались, посредством реализации как принципа непривлечения к ответственности, так и принципа ненаказания жертв торговли людьми согласно национальным законам, нормам и положениям. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	Обязуемся принять соответствующие меры для облегчения доступа жертв торговли людьми к правосудию и механизмам защиты, которые не должны быть обусловлены их участием в уголовном судопроизводстве, с учетом национального законодательства и будем стремиться обеспечить наличие законов и политики, позволяющих уменьшить зависимость от показаний жертв торговли. Обязуемся также предпринять шаги для обеспечения наличия эффективных средств правовой защиты, в том числе механизмов компенсации за причиненный ущерб, а также механизмов в интересах жертв, которые подвергаются несправедливому наказанию за незаконные действия, совершенные в связи с их виктимизацией. Обязуемся далее создавать условия для применения ориентированного на интересы жертв и учитывающего возрастные и гендерные особенности подхода к обеспечению ухода и оказанию помощи, который принимал бы во внимание инвалидность и пережитую травму и был направлен на удовлетворение особых потребностей женщин, молодежи и детей. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	Подтверждаем наше обязательство по защите неприкосновенности частной жизни и идентифицирующей личность информации и обеспечению безопасности жертв торговли людьми до, во время и после уголовного разбирательства, в том числе когда показания жертвы необходимы в ходе судебного разбирательства, и по обеспечению в надлежащих случаях защиты ближайших членов их семей и свидетелей от возмездия со стороны лиц, причастных к торговле людьми, путем обеспечения их безопасности в соответствии с применимыми положениями статей 24 и 25 Конвенции Организации Объединенных Наций против транснациональной организованной преступности.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <num>15.</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	Вновь подтверждаем свою решимость продолжать прилагать усилия по обеспечению уголовной ответственности за торговлю людьми во всех ее формах, по привлечению торговцев людьми к ответственности за их преступления путем судебного преследования и по укреплению сотрудничества и координации между государствами-членами в странах происхождения, транзита и назначения в целях прекращения функционирования и ликвидации преступных сетей, причастных к подобным преступлениям, в частности путем улучшения обмена информацией, в том числе через защищенные каналы связи Международной организации уголовной полиции (Интерпол), где это уместно, а также посредством оказания взаимной правовой помощи и осуществления экстрадиции, при полном соблюдении внутреннего законодательства, в борьбе с преступлениями, которые могут быть связаны с торговлей людьми, такими как отмывание денег, коррупция, использование незаконных финансовых потоков, незаконный ввоз мигрантов, незаконный оборот наркотиков, незаконный оборот оружия, киберпреступность и все формы организованной преступности и связанного с ней незаконного финансирования. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="SingleTxt">
+              <num>16.</num>
+              <content eId="para_21__content">
+                <p xml:space="preserve">	Обязуемся укреплять потенциал правоохранительных органов и систем уголовного правосудия, в том числе потенциал практикующих специалистов по уголовному правосудию, в плане выявления фактов торговли людьми, расследования таких преступлений и судебного преследования виновных, в том числе в сочетании с другими преступлениями, связанными с торговлей людьми, а также в плане анализа финансовых потоков в целях выявления и ликвидации таких преступных сетей и их финансовых структур в сотрудничестве с финансовыми учреждениями. Обязуемся также развивать и укреплять национальные механизмы передачи дел в соответствующие инстанции и использовать имеющиеся технологии для увеличения числа направлений жертв торговли людьми к специалистам и оказания им необходимых услуг, а также для выявления, изъятия и конфискации доходов таких преступных сетей. Подчеркиваем важность регулярного и специализированного профессионального обучения должностных лиц и специалистов-практиков, участвующих в предотвращении, выявлении и пресечении торговли людьми, как ключевого компонента эффективного и ориентированного на интересы жертв подхода.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="SingleTxt">
+              <num>17.</num>
+              <content eId="para_22__content">
+                <p xml:space="preserve">	Обязуемся также расследовать случаи торговли людьми и привлекать к ответственности виновных и принимать все необходимые меры для сбора, обеспечения сохранности и хранения доказательств торговли людьми, в том числе когда ее целью является, в частности, сексуальная эксплуатация. Признаем, что преступления, связанные с торговлей людьми, часто включают в себя другие преступные деяния, и призываем к принятию такой политики в области судебного преследования, которая обеспечивает ответственность за весь спектр вреда, причиненного жертвам.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23" class="SingleTxt">
+              <num>18.</num>
+              <content eId="para_23__content">
+                <p xml:space="preserve">	Мы серьезно озабочены тем, что объем глобальных ресурсов, выделяемых на предотвращение торговли людьми и борьбу с ней, не соответствует масштабам этой проблемы, и в этой связи: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="SingleTxt">
+              <content eId="para_24__content">
+                <p xml:space="preserve">	a)	вновь заявляем о своей твердой поддержке Целевого фонда добровольных взносов Организации Объединенных Наций для жертв торговли людьми, особенно женщинами и детьми, который был учрежден в соответствии с Глобальным планом действий, и предлагаем всем заинтересованным сторонам вносить в целевой фонд взносы, в том числе объявляя их на четырехгодичных заседаниях высокого уровня, посвященных оценке Глобального плана действий; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <content eId="para_25__content">
+                <p xml:space="preserve">	b)	заявляем о своей твердой политической воле и готовности выделять финансовые ресурсы для эффективной борьбы с торговлей людьми при любых обстоятельствах, признавая необходимость обеспечения достаточных, надежных, устойчивых и предсказуемых ресурсов для финансирования национальных стратегий борьбы с торговлей людьми, особенно для развивающихся стран, которые особенно страдают от смешанных и масштабных перемещений беженцев и мигрантов, включая страны происхождения, транзита и назначения; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="SingleTxt">
+              <content eId="para_26__content">
+                <p xml:space="preserve">	c)	будем стремиться предоставлять нецелевые внебюджетные ресурсы подразделениям системы Организации Объединенных Наций, уполномоченным бороться с торговлей людьми, в соответствии с их правилами и процедурами; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <content eId="para_27__content">
+                <p xml:space="preserve">	d)	подчеркиваем необходимость активизации международного и регионального сотрудничества, включая наращивание потенциала, обмен передовым опытом и ноу-хау и техническую помощь, особенно для развивающихся стран, в целях укрепления их способности предотвращать все формы торговли людьми, удовлетворять особые потребности жертв и укреплять свои системы уголовного правосудия, отмечая особую роль в этом отношении Управления Организации Объединенных Наций по наркотикам и преступности; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="SingleTxt">
+              <content eId="para_28__content">
+                <p xml:space="preserve">	e)	призываем соответствующие подразделения и органы системы Организации Объединенных Наций оказывать государствам-членам по их просьбе помощь в обучении и наращивании потенциала, в том числе услуг в области охраны психического здоровья и психосоциальной поддержки, которые учитывают гендерные и возрастные особенности, инвалидность и ориентированы на интересы и потребности пострадавших, в целях восстановления здоровья жертв торговли людьми и их реинтеграции;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="SingleTxt">
+              <content eId="para_29__content">
+                <p xml:space="preserve">	f)	подтверждаем важную роль усиленного международного сотрудничества в предотвращении торговли людьми и борьбе с ней, в том числе в области взаимной правовой помощи и экстрадиции. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <num>19.</num>
+              <content eId="para_30__content">
+                <p xml:space="preserve">	Вновь самым решительным образом заявляем о важности усиления коллективных действий государств-членов по прекращению торговли людьми, в том числе предпринимаемых по линии региональных, субрегиональных и межрегиональных механизмов, а также по линии партнерств и инициатив с участием системы Организации Объединенных Наций и других соответствующих заинтересованных сторон, к которым относятся, в частности, региональные и международные организации, частный сектор, средства массовой информации, научное сообщество, парламентарии и гражданское общество, а также национальные правозащитные учреждения (там, где они существуют), в соответствии с Парижскими принципами<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/48/134">48/134</a>, приложение. </p></authorialNote>. Будем способствовать развитию многосторонних партнерств и привлекать частный сектор и гражданское общество к разработке и реализации соответствующих устойчивых инициатив по предотвращению торговли людьми и борьбе с ней, отмечая при этом важную роль, которую играют финансовые учреждения. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <num>20.</num>
+              <content eId="para_31__content">
+                <p xml:space="preserve">	Особо отмечаем деятельность по борьбе с торговлей людьми, осуществляемую Специальным докладчиком Совета по правам человека по вопросу о торговле людьми, особенно женщинами и детьми, Специальным докладчиком Совета по правам человека по вопросу о современных формах рабства, Специальным представителем Генерального секретаря по вопросу о насилии в отношении детей и другими соответствующими специальными докладчиками и представителями, и приветствуем их продолжающиеся усилия по осуществлению Глобального плана действий и настоящей политической декларации. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="SingleTxt">
+              <num>21.</num>
+              <content eId="para_32__content">
+                <p xml:space="preserve">	Подчеркиваем также необходимость продолжать повышать общую организованность и слаженность глобальных усилий системы Организации Объединенных Наций по реагированию на проблему торговли людьми, особенно в том, что касается обеспечения поддержки, предоставляемой государствам-членам. В этой связи, напоминая о мандате Межучрежденческой координационной группы по борьбе с торговлей людьми, настоятельно призываем Генерального секретаря продолжать усилия по укреплению координации внутри системы Организации Объединенных Наций и информировать о них государства-члены, используя для этого существующие каналы отчетности. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <num>22.</num>
+              <content eId="para_33__content">
+                <p xml:space="preserve">	Признаем важную роль в системе Организации Объединенных Наций Межучрежденческой координационной группы по борьбе с торговлей людьми, координатором которой является Управление Организации Объединенных Наций по наркотикам и преступности, и с признательностью отмечаем в этой связи постоянные усилия входящих в нее структур. Предлагаем Координационной группе продолжать наращивать свою деятельность, связанную с осуществлением Глобального плана действий, и с этой целью включить в нее аспекты Повестки дня в области устойчивого развития на период до 2030 года, имеющие отношение к предотвращению торговли людьми и борьбе с ней, а также продолжать содействовать координации будущей деятельности и избегать дублирования усилий. Призываем Координационную группу продолжать расширять свой состав за счет включения в него международных межправительственных организаций, которые играют определенную роль в решении проблемы торговли людьми во всех регионах. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="SingleTxt">
+              <num>23.</num>
+              <content eId="para_34__content">
+                <p xml:space="preserve">	Подтверждаем центральную роль, которую играет в глобальной борьбе с торговлей людьми деятельность Управления Организации Объединенных Наций по наркотикам и преступности, прежде всего в плане оказания государствам-членам запрашиваемой ими технической помощи в осуществлении Конвенции Организации Объединенных Наций против транснациональной организованной преступности и Протокола о предупреждении и пресечении торговли людьми, особенно женщинами и детьми, и наказании за нее — с задействованием имеющихся инструментов наращивания потенциала, привлечением опыта государств-членов и использованием экспертных наработок других международных организаций. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <num>24.</num>
+              <content eId="para_35__content">
+                <p xml:space="preserve">	Вновь заявляем, что для эффективного противодействия торговле людьми необходимо совершенствовать сбор и анализ данных о торговле людьми в разбивке по полу, возрасту, фактору инвалидности и другим соответствующим факторам, включая формы эксплуатации, применяя при этом систематические и последовательные критерии. Признаем в этой связи важность улучшения сбора данных национальными органами и будем способствовать укреплению международного сотрудничества для достижения этой цели, в том числе посредством наращивания потенциала и оказания финансовой поддержки и технической помощи с соблюдением своего применимого национального законодательства в области защиты данных и своих международных обязательств касательно неприкосновенности частной жизни. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <num>25.</num>
+              <content eId="para_36__content">
+                <p xml:space="preserve">	Констатируем важность издаваемого раз в два года «Всемирного доклада о торговле людьми», подготовкой которого в соответствии с Глобальным планом действий занимается Управление Организации Объединенных Наций по наркотикам и преступности, и просим Управление продолжать собирать сбалансированную, достоверную и всестороннюю информацию о закономерностях, формах и потоках торговли людьми на национальном, региональном и международном уровнях для опубликования во «Всемирном докладе» и в текущих исследованиях по оценке распространенности торговли людьми, действуя при этом в тесном сотрудничестве и взаимодействии с государствами-членами. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <num>26.</num>
+              <content eId="para_37__content">
+                <p xml:space="preserve">	Подчеркиваем, что проблема торговли людьми в условиях вооруженных конфликтов, стихийных бедствий и чрезвычайных гуманитарных ситуаций требует дальнейшего внимания при полном соблюдении принципов гуманитарной помощи. В этой связи: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	a)	признаем, что беженцы и мигранты, перемещающиеся в составе больших групп, подвергаются большему риску стать жертвами торговли людьми, и поэтому будем работать над предотвращением торговли людьми среди тех, кто находится в ситуациях перемещения, и оказывать им поддержку посредством целенаправленных мер по выявлению жертв или тех, кто подвергается риску торговли людьми в пунктах прибытия, а также на протяжении всего маршрута перемещения, разрабатывая стратегии и программы, учитывающие возрастные и гендерные особенности. Обязуемся также активизировать свои усилия по предотвращению нелегальной миграции и по созданию и укреплению путей безопасной, упорядоченной и легальной миграции, с тем чтобы уменьшить подверженность людей, находящихся в ситуации перемещения, риску торговли людьми, напоминая о своих соответствующих обязательствах по Глобальному договору о безопасной, упорядоченной и легальной миграции; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	b)	рекомендуем, чтобы гуманитарный и миротворческий персонал, направляемый для ликвидации чрезвычайных гуманитарных ситуаций и в состав операций по поддержанию мира, проходил подготовку по вопросам реагирования на торговлю людьми, защиты детей и противодействия сексуальной эксплуатации и сексуальным надругательствам, и рекомендуем соответствующим структурам и органам системы Организации Объединенных Наций развивать у своего персонала необходимые навыки, наращивать его технические возможности, позволяющие оценивать обстановку на наличие фактов торговли людьми и принимать необходимые меры реагирования в этих ситуациях. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <num>27.</num>
+              <content eId="para_40__content">
+                <p xml:space="preserve">	Выражаем глубокую озабоченность по поводу усиливающихся связей между вооруженными группами, в том числе террористическими группами, и торговлей людьми, включая принуждение жертв, в частности женщин и девочек, к принудительным бракам, сексуальному рабству, принудительной беременности, принудительному труду, бытовому рабству и сексуальной эксплуатации, а также принуждение мужчин и мальчиков к труду или участию в боевых действиях. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <num>28.</num>
+              <content eId="para_41__content">
+                <p xml:space="preserve">	С озабоченностью отмечаем растущее число случаев злоупотребления информационно-коммуникационными технологиями, в частности Интернетом, в порядке пособничества различным аспектам торговли людьми, в том числе в целях вербовки людей через объявления в Интернете для участия в жульнических и мошеннических операциях в Интернете, а также злоупотреблений с использованием генеративного искусственного интеллекта, в результате чего жертвы принуждаются к преступной деятельности, оказываются в долговой кабале и подвергаются разного рода злоупотреблениям, а также различным формам эксплуатации, включая сексуальную эксплуатацию детей и сексуальные надругательства над ними в Интернете, что подчеркивает непропорционально высокий риск, которому подвергаются инвалиды, и необходимость повышения цифровой грамотности в качестве превентивной меры. Подчеркиваем также важность противодействия таким злоупотреблениям и соблюдения прав человека и основных свобод в соответствии с нашими обязательствами по международному праву. В этой связи:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	a)	принимаем к сведению принятие Конвенции Организации Объединенных Наций против киберпреступности; укрепление международного сотрудничества в борьбе с определенными преступлениями, совершаемыми с использованием информационно-коммуникационных систем, и в обмене доказательствами в электронной форме, относящимися к серьезным преступлениям<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/79/243">79/243</a>, приложение.</p></authorialNote>;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	b)	призываем к наращиванию специальных знаний и возможностей правоохранительных органов в области цифровых технологий для проведения необходимых расследований по вопросам деятельности в киберпространстве, в том числе в даркнете, на соразмерной, законной и подотчетной основе и для изъятия соответствующих электронных доказательств. Поощряем надлежащее использование правоохранительными органами технологических решений, направленных на борьбу с торговлей людьми в глобальном масштабе; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	c)	выражаем глубокую озабоченность в связи с растущими масштабами злоупотребления технологиями искусственного интеллекта или машинного обучения для создания, распространения ненавистнической риторики в целях торговли людьми, в том числе на платформах социальных сетей, посредством, в частности, использования искусственного контента, включая изображения, видео и другие информационные материалы, признавая при этом потенциальную возможность применения таких технологий, если они разрабатываются и внедряются безопасным образом, для обнаружения вредоносного контента и смягчения последствий его распространения;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <content eId="para_45__content">
+                <p xml:space="preserve">	d)	призываем специалистов-практиков и центральные органы надлежащим образом использовать технологии и новаторские инструменты для расширения международного и, где это уместно, трансграничного сотрудничества по уголовным делам, признавая необходимость этичного использования технологий в соответствии с обязательствами в области прав человека;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="SingleTxt">
+              <content eId="para_46__content">
+                <p xml:space="preserve">	e)	призываем к эффективному партнерству между государственным сектором, гражданским обществом, научными кругами и частным сектором, включая технологические компании, в целях расширения использования инноваций, сотрудничества и применения технологий, в том числе искусственного интеллекта, для борьбы с торговлей людьми. Подчеркиваем особо важную роль, которую играют провайдеры интернет-услуг и доступа в Интернет, и призываем их выполнять свои обязанности и оперативно выявлять связанные с торговлей людьми материалы о сексуальной эксплуатации и сексуальных надругательствах, сообщать о таких материалах и удалять их, а также обязуемся принять законодательные и другие меры для содействия этим мерам. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="SingleTxt">
+              <num>29.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	Подтверждаем, что преступление, выражающееся в торговле людьми с целью изъятия органов, является одной из форм эксплуатации и посягательством на человеческое достоинство жертв и требует многопрофильного подхода, основанного на уважении всех прав человека. Осуждаем причастность преступных групп и беспринципных медицинских работников к торговле людьми с целью изъятия органов и призываем к улучшению координации и сотрудничества между участниками системы уголовного правосудия и медицинскими работниками. Обязуемся принять этичные и прозрачные правила, регулирующие донорство органов, укрепить законодательную базу, в том числе путем установления уголовной ответственности за такую практику и принятия положений, обеспечивающих привлечение к ответственности виновных, и обеспечить ресурсы в поддержку таких усилий.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <num>30.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	Подтверждаем также важность предотвращения и пресечения торговли людьми в рамках цепочек поставок, в том числе посредством недопущения мошеннической и неправомерной практики найма и обеспечения наказания за нее. Призываем государства-члены, многосторонние организации и частный сектор внедрять этичную и прозрачную практику в рамках их процессов закупок и цепочек поставок и настоятельно призываем их регулярно раскрывать и представлять соответствующую информацию. Помним о необходимости обеспечения того, чтобы все участники глобальных цепочек поставок, включая посредников, которые извлекают выгоду из труда жертв торговли людьми, привлекались к ответственности, в том числе посредством применения достаточно жестких санкций и соответствующих норм и законов. В этой связи напоминаем о принятых Организацией Объединенных Наций Руководящих принципах предпринимательской деятельности в аспекте прав человека<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		«Руководящие принципы предпринимательской деятельности в аспекте прав человека: осуществление рамок Организации Объединенных Наций, касающихся “защиты, соблюдения и средств правовой защиты”» (<a href="https://docs.un.org/ru/A/HRC/17/31">A/HRC/17/31</a>, приложение).</p></authorialNote>. Подчеркиваем необходимость создания механизмов раздельного доступа к информации по результатам иммиграционных проверок и информации по результатам трудовых инспекций, внедрения трудовых стандартов и улучшения практики государственных закупок для содействия обеспечению достойных условий труда. Особо отмечаем важность проведения информационно-просветительских и образовательных кампаний в партнерстве с гражданским обществом и средствами массовой информации для противодействия признанию допустимости принудительного труда. Настоятельно призываем также Генерального секретаря обеспечить, чтобы в рамках всей закупочной деятельности Организации Объединенных Наций не приобретались товары и услуги, производимые или оказываемые жертвами торговли людьми. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <num>31.</num>
+              <content eId="para_49__content">
+                <p xml:space="preserve">	Признаем необходимость устранения пробелов в реализации Глобального плана действий государствами-членами и отмечаем необходимость механизмов для обеспечения систематического отслеживания и обзора выполнения всех обязательств, которые мы берем на нынешнем заседании высокого уровня, в том числе в формате четырехгодичных заседаний высокого уровня Генеральной Ассамблеи, посвященных оценке хода осуществления Глобального плана действий. Будем также способствовать разработке более четкого анализа успешных мер по борьбе с торговлей людьми, а также механизмов анализа и оценки с учетом того, как законы, политика или практические меры влияют на жертв торговли людьми.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
