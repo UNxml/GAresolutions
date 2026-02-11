@@ -1,0 +1,447 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/"></FRBRuri>
+          <FRBRdate date="2025-11-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@/"></FRBRuri>
+          <FRBRdate date="2025-11-25" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-12-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons (2025)" showAs="Political Declaration on the Implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons (2025)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Plan of Action to Combat Trafficking in Persons (2010)" showAs="UN Global Plan of Action to Combat Trafficking in Persons (2010)" dictionary="DHLAUTH"></keyword>
+        <keyword value="TRAFFICKING IN PERSONS" href="http://metadata.un.org/thesaurus/1006622" showAs="TRAFFICKING IN PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" href="http://metadata.un.org/thesaurus/1003291" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DECLARATIONS (TEXT)" href="http://metadata.un.org/thesaurus/1001537" showAs="DECLARATIONS (TEXT)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="107" showAs="Crime prevention and criminal justice" shortForm="CRIME PREVENTION" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-23" outcome="draftResolution" as="A/80/L.8" by="submitted by the President of the General Assembly" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-10-23" outcome="recommendedForAdoption" by="" />
+        <step date="2025-11-24" outcome="adopted" as="A/80/PV.48" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="noMainCommittee" href="#noMainCommittee" showAs="sans renvoi à une grande commission"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-19346 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée générale</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-11-25" class="rightSmall" refersTo="#dateOfIssuance">25 novembre 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">Quatre-vingtième session</session>
+      </p>
+      <p>
+        <inline title="107" name="agenda item">Point 107 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Prévention du crime et justice pénale</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée générale le 24 novembre 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#noMainCommittee">[sans renvoi à une grande commission (<inline name="originating document">A/80/L.8</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Déclaration politique de 2025 sur l’application du Plan d’action mondial des Nations Unies pour la lutte contre la traite des personnes</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée générale</span>
+        </p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="MercuryDocument">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">Adopte </span>la Déclaration politique de 2025 sur l’application du Plan d’action mondial des Nations Unies pour la lutte contre la traite des personnes, qui se trouve annexée à la présente résolution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="48e" refersTo="#adoptionMeeting">48e séance plénière</location>
+          <eol />
+          <docDate date="2025-11-24" refersTo="#adoptionDate">24 novembre 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/"></FRBRuri>
+                <FRBRdate date="2025-11-24" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@/"></FRBRuri>
+                <FRBRdate date="2025-11-25" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-11-24/80-9/fra@.xml"></FRBRuri>
+                <FRBRdate date="2025-12-24" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_4" class="MercuryDocument">
+              <content eId="para_4__content">
+                <p xml:space="preserve">
+                  <span class="bold">Annexe</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_5" class="MercuryDocument">
+              <content eId="para_5__content">
+                <p xml:space="preserve">
+                  <span class="bold">Déclaration politique de 2025 sur l’application du Plan d’action mondial des Nations Unies pour la lutte contre la traite des personnes</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_6" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_6__content">
+                <p xml:space="preserve">	Nous, États Membres de l’Organisation des Nations Unies, nous félicitons de la célébration du quinzième anniversaire de l’adoption du Plan d’action mondial des Nations Unies pour la lutte contre la traite des personnes<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/64/293">64/293</a>.</p></authorialNote>, réaffirmons les engagements qui sont énoncés dans ledit plan ainsi que dans les déclarations politiques adoptées en 2017<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/72/1">72/1</a>.</p></authorialNote> et 2021<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/76/7">76/7</a>, annexe.</p></authorialNote>, et manifestons notre ferme volonté politique d’agir résolument et de concert pour mettre fin à ce crime odieux, où qu’il se produise.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_7" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_7__content">
+                <p xml:space="preserve">	Nous rappelons et réaffirmons notre attachement au Programme de développement durable à l’horizon 2030<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/70/1">70/1</a>.</p></authorialNote>, prenant note de sa nature intégrée et indivisible et sachant qu’il comprend des engagements relatifs à la lutte contre toutes les formes de traite des personnes, constatons l’importance des partenariats et de la coopération internationale à cet égard, et soulignons que le Programme 2030 et le Plan d’action mondial se renforcent mutuellement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_8__content">
+                <p xml:space="preserve">	Nous nous félicitons des mesures et des efforts visant à mettre fin à la traite des personnes, en particulier des femmes et des enfants, qui sont prévus dans la résolution <a href="https://docs.un.org/fr/A/RES/79/1">79/1</a>, intitulée « Le Pacte pour l’avenir ».</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_9__content">
+                <p xml:space="preserve">	Nous réaffirmons l’importance fondamentale que revêt la ratification universelle de la Convention des Nations Unies contre la criminalité transnationale organisée<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 2225, n<sup>o</sup> 39574.</p></authorialNote> et du Protocole additionnel y relatif visant à prévenir, réprimer et punir la traite des personnes, en particulier des femmes et des enfants<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., vol. 2237, n<sup>o</sup> 39574.</p></authorialNote>, compte tenu du rôle central que ces instruments jouent dans la lutte contre la traite des personnes, et prions instamment les États Membres qui ne l’ont pas encore fait d’envisager de ratifier la Convention et le Protocole s’y rapportant, ou d’y adhérer à titre prioritaire. Nous exhortons les États Parties à ces instruments à les appliquer effectivement, notamment en utilisant le Mécanisme d’examen de l’application de la Convention des Nations Unies contre la criminalité transnationale organisée et des Protocoles s’y rapportant.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_10__content">
+                <p xml:space="preserve">	Nous réaffirmons également l’importance de la ratification universelle et de la mise en œuvre des autres instruments internationaux relatifs à la traite des personnes, notamment la Convention relative aux droits de l’enfant<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid., vol. 1577, n<sup>o</sup> 27531.</p></authorialNote> et ses protocoles facultatifs relatifs à la traite des personnes<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Ibid., vol. 2171 et 2173, n<sup>o</sup> 27531.</p></authorialNote>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="MercuryDocument">
+              <num>6.</num>
+              <content eId="para_11__content">
+                <p xml:space="preserve">	Nous rappelons le Pacte mondial pour des migrations sûres, ordonnées et régulières<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/73/195">73/195</a>, annexe.</p></authorialNote> et le Pacte mondial sur les réfugiés<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<span class="italic">Documents officiels de l’Assemblée générale, soixante-treizième session, Supplément n</span>o<span class="italic"> 12</span> [<a href="https://docs.un.org/fr/A/73/12(PartI)">A/73/12 (Part I)</a> et <a href="https://docs.un.org/fr/A/73/12(PartII)">A/73/12 (Part II)</a>], deuxième partie.</p></authorialNote>, et prenons note de la recommandation générale n<sup>o</sup> 38 (2020) du Comité pour l’élimination de la discrimination à l’égard des femmes sur la traite des femmes et des filles dans le contexte des migrations internationales<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://docs.un.org/fr/CEDAW/C/GC/38">CEDAW/C/GC/38</a>.</p></authorialNote>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="MercuryDocument">
+              <num>7.</num>
+              <content eId="para_12__content">
+                <p xml:space="preserve">	Nous réaffirmons notre adhésion à la définition de la traite des personnes telle qu’elle figure dans le Protocole visant à prévenir, réprimer et punir la traite des personnes, en particulier des femmes et des enfants, comme indiqué dans le Plan d’action mondial et les déclarations politiques qui en découlent.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="MercuryDocument">
+              <num>8.</num>
+              <content eId="para_13__content">
+                <p xml:space="preserve">	Nous condamnons de nouveau énergiquement la traite des personnes, qui constitue un crime et une atteinte grave à la dignité humaine et à l’intégrité physique, une violation des droits humains et des libertés fondamentales ainsi qu’une entrave au développement durable, et nous notons que le respect des droits humains représente un fondement important des stratégies globales de lutte contre la traite. La lutte contre la traite des personnes appelle une approche globale comprenant des partenariats, une coopération internationale et des mesures visant à prévenir cette traite et à en identifier et protéger les victimes, ainsi qu’une action de la justice pénale, notamment des enquêtes, des poursuites et des sanctions dans les affaires de traite. À cet égard, nous encourageons l’élaboration de politiques, de programmes et de stratégies nationales visant à prévenir et à combattre la traite des personnes, nous soulignons l’importance que revêt la coopération avec la société civile et nous notons la nécessité de renforcer les cadres juridique et institutionnel pour lutter plus efficacement contre ce fléau.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="MercuryDocument">
+              <num>9.</num>
+              <content eId="para_14__content">
+                <p xml:space="preserve">	Nous nous engageons à honorer nos obligations et à redoubler d’efforts pour prévenir, combattre et éliminer la demande qui alimente la traite des personnes, en particulier des femmes et des enfants, vouées à toutes les formes d’exploitation, et à mettre en place à cet effet des mesures préventives, notamment des mesures législatives et autres, ou à renforcer les mesures existantes, pour dissuader ceux qui exploitent les victimes de la traite et ceux qui facilitent cette exploitation ou en profitent, et pour les amener à répondre de leurs actes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="MercuryDocument">
+              <num>10.</num>
+              <content eId="para_15__content">
+                <p xml:space="preserve">	Nous réaffirmons notre volonté de régler les problèmes sociaux, économiques, culturels, politiques et autres qui exposent les personnes à la traite, comme la pauvreté, le sous-développement, le chômage, les inégalités, les urgences humanitaires, les conflits armés et les catastrophes naturelles, la violence sexuelle, la discrimination fondée sur le genre, la discrimination raciale, l’exclusion sociale et financière et la marginalisation, ainsi que les normes sociales préjudiciables et la culture de tolérance vis-à-vis de la violence faite aux femmes, aux jeunes et aux enfants. Nous nous engageons de nouveau à lancer des campagnes d’éducation et de sensibilisation pour prévenir la traite des personnes, et nous nous félicitons que le 30 juillet ait été proclamé Journée mondiale de la lutte contre la traite d’êtres humains<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Voir résolution <a href="https://docs.un.org/fr/A/RES/68/192">68/192</a>.</p></authorialNote>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="MercuryDocument">
+              <num>11.</num>
+              <content eId="para_16__content">
+                <p xml:space="preserve">	Nous nous déclarons gravement préoccupés par la forte persistance de la traite des femmes et des enfants, et constatons que la traite les frappe démesurément. Nous prenons note avec inquiétude des cas potentiels de traite des femmes à des fins d’exploitation dans le cadre de la gestation pour autrui. Nous sommes très préoccupés par l’ampleur que prend la traite des enfants, principalement à des fins de travail forcé, de mariage forcé, d’exploitation sexuelle et de participation à des activités criminelles. Nous prenons note des vulnérabilités spécifiques des enfants, y compris des enfants et des jeunes handicapés et des enfants non accompagnés, face à diverses formes d’exploitation, notamment dans le contexte des voyages, du tourisme et des sports, et de la nécessité d’y remédier, ainsi que des pratiques culturelles qui justifient ou tolèrent la demande à de telles fins. Nous demandons aux États Membres d’adopter de nouvelles lois ou de modifier les lois existantes et de mettre en place des politiques, des programmes et d’autres mesures d’ensemble, selon qu’il convient, qui permettent de prévenir la revictimisation des femmes et enfants victimes de la traite et de fournir une assistance et une protection adaptées dans l’intérêt supérieur de l’enfant.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="MercuryDocument">
+              <num>12.</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	Nous exprimons notre solidarité avec les victimes et les personnes rescapées et notre compassion à leur endroit, et nous demandons le plein respect de leurs droits humains, conscients de leur rôle d’agents de changement dans la lutte mondiale contre la traite des personnes. Nous considérons qu’il est nécessaire de les associer activement, en prenant en compte leur perspective et leur expérience dans tous les efforts visant à prévenir et à combattre la traite des personnes, notamment à l’élaboration, à la mise en œuvre, au suivi et à l’évaluation de ces efforts. Nous offrirons des soins, une assistance et des services centrés sur les victimes et tenant compte des traumatismes subis afin d’assurer leur rétablissement et leur réadaptation ainsi que leur accès à la santé, y compris aux services de santé sexuelle et procréative et aux services de santé mentale et de soutien psychosocial, et nous chercherons à mieux leur garantir un abri sûr, une aide juridique, un soutien à long terme, une réintégration et un regroupement familial en temps voulu, y compris la protection et l’assistance, en collaboration également avec la société civile et d’autres partenaires concernés. Nous veillerons à ce que les victimes soient traitées avec respect et dignité et ne soient pas sanctionnées de manière inappropriée ou pénalisées par les mesures prises par les pouvoirs publics et les collectivités, y compris les sanctions pénales, civiles et administratives et les sanctions en matière d’immigration, pour des actes qu’elles commettent en conséquence directe de leur situation de victimes de la traite, et à respecter pour ce faire les principes de non-poursuite et de non-sanction des victimes de la traite, sous réserve des lois, règles et règlements nationaux.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="MercuryDocument">
+              <num>13.</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	Nous nous engageons à prendre les mesures appropriées pour assurer l’accès à la justice et la protection des victimes de la traite, lesquelles ne devraient pas être subordonnées à leur participation à des procédures pénales, en tenant compte de la législation nationale, et nous veillerons à ce que des lois et des politiques soient mises en place pour atténuer le recours aux témoignages des victimes. Nous nous engageons également à prendre des mesures pour garantir que des recours utiles sont disponibles, y compris pour les dommages subis, ainsi que pour les victimes qui ont été injustement sanctionnées pour des actes illégaux commis dans le cadre de la traite. Nous nous engageons en outre à prendre en charge les victimes et de les aider suivant une approche qui soit centrée sur les victimes, qui tienne compte de l’âge, du genre, du handicap et du traumatisme, et qui réponde aux besoins particuliers des femmes, des jeunes et des enfants.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="MercuryDocument">
+              <num>14.</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	Nous nous engageons à protéger la vie privée et l’identité des victimes de la traite des personnes, à assurer leur sécurité avant, pendant et après les procédures pénales, y compris lorsque leur témoignage est requis dans le cadre de la procédure, et à protéger s’il y a lieu les membres de leur famille immédiate et les témoins contre les représailles des trafiquants en prenant les mesures de protection prévues aux articles 24 et 25 de la Convention des Nations Unies contre la criminalité transnationale organisée qui s’appliquent.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="MercuryDocument">
+              <num>15.</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	Nous réaffirmons notre détermination à poursuivre l’action engagée pour incriminer la traite des personnes sous toutes ses formes, à faire en sorte que les coupables de crimes de traite soient poursuivis en justice et à renforcer la coopération et la coordination entre les États Membres dans les pays d’origine, de transit et de destination afin de déstabiliser et de démanteler les réseaux criminels impliqués dans ces crimes, y compris en développant, dans le plein respect du droit interne, l’échange d’informations, notamment, selon le cas, au moyen des canaux de communication sécurisés de l’Organisation internationale de police criminelle (INTERPOL), ainsi que l’entraide judiciaire et l’extradition dans la lutte contre les infractions susceptibles d’être liées à la traite des personnes, notamment le blanchiment d’argent, la corruption, les flux financiers illicites, le trafic de migrants, le trafic de drogues illicites, le trafic d’armes, la cybercriminalité et toutes les formes de criminalité organisée et de financement illicite qui y sont liées.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="MercuryDocument">
+              <num>16.</num>
+              <content eId="para_21__content">
+                <p xml:space="preserve">	Nous nous engageons à renforcer les moyens dont disposent les services de répression et de justice pénale, notamment les praticiens de la justice pénale, pour repérer les cas de traite de personnes, mener des enquêtes et engager des poursuites, y compris lorsqu’il existe une corrélation entre ces cas et d’autres infractions liées à la traite, et pour analyser les flux financiers afin de démasquer et de démanteler les réseaux criminels et leurs structures financières, en collaboration avec les institutions financières. Nous nous engageons à développer et à renforcer les mécanismes nationaux d’orientation et à utiliser les technologies disponibles pour systématiser l’orientation des victimes et les services aux victimes et pour détecter, saisir et confisquer le produit du crime obtenu par ces réseaux criminels. Nous soulignons qu’il importe de dispenser régulièrement une formation professionnelle spécialisée aux fonctionnaires et praticiens qui participent aux activités de prévention, de détection et de répression de la traite des personnes, élément clé d’une approche efficace et centrée sur les victimes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="MercuryDocument">
+              <num>17.</num>
+              <content eId="para_22__content">
+                <p xml:space="preserve">	Nous nous engageons également à enquêter sur les cas de traite des personnes et à poursuivre les trafiquants ainsi qu’à prendre toutes les mesures qui s’imposent pour recueillir, préserver et conserver les indices prouvant qu’il y a traite, y compris lorsque celle-ci est pratiquée, en particulier, à des fins d’exploitation sexuelle. Conscients que les crimes liés à la traite englobent souvent d’autres infractions, nous réclamons l’adoption de principes en matière de poursuites qui garantissent l’établissement des responsabilités pour l’ensemble des préjudices subis par les victimes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23" class="MercuryDocument">
+              <num>18.</num>
+              <content eId="para_23__content">
+                <p xml:space="preserve">	Nous constatons avec une vive préoccupation que les ressources mises en œuvre pour prévenir et combattre la traite des personnes à l’échelle mondiale ne sont pas adaptées à l’ampleur de la tâche, et à cet égard :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="MercuryDocument">
+              <content eId="para_24__content">
+                <p xml:space="preserve">	a) Nous réaffirmons notre appui résolu au fonds de contributions volontaires des Nations Unies en faveur des victimes de la traite des personnes, en particulier des femmes et des enfants, créé en application du Plan d’action mondial, et nous invitons toutes les parties prenantes à y participer, notamment en annonçant des contributions lors des évaluations quadriennales de haut niveau du Plan d’action mondial ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="MercuryDocument">
+              <content eId="para_25__content">
+                <p xml:space="preserve">	b) Nous manifestons notre ferme volonté politique de lutter efficacement contre la traite des personnes en toutes circonstances, considérant qu’il faut veiller à ce que le financement des stratégies nationales de lutte contre la traite des personnes soit suffisant, fiable, pérenne et prévisible, en particulier pour les pays en développement particulièrement touchés par les flux mixtes et massifs de réfugiés et de migrants, y compris les pays d’origine, de transit et de destination ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="MercuryDocument">
+              <content eId="para_26__content">
+                <p xml:space="preserve">	c) Nous nous efforcerons de fournir des ressources extrabudgétaires non préaffectées aux services des Nations Unies qui ont pour mission de lutter contre la traite des personnes, conformément à leurs règles et procédures ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="MercuryDocument">
+              <content eId="para_27__content">
+                <p xml:space="preserve">	d) Nous soulignons qu’il faut resserrer la coopération internationale et régionale, y compris aux fins du renforcement des capacités, de l’échange des pratiques optimales et du savoir-faire ainsi que de l’assistance technique, en particulier pour les pays en développement, afin de renforcer leur aptitude à prévenir toutes les formes de traite, à répondre aux besoins particuliers des victimes et à renforcer leurs systèmes de justice pénale, compte tenu en particulier du rôle central joué par l’Office des Nations Unies contre la drogue et le crime à cet égard ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="MercuryDocument">
+              <content eId="para_28__content">
+                <p xml:space="preserve">	e) Nous encourageons les entités et organismes compétents des Nations Unies à fournir aux États Membres qui en font la demande une assistance en matière de formation et de renforcement des capacités, notamment dans le domaine des services de santé mentale et de soutien psychosocial tenant compte du sexe, du genre et du handicap et centrés sur les victimes, en vue du rétablissement et de la réintégration des victimes ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="MercuryDocument">
+              <content eId="para_29__content">
+                <p xml:space="preserve">	f) Nous réaffirmons l’importance que revêt une coopération internationale renforcée s’agissant de prévenir et de combattre la traite des personnes, y compris dans le domaine de l’entraide judiciaire et de l’extradition.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="MercuryDocument">
+              <num>19.</num>
+              <content eId="para_30__content">
+                <p xml:space="preserve">	Nous réaffirmons dans les termes les plus énergiques qu’il importe de renforcer l’action collective que les États Membres mènent pour mettre fin à la traite des personnes, notamment par l’intermédiaire de mécanismes régionaux, sous-régionaux et interrégionaux et dans le cadre de partenariats et d’initiatives avec les organismes des Nations Unies et d’autres parties concernées, à savoir, entre autres, les organisations régionales et internationales, le secteur privé, les médias, le monde universitaire, les parlementaires et la société civile, ainsi que les institutions nationales de défense des droits humains, là où il en existe, conformément aux Principes de Paris<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/48/134">48/134</a>, annexe.</p></authorialNote>. Conscients du rôle important joué par les institutions financières, nous entendons promouvoir les partenariats multipartites et mobiliser le secteur privé et la société civile en vue de l’élaboration et de la mise en œuvre d’initiatives durables visant à prévenir et à combattre la traite des personnes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="MercuryDocument">
+              <num>20.</num>
+              <content eId="para_31__content">
+                <p xml:space="preserve">	Nous soulignons le travail accompli par la Rapporteuse spéciale du Conseil des droits de l’homme sur la traite des êtres humains, en particulier les femmes et les enfants, et par le Rapporteur spécial du Conseil des droits de l’homme sur les formes contemporaines d’esclavage dans la lutte contre la traite des personnes, ainsi que par la Représentante spéciale du Secrétaire général chargée de la question de la violence contre les enfants et les autres rapporteurs et représentants spéciaux concernés, et nous nous réjouissons que ces personnes continuent à s’efforcer de faire appliquer le Plan d’action mondial et la présente déclaration politique.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="MercuryDocument">
+              <num>21.</num>
+              <content eId="para_32__content">
+                <p xml:space="preserve">	Nous soulignons également la nécessité de continuer à renforcer la coordination et la cohérence générales de l’action que les organismes des Nations Unies mènent à l’échelle mondiale pour lutter contre la traite des personnes, notamment en apportant un appui aux États Membres. À cet égard, tout en rappelant le mandat du Groupe interinstitutions de coordination contre la traite des personnes, nous prions instamment le Secrétaire général de continuer à œuvrer au renforcement de la coordination au sein du système des Nations Unies et d’en informer les États Membres grâce aux mécanismes de communication existants.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="MercuryDocument">
+              <num>22.</num>
+              <content eId="para_33__content">
+                <p xml:space="preserve">	Nous mesurons l’importance du rôle que joue, dans le système des Nations Unies, le Groupe interinstitutions de coordination contre la traite des personnes, dont l’Office des Nations Unies contre la drogue et le crime est le coordonnateur, et saluons les efforts que continuent de faire ses entités membres à cet égard. Nous invitons le Groupe à continuer d’intensifier les activités qu’il mène dans le cadre de l’application du Plan d’action mondial et, à cette fin, à prendre en compte les aspects du Programme de développement durable à l’horizon 2030 qui intéressent la prévention et la lutte contre la traite des personnes, et à continuer de promouvoir la coordination des activités futures et d’éviter le chevauchement d’activités. Nous encourageons le Groupe à continuer d’élargir sa composition aux entités intergouvernementales internationales qui ont un rôle à jouer dans la lutte contre la traite des personnes dans toutes les régions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="MercuryDocument">
+              <num>23.</num>
+              <content eId="para_34__content">
+                <p xml:space="preserve">	Nous réaffirmons le rôle central que l’Office des Nations Unies contre la drogue et le crime joue dans la lutte mondiale contre la traite des personnes, à commencer par l’assistance technique qu’il fournit aux États Membres qui en font la demande aux fins de l’application de la Convention des Nations Unies contre la criminalité transnationale organisée et du Protocole additionnel visant à prévenir, réprimer et punir la traite des personnes, en particulier des femmes et des enfants, en tirant parti des outils de renforcement des capacités existants, des enseignements tirés de l’expérience des États Membres et des connaissances spécialisées d’autres organisations internationales.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="MercuryDocument">
+              <num>24.</num>
+              <content eId="para_35__content">
+                <p xml:space="preserve">	Nous rappelons qu’il est nécessaire d’améliorer la collecte et l’analyse des données relatives à la traite des personnes, ventilées par sexe, par âge, par handicap et par tout autre facteur pertinent, notamment la forme d’exploitation, et d’utiliser des critères systématiques et cohérents pour lutter efficacement contre la traite. Ainsi, sachant qu’il importe d’améliorer la collecte des données effectuée par les autorités nationales, nous intensifierons la coopération internationale à cette fin, y compris par le renforcement des capacités, l’aide financière et l’assistance technique, dans le respect de nos législations nationales relatives à la protection des données, le cas échéant, et de nos obligations internationales liées à la protection de la vie privée.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="MercuryDocument">
+              <num>25.</num>
+              <content eId="para_36__content">
+                <p xml:space="preserve">	Nous reconnaissons l’importance du <span class="italic">Rapport mondial sur la traite des personnes</span>, établi tous les deux ans par l’Office des Nations Unies contre la drogue et le crime en application du Plan d’action mondial, et demandons à l’Office de continuer à recueillir des informations sur les caractéristiques, les formes et les flux de la traite des personnes aux échelons national, régional et international, de façon équilibrée, fiable et exhaustive, aux fins de leur publication dans ledit rapport et de leur utilisation dans le cadre de ses travaux de recherche visant à évaluer l’ampleur du phénomène de la traite des personnes, en étroites coopération et collaboration avec les États Membres.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="MercuryDocument">
+              <num>26.</num>
+              <content eId="para_37__content">
+                <p xml:space="preserve">	Nous soulignons qu’il faut accorder une attention accrue à la question de la traite des personnes dans les situations de conflit armé, de catastrophe naturelle et d’urgence humanitaire, tout en respectant pleinement les principes qui régissent l’action humanitaire. À cet égard :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="MercuryDocument">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	a) Nous sommes conscients que les réfugiés et les migrants participant à des déplacements massifs de population sont davantage exposés à la traite des personnes ; en conséquence, nous entendons œuvrer à prévenir la traite parmi les personnes participant à des déplacements de population et à apporter un soutien, en prenant des mesures ciblées permettant d’identifier les victimes ou les personnes exposées à la traite dans les lieux de première arrivée ainsi que tout au long de leur voyage, grâce à l’élaboration de politiques et de programmes qui tiennent compte de l’âge et du genre. Nous nous engageons à intensifier nos efforts pour prévenir la migration irrégulière et créer et renforcer les voies de migration sûre, ordonnée et régulière afin de réduire l’exposition des personnes en situation de déplacement à la traite, rappelant à cet égard les engagements que nous avons pris vis-à-vis du Pacte mondial pour des migrations sûres, ordonnées et régulières ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="MercuryDocument">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	b) Nous souhaitons qu’avant tout déploiement dans des lieux d’urgence humanitaire ou des opérations de maintien de la paix, le personnel humanitaire et le personnel de maintien de la paix reçoivent une formation à la lutte contre la traite des personnes, à la protection de l’enfance et à la prévention de l’exploitation et des atteintes sexuelles, et nous encourageons les entités et organismes compétents des Nations Unies à former leur personnel et à renforcer les moyens techniques dont ils disposent pour évaluer le risque qu’une telle situation donne lieu à des cas de traite de personnes et y remédier.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="MercuryDocument">
+              <num>27.</num>
+              <content eId="para_40__content">
+                <p xml:space="preserve">	Nous nous déclarons profondément inquiets du fait que de plus en plus de liens existent entre les groupes armés, notamment terroristes, et la traite des personnes, impliquant l’exercice de la contrainte sur les victimes, notamment sur les femmes et les filles qui subissent mariage forcé, esclavage sexuel, grossesses forcées, travail forcé, servitude domestique et exploitation sexuelle, et sur les hommes et les garçons qui sont astreints au travail forcé ou contraints de participer aux combats.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="MercuryDocument">
+              <num>28.</num>
+              <content eId="para_41__content">
+                <p xml:space="preserve">	Nous notons avec préoccupation que, de plus en plus, les technologies de l’information et des communications, en particulier Internet, sont détournées pour faciliter divers aspects de la traite de personnes, s’agissant notamment de recruter des personnes en utilisant des annonces publiées en ligne à des fins de fraude ou d’escroquerie en ligne ou en recourant à l’intelligence artificielle générative, exposant les victimes à des situations de criminalité forcée, de servitude pour dettes et à toute une série de pratiques abusives ainsi qu’à diverses formes d’exploitation, y compris l’exploitation et les atteintes sexuelles visant des enfants en ligne, mettant en évidence le risque disproportionné auquel sont exposées les personnes handicapées et la nécessité de renforcer les compétences numériques, à titre préventif. Nous soulignons qu’il importe de s’opposer à un tel détournement tout en veillant au respect des droits humains et des libertés fondamentales, conformément aux obligations que nous impose le droit international. À cet égard :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="MercuryDocument">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	a) Nous prenons note de l’adoption de la Convention des Nations Unies contre la cybercriminalité ; Renforcement de la coopération internationale pour la lutte contre certaines infractions commises au moyen de systèmes d’information et de communication et pour la communication de preuves sous forme électronique d’infractions graves<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/79/243">79/243</a>, annexe.</p></authorialNote> ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="MercuryDocument">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	b) Nous appelons au renforcement des compétences et des moyens numériques des forces de police afin que celles‑ci puissent mener des enquêtes proportionnées, légales, responsables et nécessaires dans le cyberespace, y compris le Web clandestin, et saisir les preuves électroniques correspondantes. Nous encourageons l’utilisation appropriée, par les services de police, de solutions technologiques permettant de faire face à la dimension mondiale de la traite des personnes ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="MercuryDocument">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	c) Nous nous déclarons profondément préoccupés par l’utilisation abusive qui est de plus en plus fréquemment faite de l’intelligence artificielle ou de l’apprentissage automatique pour générer et diffuser des discours de haine à des fins de traite, y compris sur les plateformes de médias sociaux, notamment par l’utilisation de contenus artificiels, y compris d’images, de vidéos et d’autres formes de médias, tout en reconnaissant par ailleurs le potentiel qu’offrent ces technologies s’agissant de détecter les contenus préjudiciables et d’en atténuer les effets lorsqu’elles sont mises au point et déployées en toute sécurité ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="MercuryDocument">
+              <content eId="para_45__content">
+                <p xml:space="preserve">	d) Nous engageons les professionnels et les autorités centrales à utiliser les technologies et les outils innovants de manière à accroître la coopération internationale et, le cas échéant, la coopération transfrontalière en matière pénale, estimant qu’il convient de faire un usage éthique des technologies, conformément aux obligations relatives aux droits humains ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="MercuryDocument">
+              <content eId="para_46__content">
+                <p xml:space="preserve">	e) Nous souhaitons que le secteur public, la société civile, le monde universitaire et le secteur privé, y compris les entreprises technologiques, forment des partenariats efficaces afin de renforcer l’innovation, la coopération et l’utilisation des technologies, y compris l’intelligence artificielle, au service de la lutte contre la traite des personnes. Nous soulignons le rôle particulièrement important que jouent les fournisseurs d’accès à Internet et de services en ligne et les invitons à s’acquitter de leurs responsabilités et à détecter, signaler et retirer rapidement les contenus montrant des actes d’exploitation sexuelle et des atteintes sexuelles liées à la traite des personnes, tout en nous engageant à prendre des mesures législatives et autres pour faciliter cette tâche.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="MercuryDocument">
+              <num>29.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	Nous réaffirmons que le crime de traite des personnes à des fins de prélèvement d’organes constitue une forme d’exploitation et une atteinte à la dignité humaine des victimes, et qu’une démarche pluridisciplinaire, fondée sur le respect de tous les droits humains, est nécessaire pour le combattre. Nous condamnons la participation de groupes criminels et de personnel médical peu soucieux de l’éthique à la traite des personnes à des fins de prélèvement d’organes, et nous appelons à l’amélioration de la coordination et de la collaboration entre les acteurs de la justice pénale et les professionnels de la santé. Nous nous engageons à adopter une réglementation éthique et transparente pour encadrer les dons d’organes, à renforcer les cadres législatifs, y compris en érigeant ces pratiques en infractions et en amenant les auteurs à répondre de leurs actes, et à financer ces efforts.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="MercuryDocument">
+              <num>30.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	Nous réaffirmons également qu’il importe de prévenir et de combattre la traite des personnes dans les chaînes d’approvisionnement, notamment en dissuadant et en sanctionnant les pratiques de recrutement frauduleuses et abusives. Nous encourageons les États Membres, les organisations multilatérales et le secteur privé à adopter des pratiques éthiques et transparentes dans leurs activités d’achat et leurs chaînes d’approvisionnement, et les engageons vivement à divulguer régulièrement des informations à cet égard. Nous sommes conscients qu’il faut veiller à ce que tous les acteurs des chaînes d’approvisionnement mondiales, y compris les intermédiaires, qui tirent profit du travail des victimes de la traite, répondent de leurs actes, notamment par l’imposition de sanctions suffisamment strictes et la mise en place de politiques et de lois appropriées. À cet égard, nous rappelons les Principes directeurs relatifs aux entreprises et aux droits de l’homme<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Principes directeurs relatifs aux entreprises et aux droits de l’homme : mise en œuvre du cadre de référence « protéger, respecter et réparer » des Nations Unies (<a href="https://docs.un.org/fr/A/HRC/17/31">A/HRC/17/31</a>, annexe).</p></authorialNote>. Nous soulignons la nécessité d’établir des pare-feux entre les contrôles d’immigration et les inspections du travail, de mettre en œuvre des normes du travail et d’améliorer les pratiques de passation des marchés publics afin de promouvoir le travail décent. Nous soulignons qu’il importe de mettre sur pied des campagnes de sensibilisation et d’éducation, en partenariat avec la société civile et les médias, pour lutter contre toute acceptation du recours au travail forcé. Nous demandons instamment au Secrétaire général de veiller à ce que les achats de l’Organisation des Nations Unies ne contiennent pas de biens produits ou de services fournis par les victimes de la traite.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="MercuryDocument">
+              <num>31.</num>
+              <content eId="para_49__content">
+                <p xml:space="preserve">	Nous estimons qu’il faut combler l’écart entre les engagements énoncés dans le Plan d’action mondial et leur mise en œuvre par les États Membres, et qu’il faut mettre en place un dispositif de suivi et de réexamen systématiques de tous les engagements souscrits à la présente réunion de haut niveau, notamment à l’occasion des réunions quadriennales de haut niveau de l’Assemblée générale visant à évaluer les progrès réalisés dans l’application du Plan d’action mondial. Nous entendons également promouvoir le développement d’une analyse plus claire des mesures fructueuses de lutte contre la traite, ainsi que de cadres d’analyse et d’évaluation qui prennent en compte l’effet que les lois, les politiques ou les mesures pratiques ont sur les victimes de la traite des personnes.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
