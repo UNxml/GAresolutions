@@ -1,0 +1,1475 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/"></FRBRuri>
+          <FRBRdate date="2025-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@/"></FRBRuri>
+          <FRBRdate date="2025-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Accra Convention on Negotiable Cargo Documents (2025)" showAs="Accra Convention on Negotiable Cargo Documents (2025)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNATIONAL TRADE LAW" href="http://metadata.un.org/thesaurus/010702" showAs="INTERNATIONAL TRADE LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOODS TRANSPORT" href="http://metadata.un.org/thesaurus/1002712" showAs="GOODS TRANSPORT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSPORT DOCUMENTS" href="http://metadata.un.org/thesaurus/1006650" showAs="TRANSPORT DOCUMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATIES (TEXT)" href="http://metadata.un.org/thesaurus/1006688" showAs="TREATIES (TEXT)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="78" showAs="Report of the United Nations Commission on International Trade Law on the work of its 58th session" shortForm="UN COMMISSION ON INTERNATIONAL TRADE LAW--REPORTS" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-29" outcome="draftResolution" as="A/C.6/80/L.8" by="the representative of Austria, on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-11-24" outcome="recommendedForAdoption" as="A/80/448" by="" refersTo="10" />
+        <step date="2025-12-15" outcome="adopted" as="A/80/PV.64" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Sixth Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-20856 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/162</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 December 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">Eightieth session</session>
+      </p>
+      <p>
+        <inline title="78" name="agenda item">Agenda item 78</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Report of the United Nations Commission on International Trade Law on the work of its fifty-eighth session</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the General Assembly on 15 December 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[on the report of the Sixth Committee (<inline name="originating document">A/80/448, para. 10</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/162.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">United Nations Convention on Negotiable Cargo Documents</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The General Assembly</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution <a href="https://docs.un.org/en/A/RES/2205(XXI)">2205 (XXI)</a> of 17 December 1966, by which it established the United Nations Commission on International Trade Law with a mandate to further the progressive harmonization and unification of the law of international trade and in that respect to bear in mind the interests of all peoples, in particular those of developing countries, in the extensive development of international trade,</p>
+      </container>
+      <container name="Conscious" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Conscious</span> of the important role played by negotiable transport documents in facilitating trade finance and the sale of goods in transit,</p>
+      </container>
+      <container name="Convinced" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Convinced</span> of the desirability of establishing uniform rules for negotiable transport documents covering all modes of transport, including multimodal transport, thereby supporting the growth of door-to-door transportation,</p>
+      </container>
+      <container name="Acknowledging" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> that digital transformation in international trade depends on reliable systems and data, which in turn can enhance operational efficiency and support end-to-end digitalization,</p>
+      </container>
+      <container name="Convinced" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Convinced</span> that certainty with regard to the legal effect of negotiable cargo documents, as well as the rights and liability of the holder, will encourage the acceptance of such documents by banks, financial institutions and other stakeholders, thereby fostering international trade and contributing to economic growth,</p>
+      </container>
+      <container name="Convinced also" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Convinced also </span>that a sound legal framework will reduce the costs of trade along inland routes and will assist both landlocked countries and countries with large mainland territories in integrating more effectively into global supply chains,</p>
+      </container>
+      <container name="Convinced further" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Convinced further </span>that such a framework will support interested countries, including coastal countries, in the digitization of negotiable transport documents,</p>
+      </container>
+      <container name="Noting" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the preparation of the draft convention on negotiable cargo documents was the subject of due deliberation in the Commission and that the draft convention benefited from consultations with Governments and interested intergovernmental and international non‑governmental organizations,</p>
+      </container>
+      <container name="Expressing its appreciation" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Expressing its appreciation</span> to the International Civil Aviation Organization, the Intergovernmental Organization for International Carriage by Rail and the Organization for Cooperation between Railways for their contributions to the development of the draft convention,</p>
+      </container>
+      <container name="Taking note" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of the decision of the Commission at its fifty-eighth session to submit the draft convention to the General Assembly for its consideration,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Official Records of the General Assembly</span>, <span class="italic">Eightieth Session, Supplement No. 17 </span>(<a href="https://docs.un.org/en/A/80/17">A/80/17</a>), para. 128.</p></authorialNote></p>
+      </container>
+      <container name="Taking note with satisfaction" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Taking note with satisfaction</span> of the draft convention approved by the Commission,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Ibid., annex I.</p></authorialNote></p>
+      </container>
+      <container name="Expressing its appreciation" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expressing its appreciation</span> to the Government of Ghana for its offer to host a signing ceremony for the Convention in Accra,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the United Nations Commission on International Trade Law for preparing the draft convention on negotiable cargo documents;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Adopts</span> the United Nations Convention on Negotiable Cargo Documents, contained in the annex to the present resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> a ceremony for the opening for signature of the Convention to be held as soon as practicable in the second half of 2026 in Accra, upon which occasion the Convention will be open for signature, and recommends that the Convention be known as the Accra Convention on Negotiable Cargo Documents;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> those Governments and regional economic integration organizations that wish to modernize their legal frameworks on negotiable transport documents to consider becoming Parties to the Convention.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="64th" refersTo="#adoptionMeeting">64th plenary meeting</location>
+          <eol />
+          <docDate date="2025-12-15" refersTo="#adoptionDate">15 December 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/"></FRBRuri>
+                <FRBRdate date="2025-12-15" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@/"></FRBRuri>
+                <FRBRdate date="2025-12-19" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@.xml"></FRBRuri>
+                <FRBRdate date="2026-01-08" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_22" class="MercuryDocument">
+              <content eId="para_22__content">
+                <p xml:space="preserve">
+                  <span class="bold">Annex</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23" class="MercuryDocument">
+              <content eId="para_23__content">
+                <p xml:space="preserve">
+                  <span class="bold">United Nations Convention on Negotiable Cargo Documents</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="MercuryDocument">
+              <content eId="para_24__content">
+                <p xml:space="preserve">	<span class="italic">The States Parties to this Convention</span>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="MercuryDocument">
+              <content eId="para_25__content">
+                <p xml:space="preserve">	<span class="italic">Reaffirming</span> their belief that international trade on the basis of equality and mutual benefit is a key factor in promoting friendly relations among States,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="MercuryDocument">
+              <content eId="para_26__content">
+                <p xml:space="preserve">	<span class="italic">Conscious </span>of the important role played by negotiable transport documents in facilitating trade finance and the sale of goods in transit,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="MercuryDocument">
+              <content eId="para_27__content">
+                <p xml:space="preserve">	<span class="italic">Convinced</span> of the desirability of establishing uniform rules for negotiable transport documents covering all modes of transport, including multimodal transport, thereby supporting the growth of door-to-door transportation,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="MercuryDocument">
+              <content eId="para_28__content">
+                <p xml:space="preserve">	<span class="italic">Acknowledging</span> that digital transformation in international trade depends on reliable systems and data, which in turn can enhance operational efficiency and support end-to-end digitalization, </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="MercuryDocument">
+              <content eId="para_29__content">
+                <p xml:space="preserve">	<span class="italic">Convinced</span> that certainty with regard to the legal effect of negotiable cargo documents, as well as the rights and liability of the holder, will encourage the acceptance of such documents by banks, financial institutions and other stakeholders, thereby fostering international trade and contributing to economic growth,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="MercuryDocument">
+              <content eId="para_30__content">
+                <p xml:space="preserve">	<span class="italic">Convinced also </span>that a sound legal framework could help to reduce the costs of trade along inland routes and will assist both landlocked countries and countries with large mainland territories in integrating more effectively into global supply chains,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="MercuryDocument">
+              <content eId="para_31__content">
+                <p xml:space="preserve">	<span class="italic">Have agreed </span>as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="MercuryDocument">
+              <content eId="para_32__content">
+                <p xml:space="preserve">
+                  <span class="bold">Chapter I</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="MercuryDocument">
+              <content eId="para_33__content">
+                <p xml:space="preserve">
+                  <span class="bold">General provisions</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="MercuryDocument">
+              <content eId="para_34__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 1</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="MercuryDocument">
+              <content eId="para_35__content">
+                <p xml:space="preserve">
+                  <span class="italic">Scope of application</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_36__content">
+                <p xml:space="preserve">	This Convention applies to the issuance, transfer and legal effects of a negotiable cargo document that contains a conspicuous reference to this Convention in connection with the international transport of goods by one or more than one mode of transport if:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="MercuryDocument">
+              <content eId="para_37__content">
+                <p xml:space="preserve">	(a)	The place of taking in charge of the goods by the transport operator as indicated in the negotiable cargo document is located in a State Party;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="MercuryDocument">
+              <num>(b)</num>
+              <content eId="para_38__content">
+                <p xml:space="preserve">	The place of delivery of the goods by the transport operator as indicated in the negotiable cargo document is located in a State Party; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="MercuryDocument">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	(c)	The place of issuance of the negotiable cargo document as indicated in the negotiable cargo document is located in a State Party.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_40__content">
+                <p xml:space="preserve">	This Convention does not affect the application of any international convention or national law relating to the regulation and control of transport operations. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_41__content">
+                <p xml:space="preserve">	Except as otherwise provided for herein, this Convention does not modify the rights and obligations of the transport operator, consignor or consignee or their liability under applicable international conventions or national law governing the transport contract.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="MercuryDocument">
+              <content eId="para_42__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 2</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="MercuryDocument">
+              <content eId="para_43__content">
+                <p xml:space="preserve">
+                  <span class="italic">Definitions</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="MercuryDocument">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	For the purposes of this Convention: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_45__content">
+                <p xml:space="preserve">	“Consignor” means a person with which the transport operator has concluded a transport contract.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_46__content">
+                <p xml:space="preserve">	“Consignee” means a person named in the transport contract as the person entitled to take delivery of the goods.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	“Electronic record” means information generated, communicated, received or stored by electronic means, including, where appropriate, all information logically associated with, or otherwise linked together so as to become part of, the record, whether generated contemporaneously or not.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	“Holder” means a person that is in possession of a negotiable cargo document and is identified in it as the consignor, as the person to whose order it is issued or as the person to which the document is duly endorsed, or, if the document is an order document endorsed in blank, is the bearer thereof. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_49__content">
+                <p xml:space="preserve">	“Negotiable cargo document” means a paper document or an electronic record signed and issued by the transport operator that indicates by wording such as “to order” or “negotiable” or an equivalent expression that the goods as specified in the document have been taken in charge by the transport operator and consigned to the order of the holder. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="MercuryDocument">
+              <num>6.</num>
+              <content eId="para_50__content">
+                <p xml:space="preserve">	“Transport contract” means a contract whereby the transport operator undertakes to perform international transport of goods for reward.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="MercuryDocument">
+              <num>7.</num>
+              <content eId="para_51__content">
+                <p xml:space="preserve">	“Transport document” means a document that:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="MercuryDocument">
+              <num>(a)</num>
+              <content eId="para_52__content">
+                <p xml:space="preserve">	Evidences or contains the transport contract; and </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="MercuryDocument">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	(b)	Evidences the taking in charge of the goods for transport under the transport contract.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="MercuryDocument">
+              <num>8.</num>
+              <content eId="para_54__content">
+                <p xml:space="preserve">	“Transport operator” means a person that concludes a transport contract with the consignor and that assumes responsibility for the performance of the contract, irrespective of whether or not that person performs the transport itself.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="MercuryDocument">
+              <content eId="para_55__content">
+                <p xml:space="preserve">
+                  <span class="bold">Chapter II</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="MercuryDocument">
+              <content eId="para_56__content">
+                <p xml:space="preserve">
+                  <span class="bold">Issuance, content and legal effect of negotiable cargo documents</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="MercuryDocument">
+              <content eId="para_57__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 3</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="MercuryDocument">
+              <content eId="para_58__content">
+                <p xml:space="preserve">
+                  <span class="italic">Issuance of a negotiable cargo document</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve">	If so agreed between the transport operator and the consignor, the transport operator shall issue a negotiable cargo document, in the medium agreed upon, that contains a conspicuous reference to this Convention. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_60__content">
+                <p xml:space="preserve">	The transport operator and the consignor shall agree on the method of issuing a negotiable cargo document, which may include:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="MercuryDocument">
+              <num>(a)</num>
+              <content eId="para_61__content">
+                <p xml:space="preserve">	Entering an annotation signed by the transport operator in each original of the transport document; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="MercuryDocument">
+              <content eId="para_62__content">
+                <p xml:space="preserve">	(b)	Issuing a stand-alone negotiable cargo document where no transport document has been issued or where a transport document has been issued and cancelled.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	Where the parties have agreed on the method described in paragraph 2 (a) of this article, the annotation shall contain, in a conspicuous manner, the indication set out in article 2, paragraph 5, as well as a statement indicating that the transport document is to serve as a negotiable cargo document from a specified date.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_64__content">
+                <p xml:space="preserve">	The negotiable cargo document shall be issued when the goods are taken in charge by the transport operator. If so agreed between the transport operator and the consignor, where a transport document has been issued, the transport operator may issue the negotiable cargo document at a later stage. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_65__content">
+                <p xml:space="preserve">	The transport operator that issues a negotiable cargo document shall not request the issuance of a negotiable transport document in respect of the goods to which the negotiable cargo document relates.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="MercuryDocument">
+              <num>6.</num>
+              <content eId="para_66__content">
+                <p xml:space="preserve">	The negotiable cargo document may be made out to order or to the order of a named person. If the negotiable cargo document fails to name the person to whose order it is made out, it shall be deemed to be made out to the order of the consignor.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="MercuryDocument">
+              <content eId="para_67__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 4</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="MercuryDocument">
+              <content eId="para_68__content">
+                <p xml:space="preserve">
+                  <span class="italic">Contents of the negotiable cargo document</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_69__content">
+                <p xml:space="preserve">	The negotiable cargo document shall indicate:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70" class="MercuryDocument">
+              <content eId="para_70__content">
+                <p xml:space="preserve">	(a)	The name and address of the transport operator;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="MercuryDocument">
+              <content eId="para_71__content">
+                <p xml:space="preserve">	(b)	The name and address of the consignor;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="MercuryDocument">
+              <content eId="para_72__content">
+                <p xml:space="preserve">	(c)	The following particulars as furnished by the consignor: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="MercuryDocument">
+              <content eId="para_73__content">
+                <p xml:space="preserve">	(i)	the general nature of the goods; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="MercuryDocument">
+              <content eId="para_74__content">
+                <p xml:space="preserve">	(ii)	the leading marks necessary for identification of the goods; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="MercuryDocument">
+              <num>(iii)</num>
+              <content eId="para_75__content">
+                <p xml:space="preserve">	an express statement, if applicable, as to the dangerous character of the goods;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="MercuryDocument">
+              <num>(iv)</num>
+              <content eId="para_76__content">
+                <p xml:space="preserve">	the number of packages or pieces; and </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="MercuryDocument">
+              <content eId="para_77__content">
+                <p xml:space="preserve">	(v)	the gross weight of the goods or their quantity otherwise expressed;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="MercuryDocument">
+              <content eId="para_78__content">
+                <p xml:space="preserve">	(d)	The apparent order and condition of the goods as taken in charge by the transport operator;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="MercuryDocument">
+              <content eId="para_79__content">
+                <p xml:space="preserve">	(e)	The place and date of taking in charge of the goods by the transport operator;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="MercuryDocument">
+              <content eId="para_80__content">
+                <p xml:space="preserve">	(f)	The place and date of issuance of the negotiable cargo document;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="MercuryDocument">
+              <content eId="para_81__content">
+                <p xml:space="preserve">	(g)	The terms of the transport contract, if issued as a stand-alone negotiable cargo document;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="MercuryDocument">
+              <content eId="para_82__content">
+                <p xml:space="preserve">	(h)	The place of delivery of the goods;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="MercuryDocument">
+              <num>(i)</num>
+              <content eId="para_83__content">
+                <p xml:space="preserve">	The number of originals of the negotiable cargo document; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="MercuryDocument">
+              <content eId="para_84__content">
+                <p xml:space="preserve">	(j)	A statement as to whether the freight has been prepaid or an indication as to whether the freight is payable at destination.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_85__content">
+                <p xml:space="preserve">	The negotiable cargo document may further indicate:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="MercuryDocument">
+              <content eId="para_86__content">
+                <p xml:space="preserve">	(a)	The date or the period of delivery of the goods at the place of delivery, if expressly agreed upon between the consignor and the transport operator;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="MercuryDocument">
+              <content eId="para_87__content">
+                <p xml:space="preserve">	(b)	The intended journey route, mode of transport, places of trans-shipment and information enabling tracking of the goods;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="MercuryDocument">
+              <num>(c)</num>
+              <content eId="para_88__content">
+                <p xml:space="preserve">	The law applicable to the transport contract, in particular any international convention to which the transport contract is subject; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="MercuryDocument">
+              <content eId="para_89__content">
+                <p xml:space="preserve">	(d)	Any other particulars that the consignor and the transport operator agree to insert in the negotiable cargo document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="MercuryDocument">
+              <content eId="para_90__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 5</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="MercuryDocument">
+              <content eId="para_91__content">
+                <p xml:space="preserve">
+                  <span class="italic">Deficiencies in the negotiable cargo document</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_92__content">
+                <p xml:space="preserve">	The absence of one or more of the particulars referred to in article 4, paragraph 1, does not of itself affect the legal effect or validity of the document as a negotiable cargo document provided that the document nevertheless falls within the definition of negotiable cargo document as set out in article 2, paragraph 5.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_93__content">
+                <p xml:space="preserve">	Nothing in paragraph 1 affects the liability of the transport operator under applicable law for any deficiency in the negotiable cargo document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_94__content">
+                <p xml:space="preserve">	If the negotiable cargo document includes a date but fails to indicate the significance of that date, the date is deemed to be the date of issuance of the negotiable cargo document. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_95__content">
+                <p xml:space="preserve">	If the annotation referred to in article 3, paragraph 3, does not state the date from which the transport document is to serve as a negotiable cargo document, the transport document is deemed to serve that function from the date of its issuance.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_96__content">
+                <p xml:space="preserve">	If the negotiable cargo document does not include the date of taking in charge of the goods by the transport operator, the goods are deemed to have been taken in charge by the transport operator on the date of issuance of the negotiable cargo document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="MercuryDocument">
+              <num>6.</num>
+              <content eId="para_97__content">
+                <p xml:space="preserve">	If the negotiable cargo document fails to state the apparent order and condition of the goods at the time the transport operator takes them in charge, it shall be deemed to state that the goods were in apparent good order and condition at the time the transport operator took them in charge.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="MercuryDocument">
+              <content eId="para_98__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 6</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="MercuryDocument">
+              <content eId="para_99__content">
+                <p xml:space="preserve">
+                  <span class="italic">Evidentiary effect of the negotiable cargo document</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_100__content">
+                <p xml:space="preserve">	The transport operator may qualify any of the information in the negotiable cargo document furnished by the consignor and referred to in article 4, paragraph 1 (c), to indicate that the transport operator does not assume responsibility for the accuracy of such information if it has:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="MercuryDocument">
+              <num>(a)</num>
+              <content eId="para_101__content">
+                <p xml:space="preserve">	Either actual knowledge or reasonable grounds to believe that any such information is false or misleading; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="MercuryDocument">
+              <content eId="para_102__content">
+                <p xml:space="preserve">	(b)	No reasonable means of checking such information.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_103__content">
+                <p xml:space="preserve">	Except to the extent that the information furnished by the consignor has been qualified in the manner set out in paragraph 1, the negotiable cargo document shall constitute prima facie evidence of the taking in charge of the goods by the transport operator as stated in the negotiable cargo document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_104__content">
+                <p xml:space="preserve">	If the negotiable cargo document has been transferred to a third party acting in good faith in reliance on any of the information therein, proof to the contrary by the transport operator in respect of any information in the negotiable cargo document shall not be admissible against that third party, except to the extent that the information furnished by the consignor has been qualified in the manner set out in paragraph 1.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="MercuryDocument">
+              <content eId="para_105__content">
+                <p xml:space="preserve">
+                  <span class="bold">Chapter III</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="MercuryDocument">
+              <content eId="para_106__content">
+                <p xml:space="preserve">
+                  <span class="bold">Rights and liability of the holder</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="MercuryDocument">
+              <content eId="para_107__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 7</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="MercuryDocument">
+              <content eId="para_108__content">
+                <p xml:space="preserve">
+                  <span class="italic">Rights of the holder of a negotiable cargo document</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_109__content">
+                <p xml:space="preserve">	Upon the issuance of a negotiable cargo document, the rights provided for in the negotiable cargo document can be exercised only by the holder, which shall include the right to demand delivery of the goods at destination.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_110__content">
+                <p xml:space="preserve">	A person other than the consignor that becomes a holder of the negotiable cargo document shall, by virtue of becoming the holder, have acquired the right to bring a claim against the transport operator and, where applicable, the right of disposal under the transport contract, as well as those rights provided for in the law applicable to the transport contract, as if it were a party to that contract. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_111__content">
+                <p xml:space="preserve">	The transport operator may not invoke against a holder that is not the consignor any terms of the transport contract that are inconsistent with the express terms of the negotiable cargo document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_112__content">
+                <p xml:space="preserve">	The issuance and initial transfer of possession of a negotiable cargo document, as well as any subsequent transfers, to the holder shall have the same effect, for the purpose of acquisition of rights to the goods, as the physical handing over of the goods. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_113__content">
+                <p xml:space="preserve">	In order to exercise its rights, the holder shall present the negotiable cargo document to the transport operator. If the negotiable cargo document states that more than one original has been issued, the holder shall present all originals to exercise the right of disposal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="MercuryDocument">
+              <content eId="para_114__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 8</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="MercuryDocument">
+              <content eId="para_115__content">
+                <p xml:space="preserve">
+                  <span class="italic">Missing information, instructions or documents</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="MercuryDocument">
+              <content eId="para_116__content">
+                <p xml:space="preserve">	If the transport operator needs information, instructions or documents relating to the goods in order to perform its obligations, it shall seek that information or those instructions or documents from the holder of the negotiable cargo document. If the transport operator, after reasonable effort, is unable to obtain that information or those instructions or documents within a reasonable time, it shall proceed in accordance with the transport contract.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="MercuryDocument">
+              <content eId="para_117__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 9</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="MercuryDocument">
+              <content eId="para_118__content">
+                <p xml:space="preserve">
+                  <span class="italic">Liability of the holder</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_119__content">
+                <p xml:space="preserve">	A holder of the negotiable cargo document that is not the consignor and that does not exercise any right in accordance with article 7 does not assume any liability under the transport contract solely by reason of being a holder of the negotiable cargo document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_120__content">
+                <p xml:space="preserve">	A holder of the negotiable cargo document that is not the consignor and that exercises a right in accordance with article 7 assumes any liability: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="MercuryDocument">
+              <num>(a)</num>
+              <content eId="para_121__content">
+                <p xml:space="preserve">	Attributable to the person exercising such a right under the law applicable to the transport contract; or </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="MercuryDocument">
+              <content eId="para_122__content">
+                <p xml:space="preserve">	(b)	That arises from the exercise of that right under the transport contract to the extent that such liability is ascertainable from the negotiable cargo document; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="MercuryDocument">
+              <content eId="para_123__content">
+                <p xml:space="preserve">as if it were a party to the transport contract.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="MercuryDocument">
+              <content eId="para_124__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 10</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="MercuryDocument">
+              <content eId="para_125__content">
+                <p xml:space="preserve">
+                  <span class="italic">Delivery of the goods</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_126__content">
+                <p xml:space="preserve">	Delivery of the goods may be demanded from the transport operator only against surrender of the negotiable cargo document by the holder.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve">	If more than one original of the negotiable cargo document has been issued, delivery of the goods may be demanded against surrender of one original. If the negotiable cargo document states that more than one original has been issued, the other originals will cease to have any effect or validity after the surrender of one original.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="MercuryDocument">
+              <content eId="para_128__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 11</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="MercuryDocument">
+              <content eId="para_129__content">
+                <p xml:space="preserve">
+                  <span class="italic">Transfer of rights of the holder</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="MercuryDocument">
+              <content eId="para_130__content">
+                <p xml:space="preserve">	A holder transfers the rights provided for in the negotiable cargo document to another person:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="MercuryDocument">
+              <num>(a)</num>
+              <content eId="para_131__content">
+                <p xml:space="preserve">	By endorsement either to such person or in blank and by the transfer of possession of the negotiable cargo document to that person; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="MercuryDocument">
+              <content eId="para_132__content">
+                <p xml:space="preserve">	(b)	By mere transfer of possession of the negotiable cargo document to that person, if the last endorsement is in blank.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="MercuryDocument">
+              <content eId="para_133__content">
+                <p xml:space="preserve">
+                  <span class="bold">Chapter IV</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="MercuryDocument">
+              <content eId="para_134__content">
+                <p xml:space="preserve">
+                  <span class="bold">Special conditions for electronic negotiable cargo documents</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="MercuryDocument">
+              <content eId="para_135__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 12</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="MercuryDocument">
+              <content eId="para_136__content">
+                <p xml:space="preserve">
+                  <span class="italic">Requirements for an electronic negotiable cargo document</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_137__content">
+                <p xml:space="preserve">	A negotiable cargo document may be in the form of an electronic record provided that a reliable method is used:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="MercuryDocument">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	(a)	To identify that electronic record as the negotiable cargo document;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="MercuryDocument">
+              <num>(b)</num>
+              <content eId="para_139__content">
+                <p xml:space="preserve">	To render that electronic record capable of being subject to control from its issuance until it ceases to have any effect or validity; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="MercuryDocument">
+              <content eId="para_140__content">
+                <p xml:space="preserve">	(c)	To retain the integrity of that electronic record.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	The criterion for assessing integrity shall be whether information contained in the negotiable cargo document, including any authorized change that arises from its issuance until it ceases to have any effect or validity, has remained complete and unaltered apart from any change which arises in the normal course of communication, storage and display.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="MercuryDocument">
+              <content eId="para_142__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 13</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="MercuryDocument">
+              <content eId="para_143__content">
+                <p xml:space="preserve">
+                  <span class="italic">Content requirements</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="MercuryDocument">
+              <content eId="para_144__content">
+                <p xml:space="preserve">	For the purposes of this Convention, a requirement for information to be contained in a negotiable cargo document is met with respect to an electronic record if the information contained therein is accessible so as to be usable for subsequent reference.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="MercuryDocument">
+              <content eId="para_145__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 14</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="MercuryDocument">
+              <content eId="para_146__content">
+                <p xml:space="preserve">
+                  <span class="italic">Signature requirements</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="MercuryDocument">
+              <content eId="para_147__content">
+                <p xml:space="preserve">	For the purposes of this Convention, a requirement for a negotiable cargo document to be signed is met with respect to an electronic record if a reliable method is used to identify the signatory and to indicate that person’s intention in respect of the information contained in the electronic record.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="MercuryDocument">
+              <content eId="para_148__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 15</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="MercuryDocument">
+              <content eId="para_149__content">
+                <p xml:space="preserve">
+                  <span class="italic">Possession requirements</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_150__content">
+                <p xml:space="preserve">	For the purposes of this Convention, a requirement for a negotiable cargo document to be possessed is met with respect to an electronic record if a reliable method is used:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="MercuryDocument">
+              <num>(a)</num>
+              <content eId="para_151__content">
+                <p xml:space="preserve">	To establish exclusive control of that electronic record by a person; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="MercuryDocument">
+              <content eId="para_152__content">
+                <p xml:space="preserve">	(b)	To identify that person as the person in control.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_153__content">
+                <p xml:space="preserve">	A requirement to transfer possession of a negotiable cargo document is met with respect to an electronic record through the transfer of control over the electronic record.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="MercuryDocument">
+              <content eId="para_154__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 16</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="MercuryDocument">
+              <content eId="para_155__content">
+                <p xml:space="preserve">
+                  <span class="italic">Endorsement requirements</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="MercuryDocument">
+              <content eId="para_156__content">
+                <p xml:space="preserve">	For the purposes of this Convention, a requirement for a negotiable cargo document to be endorsed is met if the information required for the endorsement is included in the electronic record and that information is compliant with the requirements set forth in articles 13 and 14.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="MercuryDocument">
+              <content eId="para_157__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 17</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="MercuryDocument">
+              <content eId="para_158__content">
+                <p xml:space="preserve">
+                  <span class="italic">Change of medium</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve">	If so agreed between the transport operator and the holder, the transport operator shall change the medium of the negotiable cargo document from a paper document to an electronic record or from an electronic record to a paper document provided that a reliable method for the change of medium is used. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_160__content">
+                <p xml:space="preserve">	For the change of medium to take effect:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="MercuryDocument">
+              <num>(a)</num>
+              <content eId="para_161__content">
+                <p xml:space="preserve">	The holder shall surrender to the transport operator all originals of the negotiable cargo document in its previous medium; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="MercuryDocument">
+              <content eId="para_162__content">
+                <p xml:space="preserve">	(b)	The negotiable cargo document in its new medium shall include a statement that it replaces the negotiable cargo document in its previous medium.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_163__content">
+                <p xml:space="preserve">	Upon a change of medium, all originals of the negotiable cargo document in its previous medium shall be made inoperative and cease to have any effect or validity.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_164__content">
+                <p xml:space="preserve">	A change of medium in accordance with this article shall not affect the rights and obligations of the parties.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="MercuryDocument">
+              <content eId="para_165__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 18</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="MercuryDocument">
+              <content eId="para_166__content">
+                <p xml:space="preserve">
+                  <span class="italic">General reliability standard</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="MercuryDocument">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	The method referred to in this chapter shall be:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="MercuryDocument">
+              <content eId="para_168__content">
+                <p xml:space="preserve">	(a)	As reliable as appropriate for the fulfilment of the function for which the method is being used, in the light of all relevant circumstances, which may include:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="MercuryDocument">
+              <content eId="para_169__content">
+                <p xml:space="preserve">	(i)	Any operational rules relevant to the assessment of reliability;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="MercuryDocument">
+              <content eId="para_170__content">
+                <p xml:space="preserve">	(ii)	The assurance of data integrity;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="MercuryDocument">
+              <num>(iii)</num>
+              <content eId="para_171__content">
+                <p xml:space="preserve">	The ability to prevent unauthorized access to and use of the system used to implement the method;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="MercuryDocument">
+              <num>(iv)</num>
+              <content eId="para_172__content">
+                <p xml:space="preserve">	The security of hardware and software;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="MercuryDocument">
+              <content eId="para_173__content">
+                <p xml:space="preserve">	(v)	The regularity and extent of audit by an independent body;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="MercuryDocument">
+              <num>(vi)</num>
+              <content eId="para_174__content">
+                <p xml:space="preserve">	The existence of a declaration by a supervisory body, an accreditation body or a voluntary scheme regarding the reliability of the method;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="MercuryDocument">
+              <num>(vii)</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	Any applicable industry standard; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="MercuryDocument">
+              <content eId="para_176__content">
+                <p xml:space="preserve">	(b)	Proven in fact to have fulfilled the function by itself or together with further evidence.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="MercuryDocument">
+              <content eId="para_177__content">
+                <p xml:space="preserve">
+                  <span class="bold">Chapter V</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="MercuryDocument">
+              <content eId="para_178__content">
+                <p xml:space="preserve">
+                  <span class="bold">Final clauses</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="MercuryDocument">
+              <content eId="para_179__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 19</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="MercuryDocument">
+              <content eId="para_180__content">
+                <p xml:space="preserve">
+                  <span class="italic">Depositary</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="MercuryDocument">
+              <content eId="para_181__content">
+                <p xml:space="preserve">	The Secretary-General of the United Nations is hereby designated as the depositary of this Convention.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="MercuryDocument">
+              <content eId="para_182__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 20</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="MercuryDocument">
+              <content eId="para_183__content">
+                <p xml:space="preserve">
+                  <span class="italic">Signature, ratification, acceptance, approval, accession</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_184__content">
+                <p xml:space="preserve">	This Convention is open for signature by all States.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_185__content">
+                <p xml:space="preserve">	This Convention is subject to ratification, acceptance or approval by the signatories.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_186__content">
+                <p xml:space="preserve">	This Convention is open for accession by all States that are not signatories as from the date it is open for signature.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_187__content">
+                <p xml:space="preserve">	Instruments of ratification, acceptance, approval or accession are to be deposited with the depositary.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="MercuryDocument">
+              <content eId="para_188__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 21</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="MercuryDocument">
+              <content eId="para_189__content">
+                <p xml:space="preserve">
+                  <span class="italic">Participation by regional economic integration organizations</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_190__content">
+                <p xml:space="preserve">	A regional economic integration organization that is constituted by States and has competence over certain matters governed by this Convention may similarly sign, ratify, accept, approve or accede to the Convention. The regional economic integration organization shall in that case have the rights and obligations of a State Party, to the extent that that organization has competence over matters governed by this Convention. For the purposes of articles 25 and 26, an instrument deposited by a regional economic integration organization shall not be counted in addition to the instruments deposited by its member States.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_191__content">
+                <p xml:space="preserve">	The regional economic integration organization shall make a declaration specifying the matters governed by this Convention in respect of which competence has been transferred to that organization by its member States. The regional economic integration organization shall promptly notify the depositary of any changes to the distribution of competence, including new transfers of competence, specified in the declaration made under this paragraph.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_192__content">
+                <p xml:space="preserve">	Any reference to a “State”, “States”, “State Party” or “States Parties” in this Convention applies equally to a regional economic integration organization where the context so requires.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="MercuryDocument">
+              <content eId="para_193__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 22</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="MercuryDocument">
+              <content eId="para_194__content">
+                <p xml:space="preserve">
+                  <span class="italic">Non-unified legal systems</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_195__content">
+                <p xml:space="preserve">	If a State has two or more territorial units in which different systems of law are applicable in relation to the matters dealt with in this Convention, it may declare that this Convention shall extend to all its territorial units or only to one or more of them.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_196__content">
+                <p xml:space="preserve">	Declarations made under this article shall state expressly the territorial units to which this Convention extends.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_197__content">
+                <p xml:space="preserve">	If a State makes a declaration under paragraph 1 that this Convention shall extend to one or more but not all its territorial units, a place located in a territorial unit to which this Convention does not extend is not considered to be in a State Party for the purposes of this Convention.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_198__content">
+                <p xml:space="preserve">	If a State makes no declaration under paragraph 1, this Convention shall extend to all territorial units of that State.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="MercuryDocument">
+              <content eId="para_199__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 23</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="MercuryDocument">
+              <content eId="para_200__content">
+                <p xml:space="preserve">
+                  <span class="italic">Procedure and effects of declarations</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_201__content">
+                <p xml:space="preserve">	Declarations under article 21, paragraph 2, and article 22, paragraph 1, shall be made at the time of signature, ratification, acceptance, approval or accession. Declarations made at the time of signature are subject to confirmation upon ratification, acceptance or approval.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_202" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_202__content">
+                <p xml:space="preserve">	Declarations and their confirmations shall be made in writing and formally notified to the depositary.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_203" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_203__content">
+                <p xml:space="preserve">	A declaration takes effect simultaneously with the entry into force of this Convention in respect of the State concerned.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_204" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_204__content">
+                <p xml:space="preserve">	Any State that makes a declaration under article 21, paragraph 2, and article 22, paragraph 1, may modify or withdraw it at any time by a formal notification in writing addressed to the depositary. The modification or withdrawal shall take effect 180 days after the date of the receipt of the notification by the depositary. If the depositary receives the notification of the modification or withdrawal before the entry into force of this Convention in respect of the State concerned, the modification or withdrawal shall take effect simultaneously with the entry into force of this Convention in respect of that State.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_205" class="MercuryDocument">
+              <content eId="para_205__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 24</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_206" class="MercuryDocument">
+              <content eId="para_206__content">
+                <p xml:space="preserve">
+                  <span class="italic">Reservations</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_207" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_207__content">
+                <p xml:space="preserve">	A State may declare, at the time of the deposit of its instrument of ratification, acceptance, approval or accession or at any time thereafter, that it will not apply this Convention to any negotiable transport document that evidences or contains a contract for the carriage of goods wholly by sea governed by an international convention to which it is a State Party.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_208" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_208__content">
+                <p xml:space="preserve">	Article 23, paragraphs 2 to 4, apply to reservations made under paragraph 1.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_209" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_209__content">
+                <p xml:space="preserve">	No reservations are permitted except as expressly authorized in this article.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_210" class="MercuryDocument">
+              <content eId="para_210__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 25</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_211" class="MercuryDocument">
+              <content eId="para_211__content">
+                <p xml:space="preserve">
+                  <span class="italic">Entry into force</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_212" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_212__content">
+                <p xml:space="preserve">	This Convention shall enter into force 180 days after the date of the deposit of the tenth instrument of ratification, acceptance, approval or accession.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_213" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_213__content">
+                <p xml:space="preserve">	When a State ratifies, accepts, approves or accedes to this Convention after the deposit of the tenth instrument of ratification, acceptance, approval or accession, this Convention shall enter into force in respect of that State 180 days after the date of the deposit of its instrument of ratification, acceptance, approval or accession.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_214" class="MercuryDocument">
+              <content eId="para_214__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 26</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_215" class="MercuryDocument">
+              <content eId="para_215__content">
+                <p xml:space="preserve">
+                  <span class="italic">Amendment</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_216" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_216__content">
+                <p xml:space="preserve">	Any State Party may propose an amendment to this Convention by submitting it to the Secretary-General of the United Nations. The Secretary-General shall thereupon communicate the proposed amendment to the States Parties with a request that they indicate whether they favour a conference of States Parties for the purpose of considering and voting upon the proposal. In the event that within 120 days from the date of such communication at least one third of the States Parties favour such a conference, the Secretary-General shall convene the conference under the auspices of the United Nations.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_217" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_217__content">
+                <p xml:space="preserve">	The conference of States Parties shall make every effort to achieve consensus on each amendment. If all efforts at consensus are exhausted and no consensus is reached, the amendment shall, as a last resort, require for its adoption a two-thirds majority vote of the States Parties present and voting at the conference. For the purposes of this paragraph, the vote of a regional economic integration organization shall not be counted.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_218" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_218__content">
+                <p xml:space="preserve">	An adopted amendment shall be submitted by the depositary to all States Parties for ratification, acceptance or approval.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_219" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_219__content">
+                <p xml:space="preserve">	An adopted amendment shall enter into force 180 days after the date of deposit of the tenth instrument of ratification, acceptance or approval. When an amendment enters into force, it shall be binding on those States Parties that have expressed consent to be bound by it.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_220" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_220__content">
+                <p xml:space="preserve">	When a State Party ratifies, accepts or approves an amendment following the deposit of the tenth instrument of ratification, acceptance or approval, the amendment shall enter into force in respect of that State Party 180 days after the date of the deposit of its instrument of ratification, acceptance or approval.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_221" class="MercuryDocument">
+              <content eId="para_221__content">
+                <p xml:space="preserve">
+                  <span class="italic">Article 27</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_222" class="MercuryDocument">
+              <content eId="para_222__content">
+                <p xml:space="preserve">
+                  <span class="italic">Denunciation</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_223" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_223__content">
+                <p xml:space="preserve">	A State Party may denounce this Convention by a formal notification in writing addressed to the depositary. The denunciation may be limited to certain territorial units of a non‑unified legal system to which this Convention applies.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_224" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_224__content">
+                <p xml:space="preserve">	The denunciation shall take effect 365 days after the date of the receipt of the notification by the depositary. Where a longer period for the denunciation to take effect is specified in the notification, the denunciation shall take effect upon the expiration of such longer period after the date of the receipt of the notification by the depositary. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_225" class="MercuryDocument">
+              <content eId="para_225__content">
+                <p xml:space="preserve">DONE in a single original, of which the Arabic, Chinese, English, French, Russian and Spanish texts are equally authentic.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
