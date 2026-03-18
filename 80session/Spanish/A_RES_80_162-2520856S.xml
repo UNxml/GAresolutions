@@ -1,0 +1,1321 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/"></FRBRuri>
+          <FRBRdate date="2025-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/spa@/"></FRBRuri>
+          <FRBRdate date="2025-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/spa@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Accra Convention on Negotiable Cargo Documents (2025)" showAs="Accra Convention on Negotiable Cargo Documents (2025)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNATIONAL TRADE LAW" href="http://metadata.un.org/thesaurus/010702" showAs="INTERNATIONAL TRADE LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOODS TRANSPORT" href="http://metadata.un.org/thesaurus/1002712" showAs="GOODS TRANSPORT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSPORT DOCUMENTS" href="http://metadata.un.org/thesaurus/1006650" showAs="TRANSPORT DOCUMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATIES (TEXT)" href="http://metadata.un.org/thesaurus/1006688" showAs="TREATIES (TEXT)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="78" showAs="Report of the United Nations Commission on International Trade Law on the work of its 58th session" shortForm="UN COMMISSION ON INTERNATIONAL TRADE LAW--REPORTS" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-29" outcome="draftResolution" as="A/C.6/80/L.8" by="the representative of Austria, on behalf of the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-11-24" outcome="recommendedForAdoption" as="A/80/448" by="" refersTo="10" />
+        <step date="2025-12-15" outcome="adopted" as="A/80/PV.64" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="sixthCommittee" href="#sixthCommittee" showAs="Sexta Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-20856 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/162</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 de diciembre de 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">Octogésimo período de sesiones</session>
+      </p>
+      <p>
+        <inline title="78" name="agenda item">Tema 78 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Informe de la Comisión de las Naciones Unidas para el Derecho Mercantil Internacional sobre la labor realizada en su 58º período de sesiones</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 15 de diciembre de 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#sixthCommittee">[sobre la base del informe de la Sexta Comisión (<inline name="originating document">A/80/448, párr. 10</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/162.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Convención de las Naciones Unidas sobre Documentos de Carga Negociables</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución <a href="https://docs.un.org/es/A/RES/2205(XXI)">2205 (XXI)</a>, de 17 de diciembre de 1966, en la que estableció la Comisión de las Naciones Unidas para el Derecho Mercantil Internacional y le confirió el mandato de promover la armonización y unificación progresivas del derecho mercantil internacional y, a ese respecto, tener presentes los intereses de todos los pueblos, en particular los de los países en desarrollo, en la evolución general del comercio internacional,</p>
+      </container>
+      <container name="Consciente" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> de la importante función que desempeñan los documentos de transporte negociables en la facilitación de la financiación para el comercio y la venta de mercancías en tránsito,</p>
+      </container>
+      <container name="Convencida" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Convencida</span> de la conveniencia de establecer normas uniformes para los documentos de transporte negociables que se utilicen en todos los modos de transporte, incluido el transporte multimodal, apoyando así el crecimiento del transporte puerta a puerta,</p>
+      </container>
+      <container name="Reconociendo" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> que la transformación digital en el comercio internacional depende de sistemas y datos fiables, que a su vez pueden aumentar la eficiencia operacional y apoyar la digitalización de extremo a extremo,</p>
+      </container>
+      <container name="Convencida" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Convencida</span> de que la certeza respecto de los efectos jurídicos de los documentos de carga negociables, así como de los derechos y la responsabilidad del tenedor, alentará a los bancos, las instituciones financieras y otras partes interesadas a aceptar esos documentos, fomentando el comercio internacional y contribuyendo al crecimiento económico,</p>
+      </container>
+      <container name="Convencida también" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Convencida también</span> de que un marco jurídico sólido permitirá reducir los costos del comercio por rutas interiores y asistirá tanto a los países sin litoral como a los países con extensos territorios continentales a integrarse más eficientemente en las cadenas mundiales de suministro,</p>
+      </container>
+      <container name="Convencida además" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Convencida además</span> de que dicho marco apoyará a los países interesados, incluidos los países ribereños, en la digitalización de los documentos de transporte negociables,</p>
+      </container>
+      <container name="Observando" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Observando</span> que la preparación del proyecto de convención sobre documentos de carga negociables fue objeto de las debidas deliberaciones en la Comisión y que se efectuaron consultas con Gobiernos y organizaciones intergubernamentales y no gubernamentales internacionales interesadas,</p>
+      </container>
+      <container name="Expresando su aprecio" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Expresando su aprecio</span> a la Organización de Aviación Civil Internacional, la Organización Intergubernamental para los Transportes Internacionales por Ferrocarril y la Organización de Cooperación Ferroviaria por sus contribuciones a la elaboración del proyecto de convención,</p>
+      </container>
+      <container name="Tomando nota" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> de la decisión adoptada por la Comisión en su 58º período de sesiones de presentar el proyecto de convención a la Asamblea General para su examen<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Documentos Oficiales de la Asamblea General, octogésimo período de sesiones, suplemento núm. 17</span> (<a href="https://docs.un.org/es/A/80/17">A/80/17</a>), párr. 128.</p></authorialNote>, </p>
+      </container>
+      <container name="Tomando nota con satisfacción" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Tomando nota con satisfacción</span> del proyecto de convención aprobado por la Comisión<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<span class="italic">Ibid.</span>, anexo I.</p></authorialNote>,</p>
+      </container>
+      <container name="Expresando su aprecio" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expresando su aprecio</span> al Gobierno de Ghana por haberse ofrecido para acoger la ceremonia de firma de la Convención en Accra,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Encomia</span> a la Comisión de las Naciones Unidas para el Derecho Mercantil Internacional por la preparación de un proyecto de convención sobre documentos de carga negociables;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Aprueba</span> la Convención de las Naciones Unidas sobre Documentos de Carga Negociables, que figura en el anexo de la presente resolución;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Autoriza</span> la celebración de una ceremonia de apertura a la firma de la Convención, que tendrá lugar lo antes posible en Accra en el segundo semestre de 2026, momento a partir del cual la Convención quedará abierta a la firma, y recomienda que la Convención se conozca como la “Convención de Accra sobre Documentos de Carga Negociables”;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a los Gobiernos y a las organizaciones regionales de integración económica que deseen modernizar sus marcos jurídicos en materia de documentos de transporte negociables a que consideren la posibilidad de hacerse partes en la Convención.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="64a" refersTo="#adoptionMeeting">64a sesión plenaria</location>
+          <eol />
+          <docDate date="2025-12-15" refersTo="#adoptionDate">15 de diciembre de 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/"></FRBRuri>
+                <FRBRdate date="2025-12-15" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@/"></FRBRuri>
+                <FRBRdate date="2025-12-19" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-162/eng@.xml"></FRBRuri>
+                <FRBRdate date="2026-01-08" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+    <mainBody>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <content eId="para_22__content">
+          <p xml:space="preserve">
+            <span class="bold">Anexo Convención de las Naciones Unidas sobre Documentos de Carga Negociables</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Los Estados Partes en la presente Convención</span>,</p>
+        </content>
+      </paragraph>
+    <paragraph eId="para_24" class="MercuryDocument">
+        <content eId="para_24__content">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>su convicción de que el comercio internacional basado en la igualdad y el provecho mutuo constituye un factor fundamental para fomentar las relaciones amistosas entre los Estados,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <content eId="para_25__content">
+        <p xml:space="preserve">	<span class="italic">Conscientes</span> de la importante función que desempeñan los documentos de transporte negociables en la facilitación de la financiación para el comercio y la venta de mercancías en tránsito,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Convencidos </span>de la conveniencia de establecer normas uniformes para los documentos de transporte negociables que se utilicen en todos los modos de transporte, incluido el transporte multimodal, apoyando así el crecimiento del transporte puerta a puerta,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <content eId="para_27__content">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que la transformación digital en el comercio internacional depende de sistemas y datos fiables, que a su vez pueden aumentar la eficiencia operacional y apoyar la digitalización de extremo a extremo, </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Convencidos </span>de que la certeza respecto de los efectos jurídicos de los documentos de carga negociables, así como de los derechos y la responsabilidad del tenedor, alentará a los bancos, las instituciones financieras y otras partes interesadas a aceptar esos documentos, fomentando el comercio internacional y contribuyendo al crecimiento económico,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Convencidos también</span> de que un marco jurídico sólido podría ayudar a reducir los costos del comercio por rutas interiores y asistirá tanto a los países sin litoral como a los países con extensos territorios continentales a integrarse más eficientemente en las cadenas mundiales de suministro, </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Han convenido</span> en lo siguiente:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <content eId="para_31__content">
+          <p xml:space="preserve">
+            <span class="bold">Capítulo I Disposiciones generales</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <content eId="para_32__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 1</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <content eId="para_33__content">
+          <p xml:space="preserve">
+            <span class="italic">Finalidad</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+            <p xml:space="preserve">	La presente Convención será aplicable a la emisión, la transmisión y los efectos jurídicos de los documentos de carga negociables que contengan una referencia claramente visible a la presente Convención en relación con el transporte internacional de mercancías por uno o más modos de transporte siempre que:</p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>a)</num>
+            <content eId="para_34_list_point_a_content">
+              <p xml:space="preserve">	el lugar, indicado en el documento de carga negociable, en que el operador de transporte haya de tomar a su cargo las mercancías esté situado en un Estado Parte;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>b)</num>
+            <content eId="para_34_list_point_b_content">
+              <p xml:space="preserve">	el lugar, indicado en el documento de carga negociable, en que el operador de transporte haya de entregar las mercancías esté situado en un Estado Parte, o </p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>c)</num>
+            <content eId="para_34_list_point_c_content">
+              <p xml:space="preserve">	el lugar, indicado en el documento de carga negociable, en que se emita el documento de carga negociable esté situado en un Estado Parte.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	La presente Convención no afectará a la aplicación de ningún convenio internacional o ley nacional concernientes a la reglamentación y el control de las operaciones de transporte. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	Salvo que se disponga expresamente otra cosa en ella, la presente Convención no modificará los derechos y obligaciones del operador de transporte, del expedidor o del destinatario, ni la responsabilidad que les incumba de conformidad con los convenios internacionales o las leyes nacionales que rijan el contrato de transporte.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <content eId="para_38__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 2 Definiciones</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <content eId="para_39__content">
+          <p xml:space="preserve">	A los efectos de la presente Convención: </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	Por “expedidor” se entenderá la persona con quien el operador de transporte haya celebrado un contrato de transporte.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	Por “destinatario” se entenderá la persona designada en el contrato de transporte como la persona legitimada para recibir las mercancías.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	Por “documento electrónico” se entenderá la información generada, comunicada, recibida o archivada por medios electrónicos, incluida, cuando proceda, toda la información lógicamente asociada o vinculada de alguna otra forma a ella de modo que forme parte del documento, se haya generado simultáneamente o no.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	Por “tenedor” se entenderá la persona que esté en posesión de un documento de carga negociable y que esté identificada en dicho documento como el expedidor, como la persona a cuya orden se haya emitido o como la persona a quien el documento haya sido debidamente endosado, o, si el documento es un documento a la orden endosado en blanco, la persona que sea su portador. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	Por “documento de carga negociable” se entenderá el documento en papel o electrónico firmado y emitido por el operador de transporte en que se indique mediante expresiones como “a la orden” o “negociable” u otra expresión equivalente que el operador de transporte ha tomado a su cargo las mercancías descritas en el documento y que estas han sido consignadas a la orden del tenedor. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	Por “contrato de transporte” se entenderá el contrato en virtud del cual el operador de transporte se comprometa a ejecutar el transporte internacional de mercancías a título oneroso.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>7.</num>
+        <list eId="para_61_list">
+          <intro eId="para_61_list_intro">
+            <p xml:space="preserve">	Por “documento de transporte” se entenderá el documento:</p>
+          </intro>
+          <point eId="para_61_list_point_a">
+            <num>a)</num>
+            <content eId="para_61_list_point_a_content">
+              <p xml:space="preserve">	que pruebe o contenga el contrato de transporte, y </p>
+            </content>
+          </point>
+          <point eId="para_61_list_point_b">
+            <num>b)</num>
+            <content eId="para_61_list_point_b_content">
+              <p xml:space="preserve">	que pruebe que se han tomado a cargo las mercancías para ser transportadas de conformidad con el contrato de transporte.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	Por “operador de transporte” se entenderá la persona que celebre un contrato de transporte con el expedidor y que asuma la responsabilidad del cumplimiento del contrato, con independencia de que esa persona ejecute o no el transporte por sí misma.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <content eId="para_69__content">
+          <p xml:space="preserve">
+            <span class="bold">Capítulo II Emisión, contenido y efectos jurídicos de los documentos de carga negociable</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <content eId="para_70__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 3</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <content eId="para_71__content">
+          <p xml:space="preserve">
+            <span class="italic">Emisión de un documento de carga negociable</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	Si así lo acuerdan el operador de transporte y el expedidor, el operador de transporte emitirá un documento de carga negociable, en el soporte convenido, que contenga una referencia claramente visible a la presente Convención.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="MercuryDocument">
+        <num>2.</num>
+        <list eId="para_73_list">
+          <intro eId="para_73_list_intro">
+            <p xml:space="preserve">	El operador de transporte y el expedidor acordarán el método de emisión del documento de carga negociable, que podrá incluir lo siguiente:</p>
+          </intro>
+          <point eId="para_73_list_point_a">
+            <num>a)</num>
+            <content eId="para_73_list_point_a_content">
+              <p xml:space="preserve">	realizar una anotación firmada por el operador de transporte en cada original del documento de transporte, o</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_b">
+            <num>b)</num>
+            <content eId="para_73_list_point_b_content">
+              <p xml:space="preserve">	emitir un documento de carga negociable independiente cuando no se haya emitido un documento de transporte o cuando el documento de transporte se haya emitido y cancelado.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	Cuando las partes hayan acordado el método descrito en el párrafo 2 a) del presente artículo, la anotación contendrá, de forma claramente visible, la indicación enunciada en el artículo 2, párrafo 5, así como una declaración que indique que el documento de transporte cumplirá la función de documento de carga negociable a partir de una fecha determinada.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	El documento de carga negociable se emitirá cuando el operador de transporte tome a su cargo las mercancías. Si el operador de transporte y el expedidor así lo acuerdan, en los casos en que se haya emitido un documento de transporte, el operador de transporte podrá emitir el documento de carga negociable en un momento posterior. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	El operador de transporte que emita un documento de carga negociable no solicitará la emisión de un documento de transporte negociable respecto de las mercancías a las que se refiere el documento de carga negociable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	El documento de carga negociable podrá extenderse a la orden o a la orden de una persona determinada. Si el documento de carga negociable no nombra a la persona a cuya orden se extiende, se considerará extendido a la orden del expedidor.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <content eId="para_88__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 4 Contenido del documento de carga negociable</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_89_list">
+          <intro eId="para_89_list_intro">
+            <p xml:space="preserve">	El documento de carga negociable indicará:</p>
+          </intro>
+          <point eId="para_89_list_point_a">
+            <num>a)</num>
+            <content eId="para_89_list_point_a_content">
+              <p xml:space="preserve">	el nombre y la dirección del operador de transporte;</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_b">
+            <num>b)</num>
+            <content eId="para_89_list_point_b_content">
+              <p xml:space="preserve">	el nombre y la dirección del expedidor;</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_c">
+            <num>c)</num>
+            <content eId="para_89_list_point_c_content">
+              <p xml:space="preserve">	los siguientes datos tal como los haya proporcionado el expedidor: </p>
+            </content>
+          </point>
+          <sublist eId="para_89_list_point_c_sublist">
+            <point eId="para_89_list_point_c_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_89_list_point_c_sublist_point_i_content">
+                <p xml:space="preserve">	la naturaleza general de las mercancías; </p>
+              </content>
+            </point>
+            <point eId="para_89_list_point_c_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_89_list_point_c_sublist_point_ii_content">
+                <p xml:space="preserve">	las marcas distintivas requeridas para identificar las mercancías; </p>
+              </content>
+            </point>
+            <point eId="para_89_list_point_c_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_89_list_point_c_sublist_point_iii_content">
+                <p xml:space="preserve">	una declaración expresa, si correspondiera, sobre el carácter peligroso de las mercancías; </p>
+              </content>
+            </point>
+            <point eId="para_89_list_point_c_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_89_list_point_c_sublist_point_iv_content">
+                <p xml:space="preserve">	el número de bultos o de unidades, y v) el peso bruto de las mercancías o su cantidad expresada de otro modo.</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_89_list_point_d">
+            <num>d)</num>
+            <content eId="para_89_list_point_d_content">
+              <p xml:space="preserve">	el estado y condición aparentes de las mercancías tal como las haya tomado a su cargo el operador de transporte;</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_e">
+            <num>e)</num>
+            <content eId="para_89_list_point_e_content">
+              <p xml:space="preserve">	el lugar y la fecha en que el operador de transporte tomó a su cargo las mercancías;</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_f">
+            <num>f)</num>
+            <content eId="para_89_list_point_f_content">
+              <p xml:space="preserve">	el lugar y la fecha de emisión del documento de carga negociable;</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_g">
+            <num>g)</num>
+            <content eId="para_89_list_point_g_content">
+              <p xml:space="preserve">	las condiciones del contrato de transporte, si se emite como un documento de carga negociable independiente;</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_h">
+            <num>h)</num>
+            <content eId="para_89_list_point_h_content">
+              <p xml:space="preserve">	el lugar de entrega de las mercancías;</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_i">
+            <num>i)</num>
+            <content eId="para_89_list_point_i_content">
+              <p xml:space="preserve">	el número de originales del documento de carga negociable, y</p>
+            </content>
+          </point>
+          <point eId="para_89_list_point_j">
+            <num>j)</num>
+            <content eId="para_89_list_point_j_content">
+              <p xml:space="preserve">	una declaración sobre si el flete ha sido prepagado o una indicación de si el flete ha de ser pagado en el lugar de destino.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>2.</num>
+        <list eId="para_90_list">
+          <intro eId="para_90_list_intro">
+            <p xml:space="preserve">	El documento de carga negociable podrá indicar además:</p>
+          </intro>
+          <point eId="para_90_list_point_a">
+            <num>a)</num>
+            <content eId="para_90_list_point_a_content">
+              <p xml:space="preserve">	la fecha o el plazo de entrega de las mercancías en el lugar de entrega, si el expedidor y el operador de transporte lo han acordado expresamente;</p>
+            </content>
+          </point>
+          <point eId="para_90_list_point_b">
+            <num>b)</num>
+            <content eId="para_90_list_point_b_content">
+              <p xml:space="preserve">	el itinerario previsto, el modo de transporte, los lugares de transbordo y la información que permita hacer un seguimiento de las mercancías;</p>
+            </content>
+          </point>
+          <point eId="para_90_list_point_c">
+            <num>c)</num>
+            <content eId="para_90_list_point_c_content">
+              <p xml:space="preserve">	la ley aplicable al contrato de transporte, en particular cualquier convenio internacional que rija el contrato de transporte, y</p>
+            </content>
+          </point>
+          <point eId="para_90_list_point_d">
+            <num>d)</num>
+            <content eId="para_90_list_point_d_content">
+              <p xml:space="preserve">	cualesquiera otros datos que el expedidor y el operador de transporte acuerden incluir en el documento de carga negociable.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <content eId="para_91__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 5 Deficiencias del documento de carga negociable</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	La falta de uno o varios de los datos a los que se refiere el artículo 4, párrafo 1, no afectará por sí sola a los efectos jurídicos o la validez del documento como documento de carga negociable, a condición, no obstante, de que el documento se ajuste a la definición de documento de carga negociable que figura en el artículo 2, párrafo 5.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	Nada de lo dispuesto en el párrafo 1 afectará a la responsabilidad del operador de transporte que le incumba de conformidad con la ley aplicable por cualquier deficiencia en el documento de carga negociable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	Si en el documento de carga negociable figura una fecha, pero no se indica el significado de esa fecha, se entenderá que es la fecha de emisión del documento de carga negociable. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	Si en la anotación a que se refiere el artículo 3, párrafo 3, no se indica la fecha a partir de la cual el documento de transporte cumplirá la función de documento de carga negociable, se considerará que el documento de transporte cumple esa función desde la fecha de su emisión.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	Si en el documento de carga negociable no figura la fecha en que el operador de transporte tomó a su cargo las mercancías, se considerará que lo hizo en la fecha de emisión del documento de carga negociable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	Si el documento de carga negociable no contiene ninguna declaración sobre el estado y condición aparentes de las mercancías en el momento en que el operador de transporte las tomó a su cargo, se entenderá que se declaró que las mercancías estaban en buen estado y condición aparentes en el momento en que el operador de transporte las tomó a su cargo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="MercuryDocument">
+        <content eId="para_108__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 6 Valor probatorio del documento de carga negociable</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_109_list">
+          <intro eId="para_109_list_intro">
+            <p xml:space="preserve">	El operador de transporte podrá agregar reservas a cualquier información presente en el documento de carga negociable que haya sido proporcionada por el expedidor y a la que se hace referencia en el artículo 4, párrafo 1 c), para indicar que el operador de transporte no asume responsabilidad por la exactitud de esa información si:</p>
+          </intro>
+          <point eId="para_109_list_point_a">
+            <num>a)</num>
+            <content eId="para_109_list_point_a_content">
+              <p xml:space="preserve">	sabe efectivamente, o tiene motivos razonables para creer, que dicha información es falsa o engañosa, o </p>
+            </content>
+          </point>
+          <point eId="para_109_list_point_b">
+            <num>b)</num>
+            <content eId="para_109_list_point_b_content">
+              <p xml:space="preserve">	no tiene medios razonables para verificar esa información. </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_110" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	Salvo en la medida en que se hayan agregado reservas a la información proporcionada por el expedidor en la forma indicada en el párrafo 1, el documento de carga negociable establecerá la presunción, salvo prueba en contrario, de que el operador de transporte tomó a su cargo las mercancías conforme a lo indicado en el documento de carga negociable. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	Si el documento de carga negociable ha sido transmitido a un tercero que actuó de buena fe en consideración a cualquier información contenida en él, no se admitirá ninguna prueba en contrario por parte del operador de transporte frente a ese tercero respecto de la información contenida en el documento de carga negociable, salvo en la medida en que se hayan agregado reservas respecto de la información proporcionada por el expedidor en la forma indicada en el párrafo 1.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="MercuryDocument">
+        <content eId="para_113__content">
+          <p xml:space="preserve">
+            <span class="bold">Capítulo III Derechos y responsabilidad del tenedor</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="MercuryDocument">
+        <content eId="para_114__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 7</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <content eId="para_115__content">
+          <p xml:space="preserve">
+            <span class="italic">Derechos del tenedor de un documento de carga negociable</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	Una vez emitido un documento de carga negociable, tan solo el tenedor podrá ejercer los derechos previstos en el documento de carga negociable, que incluirán el derecho a exigir la entrega de las mercancías en el lugar de destino.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	Una persona que no sea el expedidor y que adquiera la condición de tenedor del documento de carga negociable adquirirá, por el hecho de convertirse en el tenedor, el derecho a presentar una reclamación contra el operador de transporte y, cuando corresponda, el derecho de disposición conforme al contrato de transporte, así como los derechos previstos en la ley aplicable al contrato de transporte, como si fuera parte en ese contrato.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	El operador de transporte no podrá invocar contra un tenedor que no sea el expedidor ninguna condición del contrato de transporte que sea incompatible con los términos expresos del documento de carga negociable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	La emisión y transmisión inicial de la posesión del documento de carga negociable, así como las transmisiones subsiguientes, al tenedor tendrán los mismos efectos, a los fines de la adquisición de derechos sobre las mercancías, que la entrega física de estas. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	Para ejercer sus derechos, el tenedor presentará el documento de carga negociable al operador de transporte. Si en el documento de carga negociable se indica que se ha emitido más de un original, el tenedor presentará todos los originales para ejercer el derecho de disposición.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="MercuryDocument">
+        <content eId="para_127__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 8 Falta de información, instrucciones o documentos</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="MercuryDocument">
+        <content eId="para_128__content">
+          <p xml:space="preserve">	Si el operador de transporte necesita información, instrucciones o documentos relativos a las mercancías para cumplir sus obligaciones, solicitará esa información o esas instrucciones o documentos al tenedor del documento de carga negociable. Si el operador de transporte, tras realizar un esfuerzo razonable, no logra obtener esa información o esas instrucciones o documentos en un plazo razonable, procederá de conformidad con el contrato de transporte.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <content eId="para_129__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 9 Responsabilidad del tenedor</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	Un tenedor de un documento de carga negociable que no sea el expedidor y que no ejerza ningún derecho de conformidad con el artículo 7 no asumirá responsabilidad alguna en virtud del contrato de transporte por la sola razón de ser el tenedor del documento de carga negociable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="MercuryDocument">
+        <num>2.</num>
+        <list eId="para_131_list">
+          <intro eId="para_131_list_intro">
+            <p xml:space="preserve">	Un tenedor del documento de carga negociable que no sea el expedidor y que ejerza un derecho de conformidad con el artículo 7 asumirá cualquier responsabilidad: </p>
+          </intro>
+          <point eId="para_131_list_point_a">
+            <num>a)</num>
+            <content eId="para_131_list_point_a_content">
+              <p xml:space="preserve">	atribuible a la persona que ejerza un derecho con arreglo a la ley aplicable al contrato de transporte, o </p>
+            </content>
+          </point>
+          <point eId="para_131_list_point_b">
+            <num>b)</num>
+            <content eId="para_131_list_point_b_content">
+              <p xml:space="preserve">	derivada del ejercicio de ese derecho de conformidad con el contrato de transporte en la medida en que esa responsabilidad pueda ser determinada a partir del documento de carga negociable,</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_132" class="MercuryDocument">
+        <content eId="para_132__content">
+          <p xml:space="preserve">como si fuera parte en el contrato de transporte.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="MercuryDocument">
+        <content eId="para_133__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 10 Entrega de las mercancías</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	La entrega de las mercancías solo podrá exigirse al operador de transporte contra la restitución por el tenedor del documento de carga negociable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	Si se ha emitido más de un original del documento de carga negociable, podrá exigirse la entrega de las mercancías contra la restitución de un original. Si el documento de carga negociable indica que se ha emitido más de un original, los demás originales perderán toda eficacia o validez tras la restitución de un original.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="MercuryDocument">
+        <content eId="para_136__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 11 Transmisión de los derechos del tenedor</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="MercuryDocument">
+        <content eId="para_137__content">
+          <p xml:space="preserve">	Un tenedor transmitirá a otra persona los derechos previstos en el documento de carga negociable: </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="MercuryDocument">
+        <num>a)</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	mediante endoso a dicha persona o en blanco y transmitiendo la posesión del documento de carga negociable a esa persona, o</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="MercuryDocument">
+        <num>b)</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	mediante la mera transmisión de la posesión del documento de carga negociable a esa persona, si el último endoso es en blanco.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="MercuryDocument">
+        <content eId="para_140__content">
+          <p xml:space="preserve">
+            <span class="bold">Capítulo IV Condiciones especiales para los documentos de carga negociables electrónicos</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="MercuryDocument">
+        <content eId="para_141__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 12 Requisitos de los documentos de carga negociables electrónicos</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_142_list">
+          <intro eId="para_142_list_intro">
+            <p xml:space="preserve">	Un documento de carga negociable podrá tener forma de documento electrónico a condición de que se utilice un método fiable:</p>
+          </intro>
+          <point eId="para_142_list_point_a">
+            <num>a)</num>
+            <content eId="para_142_list_point_a_content">
+              <p xml:space="preserve">	para identificar ese documento electrónico como el documento de carga negociable;</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_b">
+            <num>b)</num>
+            <content eId="para_142_list_point_b_content">
+              <p xml:space="preserve">	para lograr que ese documento electrónico pueda ser objeto de control desde su emisión hasta que pierda toda eficacia o validez, y</p>
+            </content>
+          </point>
+          <point eId="para_142_list_point_c">
+            <num>c)</num>
+            <content eId="para_142_list_point_c_content">
+              <p xml:space="preserve">	para mantener la integridad de ese documento electrónico.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_143" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	El criterio para evaluar la integridad consistirá en determinar si la información contenida en el documento de carga negociable, incluido todo cambio autorizado que se realice desde su emisión hasta que pierda toda eficacia o validez, se ha mantenido completa y sin alteraciones que no sean algún cambio sobrevenido en el curso normal de su comunicación, archivo o presentación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="MercuryDocument">
+        <content eId="para_144__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 13 Requisitos en materia de contenido</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_145" class="MercuryDocument">
+        <content eId="para_145__content">
+          <p xml:space="preserve">	A los efectos de la presente Convención, un requisito en cuanto a la información que haya de contener un documento de carga negociable se dará por cumplido respecto de un documento electrónico si la información contenida en él es accesible para su ulterior consulta.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="MercuryDocument">
+        <content eId="para_146__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 14 Requisitos en materia de firma</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="MercuryDocument">
+        <content eId="para_147__content">
+          <p xml:space="preserve">	A los efectos de la presente Convención, un requisito de que un documento de carga negociable esté firmado se dará por cumplido respecto de un documento electrónico si se utiliza un método fiable para determinar la identidad del firmante y para indicar la voluntad que tiene esa persona respecto de la información contenida en el documento electrónico.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="MercuryDocument">
+        <content eId="para_148__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 15 Requisitos en materia de posesión</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_149_list">
+          <intro eId="para_149_list_intro">
+            <p xml:space="preserve">	A los efectos de la presente Convención, un requisito de que se posea un documento de carga negociable se dará por cumplido respecto de un documento electrónico si se utiliza un método fiable:</p>
+          </intro>
+          <point eId="para_149_list_point_a">
+            <num>a)</num>
+            <content eId="para_149_list_point_a_content">
+              <p xml:space="preserve">	para establecer que ese documento electrónico está bajo el control exclusivo de una persona, y</p>
+            </content>
+          </point>
+          <point eId="para_149_list_point_b">
+            <num>b)</num>
+            <content eId="para_149_list_point_b_content">
+              <p xml:space="preserve">	para identificar a esa persona como la persona que tiene el control.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_150" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_150__content">
+          <p xml:space="preserve">	Un requisito de transmitir la posesión de un documento de carga negociable se dará por cumplido respecto de un documento electrónico mediante la transferencia del control del documento electrónico.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="MercuryDocument">
+        <content eId="para_151__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 16 Requisitos en materia de endoso</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="MercuryDocument">
+        <content eId="para_152__content">
+          <p xml:space="preserve">	A los efectos de la presente Convención, un requisito de que un documento de carga negociable esté endosado se dará por cumplido si la información exigida para el endoso está incluida en el documento electrónico y esa información cumple los requisitos establecidos en los artículos 13 y 14.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="MercuryDocument">
+        <content eId="para_153__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 17 Cambio de soporte</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	Si así lo acuerdan el operador de transporte y el tenedor, el operador de transporte cambiará el soporte del documento de carga negociable de un documento en papel a un documento electrónico o de un documento electrónico a un documento en papel siempre que se utilice un método fiable a los efectos del cambio de soporte. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="MercuryDocument">
+        <num>2.</num>
+        <list eId="para_155_list">
+          <intro eId="para_155_list_intro">
+            <p xml:space="preserve">	Para que el cambio de soporte surta efecto:</p>
+          </intro>
+          <point eId="para_155_list_point_a">
+            <num>a)</num>
+            <content eId="para_155_list_point_a_content">
+              <p xml:space="preserve">	el tenedor restituirá al operador de transporte todos los originales del documento de carga negociable en el soporte anterior, y</p>
+            </content>
+          </point>
+          <point eId="para_155_list_point_b">
+            <num>b)</num>
+            <content eId="para_155_list_point_b_content">
+              <p xml:space="preserve">	el documento de carga negociable en su nuevo soporte incluirá la declaración de que sustituye el documento de carga negociable en su soporte anterior.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_157" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	Cuando se cambie de soporte, se dejarán sin efecto todos los originales del documento de carga negociable en su soporte anterior, que perderán toda eficacia o validez.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	Los cambios de soporte que se realicen de conformidad con el presente artículo no afectarán a los derechos y obligaciones de las partes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="MercuryDocument">
+        <content eId="para_161__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 18 Norma de fiabilidad general</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="MercuryDocument">
+        <content eId="para_162__content">
+          <p xml:space="preserve">	El método al que se hace referencia en el presente capítulo deberá:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="MercuryDocument">
+        <num>a)</num>
+        <list eId="para_163_list">
+          <intro eId="para_163_list_intro">
+            <p xml:space="preserve">	ser tan fiable como resulte apropiado para cumplir la función para la cual se emplea, atendidas todas las circunstancias del caso, que podrán ser, entre otras, las siguientes:</p>
+          </intro>
+          <point eId="para_163_list_point_i">
+            <num>i)</num>
+            <content eId="para_163_list_point_i_content">
+              <p xml:space="preserve">	cualquier norma operacional que sea pertinente para evaluar la fiabilidad;</p>
+            </content>
+          </point>
+          <point eId="para_163_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_163_list_point_ii_content">
+              <p xml:space="preserve">	la garantía de la integridad de los datos;</p>
+            </content>
+          </point>
+          <point eId="para_163_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_163_list_point_iii_content">
+              <p xml:space="preserve">	la capacidad de impedir el acceso no autorizado al sistema utilizado para aplicar el método y su uso no autorizado;</p>
+            </content>
+          </point>
+          <point eId="para_163_list_point_iv">
+            <num>iv)</num>
+            <content eId="para_163_list_point_iv_content">
+              <p xml:space="preserve">	la seguridad de los equipos y programas informáticos;</p>
+            </content>
+          </point>
+          <point eId="para_163_list_point_v">
+            <num>v)</num>
+            <content eId="para_163_list_point_v_content">
+              <p xml:space="preserve">	la periodicidad y el alcance de las auditorías realizadas por un órgano independiente;</p>
+            </content>
+          </point>
+          <point eId="para_163_list_point_vi">
+            <num>vi)</num>
+            <content eId="para_163_list_point_vi_content">
+              <p xml:space="preserve">	la existencia de una declaración de un órgano de supervisión, un órgano de acreditación o un mecanismo voluntario respecto de la fiabilidad del método;</p>
+            </content>
+          </point>
+          <point eId="para_163_list_point_vii">
+            <num>vii)</num>
+            <content eId="para_163_list_point_vii_content">
+              <p xml:space="preserve">	cualquier norma aplicable del sector, o</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_164" class="MercuryDocument">
+        <num>b)</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	haber demostrado en la práctica que, por sí solo o con el respaldo de otras pruebas, ha cumplido su función.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="MercuryDocument">
+        <content eId="para_165__content">
+          <p xml:space="preserve">
+            <span class="bold">Capítulo V Disposiciones finales</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="MercuryDocument">
+        <content eId="para_166__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 19</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="MercuryDocument">
+        <content eId="para_167__content">
+          <p xml:space="preserve">
+            <span class="italic">Depositario</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_168" class="MercuryDocument">
+        <content eId="para_168__content">
+          <p xml:space="preserve">	Se designa depositario de la presente Convención al Secretario General de las Naciones Unidas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_169" class="MercuryDocument">
+        <content eId="para_169__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 20 Firma, ratificación, aceptación, aprobación, adhesión</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_170" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_170__content">
+          <p xml:space="preserve">	La presente Convención estará abierta a la firma de todos los Estados.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	La presente Convención estará sujeta a ratificación, aceptación o aprobación por los signatarios.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve">	La presente Convención estará abierta a la adhesión de todos los Estados que no sean signatarios a partir de la fecha en que quede abierta a la firma.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve">	Los instrumentos de ratificación, aceptación, aprobación o adhesión se depositarán en poder del depositario.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="MercuryDocument">
+        <content eId="para_177__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 21 Participación de organizaciones regionales de integración económica</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	Toda organización regional de integración económica que esté constituida por Estados y tenga competencia en determinadas materias que se rigen por la presente Convención podrá igualmente firmar, ratificar, aceptar o aprobar la Convención o adherirse a ella. La organización regional de integración económica tendrá, en ese caso, los derechos y obligaciones de un Estado Parte, en la medida en que tenga competencia en las materias que se rigen por la presente Convención. A los efectos de los artículos 25 y 26, los instrumentos depositados por organizaciones regionales de integración económica no se contarán además de los instrumentos depositados por sus Estados miembros.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	La organización regional de integración económica deberá hacer una declaración en la que se especifiquen las materias que se rigen por la presente Convención respecto de las cuales sus Estados miembros hayan transferido competencia a esa organización. La organización regional de integración económica notificará con prontitud al depositario cualquier cambio que se haya producido en la distribución de competencias indicada en la declaración prevista en el presente párrafo, mencionando asimismo toda competencia nueva que le haya sido transferida.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	Toda referencia que se haga en la presente Convención a “Estado”, “Estados”, “Estado Parte” o “Estados Partes” será igualmente aplicable a una organización regional de integración económica cuando el contexto así lo requiera.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="MercuryDocument">
+        <content eId="para_182__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 22 Ordenamientos jurídicos no unificados</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	Todo Estado integrado por dos o más unidades territoriales en las que sea aplicable un régimen jurídico distinto en relación con las materias objeto de la presente Convención podrá declarar que la Convención será aplicable a todas sus unidades territoriales o solo a una o varias de ellas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	En las declaraciones formuladas con arreglo al presente artículo se hará constar expresamente a qué unidades territoriales será aplicable la presente Convención.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve">	Si un Estado formula una declaración de conformidad con el párrafo 1 según la cual la presente Convención será aplicable a una o más de sus unidades territoriales, pero no a todas, se considerará, a los efectos de la presente Convención, que todo lugar situado en una unidad territorial a la que la presente Convención no sea aplicable no está situado en un Estado Parte.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve">	Si un Estado no formula ninguna declaración de conformidad con el párrafo 1, la presente Convención será aplicable a todas las unidades territoriales de ese Estado.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="MercuryDocument">
+        <content eId="para_190__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 23 Procedimiento y efectos de las declaraciones</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_191" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_191__content">
+          <p xml:space="preserve">	Las declaraciones a que se refieren el artículo 21, párrafo 2, y el artículo 22, párrafo 1, se harán en el momento de la firma, ratificación, aceptación, aprobación o adhesión. Las declaraciones que se formulen en el momento de la firma deberán ser confirmadas en el momento de la ratificación, aceptación o aprobación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	Las declaraciones y sus confirmaciones se harán por escrito y se notificarán oficialmente al depositario. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_194" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve">	Toda declaración surtirá efecto simultáneamente con la entrada en vigor de la presente Convención respecto del Estado en cuestión.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	Todo Estado que formule una declaración de conformidad con el artículo 21, párrafo 2, y el artículo 22, párrafo 1, podrá modificarla o retirarla en cualquier momento mediante una notificación oficial dirigida por escrito al depositario. La modificación o el retiro surtirá efecto 180 días después de la fecha de recepción de la notificación por el depositario. Si el depositario recibe la notificación de la modificación o del retiro antes de la entrada en vigor de la presente Convención respecto del Estado en cuestión, la modificación o el retiro surtirán efecto simultáneamente con la entrada en vigor de la presente Convención respecto de dicho Estado.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="MercuryDocument">
+        <content eId="para_198__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 24 Reservas</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	Todo Estado podrá declarar en el momento del depósito de su instrumento de ratificación, aceptación, aprobación o adhesión, o en cualquier momento posterior, que no aplicará la presente Convención a ningún documento de transporte negociable que pruebe o contenga un contrato de transporte de mercancías totalmente marítimo regido por un convenio internacional en el que sea Estado Parte.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">	El artículo 23, párrafos 2 a 4, se aplicará a las reservas formuladas con arreglo al párrafo 1.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve">	No se podrán hacer más reservas que las expresamente autorizadas por el presente artículo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_203" class="MercuryDocument">
+        <content eId="para_203__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 25 Entrada en vigor</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve">	La presente Convención entrará en vigor 180 días después de la fecha de depósito del décimo instrumento de ratificación, aceptación, aprobación o adhesión.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve">	Cuando un Estado ratifique, acepte o apruebe la presente Convención o se adhiera a ella después de que se haya depositado el décimo instrumento de ratificación, aceptación, aprobación o adhesión, la presente Convención entrará en vigor respecto de dicho Estado 180 días después de la fecha en que este haya depositado su instrumento de ratificación, aceptación, aprobación o adhesión.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="MercuryDocument">
+        <content eId="para_206__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 26 Enmienda</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_207__content">
+          <p xml:space="preserve">	Cualquier Estado Parte podrá proponer una enmienda de la presente Convención presentándola al Secretario General de las Naciones Unidas. Tras recibir la enmienda propuesta, el Secretario General la comunicará a los Estados Partes con la solicitud de que indiquen si están a favor de que se celebre una conferencia de los Estados Partes con el fin de examinar la propuesta y someterla a votación. Si dentro de los 120 días siguientes a la fecha de esa comunicación, al menos un tercio de los Estados Partes se declara a favor de celebrar esa conferencia, el Secretario General convocará la conferencia bajo los auspicios de las Naciones Unidas.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve">	La conferencia de los Estados Partes hará todo lo posible por lograr el consenso sobre cada enmienda. Si se agotan todos los esfuerzos por llegar a un consenso, sin lograrlo, para adoptar la enmienda se requerirá, como último recurso, una mayoría de dos tercios de los votos de los Estados Partes que estén presentes y emitan su voto en la conferencia. A los efectos de lo dispuesto en el presente párrafo, no se contarán los votos de las organizaciones regionales de integración económica.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_210__content">
+          <p xml:space="preserve">	El depositario remitirá las enmiendas adoptadas a todos los Estados Partes para su ratificación, aceptación o aprobación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	Las enmiendas adoptadas entrarán en vigor 180 días después de la fecha de depósito del décimo instrumento de ratificación, aceptación o aprobación. Cuando una enmienda entre en vigor, será vinculante para los Estados Partes que hayan expresado su consentimiento en quedar obligados por ella.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	Cuando un Estado Parte ratifique, acepte o apruebe una enmienda tras el depósito del décimo instrumento de ratificación, aceptación o aprobación, la enmienda entrará en vigor respecto de ese Estado Parte 180 días después de la fecha en que este haya depositado su instrumento de ratificación, aceptación o aprobación.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="MercuryDocument">
+        <content eId="para_218__content">
+          <p xml:space="preserve">
+            <span class="italic">Artículo 27 Denuncia</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_219" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_219__content">
+          <p xml:space="preserve">	Todo Estado Parte podrá denunciar la presente Convención mediante una notificación oficial dirigida por escrito al depositario. La denuncia podrá limitarse a determinadas unidades territoriales de un ordenamiento jurídico no unificado a las que sea aplicable la presente Convención.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	La denuncia surtirá efecto 365 días después de la fecha de recepción de la notificación por el depositario. Cuando en la notificación se establezca un plazo más largo, la denuncia surtirá efecto cuando venza ese plazo más largo, contado a partir de la fecha en que el depositario haya recibido la notificación. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_221" class="MercuryDocument">
+        <content eId="para_221__content">
+          <p xml:space="preserve">HECHA en un solo original, cuyos textos en árabe, chino, español, francés, inglés y ruso son igualmente auténticos.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
