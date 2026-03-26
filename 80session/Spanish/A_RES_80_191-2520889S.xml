@@ -1,0 +1,904 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/"></FRBRuri>
+          <FRBRdate date="2025-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/spa@/"></FRBRuri>
+          <FRBRdate date="2025-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/spa@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Permanent Forum on Indigenous Issues" showAs="UN. Permanent Forum on Indigenous Issues" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Voluntary Fund for Indigenous Peoples" showAs="UN Voluntary Fund for Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. General Assembly (82nd sess. : 2027-2028). High-Level Meeting on the 20th anniversary of the UN Declaration on the Rights of Indigenous Peoples" showAs="UN. General Assembly (82nd sess. : 2027-2028). High-Level Meeting on the 20th anniversary of the UN Declaration on the Rights of Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="World Conference on Indigenous Peoples (2nd : xxxx : xxxx)" showAs="World Conference on Indigenous Peoples (2nd : xxxx : xxxx)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Declaration on the Rights of Indigenous Peoples (2007)" showAs="UN Declaration on the Rights of Indigenous Peoples (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade of Indigenous Languages (2022–2032)" showAs="International Decade of Indigenous Languages (2022–2032)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDIGENOUS PEOPLES" href="http://metadata.un.org/thesaurus/1003106" showAs="INDIGENOUS PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS ADVANCEMENT" href="http://metadata.un.org/thesaurus/1002977" showAs="HUMAN RIGHTS ADVANCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGES" href="http://metadata.un.org/thesaurus/1003621" showAs="LANGUAGES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL DECADES" href="http://metadata.un.org/thesaurus/1003299" showAs="INTERNATIONAL DECADES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="68a" showAs="Rights of indigenous peoples" shortForm="INDIGENOUS PEOPLES" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-29" outcome="draftResolution" as="A/C.3/80/L.17" by="Bolivia (Plurinational State of) and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Antigua And Barbuda, Armenia, Australia, Belize, Brazil, Canada, Chile, Colombia, Congo, Costa Rica, Cuba, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, Greece, Guatemala, Guyana, Honduras, Iceland, Ireland, Latvia, Luxembourg, Malawi, Malta, Mexico, Nicaragua, Norway, Panama, Paraguay, Peru, Slovenia, Spain, Suriname, Sweden, Uganda and Ukraine" />
+        <step date="2025-11-26" outcome="recommendedForAdoption" as="A/80/545" by="" refersTo="5" />
+        <step date="2025-12-15" outcome="adopted" as="A/80/PV.62" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="166" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c2263f22-a4b7-48f0-abe8-f8fc08a9d3dd">ALBANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/49486917-0912-4519-85a3-9db6c825987d">ALGERIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d69ee0be-1331-4f3e-9c97-9d704d529cd2">ANDORRA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/94e4869e-d914-4e70-b21d-9522813273b0">ANGOLA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7ef97a13-13b4-49f9-817e-e216294b06e6">ANTIGUA AND BARBUDA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b923e3cf-15e6-4438-bf00-b2ec7e0909c2">ARMENIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/30a0ae86-ebbd-4042-ad13-f96ceadd4cde">AUSTRALIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/72daa19e-90b1-4d34-8708-965a2537a2c9">AUSTRIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/479b0ca5-9e3d-4ea5-8fb4-ea90c2bba5f6">AZERBAIJAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/eaa3fead-a98e-4eb4-ae3b-5d0c7e167784">BAHAMAS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a7427b62-43d0-4dc5-b63f-ea6914a2da0a">BAHRAIN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c73a28a0-bba7-4de3-9674-0f06d0aac7a8">BANGLADESH</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f8cadd3c-910f-4073-9184-e129d3edd74b">BARBADOS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d9b4d381-c105-49b0-a99b-d0e8008d75de">BELARUS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ad625fa0-7193-4eb2-9dab-7456b710e52a">BELGIUM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b9cb9a60-9caa-416c-8ca3-9aaad2d79a0a">BELIZE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/908cab5c-651f-4365-a702-edbea0aec2b9">BHUTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e559063d-a6a7-4785-baa0-f0a8741884db">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/af7e074b-c841-432a-9543-42000c851a5b">BOTSWANA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/8f2da5d0-fa10-46ef-a221-d036584a97e7">BRAZIL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/28c52bad-201b-43e9-84d7-b5fa581fe7b4">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/05d47d83-cd3b-4824-b823-782edafcf308">BURUNDI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/767bae53-c5ec-41b9-8788-f86468b43873">CABO VERDE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31c0b822-9fb2-4443-8afd-e565eaf718f0">CAMBODIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6178dec5-3424-4af7-aa33-d66f9b01392c">CANADA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/00bcb7bd-b1cd-40c6-ac44-031d4d043cac">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7cc6e8c6-538b-4e08-85b8-f77bdc964de7">CHAD</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2ea1bb00-22aa-460a-ba5c-2a05169fc2f6">CHILE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f9584092-3401-4a9a-a43f-6697c61fcf33">CHINA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/165cc4b7-4208-4baa-98fd-921108e83888">COLOMBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a1c96d23-b00d-4afb-926d-301a0908edbe">COMOROS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5cf1d07a-0ef7-4a2c-a34d-f93d5ca7adfa">CONGO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/186ccfb3-cac0-4ba4-a0ea-df0a624959a2">COSTA RICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/473610d6-eb4c-4ea2-a0ea-7c45e6d50a3a">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0c350bb7-3ce3-425f-87ff-c4439a6f7160">CROATIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fcf098a7-56e9-43ce-aa3e-7ea50c956c8a">CUBA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f0c694fb-1539-4fd6-bff1-710210911e61">CYPRUS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/4275087d-4018-4082-899d-95f37efeda65">CZECHIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f97d8780-8db4-4ad0-9596-eb9f71d5c088">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/415596ca-1981-4435-8596-c5a39741ebcb">DENMARK</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3f988829-9e74-4ba4-a547-c3ea1bc3108a">DJIBOUTI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a51fc359-ad1a-437b-a8c3-ab81a7c24e51">DOMINICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/16b4ddd5-fc12-4056-a10c-fc0953194825">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/56f93eb9-14e4-4d05-aa80-297382ccd520">ECUADOR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ebd962e4-2935-48e9-81f9-117e7208256f">EGYPT</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/68619c18-bcd6-4dfa-9361-fc17576db8f9">EL SALVADOR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/77c02559-b91e-4b3e-ad48-497e8c1ee983">EQUATORIAL GUINEA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/460aca38-702d-4516-8cb2-d98b5d5c95a3">ERITREA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/26404bbd-1213-46b1-959f-e3bc52d74690">ESTONIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/01b637e1-1497-4825-b73d-e0114a7f4d22">ESWATINI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/8564788e-c8cf-4d6f-bf01-2776093ab382">FIJI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/1febb602-661d-47d4-b305-d662ae72b12c">FINLAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cb7c7bfe-b8d6-4d7a-8bc3-910198d0fc5b">GABON</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7221a14c-4c12-42d1-84bd-e23ec48117d9">GAMBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/999de5ba-5ff1-424c-8d44-b97c8f0dfbd1">GEORGIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/745bbc2a-fc50-4b94-bb96-2ff7ed380081">GERMANY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/aa84bb56-adb8-412e-94c8-a152b96d9766">GHANA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/48fef743-cab7-4bcb-b62a-d7db8c392f1b">GREECE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a7cd6917-56a0-4299-8065-3bc46406f241">GRENADA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/254197a1-224f-4cb5-a789-cc03b1649331">GUATEMALA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6c1fef19-d29c-4997-8411-46ce954876c5">GUINEA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d914a0dc-7cf5-41be-8170-f028f9aa9642">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/8ada8ca8-92b7-4ffd-81e4-c72af73a7fbd">GUYANA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d5a61388-96ad-4e77-825f-f38f9a1f3975">HAITI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/22d5b3de-ae25-4b00-aaf9-c3e199d62284">HONDURAS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e27ca14f-c9bf-4d55-9620-055ccda65105">HUNGARY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e1eabd31-bc07-4cbf-9bf9-cabde8b9cf8b">ICELAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/79bbdfc5-a7aa-40e5-947e-bd72b16753c0">INDIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/73d76131-a55c-43b4-8dcd-bfe9bdbc52e3">INDONESIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/4d28f825-3049-4a3a-b99a-a744d7967ad0">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b67c1745-835a-43e5-a28b-8a1d61eb0f9b">IRAQ</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c06b1507-dd6b-4d06-a8fb-fe9077b2743a">IRELAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b5f1558d-8825-44f1-93d5-30a34e277ddd">ITALY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0bfd85df-57d0-49d4-ba8e-fdb7796ee7b5">JAMAICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6bf9481b-2a49-475f-a0cb-eaa6544800ea">JAPAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/21d407c3-f4fa-4919-bb5e-530bb37c855f">JORDAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5c6a0e2f-afef-4643-be58-6339c57757c6">KAZAKHSTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/12f4924a-61d7-48d0-8951-e9adc48863b8">KENYA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b337dcf4-c984-4f33-9fec-4d4bd1568fe6">KUWAIT</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9985b7c8-6ff2-4e1e-ae1d-e33b81d8ec80">KYRGYZSTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b68d612f-fe71-4e54-bc0e-bc3728559356">LATVIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9fc9e635-1c29-4cca-8f9a-befb27ef901a">LEBANON</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6228fb5e-5e84-441c-85ad-52f49bc55aa4">LESOTHO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6b01a853-7d0a-4033-9ee6-94cac04e2fcf">LIBERIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fd428e58-b85e-4d39-81a8-896368359dd5">LIBYA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3f1df56a-8572-47be-b162-42be51d167d4">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b703d3cb-df23-4de8-85bb-d73774d0e7c8">LITHUANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a5f498e1-370e-4905-a818-245d460d6611">LUXEMBOURG</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c357f8bb-2aac-43d9-b02b-ca2b729ab475">MALAWI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/819631a7-37d3-4b1e-b777-f1b6a2ccdd62">MALAYSIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31a35e3f-5741-4c17-b067-2e771e3b5bbe">MALDIVES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f2eea3ae-03df-4370-b988-e89794ea698c">MALTA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9c5bd666-9a09-42e1-8f15-1d98411b1197">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/08d7e28b-b0f5-4136-aadb-e597a4a71840">MAURITANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fe9bbd30-0ba7-482f-a010-ee0572add831">MAURITIUS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/86af548b-4937-46a5-892c-e2143400e530">MEXICO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/34366887-02c2-48a2-b613-7c24e16993de">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f39fb00b-8b11-4cd5-8324-cbb8241c7bbc">MONACO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/1593668b-f3a3-404b-b168-f4ac60c6bf25">MONGOLIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/24e76720-cd3a-40e9-98fe-63cd5ebb7dfd">MONTENEGRO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0b101161-cf59-48fc-895f-d482226a5b03">MOROCCO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c6dba110-5120-4484-9210-5a16eda3a394">MOZAMBIQUE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/97753e65-3597-4af3-accd-ac29446db9d3">MYANMAR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/80e02317-421e-4609-bff9-47013acc98fc">NAMIBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3922e336-a0f8-4780-b597-d9485555160e">NEPAL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/089a6443-0bba-4dd2-bc8d-a4888bb508b8">NETHERLANDS (KINGDOM OF THE)</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/61a1d68e-31b5-4f4a-806c-ba7c96adc35b">NEW ZEALAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31b145fd-f439-4e33-960f-35e2874d3d44">NICARAGUA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/1c98d616-3b6a-4d15-a7cb-f88c7f988b83">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c9c9ede6-9336-434f-af36-e51851961fc7">NORWAY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/dd416f37-c0cf-4faf-9b13-92bafe14f498">OMAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3926ffb9-88d7-4151-91da-1a5908c7ae20">PAKISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ba6d30ba-2cc9-4fd9-be1d-e03e841676cd">PALAU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e66233ec-d369-4790-a050-99b57765e7e8">PANAMA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3880f8ed-8484-457f-8dff-c876d8982252">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fbe274d1-90a5-4944-9b94-f028e1a22b35">PARAGUAY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fe3f7326-ddc8-40ba-8b9f-ac295ed610fc">PERU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2c834c98-f394-4374-bf8b-74e245a92e7d">PHILIPPINES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f1b285eb-6097-463b-ac1a-495b33b115b5">POLAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/92e6f834-a106-4fb7-9a8c-7a7cc5a04697">PORTUGAL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b5aec67e-3382-4cc2-bba1-d9e5188b149e">QATAR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5473bc2f-d634-4699-a8c2-84cb1fa7d434">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/55bdd397-db4f-4c17-9d04-dababa300feb">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0a287e26-2d4c-46a3-bba0-dcb8ff93cef2">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/37d91197-ed78-460d-ab2c-3a0fccd5f809">RWANDA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cfea5d7a-cdd3-44d0-bd51-1402015c2e01">SAINT KITTS AND NEVIS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/731efbf2-9db5-461b-a1ac-c48008a38b82">SAINT LUCIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/bff2bf77-a226-403e-a29c-025eff0fe332">SAMOA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/066bfd5e-b05d-4ce2-9a65-c5afb924808f">SAN MARINO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e2159fc5-00d5-4332-8559-d91d84732455">SAUDI ARABIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6a7d4ffa-211c-4ee4-9053-ce63433e3906">SENEGAL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/98822dcb-0fed-4369-90cc-7d82a8a32208">SERBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0e9662a4-9a7e-435d-a938-42c5f0fa004c">SEYCHELLES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d9c471e5-16f5-47e8-b699-14b887101713">SIERRA LEONE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/eed8cf99-8c46-4a7c-bb30-ed636b6c3a9b">SINGAPORE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c9d28335-c79b-450d-af36-1675fa6f572d">SLOVENIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/26e6c551-df72-47ef-8035-e3782f4d3844">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e3b4a626-fd77-4083-b30f-d6c1dca3a910">SOUTH AFRICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/dd08eda8-c78a-4f4f-bd1f-8c2d1538e03d">SOUTH SUDAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/81bf68f1-1c05-4153-8964-bf5a1672fd0c">SPAIN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cd06f02a-0f66-4cc4-b1f7-6c83b45247db">SRI LANKA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cf4c819e-b2ad-474d-81ce-1e47f9ce115d">SUDAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a7766363-d8bf-47be-9f26-d170a015e109">SURINAME</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/4bf69580-9c48-442b-9e37-0538d65ccc7d">SWEDEN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/12258e51-56fe-43c6-9787-ed88fb50e1c1">SWITZERLAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7e372765-f640-416d-85c8-fb60e24c8a98">TAJIKISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0159ec12-b34f-4a0d-852a-359ede7b2de9">THAILAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/675263e7-b566-4601-82b2-d829ce2b77f1">TIMOR-LESTE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/877fe7b1-e940-43c4-9197-fd6a25af17c9">TOGO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/24e8b023-a043-4109-83fb-d85cbf15881a">TONGA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2703e160-cd96-45da-bff8-f955d0480259">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ff4fa7e0-56a2-4b3b-b93e-e19a0dc33ea3">TUNISIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/356ac538-feb4-4d8a-a4e9-a9eb5dd40fc5">TÜRKİYE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2ef537f2-9936-4c57-a68e-5eef2c23cbd6">TURKMENISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/eefd68f2-11e8-467f-88f9-6e02e1ba7d00">TUVALU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/76233ba2-b875-406f-b5c4-33ce72f474d2">UGANDA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f2b9a082-3774-496a-8532-d90f771afe7c">UKRAINE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31a3f4c0-1906-4d1c-af75-f2e665f2a662">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ed262ca9-2957-42cb-8a92-f5ab6a9b7d6a">UNITED KINGDOM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/37fc8363-d3ed-4331-ab43-7e89e0c57d31">URUGUAY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5f898516-ae33-41eb-b522-713d67fbf3a6">UZBEKISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3d83b42d-b990-4186-b573-912129adaeb2">VANUATU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cc63aa1f-62b8-4edf-b7c8-03111fa66d89">VIET NAM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a2f8be65-f1c5-4057-a6e8-0bf4711bc9a1">YEMEN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/482a08a1-65d1-4347-b8ba-8e1f0ecc4a2e">ZAMBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/44089ce6-e11a-4efd-b372-3da80311d317">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="3" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/424578ea-bab0-4c80-9a35-d673edb2a741">ARGENTINA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d9be7f99-010f-408d-bd33-0982581c2361">ISRAEL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9e7f3347-8c9f-491b-8c7c-efd8be043c78">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="8" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e6c182a4-1c59-4211-8d24-747e3501c6e0">BULGARIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9bb2d826-81c1-43ce-ae66-39a3f7bc58d5">CAMEROON</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2203cfb4-b25b-4639-885c-1d58c8d3114f">ETHIOPIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/956a3881-b5fe-406b-8177-9fe7d9b835af">FRANCE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f8b274b0-f014-4b25-99fd-6f2953f4aa1c">NIGERIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/67e45b85-8dbb-4986-a38f-e53fe09104e7">ROMANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/84a6ed97-f6a8-42a0-b251-715a484bd592">SLOVAKIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f6078cce-cdad-4834-a418-c0d30431be6f">UNITED REPUBLIC OF TANZANIA</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Tercera Comisión"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-20889 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/191</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea General</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 de diciembre de 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">Octogésimo período de sesiones</session>
+      </p>
+      <p>
+        <inline title="68 a)" name="agenda item">Tema 68 a) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Derechos de los Pueblos Indígenas: derechos de los Pueblos Indígenas</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea General el 15 de diciembre de 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[sobre la base del informe de la Tercera Comisión (<inline name="originating document">A/80/545, párr. 5</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/191.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Derechos de los Pueblos Indígenas</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea General</span>,</p>
+      </formula>
+      <container name="Reafirmando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>los propósitos y principios que figuran en la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Recordando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>todas sus resoluciones pertinentes y las resoluciones del Consejo de Derechos Humanos y del Consejo Económico y Social relativas a los derechos de los Pueblos Indígenas, reafirmando sus resoluciones <a href="https://docs.un.org/es/A/RES/65/198">65/198</a>, de 21 de diciembre de 2010, <a href="https://docs.un.org/es/A/RES/66/142">66/142</a>, de 19 de diciembre de 2011, <a href="https://docs.un.org/es/A/RES/67/153">67/153</a>, de 20 de diciembre de 2012, <a href="https://docs.un.org/es/A/RES/68/149">68/149</a>, de 18 de diciembre de 2013, <a href="https://docs.un.org/es/A/RES/69/2">69/2</a>, de 22 de septiembre de 2014, <a href="https://docs.un.org/es/A/RES/69/159">69/159</a>, de 18 de diciembre de 2014, <a href="https://docs.un.org/es/A/RES/70/232">70/232</a>, de 23 de diciembre de 2015, <a href="https://docs.un.org/es/A/RES/71/178">71/178</a>, de 19 de diciembre de 2016, <a href="https://docs.un.org/es/A/RES/71/321">71/321</a>, de 8 de septiembre de 2017, <a href="https://docs.un.org/es/A/RES/72/155">72/155</a>, de 19 de diciembre de 2017, <a href="https://docs.un.org/es/A/RES/72/247">72/247</a>, de 24 de diciembre de 2017, <a href="https://docs.un.org/es/A/RES/73/156">73/156</a>, de 17 de diciembre de 2018, <a href="https://docs.un.org/es/A/RES/74/135">74/135</a>, de 18 de diciembre de 2019, <a href="https://docs.un.org/es/A/RES/75/168">75/168</a>, de 16 de diciembre de 2020, <a href="https://docs.un.org/es/A/RES/76/148">76/148</a>, de 16 de diciembre de 2021, <a href="https://docs.un.org/es/A/RES/77/203">77/203</a>, de 15 de diciembre de 2022, <a href="https://docs.un.org/es/A/RES/78/189">78/189</a>, de 19 de diciembre de 2023, <a href="https://docs.un.org/es/A/RES/79/159">79/159</a>, de 17 de diciembre de 2024, y <a href="https://docs.un.org/es/A/RES/79/315">79/315</a>, de 30 de junio de 2025, y recordando las resoluciones del Consejo de Derechos Humanos <a href="https://docs.un.org/es/A/HRC/RES/27/13">27/13</a>, de 25 de septiembre de 2014<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales de la Asamblea General, sexagésimo noveno período de sesiones, suplemento núm. 53A</span> y correcciones (<a href="https://docs.un.org/es/A/69/53/Add.1">A/69/53/Add.1</a>, <a href="https://docs.un.org/es/A/69/53/Add.1/Corr.1">A/69/53/Add.1/Corr.1</a> y <a href="https://docs.un.org/es/A/69/53/Add.1/Corr.2">A/69/53/Add.1/Corr.2</a>), cap. IV, secc. A.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/30/4">30/4</a>, de 1 de octubre de 2015<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/70/53/Add.1">A/70/53/Add.1</a>), cap. III.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/33/12">33/12</a> y <a href="https://docs.un.org/es/A/HRC/RES/33/13">33/13</a>, de 29 de septiembre de 2016<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo primer período de sesiones, suplemento núm. 53A</span> y corrección (<a href="https://docs.un.org/es/A/71/53/Add.1">A/71/53/Add.1</a> y <a href="https://docs.un.org/es/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>), cap. II.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/36/14">36/14</a>, de 28 de septiembre de 2017<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo segundo período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/72/53/Add.1">A/72/53/Add.1</a>), cap. III.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/39/13">39/13</a>, de 28 de septiembre de 2018<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo tercer período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/73/53/Add.1">A/73/53/Add.1</a>), cap. II.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/42/19">42/19</a>, de 26 de septiembre de 2019<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo cuarto período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/74/53/Add.1">A/74/53/Add.1</a>), cap. III.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/45/12">45/12</a>, de 6 de octubre de 2020<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo quinto período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/75/53/Add.1">A/75/53/Add.1</a>), cap. III.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/48/11">48/11</a>, de 8 de octubre de 2021<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo sexto período de sesiones, suplemento núm. 53A </span>(<a href="https://docs.un.org/es/A/76/53/Add.1">A/76/53/Add.1</a>), cap. IV, secc. A.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/51/18">51/18</a>, de 6 de octubre de 2022<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo séptimo período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/77/53/Add.1">A/77/53/Add.1</a>), cap. III, secc. A.</p></authorialNote>, <a href="https://docs.un.org/es/A/HRC/RES/54/12">54/12</a>, de 11 de octubre de 2023<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo octavo período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/78/53/Add.1">A/78/53/Add.1</a>), cap. III, secc. A.</p></authorialNote>, <a href="https://docs.un.org/es/A/hrc/RES/57/15">5</a><a href="https://docs.un.org/es/A/hrc/RES/57/15">7</a><a href="https://docs.un.org/es/A/hrc/RES/57/15">/15</a>, de 10 de octubre de 2024<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">septuagésimo noveno período de sesiones, suplemento núm. 53A</span> (<a href="https://docs.un.org/es/A/79/53/Add.1">A/79/53/Add.1</a>), cap. II.</p></authorialNote>, y <a href="https://docs.un.org/es/A/hrc/RES/60/13">6</a><a href="https://docs.un.org/es/A/hrc/RES/60/13">0</a><a href="https://docs.un.org/es/A/hrc/RES/60/13">/13</a>, de 6 de octubre de 2025,</p>
+      </container>
+      <container name="Reafirmando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Resolución <a href="https://docs.un.org/es/A/RES/61/295">61/295</a>, anexo.</p></authorialNote>, que trata de sus derechos individuales y colectivos, ha tenido una influencia positiva en la redacción de varias constituciones y leyes a los niveles nacional y local, y ha contribuido al desarrollo progresivo de marcos jurídicos y políticas internacionales y nacionales,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>el documento final de su reunión plenaria de alto nivel, conocida como Conferencia Mundial sobre los Pueblos Indígenas, que se celebró en Nueva York los días 22 y 23 de septiembre de 2014<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Resolución <a href="https://docs.un.org/es/A/RES/69/2">69/2</a>.</p></authorialNote>, en el que los Jefes de Estado y de Gobierno, los ministros y los representantes de los Estados Miembros reiteraron la importante función que desempeñan permanentemente las Naciones Unidas en la promoción y protección de los derechos de los Pueblos Indígenas, recordando asimismo el proceso preparatorio inclusivo de la reunión plenaria de alto nivel, en particular la amplia participación de representantes de los Pueblos Indígenas, y acogiendo con beneplácito y reafirmando los compromisos asumidos, las medidas adoptadas y los esfuerzos desplegados por los Estados, el sistema de las Naciones Unidas, los Pueblos Indígenas y otros actores en relación con su aplicación,</p>
+      </container>
+      <container name="Alentando" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Alentando </span>a que los Pueblos Indígenas participen activamente en la aplicación del documento final de su reunión plenaria de alto nivel conocida como Conferencia Mundial sobre los Pueblos Indígenas, en particular en los planos regional y mundial, e invitando a la Asamblea General a que considere la posibilidad de celebrar una conferencia mundial de seguimiento sobre los Pueblos Indígenas que permita dar seguimiento a la aplicación del documento final,</p>
+      </container>
+      <container name="Recordando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la Agenda 2030 para el Desarrollo Sostenible<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Resolución <a href="https://docs.un.org/es/A/RES/70/1">70/1</a>.</p></authorialNote> y destacando la necesidad de garantizar que no se deje a nadie atrás y de esforzarse por llegar primero a los más rezagados, en particular a los Pueblos Indígenas, que deberían participar en la implementación de la Agenda 2030, contribuir a ella y beneficiarse de ella sin discriminación, y alentando a los Estados Miembros a que tengan debidamente en cuenta todos los derechos de los Pueblos Indígenas al implementar la Agenda 2030,</p>
+      </container>
+      <container name="Destacando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la importancia de promover y tratar de lograr los objetivos de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas también mediante la cooperación internacional para apoyar la concertación de esfuerzos e instrumentos a los niveles nacional y regional con el propósito de alcanzar los fines de la Declaración, incluidos el derecho de los Pueblos Indígenas a conservar y reforzar sus propias instituciones políticas, jurídicas, económicas, sociales y culturales y su derecho a participar plenamente, si lo desean, en la vida política, económica, social y cultural del Estado,</p>
+      </container>
+      <container name="Tomando nota" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> de las referencias que se hacen a los Pueblos Indígenas en el Pacto para el Futuro, el Pacto Digital Global y la Declaración sobre las Generaciones Futuras<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Resolución <a href="https://docs.un.org/es/A/RES/79/1">79/1</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Observando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Observando </span>la necesidad de reconocer, respetar, promover y proteger los derechos de los Pueblos Indígenas y sus territorios, tierras y ecosistemas, salvaguardando al mismo tiempo sus tradiciones, creencias espirituales y conocimientos ancestrales, de reforzar sus propias instituciones políticas, jurídicas, económicas, sociales y culturales, manteniendo a la vez su derecho a participar plenamente, si lo desean, en la vida política, económica, social y cultural del Estado, y de garantizar su derecho a participar en la adopción de decisiones sobre asuntos que afecten a sus derechos, con arreglo a la legislación y de conformidad con las obligaciones en virtud del derecho internacional de los derechos humanos,</p>
+      </container>
+      <container name="Reiterando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reiterando </span>que la pandemia de enfermedad por coronavirus (COVID‑19) fue uno de los mayores desafíos mundiales, y reconociendo que, aunque su fase aguda ha finalizado, sus consecuencias siguen afectando a los Pueblos Indígenas, especialmente a las mujeres y las niñas, sobre todo en lo referente a su salud, bienestar, medios de vida, seguridad alimentaria, economías, comercio, educación y pleno disfrute de los derechos humanos, y causando efectos desproporcionados en los pobres y en quienes se encuentran en situación de vulnerabilidad,</p>
+      </container>
+      <container name="Reconociendo" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la necesidad de adaptar la ciencia, la tecnología y la innovación y hacer que sean pertinentes para los Pueblos Indígenas, con arreglo al principio del consentimiento libre, previo e informado, fomentando las sinergias entre la ciencia y la tecnología y los conocimientos, los sistemas, las prácticas y las capacidades indígenas,</p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación</span> por el aumento de la discriminación, el discurso de odio, la estigmatización, el racismo, la discriminación racial, la xenofobia y las formas conexas de intolerancia, en particular contra los Pueblos Indígenas, y resaltando la necesidad de contrarrestar esas conductas, de conformidad con el derecho internacional de los derechos humanos,</p>
+      </container>
+      <container name="Condenando" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Condenando </span>los casos de amenazas, hostigamiento, represalias y asesinato de miembros de los Pueblos Indígenas, en particular mujeres y niñas, y personas con discapacidad, a menudo con impunidad, así como de invasiones de tierras, desalojos forzosos arbitrarios y otras prácticas abusivas,</p>
+      </container>
+      <container name="Condenando también" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Condenando también</span> el aumento de los casos de intimidación, acoso y represalias contra defensores indígenas de los derechos humanos y líderes indígenas, incluidas las mujeres indígenas, así como los representantes de los Pueblos Indígenas que asisten a reuniones de las Naciones Unidas y titulares de mandatos de las Naciones Unidas que trabajan en favor de los derechos de los Pueblos Indígenas, y expresando su preocupación por la práctica de algunos países, incluidos los que celebran reuniones sobre cuestiones indígenas, de demorar o denegar de forma intencionada o discriminatoria visados de entrada a titulares de mandatos de las Naciones Unidas o representantes de los Pueblos Indígenas, o de aplicarles restricciones de viaje adicionales que interfieren, entre otras cosas, con su capacidad para participar en esas reuniones o para regresar de ellas,</p>
+      </container>
+      <container name="Teniendo presentes" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Teniendo presentes</span> los instrumentos de política incluidos en el Pacto Mundial para la Migración Segura, Ordenada y Regular<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Resolución <a href="https://docs.un.org/es/A/RES/73/195">73/195</a>, anexo.</p></authorialNote> en los que los Estados Miembros pueden basarse, entre otras cosas para responder a las necesidades de los migrantes que se enfrentan a situaciones de vulnerabilidad, incluidos los Pueblos Indígenas,</p>
+      </container>
+      <container name="Observando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Observando </span>la importancia que tienen para las mujeres y las niñas indígenas la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas y el Convenio sobre Pueblos Indígenas y Tribales, 1989 (núm. 169), de la Organización Internacional del Trabajo<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1650, núm. 28383.</p></authorialNote>,</p>
+      </container>
+      <container name="Recordando" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>las conclusiones convenidas de la Comisión de la Condición Jurídica y Social de la Mujer en su 63<sup>er</sup> período de sesiones<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales del Consejo Económico y Social, 2019, suplemento núm. 7</span> (<a href="https://docs.un.org/es/E/2019/27">E/2019/27</a>), cap. I, secc. A.</p></authorialNote>, en las que se instó a los Gobiernos de todos los niveles, según procediera, junto con las entidades del sistema de las Naciones Unidas y las organizaciones internacionales y regionales pertinentes, en el marco de sus mandatos respectivos y teniendo presentes las prioridades nacionales, a promover y proteger los derechos de las mujeres y las niñas indígenas, incluidas las que viven en zonas rurales y remotas, combatiendo las formas múltiples e interseccionales de discriminación y los obstáculos que enfrentan, en particular la violencia, garantizando el acceso a una educación inclusiva y de calidad, la atención médica, los servicios públicos, los recursos económicos, incluidos la tierra y los recursos naturales, y el trabajo decente, en el caso de las mujeres, promoviendo su participación fructífera en la economía y los procesos de adopción de decisiones a todos los niveles y en todos los ámbitos, respetando y protegiendo al mismo tiempo sus conocimientos tradicionales y ancestrales, reconociendo que las mujeres y las niñas indígenas, incluidas las que viven en zonas rurales y remotas, independientemente de su edad, suelen verse expuestas a la violencia y a tasas más elevadas de pobreza, y tienen un acceso limitado a los servicios de salud, la tecnología de la información y las comunicaciones, la infraestructura, los servicios financieros, la educación y el empleo, y reconociendo también la contribución cultural, social, económica, política y ambiental de esas mujeres y niñas, en particular en lo que respecta a la mitigación del cambio climático y la adaptación a él,</p>
+      </container>
+      <container name="Reconociendo" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que la violencia contra las mujeres y las niñas indígenas, en línea y en otros medios, repercute negativamente en su disfrute de los derechos humanos y las libertades fundamentales y limita seriamente la participación plena, efectiva y significativa en condiciones de igualdad de las mujeres indígenas en la sociedad, la economía y la toma de decisiones políticas, y a este respecto recordando la resolución <a href="https://docs.un.org/es/A/HRC/RES/32/19">32/19</a> del Consejo de Derechos Humanos, de 1 de julio de 2016, titulada “Acelerar los esfuerzos para eliminar la violencia contra la mujer: prevención de la violencia contra las mujeres y las niñas, incluidas las mujeres y las niñas indígenas, y respuesta a este fenómeno”<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo primer período de sesiones, suplemento núm. 53</span> (<a href="https://docs.un.org/es/A/71/53">A/71/53</a>), cap. V, secc. A.</p></authorialNote>, en la que se atrae una mayor atención a esta cuestión, y reconociendo también los efectos negativos de las formas múltiples e interseccionales de discriminación,</p>
+      </container>
+      <container name="Tomando nota" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> de la recomendación general núm. 39 (2022), relativa a los derechos de las mujeres y las niñas indígenas<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		<a href="https://docs.un.org/es/CEDAW/C/GC/39">CEDAW/C/GC/39</a>.</p></authorialNote>, del Comité para la Eliminación de la Discriminación contra la Mujer, y observando además que proporciona a los Estados Partes recomendaciones sobre medidas legislativas, normativas y de otro tipo pertinentes para garantizar el cumplimiento de la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1249, núm. 20378.</p></authorialNote>,</p>
+      </container>
+      <container name="Destacando" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la importancia del empoderamiento y la creación de capacidad de las mujeres y los jóvenes indígenas, incluida su participación plena, significativa, igualitaria y efectiva en los procesos de adopción de decisiones sobre los asuntos que les conciernen directamente, como, cuando corresponda, las políticas, los programas y los recursos dirigidos a mejorar el bienestar de las mujeres, los niños y los jóvenes indígenas, en particular en los ámbitos de los servicios de salud de calidad, la educación de calidad inclusiva, el empleo productivo y el trabajo decente, y la transmisión de los conocimientos tradicionales, científicos y técnicos, las lenguas y las tradiciones y prácticas espirituales y religiosas, así como la importancia de adoptar medidas para promover el conocimiento y la comprensión de sus derechos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la importancia del Año Internacional de las Lenguas Indígenas y del Decenio Internacional de las Lenguas Indígenas para llamar la atención sobre la grave pérdida de lenguas indígenas y la necesidad apremiante de preservarlas, revitalizarlas y promoverlas, incluidas las lenguas de señas, y de adoptar nuevas medidas urgentes con ese fin a los niveles nacional e internacional, teniendo en cuenta los desafíos relacionados con la gran diversidad lingüística, incluida la promoción, traducción e interpretación de los instrumentos internacionales a lenguas indígenas,</p>
+      </container>
+      <container name="Destacando" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la importancia de la preservación, revitalización y promoción de las lenguas indígenas para el empoderamiento de sus usuarios (hablantes y usuarios de lengua de señas) y la preservación de las culturas, las tradiciones y los conocimientos de los Pueblos Indígenas, y reconociendo la contribución positiva que las tecnologías digitales pueden aportar a este respecto,</p>
+      </container>
+      <container name="Reconociendo" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la importante contribución de los Pueblos Indígenas para abordar una serie de cuestiones de la agenda internacional,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> que las personas indígenas tienen derecho a la vida, la integridad física y mental, la libertad y la seguridad de la persona, y el derecho colectivo de los Pueblos Indígenas a vivir en libertad, paz y seguridad, tal como se establece en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, y poniendo de relieve la importancia de que los Pueblos Indígenas participen de manera significativa en las negociaciones de acuerdos de paz, los procesos de justicia transicional, la solución de conflictos, la mediación y los arreglos constructivos,</p>
+      </container>
+      <container name="Reconociendo además" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Reconociendo además </span>la importancia que reviste para los Pueblos Indígenas el poder revitalizar, utilizar, fomentar y transmitir a las generaciones futuras sus historias, lenguas, tradiciones orales, culturas, conocimientos, filosofías, sistemas de escritura y literaturas,</p>
+      </container>
+      <container name="Tomando nota" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Tomando nota </span>de la resolución 76.16 de la Asamblea Mundial de la Salud, de 30 de mayo de 2023, titulada “La salud de los Pueblos Indígenas”<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		Véase Organización Mundial de la Salud, documento WHA76/2023/REC/1.</p></authorialNote>, en que la Asamblea Mundial de la Salud recuerda los principios pertinentes de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, reafirma que los Pueblos Indígenas tienen derecho a sus propias medicinas tradicionales y a mantener sus prácticas de salud, incluida la conservación de sus plantas medicinales vitales, y reafirma también que las personas indígenas tienen derecho a acceder, sin discriminación alguna, a todos los servicios sociales y de salud,</p>
+      </container>
+      <container name="Profundamente preocupada" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Profundamente preocupada</span> por el hecho de que, en muchos casos, las tasas de suicidio en las comunidades de Pueblos Indígenas, en particular entre los jóvenes y niños indígenas, son considerablemente más altas que las de la población en general, y reconociendo la necesidad de adoptar métodos holísticos respecto del bienestar social y emocional mediante la conexión con la tierra, la cultura, la espiritualidad y la ascendencia, además del acceso a los servicios de salud mental y apoyo psicosocial,</p>
+      </container>
+      <container name="Teniendo presente" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Teniendo presente</span> la importancia de promover el respeto de los derechos de los niños indígenas, en particular eliminando las peores formas de trabajo infantil, de conformidad con el derecho internacional, incluidas las obligaciones pertinentes del derecho de los derechos humanos y el derecho laboral internacional,</p>
+      </container>
+      <container name="Reconociendo" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la importancia del acceso a la justicia para la promoción y protección de los derechos de los Pueblos Indígenas y las personas indígenas y la necesidad de examinar y adoptar medidas para eliminar los obstáculos que entorpecen el acceso a la justicia de los Pueblos Indígenas, especialmente para las mujeres, los niños, los jóvenes, las personas de edad y las personas con discapacidad indígenas,</p>
+      </container>
+      <container name="Reiterando" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Reiterando </span>la responsabilidad de las empresas transnacionales y de otro tipo de respetar todos los derechos humanos, reconociendo al mismo tiempo los desafíos específicos que pueden afrontar los Pueblos Indígenas, y todas las leyes y los principios internacionales aplicables y de operar con transparencia y de manera responsable desde los puntos de vista social y ambiental, y poniendo de relieve la necesidad de abstenerse de afectar negativamente al bienestar de los Pueblos Indígenas y de seguir adoptando medidas en materia de responsabilidad y rendición de cuentas de las empresas, entre otras cosas para prevenir abusos de los derechos humanos, mitigar sus efectos y ofrecer reparación por ellos, de conformidad con los Principios Rectores sobre las Empresas y los Derechos Humanos: Puesta en Práctica del Marco de las Naciones Unidas para “Proteger, Respetar y Remediar”<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/HRC/17/31">A/HRC/17/31</a>, anexo.</p></authorialNote>,</p>
+      </container>
+      <container name="Tomando nota" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> de la labor llevada a cabo por el Relator Especial sobre los derechos de los Pueblos Indígenas, en particular con respecto a la protección de los defensores indígenas de los derechos humanos, y de su informe provisional titulado “Identificación, demarcación, registro y titulación de las tierras de los Pueblos Indígenas: prácticas y enseñanzas”<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		Véase <a href="https://docs.un.org/es/A/80/181">A/80/181</a>.</p></authorialNote>, y exhortando a todos los Estados a que examinen las recomendaciones contenidas en el informe,</p>
+      </container>
+      <container name="Tomando nota con aprecio" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Tomando nota con aprecio</span> de la decisión del Consejo de Derechos Humanos contenida en su resolución <a href="https://docs.un.org/es/A/HRC/RES/60/13">60/13</a> de que el tema de la mesa redonda anual de medio día de duración sobre los derechos de los Pueblos Indígenas, que se celebrará durante el 63<sup>er</sup> período de sesiones del Consejo de Derechos Humanos, será “Convención para la Protección del Patrimonio Mundial Cultural y Natural: derechos y colaboración de los Pueblos Indígenas”, y aguardando con interés el correspondiente informe resumido que preparará la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos,</p>
+      </container>
+      <container name="Observando" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Observando </span>los debates para aumentar la participación de los Pueblos Indígenas en la labor del Consejo de Derechos Humanos, incluidos los debates y los resultados de las dos reuniones entre períodos de sesiones sobre maneras concretas de aumentar la participación de los Pueblos Indígenas en la labor del Consejo, celebradas los días 18 y 19 de julio y 17 y 18 de octubre de 2024, que se convocaron para debatir las recomendaciones sobre posibles formas de aumentar la participación de los Pueblos Indígenas en la labor del Consejo, y tomando nota del correspondiente informe resumido preparado por la Oficina del Alto Comisionado<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/HRC/59/35">A/HRC/59/35</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Tomando nota" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> del informe de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos relativo a la mesa redonda de medio día de duración sobre los derechos de los Pueblos Indígenas, celebrada el 27 de septiembre de 2023, en particular el impacto que tienen ciertos proyectos de desarrollo en las mujeres indígenas<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/HRC/56/33">A/HRC/56/33</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Reconociendo" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la importancia del consentimiento libre, previo e informado, como se indica en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas,</p>
+      </container>
+      <container name="Reconociendo y reafirmando" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Reconociendo y reafirmando</span> que las personas indígenas tienen sin discriminación todos los derechos humanos reconocidos en el derecho internacional, y que los Pueblos Indígenas poseen derechos colectivos, enunciados en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, que son indispensables para su existencia, bienestar y desarrollo integral como pueblos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>el valor y la diversidad de las culturas y la forma de organización social de los Pueblos Indígenas y los conocimientos tradicionales holísticos que poseen de sus tierras, recursos naturales y medio ambiente, y destacando que los Pueblos Indígenas, incluidos los que están en aislamiento voluntario o en fase de contacto inicial, tienen el derecho a la libre determinación y pueden optar por vivir de acuerdo con sus tradiciones,</p>
+      </container>
+      <container name="Haciendo notar que" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Haciendo notar que</span>, en el documento final de su reunión plenaria de alto nivel, conocida como Conferencia Mundial sobre los Pueblos Indígenas, afirmó y reconoció la importancia de los lugares religiosos y culturales de los Pueblos Indígenas y de hacer posible el acceso y la repatriación de sus objetos de culto y de restos humanos, conforme a lo previsto en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas,</p>
+      </container>
+      <container name="Encomiando" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Encomiando </span>a los Estados Miembros, las instituciones culturales, religiosas y educativas, los museos, los Pueblos Indígenas y la sociedad civil por la labor que llevan a cabo para combatir el comercio ilícito de bienes culturales de los Pueblos Indígenas, y acogiendo con beneplácito todas las iniciativas, ya sean estatales, institucionales o privadas, encaminadas a lograr la devolución voluntaria de los bienes culturales de los Pueblos Indígenas que hayan sido objeto de apropiación ilícita,</p>
+      </container>
+      <container name="Reconociendo" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que las prácticas agrícolas y la silvicultura que incluyen conocimientos tradicionales e innovaciones indígenas pueden contribuir a superar los retos combinados del cambio climático, la inseguridad alimentaria, la conservación de la diversidad biológica y la lucha contra la desertificación y la degradación de las tierras,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> que los Pueblos Indígenas, en particular las mujeres y niñas indígenas y las personas indígenas con discapacidad, se ven afectados de manera desproporcionada por los efectos del cambio climático, que repercuten negativamente en el disfrute de sus derechos, y destacando la necesidad de recursos, educación y atención médica, así como la necesidad de reforzar la participación plena, igualitaria y significativa de las mujeres indígenas en los procesos de toma de decisiones sobre las políticas relativas al medio ambiente y al desarrollo,</p>
+      </container>
+      <container name="Reconociendo además" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Reconociendo además</span> la importancia de facilitar los medios de subsistencia de los Pueblos Indígenas, lo que puede lograrse, entre otras cosas, mediante el reconocimiento de sus tradiciones, los sistemas de tenencia de la tierra, la adopción de políticas públicas adecuadas y el empoderamiento económico,</p>
+      </container>
+      <container name="Reconociendo" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que el empoderamiento, la inclusión y el desarrollo económicos de todos los Pueblos Indígenas, en particular de las mujeres indígenas, concretamente mediante el establecimiento de empresas que sean de su propiedad, pueden permitirles mejorar su participación en los ámbitos social, cultural, civil y político, alcanzar una mayor independencia económica y construir comunidades más sostenibles y resilientes, y observando la contribución de los Pueblos Indígenas a la economía en general,</p>
+      </container>
+      <container name="Preocupada" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">Preocupada </span>por las enormes desventajas que han afrontado normalmente los Pueblos Indígenas, que se reflejan en toda una serie de indicadores sociales y económicos, y por los obstáculos que les impiden disfrutar plenamente de sus derechos, en particular en lo que respecta a todas las mujeres, jóvenes y niñas,</p>
+      </container>
+      <container name="Destacando" eId="container_46">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la necesidad de prestar particular atención a los derechos y las necesidades especiales de las mujeres, los niños, los jóvenes, las personas de edad y las personas con discapacidad indígenas, que se establece en la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, en particular en el proceso de proteger y promover su acceso a la justicia en condiciones de igualdad,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_47">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> la adopción de la decisión <a href="https://docs.un.org/es/CBD/COP/DEC/16/5">CBD/COP/DEC/16/5</a>, de 1 de noviembre de 2024, relativa al establecimiento del Órgano Subsidiario sobre el artículo 8 j), así como otros asuntos pertinentes para los Pueblos Indígenas en el marco de la Conferencia de las Partes en el Convenio sobre la Diversidad Biológica y sus Protocolos,</p>
+      </container>
+      <container name="Alentando" eId="container_48">
+        <p xml:space="preserve">	<span class="italic">Alentando </span>las iniciativas en favor de la asignación de recursos financieros para los Pueblos Indígenas de manera oportuna, accesible y transparente, respetando el principio de titularidad nacional y las prioridades nacionales,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Observa con aprecio</span> la labor del Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas, del Foro Permanente para las Cuestiones Indígenas y del Relator Especial sobre los derechos de los Pueblos Indígenas, toma nota de los informes del Relator Especial<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/79/160">A/79/160</a>, <a href="https://docs.un.org/es/A/HRC/57/47">A/HRC/57/47</a> y <a href="https://docs.un.org/es/A/HRC/57/47/Add.1">A/HRC/57/47/Add.1</a>.</p></authorialNote> y alienta a todos los Gobiernos a que respondan favorablemente a las solicitudes de visita del Relator Especial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del informe del Alto Comisionado de las Naciones Unidas para los Derechos Humanos sobre los derechos de los Pueblos Indígenas<authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/HRC/60/41">A/HRC/60/41</a>.</p></authorialNote>, del informe del Relator Especial sobre los derechos de los Pueblos Indígenas titulado “Identificación, demarcación, registro y titulación de las tierras de los Pueblos Indígenas: prácticas y enseñanzas”<authorialNote marker="29" placement="bottom" eId="authorialNote_29"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/80/181">A/80/181</a>.</p></authorialNote> y del informe del Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas titulado “Derecho de los Pueblos Indígenas a los datos, en particular en lo que respecta a su recopilación y desglose”<authorialNote marker="30" placement="bottom" eId="authorialNote_30"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/HRC/60/66">A/HRC/60/66</a>.</p></authorialNote> y de su informe anual sobre los derechos de los Pueblos Indígenas<authorialNote marker="31" placement="bottom" eId="authorialNote_31"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/HRC/60/65">A/HRC/60/65</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Gobiernos y al sistema de las Naciones Unidas a que, en consulta y cooperación con los Pueblos Indígenas por medio de sus representantes e instituciones, continúen aplicando medidas adecuadas a nivel nacional, incluidas medidas legislativas, para alcanzar los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas y promover su conocimiento en todos los sectores de la sociedad, incluso entre los integrantes de los órganos legislativos, el poder judicial y la administración pública, y entre los Pueblos Indígenas, e invita a las organizaciones internacionales y regionales, en el marco de sus respectivos mandatos, las instituciones nacionales de derechos humanos, donde estas existan, la sociedad civil, incluidas las organizaciones no gubernamentales, y otras instancias pertinentes a que contribuyan a esos esfuerzos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Recalca </span>la importancia de aplicar el documento final de su reunión plenaria de alto nivel, conocida como Conferencia Mundial sobre los Pueblos Indígenas, y reitera el compromiso de los Estados Miembros de cooperar con los Pueblos Indígenas, por medio de sus propias instituciones representativas, para elaborar y poner en práctica planes de acción, estrategias u otras medidas nacionales, según corresponda, y así alcanzar los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, y reconoce como avance positivo que algunos Estados hayan elaborado o estén elaborando planes de acción nacionales y legislación interna para su aplicación en coordinación con los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>el liderazgo asumido por el Secretario General y el Secretario General Adjunto de Asuntos Económicos y Sociales, en su calidad de alto funcionario del sistema de las Naciones Unidas responsable, en la supervisión de la aplicación y en el seguimiento de un plan de acción de todo el sistema que asegure un enfoque coherente para lograr los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, concienciar sobre los derechos de los Pueblos Indígenas y aumentar la coherencia de las actividades del sistema a este respecto, y alienta a los fondos, programas y organismos especializados del sistema de las Naciones Unidas, a los coordinadores residentes y a los equipos de las Naciones Unidas en los países a que apliquen este plan de manera plenamente conforme con las necesidades y prioridades nacionales en materia de desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros, los coordinadores residentes y los equipos de las Naciones Unidas en los países a que, en el marco de sus mandatos y en coordinación con los Gobiernos interesados, atraigan la participación de los Pueblos Indígenas en la preparación de los Marcos de Cooperación de las Naciones Unidas para el Desarrollo Sostenible y los planes de acción de los programas para los países, en relación con los asuntos que les conciernen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>a los Estados Miembros que trabajen para alcanzar los fines de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados que todavía no hayan ratificado el Convenio sobre Pueblos Indígenas y Tribales, 1989 (núm. 169), de la Organización Internacional del Trabajo o no se hayan adherido a él a que consideren la posibilidad de hacerlo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros a que apliquen la resolución 76.16 de la Asamblea Mundial de la Salud, de 30 de mayo de 2023, titulada “La salud de los Pueblos Indígenas”, e invita al Director General de la Organización Mundial de la Salud a que tenga en cuenta la presente resolución al elaborar un plan de acción mundial para la salud de los Pueblos Indígenas en el marco de la resolución 76.16 y su mandato para someterlo a la consideración de la 79ª Asamblea Mundial de la Salud;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>la necesidad de que los Estados Miembros garanticen la protección de los Pueblos Indígenas afectados por emergencias de salud pública y la protección frente a futuras emergencias sanitarias, y eviten todas las formas de discriminación, especialmente en el contexto del acceso oportuno, universal, inclusivo, equitativo y no discriminatorio a asistencia y servicios de salud y suministros y equipos médicos seguros, de calidad, eficaces y asequibles, incluidos diagnósticos, tratamientos, medicamentos y vacunas, y mediante la difusión de información precisa, clara y con base científica y empírica, incluso en lenguas indígenas, según proceda, y de que no dejen a nadie atrás, esforzándose por llegar primero a los más rezagados, basándose en la dignidad de la persona humana y respetando los principios de igualdad y no discriminación, y exhorta a los Estados Miembros a que adopten medidas inclusivas de respuesta a las emergencias de salud pública y recuperación posterior a estas y a que colaboren con los Pueblos Indígenas y otras partes interesadas pertinentes para empoderar plenamente a todos a fin de que mejoren y protejan su propia salud;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que los Pueblos Indígenas tienen derecho a sus propias medicinas tradicionales y a mantener sus prácticas de salud<authorialNote marker="32" placement="bottom" eId="authorialNote_32"><p xml:space="preserve">		Resolución <a href="https://docs.un.org/es/A/RES/61/295">61/295</a>, anexo, art. 24, párr. 1.</p></authorialNote>, incluso, entre otras cosas, a conservar sus plantas medicinales vitales, como parte de la respuesta a las emergencias de salud pública y sus consecuencias, y reafirma también que las personas indígenas tienen derecho a acceder, sin discriminación alguna, a todos los servicios sociales y de salud;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>el informe del Secretario General sobre la situación del Fondo de Contribuciones Voluntarias de las Naciones Unidas para los Pueblos Indígenas<authorialNote marker="33" placement="bottom" eId="authorialNote_33"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/79/262">A/79/262</a>.</p></authorialNote>, alienta a los Gobiernos y a las organizaciones intergubernamentales y no gubernamentales a que sigan haciendo contribuciones al fondo fiduciario para las cuestiones indígenas y al Fondo de Contribuciones Voluntarias de las Naciones Unidas para los Pueblos Indígenas, e invita a las organizaciones indígenas y a las instituciones privadas y los particulares a que hagan lo propio, y señala la importancia de la accesibilidad, la rendición de cuentas, la transparencia y la distribución geográfica equilibrada en la gestión de esos fondos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda también</span> la ampliación del mandato del Fondo de Contribuciones Voluntarias de las Naciones Unidas para los Pueblos Indígenas a fin de que pueda ayudar a los representantes de organizaciones y comunidades de Pueblos Indígenas a participar, ya sea en persona o, en otro caso, por medios electrónicos, en otros mecanismos y negociaciones como el Foro sobre las Empresas y los Derechos Humanos y la Conferencia de las Partes en la Convención Marco de las Naciones Unidas sobre el Cambio Climático, incluidos sus períodos de sesiones preparatorios y las reuniones del Grupo de Trabajo de Facilitación de la Plataforma de las Comunidades Locales y los Pueblos Indígenas organizadas por la secretaría de la Convención, de conformidad con sus respectivos reglamentos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir ampliando el mandato del Fondo de Contribuciones Voluntarias de las Naciones Unidas para los Pueblos Indígenas a fin de que pueda ayudar a los representantes de organizaciones y comunidades de Pueblos Indígenas a participar en las reuniones relacionadas con la Convención para la Protección del Patrimonio Mundial Cultural y Natural<authorialNote marker="34" placement="bottom" eId="authorialNote_34"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1037, núm. 15511.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Observa </span>la labor en curso y el potencial de la Plataforma de las Comunidades Locales y los Pueblos Indígenas de la Convención Marco de las Naciones Unidas sobre el Cambio Climático, poniendo de relieve el importante papel de los Pueblos Indígenas en el logro de las metas y objetivos establecidos en la Convención Marco de las Naciones Unidas sobre el Cambio Climático<authorialNote marker="35" placement="bottom" eId="authorialNote_35"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 1771, núm. 30822.</p></authorialNote>, el Acuerdo de París<authorialNote marker="36" placement="bottom" eId="authorialNote_36"><p xml:space="preserve">		Véase <a href="https://docs.un.org/es/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decisión 1/CP.21, anexo.</p></authorialNote> y la Agenda 2030 para el Desarrollo Sostenible, y reconoce que los Pueblos Indígenas se encuentran entre los primeros que afrontan las consecuencias directas del cambio climático debido a su dependencia del medio ambiente y sus recursos y su estrecha relación con ellos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_169" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_169__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>el impacto desproporcionado que tiene el cambio climático en los Pueblos Indígenas debido a su dependencia directa de los ecosistemas, entre otras cosas para satisfacer sus necesidades básicas y participar en actividades económicas tradicionales y de otro tipo, y pone de relieve además que el cambio climático supone una amenaza para la supervivencia, la dignidad y el bienestar de los Pueblos Indígenas y exacerba las desigualdades y los retos existentes a los que se enfrentan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_185" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_185__content">
+          <p xml:space="preserve">	<span class="italic">Destaca también</span> la necesidad urgente de mejorar la capacidad de adaptación, fortalecer la resiliencia y reducir la vulnerabilidad de los Pueblos Indígenas al cambio climático y los fenómenos meteorológicos extremos, así como de apoyar el liderazgo, los conocimientos, las tecnologías, las prácticas y los esfuerzos de los Pueblos Indígenas para responder y hacer frente al cambio climático, y alienta a los Estados Miembros a que tomen medidas que aseguren la participación plena y efectiva de los Pueblos Indígenas, incluidas las mujeres, los jóvenes, las personas de edad y las personas con discapacidad indígenas, en los procesos de toma de decisiones en relación con el cambio climático sobre los asuntos que les conciernen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve">	<span class="italic">Destaca además</span> la importancia de aumentar la participación de los Pueblos Indígenas en los procesos y las negociaciones sobre cuestiones que les afectan, como la Convención Marco de las Naciones Unidas sobre el Cambio Climático y el Acuerdo de París<authorialNote marker="37" placement="bottom" eId="authorialNote_37"><p xml:space="preserve">		Aprobado en virtud de la Convención Marco de las Naciones Unidas sobre el Cambio Climático como consta en el documento <a href="https://docs.un.org/es/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decisión 1/CP.21.</p></authorialNote>, y el marco de Biodiversidad de Kunming-Montreal<authorialNote marker="38" placement="bottom" eId="authorialNote_38"><p xml:space="preserve">		Programa de las Naciones Unidas para el Medio Ambiente, documento <a href="https://docs.un.org/es/CBD/COP/15/17">CBD/COP/15/17</a>, decisión 15/4, anexo.</p></authorialNote> del Convenio sobre la Diversidad Biológica de las Naciones Unidas<authorialNote marker="39" placement="bottom" eId="authorialNote_39"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1760, núm. 30619.</p></authorialNote>, la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África<authorialNote marker="40" placement="bottom" eId="authorialNote_40"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 1954, núm. 33480.</p></authorialNote>, y la Convención para la Protección del Patrimonio Mundial Cultural y Natural<authorialNote marker="41" placement="bottom" eId="authorialNote_41"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 1037, núm. 15511.</p></authorialNote>, entre otros;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros y al sector privado a que garanticen un comportamiento empresarial más sostenible, respetuoso con el medio ambiente y responsable que aborde el impacto ambiental adverso que ciertas actividades empresariales, como la explotación forestal y la minería ilegales, la expansión incontrolada de los agronegocios, los proyectos insostenibles de desarrollo de infraestructuras a gran escala y las industrias extractivas, tienen en las tierras y territorios tradicionalmente habitados por los Pueblos Indígenas y en el bienestar de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir celebrando el Día Internacional de los Pueblos Indígenas el 9 de agosto de cada año y solicita al Secretario General que respalde la celebración de ese Día con los recursos disponibles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros y a todas las organizaciones y los organismos del sistema de las Naciones Unidas y otras organizaciones internacionales y regionales, al sector privado y al mundo académico, así como a la sociedad civil, incluidas las organizaciones no gubernamentales, a que celebren de manera apropiada el Día Internacional de los Pueblos Indígenas, entre otras cosas con actividades educativas y de concienciación de la población;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_280" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_280__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros a que tengan debidamente en cuenta todos los derechos de los Pueblos Indígenas al cumplir los compromisos contraídos en la Agenda 2030 y elaborar planes de acción y programas nacionales, así como programas internacionales y regionales, cumpliendo la promesa de no dejar a nadie atrás y esforzarse por llegar primero a los más rezagados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados a que sigan considerando la posibilidad de incluir en los exámenes nacionales voluntarios que presenten al foro político de alto nivel sobre desarrollo sostenible y en los informes nacionales y mundiales información concerniente a los Pueblos Indígenas sobre los progresos realizados y las dificultades observadas en la implementación de la Agenda 2030, teniendo presente lo dispuesto en los párrafos 78 y 79 de la Agenda 2030, y alienta también a los Estados a que recopilen datos desglosados para medir el progreso y garantizar que no se deje a nadie atrás;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_325" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_325__content">
+          <p xml:space="preserve">	<span class="italic">Alienta también</span> a los Estados a que, con arreglo a su contexto nacional y sus características pertinentes, recopilen y difundan datos desglosados por origen étnico, nivel de ingresos, género, edad, raza, estatus migratorio, discapacidad, ubicación geográfica u otros factores, según proceda, a fin de observar y mejorar las repercusiones de las políticas, las estrategias y los programas de desarrollo que tienen por objeto mejorar el bienestar de los Pueblos Indígenas y las personas indígenas, combatir y eliminar la violencia y las formas múltiples e interseccionales de discriminación contra ellos, y apoyar la labor encaminada al logro de los Objetivos de Desarrollo Sostenible y la Agenda 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados a que fomenten un entorno en línea propicio que sea seguro y favorezca la participación de todos los Pueblos Indígenas, y a que adopten todas las medidas necesarias y apropiadas para hacer frente a la desinformación y la apología del odio que constituyen incitación a la discriminación, la hostilidad o la violencia contra los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Secretario General a que incluya información relativa a los Pueblos Indígenas en los próximos informes anuales sobre los progresos realizados para lograr los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_400" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_400__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la necesidad de reforzar el compromiso de los Estados y las entidades del sistema de las Naciones Unidas de incluir la promoción y protección de los derechos de los Pueblos Indígenas en las políticas y los programas de desarrollo a los niveles nacional, regional e internacional, y los alienta a que tengan debidamente en cuenta los derechos de los Pueblos Indígenas en el empeño por cumplir los objetivos de la Agenda 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_427" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_427__content">
+          <p xml:space="preserve">	<span class="italic">Destaca también</span> la necesidad de que los Pueblos Indígenas de todas las regiones contribuyan al foro político de alto nivel sobre el desarrollo sostenible y alienta a los Estados a que mantengan contactos con los Pueblos Indígenas en los planos local, nacional y regional en relación con los Objetivos de Desarrollo Sostenible y a que promuevan el liderazgo de los Pueblos Indígenas en su consecución;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_455" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_455__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>al Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas, al Foro Permanente para las Cuestiones Indígenas y al Relator Especial sobre los derechos de los Pueblos Indígenas a que, en el marco de sus mandatos, tengan debidamente en cuenta los derechos de los Pueblos Indígenas en lo que respecta a la implementación de la Agenda 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_484" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_484__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Foro Permanente para las Cuestiones Indígenas a que siga realizando aportaciones sobre las cuestiones indígenas al foro político de alto nivel sobre el desarrollo sostenible para que sean analizadas en sus exámenes temáticos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_514" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_514__content">
+          <p xml:space="preserve">	<span class="italic">Subraya </span>la necesidad de intensificar los esfuerzos, en cooperación con los Pueblos Indígenas, para prevenir y eliminar todas las formas de violencia, acoso y discriminación, tanto en línea como en otros contextos, contra las mujeres, los niños, los jóvenes, las personas de edad y las personas con discapacidad indígenas, y de apoyar la adopción de medidas que garanticen su empoderamiento y su participación plena, significativa y efectiva en los procesos de adopción de decisiones a todos los niveles y en todas las esferas, y eliminar los obstáculos estructurales y jurídicos que impiden su participación plena, igualitaria y efectiva en la vida política, económica, social y cultural;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_545" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_545__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados a que adopten las medidas necesarias, cuando proceda, para garantizar los derechos, la protección y la seguridad de los Pueblos Indígenas, incluidos los líderes indígenas y los defensores indígenas de los derechos humanos, y para promover un entorno seguro y propicio en el que se prevengan e investiguen las violaciones de los derechos humanos, las muertes, las represalias y los abusos contra ellos o relacionados con ellos, se obligue a los autores a rendir cuentas de sus actos y se garantice el acceso a la justicia y a vías de recurso;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_577" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_577__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>la importancia de que haya una rendición de cuentas efectiva en relación con los actos de violencia contra las mujeres y las niñas indígenas, incluidas todas las formas de violencia sexual y de género, la violencia doméstica, los abusos, la explotación y el acoso sexual, así como en relación con la adopción de medidas apropiadas para prevenir y eliminar dicha violencia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_610" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_610__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los Estados a que consideren la posibilidad de incluir en sus informes relativos a los Pueblos Indígenas y las mujeres indígenas información sobre los progresos realizados y las dificultades observadas en la aplicación de las resoluciones de la Comisión de la Condición Jurídica y Social de la Mujer <a href="https://docs.un.org/es/A/RES/49/7">49/7</a>, de 11 de marzo de 2005, titulada “Las mujeres indígenas más allá del examen decenal de la Declaración y la Plataforma de Acción de Beijing”<authorialNote marker="42" placement="bottom" eId="authorialNote_42"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales del Consejo Económico y Social, 2005, suplemento núm. 7</span> y corrección (<a href="https://docs.un.org/es/E/2005/27">E/2005/27</a> y <a href="https://docs.un.org/es/E/2005/27/Corr.1">E/2005/27/Corr.1</a>), cap. I, secc. D.</p></authorialNote>, y <a href="https://docs.un.org/es/A/RES/56/4">56/4</a>, de 9 de marzo de 2012, titulada “Las mujeres indígenas: agentes claves para la erradicación de la pobreza y el hambre”<authorialNote marker="43" placement="bottom" eId="authorialNote_43"><p xml:space="preserve">		<span class="italic">Ibid</span>., <span class="italic">2012, suplemento núm. 7</span> y corrección (<a href="https://docs.un.org/es/E/2012/27">E/2012/27</a> y <a href="https://docs.un.org/es/E/2012/27/Corr.1">E/2012/27/Corr.1</a>), cap. I, secc. D.</p></authorialNote>, y a que consideren la recomendación general núm. 39 (2022), relativa a los derechos de las mujeres y las niñas indígenas, del Comité para la Eliminación de la Discriminación contra la Mujer;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_644" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_644__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>a los Estados Miembros y a todas las organizaciones y los órganos del sistema de las Naciones Unidas y otras organizaciones internacionales y regionales, al sector privado y al mundo académico, así como a la sociedad civil, a que consideren la importancia de la recomendación general núm. 39 (2022) del Comité para la Eliminación de la Discriminación contra la Mujer, prestando especial atención a la igualdad de género y al empoderamiento de las mujeres y las niñas indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> de la labor de la Comisión de la Condición Jurídica y Social de la Mujer sobre la igualdad de género y el empoderamiento de todas las mujeres y niñas, incluidas las mujeres y las niñas indígenas, y le sugiere que considere en un futuro período de sesiones la cuestión de la igualdad de género y el empoderamiento de las mujeres y las niñas indígenas como tema prioritario;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_715" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_715__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>que el período 2022-2032 fue proclamado Decenio Internacional de las Lenguas Indígenas a fin de llamar la atención sobre la grave pérdida de lenguas indígenas y la necesidad apremiante de conservarlas, revitalizarlas y promoverlas y de adoptar medidas urgentes a los niveles nacional, regional e internacional, y renueva su apoyo a la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura para que actúe como organismo coordinador de las actividades del Decenio Internacional mediante el plan de acción mundial, en colaboración con el Departamento de Asuntos Económicos y Sociales de la Secretaría y otros organismos pertinentes, con los recursos disponibles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_752" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_752__content">
+          <p xml:space="preserve">	<span class="italic">Resalta </span>los progresos realizados respecto del examen de mitad de período de la ejecución del Plan de Acción Mundial para el Decenio Internacional de las Lenguas Indígenas, previsto para 2027 y coordinado por la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, proceso que hará posible evaluar los avances logrados tanto a nivel mundial como en los planes de acción nacionales y locales, con objeto de redoblar los esfuerzos para la preservación, revitalización y promoción de las lenguas indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_790" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_790__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros a que adopten planes de acción nacionales con un enfoque intergeneracional para preservar, revitalizar y promover las lenguas indígenas, incluidas las lenguas de señas, y a que colaboren con instancias públicas y privadas para aumentar el uso de tecnologías digitales que favorezcan la participación y el empoderamiento de los Pueblos Indígenas, respetando al mismo tiempo sus culturas, tradiciones y autonomía;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_829" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_829__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la importancia de las lenguas indígenas como motor para la consecución de los Objetivos de Desarrollo Sostenible, y exhorta a los Estados Miembros a que integren la preservación, la promoción y la revitalización de las lenguas indígenas en los esfuerzos más amplios para implementar la Agenda 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_869" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_869__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> la importancia de crear iniciativas internacionales, regionales y nacionales para promover el uso de las lenguas indígenas, como el Instituto Iberoamericano de Lenguas Indígenas, y a este respecto alienta a los Estados Miembros a que estudien la posibilidad de poner en marcha iniciativas de ese tipo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_910" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_910__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>a los Estados Miembros a que consideren la posibilidad de establecer mecanismos nacionales con fondos suficientes para la implementación satisfactoria del Decenio Internacional de las Lenguas Indígenas, en colaboración con los Pueblos Indígenas, y a que apoyen a los Pueblos Indígenas, como custodios de sus propias lenguas, para que inicien y elaboren medidas apropiadas destinadas a implementar el Decenio Internacional, con el fin de conservar, revitalizar y promover las lenguas indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_952" class="MercuryDocument">
+        <num>43.</num>
+        <content eId="para_952__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que las Naciones Unidas propugnan el multilingüismo como medio de promover, proteger y preservar la diversidad de idiomas y culturas en todo el mundo, reafirma que la diversidad lingüística es un elemento importante de la diversidad cultural y alienta a los Estados Miembros a que adopten políticas públicas con un enfoque intercultural en su diseño e implementación, con el objetivo de preservar, revitalizar y promover las lenguas indígenas, posibilitar la inclusión de programas educativos que refuercen el uso de las lenguas indígenas entre los niños y los jóvenes mediante un enfoque intergeneracional con la participación de los ancianos indígenas y favorecer la promoción y el uso de las lenguas indígenas a nivel internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_995" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_995__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>el derecho de los Pueblos Indígenas a establecer sus propios medios de información en sus propias lenguas y acceder a todos los demás medios de información no indígenas sin discriminación, y exhorta a los Estados a que promuevan y examinen las políticas, las prácticas y los programas de financiación nacionales sobre los medios de comunicación indígenas, en aspectos como la creación de capacidad y la producción de contenidos en lenguas indígenas por productores de contenidos y profesionales de los medios de comunicación indígenas, especialmente mujeres indígenas, y a que fomenten la cooperación internacional, el intercambio de conocimientos y la cooperación entre los medios de comunicación indígenas y otros asociados, como los medios de comunicación mayoritarios y los Gobiernos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1039" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_1039__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Gobiernos a que redoblen los esfuerzos para eliminar el trabajo infantil, tanto en la legislación como en la práctica, en el contexto del respeto de los derechos humanos de los niños indígenas, incluso mediante la cooperación internacional, según proceda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1084" class="MercuryDocument">
+        <num>46.</num>
+        <content eId="para_1084__content">
+          <p xml:space="preserve">	<span class="italic">Alienta también</span> a los Gobiernos a que promuevan la adopción de medidas para poner fin al hambre y la malnutrición en todas sus formas y lograr la seguridad alimentaria y una mejor nutrición para los niños indígenas, en especial los que viven en zonas rurales y remotas, proporcionándoles acceso suficiente a alimentos, agua y saneamiento, educación, incluida una educación intercultural y multilingüe, y acceso universal y equitativo a servicios de salud de calidad, y a que apliquen medidas para erradicar la pobreza y construir sistemas alimentarios sostenibles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1130" class="MercuryDocument">
+        <num>47.</num>
+        <content eId="para_1130__content">
+          <p xml:space="preserve">	<span class="italic">Alienta además</span> a la Universidad de las Naciones Unidas, al Instituto de las Naciones Unidas para Formación Profesional e Investigaciones y al Centro Internacional de Formación de la Organización Internacional del Trabajo en Turín (Italia), entre otros, a que promuevan programas académicos, investigaciones y actividades de capacitación que integren los conocimientos, cosmovisiones y valores de los Pueblos Indígenas, fomentando al mismo tiempo el diálogo intercientífico entre la ciencia y los conocimientos tradicionales indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1177" class="MercuryDocument">
+        <num>48.</num>
+        <content eId="para_1177__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Gobiernos a que se aseguren de que los Pueblos Indígenas no sean desplazados por la fuerza de sus tierras o territorios y de que no se produzca ningún traslado sin el consentimiento libre, previo e informado de los Pueblos Indígenas afectados, después de llegar a un acuerdo sobre una indemnización justa y equitativa y, cuando sea posible, con la opción de regresar, y a que tomen medidas eficaces para asegurar que todos los Pueblos Indígenas, independientemente de su situación de tenencia, tengan acceso a servicios esenciales, incluido el acceso, en condiciones seguras y a precios asequibles, al agua, el saneamiento, la energía y los servicios de salud;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1225" class="MercuryDocument">
+        <num>49.</num>
+        <content eId="para_1225__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a las empresas transnacionales y otras empresas a que respeten los derechos humanos, incluidos los derechos de los niños indígenas, y a que eliminen el trabajo forzoso y el trabajo infantil de sus operaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1274" class="MercuryDocument">
+        <num>50.</num>
+        <content eId="para_1274__content">
+          <p xml:space="preserve">	<span class="italic">Expresa preocupación</span> por la apropiación y el uso indebidos del patrimonio cultural de los Pueblos Indígenas, reafirma que los Pueblos Indígenas tienen derecho a mantener, controlar, proteger y desarrollar su patrimonio cultural, sus conocimientos tradicionales y sus expresiones culturales tradicionales, y que también tienen derecho a mantener, controlar, proteger y desarrollar su propiedad intelectual sobre ese patrimonio cultural y esos conocimientos tradicionales y expresiones culturales tradicionales, y recuerda que los Estados, conjuntamente con los Pueblos Indígenas, deben tomar medidas eficaces para reconocer y proteger el ejercicio de estos derechos, de conformidad con la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas y como se reconoce en la legislación nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1324" class="MercuryDocument">
+        <num>51.</num>
+        <content eId="para_1324__content">
+          <p xml:space="preserve">	<span class="italic">Recalca </span>la necesidad de garantizar a las mujeres y las niñas indígenas, a todos los niveles, la igualdad en la protección de la ley y la igualdad ante los tribunales y, con ese fin, la importancia de impartir capacitación sobre cuestiones de género de manera sistemática, según proceda, a los agentes de policía y las fuerzas de seguridad, los fiscales, los jueces y abogados, integrar las consideraciones de género en las iniciativas de reforma del sector de la seguridad, elaborar protocolos y directrices y reforzar o poner en práctica medidas apropiadas de rendición de cuentas para los árbitros;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1375" class="MercuryDocument">
+        <num>52.</num>
+        <content eId="para_1375__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados y a las entidades del sistema de las Naciones Unidas a que refuercen la cooperación internacional, entre otras cosas para subsanar las desventajas que afrontan los Pueblos Indígenas, y a que incrementen la cooperación técnica y la asistencia financiera a este respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1427" class="MercuryDocument">
+        <num>53.</num>
+        <content eId="para_1427__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la Organización Mundial de la Salud, al Fondo de las Naciones Unidas para la Infancia y a otros organismos, fondos y programas competentes de las Naciones Unidas a que, con arreglo a sus mandatos, lleven a cabo investigaciones y reúnan pruebas sobre la prevalencia y las causas fundamentales del suicidio entre los jóvenes y los niños indígenas y sobre las buenas prácticas de prevención, y a que estudien la posibilidad de elaborar, según corresponda y en cooperación con los Estados Miembros, estrategias o políticas que estén en consonancia con las prioridades nacionales para hacer frente a ese problema, incluso mediante consultas con los Pueblos Indígenas, en particular con las organizaciones de jóvenes indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1480" class="MercuryDocument">
+        <num>54.</num>
+        <content eId="para_1480__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>el informe del Secretario General sobre el aumento de la participación de representantes e instituciones de los Pueblos Indígenas en las reuniones de los órganos competentes de las Naciones Unidas sobre los asuntos que les conciernen<authorialNote marker="44" placement="bottom" eId="authorialNote_44"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/75/255">A/75/255</a>.</p></authorialNote>, y recuerda con aprecio la labor llevada a cabo bajo la dirección de sus Presidencias entre el septuagésimo y el septuagésimo quinto período de sesiones para celebrar consultas con los Estados Miembros, los representantes y las instituciones de los Pueblos Indígenas de todas las regiones del mundo y los mecanismos existentes de las Naciones Unidas sobre posibles medidas para que los representantes y las instituciones de los Pueblos Indígenas puedan participar en las reuniones de los órganos pertinentes de las Naciones Unidas sobre los asuntos que les conciernen, que condujo a la aprobación de su resolución <a href="https://docs.un.org/es/A/RES/71/321">71/321</a>, teniendo en cuenta los logros alcanzados en ese sentido por otros órganos y organizaciones de todo el sistema de las Naciones Unidas, examen que irá precedido de consultas con representantes e instituciones de los Pueblos Indígenas de todas las regiones del mundo como aportación al proceso intergubernamental;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1534" class="MercuryDocument">
+        <num>55.</num>
+        <content eId="para_1534__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota con aprecio</span> de los informes resumidos de las tres audiencias interactivas oficiosas sobre otras posibles medidas necesarias para aumentar la participación de representantes e instituciones de los Pueblos Indígenas en las reuniones de las Naciones Unidas sobre los asuntos que les conciernen, celebradas en la Sede de las Naciones Unidas los días 17 de abril de 2018, 25 de abril de 2019 y 20 de abril de 2023, recuerda su resolución <a href="https://docs.un.org/es/A/RES/70/232">70/232</a>, en la que solicitó a su Presidente que celebrara consultas oportunas, inclusivas, representativas y transparentes con los Estados Miembros, con representantes e instituciones de los Pueblos Indígenas de todas las regiones del mundo y con los mecanismos competentes de las Naciones Unidas sobre las posibles medidas necesarias, incluidas las disposiciones de procedimiento e institucionales y los criterios de acreditación, para facilitar la participación de representantes e instituciones de los Pueblos Indígenas en las reuniones de los órganos competentes de las Naciones Unidas sobre los asuntos que les conciernen, y recuerda también sus resoluciones <a href="https://docs.un.org/es/A/RES/71/321">71/321</a> y <a href="https://docs.un.org/es/A/RES/77/203">77/203</a>, en las que decidió seguir examinando, en su septuagésimo octavo período de sesiones, otras posibles medidas necesarias para aumentar la participación de representantes e instituciones de los Pueblos Indígenas en las reuniones de las Naciones Unidas sobre los asuntos que les conciernen, como se había solicitado originalmente en la resolución <a href="https://docs.un.org/es/A/RES/71/321">71/321</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1589" class="MercuryDocument">
+        <num>56.</num>
+        <content eId="para_1589__content">
+          <p xml:space="preserve">	<span class="italic">Felicita </span>a su Presidencia por organizar satisfactoriamente un productivo evento de alto nivel para celebrar el décimo aniversario de la aprobación del documento final de su reunión plenaria de alto nivel conocida como Conferencia Mundial sobre los Pueblos Indígenas, a fin de concienciar sobre la importancia de lograr sus objetivos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1645" class="MercuryDocument">
+        <num>57.</num>
+        <content eId="para_1645__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>su resolución <a href="https://docs.un.org/es/A/RES/78/328">78/328</a>, de 6 de septiembre de 2024, titulada “Amentar la participación de representantes e instituciones de los Pueblos Indígenas en las reuniones de los órganos competentes de las Naciones Unidas sobre los asuntos que les conciernen”, en la que decidió seguir examinando, en su octogésimo período de sesiones, otras posibles medidas necesarias para aumentar la participación de representantes e instituciones de los Pueblos Indígenas en las reuniones pertinentes de las Naciones Unidas sobre los asuntos que les conciernen, teniendo en cuenta los logros alcanzados en ese sentido por otros órganos y organizaciones de todo el sistema de las Naciones Unidas, con el objetivo de adoptar disposiciones de procedimiento e institucionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1702" class="MercuryDocument">
+        <num>58.</num>
+        <content eId="para_1702__content">
+          <p xml:space="preserve">	<span class="italic">Crea conciencia</span> del hecho de que muchos Pueblos Indígenas no hablan ninguno de los idiomas oficiales de las Naciones Unidas, y alienta a las Naciones Unidas a que consideren la posibilidad de abordar este problema;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1760" class="MercuryDocument">
+        <num>59.</num>
+        <content eId="para_1760__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>su resolución <a href="https://docs.un.org/es/A/RES/79/159">79/159</a>, de 17 de diciembre de 2024, en que decidió organizar una mesa redonda de alto nivel, con los recursos disponibles, que se celebraría durante la semana de alto nivel de su octogésimo segundo período de sesiones, que se celebrará en 2027, para conmemorar el 20º aniversario de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas e intercambiar puntos de vista y mejores prácticas acerca de la realización de los derechos de los Pueblos Indígenas, incluido el cumplimiento de los objetivos de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1819" class="MercuryDocument">
+        <num>60.</num>
+        <content eId="para_1819__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>iniciar en la mesa redonda de alto nivel un debate sobre la organización de la Segunda Conferencia Mundial sobre los Pueblos Indígenas, que se celebrará en 2028, e invita a la Presidencia de la Asamblea General a que, en su octogésimo primer período de sesiones, celebre consultas de composición abierta con Estados Miembros y representantes de los Pueblos Indígenas en el marco del Foro Permanente para las Cuestiones Indígenas, así como con el Mecanismo de Expertos sobre los Derechos de los Pueblos Indígenas y el Relator Especial, con miras a determinar las características de esa reunión, incluida la participación de los Pueblos Indígenas en la Conferencia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1879" class="MercuryDocument">
+        <num>61.</num>
+        <content eId="para_1879__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al sistema de las Naciones Unidas a que refuerce la cooperación con el Fondo para el Desarrollo de los Pueblos Indígenas de América Latina y el Caribe, habida cuenta del papel fundamental que desempeña en la región de América Latina y el Caribe en los procesos de diálogo y consulta entre los Estados y los Pueblos Indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1940" class="MercuryDocument">
+        <num>62.</num>
+        <content eId="para_1940__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados pertinentes a que reconozcan, respeten y protejan los derechos de los Pueblos Indígenas en aislamiento voluntario y contacto inicial, y a que respeten el principio de no contacto, cuando proceda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2002" class="MercuryDocument">
+        <num>63.</num>
+        <content eId="para_2002__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir examinando la cuestión en su octogésimo primer período de sesiones, en relación con el tema titulado “Derechos de los Pueblos Indígenas”, y mantener en su programa provisional el subtema titulado “Seguimiento del documento final de la reunión plenaria de alto nivel de la Asamblea General conocida como Conferencia Mundial sobre los Pueblos Indígenas”.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="62a" refersTo="#adoptionMeeting">62a sesión plenaria</location>
+          <eol />
+          <docDate date="2025-12-15" refersTo="#adoptionDate">15 de diciembre de 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
