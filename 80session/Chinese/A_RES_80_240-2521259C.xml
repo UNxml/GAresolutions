@@ -1,0 +1,156 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-30/80-240/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-30/80-240/"></FRBRuri>
+          <FRBRdate date="2025-12-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-30/80-240/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-30/80-240/zho@/"></FRBRuri>
+          <FRBRdate date="2025-12-31" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-30/80-240/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-30/80-240/zho@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN" showAs="UN" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" href="http://metadata.un.org/thesaurus/1004779" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUPPORT ACCOUNTS" href="http://metadata.un.org/thesaurus/1006301" showAs="SUPPORT ACCOUNTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME BUDGETING" href="http://metadata.un.org/thesaurus/1005166" showAs="PROGRAMME BUDGETING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL RESOURCES" href="http://metadata.un.org/thesaurus/1002339" showAs="FINANCIAL RESOURCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME PLANNING" href="http://metadata.un.org/thesaurus/1005172" showAs="PROGRAMME PLANNING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="148" showAs="Administrative and budgetary aspects of the financing of the United Nations peacekeeping operations" shortForm="PEACEKEEPING OPERATIONS--FINANCING" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-12-28" outcome="draftResolution" as="A/C.5/80/L.20" by="submitted by the Chair of the Committee following informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-12-30" outcome="recommendedForAdoption" as="A/80/568" by="" refersTo="19" />
+        <step date="2025-12-30" outcome="adopted" as="A/80/PV.69 (Resumption 1)" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="fifthCommittee" href="#fifthCommittee" showAs="第五委员会"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-21259 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/240</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-12-31" class="rightSmall" refersTo="#dateOfIssuance">31 December 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">第八十届会议</session>
+      </p>
+      <p>
+        <inline title="148" name="agenda item">议程项目148</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">联合国维持和平行动经费 筹措的行政和预算问题</inline>
+      </p>
+      <p>
+        <docTitle>2025年12月30日大会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#fifthCommittee">[根据第五委员会的报告 (<inline name="originating document">A/80/568，第19段</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/240.</docNumber>
+        <docTitle refersTo="#resolutionTitle">维持和平行动支助账户</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">大会</span>，</p>
+      </formula>
+      <container name="审议了" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">审议了</span>秘书长关于与2026年拟议方案预算和2025/26年期间维持和平行动支助账户有关的订正估计数的报告、<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/80/400">A/80/400</a>号文件的相关部分。</p></authorialNote> 独立审计咨询委员会关于内部监督的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/80/90/Add.1">A/80/90/Add.1</a>。</p></authorialNote> 以及行政和预算问题咨询委员会的有关报告，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/80/538">A/80/538</a>。</p></authorialNote> </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>秘书长的报告和独立审计咨询委员会的报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="bold">认可</span>行政和预算问题咨询委员会报告所载结论和建议。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第69次" refersTo="#adoptionMeeting">第69次全体会议(续会)</location>
+          <eol />
+          <docDate date="2025-12-30" refersTo="#adoptionDate">2025年12月30日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
