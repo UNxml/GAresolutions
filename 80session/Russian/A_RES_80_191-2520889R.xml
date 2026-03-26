@@ -1,0 +1,905 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/"></FRBRuri>
+          <FRBRdate date="2025-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="ga" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/rus@/"></FRBRuri>
+          <FRBRdate date="2025-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga/2025-12-15/80-191/rus@.xml"></FRBRuri>
+          <FRBRdate date="2026-01-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Permanent Forum on Indigenous Issues" showAs="UN. Permanent Forum on Indigenous Issues" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Voluntary Fund for Indigenous Peoples" showAs="UN Voluntary Fund for Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. General Assembly (82nd sess. : 2027-2028). High-Level Meeting on the 20th anniversary of the UN Declaration on the Rights of Indigenous Peoples" showAs="UN. General Assembly (82nd sess. : 2027-2028). High-Level Meeting on the 20th anniversary of the UN Declaration on the Rights of Indigenous Peoples" dictionary="DHLAUTH"></keyword>
+        <keyword value="World Conference on Indigenous Peoples (2nd : xxxx : xxxx)" showAs="World Conference on Indigenous Peoples (2nd : xxxx : xxxx)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Declaration on the Rights of Indigenous Peoples (2007)" showAs="UN Declaration on the Rights of Indigenous Peoples (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade of Indigenous Languages (2022–2032)" showAs="International Decade of Indigenous Languages (2022–2032)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INDIGENOUS PEOPLES" href="http://metadata.un.org/thesaurus/1003106" showAs="INDIGENOUS PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" href="http://metadata.un.org/thesaurus/1002975" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS ADVANCEMENT" href="http://metadata.un.org/thesaurus/1002977" showAs="HUMAN RIGHTS ADVANCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGES" href="http://metadata.un.org/thesaurus/1003621" showAs="LANGUAGES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL DECADES" href="http://metadata.un.org/thesaurus/1003299" showAs="INTERNATIONAL DECADES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" href="http://metadata.un.org/thesaurus/1001219" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="68a" showAs="Rights of indigenous peoples" shortForm="INDIGENOUS PEOPLES" dictionary="A/80/251"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-10-29" outcome="draftResolution" as="A/C.3/80/L.17" by="Bolivia (Plurinational State of) and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Antigua And Barbuda, Armenia, Australia, Belize, Brazil, Canada, Chile, Colombia, Congo, Costa Rica, Cuba, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, Greece, Guatemala, Guyana, Honduras, Iceland, Ireland, Latvia, Luxembourg, Malawi, Malta, Mexico, Nicaragua, Norway, Panama, Paraguay, Peru, Slovenia, Spain, Suriname, Sweden, Uganda and Ukraine" />
+        <step date="2025-11-26" outcome="recommendedForAdoption" as="A/80/545" by="" refersTo="5" />
+        <step date="2025-12-15" outcome="adopted" as="A/80/PV.62" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="166" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c2263f22-a4b7-48f0-abe8-f8fc08a9d3dd">ALBANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/49486917-0912-4519-85a3-9db6c825987d">ALGERIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d69ee0be-1331-4f3e-9c97-9d704d529cd2">ANDORRA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/94e4869e-d914-4e70-b21d-9522813273b0">ANGOLA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7ef97a13-13b4-49f9-817e-e216294b06e6">ANTIGUA AND BARBUDA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b923e3cf-15e6-4438-bf00-b2ec7e0909c2">ARMENIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/30a0ae86-ebbd-4042-ad13-f96ceadd4cde">AUSTRALIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/72daa19e-90b1-4d34-8708-965a2537a2c9">AUSTRIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/479b0ca5-9e3d-4ea5-8fb4-ea90c2bba5f6">AZERBAIJAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/eaa3fead-a98e-4eb4-ae3b-5d0c7e167784">BAHAMAS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a7427b62-43d0-4dc5-b63f-ea6914a2da0a">BAHRAIN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c73a28a0-bba7-4de3-9674-0f06d0aac7a8">BANGLADESH</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f8cadd3c-910f-4073-9184-e129d3edd74b">BARBADOS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d9b4d381-c105-49b0-a99b-d0e8008d75de">BELARUS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ad625fa0-7193-4eb2-9dab-7456b710e52a">BELGIUM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b9cb9a60-9caa-416c-8ca3-9aaad2d79a0a">BELIZE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/908cab5c-651f-4365-a702-edbea0aec2b9">BHUTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e559063d-a6a7-4785-baa0-f0a8741884db">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/af7e074b-c841-432a-9543-42000c851a5b">BOTSWANA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/8f2da5d0-fa10-46ef-a221-d036584a97e7">BRAZIL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/28c52bad-201b-43e9-84d7-b5fa581fe7b4">BRUNEI DARUSSALAM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/05d47d83-cd3b-4824-b823-782edafcf308">BURUNDI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/767bae53-c5ec-41b9-8788-f86468b43873">CABO VERDE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31c0b822-9fb2-4443-8afd-e565eaf718f0">CAMBODIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6178dec5-3424-4af7-aa33-d66f9b01392c">CANADA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/00bcb7bd-b1cd-40c6-ac44-031d4d043cac">CENTRAL AFRICAN REPUBLIC</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7cc6e8c6-538b-4e08-85b8-f77bdc964de7">CHAD</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2ea1bb00-22aa-460a-ba5c-2a05169fc2f6">CHILE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f9584092-3401-4a9a-a43f-6697c61fcf33">CHINA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/165cc4b7-4208-4baa-98fd-921108e83888">COLOMBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a1c96d23-b00d-4afb-926d-301a0908edbe">COMOROS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5cf1d07a-0ef7-4a2c-a34d-f93d5ca7adfa">CONGO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/186ccfb3-cac0-4ba4-a0ea-df0a624959a2">COSTA RICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/473610d6-eb4c-4ea2-a0ea-7c45e6d50a3a">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0c350bb7-3ce3-425f-87ff-c4439a6f7160">CROATIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fcf098a7-56e9-43ce-aa3e-7ea50c956c8a">CUBA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f0c694fb-1539-4fd6-bff1-710210911e61">CYPRUS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/4275087d-4018-4082-899d-95f37efeda65">CZECHIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f97d8780-8db4-4ad0-9596-eb9f71d5c088">DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/415596ca-1981-4435-8596-c5a39741ebcb">DENMARK</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3f988829-9e74-4ba4-a547-c3ea1bc3108a">DJIBOUTI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a51fc359-ad1a-437b-a8c3-ab81a7c24e51">DOMINICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/16b4ddd5-fc12-4056-a10c-fc0953194825">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/56f93eb9-14e4-4d05-aa80-297382ccd520">ECUADOR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ebd962e4-2935-48e9-81f9-117e7208256f">EGYPT</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/68619c18-bcd6-4dfa-9361-fc17576db8f9">EL SALVADOR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/77c02559-b91e-4b3e-ad48-497e8c1ee983">EQUATORIAL GUINEA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/460aca38-702d-4516-8cb2-d98b5d5c95a3">ERITREA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/26404bbd-1213-46b1-959f-e3bc52d74690">ESTONIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/01b637e1-1497-4825-b73d-e0114a7f4d22">ESWATINI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/8564788e-c8cf-4d6f-bf01-2776093ab382">FIJI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/1febb602-661d-47d4-b305-d662ae72b12c">FINLAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cb7c7bfe-b8d6-4d7a-8bc3-910198d0fc5b">GABON</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7221a14c-4c12-42d1-84bd-e23ec48117d9">GAMBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/999de5ba-5ff1-424c-8d44-b97c8f0dfbd1">GEORGIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/745bbc2a-fc50-4b94-bb96-2ff7ed380081">GERMANY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/aa84bb56-adb8-412e-94c8-a152b96d9766">GHANA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/48fef743-cab7-4bcb-b62a-d7db8c392f1b">GREECE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a7cd6917-56a0-4299-8065-3bc46406f241">GRENADA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/254197a1-224f-4cb5-a789-cc03b1649331">GUATEMALA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6c1fef19-d29c-4997-8411-46ce954876c5">GUINEA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d914a0dc-7cf5-41be-8170-f028f9aa9642">GUINEA-BISSAU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/8ada8ca8-92b7-4ffd-81e4-c72af73a7fbd">GUYANA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d5a61388-96ad-4e77-825f-f38f9a1f3975">HAITI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/22d5b3de-ae25-4b00-aaf9-c3e199d62284">HONDURAS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e27ca14f-c9bf-4d55-9620-055ccda65105">HUNGARY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e1eabd31-bc07-4cbf-9bf9-cabde8b9cf8b">ICELAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/79bbdfc5-a7aa-40e5-947e-bd72b16753c0">INDIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/73d76131-a55c-43b4-8dcd-bfe9bdbc52e3">INDONESIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/4d28f825-3049-4a3a-b99a-a744d7967ad0">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b67c1745-835a-43e5-a28b-8a1d61eb0f9b">IRAQ</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c06b1507-dd6b-4d06-a8fb-fe9077b2743a">IRELAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b5f1558d-8825-44f1-93d5-30a34e277ddd">ITALY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0bfd85df-57d0-49d4-ba8e-fdb7796ee7b5">JAMAICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6bf9481b-2a49-475f-a0cb-eaa6544800ea">JAPAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/21d407c3-f4fa-4919-bb5e-530bb37c855f">JORDAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5c6a0e2f-afef-4643-be58-6339c57757c6">KAZAKHSTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/12f4924a-61d7-48d0-8951-e9adc48863b8">KENYA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b337dcf4-c984-4f33-9fec-4d4bd1568fe6">KUWAIT</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9985b7c8-6ff2-4e1e-ae1d-e33b81d8ec80">KYRGYZSTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b68d612f-fe71-4e54-bc0e-bc3728559356">LATVIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9fc9e635-1c29-4cca-8f9a-befb27ef901a">LEBANON</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6228fb5e-5e84-441c-85ad-52f49bc55aa4">LESOTHO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6b01a853-7d0a-4033-9ee6-94cac04e2fcf">LIBERIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fd428e58-b85e-4d39-81a8-896368359dd5">LIBYA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3f1df56a-8572-47be-b162-42be51d167d4">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b703d3cb-df23-4de8-85bb-d73774d0e7c8">LITHUANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a5f498e1-370e-4905-a818-245d460d6611">LUXEMBOURG</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c357f8bb-2aac-43d9-b02b-ca2b729ab475">MALAWI</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/819631a7-37d3-4b1e-b777-f1b6a2ccdd62">MALAYSIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31a35e3f-5741-4c17-b067-2e771e3b5bbe">MALDIVES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f2eea3ae-03df-4370-b988-e89794ea698c">MALTA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9c5bd666-9a09-42e1-8f15-1d98411b1197">MARSHALL ISLANDS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/08d7e28b-b0f5-4136-aadb-e597a4a71840">MAURITANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fe9bbd30-0ba7-482f-a010-ee0572add831">MAURITIUS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/86af548b-4937-46a5-892c-e2143400e530">MEXICO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/34366887-02c2-48a2-b613-7c24e16993de">MICRONESIA (FEDERATED STATES OF)</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f39fb00b-8b11-4cd5-8324-cbb8241c7bbc">MONACO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/1593668b-f3a3-404b-b168-f4ac60c6bf25">MONGOLIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/24e76720-cd3a-40e9-98fe-63cd5ebb7dfd">MONTENEGRO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0b101161-cf59-48fc-895f-d482226a5b03">MOROCCO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c6dba110-5120-4484-9210-5a16eda3a394">MOZAMBIQUE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/97753e65-3597-4af3-accd-ac29446db9d3">MYANMAR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/80e02317-421e-4609-bff9-47013acc98fc">NAMIBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3922e336-a0f8-4780-b597-d9485555160e">NEPAL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/089a6443-0bba-4dd2-bc8d-a4888bb508b8">NETHERLANDS (KINGDOM OF THE)</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/61a1d68e-31b5-4f4a-806c-ba7c96adc35b">NEW ZEALAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31b145fd-f439-4e33-960f-35e2874d3d44">NICARAGUA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/1c98d616-3b6a-4d15-a7cb-f88c7f988b83">NORTH MACEDONIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c9c9ede6-9336-434f-af36-e51851961fc7">NORWAY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/dd416f37-c0cf-4faf-9b13-92bafe14f498">OMAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3926ffb9-88d7-4151-91da-1a5908c7ae20">PAKISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ba6d30ba-2cc9-4fd9-be1d-e03e841676cd">PALAU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e66233ec-d369-4790-a050-99b57765e7e8">PANAMA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3880f8ed-8484-457f-8dff-c876d8982252">PAPUA NEW GUINEA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fbe274d1-90a5-4944-9b94-f028e1a22b35">PARAGUAY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/fe3f7326-ddc8-40ba-8b9f-ac295ed610fc">PERU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2c834c98-f394-4374-bf8b-74e245a92e7d">PHILIPPINES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f1b285eb-6097-463b-ac1a-495b33b115b5">POLAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/92e6f834-a106-4fb7-9a8c-7a7cc5a04697">PORTUGAL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/b5aec67e-3382-4cc2-bba1-d9e5188b149e">QATAR</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5473bc2f-d634-4699-a8c2-84cb1fa7d434">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/55bdd397-db4f-4c17-9d04-dababa300feb">REPUBLIC OF MOLDOVA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0a287e26-2d4c-46a3-bba0-dcb8ff93cef2">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/37d91197-ed78-460d-ab2c-3a0fccd5f809">RWANDA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cfea5d7a-cdd3-44d0-bd51-1402015c2e01">SAINT KITTS AND NEVIS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/731efbf2-9db5-461b-a1ac-c48008a38b82">SAINT LUCIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/bff2bf77-a226-403e-a29c-025eff0fe332">SAMOA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/066bfd5e-b05d-4ce2-9a65-c5afb924808f">SAN MARINO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e2159fc5-00d5-4332-8559-d91d84732455">SAUDI ARABIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/6a7d4ffa-211c-4ee4-9053-ce63433e3906">SENEGAL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/98822dcb-0fed-4369-90cc-7d82a8a32208">SERBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0e9662a4-9a7e-435d-a938-42c5f0fa004c">SEYCHELLES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d9c471e5-16f5-47e8-b699-14b887101713">SIERRA LEONE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/eed8cf99-8c46-4a7c-bb30-ed636b6c3a9b">SINGAPORE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/c9d28335-c79b-450d-af36-1675fa6f572d">SLOVENIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/26e6c551-df72-47ef-8035-e3782f4d3844">SOLOMON ISLANDS</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e3b4a626-fd77-4083-b30f-d6c1dca3a910">SOUTH AFRICA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/dd08eda8-c78a-4f4f-bd1f-8c2d1538e03d">SOUTH SUDAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/81bf68f1-1c05-4153-8964-bf5a1672fd0c">SPAIN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cd06f02a-0f66-4cc4-b1f7-6c83b45247db">SRI LANKA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cf4c819e-b2ad-474d-81ce-1e47f9ce115d">SUDAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a7766363-d8bf-47be-9f26-d170a015e109">SURINAME</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/4bf69580-9c48-442b-9e37-0538d65ccc7d">SWEDEN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/12258e51-56fe-43c6-9787-ed88fb50e1c1">SWITZERLAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/7e372765-f640-416d-85c8-fb60e24c8a98">TAJIKISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/0159ec12-b34f-4a0d-852a-359ede7b2de9">THAILAND</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/675263e7-b566-4601-82b2-d829ce2b77f1">TIMOR-LESTE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/877fe7b1-e940-43c4-9197-fd6a25af17c9">TOGO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/24e8b023-a043-4109-83fb-d85cbf15881a">TONGA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2703e160-cd96-45da-bff8-f955d0480259">TRINIDAD AND TOBAGO</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ff4fa7e0-56a2-4b3b-b93e-e19a0dc33ea3">TUNISIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/356ac538-feb4-4d8a-a4e9-a9eb5dd40fc5">TÜRKİYE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2ef537f2-9936-4c57-a68e-5eef2c23cbd6">TURKMENISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/eefd68f2-11e8-467f-88f9-6e02e1ba7d00">TUVALU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/76233ba2-b875-406f-b5c4-33ce72f474d2">UGANDA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f2b9a082-3774-496a-8532-d90f771afe7c">UKRAINE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/31a3f4c0-1906-4d1c-af75-f2e665f2a662">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/ed262ca9-2957-42cb-8a92-f5ab6a9b7d6a">UNITED KINGDOM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/37fc8363-d3ed-4331-ab43-7e89e0c57d31">URUGUAY</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/5f898516-ae33-41eb-b522-713d67fbf3a6">UZBEKISTAN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/3d83b42d-b990-4186-b573-912129adaeb2">VANUATU</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/cc63aa1f-62b8-4edf-b7c8-03111fa66d89">VIET NAM</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/a2f8be65-f1c5-4057-a6e8-0bf4711bc9a1">YEMEN</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/482a08a1-65d1-4347-b8ba-8e1f0ecc4a2e">ZAMBIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/44089ce6-e11a-4efd-b372-3da80311d317">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="3" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/424578ea-bab0-4c80-9a35-d673edb2a741">ARGENTINA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/d9be7f99-010f-408d-bd33-0982581c2361">ISRAEL</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9e7f3347-8c9f-491b-8c7c-efd8be043c78">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="8" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/e6c182a4-1c59-4211-8d24-747e3501c6e0">BULGARIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/9bb2d826-81c1-43ce-ae66-39a3f7bc58d5">CAMEROON</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/2203cfb4-b25b-4639-885c-1d58c8d3114f">ETHIOPIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/956a3881-b5fe-406b-8177-9fe7d9b835af">FRANCE</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f8b274b0-f014-4b25-99fd-6f2953f4aa1c">NIGERIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/67e45b85-8dbb-4986-a38f-e53fe09104e7">ROMANIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/84a6ed97-f6a8-42a0-b251-715a484bd592">SLOVAKIA</organization>
+                <organization refersTo="memberState" GUID="https://unterm.un.org/unterm2/en/view/f6078cce-cdad-4834-a418-c0d30431be6f">UNITED REPUBLIC OF TANZANIA</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ga" href="/akn/ontology/organization/un/generalAssembly" showAs="General Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="thirdCommittee" href="#thirdCommittee" showAs="Третий комитет"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-20889 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">A/RES/80/191</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Генеральная Ассамблея</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 December 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#generalAssembly" value="80" eId="coverPage_1__session_1">Восьмидесятая сессия</session>
+      </p>
+      <p>
+        <inline title="68 a)" name="agenda item">Пункт 68 a) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Права коренных народов: права коренных народов</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Генеральной Ассамблеей 15 декабря 2025 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#thirdCommittee">[по докладу Третьего комитета (<inline name="originating document">A/80/545, пункт 5</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>80/191.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Права коренных народов</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Генеральная Ассамблея</span>,</p>
+      </formula>
+      <container name="подтверждая" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> цели и принципы, закрепленные в Уставе Организации Объединенных Наций,</p>
+      </container>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на все соответствующие резолюции Генеральной Ассамблеи, Совета по правам человека и Экономического и Социального Совета, касающиеся прав коренных народов, подтверждая свои резолюции <a href="https://docs.un.org/ru/A/RES/65/198">65/198</a> от 21 декабря 2010 года, <a href="https://docs.un.org/ru/A/RES/66/142">66/142</a> от 19 декабря 2011 года, <a href="https://docs.un.org/ru/A/RES/67/153">67/153</a> от 20 декабря 2012 года, <a href="https://docs.un.org/ru/A/RES/68/149">68/149</a> от 18 декабря 2013 года, <a href="https://docs.un.org/ru/A/RES/69/2">69/2</a> от 22 сентября 2014 года, <a href="https://docs.un.org/ru/A/RES/69/159">69/159</a> от 18 декабря 2014 года, <a href="https://docs.un.org/ru/A/RES/70/232">70/232</a> от 23 декабря 2015 года, <a href="https://docs.un.org/ru/A/RES/71/178">71/178</a> от 19 декабря 2016 года, <a href="https://docs.un.org/ru/A/RES/71/321">71/321</a> от 8 сентября 2017 года, <a href="https://docs.un.org/ru/A/RES/72/155">72/155</a> от 19 декабря 2017 года, <a href="https://docs.un.org/ru/A/RES/72/247">72/247</a> от 24 декабря 2017 года, <a href="https://docs.un.org/ru/A/RES/73/156">73/156</a> от 17 декабря 2018 года, <a href="https://docs.un.org/ru/A/RES/74/135">74/135</a> от 18 декабря 2019 года, <a href="https://docs.un.org/ru/A/RES/75/168">75/168</a> от 16 декабря 2020 года, <a href="https://docs.un.org/ru/A/RES/76/148">76/148</a> от 16 декабря 2021 года, <a href="https://docs.un.org/ru/A/RES/77/203">77/203</a> от 15 декабря 2022 года, <a href="https://docs.un.org/ru/A/RES/78/189">78/189</a> от 19 декабря 2023 года, <a href="https://docs.un.org/ru/A/RES/79/159">79/159</a> от 17 декабря 2024 года и <a href="https://docs.un.org/ru/A/RES/79/315">79/315</a> от 30 июня 2025 года и ссылаясь на резолюции Совета по правам человека <a href="https://docs.un.org/ru/A/HRC/RES/27/13">27/13</a> от 25 сентября 2014 года<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Генеральной Ассамблеи, шестьдесят девятая сессия, Дополнение № 53А </span>и исправления (<a href="https://docs.un.org/ru/A/69/53/Add.1">A/69/53/Add.1</a>, <a href="https://docs.un.org/en/A/69/53/Add.1/Corr.1">A/69/53/Add.1/Corr.1</a> и <a href="https://docs.un.org/ru/A/69/53/Add.1/Corr.2">A/69/53/Add.1/Corr.2</a>), гл. IV, разд. А.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/30/4">30/4</a> от 1 октября 2015 года<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Там же, <span class="italic">семидесятая сессия, Дополнение № 53A </span>(<a href="https://docs.un.org/ru/A/70/53/Add.1">A/70/53/Add.1</a>), гл. III.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/33/12">33/12</a> и <a href="https://docs.un.org/ru/A/HRC/RES/33/13">33/13</a> от 29 сентября 2016 года<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Там же, <span class="italic">семьдесят первая сессия, Дополнение № 53A </span>и исправление (<a href="https://docs.un.org/ru/A/71/53/Add.1">A/71/53/Add.1</a> и <a href="https://docs.un.org/ru/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>), гл. II.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/36/14">36/14</a> от 28 сентября 2017 года<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Там же, <span class="italic">семьдесят вторая сессия, Дополнение № 53A </span>(<a href="https://docs.un.org/ru/A/72/53/Add.1">A/72/53/Add.1</a>), гл. III.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/39/13">39/13</a> от 28 сентября 2018 года<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Там же, <span class="italic">семьдесят третья сессия, Дополнение № 53A </span>(<a href="https://docs.un.org/ru/A/73/53/Add.1">A/73/53/Add.1</a>), гл. II.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/42/19">42/19</a> от 26 сентября 2019 года<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Там же, <span class="italic">семьдесят четвертая сессия, Дополнение № 53A </span>(<a href="https://docs.un.org/ru/A/74/53/Add.1">A/74/53/Add.1</a>), гл. III.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/45/12">45/12</a> от 6 октября 2020 года<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Там же, <span class="italic">семьдесят пятая сессия, Дополнение № 53A </span>(<a href="https://docs.un.org/ru/A/75/53/Add.1">A/75/53/Add.1</a>), гл. III.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/48/11">48/11</a> от 8 октября 2021 года<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Там же, <span class="italic">семьдесят шестая сессия, Дополнение № 53A </span>(<a href="https://docs.un.org/ru/A/76/53/Add.1">A/76/53/Add.1</a>), гл. IV, разд. A.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/51/18">51/18</a> от 6 октября 2022 года<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Там же, <span class="italic">семьдесят седьмая сессия, Дополнение № 53A</span> (<a href="https://docs.un.org/ru/A/77/53/Add.1">A/77/53/Add.1</a>), гл. III, разд. A.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/54/12">54/12</a> от 11 октября 2023 года<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Там же<span class="italic">, семьдесят восьмая сессия, Дополнение № 53A</span> (<a href="https://docs.un.org/ru/A/78/53/Add.1">A/78/53/Add.1</a>), гл. III, разд. A.</p></authorialNote>, <a href="https://docs.un.org/ru/A/HRC/RES/57/15">57/15</a> от 10 октября 2024 года<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Там же, <span class="italic">семьдесят девятая сессия, Дополнение № 53A</span> (<a href="https://docs.un.org/ru/A/79/53/Add.1">A/79/53/Add.1</a>), гл. II.</p></authorialNote> и <a href="https://docs.un.org/ru/A/HRC/RES/60/13">60/13</a> от 6 октября 2025 года</p>
+      </container>
+      <container name="подтверждая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">подтверждая </span>Декларацию Организации Объединенных Наций о правах коренных народов<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/61/295">61/295</a>, приложение.</p></authorialNote>, в которой рассматриваются их индивидуальные и коллективные права и которая внесла положительный вклад в разработку ряда конституций и законодательных актов на национальном и местном уровнях и способствовала прогрессивному развитию международной и национальной правовой базы и политики,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на итоговый документ состоявшегося 22 и 23 сентября 2014 года в Нью‑Йорке пленарного заседания высокого уровня Генеральной Ассамблеи под названием «Всемирная конференция по коренным народам»<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/69/2">69/2</a>.</p></authorialNote>, в котором главы государств и правительств, министры и представители государств-членов вновь заявили о той важной роли, которую Организация Объединенных Наций продолжает играть в деле поощрения и защиты прав коренных народов, напоминая об инклюзивном характере процесса подготовки к проведению этого пленарного заседания высокого уровня, в том числе о всестороннем участии в нем представителей коренных народов, и приветствуя и подтверждая обязательства, меры и усилия государств, системы Организации Объединенных Наций, коренных народов и других субъектов в деле его осуществления,</p>
+      </container>
+      <container name="поощряя" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">поощряя </span>активное участие коренных народов в осуществлении итогового документа пленарного заседания высокого уровня Генеральной Ассамблеи под названием «Всемирная конференция по коренным народам», в том числе на региональном и глобальном уровнях, и предлагая Генеральной Ассамблее рассмотреть возможность проведения последующей Всемирной конференции по коренным народам, с тем чтобы обеспечить возможность отслеживания хода осуществления итогового документа,</p>
+      </container>
+      <container name="ссылаясь" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на Повестку дня в области устойчивого развития на период до 2030 года<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/70/1">70/1</a>.</p></authorialNote> и подчеркивая, что необходимо обеспечивать, чтобы никто не был забыт, и стремиться охватить в первую очередь самых отстающих, в частности коренные народы, которые должны участвовать в процессе осуществления Повестки дня на период до 2030 года, вносить в него свой вклад и пользоваться его результатами, не подвергаясь дискриминации, и рекомендуя государствам-членам обеспечивать надлежащий учет всех прав коренных народов в процессе осуществления Повестки дня на период до 2030 года,</p>
+      </container>
+      <container name="подчеркивая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>важность пропаганды и достижения целей, провозглашенных в Декларации Организации Объединенных Наций о правах коренных народов, в том числе на основе международного сотрудничества в поддержку национальных и региональных усилий и документов, направленных на достижение целей Декларации, включая право сохранять и укреплять особые политические, правовые, экономические, социальные и культурные институты коренных народов и право принимать, если они того желают, всестороннее участие в политической, экономической, социальной и культурной жизни государства,</p>
+      </container>
+      <container name="отмечая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">отмечая </span>упоминания коренных народов в Пакте во имя будущего, Глобальном цифровом договоре и Декларации о будущих поколениях<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/79/1">79/1</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="отмечая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">отмечая </span>необходимость признавать, уважать, поощрять и защищать права коренных народов, их территории, земли и экосистемы, при этом обеспечивая сохранение их традиций, духовных верований и унаследованных ими от предков знаний, укреплять их особые политические, правовые, экономические, социальные и культурные институты, сохраняя при этом их право, если они того желают, на полное участие в политической, экономической, социальной и культурной жизни государства; и обеспечивать их право на участие в принятии решений по вопросам, которые затрагивали бы их права, как установлено законом и в соответствии с международными обязательствами в области прав человека,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя</span>, что пандемия коронавирусного заболевания (COVID‑19) стала одним из серьезнейших глобальных вызовов, и учитывая, что, хотя ее острая фаза завершилась, ее последствия продолжают оказывать воздействие на коренные народы, особенно на женщин и девочек, в частности на их здоровье, благополучие, средства к существованию, продовольственную безопасность, экономику, торговлю, образование и полное осуществление ими своих прав человека, при этом с непропорционально тяжелыми последствиями сталкиваются малоимущие и находящиеся в уязвимом положении лица, </p>
+      </container>
+      <container name="признавая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">признавая</span> необходимость адаптации науки, техники и инноваций к потребностям и условиям коренных народов и обеспечения их соответствия таким потребностям и условиям с соблюдением принципа свободного, предварительного и осознанного согласия, а также содействия достижению синергетического эффекта от взаимодействия науки и техники со знаниями, системами, видами практики и возможностями коренных народов,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> в связи с ростом масштабов дискриминации, использования языка ненависти, стигматизации, расизма, расовой дискриминации, ксенофобии и связанной с ними нетерпимости, в том числе в отношении коренных народов, и особо отмечая настоятельную необходимость противодействовать такому поведению в соответствии с нормами международного права прав человека,</p>
+      </container>
+      <container name="осуждая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">осуждая </span>случаи угроз, преследований, репрессий и убийств представителей коренных народов, в частности женщин и девочек и инвалидов, нередко в условиях безнаказанности, а также случаи захвата земель, произвольного принудительного выселения и другие злоупотребления,</p>
+      </container>
+      <container name="осуждая также" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">осуждая также</span> участившиеся случаи запугиваний, преследований и репрессий в отношении защитников прав человека коренных народов и лидеров коренных народов, включая женщин из числа коренных народов, а также представителей коренных народов, участвующих в заседаниях Организации Объединенных Наций, и мандатариев Организации Объединенных Наций, занимающихся правами коренных народов, и выражая свою обеспокоенность практикой некоторых стран, в том числе проводящих у себя заседания по вопросам коренных народов, намеренно или дискриминационным образом задерживать выдачу или отказывать в выдаче въездных виз мандатариям Организации Объединенных Наций или представителям коренных народов либо применять к ним дополнительные ограничения на поездки, препятствующие, в частности, их возможности участвовать в таких заседаниях или вернуться после их проведения,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание </span>программные меры, которые предусмотрены в Глобальном договоре о безопасной, упорядоченной и легальной миграции<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/73/195">73/195</a>, приложение.</p></authorialNote> и которые государства-члены могут принимать, в том числе для удовлетворения потребностей мигрантов, находящихся в уязвимом положении, включая представителей коренных народов,</p>
+      </container>
+      <container name="отмечая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> важность Декларации Организации Объединенных Наций о правах коренных народов и Конвенции 1989 года (№ 169) Международной организации труда о коренных народах и народах, ведущих племенной образ жизни<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1650, No. 28383.</p></authorialNote>, для принадлежащих к коренным народам женщин и девочек,</p>
+      </container>
+      <container name="ссылаясь на" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">ссылаясь на </span>согласованные выводы, которые были приняты на шестьдесят третьей сессии Комиссии по положению женщин<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Экономического и Социального Совета, 2019 год, Дополнение № 7 </span>(<a href="https://docs.un.org/ru/E/2019/27">E/2019/27</a>), гл. I, разд. А.</p></authorialNote> и в которых содержится настоятельный призыв к правительственным структурам всех уровней — в надлежащих случаях в сотрудничестве с соответствующими структурами системы Организации Объединенных Наций и международными и региональными организациями, действующими в рамках своих соответствующих мандатов и с учетом национальных приоритетов, — поощрять и защищать права женщин и девочек, которые относятся к коренным народам, в том числе тех, которые проживают в сельских и отдаленных районах, путем устранения множественных и перекрестных форм дискриминации и препятствий, с которыми они сталкиваются, включая насилие, и обеспечения их доступа к качественному и всеохватному образованию, здравоохранению, государственным услугам и экономическим ресурсам, включая землю и природные ресурсы, а также путем обеспечения доступа женщин к достойной работе и поощрения их реального участия в экономической деятельности и процессах принятия решений на всех уровнях и во всех областях, уважая и защищая при этом их традиционные и унаследованные ими от предков знания, признавая, что женщины и девочки, которые относятся к коренным народам, в том числе те, которые проживают в сельских и отдаленных районах, независимо от возраста, часто сталкиваются с проблемой насилия, крайней нищеты и ограниченного доступа к медицинскому обслуживанию, информационно-коммуникационным технологиям, инфраструктуре, финансовым услугам, образованию и трудоустройству, признавая при этом также их культурный, социальный, экономический, политический и экологический вклад, в том числе в дело предотвращения изменения климата и адаптации к нему,</p>
+      </container>
+      <container name="признавая" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что насилие в отношении женщин и девочек, принадлежащих к коренным народам, совершаемое как в интернете, так и вне его, оказывает негативное влияние на осуществление ими своих прав человека и основных свобод и представляет собой одно из серьезных препятствий для всестороннего, равноправного, реального и эффективного участия женщин, принадлежащих к коренным народам, в жизни общества, экономике и процессе принятия политических решений, ссылаясь в этой связи на принятую 1 июля 2016 года Советом по правам человека резолюцию <a href="https://docs.un.org/ru/A/HRC/RES/32/19">32/19</a> под названием «Активизация усилий по искоренению насилия в отношении женщин: предупреждение насилия и реагирование на насилие в отношении женщин и девочек, включая женщин и девочек из числа коренных народов»<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят первая сессия, Дополнение № 53 </span>(<a href="https://docs.un.org/ru/A/71/53">A/71/53</a>), гл. V, разд. А.</p></authorialNote>, в которой этому вопросу уделяется более пристальное внимание, и признавая также негативные последствия множественных и перекрестных форм дискриминации,</p>
+      </container>
+      <container name="отмечая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> общую рекомендацию № 39 (2022) о правах женщин и девочек из числа коренных народов<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		<a href="https://docs.un.org/ru/CEDAW/C/GC/39">CEDAW/C/GC/39</a>.</p></authorialNote> Комитета по ликвидации дискриминации в отношении женщин и отмечая далее, что в ней содержатся рекомендации для государств-участников относительно законодательных, политических и других соответствующих мер для обеспечения выполнения Конвенции о ликвидации всех форм дискриминации в отношении женщин<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1249, No. 20378.</p></authorialNote>,</p>
+      </container>
+      <container name="подчеркивая" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>важность расширения прав и возможностей и укрепления потенциала коренных женщин и молодежи, в том числе важность их всестороннего, конструктивного, равноправного и эффективного участия в процессах принятия решений по непосредственно затрагивающим их вопросам, в том числе, в соответствующих случаях, в отношении политики, программ и ресурсов, предназначающихся для обеспечения благополучия коренных женщин, детей и молодежи, в частности в таких областях, как качественные медицинские услуги, качественное инклюзивное образование, производительная занятость и достойная работа, передача традиционных, научных и технических знаний, языков, духовных и религиозных традиций и обрядов, а также важность принятия мер для улучшения осведомленности об их правах и понимания этих прав,</p>
+      </container>
+      <container name="признавая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">признавая </span>важность Международного года языков коренных народов и Международного десятилетия языков коренных народов, которые проводятся в целях привлечения внимания к проблеме катастрофической утраты языков коренных народов и настоятельной необходимости сохранения, возрождения и популяризации языков коренных народов, включая жестовые языки, а также принятия дальнейших неотложных мер в этом направлении на национальном и международном уровнях, принимая во внимание сложности, связанные с высоким языковым многообразием, включая популяризацию международных правовых документов и их письменный и устный перевод на языки коренных народов,</p>
+      </container>
+      <container name="подчеркивая" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> важность сохранения, возрождения и популяризации языков коренных народов для расширения прав и возможностей носителей языков коренных народов, в том числе общающихся как при помощи речи, так и жестами, и для сохранения культур, традиций и знаний коренных народов, и отмечая потенциал позитивного вклада цифровых технологий в этом отношении,</p>
+      </container>
+      <container name="учитывая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>важный вклад коренных народов в решение ряда вопросов, стоящих на международной повестке дня,</p>
+      </container>
+      <container name="учитывая также" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">учитывая также</span>, что коренные народы имеют права на жизнь, физическую и психическую неприкосновенность, свободу и личную безопасность, а также коллективное право коренных народов на жизнь в условиях свободы, мира и безопасности, как это изложено в Декларации Организации Объединенных Наций о правах коренных народов, и подчеркивая важность значимого участия коренных народов в переговорах по мирным соглашениям, процессах правосудия переходного периода, механизмах разрешения конфликтов, посредничестве и конструктивных процессах достижения договоренностей,</p>
+      </container>
+      <container name="учитывая далее" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">учитывая далее </span>важность для коренных народов возрождения, использования, развития и передачи будущим поколениям их истории, языков, традиций устного творчества, культур, знаний, философских воззрений, письменности и литературы,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> резолюцию 76.16 Всемирной ассамблеи здравоохранения от 30 мая 2023 года, озаглавленную «Здоровье коренных народов»<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		См. Всемирная организация здравоохранения, документ WHA76/2023/REC/1.</p></authorialNote>, в которой Всемирная ассамблея здравоохранения напоминает о соответствующих принципах, изложенных в Декларации Организации Объединенных Наций о правах коренных народов, подтверждает, что коренные народы имеют право на свою традиционную медицину и на сохранение своей практики врачевания, включая сохранение своих важнейших лекарственных растений, и подтверждает также, что представители коренных народов имеют право на доступ без какой-либо дискриминации ко всем социальным и медицинским услугам,</p>
+      </container>
+      <container name="будучи глубоко обеспокоена" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">будучи глубоко обеспокоена </span>по поводу того, что число самоубийств в общинах коренных народов, особенно среди молодых людей и детей, во многих случаях значительно превышает соответствующий показатель по населению в целом, и признавая необходимость поддерживать целостный подход к социальному и эмоциональному благополучию, при котором доступ к услугам по охране психического здоровья и оказанию психосоциальной поддержки дополняется связью с землей, культурой, духовностью и наследием предков,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание </span>важность содействия уважению прав детей, принадлежащих к коренным народам, в частности искоренения наихудших форм детского труда, в соответствии с нормами международного права, включая соответствующие стандарты в области прав человека и обязательства по международному трудовому праву,</p>
+      </container>
+      <container name="учитывая" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>важность обеспечения доступа к правосудию для поощрения и защиты прав коренных народов и людей, принадлежащих к коренным народам, и необходимость изучения препятствий для доступа коренных народов к правосудию, особенно тех, с которыми сталкиваются принадлежащие к коренным народам женщины, дети, молодежь, пожилые люди и инвалиды, и принятия мер для устранения этих препятствий,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя </span>о том, что транснациональные корпорации и другие предприятия обязаны уважать все права человека, признавая при этом особые трудности, с которыми могут сталкиваться коренные народы, а также соблюдать все применимые законы и международные принципы и осуществлять деятельность на транспарентной основе и ответственным в социальном и экологическом плане образом, и подчеркивая необходимость воздерживаться от оказания негативного воздействия на благополучие коренных народов и принимать дальнейшие меры для обеспечения корпоративной ответственности и подотчетности, включая предотвращение нарушений прав человека, уменьшение их последствий и возмещение связанного с ними ущерба, согласно документу «Руководящие принципы предпринимательской деятельности в аспекте прав человека: осуществление рамок Организации Объединенных Наций, касающихся “защиты, соблюдения и средств правовой защиты”»<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/HRC/17/31">A/HRC/17/31</a>, приложение.</p></authorialNote>,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> проделанную Специальным докладчиком по вопросу о правах коренных народов работу, в том числе связанную с защитой тех, кто защищает права человека коренных народов, а также его промежуточный доклад, озаглавленный «Выявление, демаркация и регистрация земель коренных народов и оформление прав собственности на них: практика и уроки»<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		См. <a href="https://docs.un.org/ru/A/80/181">A/80/181</a>.</p></authorialNote>, и призывая все государства рассмотреть рекомендации, содержащиеся в этом докладе, </p>
+      </container>
+      <container name="с признательностью принимая к сведению" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	с признательностью принимая к сведению</span> решение Совета по правам человека, которое содержится в его резолюции <a href="https://docs.un.org/ru/A/HRC/RES/60/13">60/13</a> и согласно которому темой ежегодного дискуссионного форума продолжительностью в половину рабочего дня по вопросу о правах коренных народов, запланированного к проведению на шестьдесят третьей сессии Совета по правам человека, будет тема «Конвенция об охране всемирного культурного и природного наследия: права и участие коренных народов», и с интересом ожидая резюме этого обсуждения, которое будет подготовлено Управлением Верховного комиссара Организации Объединенных Наций по правам человека,</p>
+      </container>
+      <container name="отмечая" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">отмечая </span>проведение обсуждений, касающихся расширения участия коренных народов в работе Совета по правам человека, включая обсуждения, состоявшиеся в рамках межсессионных заседаний по вопросу о конкретных способах активизации участия коренных народов в работе Совета по правам человека, проведенных 18 и 19 июля и 17 и 18 октября 2024 года, и итоги этих заседаний, созванных для обсуждения рекомендаций о возможных путях обеспечения более широкого участия коренных народов в работе Совета, и принимая к сведению краткий доклад по этому вопросу, подготовленный Управлением Верховного комиссара<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/HRC/59/35">A/HRC/59/35</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> доклад Управления Верховного комиссара Организации Объединенных Наций по правам человека о состоявшемся 27 сентября 2023 года полдневном дискуссионном форуме по вопросу о правах коренных народов, в ходе которого, в частности, обсуждалось влияние некоторых проектов в области развития на коренных женщин<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/HRC/56/33">A/HRC/56/33</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="признавая" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">признавая </span>важность свободного, предварительного и осознанного согласия, предусмотренного Декларацией Организации Объединенных Наций о правах коренных народов,</p>
+      </container>
+      <container name="признавая и подтверждая" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">признавая и подтверждая</span>, что лица, принадлежащие к коренным народам, имеют право без какой-либо дискриминации пользоваться всеми правами человека, признанными в международном праве, и что, как об этом говорится в Декларации Организации Объединенных Наций о правах коренных народов, коренные народы обладают коллективными правами, которые абсолютно необходимы для их существования, благополучия и всестороннего развития как народов,</p>
+      </container>
+      <container name="признавая" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">признавая </span>ценность и многообразие культур и форм социальной организации коренных народов и их целостные традиционные знания о своих землях, природных ресурсах и окружающей среде и подчеркивая, что коренные народы, в том числе находящиеся в добровольной изоляции или на стадии первоначальных контактов, имеют право на самоопределение и могут предпочитать жить в соответствии со своими традициями,</p>
+      </container>
+      <container name="отмечая" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что в итоговом документе пленарного заседания высокого уровня Генеральной Ассамблеи под названием «Всемирная конференция по коренным народам» Ассамблея подтвердила и признала важное значение религиозных и культурных объектов коренных народов и обеспечения коренным народам возможности доступа к обрядовым предметам и останкам умерших и их возвращения на родину, как это предусмотрено в Декларации Организации Объединенных Наций о правах коренных народов,</p>
+      </container>
+      <container name="высоко оценивая" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">высоко оценивая </span>усилия государств-членов, культурных, религиозных и образовательных учреждений, музеев, коренных народов и гражданского общества по противодействию незаконной торговле культурными ценностями коренных народов и приветствуя все инициативы, будь то государств, учреждений или частных лиц, по добровольному возвращению незаконно присвоенных культурных ценностей коренных народов,</p>
+      </container>
+      <container name="учитывая" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что методы ведения сельского и лесного хозяйства, инкорпорирующие традиционные знания и инновации коренных народов, могут быть подспорьем в решении комплекса проблем, связанных с изменением климата, продовольственной безопасностью, сохранением биологического разнообразия и борьбой с опустыниванием и деградацией земель,</p>
+      </container>
+      <container name="учитывая также" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">учитывая также</span>, что коренные народы, особенно женщины, девочки и инвалиды из числа коренных народов, непропорционально страдают от последствий изменения климата, которые негативно сказываются на осуществлении их прав, и подчеркивая потребности в ресурсах, образовании и здравоохранении, а также необходимость укрепления полноценного, равноправного и значимого участия коренных женщин в процессах принятия решений, касающихся политики в области охраны окружающей среды и развития,</p>
+      </container>
+      <container name="учитывая далее" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">учитывая далее</span>, что важно содействовать обеспечению коренных народов средствами к существованию, достичь чего можно, в частности, путем признания их традиций, гарантированных систем землевладения, проведения надлежащей государственной политики и расширения их экономических прав и возможностей,</p>
+      </container>
+      <container name="признавая" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что расширение экономических прав и возможностей, инклюзия и развитие всех представителей коренных народов, особенно коренных женщин, в том числе на основе создания коренными жителями собственных предприятий, могут позволить им принимать более активное участие в социальной, культурной, общественной и политической жизни, обрести бóльшую степень экономической независимости и повысить стабильность и жизнестойкость своих общин, и отмечая вклад коренных народов в развитие экономики в целом,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность </span>по поводу крайне неблагоприятного, как правило, положения коренных народов, в частности всех женщин, девушек и девочек, по множеству социально-экономических показателей и по поводу препятствий на пути к полному осуществлению ими своих прав,</p>
+      </container>
+      <container name="подчеркивая" eId="container_46">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что, как об этом говорится в Декларации Организации Объединенных Наций о правах коренных народов, необходимо уделять повышенное внимание правам и особым потребностям принадлежащих к коренным народам женщин, детей, молодежи, пожилых людей и инвалидов, в том числе в процессе защиты и поощрения их равного доступа к правосудию,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_47">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> принятие решения <a href="https://docs.un.org/ru/CBD/COP/DEC/16/5">CBD/COP/DEC/16/5</a> от 1 ноября 2024 года об учреждении Вспомогательного органа по осуществлению статьи 8 j) и других положений Конвенции о биологическом разнообразии и протоколов к ней, касающихся коренных народов, </p>
+      </container>
+      <container name="поощряя" eId="container_48">
+        <p xml:space="preserve">	<span class="italic">поощряя </span>инициативы по выделению финансовых ресурсов для коренных народов своевременным, доступным и транспарентным образом с соблюдением принципа ответственности стран и национальных приоритетов,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">с признательностью отмечает</span> работу Экспертного механизма по правам коренных народов, Постоянного форума по вопросам коренных народов и Специального докладчика по вопросу о правах коренных народов, принимает к сведению доклады Специального докладчика<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/79/160">A/79/160</a>, <a href="https://docs.un.org/ru/A/HRC/57/47">A/HRC/57/47</a> и <a href="https://docs.un.org/ru/A/HRC/57/47/Add.1">A/HRC/57/47/Add.1</a>.</p></authorialNote> и призывает все правительства положительно рассматривать просьбы о посещении их стран, поступающие от Специального докладчика; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Верховного комиссара Организации Объединенных Наций по правам человека о правах коренных народов»<authorialNote marker="28" placement="bottom" eId="authorialNote_28"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/HRC/60/41">A/HRC/60/41</a>.</p></authorialNote>, доклад Специального докладчика по вопросу о правах коренных народов, озаглавленный «Выявление, демаркация и регистрация земель коренных народов и оформление прав собственности на них: практика и уроки»<authorialNote marker="29" placement="bottom" eId="authorialNote_29"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/80/181">A/80/181</a>.</p></authorialNote>, и доклад Экспертного механизма по правам коренных народов, озаглавленный «Право коренных народов на данные, в том числе в отношении сбора и дезагрегирования данных»<authorialNote marker="30" placement="bottom" eId="authorialNote_30"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/HRC/60/66">A/HRC/60/66</a>.</p></authorialNote> и его ежегодный доклад о правах коренных народов<authorialNote marker="31" placement="bottom" eId="authorialNote_31"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/HRC/60/65">A/HRC/60/65</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> правительства и систему Организации Объединенных Наций к тому, чтобы они, действуя в консультации и сотрудничестве с коренными народами через их представителей и институты, продолжали принимать надлежащие меры на национальном уровне, в том числе законодательные меры, для достижения целей Декларации Организации Объединенных Наций о правах коренных народов и повышения степени осведомленности о ней среди всех слоев общества, включая членов законодательных органов, работников судебной системы и государственных служащих, а также среди коренных народов и предлагает международным и региональным организациям в рамках их соответствующих мандатов, национальным правозащитным организациям там, где они существуют, гражданскому обществу, включая неправительственные организации, и другим соответствующим субъектам вносить вклад в эту деятельность; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает </span>важность осуществления итогового документа пленарного заседания высокого уровня Генеральной Ассамблеи под названием «Всемирная конференция по коренным народам» и подтверждает приверженность государств-членов сотрудничеству с коренными народами через их собственные представительные институты в деле разработки и осуществления по мере необходимости национальных планов действий, стратегий и других мер для достижения целей Декларации Организации Объединенных Наций о правах коренных народов, а также признает позитивные изменения, заключающиеся в том, что в некоторых государствах разработаны или находятся в процессе разработки национальные планы действий и национальное законодательство для их осуществления в координации с коренными народами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">поддерживает</span> руководящую роль Генерального секретаря и заместителя Генерального секретаря по экономическим и социальным вопросам как старшего должностного лица системы Организации Объединенных Наций, ответственного за эту область деятельности, в осуществлении надзора за реализацией общесистемного плана действий для обеспечения применения согласованного подхода в вопросах достижения целей Декларации Организации Объединенных Наций о правах коренных народов и последующих мер в связи с этим планом, улучшении осведомленности о правах коренных народов и повышении согласованности деятельности системы в этом направлении и призывает фонды, программы и специализированные учреждения системы Организации Объединенных Наций, координаторов-резидентов и страновые группы Организации Объединенных Наций добиваться реализации этого плана в полной увязке с потребностями и приоритетами национального развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам, координаторам-резидентам и страновым группам Организации Объединенных Наций при подготовке рамочных программ Организации Объединенных Наций по сотрудничеству в области устойчивого развития и планов действий по страновым программам привлекать представителей коренных народов к решению затрагивающих их вопросов, действуя в рамках своих мандатов и координируя усилия с соответствующими правительствами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>государствам-членам о необходимости добиваться достижения целей Декларации Организации Объединенных Наций о правах коренных народов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> тем государствам, которые еще не сделали этого, ратифицировать Конвенцию 1989 года (№ 169) Международной организации труда о коренных народах и народах, ведущих племенной образ жизни, или присоединиться к ней; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>государства-члены выполнить резолюцию 76.16 Всемирной ассамблеи здравоохранения от 30 мая 2023 года, озаглавленную «Здоровье коренных народов», и предлагает Генеральному директору Всемирной организации здравоохранения принять во внимание настоящую резолюцию в процессе подготовки глобального плана действий по охране здоровья коренных народов в рамках резолюции 76.16 и его мандата для рассмотрения на семьдесят девятой сессии Всемирной ассамблеи здравоохранения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>необходимость того, чтобы государства-члены обеспечивали защиту коренных народов, пострадавших от санитарно-эпидемиологических чрезвычайных ситуаций, и защиту от будущих чрезвычайных ситуаций в области здравоохранения и предотвращали все формы дискриминации, особенно в контексте своевременного, всеобщего, всеохватного, справедливого и недискриминационного доступа к безопасному, качественному, эффективному и недорогостоящему медицинскому уходу и услугам и медицинским средствам и оборудованию, включая диагностику, терапию, лекарства и вакцины, и посредством распространения точной, четкой и основанной на достоверных и научных данных информации, в том числе, сообразно обстоятельствам, на языках коренных народов, и обеспечивали, чтобы никто не был забыт, стремясь охватить в первую очередь самых отстающих на основании принципа достоинства человеческой личности и в соответствии с принципами равенства и недискриминации, и призывает государства-члены принимать всеохватные меры реагирования и восстановления в связи с санитарно-эпидемиологическими чрезвычайными ситуациями и взаимодействовать с коренными народами и другими заинтересованными сторонами для полноценного расширения их прав и возможностей в отношении улучшения и защиты их собственного здоровья; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что коренные народы имеют право на свою традиционную медицину и на сохранение своей практики врачевания<authorialNote marker="32" placement="bottom" eId="authorialNote_32"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/61/295">61/295</a>, приложение, ст. 24, п. 1.</p></authorialNote>, включая, в частности, сохранение своих важнейших лекарственных растений, в рамках борьбы с санитарно-эпидемиологическими чрезвычайными ситуациями и их последствиями, и подтверждает также, что лица, принадлежащие к коренным народам, имеют право на доступ без какой-либо дискриминации ко всем социальным и медицинским услугам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на доклад Генерального секретаря о состоянии Фонда добровольных взносов Организации Объединенных Наций для коренных народов<authorialNote marker="33" placement="bottom" eId="authorialNote_33"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/79/262">A/79/262</a>.</p></authorialNote>, рекомендует правительствам и межправительственным и неправительственным организациям продолжать вносить взносы в целевой фонд по вопросам коренных народов и Фонд добровольных взносов Организации Объединенных Наций для коренных народов и предлагает организациям коренных народов, частным учреждениям и отдельным лицам поступать аналогичным образом и отмечает важность обеспечения доступности, подотчетности, транспарентности и сбалансированного географического распределения при управлении этими фондами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>о расширении мандата Фонда добровольных взносов Организации Объединенных Наций для коренных народов, с тем чтобы он мог содействовать участию представителей организаций и общин коренных народов как в очном порядке, так и, в качестве альтернативы, с помощью электронных средств в работе других механизмов и в других переговорах, таких как Форум по вопросам предпринимательской деятельности и прав человека и Конференция сторон Рамочной конвенции Организации Объединенных Наций об изменении климата, в том числе в совещаниях по подготовке к ней и совещаниях Рабочей группы по стимулированию функционирования Платформы для местных общин и коренных народов, организуемых секретариатом Конвенции, согласно их соответствующим правилам и положениям; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> дополнительно расширить мандат Фонда добровольных взносов Организации Объединенных Наций для коренных народов, с тем чтобы он мог содействовать участию представителей организаций и общин коренных народов в совещаниях, связанных с Конвенцией об охране всемирного культурного и природного наследия<authorialNote marker="34" placement="bottom" eId="authorialNote_34"><p xml:space="preserve">		United Nations,<span class="italic"> Treaty Series</span>, vol. 1037, No. 15511.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> текущую работу и потенциал Платформы для местных общин и коренных народов Рамочной конвенции Организации Объединенных Наций об изменении климата, подчеркивая важную роль коренных народов в достижении задач и целей, поставленных в Рамочной конвенции Организации Объединенных Наций об изменении климата<authorialNote marker="35" placement="bottom" eId="authorialNote_35"><p xml:space="preserve">		Ibid., vol. 1771, No. 30822.</p></authorialNote>, Парижском соглашении<authorialNote marker="36" placement="bottom" eId="authorialNote_36"><p xml:space="preserve">		См. <a href="https://docs.un.org/ru/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, решение 1/CP.21, приложение.</p></authorialNote> и Повестке дня в области устойчивого развития на период до 2030 года, и признает, что коренные народы одними из первых ощущают на себе прямые последствия изменения климата в силу тесной связи с природной средой и ее ресурсами и зависимости от них; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_169" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_169__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> непропорционально сильное воздействие изменения климата на коренные народы в силу их прямой зависимости от экосистем, в том числе для удовлетворения своих основных потребностей и осуществления традиционной и иной экономической деятельности, и подчеркивает далее, что изменение климата представляет собой угрозу выживанию, достоинству и благополучию коренных народов и усугубляет существующее неравенство и проблемы, с которыми они сталкиваются;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_185" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_185__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает также</span> настоятельную необходимость повысить устойчивость и способность коренных народов адаптироваться к изменению климата и экстремальным погодным явлениям и снизить их уязвимость перед ними и поддержать руководящую роль, знания, технологии, методы и усилия коренных народов по решению проблемы изменения климата и реагированию на нее, и призывает государства-члены принять меры, которые обеспечат полноценное и эффективное участие коренных народов, включая женщин, молодежь, пожилых людей и инвалидов из числа коренных народов, в процессах принятия решений об изменении климата по затрагивающим их вопросам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает далее</span> важность расширения участия коренных народов в процессах и переговорах по касающимся их вопросам, включая, в частности, Рамочную конвенцию Организации Объединенных Наций об изменении климата и Парижское соглашение<authorialNote marker="37" placement="bottom" eId="authorialNote_37"><p xml:space="preserve">		Принято в контексте РКИКООН в документе <a href="https://docs.un.org/ru/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, решение 1/CP.21. </p></authorialNote>, а также Куньминско-Монреальскую рамочную программу в области биоразнообразия<authorialNote marker="38" placement="bottom" eId="authorialNote_38"><p xml:space="preserve">		Программа Организации Объединенных Наций по окружающей среде, документ <a href="https://docs.un.org/ru/CBD/COP/15/17">CBD/COP/15/17</a>, решение 15/4, приложение.</p></authorialNote> , принятую в контексте Конвенции Организации Объединенных Наций о биологическом разнообразии<authorialNote marker="39" placement="bottom" eId="authorialNote_39"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1760, No. 30619.</p></authorialNote>, Конвенцию Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке<authorialNote marker="40" placement="bottom" eId="authorialNote_40"><p xml:space="preserve">		Ibid., vol. 1954, No. 33480.</p></authorialNote>, и Конвенцию об охране всемирного культурного и природного наследия<authorialNote marker="41" placement="bottom" eId="authorialNote_41"><p xml:space="preserve">		Ibid., vol. 1037, No. 15511.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам и частному сектору обеспечить более устойчивое, экологически безопасное и ответственное поведение компаний, направленное на устранение негативного экологического воздействия некоторых видов предпринимательской деятельности, таких как незаконная вырубка лесов и добыча полезных ископаемых, неконтролируемая экспансия агробизнеса, осуществление неустойчивых крупномасштабных проектов по развитию инфраструктуры и создание добывающей промышленности, на земли и территории, традиционно населяемые коренными народами, и на благосостояние коренных народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжать ежегодно отмечать 9 августа Международный день коренных народов и просит Генерального секретаря оказывать содействие в проведении этого дня в рамках имеющихся ресурсов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам и всем организациям и подразделениям системы Организации Объединенных Наций и другим международным и региональным организациям, частному сектору и научным кругам, а также гражданскому обществу, включая неправительственные организации, надлежащим образом отмечать Международный день коренных народов, в том числе проводя просветительные и информационно-разъяснительные мероприятия; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_280" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_280__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам уделять должное внимание всем правам коренных народов при выполнении обязательств, закрепленных в Повестке дня на период до 2030 года, и в процессе разработки национальных планов действий и программ, а также международных и региональных программ, включая в них обязательство никого не забыть, и стремиться охватить в первую очередь самых отстающих; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам продолжить рассмотрение вопроса о включении информации, касающейся коренных народов, в свои добровольные национальные обзоры для политического форума высокого уровня по устойчивому развитию и свои национальные и глобальные доклады о достигнутом прогрессе и проблемах в осуществлении Повестки дня на период до 2030 года, принимая во внимание положения ее пунктов 78 и 79, а также рекомендует государствам обеспечивать компиляцию дезагрегированных данных в целях измерения прогресса и обеспечения того, чтобы никто не был забыт; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_325" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_325__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>также государствам в соответствии с их национальными условиями и особенностями обеспечивать сбор и распространение дезагрегированных данных в разбивке по этническому происхождению, доходу, полу, возрасту, расовой принадлежности, миграционному статусу, инвалидности, географическому местонахождению и другим характеристикам, сообразно обстоятельствам, в целях отслеживания и усиления воздействия политики, стратегий и программ в области развития на благополучие коренных народов и принадлежащих к коренным народам лиц, пресечения и искоренения проявлений насилия и множественных и перекрестных форм дискриминации в их отношении и оказания содействия в работе, направленной на достижение целей в области устойчивого развития и осуществление Повестки дня на период до 2030 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства создавать благоприятную онлайновую среду, имеющую безопасный характер и способствующую участию всех коренных народов, и принимать все необходимые и надлежащие меры для борьбы с дезинформацией и пропагандой ненависти, представляющей собой подстрекательство к дискриминации, враждебности или насилию в отношении коренных народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>Генеральному секретарю включать информацию, касающуюся коренных народов, в будущие ежегодные доклады о ходе достижения целей в области устойчивого развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_400" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_400__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>необходимость укрепления приверженности государств и структур системы Организации Объединенных Наций включению деятельности по поощрению и защите прав коренных народов в политику и программы в области развития на национальном, региональном и международном уровнях и рекомендует им должным образом учитывать права коренных народов в работе, направленной на достижение целей Повестки дня на период до 2030 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_427" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_427__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает также </span>необходимость того, чтобы коренные народы всех регионов вносили вклад в работу политического форума высокого уровня по устойчивому развитию, и призывает государства взаимодействовать с коренными народами на местном, национальном и региональном уровнях по вопросам, касающимся целей в области устойчивого развития, и поощрять руководящую роль коренных народов в их достижении; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_455" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_455__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> Экспертному механизму по правам коренных народов, Постоянному форуму по вопросам коренных народов и Специальному докладчику по вопросу о правах коренных народов уделять, действуя в рамках своих мандатов, должное внимание правам коренных народов в связи с осуществлением Повестки дня на период до 2030 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_484" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_484__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Постоянному форуму по вопросам коренных народов продолжать представлять материалы по вопросам коренных народов для их рассмотрения политическим форумом высокого уровня по устойчивому развитию при проведении им тематических обзоров; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_514" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_514__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость активизации усилий в сотрудничестве с коренными народами в целях предотвращения и ликвидации всех форм насилия, преследования и дискриминации, совершаемых как в интернете, так и вне его в отношении принадлежащих к коренным народам женщин, детей, молодежи, пожилых людей и инвалидов, и поддержки мер, направленных на расширение их прав и возможностей, обеспечение их всестороннего, конструктивного и эффективного участия в процессах принятия решений на всех уровнях и во всех областях и устранение структурных и правовых барьеров на пути к обеспечению их всестороннего, равноправного и эффективного участия в политической, экономической, социальной и культурной жизни;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_545" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_545__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства принимать в соответствующих случаях необходимые меры для обеспечения прав, защиты и безопасности коренных народов, включая лидеров из числа коренного населения и правозащитников из числа коренных народов, и для содействия созданию безопасных и благоприятных условий, позволяющих предотвращать и расследовать нарушения прав человека, убийства, репрессии и злоупотребления против них или в их отношении, привлекать к ответственности виновных и гарантировать доступ к правосудию и средствам правовой защиты; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_577" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_577__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>важность обеспечения реального привлечения к ответственности за акты насилия, включая все формы сексуального и гендерного насилия, домашнее насилие, надругательства, эксплуатацию и сексуальные домогательства, совершаемые в отношении коренных женщин и девочек<span class="bold">,</span> и принятия надлежащих мер в целях предупреждения и искоренения такого насилия; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_610" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_610__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам рассмотреть вопрос о включении в свои доклады, касающиеся коренных народов и женщин, принадлежащих к коренным народам, информации о достигнутом прогрессе и проблемах в осуществлении резолюций Комиссии по положению женщин 49/7 от 11 марта 2005 года, озаглавленной «Женщины — представительницы коренных народов: период после проведения десятилетнего обзора Пекинской декларации и Платформы действий»<authorialNote marker="42" placement="bottom" eId="authorialNote_42"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Экономического и Социального Совета, 2005 год, Дополнение № 7 </span>и исправление (<a href="https://docs.un.org/ru/E/2005/27">E/2005/27</a> и <a href="https://docs.un.org/ru/E/2005/27/Corr.1(supp)">E/2005/27/Corr.1</a>), гл. I, разд. D.</p></authorialNote>, и 56/4 от 9 марта 2012 года, озаглавленной «Женщины, принадлежащие к коренным народам: ключевые участники борьбы за ликвидацию нищеты и голода»<authorialNote marker="43" placement="bottom" eId="authorialNote_43"><p xml:space="preserve">		Там же, <span class="italic">2012 год, Дополнение № 7</span> и исправление (<a href="https://docs.un.org/ru/E/2012/27">E/2012/27</a> и <a href="https://docs.un.org/ru/E/2012/27/Corr.1">E/2012/27/Corr.1</a>), гл. I, разд. D.</p></authorialNote>, а также рассмотреть общую рекомендацию № 39 (2022) о правах женщин и девочек из числа коренных народов Комитета по ликвидации дискриминации в отношении женщин;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_644" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_644__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> государствам-членам и всем организациям и органам системы Организации Объединенных Наций, другим международным и региональным организациям, частному сектору и академическим кругам, а также гражданскому обществу учесть важность общей рекомендации № 39 (2022) Комитета по ликвидации дискриминации в отношении женщин, уделяя особое внимание гендерному равенству и расширению прав и возможностей женщин и девочек из числа коренных народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> работу Комиссии по положению женщин, касающуюся обеспечения гендерного равенства и расширения прав и возможностей всех женщин и девочек, включая женщин и девочек из числа коренных народов, и предлагает Комиссии рассмотреть на одной из будущих сессий вопрос о гендерном равенстве и расширении прав и возможностей женщин и девочек из числа коренных народов в качестве одной из приоритетных тем;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_715" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_715__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о провозглашении периода 2022–2032 годов Международным десятилетием языков коренных народов с целью привлечь внимание к проблеме катастрофической утраты языков коренных народов и настоятельной необходимости сохранять, возрождать и популяризировать языки коренных народов и предпринимать дальнейшие экстренные шаги на национальном, региональном и международном уровнях, а также вновь выступить в поддержку того, чтобы Организация Объединенных Наций по вопросам образования, науки и культуры в действовала в качестве ведущего учреждения, отвечающего за проведение этого международного десятилетия в рамках соответствующего глобального плана действий, в сотрудничестве с Департаментом по экономическим и социальным вопросам Секретариата и другими соответствующими учреждениями в рамках имеющихся ресурсов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_752" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_752__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> работу, проделанную в порядке подготовки к проведению в 2027 году процесса среднесрочного обзора осуществления Глобального плана действий для Международного десятилетия языков коренных народов при координирующей роли Организации Объединенных Наций по вопросам образования, науки и культуры — процесса, который позволит оценить прогресс, достигнутый как на глобальном уровне, так и в рамках национальных и местных планов действий, с целью активизации усилий по сохранению, возрождению и популяризации языков коренных народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_790" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_790__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам принять национальные планы действий, обеспечивающие применение межпоколенческого подхода и направленные на сохранение, возрождение и популяризацию языков коренных народов, и взаимодействовать с государственными и частными субъектами в целях расширения использования цифровых технологий, обеспечивающих участие коренных народов и расширение их прав и возможностей при одновременном уважении их культур, традиций и автономии; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_829" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_829__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> важность языков коренных народов как движущей силы для достижения целей в области устойчивого развития и призывает государства-члены интегрировать деятельность, направленную на сохранение, популяризацию и возрождение языков коренных народов, в более широкие усилия по осуществлению Повестки дня на период до 2030 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_869" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_869__content">
+          <p xml:space="preserve">	<span class="italic">признает также</span> важность создания международных, региональных и национальных инициатив, направленных на расширение использования языков коренных народов, таких как Иберо-американский институт языков коренных народов, и в этой связи призывает государства-члены изучить возможность создания таких инициатив; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_910" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_910__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> государствам-членам рассмотреть вопрос о создании национальных механизмов, располагающих надлежащими финансовыми средствами, для успешного проведения Международного десятилетия языков коренных народов в сотрудничестве с коренными народами и оказать поддержку коренным народам как хранителям своих языков в инициировании и разработке надлежащих мер по проведению этого международного десятилетия в целях сохранения, возрождения и популяризации языков коренных народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_952" class="MercuryDocument">
+        <num>43.</num>
+        <content eId="para_952__content">
+          <p xml:space="preserve">	<span class="italic">учитывает, </span>что Организация Объединенных Наций проводит курс на многоязычие в качестве одного из средств поощрения, защиты и сохранения разнообразия языков и культур в глобальном масштабе, подтверждает, что лингвистическое разнообразие является важным элементом культурного разнообразия, и призывает государства-члены принимать государственные стратегии, придерживаясь межкультурного подхода при их разработке и реализации, в целях сохранения, возрождения и популяризации языков коренных народов, и рассмотреть возможность включения образовательных программ, расширяющих использование языков коренных народов среди детей и молодежи, используя межпоколенческий подход с участием старейшин коренных народов, а также популяризации и использования языков коренных народов на международном уровне; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_995" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_995__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>о праве коренных народов создавать свои собственные средства массовой информации на своих языках и получать доступ ко всем видам средств массовой информации, не принадлежащих коренным народам, без какой-либо дискриминации и призывает государства поощрять и изучать национальную политику и практику в отношении средств массовой информации коренных народов и программы их финансирования, в том числе в плане наращивания потенциала и производства контента на языках коренных народов производителями контента и медиа-специалистами из числа коренных народов, особенно представительницами коренных народов, и содействовать международному сотрудничеству, обмену знаниями и сотрудничеству между средствами массовой информации коренных народов и другими партнерами, включая ведущие средства массовой информации и правительства;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1039" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_1039__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> правительствам удвоить усилия в целях искоренения детского труда как в законодательстве, так и на практике в контексте уважения прав человека детей, принадлежащих к коренным народам, в том числе, сообразно обстоятельствам, на основе международного сотрудничества; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1084" class="MercuryDocument">
+        <num>46.</num>
+        <content eId="para_1084__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует также</span> правительствам поощрять меры, позволяющие покончить с голодом и неполноценным питанием во всех формах и обеспечить продовольственную безопасность и улучшение питания детей из числа коренных народов, особенно тех из них, кто проживает в сельских и отдаленных районах, обеспечивая их надлежащим доступом к питанию, воде, системам санитарно-бытового обеспечения, образованию, включая межкультурное и многоязычное образование, и всеобщим и справедливым доступом к качественным медицинским услугам, и принимать меры, направленные на ликвидацию нищеты и построение надежных продовольственных систем; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1130" class="MercuryDocument">
+        <num>47.</num>
+        <content eId="para_1130__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует далее</span> Университету Организации Объединенных Наций, Учебному и научно-исследовательскому институту Организации Объединенных Наций и Международному учебному центру Международной организации труда в Турине, Италия, среди прочих, содействовать развитию образовательных программ, научных исследований и профессиональной подготовки, интегрирующих знания, мировоззрения и ценности коренных народов, одновременно способствуя межнаучному диалогу между наукой и традиционными знаниями коренных народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1177" class="MercuryDocument">
+        <num>48.</num>
+        <content eId="para_1177__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>правительства обеспечить, чтобы коренные народы не подвергались принудительному удалению со своих земель или территорий и чтобы никакое перемещение не происходило без свободного, предварительного и осознанного согласия соответствующих коренных народов и без заключения соглашения, предусматривающего справедливую и честную компенсацию и, где это возможно, возможность возвращения, и принять эффективные меры по обеспечению того, чтобы все коренные народы, независимо от их статуса владения, имели доступ к основным услугам, включая доступ к безопасной и недорогой воде, системам санитарно-бытового обеспечения, электричеству и медицинскому обслуживанию;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1225" class="MercuryDocument">
+        <num>49.</num>
+        <content eId="para_1225__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>транснациональные корпорации и другие коммерческие предприятия уважать права человека, в том числе права детей, принадлежащих к коренным народам, и положить конец использованию принудительного и детского труда в своей деятельности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1274" class="MercuryDocument">
+        <num>50.</num>
+        <content eId="para_1274__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность</span> по поводу незаконного присвоения и нецелевого использования культурного наследия коренных народов, подтверждает, что коренные народы имеют право на сохранение, контроль, охрану и развитие своего культурного наследия, традиционных знаний и традиционных форм культурного выражения и что они также имеют право на сохранение, контроль, защиту и развитие своей интеллектуальной собственности на такое культурное наследие, традиционные знания и традиционные формы выражения культуры, и напоминает, что государствам следует совместно с коренными народами, в соответствии с Декларацией Организации Объединенных Наций о правах коренных народов и согласно нормам национального законодательства принимать действенные меры в целях признания и защиты осуществления этих прав; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1324" class="MercuryDocument">
+        <num>51.</num>
+        <content eId="para_1324__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>необходимость обеспечения женщинам и девочкам, принадлежащим к коренным народам, равной правовой защиты и равенства перед судом на всех уровнях и в этой связи особо отмечает важность проведения на систематической основе соответствующей подготовки по гендерным вопросам для полицейских, личного состава сил безопасности, прокуроров, судей и адвокатов, а также важность учета гендерных аспектов в инициативах по реформированию сектора безопасности, разработки предписаний и руководящих принципов и совершенствования или введения надлежащих мер подотчетности для третейских судей; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1375" class="MercuryDocument">
+        <num>52.</num>
+        <content eId="para_1375__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам и структурам системы Организации Объединенных Наций укреплять международное сотрудничество, в том числе для исправления того неблагоприятного положения, в котором находятся коренные народы, и расширять масштабы технического сотрудничества и финансовой помощи в этой области; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1427" class="MercuryDocument">
+        <num>53.</num>
+        <content eId="para_1427__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>Всемирной организации здравоохранения, Детскому фонду Организации Объединенных Наций и другим соответствующим учреждениям, фондам и программам Организации Объединенных Наций в соответствии с их мандатами проводить исследования и сбор фактических данных о распространенности и коренных причинах самоубийств среди молодых людей и детей, принадлежащих к коренным народам, и о передовом опыте в области их предотвращения и рассмотреть, сообразно обстоятельствам, возможность разработки в сотрудничестве с государствами-членами согласующихся с национальными приоритетами стратегий и мер для борьбы с этим явлением, в том числе на основе консультаций с коренными народами, в частности с организациями молодежи коренных народов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1480" class="MercuryDocument">
+        <num>54.</num>
+        <content eId="para_1480__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на доклад Генерального секретаря, озаглавленный «Расширение участия представителей и институтов коренных народов в заседаниях соответствующих органов Организации Объединенных Наций по затрагивающим их вопросам»<authorialNote marker="44" placement="bottom" eId="authorialNote_44"><p xml:space="preserve">		<a href="https://docs.un.org/ru/A/75/255">A/75/255</a>.</p></authorialNote>, и с признательностью ссылается на проделанную под руководством председателей Генеральной Ассамблеи на ее семидесятой, семьдесят первой, семьдесят второй, семьдесят третьей, семьдесят четвертой и семьдесят пятой сессиях работу по проведению с государствами-членами, представителями и институтами коренных народов из всех регионов мира и существующими механизмами Организации Объединенных Наций консультаций по вопросу о возможных мерах по обеспечению участия представителей и институтов коренных народов в совещаниях соответствующих органов Организации Объединенных Наций по затрагивающим их вопросам — консультаций, которые привели к принятию резолюции <a href="https://docs.un.org/ru/A/RES/71/321">71/321</a> Ассамблеи, с учетом результатов, достигнутых в этой связи другими органами и организациями в рамках всей системы Организации Объединенных Наций, после консультаций с представителями и институтами коренных народов из всех регионов мира в целях содействия межправительственному процессу; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1534" class="MercuryDocument">
+        <num>55.</num>
+        <content eId="para_1534__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением принимает к сведению</span> резюме трех неофициальных интерактивных слушаний по вопросу о возможных дальнейших мерах, необходимых для расширения участия представителей и институтов коренных народов в соответствующих совещаниях Организации Объединенных Наций по затрагивающим их вопросам, которые состоялись в Центральных учреждениях Организации Объединенных Наций 17 апреля 2018 года, 25 апреля 2019 года и 20 апреля 2023 года, ссылается на резолюцию <a href="https://docs.un.org/ru/A/RES/70/232">70/232</a> Генеральной Ассамблеи, в которой Ассамблея просила Председателя Генеральной Ассамблеи провести своевременные, открытые для всех, представительные и транспарентные консультации с государствами-членами, представителями и организациями коренных народов из всех регионов мира и существующими соответствующими механизмами Организации Объединенных Наций по вопросу о возможных мерах, включая процедурные и институциональные меры и критерии аккредитации, необходимых для того, чтобы дать возможность представителям и организациям коренных народов участвовать в заседаниях соответствующих органов Организации Объединенных Наций по затрагивающим их вопросам, а также ссылается на резолюции Ассамблеи <a href="https://docs.un.org/ru/A/RES/71/321">71/321</a> и <a href="https://docs.un.org/ru/A/RES/77/203">77/203</a>, в которых Ассамблея постановила продолжить рассмотрение возможных дальнейших мер, необходимых для расширения участия представителей и институтов коренных народов в соответствующих совещаниях Организации Объединенных Наций по затрагивающим их вопросам, на семьдесят восьмой сессии в соответствии с первоначальной просьбой, содержащейся в резолюции <a href="https://docs.un.org/ru/A/RES/71/321">71/321</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1589" class="MercuryDocument">
+        <num>56.</num>
+        <content eId="para_1589__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает</span> созыв Председателем Генеральной Ассамблеи успешного и продуктивного мероприятия высокого уровня, посвященного десятой годовщине принятия итогового документа пленарного заседания высокого уровня Генеральной Ассамблеи под названием «Всемирная конференция по коренным народам», с целью повышения осведомленности о важности достижения поставленных в нем целей; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1645" class="MercuryDocument">
+        <num>57.</num>
+        <content eId="para_1645__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на свою резолюцию <a href="https://docs.un.org/ru/A/RES/78/328">78/328</a> от 6 сентября 2024 года о расширении участия представителей и институтов коренных народов в заседаниях соответствующих органов Организации Объединенных Наций по затрагивающим их вопросам, в которой Генеральная Ассамблея постановила продолжить рассмотрение вопроса о возможных дальнейших мерах, необходимых для расширения участия представителей и институтов коренных народов в соответствующих заседаниях Организации Объединенных Наций по затрагивающим их вопросам в ходе восьмидесятой сессии с учетом результатов, достигнутых в этой связи другими органами и организациями в рамках всей системы Организации Объединенных Наций, в целях принятия процедурных и институциональных мер;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1702" class="MercuryDocument">
+        <num>58.</num>
+        <content eId="para_1702__content">
+          <p xml:space="preserve">	<span class="italic">обращает внимание</span> на тот факт, что многие коренные народы не говорят ни на одном из официальных языков Организации Объединенных Наций, и призывает Организацию Объединенных Наций рассмотреть возможность решения этой проблемы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1760" class="MercuryDocument">
+        <num>59.</num>
+        <content eId="para_1760__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на свою резолюцию <a href="https://docs.un.org/ru/A/RES/79/159">79/159</a> от 17 декабря 2024 года, в которой она постановила организовать в рамках имеющихся ресурсов дискуссионный форум высокого уровня, который будет проведен в ходе недели заседаний высокого уровня восемьдесят второй сессии Генеральной Ассамблеи в 2027 году, чтобы отметить двадцатую годовщину принятия Декларации Организации Объединенных Наций о правах коренных народов и обменяться идеями и передовым опытом по вопросу об осуществлении прав коренных народов, в том числе в рамках достижения целей Декларации Организации Объединенных Наций о правах коренных народов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1819" class="MercuryDocument">
+        <num>60.</num>
+        <content eId="para_1819__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> начать на этом дискуссионном форуме обсуждение вопроса об организации проведения в 2028 году второй Всемирной конференции по коренным народам и предлагает Председателю Генеральной Ассамблеи провести на ее восемьдесят первой сессии консультации открытого состава с государствами-членами и представителями коренных народов в рамках Постоянного форума по вопросам коренных народов, а также с Экспертным механизмом по правам коренных народов и Специальным докладчиком для определения порядка проведения этого заседания, включая вопрос об участии коренных народов в работе Конференции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1879" class="MercuryDocument">
+        <num>61.</num>
+        <content eId="para_1879__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>системе Организации Объединенных Наций укреплять сотрудничество с Фондом для развития коренных народов Латинской Америки и Карибского бассейна, учитывая его основополагающую роль в процессах диалога и консультаций между государствами и коренными народами в регионе Латинской Америки и Карибского бассейна; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1940" class="MercuryDocument">
+        <num>62.</num>
+        <content eId="para_1940__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>соответствующие государства признавать, уважать и защищать права коренных народов, живущих в условиях добровольной изоляции и на стадии первичного контакта, а также соблюдать принцип отсутствия контакта, где это применимо;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2002" class="MercuryDocument">
+        <num>63.</num>
+        <content eId="para_2002__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продолжить рассмотрение этого вопроса на своей восемьдесят первой сессии в рамках пункта, озаглавленного «Права коренных народов», и сохранить в предварительной повестке дня подпункт, озаглавленный «Деятельность по осуществлению положений итогового документа пленарного заседания высокого уровня Генеральной Ассамблеи под названием “Всемирная конференция по коренным народам”».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="62-е" refersTo="#adoptionMeeting">62‑е пленарное заседание</location>
+          <eol />
+          <docDate date="2025-12-15" refersTo="#adoptionDate">15 декабря 2025 года</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
